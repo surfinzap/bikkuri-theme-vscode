@@ -1,0 +1,26 @@
+{
+    "name": "b-theme",
+    "displayName": "B theme",
+    "description": "Dark warm theme for VS Code.",
+	"publisher": "brano",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/surfinzap/b-theme.git"
+	},
+    "contributes": {
+        "themes": [
+            {
+                "label": "B",
+                "uiTheme": "vs-dark",
+                "path": "./themes/b-theme-color-theme.json"
+            }
+        ]
+    }
+}
