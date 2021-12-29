@@ -16,4 +16,4 @@ A dark warm theme for VS Code.
 7. From the menu bar select: Code > Preferences > Color Theme > **B Theme**
 
 # Feedback
-Share your feedback as a [GitHub issue](https://github.com/surfinzap/b-theme/issues)
+Share your feedback as a [GitHub issue](https://github.com/surfinzap/b-theme-vscode/issues)
