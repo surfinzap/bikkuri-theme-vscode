@@ -122,6 +122,7 @@
 		"activityBar.inactiveForeground":				  "#f6f3f366",
 		"activityBarBadge.background": 						"#595052",
 		"activityBarBadge.foreground": 						"#f6f3f3",
+		"activityBar.border":											"#3E3839",
 		// "activityBarBadge.background": "#007acc", //this color repeats
 		
 
@@ -131,10 +132,12 @@
 		*/
 		"sideBar.background": 										"#171515",
 		"sideBarSectionHeader.background":        "#292525",
+		"sideBar.border": 												"#3E3839",
 		"sideBar.dropBackground":									"#595052",
 		"sideBar.foreground": 										"#b6a4a7",				
 		"sideBarSectionHeader.foreground":        "#b6a4a7",
 		"sideBarTitle.foreground":							  "#b6a4a7",
+		//"sideBarSectionHeader.border": null,
 		
 
 	
@@ -180,7 +183,7 @@
 		"editorGroupHeader.noTabsBackground": 		"#171515",
 		"editorGroupHeader.tabsBackground": 			"#171515",
 		"editorGroup.dropBackground": 						"#59505275",
-		"editorGroup.border": 										"#595052",
+		"editorGroup.border": 										"#3e3839",
 		"editorGroupHeader.tabsBorder":						"#3e3839",
 		"editorGroup.focusedEmptyBorder":					"#595052",
 
@@ -189,7 +192,7 @@
 		"tab.border":															"#171515",
 		"tab.activeBorder":												null,
 		"tab.activeBorderTop":										null,
-		"tab.hoverBorder":												"#595052",
+		"tab.hoverBorder":												"#3E3839",
 
 
 		/* Status bar
@@ -197,6 +200,8 @@
 		*/
 		"statusBar.background": 									"#171515",
 		"statusBar.foreground": 									"#786d6f",
+		"statusBar.border": 											"#3E3839",
+
 
 
 
@@ -602,7 +607,6 @@
 		//"widget.shadow": "#0000005c",
 		//"activityBar.activeBackground": null,
 		//"activityBar.activeFocusBorder": null,
-		//"activityBar.border": null,
 		//"contrastActiveBorder": null,
 		//"contrastBorder": null,
 		//"debugToolBar.border": null,
@@ -663,9 +667,6 @@
 		//"selection.background": null,
 		//"settings.numberInputBorder": null,
 		//"settings.textInputBorder": null,
-		//"sideBar.border": null,
-		//"sideBarSectionHeader.border": null,
-		//"statusBar.border": null,
 		//"statusBar.debuggingBorder": null,
 		//"statusBar.noFolderBorder": null,
 		//"tab.activeBorder": null,
