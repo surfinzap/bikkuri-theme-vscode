@@ -11,6 +11,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Darken title bar
 - Make grays warmer
 - Update focus highlight color (pink → violet)
+- Update scrollbar colors
 
 
 ## [0.0.1] — 2021-12-29
