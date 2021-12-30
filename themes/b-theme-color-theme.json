@@ -96,7 +96,7 @@
 		
 		/* Quick input (Command palette, Quick picker)
 		*/
-		"quickInput.background": 									"#141313",
+		"quickInput.background": 									"#171515",
 		"quickInput.foreground": 									"#b6a4a7",
 		"pickerGroup.foreground": 								"#705ED0",
 		"pickerGroup.border": 										"#3E3839",
@@ -115,7 +115,7 @@
 
 		/* Activity Bar 
 		*/
-		"activityBar.background": 								"#141313",
+		"activityBar.background": 								"#171515",
 		"activityBar.activeBorder": 							"#f6f3f3",
 		"activityBar.dropBorder": 								"#f6f3f3",
 		"activityBar.foreground": 								"#f6f3f3",
@@ -129,7 +129,7 @@
 		/* Sidebar
 			 https://code.visualstudio.com/api/references/theme-color#side-bar
 		*/
-		"sideBar.background": 										"#141313",
+		"sideBar.background": 										"#171515",
 		"sideBarSectionHeader.background":        "#292525",
 		"sideBar.dropBackground":									"#595052",
 		"sideBar.foreground": 										"#b6a4a7",				
@@ -176,17 +176,17 @@
 		/* Editor Groups & Tabs
 			 https://code.visualstudio.com/api/references/theme-color#editor-groups-tabs
 		*/
-		"editorGroup.emptyBackground": 						"#141313",
-		"editorGroupHeader.noTabsBackground": 		"#141313",
-		"editorGroupHeader.tabsBackground": 			"#141313",
+		"editorGroup.emptyBackground": 						"#171515",
+		"editorGroupHeader.noTabsBackground": 		"#171515",
+		"editorGroupHeader.tabsBackground": 			"#171515",
 		"editorGroup.dropBackground": 						"#59505275",
 		"editorGroup.border": 										"#595052",
 		"editorGroupHeader.tabsBorder":						"#3e3839",
 		"editorGroup.focusedEmptyBorder":					"#595052",
 
 		"tab.activeBackground": 									"#292525",
-		"tab.inactiveBackground": 								"#141313",
-		"tab.border":															"#141313",
+		"tab.inactiveBackground": 								"#171515",
+		"tab.border":															"#171515",
 		"tab.activeBorder":												null,
 		"tab.activeBorderTop":										null,
 		"tab.hoverBorder":												"#595052",
@@ -195,7 +195,7 @@
 		/* Status bar
 			 https://code.visualstudio.com/api/references/theme-color#status-bar-colors
 		*/
-		"statusBar.background": 									"#141313",
+		"statusBar.background": 									"#171515",
 		"statusBar.foreground": 									"#786d6f",
 
 
@@ -205,8 +205,8 @@
 		"editor.background": 											"#171515",
 		"editor.foreground": 											"#d3c2c5",
 		"editorSuggestWidget.selectedBackground": "#171515",
-		"peekViewEditor.background": 							"#141313",
-		"peekViewTitle.background": 							"#141313",
+		"peekViewEditor.background": 							"#171515",
+		"peekViewTitle.background": 							"#171515",
 		"peekView.border": 												"#61b6b4",
 		"editorLink.activeForeground": 		  			"#61b6b4",
 		"editor.lineHighlightBackground": 				"#292525",
@@ -445,7 +445,7 @@
 		//"panelTitle.activeForeground": "#e7e7e7",
 		//"panelTitle.inactiveForeground": "#e7e7e799",
 		//"peekViewEditor.matchHighlightBackground": "#ff8f0099",
-		//"peekViewEditorGutter.background": "#141313",
+		//"peekViewEditorGutter.background": "#171515",
 		//"peekViewResult.background": "#252526",
 		//"peekViewResult.fileForeground": "#ffffff",
 		//"peekViewResult.lineForeground": "#bbbbbb",
@@ -546,7 +546,7 @@
 		//"tab.unfocusedActiveBackground": "#171515",
 		//"tab.unfocusedActiveForeground": "#ffffff80",
 		//"tab.unfocusedActiveModifiedBorder": "#3399cc80",
-		//"tab.unfocusedInactiveBackground": "#141313",
+		//"tab.unfocusedInactiveBackground": "#171515",
 		//"tab.unfocusedInactiveForeground": "#ffffff40",
 		//"tab.unfocusedInactiveModifiedBorder": "#3399cc40",
 		//"terminal.ansiBlack": "#000000",
