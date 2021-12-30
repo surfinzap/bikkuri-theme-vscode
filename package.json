@@ -1,26 +1,32 @@
 {
-    "name": "b-theme",
-    "displayName": "B theme",
-    "description": "Dark warm theme for VS Code.",
+	"name": "b-theme",
+	"displayName": "B theme",
+	"description": "Dark warm theme for VS Code.",
 	"publisher": "brano",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.63.0"
-    },
-    "categories": [
-        "Themes"
-    ],
+	"version": "0.0.2",
+	"engines": {
+		"vscode": "^1.63.0"
+	},
+	"categories": [
+		"Themes"
+	],
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/surfinzap/b-theme-vscode.git"
 	},
-    "contributes": {
-        "themes": [
-            {
-                "label": "B",
-                "uiTheme": "vs-dark",
-                "path": "./themes/b-theme-color-theme.json"
-            }
-        ]
-    }
+	"contributes": {
+		"themes": [
+			{
+				"label": "B",
+				"uiTheme": "vs-dark",
+				"path": "./themes/b-theme-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "881b66c9-1ceb-4da7-a5a5-46486093c94c",
+		"publisherDisplayName": "Brano Sandala",
+		"publisherId": "c5a4b323-3691-4530-85d1-49eb940a1614",
+		"isPreReleaseVersion": false
+	}
 }
