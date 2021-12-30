@@ -56,7 +56,15 @@
 		"inputValidation.infoBorder": 				 "#427595",
 		"inputValidation.warningBackground":	 "#644F2A",
 		"inputValidation.warningBorder": 			 "#EEBF6D",		
+
 		
+		/* Title Bar
+		*/
+		"titleBar.activeBackground": "#1C1B1B",
+		"titleBar.activeForeground": "#908D8E",
+		"titleBar.inactiveBackground": "#1C1B1B",
+		"titleBar.inactiveForeground": "#908D8E",
+		"titleBar.border" : "#3A3939",
 		
 		/* Lists & Trees
 			 https://code.visualstudio.com/api/references/theme-color#lists-and-trees
