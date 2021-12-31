@@ -6,6 +6,26 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 - tbd add acknowledgments
+- tbd change in template generation
+
+TODO
+- blue1 and aqua2 are for interface
+- 
+- define orange
+- consolidate dropBackgrounds, {{gray40}}75?
+- fix yellow1
+- gitdecorationcolors a bit muted (also for color underlines)
+- json colors
+- "editor.findMatchHighlightBackground" orange?
+- tbd markdown
+- revisit peek view
+- revisit merge conflicts
+- revisit extensionButton
+- deploy pipeline
+- markdown syntax
+- drobeckovku specificky adresovat
+- right menu a bit darker
+- "1 unsaved color"
 
 
 ## [0.0.2] — 2021-12-30
