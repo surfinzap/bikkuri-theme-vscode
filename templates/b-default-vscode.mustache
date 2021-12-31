@@ -1,4 +1,5 @@
 {
+  "$schema": "vscode://schemas/color-theme",
   "name": "B theme",
   "type": "dark",
   "colors": {
@@ -6,41 +7,62 @@
 		 https://code.visualstudio.com/api/references/theme-color#status-bar-colors
 		*/
     "focusBorder": "{{gray20}}",
-    "foreground": "{{gray90}}",
+    "foreground": "{{gray80}}",
     "widget.shadow": "{{black}}",
     "selection.background": "{{aqua1}}80",
+    "descriptionForeground": "{{gray80}}",
     "errorForeground": "{{red2}}",
-
-    // OTHERS
+    "icon.foreground": "{{gray80}}",
+    "sash.hoverBorder": "{{gray80}}",
     "textLink.foreground": "{{blue2}}",
     "textLink.activeForeground": "{{blue1}}",
-    "debugToolBar.background": "{{gray10}}"
+    "debugToolBar.background": "{{gray10}}",
 
-    // BUTTON
-    "button.background": "{{blue1}}80",
-    "button.foreground": "{{gray90}}",
-    "button.hoverBackground": "{{blue1}}60",
-    // DROPDOWN
-    "dropdown.background": "{{gray10}}",
-    "dropdown.border": "{{gray20}}",
+    /* Button 
+			 https://code.visualstudio.com/api/references/theme-color#button-control
+		*/
+    "button.background": "{{blue1}}",
+    "button.foreground": "{{gray80}}",
+    "button.hoverBackground": "{{blue1}}80",
+		"button.secondaryBackground":	"{{gray50}}",
+		"button.secondaryForeground":	"{{gray80}}",
+		"button.secondaryHoverBackground": "{{gray40}}",
+		"button.border": null,
+
+    /* Dropdown
+		   https://code.visualstudio.com/api/references/theme-color#dropdown-control
+		*/
+    "dropdown.background": "{{gray30}}",
+    "dropdown.border": null,
     "dropdown.foreground": "{{gray90}}",
-    // INPUT
-    "input.background": "{{gray90}}05",
-    "input.border": "{{gray20}}",
-    "input.foreground": "{{gray90}}",
-    "input.placeholderForeground": "{{gray90}}60",
+		"dropdown.listBackground": null,
+
+
+    /* Input
+			 https://code.visualstudio.com/api/references/theme-color#input-control 
+		*/	
+    "input.background": "{{gray30}}",
+    "input.border": null,
+    "input.foreground": "{{gray80}}",
+    "input.placeholderForeground": "{{gray80}}80",
+    "inputOption.activeBackground": "{{yellow2}}",
+		"inputOption.activeBorder":						 null,
+		"inputOption.activeForeground": 	"{{gray20}}",
+    "inputValidation.errorBackground": "{{red2}}",
     "inputValidation.errorBorder": "{{red2}}",
-    "inputValidation.errorBackground": "{{red1}}80",
-    "inputValidation.infoBorder": "{{blue2}}",
-    "inputValidation.infoBackground": "{{blue1}}80",
+    "inputValidation.infoBackground": "{{blue1}}",
+    "inputValidation.infoBorder": "{{blue1}}",
+    "inputValidation.warningBackground": "{{yellow1}}",
     "inputValidation.warningBorder": "{{yellow2}}",
-    "inputValidation.warningBackground": "{{yellow1}}80",
-    "inputOption.activeBorder": "{{gray90}}60",
-    // SCROLL BAR
-    "scrollbar.shadow": "{{gray10}}",
-    "scrollbarSlider.activeBackground": "{{aqua1}}",
-    "scrollbarSlider.hoverBackground": "{{gray30}}",
-    "scrollbarSlider.background": "{{gray25}}99",
+
+		/* Scrollbar
+		*/
+		"scrollbar.shadow":										  "{{black}}",
+		"scrollbarSlider.background": 					"{{gray25}}60",
+		"scrollbarSlider.activeBackground":			"{{gray30}}90",
+		"scrollbarSlider.hoverBackground": 			"{{gray25}}90",
+
+
     // BADGE
     "badge.background": "{{purple2}}",
     "badge.foreground": "{{gray10}}",
@@ -52,7 +74,7 @@
     "list.hoverBackground": "{{gray20}}80",
     "list.hoverForeground": "{{gray80}}",
     "list.focusBackground": "{{gray20}}",
-    "list.focusForeground": "{{gray90}}",
+    "list.focusForeground": "{{gray80}}",
     "list.inactiveSelectionForeground": "{{aqua1}}",
     "list.inactiveSelectionBackground": "{{gray20}}80",
     "list.dropBackground": "{{gray20}}",
@@ -61,16 +83,16 @@
     "sideBar.background": "{{gray10}}",
     "sideBar.foreground": "{{gray80}}",
     "sideBar.border": "{{gray20}}",
-    "sideBarTitle.foreground": "{{gray90}}",
+    "sideBarTitle.foreground": "{{gray80}}",
     "sideBarSectionHeader.background": "{{gray10}}00",
-    "sideBarSectionHeader.foreground": "{{gray90}}",
+    "sideBarSectionHeader.foreground": "{{gray80}}",
     // ACTIVITY BAR
     "activityBar.background": "{{gray10}}",
     "activityBar.dropBackground": "{{gray10}}",
-    "activityBar.foreground": "{{gray90}}",
+    "activityBar.foreground": "{{gray80}}",
     "activityBar.border": "{{gray20}}",
     "activityBarBadge.background": "{{blue1}}",
-    "activityBarBadge.foreground": "{{gray90}}",
+    "activityBarBadge.foreground": "{{gray80}}",
     // EDITOR GROUPS
     "editorGroup.background": "{{gray20}}",
     "editorGroup.border": "{{gray20}}",
@@ -82,7 +104,7 @@
     "tab.border": "{{gray10}}00",
     "tab.activeBorder": "{{aqua1}}",
     "tab.activeBackground": "{{gray20}}",
-    "tab.activeForeground": "{{gray90}}",
+    "tab.activeForeground": "{{gray80}}",
     "tab.inactiveForeground": "{{gray60}}",
     "tab.inactiveBackground": "{{gray10}}",
     "tab.unfocusedActiveForeground": "{{gray60}}",
@@ -90,13 +112,13 @@
     "tab.unfocusedInactiveForeground": "{{gray50}}",
     // EDITOR
     "editor.background": "{{gray10}}",
-    "editor.foreground": "{{gray90}}",
+    "editor.foreground": "{{gray80}}",
     "editorLineNumber.foreground": "{{gray30}}",
-    "editorCursor.foreground": "{{gray90}}",
+    "editorCursor.foreground": "{{gray80}}",
     "editor.selectionBackground": "{{aqua1}}40",
     "editor.selectionHighlightBackground": "{{yellow2}}40",
     "editor.hoverHighlightBackground": "{{aqua1}}50",
-    "editorLink.activeForeground": "{{gray90}}",
+    "editorLink.activeForeground": "{{gray80}}",
     "editor.findMatchBackground": "{{blue2}}70",
     "editor.findMatchHighlightBackground": "{{orange2}}30",
     "editor.findRangeHighlightBackground": "{{blue2}}70",
@@ -137,7 +159,7 @@
     "editorWidget.background": "{{gray10}}",
     "editorWidget.border": "{{gray20}}",
     "editorSuggestWidget.background": "{{gray10}}",
-    "editorSuggestWidget.foreground": "{{gray90}}",
+    "editorSuggestWidget.foreground": "{{gray80}}",
     "editorSuggestWidget.highlightForeground": "{{aqua1}}",
     "editorSuggestWidget.selectedBackground": "{{gray20}}60",
     "editorSuggestWidget.border": "{{gray20}}",
@@ -147,13 +169,13 @@
     "peekViewEditorGutter.background": "{{gray20}}50",
     "peekViewEditor.matchHighlightBackground": "",
     "peekViewResult.background": "{{gray20}}50",
-    "peekViewResult.fileForeground": "{{gray90}}",
+    "peekViewResult.fileForeground": "{{gray80}}",
     "peekViewResult.matchHighlightBackground": "{{aqua2}}30",
     "peekViewResult.selectionBackground": "{{aqua2}}30",
     "peekViewResult.selectionForeground": "{{aqua2}}30",
     "peekViewTitle.background": "{{gray20}}50",
     "peekViewTitleDescription.foreground": "{{gray70}}",
-    "peekViewTitleLabel.foreground": "{{gray90}}",
+    "peekViewTitleLabel.foreground": "{{gray80}}",
     // MERGE CONFLICTS
     "merge.currentHeaderBackground": "{{blue1}}40",
     "merge.currentContentBackground": "{{blue1}}20",
@@ -165,11 +187,11 @@
     "editorOverviewRuler.commonContentForeground": "{{gray50}}",
     // PANELS
     "panel.border": "{{gray20}}",
-    "panelTitle.activeForeground": "{{gray90}}",
+    "panelTitle.activeForeground": "{{gray80}}",
     // STATUS BAR
     "statusBar.background": "{{gray10}}",
     "statusBar.border": "{{gray20}}",
-    "statusBar.foreground": "{{gray90}}",
+    "statusBar.foreground": "{{gray80}}",
     "statusBar.debuggingBackground": "{{orange2}}",
     "statusBar.debuggingForeground": "{{gray10}}",
     "statusBar.debuggingBorder": "{{gray10}}00",
@@ -193,12 +215,12 @@
     "terminal.ansiCyan": "{{aqua1}}",
     "terminal.ansiBrightCyan": "{{aqua2}}",
     "terminal.ansiWhite": "{{gray60}}",
-    "terminal.ansiBrightWhite": "{{gray90}}",
-    "terminal.foreground": "{{gray90}}",
+    "terminal.ansiBrightWhite": "{{gray80}}",
+    "terminal.foreground": "{{gray80}}",
     "terminal.background": "{{gray10}}",
     // TITLE BAR macOS (not tested)
     "titleBar.activeBackground": "{{gray10}}",
-    "titleBar.activeForeground": "{{gray90}}",
+    "titleBar.activeForeground": "{{gray80}}",
     "titleBar.inactiveBackground": "{{gray10}}",
     // GIT COLORS
     "gitDecoration.modifiedResourceForeground": "{{yellow1}}",
@@ -208,10 +230,10 @@
     "gitDecoration.conflictingResourceForeground": "{{purple1}}",
     // NOTIFICATION
     "notification.background": "{{gray10}}",
-    "notification.foreground": "{{gray90}}",
+    "notification.foreground": "{{gray80}}",
     "notification.buttonBackground": "{{gray30}}",
     "notification.buttonHoverBackground": "{{gray30}}50",
-    "notification.buttonForeground": "{{gray90}}",
+    "notification.buttonForeground": "{{gray80}}",
     "notification.infoBackground": "{{blue2}}",
     "notification.infoForeground": "{{gray10}}",
     "notification.warningBackground": "{{yellow2}}",
@@ -227,7 +249,7 @@
     {
       "settings": {
         "background": "{{gray10}}",
-        "foreground": "{{gray90}}"
+        "foreground": "{{gray80}}"
       }
     },
     {
@@ -271,7 +293,7 @@
     {
       "scope": "constant.rgb-value",
       "settings": {
-        "foreground": "{{gray90}}"
+        "foreground": "{{gray80}}"
       }
     },
     {
@@ -397,7 +419,7 @@
     {
       "scope": "object",
       "settings": {
-        "foreground": "{{gray90}}"
+        "foreground": "{{gray80}}"
       }
     },
     {
@@ -586,7 +608,7 @@
     {
       "scope": "punctuation.quoted",
       "settings": {
-        "foreground": "{{gray90}}"
+        "foreground": "{{gray80}}"
       }
     },
     {
@@ -801,7 +823,7 @@
         "source.java variable.other.definition.java"
       ],
       "settings": {
-        "foreground": "{{gray90}}"
+        "foreground": "{{gray80}}"
       }
     },
     // LISP ----------------------------------------
@@ -944,7 +966,7 @@
     {
       "scope": "source.css meta.selector",
       "settings": {
-        "foreground": "{{gray90}}"
+        "foreground": "{{gray80}}"
       }
     },
     {
@@ -1066,7 +1088,7 @@
         "source.go entity.name.type"
       ],
       "settings": {
-        "foreground": "{{gray90}}"
+        "foreground": "{{gray80}}"
       }
     },
     {
