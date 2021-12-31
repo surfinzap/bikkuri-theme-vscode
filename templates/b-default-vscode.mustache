@@ -150,6 +150,17 @@
 		"sideBarTitle.foreground":							  "{{gray70}}",
 		"sideBarSectionHeader.border": 						 null,
 
+    /* Git colors
+       e.g. colors of changed files in sidebar or tabs
+       TBD try muted colors
+    */
+
+    "gitDecoration.conflictingResourceForeground":"{{purple2}}",
+		"gitDecoration.deletedResourceForeground": 		"{{red2}}",
+		"gitDecoration.ignoredResourceForeground": 		"{{gray40}}",
+		"gitDecoration.modifiedResourceForeground": 	"{{yellow2}}",
+		"gitDecoration.untrackedResourceForeground": 	"{{green2}}",
+
 
 		/* Minimap & Overview ruler
 			 https://code.visualstudio.com/api/references/theme-color#minimap
@@ -223,113 +234,129 @@
     "tab.unfocusedInactiveForeground":        "{{gray50}}",
 
 
-   
+    /* Editor
+		*/
+		"editor.background": 											"{{gray10}}",
+		"editor.foreground": 											"{{gray80}}",
+    "editorLineNumber.foreground":            "{{gray40}}",
+		"editorLink.activeForeground": 		  			"{{gray80}}",
+		"editor.lineHighlightBackground": 				"{{gray20}}",
+		"editor.selectionBackground": 						"{{gray25}}",
+		"editorWhitespace.foreground": 						"{{gray40}}",
+		"editorCursor.foreground": 								"{{gray80}}",
+		"editorError.foreground": 								"{{red2}}",
+		"editorWarning.foreground": 							"{{yellow2}}",
+		"editorInfo.foreground": 									"{{aqua2}}",
+		"editorHint.foreground": 									"{{green2}}",
+		"editorUnicodeHighlight.border":					"{{gray40}}",	
+		"editorGutter.addedBackground": 					"{{green2}}",
+		"editorGutter.deletedBackground": 				"{{red2}}",
+		"editorGutter.modifiedBackground": 				"{{yellow2}}",
+		"editorIndentGuide.background": 					"{{gray20}}",
+		"editor.findMatchHighlightBackground": 		"{{yellow1}}30",
+    "editor.selectionHighlightBackground":    "{{yellow2}}30",
+    "editor.hoverHighlightBackground":        "{{yellow2}}30",
+    "editor.findMatchBackground":             "{{blue2}}70",
+    "editor.findRangeHighlightBackground":    "{{blue2}}70",
+    "editor.lineHighlightBorder":              null,
+    "editorIndentGuide.activeBackground":     "{{gray30}}",
+    "editorRuler.foreground":                 "{{gray40}}",
+    "editorCodeLens.foreground":              "{{gray60}}90",
+    "editorBracketMatch.border":              "{{gray20}}",
+    "editorBracketMatch.background":          "{{gray40}}",
+    "editorHoverWidget.background":           "{{gray10}}",
+    "editorHoverWidget.border":               "{{gray30}}",
 
 
-    // EDITOR
-    "editor.background": "{{gray10}}",
-    "editor.foreground": "{{gray80}}",
-    "editorLineNumber.foreground": "{{gray30}}",
-    "editorCursor.foreground": "{{gray80}}",
-    "editor.selectionBackground": "{{aqua1}}40",
-    "editor.selectionHighlightBackground": "{{yellow2}}40",
-    "editor.hoverHighlightBackground": "{{aqua1}}50",
-    "editorLink.activeForeground": "{{gray80}}",
-    "editor.findMatchBackground": "{{blue2}}70",
-    "editor.findMatchHighlightBackground": "{{orange2}}30",
-    "editor.findRangeHighlightBackground": "{{blue2}}70",
-    "editor.lineHighlightBackground": "{{gray20}}60",
-    "editor.lineHighlightBorder": "{{gray20}}00",
-    "editorWhitespace.foreground": "{{gray60}}20",
-    "editorIndentGuide.background": "{{gray60}}20",
-    "editorIndentGuide.activeBackground": "{{gray60}}50",
-    "editorRuler.foreground": "{{gray60}}40",
-    "editorCodeLens.foreground": "{{gray60}}90",
-    "editorBracketMatch.border": "{{gray10}}00",
-    "editorBracketMatch.background": "{{gray50}}80",
-    "editorHoverWidget.background": "{{gray10}}",
-    "editorHoverWidget.border": "{{gray20}}",
-    "editorGutter.modifiedBackground": "{{blue2}}",
-    "editorGutter.addedBackground": "{{green2}}",
-    "editorGutter.deletedBackground": "{{red2}}",
-    "editorError.foreground": "{{red1}}",
-    "editorWarning.foreground": "{{yellow1}}",
-    "editorInfo.foreground": "{{blue1}}",
-    // DIFF EDITOR
-    "diffEditor.insertedTextBackground": "{{green2}}30",
-    "diffEditor.removedTextBackground": "{{red2}}30",
-    // WIDGET
-    "editorWidget.background": "{{gray10}}",
-    "editorWidget.border": "{{gray20}}",
-    "editorSuggestWidget.background": "{{gray10}}",
-    "editorSuggestWidget.foreground": "{{gray80}}",
+		/* Diff Editor
+			 https://code.visualstudio.com/api/references/theme-color#diff-editor-colors
+		*/
+		"diffEditor.diagonalFill":							  "{{gray30}}",
+		"diffEditor.insertedTextBackground": 	  	"{{green2}}30",
+		"diffEditor.removedTextBackground": 	    "{{red2}}30",
+		"diffEditor.border": 											 null,
+		"diffEditor.insertedTextBorder": 					 null,
+		"diffEditor.removedTextBorder": 					 null,
+
+
+    /* Widget
+    */
+    "editorWidget.background":               "{{gray10}}",
+    "editorWidget.border":                   "{{gray30}}",
+    "editorSuggestWidget.background":        "{{gray10}}",
+    "editorSuggestWidget.foreground":        "{{gray80}}",
     "editorSuggestWidget.highlightForeground": "{{aqua1}}",
-    "editorSuggestWidget.selectedBackground": "{{gray20}}60",
-    "editorSuggestWidget.border": "{{gray20}}",
-    // PEEK VIEW
-    "peekView.border": "{{gray20}}",
-    "peekViewEditor.background": "{{gray20}}50",
-    "peekViewEditorGutter.background": "{{gray20}}50",
-    "peekViewEditor.matchHighlightBackground": "",
-    "peekViewResult.background": "{{gray20}}50",
-    "peekViewResult.fileForeground": "{{gray80}}",
+    "editorSuggestWidget.selectedBackground":  "{{gray20}}60",
+    "editorSuggestWidget.border":            "{{gray30}}",
+
+    /* Peek view
+    */
+    "peekView.border":                       "{{gray30}}",
+    "peekViewEditor.background":             "{{gray10}}",
+    "peekViewEditorGutter.background":       "{{gray20}}50",
+    "peekViewEditor.matchHighlightBackground": "{{aqua2}}30",
+    "peekViewResult.background":             "{{gray20}}50",
+    "peekViewResult.fileForeground":         "{{gray80}}",
     "peekViewResult.matchHighlightBackground": "{{aqua2}}30",
-    "peekViewResult.selectionBackground": "{{aqua2}}30",
-    "peekViewResult.selectionForeground": "{{aqua2}}30",
-    "peekViewTitle.background": "{{gray20}}50",
-    "peekViewTitleDescription.foreground": "{{gray70}}",
-    "peekViewTitleLabel.foreground": "{{gray80}}",
-    // MERGE CONFLICTS
-    "merge.currentHeaderBackground": "{{blue1}}40",
-    "merge.currentContentBackground": "{{blue1}}20",
-    "merge.incomingHeaderBackground": "{{aqua1}}40",
-    "merge.incomingContentBackground": "{{aqua1}}20",
-    "merge.border": "{{gray10}}00",
-    // PANELS
-    "panel.border": "{{gray20}}",
-    "panelTitle.activeForeground": "{{gray80}}",
+    "peekViewResult.selectionBackground":    "{{aqua2}}30",
+    "peekViewResult.selectionForeground":    "{{aqua2}}30",
+    "peekViewTitle.background":              "{{gray10}}",
+    "peekViewTitleDescription.foreground":   "{{gray70}}",
+    "peekViewTitleLabel.foreground":         "{{gray80}}",
+
+    /* Merge conflicts
+    */
+    "merge.currentHeaderBackground":         "{{blue1}}40",
+    "merge.currentContentBackground":        "{{blue1}}20",
+    "merge.incomingHeaderBackground":        "{{aqua1}}40",
+    "merge.incomingContentBackground":       "{{aqua1}}20",
+    "merge.border":                          "{{gray10}}00",
+    
+    /* Panels
+    */
+    "panel.border":                          "{{gray30}}",
+    "panelTitle.activeForeground":           "{{gray80}}",
 
 
-    // INTEGRATED TERMINAL
-    "terminal.ansiBlack": "{{gray20}}",
-    "terminal.ansiBrightBlack": "{{gray50}}",
-    "terminal.ansiRed": "{{red1}}",
-    "terminal.ansiBrightRed": "{{red2}}",
-    "terminal.ansiGreen": "{{green1}}",
-    "terminal.ansiBrightGreen": "{{green2}}",
-    "terminal.ansiYellow": "{{yellow1}}",
-    "terminal.ansiBrightYellow": "{{yellow2}}",
-    "terminal.ansiBlue": "{{blue1}}",
-    "terminal.ansiBrightBlue": "{{blue2}}",
-    "terminal.ansiMagenta": "{{purple1}}",
-    "terminal.ansiBrightMagenta": "{{purple2}}",
-    "terminal.ansiCyan": "{{aqua1}}",
-    "terminal.ansiBrightCyan": "{{aqua2}}",
-    "terminal.ansiWhite": "{{gray60}}",
-    "terminal.ansiBrightWhite": "{{gray80}}",
-    "terminal.foreground": "{{gray80}}",
-    "terminal.background": "{{gray10}}",
+    /* Integrated terminal
+    */
+    "terminal.ansiBlack":                    "{{gray20}}",
+    "terminal.ansiBrightBlack":              "{{gray50}}",
+    "terminal.ansiRed":                      "{{red1}}",
+    "terminal.ansiBrightRed":                "{{red2}}",
+    "terminal.ansiGreen":                    "{{green1}}",
+    "terminal.ansiBrightGreen":              "{{green2}}",
+    "terminal.ansiYellow":                   "{{yellow1}}",
+    "terminal.ansiBrightYellow":             "{{yellow2}}",
+    "terminal.ansiBlue":                     "{{blue1}}",
+    "terminal.ansiBrightBlue":               "{{blue2}}",
+    "terminal.ansiMagenta":                  "{{purple1}}",
+    "terminal.ansiBrightMagenta":            "{{purple2}}",
+    "terminal.ansiCyan":                     "{{aqua1}}",
+    "terminal.ansiBrightCyan":               "{{aqua2}}",
+    "terminal.ansiWhite":                    "{{gray60}}",
+    "terminal.ansiBrightWhite":              "{{gray80}}",
+    "terminal.foreground":                   "{{gray80}}",
+    "terminal.background":                   "{{gray10}}",
 
-    // GIT COLORS
-    "gitDecoration.modifiedResourceForeground": "{{yellow1}}",
-    "gitDecoration.deletedResourceForeground": "{{red1}}",
-    "gitDecoration.untrackedResourceForeground": "{{green1}}",
-    "gitDecoration.ignoredResourceForeground": "{{gray40}}",
-    "gitDecoration.conflictingResourceForeground": "{{purple1}}",
-    // NOTIFICATION
-    "notification.background": "{{gray10}}",
-    "notification.foreground": "{{gray80}}",
-    "notification.buttonBackground": "{{gray30}}",
-    "notification.buttonHoverBackground": "{{gray30}}50",
-    "notification.buttonForeground": "{{gray80}}",
-    "notification.infoBackground": "{{blue2}}",
-    "notification.infoForeground": "{{gray10}}",
-    "notification.warningBackground": "{{yellow2}}",
-    "notification.warningForeground": "{{gray10}}",
-    "notification.errorBackground": "{{red2}}",
-    "notification.errorForeground": "{{gray10}}",
-    // EXTENSIONS
-    "extensionButton.prominentBackground": "{{green2}}80",
+    /* Notification
+       https://code.visualstudio.com/api/references/theme-color#notification-colors
+    */
+    "notificationCenter.border":             "{{gray30}}",
+    "notificationCenterHeader.foreground":   "{{gray80}}",
+    "notificationCenterHeader.background":   "{{gray10}}",
+    "notificationToast.border":              "{{gray30}}",
+    "notifications.foreground":              "{{gray80}}",
+    "notifications.background":              "{{gray10}}",
+    "notifications.border":                  "{{gray30}}",
+    "notificationLink.foreground":           "{{blue2}}",
+    "notificationsErrorIcon.foreground":     "{{red2}}",
+    "notificationsWarningIcon.foreground":   "{{yellow2}}",
+    "notificationsInfoIcon.foreground":      "{{blue2}}",
+
+    /* Extensions
+    */
+    "extensionButton.prominentBackground":      "{{green2}}80",
     "extensionButton.prominentHoverBackground": "{{green2}}30",
 
   },
@@ -1005,7 +1032,7 @@
     {
       "scope": "string.quoted.double.json",
       "settings": {
-        "foreground": "{{blue2}}"
+        "foreground": "{{green2}}"
       }
     },
     {
@@ -1014,7 +1041,7 @@
         "source.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "{{green2}}"
+        "foreground": "{{red2}}"
       }
     },
     {
