@@ -72,6 +72,13 @@
     */
     "progressBar.background":                 "{{aqua2}}",
 
+    /* Title Bar
+		*/
+		"titleBar.activeBackground":              "{{gray10}}",
+		"titleBar.activeForeground":              "{{gray60}}",
+		"titleBar.inactiveBackground":            "{{gray10}}",
+		"titleBar.inactiveForeground":            "{{gray60}}",
+		"titleBar.border" :                       "{{gray30}}",
     
 		/* Lists & Trees
 			 https://code.visualstudio.com/api/references/theme-color#lists-and-trees
@@ -131,30 +138,94 @@
 		"activityBar.activeFocusBorder":					null,
 
 
-    // SIDE BAR
-    "sideBar.background": "{{gray10}}",
-    "sideBar.foreground": "{{gray80}}",
-    "sideBar.border": "{{gray20}}",
-    "sideBarTitle.foreground": "{{gray80}}",
-    "sideBarSectionHeader.background": "{{gray10}}00",
-    "sideBarSectionHeader.foreground": "{{gray80}}",
-    // EDITOR GROUPS
-    "editorGroup.background": "{{gray20}}",
-    "editorGroup.border": "{{gray20}}",
-    "editorGroup.dropBackground": "{{gray20}}60",
-    "editorGroupHeader.noTabsBackground": "{{gray20}}",
-    "editorGroupHeader.tabsBackground": "{{gray10}}",
-    "editorGroupHeader.tabsBorder": "{{gray20}}",
-    // TABS
-    "tab.border": "{{gray10}}00",
-    "tab.activeBorder": "{{aqua1}}",
-    "tab.activeBackground": "{{gray20}}",
-    "tab.activeForeground": "{{gray80}}",
-    "tab.inactiveForeground": "{{gray60}}",
-    "tab.inactiveBackground": "{{gray10}}",
-    "tab.unfocusedActiveForeground": "{{gray60}}",
-    "tab.unfocusedActiveBorder": "{{gray10}}00",
-    "tab.unfocusedInactiveForeground": "{{gray50}}",
+		/* Sidebar
+			 https://code.visualstudio.com/api/references/theme-color#side-bar
+		*/
+		"sideBar.background": 										"{{gray10}}",
+		"sideBarSectionHeader.background":        "{{gray20}}",
+		"sideBar.border": 												"{{gray30}}",
+		"sideBar.dropBackground":									"{{gray40}}",
+		"sideBar.foreground": 										"{{gray70}}",				
+		"sideBarSectionHeader.foreground":        "{{gray70}}",
+		"sideBarTitle.foreground":							  "{{gray70}}",
+		"sideBarSectionHeader.border": 						 null,
+
+
+		/* Minimap & Overview ruler
+			 https://code.visualstudio.com/api/references/theme-color#minimap
+		*/
+		"minimap.errorHighlight": 								"{{red2}}",
+		"minimap.findMatchHighlight": 						"{{yellow2}}",
+		// "minimap.foregroundOpacity": 						"#000000c0",
+		"minimap.selectionHighlight": 						"{{gray40}}",
+		"minimap.selectionOccurrenceHighlight": 	"{{gray40}}",
+		"minimap.warningHighlight":							  "{{yellow2}}",
+		"minimapGutter.addedBackground": 					"{{green2}}",
+		"minimapGutter.deletedBackground": 				"{{red2}}",
+		"minimapGutter.modifiedBackground": 			"{{yellow2}}",
+		"minimapSlider.activeBackground":         "{{aqua2}}80",
+		"minimapSlider.background":               "{{aqua2}}60",
+		"minimapSlider.hoverBackground":          "{{aqua2}}80",
+
+		"editorOverviewRuler.border": 									"{{gray10}}",
+		"editorOverviewRuler.addedForeground": 					"{{green2}}90",
+		"editorOverviewRuler.bracketMatchForeground": 	"{{gray50}}",
+		"editorOverviewRuler.commonContentForeground": 	"{{gray50}}",
+		"editorOverviewRuler.currentContentForeground": "{{blue2}}90",
+		"editorOverviewRuler.deletedForeground": 				"{{red2}}90",
+		"editorOverviewRuler.errorForeground": 					"{{red2}}",
+		"editorOverviewRuler.findMatchForeground": 			"{{yellow2}}",
+		"editorOverviewRuler.incomingContentForeground":"{{blue2}}90",
+		"editorOverviewRuler.infoForeground":					  "{{blue2}}",
+		"editorOverviewRuler.modifiedForeground": 			"{{yellow2}}",
+		"editorOverviewRuler.rangeHighlightForeground": "{{blue2}}",
+		"editorOverviewRuler.selectionHighlightForeground": "{{gray50}}",
+		"editorOverviewRuler.warningForeground": 				"{{yellow2}}",
+		"editorOverviewRuler.wordHighlightForeground": 	"{{gray50}}",
+		"editorOverviewRuler.wordHighlightStrongForeground": "{{gray50}}",
+  
+    
+
+		/* Status bar
+			 https://code.visualstudio.com/api/references/theme-color#status-bar-colors
+		*/
+    "statusBar.background":                   "{{gray10}}",
+    "statusBar.border":                       "{{gray30}}",
+    "statusBar.foreground":                   "{{gray60}}",
+    "statusBar.debuggingBackground":          "{{orange2}}",
+    "statusBar.debuggingForeground":          "{{gray10}}",
+    "statusBar.debuggingBorder":              "{{gray10}}",
+    "statusBar.noFolderBackground":           "{{gray10}}",
+    "statusBar.noFolderBorder":               "{{gray10}}",
+
+
+		/* Editor Groups & Tabs
+			 https://code.visualstudio.com/api/references/theme-color#editor-groups-tabs
+		*/
+		"editorGroup.emptyBackground": 						"{{gray10}}",
+		"editorGroupHeader.noTabsBackground": 		"{{gray10}}",
+		"editorGroupHeader.tabsBackground": 			"{{gray10}}",
+		"editorGroup.dropBackground": 						"{{gray40}}75",
+		"editorGroup.border": 										"{{gray30}}",
+		"editorGroupHeader.tabsBorder":						"{{gray30}}",
+		"editorGroup.focusedEmptyBorder":					"{{gray40}}",
+
+		"tab.activeBackground": 									"{{gray20}}",
+    "tab.activeForeground":                   "{{gray80}}",
+    "tab.inactiveForeground":                 "{{gray60}}",
+		"tab.inactiveBackground": 								"{{gray10}}",
+		"tab.border":															"{{gray10}}",
+		"tab.activeBorder":												"{{aqua1}}",
+		"tab.activeBorderTop":										null,
+		"tab.hoverBorder":												"{{gray30}}",
+    "tab.unfocusedActiveForeground":          "{{gray60}}",
+    "tab.unfocusedActiveBorder":              "{{gray10}}",
+    "tab.unfocusedInactiveForeground":        "{{gray50}}",
+
+
+   
+
+
     // EDITOR
     "editor.background": "{{gray10}}",
     "editor.foreground": "{{gray80}}",
@@ -178,19 +249,6 @@
     "editorBracketMatch.background": "{{gray50}}80",
     "editorHoverWidget.background": "{{gray10}}",
     "editorHoverWidget.border": "{{gray20}}",
-    "editorOverviewRuler.border": "{{gray10}}00",
-    "editorOverviewRuler.findMatchForeground": "{{gray70}}",
-    "editorOverviewRuler.rangeHighlightForeground": "{{gray70}}",
-    "editorOverviewRuler.selectionHighlightForeground": "{{gray30}}",
-    "editorOverviewRuler.wordHighlightForeground": "{{gray30}}",
-    "editorOverviewRuler.wordHighlightStrongForeground": "{{gray30}}",
-    "editorOverviewRuler.modifiedForeground": "{{blue2}}",
-    "editorOverviewRuler.addedForeground": "{{blue2}}",
-    "editorOverviewRuler.deletedForeground": "{{blue2}}",
-    "editorOverviewRuler.errorForeground": "{{red2}}",
-    "editorOverviewRuler.warningForeground": "{{yellow1}}",
-    "editorOverviewRuler.infoForeground": "{{purple2}}",
-    "editorGutter.background": "{{gray10}}00",
     "editorGutter.modifiedBackground": "{{blue2}}",
     "editorGutter.addedBackground": "{{green2}}",
     "editorGutter.deletedBackground": "{{red2}}",
@@ -227,23 +285,11 @@
     "merge.incomingHeaderBackground": "{{aqua1}}40",
     "merge.incomingContentBackground": "{{aqua1}}20",
     "merge.border": "{{gray10}}00",
-    "editorOverviewRuler.currentContentForeground": "{{blue1}}",
-    "editorOverviewRuler.incomingContentForeground": "{{aqua1}}",
-    "editorOverviewRuler.commonContentForeground": "{{gray50}}",
     // PANELS
     "panel.border": "{{gray20}}",
     "panelTitle.activeForeground": "{{gray80}}",
-    // STATUS BAR
-    "statusBar.background": "{{gray10}}",
-    "statusBar.border": "{{gray20}}",
-    "statusBar.foreground": "{{gray80}}",
-    "statusBar.debuggingBackground": "{{orange2}}",
-    "statusBar.debuggingForeground": "{{gray10}}",
-    "statusBar.debuggingBorder": "{{gray10}}00",
-    "statusBar.noFolderBackground": "{{gray10}}",
-    "statusBar.noFolderBorder": "{{gray10}}00",
-    "statusBar.prominentBackground": "{{aqua1}}",
-    "statusBar.prominentHoverBackground": "{{aqua1}}70",
+
+
     // INTEGRATED TERMINAL
     "terminal.ansiBlack": "{{gray20}}",
     "terminal.ansiBrightBlack": "{{gray50}}",
@@ -263,10 +309,7 @@
     "terminal.ansiBrightWhite": "{{gray80}}",
     "terminal.foreground": "{{gray80}}",
     "terminal.background": "{{gray10}}",
-    // TITLE BAR macOS (not tested)
-    "titleBar.activeBackground": "{{gray10}}",
-    "titleBar.activeForeground": "{{gray80}}",
-    "titleBar.inactiveBackground": "{{gray10}}",
+
     // GIT COLORS
     "gitDecoration.modifiedResourceForeground": "{{yellow1}}",
     "gitDecoration.deletedResourceForeground": "{{red1}}",
