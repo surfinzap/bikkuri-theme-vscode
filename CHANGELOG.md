@@ -12,21 +12,23 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - update json colors
 - update git decoration styles
 - mute underlines, minimaps and overview ruler colors
+- customize breadcrumb colors
 
 TODO
-- tbd markdown
-- deploy pipeline
 - drobeckovku specificky adresovat
+- tbd markdown
 - right menu a bit darker
 - "1 unsaved color" (+ui colors)
 - blue1 and teal2 are for interface
+- deploy pipeline
 - 
 - consolidate dropBackgrounds, {{gray40}}75?
 - "editor.findMatchHighlightBackground" orange?
 - revisit peek view
 - revisit merge conflicts
 - revisit extensionButton
-
+- cliky na on highlight
+- icons?
 
 
 ## [0.0.2] — 2021-12-30
