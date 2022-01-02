@@ -28,5 +28,8 @@
 		"publisherDisplayName": "Brano Sandala",
 		"publisherId": "c5a4b323-3691-4530-85d1-49eb940a1614",
 		"isPreReleaseVersion": false
+	},
+	"devDependencies": {
+		"vsce": "^2.6.0"
 	}
 }
