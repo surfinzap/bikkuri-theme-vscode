@@ -5,29 +5,26 @@ All notable changes to the “b-theme-vscode” extension will be documented in 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-- tbd add acknowledgments
-- tbd change in template generation
-- define orange color
-- update minimap
-- update json colors
-- update git decoration styles
-- mute underlines, minimaps and overview ruler colors
-- customize breadcrumb colors
-- update meno styling
-- consolidate dropBackground colors
 
-TODO
-- tbd markdown
-- "1 unsaved color" (+ui colors)
-- blue1 and teal2 are for interface
-- deploy pipeline
-- 
-- "editor.findMatchHighlightBackground" orange?
-- revisit peek view
-- revisit merge conflicts
-- revisit extensionButton
-- cliky na on highlight
-- icons?
+## [0.1.0] — 2021-01-02
+
+### Added
+- Scheme and template to generate a theme
+
+### Updated
+Since the previous release, I have split a theme into a scheme and a template and reiterated many theme definitions. There are many changes behind the scenes; here’s the list of notable ones:
+- New definition of colors (yellow, orange, blue, grays)
+- Consolidated minimap styles
+- Consolidated Git decoration styles
+- Muted underline, minimaps, and overview ruler colors
+- Customized breadcrumb colors
+- Consolidated dropBackground colors
+- Consolidated buttons and badges into neutral gray colors
+- Consolidated Tab colors
+- Consolidate Panel colors
+- Updated Quick Input highlights
+- Consolidated Extensions buttons
+
 
 
 ## [0.0.2] — 2021-12-30
@@ -39,6 +36,7 @@ TODO
 - Update focus highlight color (pink → violet)
 - Update scrollbar colors
 - Update editorOverviewRuler.infoForeground
+
 
 
 ## [0.0.1] — 2021-12-29
