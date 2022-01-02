@@ -19,3 +19,6 @@ A dark warm theme for VS Code.
 
 # Feedback
 Share your feedback as a [GitHub issue](https://github.com/surfinzap/b-theme-vscode/issues)
+
+# Inspiration
+- Syntax highlighting rules inpiration: [vscode-theme-gruvbox](https://github.com/jdinhify/vscode-theme-gruvbox)
