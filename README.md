@@ -1,7 +1,11 @@
 # README
 
-A dark warm theme for VS Code. Screenshots coming soon, feel free to try it out in the meantime.
+A dark warm theme for VS Code. 
 
+![](screenshots/b-theme-colors.png)
+
+# Screenshots
+![](screenshots/b-theme-sample.png)
 
 # Installation
 
