@@ -6,12 +6,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## Changed
+- selection highlight colors in Suggest Widget
+
+
 ## [0.1.0] — 2021-01-02
 
 ### Added
 - Scheme and template to generate a theme
 
-### Updated
+### Changed
 Since the previous release, I have split a theme into a scheme and a template and reiterated many theme definitions. There are many changes behind the scenes; here’s the list of notable ones:
 - New definition of colors (yellow, orange, blue, grays)
 - Consolidated minimap styles
