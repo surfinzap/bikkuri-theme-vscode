@@ -7,9 +7,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## [Unreleased]
 
 ## Changed
-- selection & highlight colors in Suggest Widget
-- selection & highlight colors in Peek View
-
+- Selection & highlight colors in Suggest Widget
+- Selection & highlight colors in Peek View
+- Markdown syntax highlight: heading, link, and bold style (red—orange—yellow combination)
 
 ## [0.1.0] — 2021-01-02
 

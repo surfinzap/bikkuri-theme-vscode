@@ -1027,7 +1027,7 @@
       ],
       "settings": {
         "fontStyle": null,
-        "foreground": "#EBC075"
+        "foreground": "#e56378"
       }
     },
     {
@@ -1036,13 +1036,13 @@
 				"string.other.link"
 			],
 			"settings": {
-				"foreground": "#d3c2c5"
+				"foreground": "#e2976a"
 			}
 		},
     {
       "scope": "markup.bold",
       "settings": {
-        "fontStyle": "bold",
+        "fontStyle": null,
         "foreground": "#EBC075"
       }
     },
