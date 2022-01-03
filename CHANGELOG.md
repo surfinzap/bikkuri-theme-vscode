@@ -4,14 +4,21 @@ All notable changes to the “b-theme-vscode” extension will be documented in 
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [0.1.1] — 2021-01-03
+
+## Changed
+- Selection & highlight colors in Suggest Widget
+- Selection & highlight colors in Peek View
+- Markdown syntax highlight: heading, link, and bold style (red—orange—yellow combination)
+
+
 
 ## [0.1.0] — 2021-01-02
 
 ### Added
 - Scheme and template to generate a theme
 
-### Updated
+### Changed
 Since the previous release, I have split a theme into a scheme and a template and reiterated many theme definitions. There are many changes behind the scenes; here’s the list of notable ones:
 - New definition of colors (yellow, orange, blue, grays)
 - Consolidated minimap styles
