@@ -4,6 +4,7 @@
 	"description": "Dark warm theme for VS Code.",
 	"publisher": "brano",
 	"version": "0.1.1",
+	"icon": "assets/b-theme-icon.png",
 	"engines": {
 		"vscode": "^1.63.0"
 	},
