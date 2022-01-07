@@ -2,11 +2,11 @@
 
 A dark warm theme for VS Code. 
 
-![](screenshots/b-theme-colors.png)
+![](assets/b-theme-colors.png)
 
 ## Screenshots
 
-![](screenshots/b-theme-sample.png)
+![](assets/b-theme-sample.png)
 
 
 ## Installation
