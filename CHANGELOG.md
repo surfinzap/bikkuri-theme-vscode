@@ -19,6 +19,9 @@ Security
 ### Added
 - Checkbox styles in Settings
 
+### Fixed
+- Increase contrast for “extensionIcon.starForeground”
+
 ### Security
 - Development dependency (vsce) updated to its latest version
 
