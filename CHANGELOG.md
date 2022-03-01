@@ -4,11 +4,33 @@ All notable changes to the “b-theme-vscode” extension will be documented in 
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+Added 
+Changed 
+Deprecated 
+Removed
+Fixed
+Security
+
+
+## [0.1.3] — 2022-03-01
+
+### Added
+- Checkbox styles in Settings
+- Terminal borders and background styles
+
+### Fixed
+- Increase contrast for “extensionIcon.starForeground”
+
+### Security
+- Development dependency (vsce) updated to its latest version
+
+
 
 ## [0.1.2] — 2022-01-07
 
 ### Added
 - Project icon
+
 
 
 ## [0.1.1] — 2022-01-03

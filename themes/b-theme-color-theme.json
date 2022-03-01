@@ -28,6 +28,10 @@
 		"button.secondaryForeground":	            "#d3c2c5",
 		"button.secondaryHoverBackground":        "#3e3839",
 		"button.border":                          null,
+    "checkbox.background":                    "#292525",
+    "checkbox.foreground":                    "#d3c2c5",
+    "checkbox.border":                        "#786d6f",
+
 
     /* Dropdown
 		   https://code.visualstudio.com/api/references/theme-color#dropdown-control
@@ -364,6 +368,10 @@
     "terminal.ansiBrightWhite":              "#d3c2c5",
     "terminal.foreground":                   "#d3c2c5",
     "terminal.background":                   "#1d1b1b",
+    "terminal.border":                       "#3e3839",
+    "terminal.dropBackground":               "#59505275",
+    "terminal.selectionBackground":          "#595052",
+    "terminal.tab.activeBorder":             "#d3c2c5",
 
     /* Notification
        https://code.visualstudio.com/api/references/theme-color#notification-colors
@@ -387,7 +395,7 @@
     "extensionButton.prominentHoverBackground": "#9a8a8d",
     "extensionBadge.remoteBackground":          "#b6a4a7",
     "extensionBadge.remoteForeground":          "#292525",
-    "extensionIcon.starForeground":             "#292525",
+    "extensionIcon.starForeground":             "#595052",
     "extensionIcon.verifiedForeground":         "#292525",
     "extensionIcon.preReleaseForeground":       "#292525",
 
