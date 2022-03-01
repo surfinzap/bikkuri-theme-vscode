@@ -368,6 +368,10 @@
     "terminal.ansiBrightWhite":              "#d3c2c5",
     "terminal.foreground":                   "#d3c2c5",
     "terminal.background":                   "#1d1b1b",
+    "terminal.border":                       "#3e3839",
+    "terminal.dropBackground":               "#59505275",
+    "terminal.selectionBackground":          "#595052",
+    "terminal.tab.activeBorder":             "#d3c2c5",
 
     /* Notification
        https://code.visualstudio.com/api/references/theme-color#notification-colors

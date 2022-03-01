@@ -18,6 +18,7 @@ Security
 
 ### Added
 - Checkbox styles in Settings
+- Terminal borders and background styles
 
 ### Fixed
 - Increase contrast for “extensionIcon.starForeground”
