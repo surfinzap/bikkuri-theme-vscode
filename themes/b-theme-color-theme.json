@@ -28,6 +28,10 @@
 		"button.secondaryForeground":	            "#d3c2c5",
 		"button.secondaryHoverBackground":        "#3e3839",
 		"button.border":                          null,
+    "checkbox.background":                    "#292525",
+    "checkbox.foreground":                    "#d3c2c5",
+    "checkbox.border":                        "#786d6f",
+
 
     /* Dropdown
 		   https://code.visualstudio.com/api/references/theme-color#dropdown-control
