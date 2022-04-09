@@ -22,6 +22,9 @@ Security
 - Increased contrast for bracket matching background
 - Increased contrast for text selection background
 
+### Removed
+- ```gray25``` color from the color palette
+
 ## [0.1.3] — 2022-03-01
 
 ### Added
