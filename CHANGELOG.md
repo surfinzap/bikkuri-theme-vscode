@@ -28,6 +28,7 @@ Security
 
 ### Removed
 - ```gray25``` color from the color palette
+- list.focusOutline color
 
 ## [0.1.3] — 2022-03-01
 
