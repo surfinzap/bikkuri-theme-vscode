@@ -18,6 +18,10 @@
     "textLink.activeForeground":              "#6792b8",
     "debugToolBar.background":                "#1d1b1b",
 
+    "problemsWarningIcon.foreground": "#ff0000",
+    		"testing.iconQueued": "#ff0000",
+        	// "notificationsWarningIcon.foreground": "#de935f",
+
     /* Button 
 			 https://code.visualstudio.com/api/references/theme-color#button-control
 		*/
@@ -267,6 +271,11 @@
 
 
     /* Editor
+
+
+       Sidenotes
+       editorInfo.foreground is also used as icon color in "Do you trust..." dialog
+       
 		*/
 		"editor.background": 											"#1d1b1b",
 		"editor.foreground": 											"#d3c2c5",
@@ -278,7 +287,7 @@
 		"editorCursor.foreground": 								"#d3c2c5",
 		"editorError.foreground": 								"#c63d57",
 		"editorWarning.foreground": 							"#cca253",
-		"editorInfo.foreground": 									"#519a98",
+		"editorInfo.foreground": 									"#6792b8",
 		"editorHint.foreground": 									"#849552",
 		"editorUnicodeHighlight.border":					"#595052",	
 		"editorGutter.addedBackground": 					"#9cb162",
@@ -385,7 +394,7 @@
     "notifications.border":                  "#3e3839",
     "notificationLink.foreground":           "#81add5",
     "notificationsErrorIcon.foreground":     "#e56378",
-    "notificationsWarningIcon.foreground":   "#ebc075",
+    "notificationsWarningIcon.foreground":   "#c63d57",
     "notificationsInfoIcon.foreground":      "#81add5",
 
     /* Extensions
@@ -1090,15 +1099,6 @@
     },
     {
 			"scope": [
-        "punctuation.definition.list.begin.markdown",
-        "markup.quote.markdown",
-			],
-			"settings": {
-        "foreground": "#786d6f"
-			}
-		},
-    {
-			"scope": [
         "text.markdown.notes.tag",
 			],
 			"settings": {
@@ -1107,6 +1107,8 @@
 		},
     {
       "scope": [
+        "punctuation.definition.list.begin.markdown",
+        "markup.quote.markdown",
         "punctuation.definition.heading.markdown",
 				"punctuation.definition.wiki-link",
 				"punctuation.definition.string.begin.markdown",
@@ -1223,7 +1225,7 @@
         "punctuation.definition.tag"
       ],
       "settings": {
-        "foreground": "#786d6f"
+        "foreground": "#595052"
       }
     },
     {
