@@ -17,6 +17,7 @@ Security
 
 ### Added 
 - Styles for Terminal cursor
+- Styles for Quick Input title and focus colors
 
 ### Changed
 - Consolidated hashtag colors in markdown to gray40
