@@ -12,8 +12,7 @@ Fixed
 Security
 
 
-
-## [0.1.4] — 2022-04-xx
+## [0.1.4] — 2022-04-10
 
 ### Added 
 - Styles for Terminal cursor
