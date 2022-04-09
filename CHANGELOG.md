@@ -12,6 +12,7 @@ Fixed
 Security
 
 
+
 ## [0.1.4] — 2022-04-xx
 
 ### Changed
@@ -19,6 +20,7 @@ Security
 - Changed editorInfo.foreground to {{blue1}}
 - Updated Peek view styles
 - Increased contrast for bracket matching background
+- Increased contrast for text selection background
 
 ## [0.1.3] — 2022-03-01
 
