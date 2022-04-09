@@ -15,6 +15,9 @@ Security
 
 ## [0.1.4] — 2022-04-xx
 
+### Added 
+- Styles for Terminal cursor
+
 ### Changed
 - Consolidated hashtag colors in markdown to gray40
 - Changed editorInfo.foreground to {{blue1}}
