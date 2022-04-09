@@ -12,6 +12,23 @@ Fixed
 Security
 
 
+## [0.1.4] — 2022-04-10
+
+### Added 
+- Styles for Terminal cursor
+- Styles for Quick Input title and focus colors
+
+### Changed
+- Consolidated hashtag colors in markdown to gray40
+- Changed editorInfo.foreground to {{blue1}}
+- Updated Peek view styles
+- Increased contrast for bracket matching background
+- Increased contrast for text selection background
+
+### Removed
+- ```gray25``` color from the color palette
+- list.focusOutline color
+
 ## [0.1.3] — 2022-03-01
 
 ### Added

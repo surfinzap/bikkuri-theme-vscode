@@ -63,9 +63,9 @@
 		/* Scrollbar
 		*/
 		"scrollbar.shadow":									  	  "{{black}}",
-		"scrollbarSlider.background": 			  		"{{gray25}}60",
+		"scrollbarSlider.background": 			  		"{{gray30}}45",
 		"scrollbarSlider.activeBackground":	  		"{{gray30}}90",
-		"scrollbarSlider.hoverBackground": 		  	"{{gray25}}90",
+		"scrollbarSlider.hoverBackground": 		  	"{{gray30}}90",
 
 
     /* Badge
@@ -100,7 +100,7 @@
     "list.activeSelectionBackground": 				"{{gray20}}",
 		"list.activeSelectionForeground": 				"{{gray80}}",
 		"list.errorForeground": 									"{{red2}}",
-		"list.focusBackground": 									"{{gray20}}",
+		"list.focusBackground": 									"{{gray30}}",
 		"list.focusForeground": 									"{{gray80}}",
 		"list.hoverBackground": 									"{{gray20}}",
 		"list.inactiveSelectionBackground": 			"{{gray20}}",
@@ -110,7 +110,7 @@
 		"list.dropBackground": 										"{{gray40}}75",
 		"list.filterMatchBackground": 						"{{gray40}}",
 		"list.focusHighlightForeground": 					"{{blue2}}",
-		"list.focusOutline": 											"{{gray60}}",
+		"list.focusOutline": 											null,
 		"list.highlightForeground": 							"{{blue2}}",
 		"list.invalidItemForeground": 						"{{red1}}",
 		"list.hoverForeground":                   "{{gray80}}",
@@ -127,7 +127,14 @@
 		"quickInput.background": 									"{{gray10}}",
 		"quickInput.foreground": 									"{{gray70}}",
 		"pickerGroup.foreground": 								"{{gray70}}",
-		"pickerGroup.border": 										"{{gray30}}",    
+		"pickerGroup.border": 										"{{gray30}}",   
+    "quickInputTitle.background":             "{{gray10}}",
+    "quickInputList.focusBackground":         "{{gray30}}",
+    "quickInputList.focusForeground":         "{{gray80}}",
+    "quickInputList.focusIconForeground":     "{{gray60}}",
+    
+    
+
 
 
     /* Keybinding labels
@@ -267,18 +274,24 @@
 
 
     /* Editor
+
+
+       Sidenotes
+       editorInfo.foreground is also used as icon color in "Do you trust..." dialog
+       editorWarning.foreground is used for warning squiggles. Also used as warning color by Github Co-pilot VS Code plugin.
+       
 		*/
 		"editor.background": 											"{{gray10}}",
 		"editor.foreground": 											"{{gray80}}",
     "editorLineNumber.foreground":            "{{gray40}}",
 		"editorLink.activeForeground": 		  			"{{gray80}}",
 		"editor.lineHighlightBackground": 				"{{gray20}}",
-		"editor.selectionBackground": 						"{{gray25}}",
+		"editor.selectionBackground": 						"{{gray30}}",
 		"editorWhitespace.foreground": 						"{{gray40}}",
 		"editorCursor.foreground": 								"{{gray80}}",
 		"editorError.foreground": 								"{{red1}}",
 		"editorWarning.foreground": 							"{{yellow1}}",
-		"editorInfo.foreground": 									"{{teal1}}",
+		"editorInfo.foreground": 									"{{blue1}}",
 		"editorHint.foreground": 									"{{green1}}",
 		"editorUnicodeHighlight.border":					"{{gray40}}",	
 		"editorGutter.addedBackground": 					"{{green2}}",
@@ -294,8 +307,8 @@
     "editorIndentGuide.activeBackground":     "{{gray30}}",
     "editorRuler.foreground":                 "{{gray40}}",
     "editorCodeLens.foreground":              "{{gray60}}90",
-    "editorBracketMatch.border":              "{{gray20}}",
-    "editorBracketMatch.background":          "{{gray20}}",
+    "editorBracketMatch.border":              "{{gray30}}",
+    "editorBracketMatch.background":          "{{gray30}}",
     "editorHoverWidget.background":           "{{gray10}}",
     "editorHoverWidget.border":               "{{gray30}}",
 
@@ -318,25 +331,29 @@
     "editorSuggestWidget.background":        "{{gray10}}",
     "editorSuggestWidget.foreground":        "{{gray80}}",
     "editorSuggestWidget.highlightForeground": "{{blue1}}",
-    "editorSuggestWidget.selectedBackground":  "{{gray25}}",
+    "editorSuggestWidget.selectedBackground":  "{{gray30}}",
     "editorSuggestWidget.border":            "{{gray30}}",
 
     /* Peek view
 
-       e.g. error within the Editor
+       e.g. error within the Editor, openining definition of f() (F12)
     */
-    "peekView.border":                       "{{gray30}}",
-    "peekViewEditor.background":             "{{gray10}}",
-    "peekViewEditorGutter.background":       "{{gray20}}50",
-    "peekViewEditor.matchHighlightBackground": "{{blue1}}30",
-    "peekViewResult.background":             "{{gray20}}50",
-    "peekViewResult.fileForeground":         "{{gray80}}",
-    "peekViewResult.matchHighlightBackground": "{{blue1}}30",
-    "peekViewResult.selectionBackground":    "{{blue1}}30",
-    "peekViewResult.selectionForeground":    "{{blue1}}30",
-    "peekViewTitle.background":              "{{gray10}}",
-    "peekViewTitleDescription.foreground":   "{{gray70}}",
-    "peekViewTitleLabel.foreground":         "{{gray80}}",
+    "peekView.border":                         "{{gray30}}",
+    "peekViewEditor.background":               "{{gray10}}",
+    "peekViewEditorGutter.background":         "{{gray10}}",
+    "peekViewEditor.matchHighlightBackground": "{{gray30}}",
+    "peekViewEditor.matchHighlightBorder":     null,
+    "peekViewResult.background":               "{{gray20}}",
+    "peekViewResult.fileForeground":           "{{gray20}}",
+    "peekViewResult.lineForeground":           "{{gray70}}",
+    "peekViewResult.matchHighlightBackground": "{{gray30}}",
+    "peekViewResult.selectionBackground":      "{{gray30}}",
+    "peekViewResult.selectionForeground":      "{{gray80}}",
+    "peekViewTitle.background":                "{{gray10}}",
+    "peekViewTitleDescription.foreground":     "{{gray60}}",
+    "peekViewTitleLabel.foreground":           "{{gray80}}",
+
+
 
     /* Merge conflicts
     */
@@ -372,6 +389,15 @@
     "terminal.dropBackground":               "{{gray40}}75",
     "terminal.selectionBackground":          "{{gray40}}",
     "terminal.tab.activeBorder":             "{{gray80}}",
+    "terminalCursor.background":             "{{gray20}}",
+    "terminalCursor.foreground":             "{{gray80}}",
+    "terminalCommandDecoration.defaultBackground": "{{gray20}}",
+    "terminalCommandDecoration.successBackground": "{{green1}}",
+    "terminalCommandDecoration.errorBackground":   "{{red1}}",
+
+
+
+
 
     /* Notification
        https://code.visualstudio.com/api/references/theme-color#notification-colors
@@ -1090,15 +1116,6 @@
     },
     {
 			"scope": [
-        "punctuation.definition.list.begin.markdown",
-        "markup.quote.markdown",
-			],
-			"settings": {
-        "foreground": "{{gray50}}"
-			}
-		},
-    {
-			"scope": [
         "text.markdown.notes.tag",
 			],
 			"settings": {
@@ -1107,6 +1124,8 @@
 		},
     {
       "scope": [
+        "punctuation.definition.list.begin.markdown",
+        "markup.quote.markdown",
         "punctuation.definition.heading.markdown",
 				"punctuation.definition.wiki-link",
 				"punctuation.definition.string.begin.markdown",
@@ -1223,7 +1242,7 @@
         "punctuation.definition.tag"
       ],
       "settings": {
-        "foreground": "{{gray50}}"
+        "foreground": "{{gray40}}"
       }
     },
     {

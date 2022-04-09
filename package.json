@@ -3,10 +3,10 @@
 	"displayName": "B theme",
 	"description": "Dark warm theme for VS Code.",
 	"publisher": "brano",
-	"version": "0.1.3",
+	"version": "0.1.4",
 	"icon": "assets/b-theme-icon.png",
 	"engines": {
-		"vscode": "^1.63.0"
+		"vscode": "^1.66.0"
 	},
 	"categories": [
 		"Themes"
@@ -31,6 +31,6 @@
 		"isPreReleaseVersion": false
 	},
 	"devDependencies": {
-		"vsce": "^2.6.7"
+		"vsce": "^2.7.0"
 	}
 }
