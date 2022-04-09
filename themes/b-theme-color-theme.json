@@ -18,10 +18,6 @@
     "textLink.activeForeground":              "#6792b8",
     "debugToolBar.background":                "#1d1b1b",
 
-    "problemsWarningIcon.foreground": "#ff0000",
-    		"testing.iconQueued": "#ff0000",
-        	// "notificationsWarningIcon.foreground": "#de935f",
-
     /* Button 
 			 https://code.visualstudio.com/api/references/theme-color#button-control
 		*/
@@ -67,9 +63,9 @@
 		/* Scrollbar
 		*/
 		"scrollbar.shadow":									  	  "#121011",
-		"scrollbarSlider.background": 			  		"#342f3060",
+		"scrollbarSlider.background": 			  		"#3e383945",
 		"scrollbarSlider.activeBackground":	  		"#3e383990",
-		"scrollbarSlider.hoverBackground": 		  	"#342f3090",
+		"scrollbarSlider.hoverBackground": 		  	"#3e383990",
 
 
     /* Badge
@@ -104,7 +100,7 @@
     "list.activeSelectionBackground": 				"#292525",
 		"list.activeSelectionForeground": 				"#d3c2c5",
 		"list.errorForeground": 									"#e56378",
-		"list.focusBackground": 									"#292525",
+		"list.focusBackground": 									"#3e3839",
 		"list.focusForeground": 									"#d3c2c5",
 		"list.hoverBackground": 									"#292525",
 		"list.inactiveSelectionBackground": 			"#292525",
@@ -114,7 +110,7 @@
 		"list.dropBackground": 										"#59505275",
 		"list.filterMatchBackground": 						"#595052",
 		"list.focusHighlightForeground": 					"#81add5",
-		"list.focusOutline": 											"#9a8a8d",
+		"list.focusOutline": 											null,
 		"list.highlightForeground": 							"#81add5",
 		"list.invalidItemForeground": 						"#c63d57",
 		"list.hoverForeground":                   "#d3c2c5",
@@ -131,7 +127,14 @@
 		"quickInput.background": 									"#1d1b1b",
 		"quickInput.foreground": 									"#b6a4a7",
 		"pickerGroup.foreground": 								"#b6a4a7",
-		"pickerGroup.border": 										"#3e3839",    
+		"pickerGroup.border": 										"#3e3839",   
+    "quickInputTitle.background":             "#1d1b1b",
+    "quickInputList.focusBackground":         "#3e3839",
+    "quickInputList.focusForeground":         "#d3c2c5",
+    "quickInputList.focusIconForeground":     "#9a8a8d",
+    
+    
+
 
 
     /* Keybinding labels
@@ -275,6 +278,7 @@
 
        Sidenotes
        editorInfo.foreground is also used as icon color in "Do you trust..." dialog
+       editorWarning.foreground is used for warning squiggles. Also used as warning color by Github Co-pilot VS Code plugin.
        
 		*/
 		"editor.background": 											"#1d1b1b",
@@ -282,7 +286,7 @@
     "editorLineNumber.foreground":            "#595052",
 		"editorLink.activeForeground": 		  			"#d3c2c5",
 		"editor.lineHighlightBackground": 				"#292525",
-		"editor.selectionBackground": 						"#342f30",
+		"editor.selectionBackground": 						"#3e3839",
 		"editorWhitespace.foreground": 						"#595052",
 		"editorCursor.foreground": 								"#d3c2c5",
 		"editorError.foreground": 								"#c63d57",
@@ -303,8 +307,8 @@
     "editorIndentGuide.activeBackground":     "#3e3839",
     "editorRuler.foreground":                 "#595052",
     "editorCodeLens.foreground":              "#9a8a8d90",
-    "editorBracketMatch.border":              "#292525",
-    "editorBracketMatch.background":          "#292525",
+    "editorBracketMatch.border":              "#3e3839",
+    "editorBracketMatch.background":          "#3e3839",
     "editorHoverWidget.background":           "#1d1b1b",
     "editorHoverWidget.border":               "#3e3839",
 
@@ -327,25 +331,29 @@
     "editorSuggestWidget.background":        "#1d1b1b",
     "editorSuggestWidget.foreground":        "#d3c2c5",
     "editorSuggestWidget.highlightForeground": "#6792b8",
-    "editorSuggestWidget.selectedBackground":  "#342f30",
+    "editorSuggestWidget.selectedBackground":  "#3e3839",
     "editorSuggestWidget.border":            "#3e3839",
 
     /* Peek view
 
-       e.g. error within the Editor
+       e.g. error within the Editor, openining definition of f() (F12)
     */
-    "peekView.border":                       "#3e3839",
-    "peekViewEditor.background":             "#1d1b1b",
-    "peekViewEditorGutter.background":       "#29252550",
-    "peekViewEditor.matchHighlightBackground": "#6792b830",
-    "peekViewResult.background":             "#29252550",
-    "peekViewResult.fileForeground":         "#d3c2c5",
-    "peekViewResult.matchHighlightBackground": "#6792b830",
-    "peekViewResult.selectionBackground":    "#6792b830",
-    "peekViewResult.selectionForeground":    "#6792b830",
-    "peekViewTitle.background":              "#1d1b1b",
-    "peekViewTitleDescription.foreground":   "#b6a4a7",
-    "peekViewTitleLabel.foreground":         "#d3c2c5",
+    "peekView.border":                         "#3e3839",
+    "peekViewEditor.background":               "#1d1b1b",
+    "peekViewEditorGutter.background":         "#1d1b1b",
+    "peekViewEditor.matchHighlightBackground": "#3e3839",
+    "peekViewEditor.matchHighlightBorder":     null,
+    "peekViewResult.background":               "#292525",
+    "peekViewResult.fileForeground":           "#292525",
+    "peekViewResult.lineForeground":           "#b6a4a7",
+    "peekViewResult.matchHighlightBackground": "#3e3839",
+    "peekViewResult.selectionBackground":      "#3e3839",
+    "peekViewResult.selectionForeground":      "#d3c2c5",
+    "peekViewTitle.background":                "#1d1b1b",
+    "peekViewTitleDescription.foreground":     "#9a8a8d",
+    "peekViewTitleLabel.foreground":           "#d3c2c5",
+
+
 
     /* Merge conflicts
     */
@@ -381,6 +389,15 @@
     "terminal.dropBackground":               "#59505275",
     "terminal.selectionBackground":          "#595052",
     "terminal.tab.activeBorder":             "#d3c2c5",
+    "terminalCursor.background":             "#292525",
+    "terminalCursor.foreground":             "#d3c2c5",
+    "terminalCommandDecoration.defaultBackground": "#292525",
+    "terminalCommandDecoration.successBackground": "#849552",
+    "terminalCommandDecoration.errorBackground":   "#c63d57",
+
+
+
+
 
     /* Notification
        https://code.visualstudio.com/api/references/theme-color#notification-colors
@@ -394,7 +411,7 @@
     "notifications.border":                  "#3e3839",
     "notificationLink.foreground":           "#81add5",
     "notificationsErrorIcon.foreground":     "#e56378",
-    "notificationsWarningIcon.foreground":   "#c63d57",
+    "notificationsWarningIcon.foreground":   "#ebc075",
     "notificationsInfoIcon.foreground":      "#81add5",
 
     /* Extensions
