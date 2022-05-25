@@ -307,10 +307,39 @@
     "editorIndentGuide.activeBackground":     "#3e3839",
     "editorRuler.foreground":                 "#595052",
     "editorCodeLens.foreground":              "#9a8a8d90",
-    "editorBracketMatch.border":              "#3e3839",
-    "editorBracketMatch.background":          "#3e3839",
     "editorHoverWidget.background":           "#1d1b1b",
     "editorHoverWidget.border":               "#3e3839",
+    
+    /* Bracket matching and bracket pair colorization
+
+    Bracket pair coloriztion introduced in VS Code v1.67:
+    https://code.visualstudio.com/updates/v1_67#_editor   
+		*/
+    
+    "editorBracketMatch.background":          "#3e3839",
+    "editorBracketMatch.border":              "#3e3839",
+    
+ 
+    "editorBracketHighlight.foreground1":     "#786d6f",
+    "editorBracketHighlight.foreground2":     "#e56378",
+    "editorBracketHighlight.foreground3":     "#e2976a",
+    "editorBracketHighlight.foreground4":     "#ebc075",
+    "editorBracketHighlight.foreground5":     "#9cb162",
+    "editorBracketHighlight.foreground6":     "#81add5",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#c63d57",
+    "editorBracketPairGuide.activeBackground1": null,
+    "editorBracketPairGuide.activeBackground2": null,
+    "editorBracketPairGuide.activeBackground3": null,
+    "editorBracketPairGuide.activeBackground4": null,
+    "editorBracketPairGuide.activeBackground5": null,
+    "editorBracketPairGuide.activeBackground6": null,
+    "editorBracketPairGuide.background1":     null,
+    "editorBracketPairGuide.background2":     null,
+    "editorBracketPairGuide.background3":     null,
+    "editorBracketPairGuide.background4":     null,
+    "editorBracketPairGuide.background5":     null,
+    "editorBracketPairGuide.background6":     null,
+
 
 
 		/* Diff Editor
@@ -1179,6 +1208,15 @@
       ],
       "settings": {
         "foreground": "#9cb162"
+      }
+    },
+    {
+      "name": "JSON Level 4",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#81add5"
       }
     },
     // CSS ----------------------------------------
