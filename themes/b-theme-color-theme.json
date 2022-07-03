@@ -423,7 +423,8 @@
     "terminalCommandDecoration.defaultBackground": "#292525",
     "terminalCommandDecoration.successBackground": "#849552",
     "terminalCommandDecoration.errorBackground":   "#c63d57",
-
+    "terminal.findMatchBackground":                "#e5637840",
+    "terminal.findMatchHighlightBackground":       "#786d6f60",
 
 
 
