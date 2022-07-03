@@ -16,7 +16,8 @@ Security
 ### Added 
 - `terminal.findMatchBackground` and `terminal.findMatchHighlightBackground` to for background results in terminal (released in [VS Code 1.68](https://code.visualstudio.com/updates/v1_68#_terminal))
 
-
+### Changed
+- `keyword.control.mermaid` to `violet2`
 
 ## [0.1.4] — 2022-04-10
 

@@ -302,7 +302,7 @@
     "editor.selectionHighlightBackground":    "#ebc07530",
     "editor.hoverHighlightBackground":        "#e2976a30",
     "editor.findMatchBackground":             "#e5637840",
-    "editor.findRangeHighlightBackground":    "#59505260",
+    "editor.findRangeHighlightBackground":    "#786d6f60",
     "editor.lineHighlightBorder":              null,
     "editorIndentGuide.activeBackground":     "#3e3839",
     "editorRuler.foreground":                 "#595052",
@@ -1079,7 +1079,10 @@
       }
     },
     {
-      "scope": "markup.underline.link",
+      "scope": [
+        "markup.underline.link",
+        "keyword.control.mermaid"
+      ],
       "settings": {
         "foreground": "#9185de"
       }
