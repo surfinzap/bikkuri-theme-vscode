@@ -15,6 +15,7 @@ Security
 
 ### Added 
 - `terminal.findMatchBackground` and `terminal.findMatchHighlightBackground` to for background results in terminal (released in [VS Code 1.68](https://code.visualstudio.com/updates/v1_68#_terminal))
+- bracket pair colorization as introduced in [VS Code 1.67](https://code.visualstudio.com/updates/v1_67#_editor)
 
 ### Changed
 - `keyword.control.mermaid` to `violet2`
