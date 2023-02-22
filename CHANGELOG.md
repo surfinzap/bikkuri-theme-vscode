@@ -20,6 +20,7 @@ Security
 ### Changed
 - `keyword.control.mermaid` to `violet2`
 - Consolidated punctuation and markdown punctuation to gray40
+- Increased contrast for scrollbarSlider.background
 
 
 
