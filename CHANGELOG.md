@@ -19,6 +19,9 @@ Security
 
 ### Changed
 - `keyword.control.mermaid` to `violet2`
+- Consolidated punctuation and markdown punctuation to gray40
+
+
 
 ## [0.1.4] — 2022-04-10
 
