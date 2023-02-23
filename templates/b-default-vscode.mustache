@@ -536,7 +536,7 @@
     {
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "{{yellow2}}"
+        "foreground": "{{blue2}}"
       }
     },
     {
@@ -545,7 +545,7 @@
         "punctuation.tag"
       ],
       "settings": {
-        "foreground": "{{teal2}}"
+        "foreground": "{{green2}}"
       }
     },
     {
@@ -608,7 +608,7 @@
     {
       "scope": "string",
       "settings": {
-        "foreground": "{{green2}}"
+        "foreground": "{{violet2}}"
       }
     },
     {
@@ -830,7 +830,9 @@
     },
     {
       "scope": [
-        "punctuation"
+        "punctuation",
+        "attribute_value",
+        "meta.tag.other"
       ],
       "settings": {
         "foreground": "{{gray40}}"
@@ -1271,21 +1273,21 @@
         "foreground": "{{orange1}}"
       }
     },
-    {
-      "scope": [
-        "entity.name.tag.css"
-      ],
-      "settings": {
-        "fontStyle": "normal"
-      }
-    },
     // HTML / XML ----------------------------------------
     {
       "scope": [
-        "punctuation.definition.tag"
+        "punctuation.definition.tag",
       ],
       "settings": {
         "foreground": "{{gray40}}"
+      }
+    },
+    {
+      "scope": [
+        "text.html punctuation.tag"
+      ],
+      "settings": {
+        "foreground": "{{red2}}",
       }
     },
     {

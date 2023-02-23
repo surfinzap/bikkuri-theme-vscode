@@ -18,6 +18,7 @@ Security
 
 ### Changed
 - comment style in pug syntax
+- syntax highlighting for HTML
 
 
 
