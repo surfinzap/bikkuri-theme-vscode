@@ -16,6 +16,11 @@ Security
 ### Added 
 - code samples to review syntax in a few languages
 
+### Changed
+- comment style in pug syntax
+
+
+
 
 ## [0.1.5] — 2023-02-22
 
