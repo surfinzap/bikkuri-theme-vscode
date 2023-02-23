@@ -13,6 +13,8 @@ Security
 
 ## [0.1.6] — 
 
+### Added 
+- code samples to review syntax in a few languages
 
 
 ## [0.1.5] — 2023-02-22
