@@ -17,8 +17,8 @@ Security
 - code samples to review syntax in a few languages
 
 ### Changed
-- comment style in pug syntax
 - syntax highlighting for HTML
+- syntax highlighting for pug
 
 
 
