@@ -19,6 +19,7 @@ Security
 ### Changed
 - syntax highlighting for HTML
 - syntax highlighting for pug
+- syntax highlighting for Mermaid
 
 
 
