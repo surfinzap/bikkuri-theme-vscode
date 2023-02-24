@@ -46,7 +46,7 @@ This is some more text. You can also create [links](https://www.example.com) and
 And here’s some inline code: `print("Hello, World!")`
 
 ```mermaid
-graph TD
+graph TD %% Comment 
 OUTCOME(Desired Outcome) 
 OUTCOME--> OPP1(Opportunity 1) & OPP2(Opportunity 2) & OPP3(Opportunity 3)
 OPP1 --> IDEA1(Solution idea 1) & IDEA2(Solution idea 2) & IDEA3(...)
@@ -90,4 +90,20 @@ class Dog {
 }
 
 Animal <|-- Dog
+```
+
+```mermaid
+gantt
+  dateFormat  YYYY-MM-DD
+  title Example Gantt Chart
+
+  section Section 1
+  Task 1         :a1, 2023-03-01, 7d
+  Task 2         :a2, after a1, 4d
+  Task 3         :a3, after a2, 5d
+
+  section Section 2
+  Task 4         :b1, 2023-03-08, 3d
+  Task 5         :b2, after b1, 6d
+  Task 6         :b3, after b2, 4d
 ```
