@@ -28,3 +28,7 @@ button {
 button:hover {
   background-color: #005c99; /* button background color on hover */
 }
+
+.class:hover {
+  background-color: #005c99; /* button background color on hover */
+}
