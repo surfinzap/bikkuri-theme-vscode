@@ -14,7 +14,7 @@ let generator = 'theme-generator.py'
 
 gulp.task('watch', function() {
   watch(watchPaths, function() {
-    console.log('Regenarating theme...');
+    console.log('Regenerating theme...');
     const python = spawn('python', [generator]);
 
     // listens for data events emitted by the standard output stream (stdout) of the child process spawned by the spawn function.
