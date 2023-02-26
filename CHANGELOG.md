@@ -11,6 +11,20 @@ Removed
 Fixed
 Security
 
+## [0.2.0] — 2023-02-26
+
+### Added 
+- code samples to review syntax in a few languages
+
+### Changed
+- syntax highlighting for HTML
+- syntax highlighting for pug
+- syntax highlighting for Mermaid
+- syntax highlighting for CSS/SCSS
+
+
+
+
 ## [0.1.5] — 2023-02-22
 
 ### Added 

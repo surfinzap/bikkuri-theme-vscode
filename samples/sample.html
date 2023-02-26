@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Sample HTML Code</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="Sample HTML Code">
+  <link rel="stylesheet" href="css/styles.css">
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <h1>Header 1</h1>
+  <p>This is a paragraph.</p>
+  <ul>
+    <li>Unordered List Item 1</li>
+    <li>Unordered List Item 2</li>
+    <li>Unordered List Item 3</li>
+  </ul>
+  <a href="https://www.example.com">Link</a>
+  <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password"><br><br>
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select>
+  </form>
+  <div style="background-color: #ccc; padding: 10px;">This is a div element with a background color and padding.</div>
+  <script src="js/scripts.js"></script>
+  <script>
+    for(var i=1; i<=4; i++) {
+        alert("Counting "+i+" samples.")
+    }
+
+    class Person {
+      constructor(name, age) {
+        this.name = name;
+        this.age = age;
+      }
+      
+      greet() {
+        console.log("Hello, my name is " + this.name + " and I am " + this.age + " years old.");
+      }
+    }
+  </script>
+</body>
+</html>

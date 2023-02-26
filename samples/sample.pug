@@ -1,0 +1,48 @@
+meta(charset="utf-8")
+title Sample HTML Code
+meta(name="description", content="The HTML5 Herald")
+meta(name="author", content="Sample HTML Code")
+link(rel="stylesheet", href="css/styles.css")
+//
+  [if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]
+h1 Header 1
+p This is a paragraph.
+ul
+  li Unordered List Item 1
+  li Unordered List Item 2
+  li Unordered List Item 3
+a(href="https://www.example.com") Link
+img(src="https://via.placeholder.com/150", alt="Placeholder Image")
+form
+  label.class(for="name") Name:
+  input#name(type="text", name="name")
+  label(for="email") Email:
+  input#email(type="email", name="email")
+  label(for="password") Password:
+  input#password(type="password", name="password")
+  br
+  br
+  label(for="gender") Gender:
+  select#gender(name="gender")
+    option(value="male") Male
+    option(value="female") Female
+    option(value="other") Other
+.class-wrapper(style="background-color: #ccc; padding: 10px;") This is a div element with a background color and padding.
+script(src="js/scripts.js")
+script.
+  for(var i=1; i<=4; i++) {
+    alert("Counting "+i+" samples.")
+  }
+  
+  class Person {
+    constructor(name, age) {
+      this.name = name;
+      this.age = age;
+    }
+    
+    greet() {
+      console.log("Hello, my name is " + this.name + " and I am " + this.age + " years old.");
+    }
+  }

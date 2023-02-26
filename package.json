@@ -3,7 +3,7 @@
 	"displayName": "B theme",
 	"description": "Dark warm theme for VS Code.",
 	"publisher": "brano",
-	"version": "0.1.5",
+	"version": "0.2.0",
 	"icon": "assets/b-theme-icon.png",
 	"engines": {
 		"vscode": "^1.75.0"
@@ -31,6 +31,9 @@
 		"isPreReleaseVersion": false
 	},
 	"devDependencies": {
+		"child_process": "^1.0.2",
+		"gulp": "^4.0.2",
+		"gulp-watch": "^5.0.1",
 		"vsce": "^2.7.0"
 	}
 }
