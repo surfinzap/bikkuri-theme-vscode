@@ -11,7 +11,7 @@ Removed
 Fixed
 Security
 
-## [0.1.6] — 
+## [0.2.0] — 2023-02-26
 
 ### Added 
 - code samples to review syntax in a few languages
