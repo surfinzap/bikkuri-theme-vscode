@@ -6,9 +6,11 @@
     /* Base colors
      https://code.visualstudio.com/api/references/theme-color#status-bar-colors
     */
+    // focusBorder has very wide scope
     "focusBorder":                            "{{gray20}}",
     "foreground":                             "{{gray80}}",
     "widget.shadow":                          "{{black}}",
+    // text selections for input fields or text areas, does not apply to selections within the editor and the terminal
     "selection.background":                   "{{gray40}}",
     "descriptionForeground":                  "{{gray80}}",
     "errorForeground":                        "{{red2}}",
@@ -45,13 +47,14 @@
     /* Input
        https://code.visualstudio.com/api/references/theme-color#input-control 
     */	
-    "input.background":                       "{{gray30}}",
-    "input.border":                            null,
+    "input.background":                       "{{gray20}}",
+    "input.border":                           "{{gray30}}",
     "input.foreground":                       "{{gray80}}",
     "input.placeholderForeground":            "{{gray80}}80",
     "inputOption.activeBackground":           "{{gray70}}",
     "inputOption.hoverBackground":            "{{gray40}}",  
     "inputOption.activeForeground":         	"{{gray20}}",
+    // Border color of activated options in input fields.
     "inputOption.activeBorder":					    	 null,
     "inputValidation.errorBackground":        "{{gray20}}",
     "inputValidation.errorBorder":            "{{red2}}",
@@ -1151,6 +1154,8 @@
         "foreground": "{{green2}}"
       }
     },
+
+
     {
       "scope": [
         "text.markdown.notes.tag",
