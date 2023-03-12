@@ -6,8 +6,8 @@
     /* Base colors
      https://code.visualstudio.com/api/references/theme-color#status-bar-colors
     */
-    // focusBorder has very wide scope
-    "focusBorder":                            "{{gray20}}",
+    // focusBorder has a very wide scope
+    "focusBorder":                            "{{gray10}}",
     "foreground":                             "{{gray80}}",
     "widget.shadow":                          "{{black}}",
     // text selections for input fields or text areas, does not apply to selections within the editor and the terminal
@@ -288,25 +288,48 @@
     "editor.foreground": 											"{{gray80}}",
     "editorLineNumber.foreground":            "{{gray40}}",
     "editorLink.activeForeground": 		  			"{{gray80}}",
+
     "editor.lineHighlightBackground": 				"{{gray20}}",
+    "editor.lineHighlightBorder":              null,
     "editor.selectionBackground": 						"{{gray30}}",
+    // selectionForeground does not seem to work
+    // "editor.selectionForeground":             "{{gray70}}",
+    "editor.inactiveSelectionBackground": 		"{{gray20}}",
+    // same content as selection
+    "editor.selectionHighlightBackground":    null,
+    "editor.selectionHighlightBorder":        "{{blue2}}",
+    // current match
+    "editor.findMatchBackground":             "{{gray10}}",
+    "editor.findMatchBorder":                 "{{teal2}}",
+    // other matches
+    "editor.findMatchHighlightBackground": 		"{{gray10}}",
+    "editor.findMatchHighlightBorder":        "{{violet2}}",
+    // selection range when "Find in Selection" is applied
+    "editor.findRangeHighlightBackground":    "{{gray30}}40", 
+    "editor.findRangeHighlightBorder":        null,
+    //background selection on hover
+    "editor.hoverHighlightBackground":        "{{gray30}}",
+    // highlighting variables 
+    "editor.wordHighlightStrongBackground":  "{{gray10}}",
+    "editor.wordHighlightStrongBorder":      "{{blue2}}",
+    "editor.wordHighlightBackground":        "{{gray10}}",
+    "editor.wordHighlightBorder":            "{{violet2}}",
+    "editor.wordHighlightTextBackground":    null,
+    "editor.wordHighlightTextBorder":        null,
+    
+    "editorUnicodeHighlight.border":					"{{gray30}}",	
+    "editorUnicodeHighlight.background":			"{{gray10}}",	
+
     "editorWhitespace.foreground": 						"{{gray40}}",
     "editorCursor.foreground": 								"{{gray80}}",
     "editorError.foreground": 								"{{red1}}",
     "editorWarning.foreground": 							"{{yellow1}}",
-    "editorInfo.foreground": 									"{{blue1}}",
     "editorHint.foreground": 									"{{green1}}",
-    "editorUnicodeHighlight.border":					"{{gray40}}",	
+    "editorInfo.foreground": 									"{{blue1}}",
     "editorGutter.addedBackground": 					"{{green2}}",
     "editorGutter.deletedBackground": 				"{{red2}}",
     "editorGutter.modifiedBackground": 				"{{yellow2}}",
     "editorIndentGuide.background": 					"{{gray20}}",
-    "editor.findMatchHighlightBackground": 		"{{yellow1}}30",
-    "editor.selectionHighlightBackground":    "{{yellow2}}30",
-    "editor.hoverHighlightBackground":        "{{orange2}}30",
-    "editor.findMatchBackground":             "{{red2}}40",
-    "editor.findRangeHighlightBackground":    "{{gray50}}60",
-    "editor.lineHighlightBorder":              null,
     "editorIndentGuide.activeBackground":     "{{gray30}}",
     "editorRuler.foreground":                 "{{gray40}}",
     "editorCodeLens.foreground":              "{{gray60}}90",
@@ -315,7 +338,7 @@
     
     /* Bracket matching and bracket pair colorization
 
-    Bracket pair coloriztion introduced in VS Code v1.67:
+    Bracket pair colorization introduced in VS Code v1.67:
     https://code.visualstudio.com/updates/v1_67#_editor   
     */
     
