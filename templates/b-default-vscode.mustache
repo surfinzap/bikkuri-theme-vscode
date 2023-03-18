@@ -205,12 +205,9 @@
     "editorOverviewRuler.border":                   "{{gray10}}",
     "editorOverviewRuler.addedForeground":           "{{green1}}90",
     "editorOverviewRuler.bracketMatchForeground":   "{{gray50}}",
-    "editorOverviewRuler.commonContentForeground":   "{{gray50}}",
-    "editorOverviewRuler.currentContentForeground": "{{blue1}}90",
     "editorOverviewRuler.deletedForeground":         "{{red1}}90",
     "editorOverviewRuler.errorForeground":           "{{red1}}",
     "editorOverviewRuler.findMatchForeground":       "{{yellow1}}",
-    "editorOverviewRuler.incomingContentForeground":"{{blue1}}90",
     "editorOverviewRuler.infoForeground":            "{{blue1}}",
     "editorOverviewRuler.modifiedForeground":       "{{yellow1}}",
     "editorOverviewRuler.rangeHighlightForeground": "{{blue1}}",
@@ -218,6 +215,7 @@
     "editorOverviewRuler.warningForeground":         "{{yellow1}}",
     "editorOverviewRuler.wordHighlightForeground":   "{{gray50}}",
     "editorOverviewRuler.wordHighlightStrongForeground": "{{gray50}}",
+    //editorOverviewRuler for merge conflicts is located with merge conflicts
   
     
 
@@ -371,19 +369,45 @@
     /* Diff Editor
        https://code.visualstudio.com/api/references/theme-color#diff-editor-colors
     */
-    "diffEditor.diagonalFill":                   "{{gray30}}",
-    "diffEditor.insertedTextBackground":         "{{green2}}45",
-    "diffEditor.removedTextBackground":          "{{red2}}45",
-    "diffEditor.insertedTextBorder":              null, //it impacts line as well
-    "diffEditor.removedTextBorder":               null,
-    "diffEditor.border":                          null, //border between diffs
-
-    "diffEditor.insertedLineBackground":        "{{green2}}30",
-    "diffEditor.removedLineBackground":         "{{red2}}30",
-    "diffEditorGutter.insertedLineBackground":  "{{green2}}15",
-    "diffEditorGutter.removedLineBackground":   "{{red2}}15",
-    "diffEditorOverview.insertedForeground":    "{{green2}}70",
-    "diffEditorOverview.removedForeground":     "{{red2}}70",
+    "diffEditor.diagonalFill":                 "{{gray30}}",
+    "diffEditor.insertedTextBackground":       "{{green1}}40",
+    "diffEditor.removedTextBackground":        "{{red1}}40",
+    "diffEditor.insertedTextBorder":           null,             //it impacts line as well
+    "diffEditor.removedTextBorder":            null,
+    "diffEditor.border":                       null,             //border between diffs
+    "diffEditor.insertedLineBackground":       "{{green1}}30",
+    "diffEditor.removedLineBackground":        "{{red1}}30",
+    "diffEditorGutter.insertedLineBackground": "{{green1}}15",
+    "diffEditorGutter.removedLineBackground":  "{{red1}}15",
+    "diffEditorOverview.insertedForeground":   "{{green1}}70",
+    "diffEditorOverview.removedForeground":    "{{red1}}70",
+    
+    
+    /* Merge conflicts, Merge editor
+     */
+    "merge.border":                                        null,
+    "merge.currentHeaderBackground":                       "{{violet1}}30",
+    "merge.currentContentBackground":                      "{{violet1}}15",
+    "merge.incomingHeaderBackground":                      "{{teal1}}30",
+    "merge.incomingContentBackground":                     "{{teal1}}15",
+    "merge.commonContentBackground":                       null,
+    "merge.commonHeaderBackground":                        null,
+    "editorOverviewRuler.currentContentForeground":        "{{violet1}}70",
+    "editorOverviewRuler.incomingContentForeground":       "{{teal1}}30",
+    "editorOverviewRuler.commonContentForeground":         null,
+    "mergeEditor.change.background":                       "{{gray10}}",
+    "mergeEditor.change.word.background":                  "{{gray20}}",
+    "mergeEditor.conflict.unhandledUnfocused.border":      "{{red2}}",
+    "mergeEditor.conflict.unhandledFocused.border":        "{{red2}}",
+    "mergeEditor.conflict.handledUnfocused.border":        "{{green2}}",
+    "mergeEditor.conflict.handledFocused.border":          "{{green2}}",
+    "mergeEditor.conflict.unhandled.minimapOverViewRuler": "{{red2}}",
+    "mergeEditor.conflict.handled.minimapOverViewRuler":   "{{green2}}",
+    "mergeEditor.conflictingLines.background":             "{{gray10}}",
+    "mergeEditor.changeBase.background":                   "{{gray10}}00",    // not tested
+    "mergeEditor.changeBase.word.background":              "{{gray10}}00",    // not tested
+    "mergeEditor.conflict.input1.background":              "{{gray10}}00",    // not tested
+    "mergeEditor.conflict.input2.background":              "{{gray10}}00",    // not tested
 
 
     /* Widget
@@ -416,14 +440,6 @@
     "peekViewTitleLabel.foreground":           "{{gray80}}",
 
 
-
-    /* Merge conflicts
-    */
-    "merge.currentHeaderBackground":         "{{blue1}}40",
-    "merge.currentContentBackground":        "{{blue1}}20",
-    "merge.incomingHeaderBackground":        "{{teal1}}40",
-    "merge.incomingContentBackground":       "{{teal1}}20",
-    "merge.border":                          "{{gray10}}00",
     
 
 
