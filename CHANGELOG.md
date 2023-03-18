@@ -15,6 +15,10 @@ Security
 
 ## [0.2.1] — 2023-
 
+### Added
+- Sticky scroll hover
+
+
 ### Changed
 - Improved contrast for text highlights (search results, find/match, variables)
 - Toned down a highlight of Unicode characters
