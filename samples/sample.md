@@ -45,6 +45,8 @@ This is some more text. You can also create [links](https://www.example.com) and
 
 And here’s some inline code: `print("Hello, World!")`
 
+And here’s some ~~strikethrough~~ text.
+
 ```mermaid
 graph TD %% Comment 
 OUTCOME(Desired Outcome) 

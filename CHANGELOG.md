@@ -11,6 +11,8 @@ Removed
 Fixed
 Security
 
+
+
 ## [0.2.1] — 2023-
 
 ### Changed
@@ -22,6 +24,7 @@ Security
 
 ### Added 
 - code samples to review syntax in a few languages
+- markdown strikethrough text style
 
 ### Changed
 - syntax highlighting for HTML
