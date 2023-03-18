@@ -13,18 +13,19 @@ Security
 
 
 
-## [0.2.1] — 2023-
+## [0.2.1] — 2023-03-18
 
 ### Added
 - Sticky scroll hover
 
-
 ### Changed
 - Improved contrast for text highlights (search results, find/match, variables)
 - Toned down a highlight of Unicode characters
-- Diff Editor styles
-- Merge Editor styles
-- Hide `inputOption.activeBorder`
+- Improved Diff Editor styles
+- Improved Merge Editor styles
+- Hid `inputOption.activeBorder`
+
+
 
 
 ## [0.2.0] — 2023-02-26
