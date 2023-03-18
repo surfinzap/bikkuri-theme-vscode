@@ -11,10 +11,28 @@ Removed
 Fixed
 Security
 
+
+
+## [0.2.1] — 2023-03-18
+
+### Added
+- Sticky scroll hover
+
+### Changed
+- Improved contrast for text highlights (search results, find/match, variables)
+- Toned down a highlight of Unicode characters
+- Improved Diff Editor styles
+- Improved Merge Editor styles
+- Hid `inputOption.activeBorder`
+
+
+
+
 ## [0.2.0] — 2023-02-26
 
 ### Added 
 - code samples to review syntax in a few languages
+- markdown strikethrough text style
 
 ### Changed
 - syntax highlighting for HTML
