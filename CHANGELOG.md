@@ -20,6 +20,7 @@ Security
 - Toned down a highlight of Unicode characters
 - Diff Editor styles
 - Merge Editor styles
+- Hide `inputOption.activeBorder`
 
 
 ## [0.2.0] — 2023-02-26
