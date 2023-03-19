@@ -13,6 +13,16 @@ Security
 
 
 
+## [0.2.2] — 
+
+### Changed
+- Refactored tokens, schemes and how template is generated
+- 
+
+
+
+
+
 ## [0.2.1] — 2023-03-18
 
 ### Added

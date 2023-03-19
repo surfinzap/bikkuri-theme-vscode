@@ -1,0 +1,80 @@
+{
+  "name" : "B theme (dark warm vivid)",
+  "type" : "dark",
+  "tint" : {
+    "10" : "{{ gray10 }}",
+    "20" : "{{ gray20 }}",
+    "30" : "{{ gray30 }}",
+    "40" : "{{ gray40 }}",
+    "50" : "{{ gray50 }}",
+    "60" : "{{ gray60 }}",
+    "70" : "{{ gray70 }}",
+    "80" : "{{ gray80 }}",
+    "90" : "{{ gray90 }}",
+    "100" : "{{ gray100 }}"
+  },
+  "shadow" : "{{ black }}",
+  "alpha" : {
+    "none" : "00"
+  },
+  "ui" : {
+    "accent1" : {
+      "base" : "{{ blue2 }}",
+      "dim" :  "{{ blue1 }}"
+    },
+    "accent2" : {
+      "base" : "{{ violet2 }}",
+      "dim" :  "{{ violet1 }}"
+    },
+    "accent3" : {
+      "base" : "{{ teal2 }}",
+      "dim" :  "{{ teal1 }}"
+    },
+    "success" : {
+      "base" : "{{ green2 }}",
+      "dim" :  "{{ green1 }}"
+    },
+    "danger" : {
+      "base" : "{{ red2 }}",
+      "dim" :  "{{ red1 }}"
+    },
+    "warning" : {
+      "base" : "{{ yellow2 }}",
+      "dim" :  "{{ yellow1 }}"
+    },
+    "info" : {
+      "base" : "{{ blue2 }}",
+      "dim" :  "{{ blue1 }}"
+    }
+  },
+  "syntax" : {
+    "01" : {
+      "base" : "{{ red2 }}",
+      "dim" :  "{{ red1 }}"
+    },
+    "02" : {
+      "base" : "{{ orange2 }}",
+      "dim" :  "{{ orange1 }}"
+    },
+    "03" : {
+      "base" : "{{ yellow2 }}",
+      "dim" :  "{{ yellow1 }}"
+    },
+    "04" : {
+      "base" : "{{ green2 }}",
+      "dim" :  "{{ green1 }}"
+    },
+    "05" : {
+      "base" : "{{ teal2 }}",
+      "dim" :  "{{ teal1 }}"
+    },
+    "06" : {
+      "base" : "{{ blue2 }}",
+      "dim" :  "{{ blue1 }}"
+    },
+    "07" : {
+      "base" : "{{ violet2 }}",
+      "dim" :  "{{ violet1 }}"
+    }
+  }
+}

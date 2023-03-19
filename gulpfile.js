@@ -6,7 +6,7 @@ const { spawn } = require('child_process');
 
 let watchPaths = [
   'templates/b-default-vscode.mustache',
-  'schemes/b-default.json'
+  'schemes/'
 ]
 
 
