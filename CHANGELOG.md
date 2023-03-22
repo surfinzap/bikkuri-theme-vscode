@@ -19,6 +19,7 @@ Security
 - Refactored how tokens, schemes and templates are generated
 - Muted multi-line comments in python
 - Increased scrollbar contrast
+- Python syntax highlighting (function & support type)
 
 
 
