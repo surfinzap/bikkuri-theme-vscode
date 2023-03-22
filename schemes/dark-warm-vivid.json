@@ -15,66 +15,71 @@
   },
   "shadow" : "{{ black }}",
   "alpha" : {
-    "none" : "00"
+    "none":    "00",
+    "low":     "1a",
+    "medLow":  "1a",
+    "med":     "80",
+    "highMed": "b3",
+    "high":    "e6"
   },
   "ui" : {
     "accent1" : {
-      "base" : "{{ blue2 }}",
-      "dim" :  "{{ blue1 }}"
+      "base" : "{{ blue-mid.70 }}",
+      "dim" :  "{{ blue-mid.60 }}"
     },
     "accent2" : {
-      "base" : "{{ violet2 }}",
-      "dim" :  "{{ violet1 }}"
+      "base" : "{{ violet-mid.70 }}",
+      "dim" :  "{{ violet-mid.60 }}"
     },
     "accent3" : {
-      "base" : "{{ teal2 }}",
-      "dim" :  "{{ teal1 }}"
+      "base" : "{{ teal-mid.70 }}",
+      "dim" :  "{{ teal-mid.60 }}"
     },
     "success" : {
-      "base" : "{{ green2 }}",
-      "dim" :  "{{ green1 }}"
+      "base" : "{{ green-mid.70 }}",
+      "dim" :  "{{ green-mid.60 }}"
     },
     "danger" : {
-      "base" : "{{ red2 }}",
-      "dim" :  "{{ red1 }}"
+      "base" : "{{ red-mid.60 }}",
+      "dim" :  "{{ red-mid.50 }}"
     },
     "warning" : {
-      "base" : "{{ yellow2 }}",
-      "dim" :  "{{ yellow1 }}"
+      "base" : "{{ yellow-mid.80 }}",
+      "dim" :  "{{ yellow-mid.70 }}"
     },
     "info" : {
-      "base" : "{{ blue2 }}",
-      "dim" :  "{{ blue1 }}"
+      "base" : "{{ blue-mid.70 }}",
+      "dim" :  "{{ blue-mid.60 }}"
     }
   },
   "syntax" : {
     "01" : {
-      "base" : "{{ red2 }}",
-      "dim" :  "{{ red1 }}"
+      "base" : "{{ red-mid.60 }}",
+      "dim" :  "{{ red-mid.50 }}"
     },
     "02" : {
-      "base" : "{{ orange2 }}",
-      "dim" :  "{{ orange1 }}"
+      "base" : "{{ orange-mid.70 }}",
+      "dim" :  "{{ orange-mid.60 }}"
     },
     "03" : {
-      "base" : "{{ yellow2 }}",
-      "dim" :  "{{ yellow1 }}"
+      "base" : "{{ yellow-mid.80 }}",
+      "dim" :  "{{ yellow-mid.70 }}"
     },
     "04" : {
-      "base" : "{{ green2 }}",
-      "dim" :  "{{ green1 }}"
+      "base" : "{{ green-mid.70 }}",
+      "dim" :  "{{ green-mid.60 }}"
     },
     "05" : {
-      "base" : "{{ teal2 }}",
-      "dim" :  "{{ teal1 }}"
+      "base" : "{{ teal-mid.70 }}",
+      "dim" :  "{{ teal-mid.60 }}"
     },
     "06" : {
-      "base" : "{{ blue2 }}",
-      "dim" :  "{{ blue1 }}"
+      "base" : "{{ blue-mid.70 }}",
+      "dim" :  "{{ blue-mid.60 }}"
     },
     "07" : {
-      "base" : "{{ violet2 }}",
-      "dim" :  "{{ violet1 }}"
+      "base" : "{{ violet-mid.70 }}",
+      "dim" :  "{{ violet-mid.60 }}"
     }
   }
 }

@@ -18,10 +18,7 @@ Security
 ### Changed
 - Refactored how tokens, schemes and templates are generated
 - Muted multi-line comments in python
-
-
-Tbd
-- 285, 240, maybe 100, 70 is matrix-like (all at 8 L)
+- Increased scrollbar contrast
 
 
 
