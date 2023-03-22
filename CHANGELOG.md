@@ -16,8 +16,12 @@ Security
 ## [0.2.2] — 
 
 ### Changed
-- Refactored tokens, schemes and how template is generated
-- 
+- Refactored how tokens, schemes and templates are generated
+- Muted multi-line comments in python
+
+
+Tbd
+- 285, 240, maybe 100, 70 is matrix-like (all at 8 L)
 
 
 

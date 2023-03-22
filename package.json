@@ -1,42 +1,52 @@
 {
-	"name": "b-theme",
-	"displayName": "B theme",
-	"description": "Dark warm theme for VS Code.",
-	"publisher": "brano",
-	"version": "0.2.1",
-	"icon": "assets/b-theme-icon.png",
-	"engines": {
-		"vscode": "^1.75.0"
-	},
-	"categories": [
-		"Themes"
-	],
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/surfinzap/b-theme-vscode.git"
-	},
-	"contributes": {
-		"themes": [
-			{
-				"label": "B",
-				"uiTheme": "vs-dark",
-				"path": "./themes/b-theme-color-theme.json"
-			}
-		]
-	},
-	"__metadata": {
-		"id": "881b66c9-1ceb-4da7-a5a5-46486093c94c",
-		"publisherDisplayName": "Brano Sandala",
-		"publisherId": "c5a4b323-3691-4530-85d1-49eb940a1614",
-		"isPreReleaseVersion": false
-	},
-	"scripts":{
-		"watch" : "gulp watch"
-	},
-	"devDependencies": {
-		"@vscode/vsce": "^2.18.0",
-		"child_process": "^1.0.2",
-		"gulp": "^4.0.2",
-		"gulp-watch": "^5.0.1"
-	}
+  "name": "b-theme",
+  "displayName": "B theme",
+  "description": "Dark warm theme for VS Code.",
+  "publisher": "brano",
+  "version": "0.2.1",
+  "icon": "assets/b-theme-icon.png",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/surfinzap/b-theme-vscode.git"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "B (dark matrix vivid)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/b-theme-dark-mtrx-vivid.json"
+      },
+      {
+        "label": "B (dark plum vivid)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/b-theme-dark-plum-vivid.json"
+      },
+      {
+        "label": "B (dark warm vivid)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/b-theme-dark-warm-vivid.json"
+      }
+    ]
+  },
+  "__metadata": {
+    "id": "881b66c9-1ceb-4da7-a5a5-46486093c94c",
+    "publisherDisplayName": "Brano Sandala",
+    "publisherId": "c5a4b323-3691-4530-85d1-49eb940a1614",
+    "isPreReleaseVersion": false
+  },
+  "scripts": {
+    "watch": "gulp watch"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.18.0",
+    "child_process": "^1.0.2",
+    "gulp": "^4.0.2",
+    "gulp-watch": "^5.0.1"
+  }
 }

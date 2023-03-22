@@ -1,6 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "B theme (dark warm vivid)",
+  "name": "B (dark warm vivid)",
   "type": "dark",
   "colors": {
     /* Base colors
@@ -9,7 +9,7 @@
     // focusBorder has a very wide scope
     "focusBorder":                            "#1d1b1b",
     "foreground":                             "#d3c2c5",
-    "widget.shadow":                          "#121011",
+    "widget.shadow":                          "#111111",
     // text selections for input fields or text areas, does not apply to selections within the editor and the terminal
     "selection.background":                   "#595052",
     "descriptionForeground":                  "#d3c2c5",
@@ -65,7 +65,7 @@
 
     /* Scrollbar
     */
-    "scrollbar.shadow":                        "#121011",
+    "scrollbar.shadow":                        "#111111",
     "scrollbarSlider.background":              "#3e383955",
     "scrollbarSlider.activeBackground":        "#3e383990",
     "scrollbarSlider.hoverBackground":         "#3e383990",
@@ -448,7 +448,7 @@
 
 
     /* Integrated terminal
-    */
+    */ 
     "terminal.ansiBlack":                    "#292525",
     "terminal.ansiBrightBlack":              "#786d6f",
     "terminal.ansiRed":                      "#c63d57",
@@ -557,6 +557,7 @@
         "comment",
         "punctuation.definition.comment",
         "string.comment.buffered.block.pug",
+        "string.quoted.docstring.multi.python"
       ],
       "settings": {
         "foreground": "#595052",
