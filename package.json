@@ -18,19 +18,24 @@
   "contributes": {
     "themes": [
       {
-        "label": "B (dark matrix vivid)",
+        "label": "B (Dark Moss)",
         "uiTheme": "vs-dark",
-        "path": "./themes/b-theme-dark-mtrx-vivid.json"
+        "path": "./themes/b-theme-dark-moss.json"
       },
       {
-        "label": "B (dark plum vivid)",
+        "label": "B (Dark Neutral)",
         "uiTheme": "vs-dark",
-        "path": "./themes/b-theme-dark-plum-vivid.json"
+        "path": "./themes/b-theme-dark-neutral.json"
       },
       {
-        "label": "B (dark warm vivid)",
+        "label": "B (Dark Plum)",
         "uiTheme": "vs-dark",
-        "path": "./themes/b-theme-dark-warm-vivid.json"
+        "path": "./themes/b-theme-dark-plum.json"
+      },
+      {
+        "label": "B (Dark Warm)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/b-theme-dark-warm.json"
       }
     ]
   },

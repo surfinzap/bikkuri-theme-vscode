@@ -15,6 +15,13 @@ Security
 
 ## [0.2.2] — 
 
+### Added
+- ✨ 3 new theme variations. B theme is now a collection of 4 dark themes
+  - Dark Warm
+  - Dark Moss
+  - Dark Plum 
+  - Dark Neutral
+
 ### Changed
 - Refactored how tokens, schemes and templates are generated
 - Muted multi-line comments in python
