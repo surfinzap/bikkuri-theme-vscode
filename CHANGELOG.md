@@ -16,11 +16,15 @@ Security
 ## [0.2.2] — 
 
 ### Added
-- ✨ 3 new theme variations. B theme is now a collection of 4 dark themes
-  - Dark Warm
-  - Dark Moss
-  - Dark Plum 
-  - Dark Neutral
+- ✨ 7 new theme variations. B theme is now a collection of 8 dark themes:
+  - Dark Warm & Lively
+  - Dark Warm & Serene
+  - Dark Moss & Lively
+  - Dark Moss & Serene
+  - Dark Plum & Lively
+  - Dark Plum & Serene
+  - Dark Neutral & Lively
+  - Dark Neutral & Serene
 
 ### Changed
 - Refactored how tokens, schemes and templates are generated

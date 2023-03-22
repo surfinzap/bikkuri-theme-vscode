@@ -1,17 +1,17 @@
 {
-  "name" : "B (Dark Plum)",
+  "name" : "B (Dark Neutral & Lively)",
   "type" : "dark",
   "tint" : {
-    "10" : "{{ gray-plum.10 }}",
-    "20" : "{{ gray-plum.20 }}",
-    "30" : "{{ gray-plum.30 }}",
-    "40" : "{{ gray-plum.40 }}",
-    "50" : "{{ gray-plum.50 }}",
-    "60" : "{{ gray-plum.60 }}",
-    "70" : "{{ gray-plum.70 }}",
-    "80" : "{{ gray-plum.80 }}",
-    "90" : "{{ gray-plum.90 }}",
-    "100" : "{{ gray-plum.100 }}"
+    "10" : "{{ gray-neutral.10 }}",
+    "20" : "{{ gray-neutral.20 }}",
+    "30" : "{{ gray-neutral.30 }}",
+    "40" : "{{ gray-neutral.40 }}",
+    "50" : "{{ gray-neutral.50 }}",
+    "60" : "{{ gray-neutral.60 }}",
+    "70" : "{{ gray-neutral.70 }}",
+    "80" : "{{ gray-neutral.80 }}",
+    "90" : "{{ gray-neutral.90 }}",
+    "100" : "{{ gray-neutral.100 }}"
   },
   "shadow" : "{{ black }}",
   "alpha" : {

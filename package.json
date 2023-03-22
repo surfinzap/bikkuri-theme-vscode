@@ -18,24 +18,44 @@
   "contributes": {
     "themes": [
       {
-        "label": "B (Dark Moss)",
+        "label": "B (Dark Moss & Lively)",
         "uiTheme": "vs-dark",
-        "path": "./themes/b-theme-dark-moss.json"
+        "path": "./themes/b-theme-dark-moss-lively.json"
       },
       {
-        "label": "B (Dark Neutral)",
+        "label": "B (Dark Moss & Serene)",
         "uiTheme": "vs-dark",
-        "path": "./themes/b-theme-dark-neutral.json"
+        "path": "./themes/b-theme-dark-moss-serene.json"
       },
       {
-        "label": "B (Dark Plum)",
+        "label": "B (Dark Neutral & Lively)",
         "uiTheme": "vs-dark",
-        "path": "./themes/b-theme-dark-plum.json"
+        "path": "./themes/b-theme-dark-neutral-lively.json"
       },
       {
-        "label": "B (Dark Warm)",
+        "label": "B (Dark Neutral & Serene)",
         "uiTheme": "vs-dark",
-        "path": "./themes/b-theme-dark-warm.json"
+        "path": "./themes/b-theme-dark-neutral-serene.json"
+      },
+      {
+        "label": "B (Dark Plum & Lively)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/b-theme-dark-plum-lively.json"
+      },
+      {
+        "label": "B (Dark Plum & Serene)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/b-theme-dark-plum-serene.json"
+      },
+      {
+        "label": "B (Dark Warm & Lively)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/b-theme-dark-warm-lively.json"
+      },
+      {
+        "label": "B (Dark Warm & Serene)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/b-theme-dark-warm-serene.json"
       }
     ]
   },

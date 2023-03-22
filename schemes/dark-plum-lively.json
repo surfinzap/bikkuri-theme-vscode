@@ -1,17 +1,17 @@
 {
-  "name" : "B (Dark Moss)",
+  "name" : "B (Dark Plum & Lively)",
   "type" : "dark",
   "tint" : {
-    "10" : "{{ gray-moss.10 }}",
-    "20" : "{{ gray-moss.20 }}",
-    "30" : "{{ gray-moss.30 }}",
-    "40" : "{{ gray-moss.40 }}",
-    "50" : "{{ gray-moss.50 }}",
-    "60" : "{{ gray-moss.60 }}",
-    "70" : "{{ gray-moss.70 }}",
-    "80" : "{{ gray-moss.80 }}",
-    "90" : "{{ gray-moss.90 }}",
-    "100" : "{{ gray-moss.100 }}"
+    "10" : "{{ gray-plum.10 }}",
+    "20" : "{{ gray-plum.20 }}",
+    "30" : "{{ gray-plum.30 }}",
+    "40" : "{{ gray-plum.40 }}",
+    "50" : "{{ gray-plum.50 }}",
+    "60" : "{{ gray-plum.60 }}",
+    "70" : "{{ gray-plum.70 }}",
+    "80" : "{{ gray-plum.80 }}",
+    "90" : "{{ gray-plum.90 }}",
+    "100" : "{{ gray-plum.100 }}"
   },
   "shadow" : "{{ black }}",
   "alpha" : {
