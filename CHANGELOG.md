@@ -35,8 +35,7 @@ Security
 - Python syntax highlighting (function & support type)
 - Consolidated opacity for colors
 - Consolidated “Symbol Icons Colors” to tint.40
-
-
+- Selection highlights
 
 
 

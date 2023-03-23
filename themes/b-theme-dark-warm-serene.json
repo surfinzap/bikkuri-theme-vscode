@@ -309,13 +309,13 @@
     // "editor.selectionForeground":             "#aea6a8",
     "editor.inactiveSelectionBackground":     "#2a2526",
     // same content as selection
-    "editor.selectionHighlightBackground":    null,
+    "editor.selectionHighlightBackground":    "#1e1b1b00",
     "editor.selectionHighlightBorder":        "#8fabc8",
     // current match
-    "editor.findMatchBackground":             "#1e1b1b",
+    "editor.findMatchBackground":             "#1e1b1b00",
     "editor.findMatchBorder":                 "#8bafae",
     // other matches
-    "editor.findMatchHighlightBackground":    "#1e1b1b",
+    "editor.findMatchHighlightBackground":    "#1e1b1b00",
     "editor.findMatchHighlightBorder":        "#a8a4c8",
     // selection range when "Find in Selection" is applied
     "editor.findRangeHighlightBackground":    "#5950511a", 
@@ -323,9 +323,9 @@
     //background selection on hover
     "editor.hoverHighlightBackground":        "#3e3839",
     // highlighting variables 
-    "editor.wordHighlightStrongBackground":   "#1e1b1b",
+    "editor.wordHighlightStrongBackground":   "#1e1b1b00",
     "editor.wordHighlightStrongBorder":       "#8fabc8",
-    "editor.wordHighlightBackground":         "#1e1b1b",
+    "editor.wordHighlightBackground":         "#1e1b1b00",
     "editor.wordHighlightBorder":             "#a8a4c8",
     "editor.wordHighlightTextBackground":     null,
     "editor.wordHighlightTextBorder":         null,
