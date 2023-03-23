@@ -225,7 +225,7 @@
     "statusBar.background":                   "#1d1a23",
     "statusBar.border":                       "#3c3746",
     "statusBar.foreground":                   "#918a9f",
-    "statusBar.debuggingBackground":          "#a9a0e6",
+    "statusBar.debuggingBackground":          "#8e81dd",
     "statusBar.debuggingForeground":          "#1d1a23",
     "statusBar.debuggingBorder":              "#1d1a23",
     "statusBar.noFolderBackground":           "#1d1a23",
@@ -417,45 +417,7 @@
 
 
 
-    /* Symbol Icons Colors
-
-       The theme colors for symbol icons that appears in the Outline view, breadcrumb navigation, and suggest widget
-       https://code.visualstudio.com/api/references/theme-color#symbol-icons-colors
-    */
-
-    "symbolIcon.arrayForeground":            "#564f64",
-    "symbolIcon.booleanForeground":          "#564f64",
-    "symbolIcon.classForeground":            "#564f64",
-    "symbolIcon.colorForeground":            "#564f64",
-    "symbolIcon.constantForeground":         "#564f64",
-    "symbolIcon.constructorForeground":      "#564f64",
-    "symbolIcon.enumeratorForeground":       "#564f64",
-    "symbolIcon.enumeratorMemberForeground": "#564f64",
-    "symbolIcon.eventForeground":            "#564f64",
-    "symbolIcon.fieldForeground":            "#564f64",
-    "symbolIcon.fileForeground":             "#564f64",
-    "symbolIcon.folderForeground":           "#564f64",
-    "symbolIcon.functionForeground":         "#564f64",
-    "symbolIcon.interfaceForeground":        "#564f64",
-    "symbolIcon.keyForeground":              "#564f64",
-    "symbolIcon.keywordForeground":          "#564f64",
-    "symbolIcon.methodForeground":           "#564f64",
-    "symbolIcon.moduleForeground":           "#564f64",
-    "symbolIcon.namespaceForeground":        "#564f64",
-    "symbolIcon.nullForeground":             "#564f64",
-    "symbolIcon.numberForeground":           "#564f64",
-    "symbolIcon.objectForeground":           "#564f64",
-    "symbolIcon.operatorForeground":         "#564f64",
-    "symbolIcon.packageForeground":          "#564f64",
-    "symbolIcon.propertyForeground":         "#564f64",
-    "symbolIcon.referenceForeground":        "#564f64",
-    "symbolIcon.snippetForeground":          "#564f64",
-    "symbolIcon.stringForeground":           "#564f64",
-    "symbolIcon.structForeground":           "#564f64",
-    "symbolIcon.textForeground":             "#564f64",
-    "symbolIcon.typeParameterForeground":    "#564f64",
-    "symbolIcon.unitForeground":             "#564f64",
-    "symbolIcon.variableForeground":         "#564f64",
+   
 
 
 
@@ -489,7 +451,100 @@
     "peekViewTitleLabel.foreground":           "#c8c5cf",
 
 
+
+    /* Debugging Interfaces 
+
+       https://code.visualstudio.com/api/references/theme-color#debug-colors
+    */
+   
+    "debugExceptionWidget.background":             "#c53d564d",
+    "debugExceptionWidget.border":                 "#c53d56",
+    "debugToolBar.background":                     "#1d1a23",
+    "debugToolBar.border":                         "#3c3746",
+    "editor.stackFrameHighlightBackground":        "#564f6480",
+    "editor.focusedStackFrameHighlightBackground": "#746b8480",
+    "editor.inlineValuesForeground":               "#918a9f",
+    "editor.inlineValuesBackground":               "#1d1a2300",
+    "debugView.exceptionLabelForeground":          "#f4f4f6",
+    "debugView.exceptionLabelBackground":          "#c53d56",
+    "debugView.stateLabelForeground":              "#c8c5cf",
+    "debugView.stateLabelBackground":              "#282430",
+    "debugView.valueChangedHighlight":             "#8e81dd80",
+    "debugTokenExpression.name":                   "#61b6b4",
+    "debugTokenExpression.value":                  "#9cb062",
+    "debugTokenExpression.string":                 "#75aedd",
+    "debugTokenExpression.boolean":                "#a9a0e6",
+    "debugTokenExpression.number":                 "#ebc075",
+    "debugTokenExpression.error":                  "#e56176",
+
+
     
+    /* Debug Icons colors
+
+       https://code.visualstudio.com/api/references/theme-color#debug-icons-colors
+    */
+    "debugIcon.breakpointForeground":                  "#e56176",
+    "debugIcon.breakpointDisabledForeground":          "#564f64",
+    "debugIcon.breakpointUnverifiedForeground":        "#746b84",
+    "debugIcon.breakpointCurrentStackframeForeground": "#ebc075",
+    "debugIcon.breakpointStackframeForeground":        "#746b84",
+    "debugIcon.startForeground":                       "#9cb062",
+    "debugIcon.pauseForeground":                       "#a9a0e6",
+    "debugIcon.stopForeground":                        "#e56176",
+    "debugIcon.disconnectForeground":                  "#a9a0e6",
+    "debugIcon.restartForeground":                     "#9cb062",
+    "debugIcon.continueForeground":                    "#a9a0e6",
+    "debugIcon.stepOverForeground":                    "#a9a0e6",
+    "debugIcon.stepIntoForeground":                    "#a9a0e6",
+    "debugIcon.stepOutForeground":                     "#a9a0e6",
+    "debugIcon.stepBackForeground":                    "#a9a0e6",
+    "debugConsole.infoForeground":                     "#75aedd",
+    "debugConsole.warningForeground":                  "#ebc075",
+    "debugConsole.errorForeground":                    "#e56176",
+    "debugConsole.sourceForeground":                   "#a9a0e6",
+    "debugConsoleInputIcon.foreground":                "#746b84",
+
+
+
+
+    /* Symbol Icons Colors
+
+       The theme colors for symbol icons that appears in the Outline view, breadcrumb navigation, and suggest widget
+       https://code.visualstudio.com/api/references/theme-color#symbol-icons-colors
+    */
+    "symbolIcon.arrayForeground":            "#564f64",
+    "symbolIcon.booleanForeground":          "#564f64",
+    "symbolIcon.classForeground":            "#564f64",
+    "symbolIcon.colorForeground":            "#564f64",
+    "symbolIcon.constantForeground":         "#564f64",
+    "symbolIcon.constructorForeground":      "#564f64",
+    "symbolIcon.enumeratorForeground":       "#564f64",
+    "symbolIcon.enumeratorMemberForeground": "#564f64",
+    "symbolIcon.eventForeground":            "#564f64",
+    "symbolIcon.fieldForeground":            "#564f64",
+    "symbolIcon.fileForeground":             "#564f64",
+    "symbolIcon.folderForeground":           "#564f64",
+    "symbolIcon.functionForeground":         "#564f64",
+    "symbolIcon.interfaceForeground":        "#564f64",
+    "symbolIcon.keyForeground":              "#564f64",
+    "symbolIcon.keywordForeground":          "#564f64",
+    "symbolIcon.methodForeground":           "#564f64",
+    "symbolIcon.moduleForeground":           "#564f64",
+    "symbolIcon.namespaceForeground":        "#564f64",
+    "symbolIcon.nullForeground":             "#564f64",
+    "symbolIcon.numberForeground":           "#564f64",
+    "symbolIcon.objectForeground":           "#564f64",
+    "symbolIcon.operatorForeground":         "#564f64",
+    "symbolIcon.packageForeground":          "#564f64",
+    "symbolIcon.propertyForeground":         "#564f64",
+    "symbolIcon.referenceForeground":        "#564f64",
+    "symbolIcon.snippetForeground":          "#564f64",
+    "symbolIcon.stringForeground":           "#564f64",
+    "symbolIcon.structForeground":           "#564f64",
+    "symbolIcon.textForeground":             "#564f64",
+    "symbolIcon.typeParameterForeground":    "#564f64",
+    "symbolIcon.unitForeground":             "#564f64",
+    "symbolIcon.variableForeground":         "#564f64",
 
 
     /* Integrated terminal

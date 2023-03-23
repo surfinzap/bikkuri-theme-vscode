@@ -25,6 +25,7 @@ Security
   - Dark Plum & Serene
   - Dark Neutral & Lively
   - Dark Neutral & Serene
+- Debugging styles
 
 ### Changed
 - Refactored how tokens, schemes and templates are generated

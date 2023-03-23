@@ -225,7 +225,7 @@
     "statusBar.background":                   "{{ tint.10 }}",
     "statusBar.border":                       "{{ tint.30 }}",
     "statusBar.foreground":                   "{{ tint.60 }}",
-    "statusBar.debuggingBackground":          "{{ ui.accent2.base }}",
+    "statusBar.debuggingBackground":          "{{ ui.accent2.dim }}",
     "statusBar.debuggingForeground":          "{{ tint.10 }}",
     "statusBar.debuggingBorder":              "{{ tint.10 }}",
     "statusBar.noFolderBackground":           "{{ tint.10 }}",
@@ -417,45 +417,7 @@
 
 
 
-    /* Symbol Icons Colors
-
-       The theme colors for symbol icons that appears in the Outline view, breadcrumb navigation, and suggest widget
-       https://code.visualstudio.com/api/references/theme-color#symbol-icons-colors
-    */
-
-    "symbolIcon.arrayForeground":            "{{ tint.40 }}",
-    "symbolIcon.booleanForeground":          "{{ tint.40 }}",
-    "symbolIcon.classForeground":            "{{ tint.40 }}",
-    "symbolIcon.colorForeground":            "{{ tint.40 }}",
-    "symbolIcon.constantForeground":         "{{ tint.40 }}",
-    "symbolIcon.constructorForeground":      "{{ tint.40 }}",
-    "symbolIcon.enumeratorForeground":       "{{ tint.40 }}",
-    "symbolIcon.enumeratorMemberForeground": "{{ tint.40 }}",
-    "symbolIcon.eventForeground":            "{{ tint.40 }}",
-    "symbolIcon.fieldForeground":            "{{ tint.40 }}",
-    "symbolIcon.fileForeground":             "{{ tint.40 }}",
-    "symbolIcon.folderForeground":           "{{ tint.40 }}",
-    "symbolIcon.functionForeground":         "{{ tint.40 }}",
-    "symbolIcon.interfaceForeground":        "{{ tint.40 }}",
-    "symbolIcon.keyForeground":              "{{ tint.40 }}",
-    "symbolIcon.keywordForeground":          "{{ tint.40 }}",
-    "symbolIcon.methodForeground":           "{{ tint.40 }}",
-    "symbolIcon.moduleForeground":           "{{ tint.40 }}",
-    "symbolIcon.namespaceForeground":        "{{ tint.40 }}",
-    "symbolIcon.nullForeground":             "{{ tint.40 }}",
-    "symbolIcon.numberForeground":           "{{ tint.40 }}",
-    "symbolIcon.objectForeground":           "{{ tint.40 }}",
-    "symbolIcon.operatorForeground":         "{{ tint.40 }}",
-    "symbolIcon.packageForeground":          "{{ tint.40 }}",
-    "symbolIcon.propertyForeground":         "{{ tint.40 }}",
-    "symbolIcon.referenceForeground":        "{{ tint.40 }}",
-    "symbolIcon.snippetForeground":          "{{ tint.40 }}",
-    "symbolIcon.stringForeground":           "{{ tint.40 }}",
-    "symbolIcon.structForeground":           "{{ tint.40 }}",
-    "symbolIcon.textForeground":             "{{ tint.40 }}",
-    "symbolIcon.typeParameterForeground":    "{{ tint.40 }}",
-    "symbolIcon.unitForeground":             "{{ tint.40 }}",
-    "symbolIcon.variableForeground":         "{{ tint.40 }}",
+   
 
 
 
@@ -489,7 +451,100 @@
     "peekViewTitleLabel.foreground":           "{{ tint.80 }}",
 
 
+
+    /* Debugging Interfaces 
+
+       https://code.visualstudio.com/api/references/theme-color#debug-colors
+    */
+   
+    "debugExceptionWidget.background":             "{{ ui.danger.dim }}{{ alpha.medLow }}",
+    "debugExceptionWidget.border":                 "{{ ui.danger.dim }}",
+    "debugToolBar.background":                     "{{ tint.10 }}",
+    "debugToolBar.border":                         "{{ tint.30 }}",
+    "editor.stackFrameHighlightBackground":        "{{ tint.40 }}{{ alpha.med }}",
+    "editor.focusedStackFrameHighlightBackground": "{{ tint.50 }}{{ alpha.med }}",
+    "editor.inlineValuesForeground":               "{{ tint.60 }}",
+    "editor.inlineValuesBackground":               "{{ tint.10 }}{{ alpha.none }}",
+    "debugView.exceptionLabelForeground":          "{{ tint.100 }}",
+    "debugView.exceptionLabelBackground":          "{{ ui.danger.dim }}",
+    "debugView.stateLabelForeground":              "{{ tint.80 }}",
+    "debugView.stateLabelBackground":              "{{ tint.20 }}",
+    "debugView.valueChangedHighlight":             "{{ ui.accent2.dim }}{{ alpha.med }}",
+    "debugTokenExpression.name":                   "{{ syntax.05.base }}",
+    "debugTokenExpression.value":                  "{{ syntax.04.base }}",
+    "debugTokenExpression.string":                 "{{ syntax.06.base }}",
+    "debugTokenExpression.boolean":                "{{ syntax.07.base }}",
+    "debugTokenExpression.number":                 "{{ syntax.03.base }}",
+    "debugTokenExpression.error":                  "{{ syntax.01.base }}",
+
+
     
+    /* Debug Icons colors
+
+       https://code.visualstudio.com/api/references/theme-color#debug-icons-colors
+    */
+    "debugIcon.breakpointForeground":                  "{{ ui.danger.base }}",
+    "debugIcon.breakpointDisabledForeground":          "{{ tint.40 }}",
+    "debugIcon.breakpointUnverifiedForeground":        "{{ tint.50 }}",
+    "debugIcon.breakpointCurrentStackframeForeground": "{{ ui.warning.base }}",
+    "debugIcon.breakpointStackframeForeground":        "{{ tint.50 }}",
+    "debugIcon.startForeground":                       "{{ ui.success.base }}",
+    "debugIcon.pauseForeground":                       "{{ ui.accent2.base }}",
+    "debugIcon.stopForeground":                        "{{ ui.danger.base }}",
+    "debugIcon.disconnectForeground":                  "{{ ui.accent2.base }}",
+    "debugIcon.restartForeground":                     "{{ ui.success.base }}",
+    "debugIcon.continueForeground":                    "{{ ui.accent2.base }}",
+    "debugIcon.stepOverForeground":                    "{{ ui.accent2.base }}",
+    "debugIcon.stepIntoForeground":                    "{{ ui.accent2.base }}",
+    "debugIcon.stepOutForeground":                     "{{ ui.accent2.base }}",
+    "debugIcon.stepBackForeground":                    "{{ ui.accent2.base }}",
+    "debugConsole.infoForeground":                     "{{ ui.accent1.base }}",
+    "debugConsole.warningForeground":                  "{{ ui.warning.base }}",
+    "debugConsole.errorForeground":                    "{{ ui.danger.base }}",
+    "debugConsole.sourceForeground":                   "{{ ui.accent2.base }}",
+    "debugConsoleInputIcon.foreground":                "{{ tint.50 }}",
+
+
+
+
+    /* Symbol Icons Colors
+
+       The theme colors for symbol icons that appears in the Outline view, breadcrumb navigation, and suggest widget
+       https://code.visualstudio.com/api/references/theme-color#symbol-icons-colors
+    */
+    "symbolIcon.arrayForeground":            "{{ tint.40 }}",
+    "symbolIcon.booleanForeground":          "{{ tint.40 }}",
+    "symbolIcon.classForeground":            "{{ tint.40 }}",
+    "symbolIcon.colorForeground":            "{{ tint.40 }}",
+    "symbolIcon.constantForeground":         "{{ tint.40 }}",
+    "symbolIcon.constructorForeground":      "{{ tint.40 }}",
+    "symbolIcon.enumeratorForeground":       "{{ tint.40 }}",
+    "symbolIcon.enumeratorMemberForeground": "{{ tint.40 }}",
+    "symbolIcon.eventForeground":            "{{ tint.40 }}",
+    "symbolIcon.fieldForeground":            "{{ tint.40 }}",
+    "symbolIcon.fileForeground":             "{{ tint.40 }}",
+    "symbolIcon.folderForeground":           "{{ tint.40 }}",
+    "symbolIcon.functionForeground":         "{{ tint.40 }}",
+    "symbolIcon.interfaceForeground":        "{{ tint.40 }}",
+    "symbolIcon.keyForeground":              "{{ tint.40 }}",
+    "symbolIcon.keywordForeground":          "{{ tint.40 }}",
+    "symbolIcon.methodForeground":           "{{ tint.40 }}",
+    "symbolIcon.moduleForeground":           "{{ tint.40 }}",
+    "symbolIcon.namespaceForeground":        "{{ tint.40 }}",
+    "symbolIcon.nullForeground":             "{{ tint.40 }}",
+    "symbolIcon.numberForeground":           "{{ tint.40 }}",
+    "symbolIcon.objectForeground":           "{{ tint.40 }}",
+    "symbolIcon.operatorForeground":         "{{ tint.40 }}",
+    "symbolIcon.packageForeground":          "{{ tint.40 }}",
+    "symbolIcon.propertyForeground":         "{{ tint.40 }}",
+    "symbolIcon.referenceForeground":        "{{ tint.40 }}",
+    "symbolIcon.snippetForeground":          "{{ tint.40 }}",
+    "symbolIcon.stringForeground":           "{{ tint.40 }}",
+    "symbolIcon.structForeground":           "{{ tint.40 }}",
+    "symbolIcon.textForeground":             "{{ tint.40 }}",
+    "symbolIcon.typeParameterForeground":    "{{ tint.40 }}",
+    "symbolIcon.unitForeground":             "{{ tint.40 }}",
+    "symbolIcon.variableForeground":         "{{ tint.40 }}",
 
 
     /* Integrated terminal
