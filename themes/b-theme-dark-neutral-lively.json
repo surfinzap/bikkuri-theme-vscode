@@ -396,7 +396,7 @@
     "merge.incomingContentBackground":                     "#5099971a",
     "merge.commonContentBackground":                       null,
     "merge.commonHeaderBackground":                        null,
-    "editorOverviewRuler.currentContentForeground":        "#8e81dd80",
+    "editorOverviewRuler.currentContentForeground":        "#8e81dd4d",
     "editorOverviewRuler.incomingContentForeground":       "#5099974d",
     "editorOverviewRuler.commonContentForeground":         null,
     "mergeEditor.change.background":                       "#1b1b1b",
@@ -476,8 +476,8 @@
     "terminalCommandDecoration.defaultBackground": "#262626",
     "terminalCommandDecoration.successBackground": "#839451",
     "terminalCommandDecoration.errorBackground":   "#c53d56",
-    "terminal.findMatchBackground":                "#a9a0e640",
-    "terminal.findMatchHighlightBackground":       "#6f6f6f60",
+    "terminal.findMatchBackground":                "#a9a0e64d",
+    "terminal.findMatchHighlightBackground":       "#52525280",
 
 
 

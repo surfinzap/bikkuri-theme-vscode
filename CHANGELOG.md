@@ -31,6 +31,7 @@ Security
 - Muted multi-line comments in python
 - Increased scrollbar contrast
 - Python syntax highlighting (function & support type)
+- Consolidated opacity for colors
 
 
 
