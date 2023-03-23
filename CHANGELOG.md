@@ -23,8 +23,8 @@ Security
   - Dark Moss & Serene
   - Dark Plum & Lively
   - Dark Plum & Serene
-  - Dark Neutral & Lively
-  - Dark Neutral & Serene
+  - Dark Coal & Lively
+  - Dark Coal & Serene
 - Debugging styles
 
 ### Changed

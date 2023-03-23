@@ -18,6 +18,16 @@
   "contributes": {
     "themes": [
       {
+        "label": "B (Dark Coal & Lively)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/b-theme-dark-coal-lively.json"
+      },
+      {
+        "label": "B (Dark Coal & Serene)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/b-theme-dark-coal-serene.json"
+      },
+      {
         "label": "B (Dark Moss & Lively)",
         "uiTheme": "vs-dark",
         "path": "./themes/b-theme-dark-moss-lively.json"
@@ -26,16 +36,6 @@
         "label": "B (Dark Moss & Serene)",
         "uiTheme": "vs-dark",
         "path": "./themes/b-theme-dark-moss-serene.json"
-      },
-      {
-        "label": "B (Dark Neutral & Lively)",
-        "uiTheme": "vs-dark",
-        "path": "./themes/b-theme-dark-neutral-lively.json"
-      },
-      {
-        "label": "B (Dark Neutral & Serene)",
-        "uiTheme": "vs-dark",
-        "path": "./themes/b-theme-dark-neutral-serene.json"
       },
       {
         "label": "B (Dark Plum & Lively)",
