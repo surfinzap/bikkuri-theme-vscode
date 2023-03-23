@@ -13,7 +13,9 @@ Security
 
 
 
-## [0.2.2] — 
+## [0.3.0] — 2023-03-23
+
+This is a significant release. One theme has grown into **8 dark theme variations** to choose from. The theme now covers the status bar and debugging styles.
 
 ### Added
 - ✨ 7 new theme variations. B theme is now a collection of 8 dark themes:
@@ -32,7 +34,7 @@ Security
 - Refactored how tokens, schemes and templates are generated
 - Muted multi-line comments in python
 - Increased scrollbar contrast
-- Python syntax highlighting (function & support type)
+- Updated Python syntax highlighting (function & support type)
 - Consolidated opacity for colors
 - Consolidated “Symbol Icons Colors” to tint.40
 - Selection highlights
