@@ -5,8 +5,10 @@ const { spawn } = require('child_process');
 
 
 let watchPaths = [
-  'templates/b-default-vscode.mustache',
-  'schemes/b-default.json'
+  'colors/',
+  'schemes/',
+  'templates/',
+  'theme-generator.py'
 ]
 
 
