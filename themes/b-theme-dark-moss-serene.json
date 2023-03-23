@@ -414,6 +414,51 @@
     "mergeEditor.conflict.input2.background":              "#1b1c1900",    // not tested
 
 
+
+
+
+    /* Symbol Icons Colors
+
+       The theme colors for symbol icons that appears in the Outline view, breadcrumb navigation, and suggest widget
+       https://code.visualstudio.com/api/references/theme-color#symbol-icons-colors
+    */
+
+    "symbolIcon.arrayForeground":            "#52534d",
+    "symbolIcon.booleanForeground":          "#52534d",
+    "symbolIcon.classForeground":            "#52534d",
+    "symbolIcon.colorForeground":            "#52534d",
+    "symbolIcon.constantForeground":         "#52534d",
+    "symbolIcon.constructorForeground":      "#52534d",
+    "symbolIcon.enumeratorForeground":       "#52534d",
+    "symbolIcon.enumeratorMemberForeground": "#52534d",
+    "symbolIcon.eventForeground":            "#52534d",
+    "symbolIcon.fieldForeground":            "#52534d",
+    "symbolIcon.fileForeground":             "#52534d",
+    "symbolIcon.folderForeground":           "#52534d",
+    "symbolIcon.functionForeground":         "#52534d",
+    "symbolIcon.interfaceForeground":        "#52534d",
+    "symbolIcon.keyForeground":              "#52534d",
+    "symbolIcon.keywordForeground":          "#52534d",
+    "symbolIcon.methodForeground":           "#52534d",
+    "symbolIcon.moduleForeground":           "#52534d",
+    "symbolIcon.namespaceForeground":        "#52534d",
+    "symbolIcon.nullForeground":             "#52534d",
+    "symbolIcon.numberForeground":           "#52534d",
+    "symbolIcon.objectForeground":           "#52534d",
+    "symbolIcon.operatorForeground":         "#52534d",
+    "symbolIcon.packageForeground":          "#52534d",
+    "symbolIcon.propertyForeground":         "#52534d",
+    "symbolIcon.referenceForeground":        "#52534d",
+    "symbolIcon.snippetForeground":          "#52534d",
+    "symbolIcon.stringForeground":           "#52534d",
+    "symbolIcon.structForeground":           "#52534d",
+    "symbolIcon.textForeground":             "#52534d",
+    "symbolIcon.typeParameterForeground":    "#52534d",
+    "symbolIcon.unitForeground":             "#52534d",
+    "symbolIcon.variableForeground":         "#52534d",
+
+
+
     /* Widget
     */
     "editorWidget.background":                 "#1b1c19",
