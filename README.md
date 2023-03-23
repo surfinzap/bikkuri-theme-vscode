@@ -15,11 +15,30 @@
 
 ## Variants
 
-Dark Warm & Lively
+### Dark Warm & Lively
 ![Dark Warm & Lively](assets/b-theme-dark-warm-lively.png)
 
 ### Dark Warm & Serene
 ![Dark Warm & Serene](assets/b-theme-dark-warm-serene.png)
+
+### Dark Plum & Lively
+![Dark Plum & Lively](assets/b-theme-dark-plum-lively.png)
+
+### Dark Plum & Serene
+![Dark Plum & Serene](assets/b-theme-dark-plum-serene.png)
+
+### Dark Coal & Lively
+![Dark Coal & Lively](assets/b-theme-dark-coal-lively.png)
+
+### Dark Coal & Serene
+![Dark Coal & Serene](assets/b-theme-dark-coal-serene.png)
+
+### Dark Moss & Lively
+![Dark Moss & Lively](assets/b-theme-dark-moss-lively.png)
+
+### Dark Moss & Serene
+![Dark Moss & Serene](assets/b-theme-dark-moss-serene.png)
+
 
 ## Installation
 
