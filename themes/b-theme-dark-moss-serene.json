@@ -223,13 +223,29 @@
        https://code.visualstudio.com/api/references/theme-color#status-bar-colors
     */
     "statusBar.background":                   "#1b1c19",
-    "statusBar.border":                       "#393935",
     "statusBar.foreground":                   "#8d8e85",
+    "statusBar.border":                       "#393935",
     "statusBar.debuggingBackground":          "#8d88b6",
     "statusBar.debuggingForeground":          "#1b1c19",
     "statusBar.debuggingBorder":              "#1b1c19",
     "statusBar.noFolderBackground":           "#1b1c19",
     "statusBar.noFolderBorder":               "#1b1c19",
+    "statusBarItem.activeBackground":         "#262623",
+    "statusBarItem.hoverBackground":          "#393935",
+    "statusBarItem.prominentForeground":      "#1b1c19",
+    "statusBarItem.prominentBackground":      "#8d88b6",
+    "statusBarItem.prominentHoverBackground": "",
+    "statusBarItem.remoteBackground":         "#262623",
+    "statusBarItem.remoteForeground":         "#8d8e85",
+    "statusBarItem.errorBackground":          "",
+    "statusBarItem.errorForeground":          "#1b1c19",
+    "statusBarItem.warningBackground":        "",
+    "statusBarItem.warningForeground":        "#1b1c19",
+    "statusBarItem.compactHoverBackground":   "#393935",
+    "statusBarItem.focusBorder":              "#393935",
+    "statusBar.focusBorder":                  "#1b1c19",
+
+
 
 
     /* Editor Groups & Tabs

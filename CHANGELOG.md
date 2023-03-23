@@ -26,6 +26,7 @@ Security
   - Dark Coal & Lively
   - Dark Coal & Serene
 - Debugging styles
+- Status Bar styles
 
 ### Changed
 - Refactored how tokens, schemes and templates are generated
