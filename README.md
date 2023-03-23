@@ -1,6 +1,6 @@
 # README
 
-A dark warm theme for VS Code. 
+Set of dark themes for VS Code, including syntax highlighting, debugging and terminal colors. 
 
 ![](assets/b-theme-colors.png)
 
@@ -20,7 +20,7 @@ A dark warm theme for VS Code.
 2. Search for `B Theme`
 3. Click **Install** to install it
 4. Click **Reload** to reload the Visual Studio Code
-5. Open `Preferences: Color Theme` from the command palette and select **B** Theme
+5. Open `Preferences: Color Theme` from the command palette and select the preferred flavor of the **B** Theme
 
 
 ## Feedback
