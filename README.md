@@ -1,8 +1,21 @@
-# README
+
+<h1 align="center">
+  <br>
+  <a href="https://marketplace.visualstudio.com/items?itemName=brano.b-theme">
+    <img src="https://raw.githubusercontent.com/surfinzap/b-theme-vscode/master/assets/b-theme-icon.png">
+  </a>
+  <br>
+  B theme
+  <br>
+</h1>
+
+
+## About
+
 
 Set of dark themes for VS Code, including syntax highlighting, debugging and terminal colors. 
 
-![](assets/b-theme-colors.png)
+<!-- ![](assets/b-theme-colors.png) -->
 
 ## Screenshots
 
