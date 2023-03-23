@@ -61,9 +61,10 @@ Share your feedback as a [GitHub issue](https://github.com/surfinzap/b-theme-vsc
 
 ## Support 
 
-[Buy me a coffee](https://ko-fi.com/branosandala) to support this project. 
+[Buy me a coffee](https://ko-fi.com/branosandala) to keep the themes up-to-date. 
 
 
-## Inspiration
-
-- Syntax highlighting rules inpiration: [vscode-theme-gruvbox](https://github.com/jdinhify/vscode-theme-gruvbox)
+## Inspiration / Recommendations
+- colors for the theme were design with [Colorca](https://colorca.org)
+- the theme goes well with [JetBrains Mono](https://github.com/JetBrains/JetBrainsMono)
+- syntax highlighting rules inspiration: [vscode-theme-gruvbox](https://github.com/jdinhify/vscode-theme-gruvbox)
