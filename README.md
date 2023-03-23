@@ -10,14 +10,16 @@
 </h1>
 
 
-Set of dark themes for VS Code, including syntax highlighting, debugging and terminal colors. 
+<p align="center">Set of dark themes for VS Code, including syntax highlighting, debugging, diff/merge and terminal colors.</p>
 
-<!-- ![](assets/b-theme-colors.png) -->
 
-## Screenshots
+## Variants
 
-![](assets/b-theme-sample.png)
+Dark Warm & Lively
+![Dark Warm & Lively](assets/b-theme-dark-warm-lively.png)
 
+### Dark Warm & Serene
+![Dark Warm & Serene](assets/b-theme-dark-warm-serene.png)
 
 ## Installation
 
