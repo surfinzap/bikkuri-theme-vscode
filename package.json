@@ -1,6 +1,6 @@
 {
   "name": "b-theme",
-  "displayName": "B theme",
+  "displayName": "Bikkuri Theme",
   "description": "Set of dark themes for VS Code, including syntax highlighting, debugging, diff/merge and terminal colors.",
   "publisher": "brano",
   "version": "0.3.0",
@@ -21,57 +21,57 @@
   "contributes": {
     "themes": [
       {
-        "label": "B (Dark Coal & Lively)",
+        "label": "Bikkuri (Dark Coal & Lively)",
         "uiTheme": "vs-dark",
         "path": "./themes/b-theme-dark-coal-lively.json"
       },
       {
-        "label": "B (Dark Coal & Serene)",
+        "label": "Bikkuri (Dark Coal & Serene)",
         "uiTheme": "vs-dark",
         "path": "./themes/b-theme-dark-coal-serene.json"
       },
       {
-        "label": "B (Dark Moss & Lively)",
+        "label": "Bikkuri (Dark Moss & Lively)",
         "uiTheme": "vs-dark",
         "path": "./themes/b-theme-dark-moss-lively.json"
       },
       {
-        "label": "B (Dark Moss & Serene)",
+        "label": "Bikkuri (Dark Moss & Serene)",
         "uiTheme": "vs-dark",
         "path": "./themes/b-theme-dark-moss-serene.json"
       },
       {
-        "label": "B (Dark Plum & Lively)",
+        "label": "Bikkuri (Dark Plum & Lively)",
         "uiTheme": "vs-dark",
         "path": "./themes/b-theme-dark-plum-lively.json"
       },
       {
-        "label": "B (Dark Plum & Serene)",
+        "label": "Bikkuri (Dark Plum & Serene)",
         "uiTheme": "vs-dark",
         "path": "./themes/b-theme-dark-plum-serene.json"
       },
       {
-        "label": "B (Dark Warm & Lively)",
+        "label": "Bikkuri (Dark Warm & Lively)",
         "uiTheme": "vs-dark",
         "path": "./themes/b-theme-dark-warm-lively.json"
       },
       {
-        "label": "B (Dark Warm & Serene)",
+        "label": "Bikkuri (Dark Warm & Serene)",
         "uiTheme": "vs-dark",
         "path": "./themes/b-theme-dark-warm-serene.json"
       }
     ]
   },
-	"keywords": [
-		"dark",
-		"theme",
-		"warm",
-		"moss",
-		"plum",
-		"coal",
-		"lively",
-		"serene"
-	],
+  "keywords": [
+    "dark",
+    "theme",
+    "warm",
+    "moss",
+    "plum",
+    "coal",
+    "lively",
+    "serene"
+  ],
   "__metadata": {
     "id": "881b66c9-1ceb-4da7-a5a5-46486093c94c",
     "publisherDisplayName": "Brano Sandala",

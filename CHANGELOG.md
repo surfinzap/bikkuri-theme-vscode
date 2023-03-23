@@ -13,6 +13,13 @@ Security
 
 
 
+## [0.4.0] — 2023-03-23 
+
+B Theme is now called Bikkuri Theme.
+
+
+
+
 ## [0.3.0] — 2023-03-23
 
 This is a significant release. One theme has grown into **8 dark theme variations** to choose from. The theme now covers the status bar and debugging styles.

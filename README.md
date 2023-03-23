@@ -5,7 +5,7 @@
     <img src="https://raw.githubusercontent.com/surfinzap/b-theme-vscode/master/assets/b-theme-icon.png">
   </a>
   <br>
-  B theme
+  Bikkuri Theme
   <br>
 </h1>
 
