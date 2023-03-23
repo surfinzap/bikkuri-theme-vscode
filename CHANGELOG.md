@@ -17,7 +17,8 @@ Security
 
 B Theme is now called Bikkuri Theme.
 
-
+### Added 
+- Styles for Profile Badge (introduced in [VS Code 1.76](https://code.visualstudio.com/updates/v1_76#_profile-badge))
 
 
 ## [0.3.0] — 2023-03-23
