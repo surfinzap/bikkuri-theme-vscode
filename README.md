@@ -10,9 +10,6 @@
 </h1>
 
 
-## About
-
-
 Set of dark themes for VS Code, including syntax highlighting, debugging and terminal colors. 
 
 <!-- ![](assets/b-theme-colors.png) -->
