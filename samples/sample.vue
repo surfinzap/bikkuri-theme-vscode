@@ -16,6 +16,7 @@
       @click='toggleSettings'
       aria-label='Settings'
       :class='showSettings ? "btn--selected-clickable" : null'
+      :style={backgroundColor: #fff}
       ) 
       icons-cog-6-tooth
 

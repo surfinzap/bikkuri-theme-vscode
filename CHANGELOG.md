@@ -13,6 +13,8 @@ Security
 
 
 
+
+
 ## [0.4.1] — 2023-05-09
 ### Added 
 - “Drop Into Prompt” styles
@@ -20,6 +22,7 @@ Security
 ### Changed 
 - Increased scrollbar contrast
 - Lightened Editor Widget and Quick Input background
+- Updated meta.directive.vue to a teal color
 
 
 
