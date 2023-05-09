@@ -12,8 +12,10 @@ Fixed
 Security
 
 
-
 ## [0.4.1] — 2023-05-09
+
+### Added 
+- “Drop Into Prompt” styles
 
 ### Changed 
 - Increased scrollbar contrast
