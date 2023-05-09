@@ -23,6 +23,7 @@ Security
 - Increased scrollbar contrast
 - Lightened Editor Widget and Quick Input background
 - Updated meta.directive.vue to a teal color
+- CSS punctuation style
 
 
 
