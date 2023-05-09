@@ -7,7 +7,7 @@
      https://code.visualstudio.com/api/references/theme-color#status-bar-colors
     */
     // focusBorder has a very wide scope
-    "focusBorder":                            "#1d1a23",
+    "focusBorder":                            "#564f64",
     "foreground":                             "#c8c5cf",
     "widget.shadow":                          "#111111",
     // text selections for input fields or text areas, does not apply to selections within the editor and the terminal
@@ -66,7 +66,7 @@
     /* Scrollbar
     */
     "scrollbar.shadow":                        "#111111",
-    "scrollbarSlider.background":              "#3c374680",
+    "scrollbarSlider.background":              "#3c3746b3",
     "scrollbarSlider.activeBackground":        "#564f6480",
     "scrollbarSlider.hoverBackground":         "#564f6480",
 
@@ -105,7 +105,7 @@
     "list.errorForeground":             "#e56176",
     "list.focusBackground":             "#3c3746",
     "list.focusForeground":             "#c8c5cf",
-    "list.hoverBackground":             "#282430",
+    "list.hoverBackground":             "#3c3746",
     "list.inactiveSelectionBackground": "#282430",
     "list.inactiveSelectionForeground": "#c8c5cf",
     "list.warningForeground":           "#ebc075",
@@ -127,7 +127,7 @@
 
     /* Quick input (Command palette, Quick picker)
     */
-    "quickInput.background":              "#1d1a23",
+    "quickInput.background":              "#282430",
     "quickInput.foreground":              "#aba6b6",
     "pickerGroup.foreground":             "#aba6b6",
     "pickerGroup.border":                 "#3c3746",
@@ -260,6 +260,10 @@
     "editorGroup.border":                 "#3c3746",
     "editorGroupHeader.tabsBorder":       "#3c3746",
     "editorGroup.focusedEmptyBorder":     "#564f64",
+
+    "editorGroup.dropIntoPromptForeground": "#918a9f",
+    "editorGroup.dropIntoPromptBackground": "#282430",
+    "editorGroup.dropIntoPromptBorder":     "#282430",
 
     "tab.activeBackground":               "#282430",
     "tab.activeForeground":               "#c8c5cf",
@@ -441,7 +445,7 @@
 
     /* Widget
     */
-    "editorWidget.background":                 "#1d1a23",
+    "editorWidget.background":                 "#282430",
     "editorWidget.border":                     "#3c3746",
     "editorSuggestWidget.background":          "#1d1a23",
     "editorSuggestWidget.foreground":          "#c8c5cf",
@@ -1463,7 +1467,6 @@
     {
       "scope": [
         "entity.other.attribute-name.class.css",
-        "punctuation.definition.entity.css",
       ],
       "settings": {
         "foreground": "#ebc075"
@@ -1472,13 +1475,11 @@
     {
       "scope": [
         "punctuation.definition.entity.css",
-        "meta.property-list.scss"
       ],
       "settings": {
-        "foreground": "#564f64"
+        "foreground": "#61b6b4"
       }
     },   
-
     {
       "scope": [
         "entity.name.tag.css",
@@ -1561,7 +1562,16 @@
       "settings": {
         "foreground": "#ebc075",
       }
-    },   
+    },  
+    // vue ---------------------------------------------- 
+    {
+      "scope": [
+        "meta.directive.vue"
+      ],
+      "settings": {
+        "foreground": "#61b6b4",
+      }
+    },  
     // javascript ---------------------------------------
     {
       "scope": [
