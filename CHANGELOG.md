@@ -13,6 +13,12 @@ Security
 
 
 
+## [0.4.1] — 2023-05-09
+
+### Changed 
+- Increased scrollbar contrast
+
+
 ## [0.4.0] — 2023-03-23 
 
 B Theme is now called Bikkuri Theme.
