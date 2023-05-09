@@ -12,13 +12,15 @@ Fixed
 Security
 
 
-## [0.4.1] — 2023-05-09
 
+## [0.4.1] — 2023-05-09
 ### Added 
 - “Drop Into Prompt” styles
 
 ### Changed 
 - Increased scrollbar contrast
+- Lightened Editor Widget and Quick Input background
+
 
 
 ## [0.4.0] — 2023-03-23 
@@ -27,6 +29,7 @@ B Theme is now called Bikkuri Theme.
 
 ### Added 
 - Styles for Profile Badge (introduced in [VS Code 1.76](https://code.visualstudio.com/updates/v1_76#_profile-badge))
+
 
 
 ## [0.3.0] — 2023-03-23
