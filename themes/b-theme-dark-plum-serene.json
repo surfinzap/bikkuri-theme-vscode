@@ -627,7 +627,8 @@
     "extensionBadge.remoteBackground":          "#aba6b6",
     "extensionBadge.remoteForeground":          "#282430",
     "extensionIcon.starForeground":             "#564f64",
-    "extensionIcon.preReleaseForeground":       "#282430",
+    "extensionIcon.verifiedForeground":         "#8fabc8", 
+    "extensionIcon.preReleaseForeground":       "#a8a4c8",
 
     /* Menu
     */
