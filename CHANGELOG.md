@@ -12,7 +12,13 @@ Fixed
 Security
 
 
+## [0.4.2] — 2023-08-18
 
+### Changed
+- Set color for Verified and Pre-Release Badges (PR #11)
+
+### Fixed  
+- StatusBarItem Error, Warning and Prominent Background color
 
 
 ## [0.4.1] — 2023-05-09
