@@ -12,6 +12,15 @@ Fixed
 Security
 
 
+## [0.4.3] — 2024-
+
+
+
+### Maintenance
+- Updated dependencies to their latest versions
+
+
+
 ## [0.4.2] — 2023-08-18
 
 ### Changed
