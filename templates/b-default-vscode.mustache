@@ -105,7 +105,11 @@
     "list.errorForeground":             "{{ ui.danger.base }}",
     "list.focusBackground":             "{{ tint.30 }}",
     "list.focusForeground":             "{{ tint.80 }}",
-    "list.hoverBackground":             "{{ tint.30 }}",
+
+    // list.hoverBackground/Foreground has a broad impact: Sidebar items hover, Quick Input items hover, Notifications hover; but not for the menu
+    "list.hoverBackground":             "{{ tint.30 }}{{ alpha.medLow}}",
+    "list.hoverForeground":             "{{ tint.80 }}",
+
     "list.inactiveSelectionBackground": "{{ tint.20 }}",
     "list.inactiveSelectionForeground": "{{ tint.80 }}",
     "list.warningForeground":           "{{ ui.warning.base }}",
@@ -116,7 +120,6 @@
     "list.focusOutline":                null,
     "list.highlightForeground":         "{{ ui.accent1.base }}",
     "list.invalidItemForeground":       "{{ ui.danger.dim }}",
-    "list.hoverForeground":             "{{ tint.80 }}",
     //"list.activeSelectionIconForeground": null,
     //"list.filterMatchBorder": null,
     //"list.inactiveFocusBackground": null,

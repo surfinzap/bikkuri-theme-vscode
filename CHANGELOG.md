@@ -14,9 +14,10 @@ Security
 
 ## [0.4.3] — 2024-
 
+### Changed
+- make `list.hoverBackground` more subtle; it impacts hovers for Sidebar items, Quick Input items and Notifications
 
-
-### Maintenance
+### Security
 - Updated dependencies to their latest versions
 
 
