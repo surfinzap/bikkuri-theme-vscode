@@ -2,16 +2,16 @@
   "name" : "Bikkuri (Dark Warm & Serene)",
   "type" : "dark",
   "tint" : {
-    "10" : "{{ gray-warm.10 }}",
-    "20" : "{{ gray-warm.20 }}",
-    "30" : "{{ gray-warm.30 }}",
-    "40" : "{{ gray-warm.40 }}",
-    "50" : "{{ gray-warm.50 }}",
-    "60" : "{{ gray-warm.60 }}",
-    "70" : "{{ gray-warm.70 }}",
-    "80" : "{{ gray-warm.80 }}",
+    "100" : "{{ gray-warm.100 }}",
     "90" : "{{ gray-warm.90 }}",
-    "100" : "{{ gray-warm.100 }}"
+    "80" : "{{ gray-warm.80 }}",
+    "70" : "{{ gray-warm.70 }}",
+    "60" : "{{ gray-warm.60 }}",
+    "50" : "{{ gray-warm.50 }}",
+    "40" : "{{ gray-warm.40 }}",
+    "30" : "{{ gray-warm.30 }}",
+    "20" : "{{ gray-warm.20 }}",
+    "10" : "{{ gray-warm.10 }}"
   },
   "shadow" : "{{ black }}",
   "alpha" : {
@@ -24,62 +24,62 @@
   },
   "ui" : {
     "accent1" : {
-      "base" : "{{ blue-dim.70 }}",
-      "dim" :  "{{ blue-dim.60 }}"
+      "base" : "{{ blue-dim.40 }}",
+      "dim" :  "{{ blue-dim.50 }}"
     },
     "accent2" : {
-      "base" : "{{ violet-dim.70 }}",
-      "dim" :  "{{ violet-dim.60 }}"
+      "base" : "{{ violet-dim.40 }}",
+      "dim" :  "{{ violet-dim.50 }}"
     },
     "accent3" : {
-      "base" : "{{ teal-dim.70 }}",
-      "dim" :  "{{ teal-dim.60 }}"
+      "base" : "{{ teal-dim.40 }}",
+      "dim" :  "{{ teal-dim.50 }}"
     },
     "success" : {
-      "base" : "{{ green-dim.70 }}",
-      "dim" :  "{{ green-dim.60 }}"
+      "base" : "{{ green-dim.40 }}",
+      "dim" :  "{{ green-dim.50 }}"
     },
     "danger" : {
-      "base" : "{{ red-dim.60 }}",
-      "dim" :  "{{ red-dim.50 }}"
+      "base" : "{{ red-dim.50 }}",
+      "dim" :  "{{ red-dim.60 }}"
     },
     "warning" : {
-      "base" : "{{ yellow-dim.80 }}",
-      "dim" :  "{{ yellow-dim.70 }}"
+      "base" : "{{ yellow-dim.30 }}",
+      "dim" :  "{{ yellow-dim.40 }}"
     },
     "info" : {
-      "base" : "{{ blue-dim.70 }}",
-      "dim" :  "{{ blue-dim.60 }}"
+      "base" : "{{ blue-dim.40 }}",
+      "dim" :  "{{ blue-dim.50 }}"
     }
   },
   "syntax" : {
     "01" : {
-      "base" : "{{ red-dim.60 }}",
-      "dim" :  "{{ red-dim.50 }}"
+      "base" : "{{ red-dim.50 }}",
+      "dim" :  "{{ red-dim.60 }}"
     },
     "02" : {
-      "base" : "{{ orange-dim.70 }}",
-      "dim" :  "{{ orange-dim.60 }}"
+      "base" : "{{ orange-dim.40 }}",
+      "dim" :  "{{ orange-dim.50 }}"
     },
     "03" : {
-      "base" : "{{ yellow-dim.80 }}",
-      "dim" :  "{{ yellow-dim.70 }}"
+      "base" : "{{ yellow-dim.30 }}",
+      "dim" :  "{{ yellow-dim.40 }}"
     },
     "04" : {
-      "base" : "{{ green-dim.70 }}",
-      "dim" :  "{{ green-dim.60 }}"
+      "base" : "{{ green-dim.40 }}",
+      "dim" :  "{{ green-dim.50 }}"
     },
     "05" : {
-      "base" : "{{ teal-dim.70 }}",
-      "dim" :  "{{ teal-dim.60 }}"
+      "base" : "{{ teal-dim.40 }}",
+      "dim" :  "{{ teal-dim.50 }}"
     },
     "06" : {
-      "base" : "{{ blue-dim.70 }}",
-      "dim" :  "{{ blue-dim.60 }}"
+      "base" : "{{ blue-dim.40 }}",
+      "dim" :  "{{ blue-dim.50 }}"
     },
     "07" : {
-      "base" : "{{ violet-dim.70 }}",
-      "dim" :  "{{ violet-dim.60 }}"
+      "base" : "{{ violet-dim.40 }}",
+      "dim" :  "{{ violet-dim.50 }}"
     }
   }
 }

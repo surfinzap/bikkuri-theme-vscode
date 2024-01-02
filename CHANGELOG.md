@@ -15,7 +15,8 @@ Security
 ## [0.4.3] — 2024-
 
 ### Changed
-- make `list.hoverBackground` more subtle; it impacts hovers for Sidebar items, Quick Input items and Notifications
+- Made `list.hoverBackground` more subtle; it impacts hovers for Sidebar items, Quick Input items and Notifications
+- Refactored the order of colors 
 
 ### Security
 - Updated dependencies to their latest versions
@@ -71,7 +72,7 @@ This is a significant release. One theme has grown into **8 dark theme variati
 
 ### Changed
 - Refactored how tokens, schemes and templates are generated
-- Muted multi-line comments in python
+- Muted multi-line comments in Python
 - Increased scrollbar contrast
 - Updated Python syntax highlighting (function & support type)
 - Consolidated opacity for colors
@@ -103,7 +104,7 @@ This is a significant release. One theme has grown into **8 dark theme variati
 
 ### Changed
 - syntax highlighting for HTML
-- syntax highlighting for pug
+- syntax highlighting for Pug
 - syntax highlighting for Mermaid
 - syntax highlighting for CSS/SCSS
 
@@ -133,7 +134,7 @@ This is a significant release. One theme has grown into **8 dark theme variati
 - Consolidated hashtag colors in markdown to gray40
 - Changed editorInfo.foreground to {{blue1}}
 - Updated Peek view styles
-- Increased contrast for bracket matching background
+- Increased contrast for bracket-matching background
 - Increased contrast for text selection background
 
 ### Removed
