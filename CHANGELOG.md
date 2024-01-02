@@ -17,6 +17,7 @@ Security
 ### Changed
 - Made `list.hoverBackground` more subtle; it impacts hovers for Sidebar items, Quick Input items and Notifications
 - Refactored the order of colors 
+- More subtle diagonal fill in the Diff Editor
 
 ### Security
 - Updated dependencies to their latest versions
