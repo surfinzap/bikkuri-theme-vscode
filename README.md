@@ -48,7 +48,7 @@
 
 **Installing the theme**
 1. Choose **Extensions** from the Activity Bar
-2. Search for `B Theme`
+2. Search for `Bikkuri Theme`
 3. Click **Install** to install it
 4. Click **Reload** to reload the Visual Studio Code
 5. Open `Preferences: Color Theme` from the command palette and select the preferred flavor of the **B** Theme
@@ -65,6 +65,6 @@ Share your feedback as a [GitHub issue](https://github.com/surfinzap/b-theme-vsc
 
 
 ## Inspiration / Recommendations
-- colors for the theme were design with [Colorca](https://colorca.org)
-- the theme goes well with [JetBrains Mono](https://github.com/JetBrains/JetBrainsMono)
+- colors for the theme were designed with [Colorca](https://colorca.org)
+- the theme plays nicely with [JetBrains Mono](https://github.com/JetBrains/JetBrainsMono) font
 - syntax highlighting rules inspiration: [vscode-theme-gruvbox](https://github.com/jdinhify/vscode-theme-gruvbox)
