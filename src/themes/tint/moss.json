@@ -1,0 +1,15 @@
+{
+  "tint-name": "Moss",
+  "tint": {
+    "100": "{{ color.gray-moss.100 }}",
+    "90": "{{ color.gray-moss.90 }}",
+    "80": "{{ color.gray-moss.80 }}",
+    "70": "{{ color.gray-moss.70 }}",
+    "60": "{{ color.gray-moss.60 }}",
+    "50": "{{ color.gray-moss.50 }}",
+    "40": "{{ color.gray-moss.40 }}",
+    "30": "{{ color.gray-moss.30 }}",
+    "20": "{{ color.gray-moss.20 }}",
+    "10": "{{ color.gray-moss.10 }}"
+  }
+}

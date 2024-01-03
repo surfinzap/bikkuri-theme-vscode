@@ -1,0 +1,15 @@
+{
+  "tint-name": "Plum",
+  "tint": {
+    "100": "{{ color.gray-plum.100 }}",
+    "90": "{{ color.gray-plum.90 }}",
+    "80": "{{ color.gray-plum.80 }}",
+    "70": "{{ color.gray-plum.70 }}",
+    "60": "{{ color.gray-plum.60 }}",
+    "50": "{{ color.gray-plum.50 }}",
+    "40": "{{ color.gray-plum.40 }}",
+    "30": "{{ color.gray-plum.30 }}",
+    "20": "{{ color.gray-plum.20 }}",
+    "10": "{{ color.gray-plum.10 }}"
+  }
+}

@@ -1,8 +1,8 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "{{ name }}",
-  "type": "{{ type }}",
-  "colors": {
+  "name": "Bikkuri ({{ mode-name }} {{ tint-name }} & {{ mood-name }})",
+  "type": "{{ mode-type }}",
+  "colors": { 
     /* Base colors
      https://code.visualstudio.com/api/references/theme-color#status-bar-colors
     */
@@ -399,13 +399,13 @@
        https://code.visualstudio.com/api/references/theme-color#diff-editor-colors
     */
     "diffEditor.diagonalFill":                 "{{ tint.90 }}",
-    "diffEditor.insertedTextBackground":       "{{ ui.success.dim }}{{ alpha.medLow }}",
-    "diffEditor.removedTextBackground":        "{{ ui.danger.dim }}{{ alpha.medLow }}",
+    "diffEditor.insertedTextBackground":       "{{ ui.success.dim }}{{ alpha.low }}",
+    "diffEditor.removedTextBackground":        "{{ ui.danger.dim }}{{ alpha.low }}",
     "diffEditor.insertedTextBorder":           null,             //it impacts line as well
     "diffEditor.removedTextBorder":            null,
     "diffEditor.border":                       null,             //border between diffs
-    "diffEditor.insertedLineBackground":       "{{ ui.success.dim }}{{ alpha.medLow }}",
-    "diffEditor.removedLineBackground":        "{{ ui.danger.dim }}{{ alpha.medLow }}",
+    "diffEditor.insertedLineBackground":       "{{ ui.success.dim }}{{ alpha.low }}",
+    "diffEditor.removedLineBackground":        "{{ ui.danger.dim }}{{ alpha.low }}",
     "diffEditorGutter.insertedLineBackground": "{{ ui.success.dim }}{{ alpha.low }}",
     "diffEditorGutter.removedLineBackground":  "{{ ui.danger.dim }}{{ alpha.low }}",
     "diffEditorOverview.insertedForeground":   "{{ ui.success.dim }}{{ alpha.medLow }}",
@@ -1418,7 +1418,7 @@
     {
       "scope": "string.quoted.double.json",
       "settings": {
-        "foreground": "{{ tint.30 }}"
+        "foreground": "{{ text-color.base }}"
       }
     },
     {

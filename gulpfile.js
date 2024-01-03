@@ -2,29 +2,43 @@ const gulp = require('gulp');
 const watch = require('gulp-watch');
 const { spawn } = require('child_process');
 
+let watchPaths = ['src/**/*', 'scripts/**/*'];
 
+gulp.task('watch', function () {
+  watch(watchPaths, function () {
+    console.log('Regenerating schemes and themes...');
 
-let watchPaths = [
-  'colors/',
-  'schemes/',
-  'templates/',
-  'theme-generator.py'
-]
-
-
-let generator = 'theme-generator.py'
-
-gulp.task('watch', function() {
-  watch(watchPaths, function() {
-    console.log('Regenerating theme...');
-    const python = spawn('python', [generator]);
-
-    // listens for data events emitted by the standard output stream (stdout) of the child process spawned by the spawn function.
-    python.stdout.on('data', function(data) {
-      console.log(data.toString());
-    });
-    python.stderr.on('data', function(data) {
-      console.error(data.toString());
-    });
+    runScript('generate-schemes.js');
+    runScript('generate-themes.py');
   });
 });
+
+function runScript(scriptName) {
+  let command;
+  let args;
+
+  if (scriptName.endsWith('.py')) {
+    command = 'python'; // or 'python3' if that's the appropriate command on your system
+    args = [`scripts/${scriptName}`];
+  } else if (scriptName.endsWith('.js')) {
+    command = 'node';
+    args = [`scripts/${scriptName}`];
+  } else {
+    console.error('Unsupported script type:', scriptName);
+    return;
+  }
+
+  const process = spawn(command, args);
+
+  process.stdout.on('data', (data) => {
+    console.log(data.toString());
+  });
+
+  process.stderr.on('data', (data) => {
+    console.error(data.toString());
+  });
+
+  process.on('error', (err) => {
+    console.error('Failed to start subprocess.', err);
+  });
+}

@@ -1,0 +1,87 @@
+{
+  "mood-name": "Serene",
+  "red": {
+    "100": "{{ color.red-dim.100 }}",
+    "90": "{{ color.red-dim.90 }}",
+    "80": "{{ color.red-dim.80 }}",
+    "70": "{{ color.red-dim.70 }}",
+    "60": "{{ color.red-dim.60 }}",
+    "50": "{{ color.red-dim.50 }}",
+    "40": "{{ color.red-dim.40 }}",
+    "30": "{{ color.red-dim.30 }}",
+    "20": "{{ color.red-dim.20 }}",
+    "10": "{{ color.red-dim.10 }}"
+  },
+  "orange": {
+    "100": "{{ color.orange-dim.100 }}",
+    "90": "{{ color.orange-dim.90 }}",
+    "80": "{{ color.orange-dim.80 }}",
+    "70": "{{ color.orange-dim.70 }}",
+    "60": "{{ color.orange-dim.60 }}",
+    "50": "{{ color.orange-dim.50 }}",
+    "40": "{{ color.orange-dim.40 }}",
+    "30": "{{ color.orange-dim.30 }}",
+    "20": "{{ color.orange-dim.20 }}",
+    "10": "{{ color.orange-dim.10 }}"
+  },
+  "yellow": {
+    "100": "{{ color.yellow-dim.100 }}",
+    "90": "{{ color.yellow-dim.90 }}",
+    "80": "{{ color.yellow-dim.80 }}",
+    "70": "{{ color.yellow-dim.70 }}",
+    "60": "{{ color.yellow-dim.60 }}",
+    "50": "{{ color.yellow-dim.50 }}",
+    "40": "{{ color.yellow-dim.40 }}",
+    "30": "{{ color.yellow-dim.30 }}",
+    "20": "{{ color.yellow-dim.20 }}",
+    "10": "{{ color.yellow-dim.10 }}"
+  },
+  "green": {
+    "100": "{{ color.green-dim.100 }}",
+    "90": "{{ color.green-dim.90 }}",
+    "80": "{{ color.green-dim.80 }}",
+    "70": "{{ color.green-dim.70 }}",
+    "60": "{{ color.green-dim.60 }}",
+    "50": "{{ color.green-dim.50 }}",
+    "40": "{{ color.green-dim.40 }}",
+    "30": "{{ color.green-dim.30 }}",
+    "20": "{{ color.green-dim.20 }}",
+    "10": "{{ color.green-dim.10 }}"
+  },
+  "teal": {
+    "100": "{{ color.teal-dim.100 }}",
+    "90": "{{ color.teal-dim.90 }}",
+    "80": "{{ color.teal-dim.80 }}",
+    "70": "{{ color.teal-dim.70 }}",
+    "60": "{{ color.teal-dim.60 }}",
+    "50": "{{ color.teal-dim.50 }}",
+    "40": "{{ color.teal-dim.40 }}",
+    "30": "{{ color.teal-dim.30 }}",
+    "20": "{{ color.teal-dim.20 }}",
+    "10": "{{ color.teal-dim.10 }}"
+  },
+  "blue": {
+    "100": "{{ color.blue-dim.100 }}",
+    "90": "{{ color.blue-dim.90 }}",
+    "80": "{{ color.blue-dim.80 }}",
+    "70": "{{ color.blue-dim.70 }}",
+    "60": "{{ color.blue-dim.60 }}",
+    "50": "{{ color.blue-dim.50 }}",
+    "40": "{{ color.blue-dim.40 }}",
+    "30": "{{ color.blue-dim.30 }}",
+    "20": "{{ color.blue-dim.20 }}",
+    "10": "{{ color.blue-dim.10 }}"
+  },
+  "violet": {
+    "100": "{{ color.violet-dim.100 }}",
+    "90": "{{ color.violet-dim.90 }}",
+    "80": "{{ color.violet-dim.80 }}",
+    "70": "{{ color.violet-dim.70 }}",
+    "60": "{{ color.violet-dim.60 }}",
+    "50": "{{ color.violet-dim.50 }}",
+    "40": "{{ color.violet-dim.40 }}",
+    "30": "{{ color.violet-dim.30 }}",
+    "20": "{{ color.violet-dim.20 }}",
+    "10": "{{ color.violet-dim.10 }}"
+  }
+}

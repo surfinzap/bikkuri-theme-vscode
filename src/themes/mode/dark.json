@@ -1,0 +1,72 @@
+{
+  "mode-type": "dark",
+  "mode-name": "Dark", 
+  "shadow": "{{ color.black }}",
+
+  "ui": {
+    "accent1": {
+      "base": "{{ blue.40 }}",
+      "dim": "{{ blue.50 }}"
+    },
+    "accent2": {
+      "base": "{{ violet.40 }}",
+      "dim": "{{ violet.50 }}"
+    },
+    "accent3": {
+      "base": "{{ teal.40 }}",
+      "dim": "{{ teal.50 }}" 
+    },
+    "success": {
+      "base": "{{ green.40 }}",
+      "dim": "{{ green.50 }}"
+    },
+    "danger": {
+      "base": "{{ red.50 }}",
+      "dim": "{{ red.60 }}"
+    },
+    "warning": {
+      "base": "{{ yellow.30 }}",
+      "dim": "{{ yellow.40 }}"
+    },
+    "info": {
+      "base": "{{ blue.40 }}",
+      "dim": "{{ blue.50 }}"
+    }
+  },
+  "text-color": {
+    "base": "{{ tint.30 }}",
+    "mid": "{{ tint.40 }}",
+    "dim": "{{ tint.50 }}",
+    "disabled": "{{ tint.60 }}"
+  },
+  "syntax": {
+    "01": {
+      "base": "{{ red.50 }}",
+      "dim": "{{ red.60 }}"
+    },
+    "02": {
+      "base": "{{ orange.40 }}",
+      "dim": "{{ orange.50 }}"
+    },
+    "03": {
+      "base": "{{ yellow.30 }}",
+      "dim": "{{ yellow.40 }}"
+    },
+    "04": {
+      "base": "{{ green.40 }}",
+      "dim": "{{ green.50 }}"
+    },
+    "05": {
+      "base": "{{ teal.40 }}",
+      "dim": "{{ teal.50 }}"
+    },
+    "06": {
+      "base": "{{ blue.40 }}",
+      "dim": "{{ blue.50 }}"
+    },
+    "07": {
+      "base": "{{ violet.40 }}",
+      "dim": "{{ violet.50 }}"
+    }
+  }
+}

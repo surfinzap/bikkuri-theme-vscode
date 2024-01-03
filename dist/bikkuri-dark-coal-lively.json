@@ -1,8 +1,8 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Bikkuri (Dark Coal &amp; Lively)",
+  "name": "Bikkuri (Dark Coal & Lively)",
   "type": "dark",
-  "colors": {
+  "colors": { 
     /* Base colors
      https://code.visualstudio.com/api/references/theme-color#status-bar-colors
     */
@@ -105,7 +105,11 @@
     "list.errorForeground":             "#e56176",
     "list.focusBackground":             "#393939",
     "list.focusForeground":             "#c6c6c6",
-    "list.hoverBackground":             "#393939",
+
+    // list.hoverBackground/Foreground has a broad impact: Sidebar items hover, Quick Input items hover, Notifications hover; but not for the menu
+    "list.hoverBackground":             "#3939394d",
+    "list.hoverForeground":             "#c6c6c6",
+
     "list.inactiveSelectionBackground": "#262626",
     "list.inactiveSelectionForeground": "#c6c6c6",
     "list.warningForeground":           "#ebc075",
@@ -116,7 +120,6 @@
     "list.focusOutline":                null,
     "list.highlightForeground":         "#75aedd",
     "list.invalidItemForeground":       "#c53d56",
-    "list.hoverForeground":             "#c6c6c6",
     //"list.activeSelectionIconForeground": null,
     //"list.filterMatchBorder": null,
     //"list.inactiveFocusBackground": null,
@@ -239,7 +242,6 @@
     "statusBarItem.prominentHoverBackground": "#a9a0e6",
     "statusBarItem.remoteBackground":         "#262626",
     "statusBarItem.remoteForeground":         "#8d8d8d",
-    
     "statusBarItem.errorBackground":          "#e56176",
     "statusBarItem.errorForeground":          "#1b1b1b",
     "statusBarItem.warningBackground":        "#ebc075",
@@ -396,14 +398,14 @@
     /* Diff Editor
        https://code.visualstudio.com/api/references/theme-color#diff-editor-colors
     */
-    "diffEditor.diagonalFill":                 "#393939",
-    "diffEditor.insertedTextBackground":       "#8394514d",
-    "diffEditor.removedTextBackground":        "#c53d564d",
+    "diffEditor.diagonalFill":                 "#262626",
+    "diffEditor.insertedTextBackground":       "#8394511a",
+    "diffEditor.removedTextBackground":        "#c53d561a",
     "diffEditor.insertedTextBorder":           null,             //it impacts line as well
     "diffEditor.removedTextBorder":            null,
     "diffEditor.border":                       null,             //border between diffs
-    "diffEditor.insertedLineBackground":       "#8394514d",
-    "diffEditor.removedLineBackground":        "#c53d564d",
+    "diffEditor.insertedLineBackground":       "#8394511a",
+    "diffEditor.removedLineBackground":        "#c53d561a",
     "diffEditorGutter.insertedLineBackground": "#8394511a",
     "diffEditorGutter.removedLineBackground":  "#c53d561a",
     "diffEditorOverview.insertedForeground":   "#8394514d",
