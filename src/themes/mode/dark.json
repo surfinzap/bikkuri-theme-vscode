@@ -13,7 +13,8 @@
     "base": "{{ tint.30 }}",
     "mid": "{{ tint.40 }}",
     "dim": "{{ tint.50 }}",
-    "disabled": "{{ tint.60 }}"
+    "disabled": "{{ tint.60 }}",
+    "on-color": "{{ tint.100 }}"
   },
   "icon": {
     "base": "{{ tint.40 }}",
@@ -21,6 +22,8 @@
   },
   "border": {
     "base": "{{ tint.60 }}",
+    "mid": "{{ tint.70 }}",
+    "dim": "{{ tint.80 }}",
     "none": "{{ surface.base }}{{ alpha.none }}"
   },
   "ui": {

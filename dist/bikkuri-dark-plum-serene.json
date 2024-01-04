@@ -29,7 +29,7 @@
     "button.secondaryBackground":             "#3c3746",
     "button.secondaryForeground":             "#c8c5cf",
     "button.secondaryHoverBackground":        "#3c3746",
-    "button.border":                          "#aba6b600",
+    "button.border":                          "#1d1a2300",
     "checkbox.background":                    "#282430",
     "checkbox.foreground":                    "#aba6b6",
     "checkbox.border":                        "#746b84",
@@ -232,9 +232,9 @@
     "statusBar.border":                       "#3c3746",
     "statusBar.debuggingBackground":          "#8d88b6",
     "statusBar.debuggingForeground":          "#1d1a23",
-    "statusBar.debuggingBorder":              "#1d1a23",
+    "statusBar.debuggingBorder":              "#3c3746",
     "statusBar.noFolderBackground":           "#1d1a23",
-    "statusBar.noFolderBorder":               "#1d1a23",
+    "statusBar.noFolderBorder":               "#3c3746",
     "statusBarItem.activeBackground":         "#282430",
     "statusBarItem.hoverBackground":          "#3c3746",
     "statusBarItem.prominentForeground":      "#1d1a23",
@@ -248,7 +248,7 @@
     "statusBarItem.warningForeground":        "#1d1a23",
     "statusBarItem.compactHoverBackground":   "#3c3746",
     "statusBarItem.focusBorder":              "#3c3746",
-    "statusBar.focusBorder":                  "#1d1a23",
+    "statusBar.focusBorder":                  "#3c3746",
 
 
 
@@ -272,7 +272,7 @@
     "tab.activeForeground":               "#c8c5cf",
     "tab.inactiveForeground":             "#918a9f",
     "tab.inactiveBackground":             "#1d1a23",
-    "tab.border":                         "#1d1a23",
+    "tab.border":                         "#1d1a2300",
     "tab.activeBorder":                   "#918a9f",
     "tab.activeBorderTop":                null,
     "tab.hoverBorder":                    "#3c3746",
@@ -458,7 +458,7 @@
 
     /* Peek view
 
-       e.g. error within the Editor, openining definition of f() (F12)
+       e.g. error within the Editor
     */
     "peekView.border":                         "#3c3746",
     "peekViewEditor.background":               "#1d1a23",
