@@ -1,8 +1,28 @@
 {
   "mode-type": "dark",
-  "mode-name": "Dark", 
+  "mode-name": "Dark",
   "shadow": "{{ color.black }}",
 
+  "test-repl": "{{ red.60 }}",
+
+  "surface" : {
+    "base": "{{ tint.100 }}",
+    "none": "{{ tint.100 }}{{ alpha.none }}"
+  },
+  "text": {
+    "base": "{{ tint.30 }}",
+    "mid": "{{ tint.40 }}",
+    "dim": "{{ tint.50 }}",
+    "disabled": "{{ tint.60 }}"
+  },
+  "icon": {
+    "base": "{{ tint.40 }}",
+    "mid": "{{ tint.50 }}"
+  },
+  "border": {
+    "base": "{{ tint.60 }}",
+    "none": "{{ surface.base }}{{ alpha.none }}"
+  },
   "ui": {
     "accent1": {
       "base": "{{ blue.40 }}",
@@ -14,7 +34,7 @@
     },
     "accent3": {
       "base": "{{ teal.40 }}",
-      "dim": "{{ teal.50 }}" 
+      "dim": "{{ teal.50 }}"
     },
     "success": {
       "base": "{{ green.40 }}",
@@ -33,23 +53,7 @@
       "dim": "{{ blue.50 }}"
     }
   },
-  "text": {
-    "base": "{{ tint.30 }}",
-    "mid": "{{ tint.40 }}",
-    "dim": "{{ tint.50 }}",
-    "disabled": "{{ tint.60 }}"
-  },
-  "icon": {
-    "base": "{{ tint.40 }}",
-    "mid": "{{ tint.50 }}"
-  },
-  "border": {
-    "base": "{{ tint.60 }}"
-  }, 
 
-
-
-  "test-repl": "{{ red.60 }}",
   "syntax": {
     "01": {
       "base": "{{ red.50 }}",
