@@ -6,8 +6,6 @@ let watchPaths = ['src/**/*', 'scripts/**/*'];
 
 gulp.task('watch', function () {
   watch(watchPaths, function () {
-    console.log('Regenerating schemes and themes...');
-
     runScript('generate-schemes.js');
     runScript('generate-themes.py');
   });
