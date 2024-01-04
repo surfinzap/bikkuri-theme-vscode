@@ -33,12 +33,17 @@
       "dim": "{{ blue.50 }}"
     }
   },
-  "text-color": {
+  "text": {
     "base": "{{ tint.30 }}",
     "mid": "{{ tint.40 }}",
     "dim": "{{ tint.50 }}",
     "disabled": "{{ tint.60 }}"
   },
+  "border": {
+    "base": "{{ tint.60 }}"
+  },
+
+  "test-repl": "{{ red.60 }}",
   "syntax": {
     "01": {
       "base": "{{ red.50 }}",

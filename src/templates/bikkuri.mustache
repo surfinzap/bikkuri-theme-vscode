@@ -8,14 +8,14 @@
     */
     // focusBorder has a very wide scope
     "focusBorder":                            "{{ tint.70 }}",
-    "foreground":                             "{{ text-color.base }}",
+    "foreground":                             "{{ text.base }}",
     "widget.shadow":                          "{{ shadow }}",
     // text selections for input fields or text areas, does not apply to selections within the editor and the terminal
     "selection.background":                   "{{ tint.70 }}",
-    "descriptionForeground":                  "{{ text-color.base }}",
+    "descriptionForeground":                  "{{ text.base }}",
     "errorForeground":                        "{{ ui.danger.base }}",
-    "icon.foreground":                        "{{ tint.30 }}",
-    "sash.hoverBorder":                       "{{ tint.30 }}",
+    "icon.foreground":                        "{{ test-repl }}",
+    "sash.hoverBorder":                       "{{ border.base }}",
     "textLink.foreground":                    "{{ ui.accent1.base }}",
     "textLink.activeForeground":              "{{ ui.accent1.dim }}",
     "debugToolBar.background":                "{{ tint.100 }}",
@@ -27,11 +27,11 @@
     "button.foreground":                      "{{ tint.90 }}",
     "button.hoverBackground":                 "{{ tint.50 }}",
     "button.secondaryBackground":             "{{ tint.80 }}",
-    "button.secondaryForeground":             "{{ text-color.base }}",
+    "button.secondaryForeground":             "{{ text.base }}",
     "button.secondaryHoverBackground":        "{{ tint.80 }}",
     "button.border":                          "{{ tint.100 }}{{ alpha.none }}",
     "checkbox.background":                    "{{ tint.90 }}",
-    "checkbox.foreground":                    "{{ tint.30 }}",
+    "checkbox.foreground":                    "{{ test-repl }}",
     "checkbox.border":                        "{{ tint.60 }}",
 
 
@@ -49,8 +49,8 @@
     */  
     "input.background":                       "{{ tint.90 }}",
     "input.border":                           "{{ tint.80 }}",
-    "input.foreground":                       "{{ text-color.base }}",
-    "input.placeholderForeground":            "{{ text-color.disabled }}",
+    "input.foreground":                       "{{ text.base }}",
+    "input.placeholderForeground":            "{{ text.disabled }}",
     "inputOption.activeBackground":           "{{ tint.40 }}",
     "inputOption.hoverBackground":            "{{ tint.70 }}",  
     "inputOption.activeForeground":           "{{ tint.90 }}",
@@ -92,8 +92,8 @@
     */    
     "breadcrumb.foreground":                    "{{ tint.60 }}",
     "breadcrumb.background":                    "{{ tint.100 }}",
-    "breadcrumb.focusForeground":               "{{ text-color.base }}",
-    "breadcrumb.activeSelectionForeground":     "{{ text-color.base }}",
+    "breadcrumb.focusForeground":               "{{ text.base }}",
+    "breadcrumb.activeSelectionForeground":     "{{ text.base }}",
     "breadcrumbPicker.background":              "{{ tint.100 }}",
 
     
@@ -101,17 +101,17 @@
        https://code.visualstudio.com/api/references/theme-color#lists-and-trees
     */
     "list.activeSelectionBackground":   "{{ tint.90 }}",
-    "list.activeSelectionForeground":   "{{ text-color.base }}",
+    "list.activeSelectionForeground":   "{{ text.base }}",
     "list.errorForeground":             "{{ ui.danger.base }}",
     "list.focusBackground":             "{{ tint.80 }}",
-    "list.focusForeground":             "{{ text-color.base }}",
+    "list.focusForeground":             "{{ text.base }}",
 
     // list.hoverBackground/Foreground has a broad impact: Sidebar items hover, Quick Input items hover, Notifications hover; but not for the menu
     "list.hoverBackground":             "{{ tint.80 }}{{ alpha.medLow}}",
-    "list.hoverForeground":             "{{ text-color.base }}",
+    "list.hoverForeground":             "{{ text.base }}",
 
     "list.inactiveSelectionBackground": "{{ tint.90 }}",
-    "list.inactiveSelectionForeground": "{{ text-color.base }}",
+    "list.inactiveSelectionForeground": "{{ text.base }}",
     "list.warningForeground":           "{{ ui.warning.base }}",
     "list.deemphasizedForeground":      "{{ tint.60 }}",
     "list.dropBackground":              "{{ tint.70 }}{{ alpha.low }}",
@@ -136,7 +136,7 @@
     "pickerGroup.border":                 "{{ tint.80 }}",
     "quickInputTitle.background":         "{{ tint.100 }}",
     "quickInputList.focusBackground":     "{{ tint.80 }}",
-    "quickInputList.focusForeground":     "{{ text-color.base }}",
+    "quickInputList.focusForeground":     "{{ text.base }}",
     "quickInputList.focusIconForeground": "{{ tint.50 }}",
     
     
@@ -149,22 +149,22 @@
     "keybindingLabel.background":   "{{ tint.100 }}",
     "keybindingLabel.border":       "{{ tint.90 }}",
     "keybindingLabel.bottomBorder": "{{ tint.80 }}",
-    "keybindingLabel.foreground":   "{{ text-color.mid }}",
+    "keybindingLabel.foreground":   "{{ text.mid }}",
 
     /* Activity Bar 
     */
     "activityBar.background":         "{{ tint.100 }}",
-    "activityBar.dropBorder":         "{{ tint.30 }}",
-    "activityBar.foreground":         "{{ text-color.base }}",
+    "activityBar.dropBorder":         "{{ border.base }}",
+    "activityBar.foreground":         "{{ text.base }}",
     "activityBar.inactiveForeground": "{{ tint.70 }}", //icon colors
     "activityBar.border":             "{{ tint.80 }}",
     "activityBarBadge.background":    "{{ tint.40 }}",
     "activityBarBadge.foreground":    "{{ tint.90 }}",
-    "activityBar.activeBorder":       "{{ tint.30 }}",
+    "activityBar.activeBorder":       "{{ border.base }}",
     "activityBar.activeBackground":   "{{ tint.80 }}",
     "activityBar.activeFocusBorder":  null,
     "profileBadge.background" :       "{{ tint.80 }}",
-    "profileBadge.foreground":        "{{ tint.30 }}",
+    "profileBadge.foreground":        "{{ test-repl }}",
 
 
     /* Sidebar
@@ -269,7 +269,7 @@
     "editorGroup.dropIntoPromptBorder":     "{{ tint.90 }}",
 
     "tab.activeBackground":               "{{ tint.90 }}",
-    "tab.activeForeground":               "{{ text-color.base }}",
+    "tab.activeForeground":               "{{ text.base }}",
     "tab.inactiveForeground":             "{{ tint.50 }}",
     "tab.inactiveBackground":             "{{ tint.100 }}",
     "tab.border":                         "{{ tint.100 }}",
@@ -289,13 +289,13 @@
     "panel.border":                  "{{ tint.80 }}",
     "panel.dropBorder":              "{{ tint.70 }}",
     "panelTitle.activeBorder":       "{{ tint.50 }}",
-    "panelTitle.activeForeground":   "{{ text-color.base }}",
+    "panelTitle.activeForeground":   "{{ text.base }}",
     "panelTitle.inactiveForeground": "{{ tint.50 }}",
     "panelInput.border":             "{{ tint.70 }}",
     "panelSection.border":           "{{ tint.80 }}",
     "panelSection.dropBackground":   "{{ tint.70 }}{{ alpha.med }}",
     "panelSectionHeader.background": "{{ tint.100 }}",
-    "panelSectionHeader.foreground": "{{ text-color.base }}",
+    "panelSectionHeader.foreground": "{{ text.base }}",
     "panelSectionHeader.border":     "{{ tint.80 }}",
 
 
@@ -308,9 +308,9 @@
        
     */
     "editor.background":              "{{ tint.100 }}",
-    "editor.foreground":              "{{ text-color.base }}",
+    "editor.foreground":              "{{ text.base }}",
     "editorLineNumber.foreground":    "{{ tint.70 }}",
-    "editorLink.activeForeground":    "{{ text-color.base }}",
+    "editorLink.activeForeground":    "{{ text.base }}",
     "editor.lineHighlightBackground": "{{ tint.90 }}",
     "editor.lineHighlightBorder":     null,
     "editor.selectionBackground":     "{{ tint.80 }}",
@@ -343,7 +343,7 @@
     "editorUnicodeHighlight.background":      "{{ tint.100 }}",
 
     "editorWhitespace.foreground":        "{{ tint.70 }}",
-    "editorCursor.foreground":            "{{ text-color.mid }}",
+    "editorCursor.foreground":            "{{ text.mid }}",
     "editorError.foreground":             "{{ ui.danger.dim }}",
     "editorWarning.foreground":           "{{ ui.warning.dim }}",
     "editorHint.foreground":              "{{ ui.success.dim }}",
@@ -451,7 +451,7 @@
     "editorWidget.background":                 "{{ tint.90 }}",
     "editorWidget.border":                     "{{ tint.80 }}",
     "editorSuggestWidget.background":          "{{ tint.100 }}",
-    "editorSuggestWidget.foreground":          "{{ text-color.base }}",
+    "editorSuggestWidget.foreground":          "{{ text.base }}",
     "editorSuggestWidget.highlightForeground": "{{ ui.accent1.dim }}",
     "editorSuggestWidget.selectedBackground":  "{{ tint.80 }}",
     "editorSuggestWidget.border":              "{{ tint.80 }}",
@@ -470,10 +470,10 @@
     "peekViewResult.lineForeground":           "{{ tint.40 }}",
     "peekViewResult.matchHighlightBackground": "{{ tint.80 }}",
     "peekViewResult.selectionBackground":      "{{ tint.80 }}",
-    "peekViewResult.selectionForeground":      "{{ text-color.base }}",
+    "peekViewResult.selectionForeground":      "{{ text.base }}",
     "peekViewTitle.background":                "{{ tint.100 }}",
     "peekViewTitleDescription.foreground":     "{{ tint.50 }}",
-    "peekViewTitleLabel.foreground":           "{{ text-color.base }}",
+    "peekViewTitleLabel.foreground":           "{{ text.base }}",
 
 
 
@@ -492,7 +492,7 @@
     "editor.inlineValuesBackground":               "{{ tint.100 }}{{ alpha.none }}",
     "debugView.exceptionLabelForeground":          "{{ tint.10 }}",
     "debugView.exceptionLabelBackground":          "{{ ui.danger.dim }}",
-    "debugView.stateLabelForeground":              "{{ text-color.base }}",
+    "debugView.stateLabelForeground":              "{{ text.base }}",
     "debugView.stateLabelBackground":              "{{ tint.90 }}",
     "debugView.valueChangedHighlight":             "{{ ui.accent2.dim }}{{ alpha.med }}",
     "debugTokenExpression.name":                   "{{ syntax.05.base }}",
@@ -589,15 +589,15 @@
     "terminal.ansiCyan":                     "{{ syntax.05.dim }}",
     "terminal.ansiBrightCyan":               "{{ syntax.05.base }}",
     "terminal.ansiWhite":                    "{{ tint.50 }}",
-    "terminal.ansiBrightWhite":              "{{ text-color.base }}",
-    "terminal.foreground":                   "{{ text-color.base }}",
+    "terminal.ansiBrightWhite":              "{{ text.base }}",
+    "terminal.foreground":                   "{{ text.base }}",
     "terminal.background":                   "{{ tint.100 }}",
     "terminal.border":                       "{{ tint.80 }}",
     "terminal.dropBackground":               "{{ tint.70 }}{{ alpha.med }}",
     "terminal.selectionBackground":          "{{ tint.70 }}",
-    "terminal.tab.activeBorder":             "{{ tint.30 }}",
+    "terminal.tab.activeBorder":             "{{ border.base }}",
     "terminalCursor.background":             "{{ tint.90 }}",
-    "terminalCursor.foreground":             "{{ text-color.mid }}",
+    "terminalCursor.foreground":             "{{ text.mid }}",
     "terminalCommandDecoration.defaultBackground": "{{ tint.90 }}",
     "terminalCommandDecoration.successBackground": "{{ ui.success.dim }}",
     "terminalCommandDecoration.errorBackground":   "{{ ui.danger.dim }}",
@@ -611,10 +611,10 @@
        https://code.visualstudio.com/api/references/theme-color#notification-colors
     */
     "notificationCenter.border":             "{{ tint.80 }}",
-    "notificationCenterHeader.foreground":   "{{ text-color.base }}",
+    "notificationCenterHeader.foreground":   "{{ text.base }}",
     "notificationCenterHeader.background":   "{{ tint.100 }}",
     "notificationToast.border":              "{{ tint.80 }}",
-    "notifications.foreground":              "{{ text-color.base }}",
+    "notifications.foreground":              "{{ text.base }}",
     "notifications.background":              "{{ tint.100 }}",
     "notifications.border":                  "{{ tint.80 }}",
     "notificationLink.foreground":           "{{ ui.accent1.base }}",
@@ -638,7 +638,7 @@
     "menubar.selectionForeground":           "{{ tint.20 }}",
     "menubar.selectionBackground":           "{{ tint.70 }}",
     "menubar.selectionBorder":                null,
-    "menu.foreground":                       "{{ text-color.base }}",
+    "menu.foreground":                       "{{ text.base }}",
     "menu.background":                       "{{ tint.90 }}",
     "menu.selectionForeground":              "{{ tint.20 }}",
     "menu.selectionBackground":              "{{ tint.70 }}",
@@ -656,7 +656,7 @@
   "tokenColors": [
     {
       "settings": {
-        "foreground": "{{ text-color.base }}"
+        "foreground": "{{ text.base }}"
       }
     },
     {
@@ -702,7 +702,7 @@
     {
       "scope": "constant.rgb-value",
       "settings": {
-        "foreground": "{{ text-color.base }}"
+        "foreground": "{{ text.base }}"
       }
     },
     {
@@ -828,7 +828,7 @@
     {
       "scope": "object",
       "settings": {
-        "foreground": "{{ text-color.base }}"
+        "foreground": "{{ text.base }}"
       }
     },
     {
@@ -979,7 +979,7 @@
     {
       "scope": "brace",
       "settings": {
-        "foreground": "{{ text-color.base }}"
+        "foreground": "{{ text.base }}"
       }
     },
     {
@@ -1021,7 +1021,7 @@
     {
       "scope": "punctuation.quoted",
       "settings": {
-        "foreground": "{{ text-color.base }}"
+        "foreground": "{{ text.base }}"
       }
     },
     {
@@ -1077,7 +1077,7 @@
       "name": "Python Function Arguments",
       "scope": "meta.function-call.arguments",
       "settings": {
-        "foreground": "{{ text-color.base }}"
+        "foreground": "{{ text.base }}"
       }
     },
     {
@@ -1243,7 +1243,7 @@
         "source.java variable.other.definition.java"
       ],
       "settings": {
-        "foreground": "{{ text-color.base }}"
+        "foreground": "{{ text.base }}"
       }
     },
     // LISP ----------------------------------------
@@ -1264,7 +1264,7 @@
     {
       "scope": "string.other.link.title.markdown",
       "settings": {
-        "foreground": "{{ text-color.base }}",
+        "foreground": "{{ text.base }}",
         "fontStyle": null
       }
     },
@@ -1418,7 +1418,7 @@
     {
       "scope": "string.quoted.double.json",
       "settings": {
-        "foreground": "{{ text-color.base }}"
+        "foreground": "{{ text.base }}"
       }
     },
     {
@@ -1633,7 +1633,7 @@
         "source.go entity.name.type"
       ],
       "settings": {
-        "foreground": "{{ text-color.base }}"
+        "foreground": "{{ text.base }}"
       }
     },
     {
