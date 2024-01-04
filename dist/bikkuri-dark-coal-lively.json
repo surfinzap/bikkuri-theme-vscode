@@ -14,8 +14,8 @@
     "selection.background":                   "#525252",
     "descriptionForeground":                  "#c6c6c6",
     "errorForeground":                        "#e56176",
-    "icon.foreground":                        "#c6c6c6",
-    "sash.hoverBorder":                       "#c6c6c6",
+    "icon.foreground":                        "#8d8d8d",
+    "sash.hoverBorder":                       "#6f6f6f",
     "textLink.foreground":                    "#75aedd",
     "textLink.activeForeground":              "#6192bb",
     "debugToolBar.background":                "#1b1b1b",
@@ -29,9 +29,9 @@
     "button.secondaryBackground":             "#393939",
     "button.secondaryForeground":             "#c6c6c6",
     "button.secondaryHoverBackground":        "#393939",
-    "button.border":                          "#1b1b1b00",
+    "button.border":                          "#a8a8a800",
     "checkbox.background":                    "#262626",
-    "checkbox.foreground":                    "#c6c6c6",
+    "checkbox.foreground":                    "#a8a8a8",
     "checkbox.border":                        "#6f6f6f",
 
 
@@ -154,17 +154,17 @@
     /* Activity Bar 
     */
     "activityBar.background":         "#1b1b1b",
-    "activityBar.dropBorder":         "#c6c6c6",
+    "activityBar.dropBorder":         "#6f6f6f",
     "activityBar.foreground":         "#c6c6c6",
     "activityBar.inactiveForeground": "#525252", //icon colors
     "activityBar.border":             "#393939",
     "activityBarBadge.background":    "#a8a8a8",
     "activityBarBadge.foreground":    "#262626",
-    "activityBar.activeBorder":       "#c6c6c6",
+    "activityBar.activeBorder":       "#6f6f6f",
     "activityBar.activeBackground":   "#393939",
     "activityBar.activeFocusBorder":  null,
     "profileBadge.background" :       "#393939",
-    "profileBadge.foreground":        "#c6c6c6",
+    "profileBadge.foreground":        "#a8a8a8",
 
 
     /* Sidebar
@@ -595,7 +595,7 @@
     "terminal.border":                       "#393939",
     "terminal.dropBackground":               "#52525280",
     "terminal.selectionBackground":          "#525252",
-    "terminal.tab.activeBorder":             "#c6c6c6",
+    "terminal.tab.activeBorder":             "#6f6f6f",
     "terminalCursor.background":             "#262626",
     "terminalCursor.foreground":             "#a8a8a8",
     "terminalCommandDecoration.defaultBackground": "#262626",
