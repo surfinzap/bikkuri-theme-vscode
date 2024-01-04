@@ -18,7 +18,7 @@ function runScript(scriptName) {
   let args;
 
   if (scriptName.endsWith('.py')) {
-    command = 'python'; // or 'python3' if that's the appropriate command on your system
+    command = 'python'; 
     args = [`scripts/${scriptName}`];
   } else if (scriptName.endsWith('.js')) {
     command = 'node';
