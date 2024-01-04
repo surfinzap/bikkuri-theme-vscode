@@ -38,10 +38,10 @@
     /* Dropdown
        https://code.visualstudio.com/api/references/theme-color#dropdown-control
     */
-    "dropdown.background":                    "#393939",
-    "dropdown.border":                         null,
-    "dropdown.foreground":                    "#e0e0e0",
-    "dropdown.listBackground":                 null,
+    "dropdown.background":                    "#262626", 
+    "dropdown.border":                        "#393939",
+    "dropdown.foreground":                    "#c6c6c6",
+    "dropdown.listBackground":                "#262626",
 
 
     /* Input
@@ -490,7 +490,7 @@
     "editor.focusedStackFrameHighlightBackground": "#6f6f6f80",
     "editor.inlineValuesForeground":               "#8d8d8d",
     "editor.inlineValuesBackground":               "#1b1b1b00",
-    "debugView.exceptionLabelForeground":          "#f4f4f4",
+    "debugView.exceptionLabelForeground":          "#1b1b1b",
     "debugView.exceptionLabelBackground":          "#c53d56",
     "debugView.stateLabelForeground":              "#c6c6c6",
     "debugView.stateLabelBackground":              "#262626",
@@ -635,13 +635,13 @@
 
     /* Menu
     */
-    "menubar.selectionForeground":           "#e0e0e0",
-    "menubar.selectionBackground":           "#525252",
+    "menubar.selectionForeground":           "#c6c6c6",
+    "menubar.selectionBackground":           "#393939", 
     "menubar.selectionBorder":                null,
     "menu.foreground":                       "#c6c6c6",
     "menu.background":                       "#262626",
-    "menu.selectionForeground":              "#e0e0e0",
-    "menu.selectionBackground":              "#525252",
+    "menu.selectionForeground":              "#c6c6c6",
+    "menu.selectionBackground":              "#393939",
     "menu.selectionBorder":                   null,
     "menu.separatorBackground":              "#393939",
     "menu.border":                           "#393939",
