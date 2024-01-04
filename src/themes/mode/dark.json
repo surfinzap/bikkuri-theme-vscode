@@ -39,9 +39,15 @@
     "dim": "{{ tint.50 }}",
     "disabled": "{{ tint.60 }}"
   },
+  "icon": {
+    "base": "{{ tint.40 }}",
+    "mid": "{{ tint.50 }}"
+  },
   "border": {
     "base": "{{ tint.60 }}"
-  },
+  }, 
+
+
 
   "test-repl": "{{ red.60 }}",
   "syntax": {
