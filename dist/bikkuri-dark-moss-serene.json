@@ -50,7 +50,7 @@
     "input.background":                       "#262623",
     "input.border":                           "#393935",
     "input.foreground":                       "#c6c7bb",
-    "input.placeholderForeground":            "#c6c7bb80",
+    "input.placeholderForeground":            "#6f7069",
     "inputOption.activeBackground":           "#a8a99f",
     "inputOption.hoverBackground":            "#52534d",  
     "inputOption.activeForeground":           "#262623",
@@ -149,7 +149,7 @@
     "keybindingLabel.background":   "#1b1c19",
     "keybindingLabel.border":       "#262623",
     "keybindingLabel.bottomBorder": "#393935",
-    "keybindingLabel.foreground":   "#c6c7bb",
+    "keybindingLabel.foreground":   "#a8a99f",
 
     /* Activity Bar 
     */
@@ -343,7 +343,7 @@
     "editorUnicodeHighlight.background":      "#1b1c19",
 
     "editorWhitespace.foreground":        "#52534d",
-    "editorCursor.foreground":            "#c6c7bb",
+    "editorCursor.foreground":            "#a8a99f",
     "editorError.foreground":             "#a25a63",
     "editorWarning.foreground":           "#bfa481",
     "editorHint.foreground":              "#879170",
@@ -597,7 +597,7 @@
     "terminal.selectionBackground":          "#52534d",
     "terminal.tab.activeBorder":             "#c6c7bb",
     "terminalCursor.background":             "#262623",
-    "terminalCursor.foreground":             "#c6c7bb",
+    "terminalCursor.foreground":             "#a8a99f",
     "terminalCommandDecoration.defaultBackground": "#262623",
     "terminalCommandDecoration.successBackground": "#879170",
     "terminalCommandDecoration.errorBackground":   "#a25a63",
