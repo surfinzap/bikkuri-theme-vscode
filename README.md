@@ -10,7 +10,7 @@
 </h1>
 
 
-<p align="center">Set of dark themes for VS Code, including syntax highlighting, debugging, diff/merge and terminal colors.</p>
+<p align="center">Set of 8 dark themes for VS Code, including syntax highlighting, debugging, diff/merge and terminal colors.</p>
 
 
 ## Variants
