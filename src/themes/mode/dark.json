@@ -7,6 +7,9 @@
 
   "surface" : {
     "base": "{{ tint.100 }}",
+    "raised-low": "{{ tint.70 }}{{ opacity.med-low }}",
+    "raised-med": "{{ tint.70 }}{{ opacity.med }}",
+    "raised-high": "{{ tint.70 }}{{ opacity.med-high }}",
     "none": "{{ tint.100 }}{{ opacity.none }}"
   },
   "text": {
