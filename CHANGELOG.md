@@ -18,11 +18,10 @@ Security
 - Styles for [SCM (Source Control Management)](https://code.visualstudio.com/api/references/theme-color#scm)
 
 ### Changed
-- Made `list.hoverBackground` more subtle; it impacts hovers for Sidebar items, Quick Input items and Notifications
-- Refactored the order of colors 
+- More subtle `list.hoverBackground`; it impacts hovers for Sidebar items, Quick Input items and Notifications
 - More subtle diagonal fill in the Diff Editor
 - More subtle background color under removed/added lines in the Diff editor
-- Refactored the folder structure and how themes are generated. 
+- Refactored color naming, the repository folder structure and how the themes are generated. 
 
 ### Security
 - Updated dependencies to their latest versions
