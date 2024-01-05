@@ -6,6 +6,7 @@
   "test-repl": "{{ red.60 }}",
 
   "surface" : {
+    "sunken": "{{ tint.90 }}",
     "base": "{{ tint.100 }}",
     "raised-low": "{{ tint.70 }}{{ opacity.med-low }}",
     "raised-med": "{{ tint.70 }}{{ opacity.med }}",
