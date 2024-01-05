@@ -2,7 +2,7 @@
 <h1 align="center">
   <br>
   <a href="https://marketplace.visualstudio.com/items?itemName=brano.b-theme" target="_blank">
-    <img src="https://raw.githubusercontent.com/surfinzap/b-theme-vscode/master/assets/b-theme-icon.png">
+    <img src="https://raw.githubusercontent.com/surfinzap/b-theme-vscode/master/assets/bikkuri-icon.png">
   </a>
   <br>
   Bikkuri Theme
@@ -16,28 +16,28 @@
 ## Variants
 
 ### Dark Warm & Lively
-![Dark Warm & Lively](assets/b-theme-dark-warm-lively.png)
+![Dark Warm & Lively](assets/bikkuri-dark-warm-lively.png)
 
 ### Dark Warm & Serene
-![Dark Warm & Serene](assets/b-theme-dark-warm-serene.png)
+![Dark Warm & Serene](assets/bikkuri-dark-warm-serene.png)
 
 ### Dark Plum & Lively
-![Dark Plum & Lively](assets/b-theme-dark-plum-lively.png)
+![Dark Plum & Lively](assets/bikkuri-dark-plum-lively.png)
 
 ### Dark Plum & Serene
-![Dark Plum & Serene](assets/b-theme-dark-plum-serene.png)
+![Dark Plum & Serene](assets/bikkuri-dark-plum-serene.png)
 
 ### Dark Coal & Lively
-![Dark Coal & Lively](assets/b-theme-dark-coal-lively.png)
+![Dark Coal & Lively](assets/bikkuri-dark-coal-lively.png)
 
 ### Dark Coal & Serene
-![Dark Coal & Serene](assets/b-theme-dark-coal-serene.png)
+![Dark Coal & Serene](assets/bikkuri-dark-coal-serene.png)
 
 ### Dark Moss & Lively
-![Dark Moss & Lively](assets/b-theme-dark-moss-lively.png)
+![Dark Moss & Lively](assets/bikkuri-dark-moss-lively.png)
 
 ### Dark Moss & Serene
-![Dark Moss & Serene](assets/b-theme-dark-moss-serene.png)
+![Dark Moss & Serene](assets/bikkuri-dark-moss-serene.png)
 
 
 ## Installation
