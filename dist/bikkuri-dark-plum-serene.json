@@ -114,7 +114,7 @@
     "list.inactiveSelectionForeground": "#c8c5cf",
     "list.warningForeground":           "#dfc299",
     "list.deemphasizedForeground":      "#746b84",
-    "list.dropBackground":              "#564f641a",
+    "list.dropBackground":              "#564f641f",
     "list.filterMatchBackground":       "#564f64",
     "list.focusHighlightForeground":    "#8fabc8",
     "list.focusOutline":                null,
@@ -173,7 +173,7 @@
     "sideBar.background":              "#1d1a23",
     "sideBarSectionHeader.background": "#282430",
     "sideBar.border":                  "#3c3746",
-    "sideBar.dropBackground":          "#746b841a",
+    "sideBar.dropBackground":          "#746b841f",
     "sideBar.foreground":              "#aba6b6",
     "sideBarSectionHeader.foreground": "#aba6b6",
     "sideBarTitle.foreground":         "#aba6b6",
@@ -327,7 +327,7 @@
     "editor.findMatchHighlightBackground":    "#1d1a2300",
     "editor.findMatchHighlightBorder":        "#a8a4c8",
     // selection range when "Find in Selection" is applied
-    "editor.findRangeHighlightBackground":    "#564f641a", 
+    "editor.findRangeHighlightBackground":    "#564f641f", 
     "editor.findRangeHighlightBorder":        null,
     //background selection on hover
     "editor.hoverHighlightBackground":        "#3c3746",
@@ -399,15 +399,15 @@
        https://code.visualstudio.com/api/references/theme-color#diff-editor-colors
     */
     "diffEditor.diagonalFill":                 "#282430",
-    "diffEditor.insertedTextBackground":       "#8791701a",
-    "diffEditor.removedTextBackground":        "#a25a631a",
+    "diffEditor.insertedTextBackground":       "#8791701f",
+    "diffEditor.removedTextBackground":        "#a25a631f",
     "diffEditor.insertedTextBorder":           null,             //it impacts line as well
     "diffEditor.removedTextBorder":            null,
     "diffEditor.border":                       null,             //border between diffs
-    "diffEditor.insertedLineBackground":       "#8791701a",
-    "diffEditor.removedLineBackground":        "#a25a631a",
-    "diffEditorGutter.insertedLineBackground": "#8791701a",
-    "diffEditorGutter.removedLineBackground":  "#a25a631a",
+    "diffEditor.insertedLineBackground":       "#8791701f",
+    "diffEditor.removedLineBackground":        "#a25a631f",
+    "diffEditorGutter.insertedLineBackground": "#8791701f",
+    "diffEditorGutter.removedLineBackground":  "#a25a631f",
     "diffEditorOverview.insertedForeground":   "#8791704d",
     "diffEditorOverview.removedForeground":    "#a25a634d",
     
@@ -416,9 +416,9 @@
      */
     "merge.border":                                        null,
     "merge.currentHeaderBackground":                       "#8d88b64d",
-    "merge.currentContentBackground":                      "#8d88b61a",
+    "merge.currentContentBackground":                      "#8d88b61f",
     "merge.incomingHeaderBackground":                      "#7493924d",
-    "merge.incomingContentBackground":                     "#7493921a",
+    "merge.incomingContentBackground":                     "#7493921f",
     "merge.commonContentBackground":                       null,
     "merge.commonHeaderBackground":                        null,
     "editorOverviewRuler.currentContentForeground":        "#8d88b64d",
