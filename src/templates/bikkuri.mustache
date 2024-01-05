@@ -179,9 +179,8 @@
     "sideBarTitle.foreground":         "{{ tint.40 }}",
     "sideBarSectionHeader.border":     null,
 
-    /* Git colors
-       e.g. colors of changed files in sidebar or tabs
-       TBD try muted colors
+    /* Git Decorations
+       Changed files in sidebar or tabs;
     */
 
     "gitDecoration.conflictingResourceForeground": "{{ ui.accent2.dim }}",
@@ -189,6 +188,18 @@
     "gitDecoration.ignoredResourceForeground":     "{{ tint.70 }}",
     "gitDecoration.modifiedResourceForeground":    "{{ ui.warning.dim }}",
     "gitDecoration.untrackedResourceForeground":   "{{ ui.success.dim }}",
+
+    /* SCM (Source Control Management)
+       Stats in Incoming/Outgoing part in Source Control
+    */
+    
+    "scm.historyItemAdditionsForeground": "{{ ui.success.base }}",
+    "scm.historyItemDeletionsForeground": "{{ ui.danger.base }}",
+    "scm.historyItemStatisticsBorder": "{{ border.none }}",
+    "scm.historyItemSelectedStatisticsBorder": "{{ border.none }}",
+
+
+
 
 
     /* Minimap & Overview ruler
