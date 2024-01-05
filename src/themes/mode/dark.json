@@ -7,7 +7,7 @@
 
   "surface" : {
     "base": "{{ tint.100 }}",
-    "none": "{{ tint.100 }}{{ alpha.none }}"
+    "none": "{{ tint.100 }}{{ opacity.none }}"
   },
   "text": {
     "base": "{{ tint.30 }}",
@@ -24,7 +24,7 @@
     "base": "{{ tint.60 }}",
     "mid": "{{ tint.70 }}",
     "dim": "{{ tint.80 }}",
-    "none": "{{ surface.base }}{{ alpha.none }}"
+    "none": "{{ surface.base }}{{ opacity.none }}"
   },
   "ui": {
     "accent1": {

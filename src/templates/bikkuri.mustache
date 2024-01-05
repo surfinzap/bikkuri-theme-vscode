@@ -66,9 +66,9 @@
     /* Scrollbar
     */
     "scrollbar.shadow":                        "{{ shadow }}",
-    "scrollbarSlider.background":              "{{ tint.80 }}{{ alpha.highMed }}",
-    "scrollbarSlider.activeBackground":        "{{ tint.70 }}{{ alpha.med }}",
-    "scrollbarSlider.hoverBackground":         "{{ tint.70 }}{{ alpha.med }}",
+    "scrollbarSlider.background":              "{{ tint.80 }}{{ opacity.med-high }}",
+    "scrollbarSlider.activeBackground":        "{{ tint.70 }}{{ opacity.med }}",
+    "scrollbarSlider.hoverBackground":         "{{ tint.70 }}{{ opacity.med }}",
 
 
     /* Badge
@@ -107,14 +107,14 @@
     "list.focusForeground":             "{{ text.base }}",
 
     // list.hoverBackground/Foreground has a broad impact: Sidebar items hover, Quick Input items hover, Notifications hover; but not for the menu
-    "list.hoverBackground":             "{{ tint.80 }}{{ alpha.medLow}}",
+    "list.hoverBackground":             "{{ tint.80 }}{{ opacity.med-low}}",
     "list.hoverForeground":             "{{ text.base }}",
 
     "list.inactiveSelectionBackground": "{{ tint.90 }}",
     "list.inactiveSelectionForeground": "{{ text.base }}",
     "list.warningForeground":           "{{ ui.warning.base }}",
     "list.deemphasizedForeground":      "{{ tint.60 }}",
-    "list.dropBackground":              "{{ tint.70 }}{{ alpha.low }}",
+    "list.dropBackground":              "{{ tint.70 }}{{ opacity.low }}",
     "list.filterMatchBackground":       "{{ tint.70 }}",
     "list.focusHighlightForeground":    "{{ ui.accent1.base }}",
     "list.focusOutline":                null,
@@ -173,7 +173,7 @@
     "sideBar.background":              "{{ surface.base }}",
     "sideBarSectionHeader.background": "{{ tint.90 }}",
     "sideBar.border":                  "{{ border.dim }}",
-    "sideBar.dropBackground":          "{{ tint.60 }}{{ alpha.low }}",
+    "sideBar.dropBackground":          "{{ tint.60 }}{{ opacity.low }}",
     "sideBar.foreground":              "{{ tint.40 }}",
     "sideBarSectionHeader.foreground": "{{ tint.40 }}",
     "sideBarTitle.foreground":         "{{ tint.40 }}",
@@ -203,14 +203,14 @@
     "minimapGutter.addedBackground":        "{{ ui.success.dim }}",
     "minimapGutter.deletedBackground":      "{{ ui.danger.dim }}",
     "minimapGutter.modifiedBackground":     "{{ ui.warning.dim }}",
-    "minimapSlider.background":             "{{ tint.60 }}{{ alpha.med }}",
-    "minimapSlider.activeBackground":       "{{ tint.50 }}{{ alpha.med }}",
-    "minimapSlider.hoverBackground":        "{{ tint.50 }}{{ alpha.med }}",
+    "minimapSlider.background":             "{{ tint.60 }}{{ opacity.med }}",
+    "minimapSlider.activeBackground":       "{{ tint.50 }}{{ opacity.med }}",
+    "minimapSlider.hoverBackground":        "{{ tint.50 }}{{ opacity.med }}",
 
     "editorOverviewRuler.border":                        "{{ surface.base }}",
-    "editorOverviewRuler.addedForeground":               "{{ ui.success.dim }}{{ alpha.med }}",
+    "editorOverviewRuler.addedForeground":               "{{ ui.success.dim }}{{ opacity.med }}",
     "editorOverviewRuler.bracketMatchForeground":        "{{ tint.60 }}",
-    "editorOverviewRuler.deletedForeground":             "{{ ui.danger.dim }}{{ alpha.med }}",
+    "editorOverviewRuler.deletedForeground":             "{{ ui.danger.dim }}{{ opacity.med }}",
     "editorOverviewRuler.errorForeground":               "{{ ui.danger.dim }}",
     "editorOverviewRuler.findMatchForeground":           "{{ ui.warning.dim }}",
     "editorOverviewRuler.infoForeground":                "{{ ui.info.dim }}",
@@ -259,7 +259,7 @@
     "editorGroup.emptyBackground":        "{{ surface.base }}",
     "editorGroupHeader.noTabsBackground": "{{ surface.base }}",
     "editorGroupHeader.tabsBackground":   "{{ surface.base }}",
-    "editorGroup.dropBackground":         "{{ tint.70 }}{{ alpha.med }}",
+    "editorGroup.dropBackground":         "{{ tint.70 }}{{ opacity.med }}",
     "editorGroup.border":                 "{{ border.dim }}",
     "editorGroupHeader.tabsBorder":       "{{ border.dim }}",
     "editorGroup.focusedEmptyBorder":     "{{ tint.70 }}",
@@ -293,7 +293,7 @@
     "panelTitle.inactiveForeground": "{{ tint.50 }}",
     "panelInput.border":             "{{ tint.70 }}",
     "panelSection.border":           "{{ border.dim }}",
-    "panelSection.dropBackground":   "{{ tint.70 }}{{ alpha.med }}",
+    "panelSection.dropBackground":   "{{ tint.70 }}{{ opacity.med }}",
     "panelSectionHeader.background": "{{ surface.base }}",
     "panelSectionHeader.foreground": "{{ text.base }}",
     "panelSectionHeader.border":     "{{ border.dim }}",
@@ -327,7 +327,7 @@
     "editor.findMatchHighlightBackground":    "{{ surface.none }}",
     "editor.findMatchHighlightBorder":        "{{ ui.accent2.base }}",
     // selection range when "Find in Selection" is applied
-    "editor.findRangeHighlightBackground":    "{{ tint.70 }}{{ alpha.low }}", 
+    "editor.findRangeHighlightBackground":    "{{ tint.70 }}{{ opacity.low }}", 
     "editor.findRangeHighlightBorder":        null,
     //background selection on hover
     "editor.hoverHighlightBackground":        "{{ tint.80 }}",
@@ -354,7 +354,7 @@
     "editorIndentGuide.background":       "{{ tint.90 }}",
     "editorIndentGuide.activeBackground": "{{ border.dim }}",
     "editorRuler.foreground":             "{{ tint.70 }}",
-    "editorCodeLens.foreground":          "{{ tint.50 }}{{ alpha.med }}",
+    "editorCodeLens.foreground":          "{{ tint.50 }}{{ opacity.med }}",
     "editorHoverWidget.background":       "{{ surface.base }}",
     "editorHoverWidget.border":           "{{ border.dim }}",
 
@@ -399,30 +399,30 @@
        https://code.visualstudio.com/api/references/theme-color#diff-editor-colors
     */
     "diffEditor.diagonalFill":                 "{{ tint.90 }}",
-    "diffEditor.insertedTextBackground":       "{{ ui.success.dim }}{{ alpha.low }}",
-    "diffEditor.removedTextBackground":        "{{ ui.danger.dim }}{{ alpha.low }}",
+    "diffEditor.insertedTextBackground":       "{{ ui.success.dim }}{{ opacity.low }}",
+    "diffEditor.removedTextBackground":        "{{ ui.danger.dim }}{{ opacity.low }}",
     "diffEditor.insertedTextBorder":           null,             //it impacts line as well
     "diffEditor.removedTextBorder":            null,
     "diffEditor.border":                       null,             //border between diffs
-    "diffEditor.insertedLineBackground":       "{{ ui.success.dim }}{{ alpha.low }}",
-    "diffEditor.removedLineBackground":        "{{ ui.danger.dim }}{{ alpha.low }}",
-    "diffEditorGutter.insertedLineBackground": "{{ ui.success.dim }}{{ alpha.low }}",
-    "diffEditorGutter.removedLineBackground":  "{{ ui.danger.dim }}{{ alpha.low }}",
-    "diffEditorOverview.insertedForeground":   "{{ ui.success.dim }}{{ alpha.medLow }}",
-    "diffEditorOverview.removedForeground":    "{{ ui.danger.dim }}{{ alpha.medLow }}",
+    "diffEditor.insertedLineBackground":       "{{ ui.success.dim }}{{ opacity.low }}",
+    "diffEditor.removedLineBackground":        "{{ ui.danger.dim }}{{ opacity.low }}",
+    "diffEditorGutter.insertedLineBackground": "{{ ui.success.dim }}{{ opacity.low }}",
+    "diffEditorGutter.removedLineBackground":  "{{ ui.danger.dim }}{{ opacity.low }}",
+    "diffEditorOverview.insertedForeground":   "{{ ui.success.dim }}{{ opacity.med-low }}",
+    "diffEditorOverview.removedForeground":    "{{ ui.danger.dim }}{{ opacity.med-low }}",
     
     
     /* Merge conflicts, Merge editor
      */
     "merge.border":                                        null,
-    "merge.currentHeaderBackground":                       "{{ ui.accent2.dim }}{{ alpha.medLow }}",
-    "merge.currentContentBackground":                      "{{ ui.accent2.dim }}{{ alpha.low }}",
-    "merge.incomingHeaderBackground":                      "{{ ui.accent3.dim }}{{ alpha.medLow }}",
-    "merge.incomingContentBackground":                     "{{ ui.accent3.dim }}{{ alpha.low }}",
+    "merge.currentHeaderBackground":                       "{{ ui.accent2.dim }}{{ opacity.med-low }}",
+    "merge.currentContentBackground":                      "{{ ui.accent2.dim }}{{ opacity.low }}",
+    "merge.incomingHeaderBackground":                      "{{ ui.accent3.dim }}{{ opacity.med-low }}",
+    "merge.incomingContentBackground":                     "{{ ui.accent3.dim }}{{ opacity.low }}",
     "merge.commonContentBackground":                       null,
     "merge.commonHeaderBackground":                        null,
-    "editorOverviewRuler.currentContentForeground":        "{{ ui.accent2.dim }}{{ alpha.medLow }}",
-    "editorOverviewRuler.incomingContentForeground":       "{{ ui.accent3.dim }}{{ alpha.medLow }}",
+    "editorOverviewRuler.currentContentForeground":        "{{ ui.accent2.dim }}{{ opacity.med-low }}",
+    "editorOverviewRuler.incomingContentForeground":       "{{ ui.accent3.dim }}{{ opacity.med-low }}",
     "editorOverviewRuler.commonContentForeground":         null,
     "mergeEditor.change.background":                       "{{ surface.base }}",
     "mergeEditor.change.word.background":                  "{{ tint.90 }}",
@@ -482,19 +482,19 @@
        https://code.visualstudio.com/api/references/theme-color#debug-colors
     */
    
-    "debugExceptionWidget.background":             "{{ ui.danger.dim }}{{ alpha.medLow }}",
+    "debugExceptionWidget.background":             "{{ ui.danger.dim }}{{ opacity.med-low }}",
     "debugExceptionWidget.border":                 "{{ ui.danger.dim }}",
     "debugToolBar.background":                     "{{ surface.base }}",
     "debugToolBar.border":                         "{{ border.dim }}",
-    "editor.stackFrameHighlightBackground":        "{{ tint.70 }}{{ alpha.med }}",
-    "editor.focusedStackFrameHighlightBackground": "{{ tint.60 }}{{ alpha.med }}",
+    "editor.stackFrameHighlightBackground":        "{{ tint.70 }}{{ opacity.med }}",
+    "editor.focusedStackFrameHighlightBackground": "{{ tint.60 }}{{ opacity.med }}",
     "editor.inlineValuesForeground":               "{{ tint.50 }}",
     "editor.inlineValuesBackground":               "{{ surface.none }}",
     "debugView.exceptionLabelForeground":          "{{ text.on-color }}",
     "debugView.exceptionLabelBackground":          "{{ ui.danger.dim }}",
     "debugView.stateLabelForeground":              "{{ text.base }}",
     "debugView.stateLabelBackground":              "{{ tint.90 }}",
-    "debugView.valueChangedHighlight":             "{{ ui.accent2.dim }}{{ alpha.med }}",
+    "debugView.valueChangedHighlight":             "{{ ui.accent2.dim }}{{ opacity.med }}",
     "debugTokenExpression.name":                   "{{ syntax.05.base }}",
     "debugTokenExpression.value":                  "{{ syntax.04.base }}",
     "debugTokenExpression.string":                 "{{ syntax.06.base }}",
@@ -593,7 +593,7 @@
     "terminal.foreground":                   "{{ text.base }}",
     "terminal.background":                   "{{ surface.base }}",
     "terminal.border":                       "{{ border.dim }}",
-    "terminal.dropBackground":               "{{ tint.70 }}{{ alpha.med }}",
+    "terminal.dropBackground":               "{{ tint.70 }}{{ opacity.med }}",
     "terminal.selectionBackground":          "{{ tint.70 }}",
     "terminal.tab.activeBorder":             "{{ border.base }}",
     "terminalCursor.background":             "{{ tint.90 }}",
@@ -601,8 +601,8 @@
     "terminalCommandDecoration.defaultBackground": "{{ tint.90 }}",
     "terminalCommandDecoration.successBackground": "{{ ui.success.dim }}",
     "terminalCommandDecoration.errorBackground":   "{{ ui.danger.dim }}",
-    "terminal.findMatchBackground":                "{{ ui.accent2.base }}{{ alpha.medLow }}",
-    "terminal.findMatchHighlightBackground":       "{{ tint.70 }}{{ alpha.med }}",
+    "terminal.findMatchBackground":                "{{ ui.accent2.base }}{{ opacity.med-low }}",
+    "terminal.findMatchHighlightBackground":       "{{ tint.70 }}{{ opacity.med }}",
 
 
 
