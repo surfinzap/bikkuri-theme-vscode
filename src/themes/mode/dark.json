@@ -24,7 +24,7 @@
     "mid": "{{ tint.50 }}"
   },
   "border": {
-    "base": "{{ tint.60 }}",
+    "base": "{{ tint.50 }}",
     "mid": "{{ tint.70 }}",
     "dim": "{{ tint.80 }}",
     "none": "{{ surface.base }}{{ opacity.none }}"

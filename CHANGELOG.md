@@ -16,6 +16,7 @@ Security
 
 ### Added 
 - Styles for [SCM (Source Control Management)](https://code.visualstudio.com/api/references/theme-color#scm)
+- New 2023 styles for [tabs](https://code.visualstudio.com/api/references/theme-color#editor-groups-tabs)
 
 ### Changed
 - More subtle `list.hoverBackground`; it impacts hovers for Sidebar items, Quick Input items and Notifications
