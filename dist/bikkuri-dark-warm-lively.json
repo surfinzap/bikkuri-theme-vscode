@@ -32,7 +32,7 @@
     "button.border":                          "#1e1b1b00",
     "checkbox.background":                    "#1e1b1b",
     "checkbox.foreground":                    "#aea6a8",
-    "checkbox.border":                        "#786c6e",
+    "checkbox.border":                        "#958a8c",
 
 
     /* Dropdown
@@ -173,7 +173,7 @@
     "sideBar.background":              "#1e1b1b",
     "sideBarSectionHeader.background": "#2a2526",
     "sideBar.border":                  "#3e3839",
-    "sideBar.dropBackground":          "#786c6e1f",
+    "sideBar.dropBackground":          "#5950514d",
     "sideBar.foreground":              "#aea6a8",
     "sideBarSectionHeader.foreground": "#aea6a8",
     "sideBarTitle.foreground":         "#aea6a8",
@@ -214,9 +214,9 @@
     "minimapGutter.addedBackground":        "#839451",
     "minimapGutter.deletedBackground":      "#c53d56",
     "minimapGutter.modifiedBackground":     "#caa263",
-    "minimapSlider.background":             "#786c6e80",
-    "minimapSlider.activeBackground":       "#958a8c80",
-    "minimapSlider.hoverBackground":        "#958a8c80",
+    "minimapSlider.background":             "#59505180",
+    "minimapSlider.activeBackground":       "#595051b3",
+    "minimapSlider.hoverBackground":        "#595051b3",
 
     "editorOverviewRuler.border":                        "#1e1b1b",
     "editorOverviewRuler.addedForeground":               "#83945180",
@@ -231,7 +231,7 @@
     "editorOverviewRuler.warningForeground":             "#caa263",
     "editorOverviewRuler.wordHighlightForeground":       "#786c6e",
     "editorOverviewRuler.wordHighlightStrongForeground": "#786c6e",
-    //editorOverviewRuler for merge conflicts is located with merge conflicts
+    //editorOverviewRuler for merge conflicts is located within merge conflicts
   
     
 
@@ -511,7 +511,7 @@
     "debugToolBar.background":                     "#1e1b1b",
     "debugToolBar.border":                         "#3e3839",
     "editor.stackFrameHighlightBackground":        "#59505180",
-    "editor.focusedStackFrameHighlightBackground": "#786c6e80",
+    "editor.focusedStackFrameHighlightBackground": "#5950514d",
     "editor.inlineValuesForeground":               "#958a8c",
     "editor.inlineValuesBackground":               "#1e1b1b00",
     "debugView.exceptionLabelForeground":          "#1e1b1b",

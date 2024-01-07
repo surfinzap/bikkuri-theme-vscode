@@ -32,7 +32,7 @@
     "button.border":                          "{{ border.none }}",
     "checkbox.background":                    "{{ surface.base }}",
     "checkbox.foreground":                    "{{ icon.base }}",
-    "checkbox.border":                        "{{ tint.60 }}",
+    "checkbox.border":                        "{{ border.base }}",
 
 
     /* Dropdown
@@ -90,7 +90,7 @@
 
     /* Breadcrumbs
     */    
-    "breadcrumb.foreground":                    "{{ tint.60 }}",
+    "breadcrumb.foreground":                    "{{ text.dim }}",
     "breadcrumb.background":                    "{{ surface.base }}",
     "breadcrumb.focusForeground":               "{{ text.base }}",
     "breadcrumb.activeSelectionForeground":     "{{ text.base }}",
@@ -113,7 +113,7 @@
     "list.inactiveSelectionBackground": "{{ surface.raised-low }}",
     "list.inactiveSelectionForeground": "{{ text.base }}",
     "list.warningForeground":           "{{ ui.warning.base }}",
-    "list.deemphasizedForeground":      "{{ tint.60 }}",
+    "list.deemphasizedForeground":      "{{ text.dim }}",
     "list.dropBackground":              "{{ surface.raised-low }}",
     "list.filterMatchBackground":       "{{ surface.raised-high }}",
     "list.focusHighlightForeground":    "{{ ui.accent1.base }}",
@@ -173,7 +173,7 @@
     "sideBar.background":              "{{ surface.base }}",
     "sideBarSectionHeader.background": "{{ surface.sunken }}",
     "sideBar.border":                  "{{ border.dim }}",
-    "sideBar.dropBackground":          "{{ tint.60 }}{{ opacity.low }}",
+    "sideBar.dropBackground":          "{{ surface.raised-low }}",
     "sideBar.foreground":              "{{ text.mid }}",
     "sideBarSectionHeader.foreground": "{{ text.mid }}",
     "sideBarTitle.foreground":         "{{ text.mid }}",
@@ -214,24 +214,24 @@
     "minimapGutter.addedBackground":        "{{ ui.success.dim }}",
     "minimapGutter.deletedBackground":      "{{ ui.danger.dim }}",
     "minimapGutter.modifiedBackground":     "{{ ui.warning.dim }}",
-    "minimapSlider.background":             "{{ tint.60 }}{{ opacity.med }}",
-    "minimapSlider.activeBackground":       "{{ tint.50 }}{{ opacity.med }}",
-    "minimapSlider.hoverBackground":        "{{ tint.50 }}{{ opacity.med }}",
+    "minimapSlider.background":             "{{ surface.raised-med }}",
+    "minimapSlider.activeBackground":       "{{ surface.raised-high }}",
+    "minimapSlider.hoverBackground":        "{{ surface.raised-high }}",
 
     "editorOverviewRuler.border":                        "{{ surface.base }}",
     "editorOverviewRuler.addedForeground":               "{{ ui.success.dim }}{{ opacity.med }}",
-    "editorOverviewRuler.bracketMatchForeground":        "{{ tint.60 }}",
+    "editorOverviewRuler.bracketMatchForeground":        "{{ text.dim }}",
     "editorOverviewRuler.deletedForeground":             "{{ ui.danger.dim }}{{ opacity.med }}",
     "editorOverviewRuler.errorForeground":               "{{ ui.danger.dim }}",
     "editorOverviewRuler.findMatchForeground":           "{{ ui.warning.dim }}",
     "editorOverviewRuler.infoForeground":                "{{ ui.info.dim }}",
     "editorOverviewRuler.modifiedForeground":            "{{ ui.warning.dim }}",
     "editorOverviewRuler.rangeHighlightForeground":      "{{ ui.accent1.dim }}",
-    "editorOverviewRuler.selectionHighlightForeground":  "{{ tint.60 }}",
+    "editorOverviewRuler.selectionHighlightForeground":  "{{ text.dim }}",
     "editorOverviewRuler.warningForeground":             "{{ ui.warning.dim }}",
-    "editorOverviewRuler.wordHighlightForeground":       "{{ tint.60 }}",
-    "editorOverviewRuler.wordHighlightStrongForeground": "{{ tint.60 }}",
-    //editorOverviewRuler for merge conflicts is located with merge conflicts
+    "editorOverviewRuler.wordHighlightForeground":       "{{ text.dim }}",
+    "editorOverviewRuler.wordHighlightStrongForeground": "{{ text.dim }}",
+    //editorOverviewRuler for merge conflicts is located within merge conflicts
   
     
 
@@ -511,7 +511,7 @@
     "debugToolBar.background":                     "{{ surface.base }}",
     "debugToolBar.border":                         "{{ border.dim }}",
     "editor.stackFrameHighlightBackground":        "{{ surface.raised-med }}",
-    "editor.focusedStackFrameHighlightBackground": "{{ tint.60 }}{{ opacity.med }}",
+    "editor.focusedStackFrameHighlightBackground": "{{ surface.raised-low }}",
     "editor.inlineValuesForeground":               "{{ tint.50 }}",
     "editor.inlineValuesBackground":               "{{ surface.none }}",
     "debugView.exceptionLabelForeground":          "{{ text.on-color }}",
@@ -1342,7 +1342,7 @@
     {
       "scope": ["markup.deleted"],
       "settings": {
-        "foreground": "{{ tint.60 }}"
+        "foreground": "{{ text.dim }}"
       }
     },
     {
