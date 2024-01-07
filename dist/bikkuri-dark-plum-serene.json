@@ -59,7 +59,7 @@
     "inputValidation.errorBackground":        "#282430",
     "inputValidation.errorBorder":            "#c07982",
     "inputValidation.infoBackground":         "#282430",
-    "inputValidation.infoBorder":             "#aba6b6",
+    "inputValidation.infoBorder":             "#918a9f",
     "inputValidation.warningBackground":      "#282430",
     "inputValidation.warningBorder":          "#dfc299",
 
@@ -339,7 +339,7 @@
     "editor.lineHighlightBorder":     null,
     "editor.selectionBackground":     "#3c3746",
     // selectionForeground does not seem to work
-    // "editor.selectionForeground":             "#aba6b6",
+    // "editor.selectionForeground":             "",
     "editor.inactiveSelectionBackground":     "#282430",
     // same content as selection
     "editor.selectionHighlightBackground":    "#1d1a2300",
