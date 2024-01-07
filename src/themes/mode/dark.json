@@ -15,7 +15,7 @@
   },
   "text": {
     "base": "{{ tint.30 }}",
-    "mid": "{{ tint.40 }}",
+    "mid": "{{ tint.50 }}",
     "dim": "{{ tint.60 }}",
     "disabled": "{{ tint.70 }}",
     "on-color": "{{ tint.100 }}"

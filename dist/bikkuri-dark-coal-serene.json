@@ -131,13 +131,13 @@
     /* Quick input (Command palette, Quick picker)
     */
     "quickInput.background":              "#262626",
-    "quickInput.foreground":              "#a8a8a8",
-    "pickerGroup.foreground":             "#a8a8a8",
+    "quickInput.foreground":              "#8d8d8d",
+    "pickerGroup.foreground":             "#8d8d8d",
     "pickerGroup.border":                 "#393939",
     "quickInputTitle.background":         "#1b1b1b",
     "quickInputList.focusBackground":     "#393939",
     "quickInputList.focusForeground":     "#c6c6c6",
-    "quickInputList.focusIconForeground": "#8d8d8d",
+    "quickInputList.focusIconForeground": "#a8a8a8",
     
     
 
@@ -149,7 +149,7 @@
     "keybindingLabel.background":   "#1b1b1b",
     "keybindingLabel.border":       "#262626",
     "keybindingLabel.bottomBorder": "#393939",
-    "keybindingLabel.foreground":   "#a8a8a8",
+    "keybindingLabel.foreground":   "#8d8d8d",
 
     /* Activity Bar 
     */
@@ -174,9 +174,9 @@
     "sideBarSectionHeader.background": "#262626",
     "sideBar.border":                  "#393939",
     "sideBar.dropBackground":          "#5252524d",
-    "sideBar.foreground":              "#a8a8a8",
-    "sideBarSectionHeader.foreground": "#a8a8a8",
-    "sideBarTitle.foreground":         "#a8a8a8",
+    "sideBar.foreground":              "#8d8d8d",
+    "sideBarSectionHeader.foreground": "#8d8d8d",
+    "sideBarTitle.foreground":         "#8d8d8d",
     "sideBarSectionHeader.border":     null,
 
     /* Git Decorations
@@ -287,7 +287,7 @@
     "tab.inactiveBackground":              "#1b1b1b",
     "tab.hoverBorder":                     "#525252",
     "tab.hoverBackground":                 "#52525280",
-    "tab.hoverForeground":                 "#a8a8a8",
+    "tab.hoverForeground":                 "#8d8d8d",
     "tab.border":                          "#1b1b1b00",
     "tab.unfocusedActiveBackground":       "#5252524d",
     "tab.unfocusedActiveForeground":       "#6f6f6f",
@@ -296,7 +296,7 @@
     "tab.unfocusedInactiveBackground":     "#1b1b1b",
     "tab.unfocusedActiveBorderTop":        "#1b1b1b00",
     "tab.unfocusedHoverBackground":        "#52525280",
-    "tab.unfocusedHoverForeground":        "#a8a8a8",
+    "tab.unfocusedHoverForeground":        "#8d8d8d",
     "tab.unfocusedHoverBorder":            "#525252",
     "tab.lastPinnedBorder":                "#525252",
     "tab.activeModifiedBorder":            "#1b1b1b00",
@@ -314,7 +314,7 @@
     "panel.dropBorder":              "#525252",
     "panelTitle.activeBorder":       "#8d8d8d",
     "panelTitle.activeForeground":   "#c6c6c6",
-    "panelTitle.inactiveForeground": "#8d8d8d",
+    "panelTitle.inactiveForeground": "#6f6f6f",
     "panelInput.border":             "#525252",
     "panelSection.border":           "#393939",
     "panelSection.dropBackground":   "#5252524d",
@@ -367,7 +367,7 @@
     "editorUnicodeHighlight.background":      "#1b1b1b",
 
     "editorWhitespace.foreground":         "#525252",
-    "editorCursor.foreground":             "#a8a8a8",
+    "editorCursor.foreground":             "#8d8d8d",
     "editorError.foreground":              "#a25a63",
     "editorWarning.foreground":            "#bfa481",
     "editorHint.foreground":               "#879170",
@@ -621,7 +621,7 @@
     "terminal.selectionBackground":          "#52525280",
     "terminal.tab.activeBorder":             "#8d8d8d",
     "terminalCursor.background":             "#262626",
-    "terminalCursor.foreground":             "#a8a8a8",
+    "terminalCursor.foreground":             "#8d8d8d",
     "terminalCommandDecoration.defaultBackground": "#262626",
     "terminalCommandDecoration.successBackground": "#879170",
     "terminalCommandDecoration.errorBackground":   "#a25a63",
@@ -1223,7 +1223,7 @@
         "storage.modifier.package.java"
       ],
       "settings": {
-        "foreground": "#a8a8a8"
+        "foreground": "#8d8d8d"
       }
     },
     {
@@ -1537,7 +1537,7 @@
         "source.css.scss"
       ],
       "settings": {
-        "foreground": "#a8a8a8"
+        "foreground": "#8d8d8d"
       }
     },
     {
@@ -1547,7 +1547,7 @@
         "source.css.scss"
       ],
       "settings": {
-        "foreground": "#a8a8a8"
+        "foreground": "#8d8d8d"
       }
     },
 
@@ -1741,7 +1741,7 @@
         "source.powershell support.function.attribute.powershell"
       ],
       "settings": {
-        "foreground": "#a8a8a8"
+        "foreground": "#8d8d8d"
       }
     },
     {
