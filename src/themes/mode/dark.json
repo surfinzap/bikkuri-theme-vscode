@@ -17,12 +17,13 @@
     "base": "{{ tint.30 }}",
     "mid": "{{ tint.40 }}",
     "dim": "{{ tint.50 }}",
-    "disabled": "{{ tint.60 }}",
+    "disabled": "{{ tint.70 }}",
     "on-color": "{{ tint.100 }}"
   },
   "icon": {
     "base": "{{ tint.40 }}",
-    "mid": "{{ tint.50 }}"
+    "mid": "{{ tint.60 }}",
+    "dim": "{{ tint.70 }}"
   },
   "border": {
     "base": "{{ tint.50 }}",

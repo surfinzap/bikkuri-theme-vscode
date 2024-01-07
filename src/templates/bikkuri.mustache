@@ -7,11 +7,11 @@
      https://code.visualstudio.com/api/references/theme-color#status-bar-colors
     */
     // focusBorder has a very wide scope
-    "focusBorder":                            "{{ tint.70 }}",
+    "focusBorder":                            "{{ border.mid }}",
     "foreground":                             "{{ text.base }}",
     "widget.shadow":                          "{{ shadow }}",
     // text selections for input fields or text areas, does not apply to selections within the editor and the terminal
-    "selection.background":                   "{{ tint.70 }}",
+    "selection.background":                   "{{ surface.raised-high }}",
     "descriptionForeground":                  "{{ text.base }}",
     "errorForeground":                        "{{ ui.danger.base }}",
     "icon.foreground":                        "{{ icon.mid }}",
@@ -50,9 +50,9 @@
     "input.background":                       "{{ surface.sunken }}",
     "input.border":                           "{{ border.dim }}",
     "input.foreground":                       "{{ text.base }}",
-    "input.placeholderForeground":            "{{ text.disabled }}",
+    "input.placeholderForeground":            "{{ text.dim }}",
     "inputOption.activeBackground":           "{{ tint.40 }}",
-    "inputOption.hoverBackground":            "{{ tint.70 }}",  
+    "inputOption.hoverBackground":            "{{ surface.raised-med }}",  
     "inputOption.activeForeground":           "{{ surface.sunken }}",
     // Border color of activated options in input fields.
     "inputOption.activeBorder":               "{{ border.none }}", //cannot be null
@@ -66,9 +66,9 @@
     /* Scrollbar
     */
     "scrollbar.shadow":                        "{{ shadow }}",
-    "scrollbarSlider.background":              "{{ tint.80 }}{{ opacity.med-high }}",
-    "scrollbarSlider.activeBackground":        "{{ tint.70 }}{{ opacity.med }}",
-    "scrollbarSlider.hoverBackground":         "{{ tint.70 }}{{ opacity.med }}",
+    "scrollbarSlider.background":              "{{ surface.raised-low }}",
+    "scrollbarSlider.activeBackground":        "{{ surface.raised-med }}",
+    "scrollbarSlider.hoverBackground":         "{{ surface.raised-med }}",
 
 
     /* Badge
@@ -114,8 +114,8 @@
     "list.inactiveSelectionForeground": "{{ text.base }}",
     "list.warningForeground":           "{{ ui.warning.base }}",
     "list.deemphasizedForeground":      "{{ tint.60 }}",
-    "list.dropBackground":              "{{ tint.70 }}{{ opacity.low }}",
-    "list.filterMatchBackground":       "{{ tint.70 }}",
+    "list.dropBackground":              "{{ surface.raised-low }}",
+    "list.filterMatchBackground":       "{{ surface.raised-high }}",
     "list.focusHighlightForeground":    "{{ ui.accent1.base }}",
     "list.focusOutline":                null,
     "list.highlightForeground":         "{{ ui.accent1.base }}",
@@ -156,7 +156,7 @@
     "activityBar.background":         "{{ surface.base }}",
     "activityBar.dropBorder":         "{{ border.base }}",
     "activityBar.foreground":         "{{ text.base }}",
-    "activityBar.inactiveForeground": "{{ tint.70 }}", //icon colors
+    "activityBar.inactiveForeground": "{{ icon.dim }}", //icon colors
     "activityBar.border":             "{{ border.dim }}",
     "activityBarBadge.background":    "{{ tint.40 }}",
     "activityBarBadge.foreground":    "{{ tint.90 }}",
@@ -185,7 +185,7 @@
 
     "gitDecoration.conflictingResourceForeground": "{{ ui.accent2.dim }}",
     "gitDecoration.deletedResourceForeground":     "{{ ui.danger.dim }}",
-    "gitDecoration.ignoredResourceForeground":     "{{ tint.70 }}",
+    "gitDecoration.ignoredResourceForeground":     "{{ text.disabled }}",
     "gitDecoration.modifiedResourceForeground":    "{{ ui.warning.dim }}",
     "gitDecoration.untrackedResourceForeground":   "{{ ui.success.dim }}",
 
@@ -208,8 +208,8 @@
     "minimap.errorHighlight":               "{{ ui.danger.dim }}",
     "minimap.findMatchHighlight":           "{{ ui.warning.dim }}",
     // "minimap.foregroundOpacity":            "#000000c0",
-    "minimap.selectionHighlight":           "{{ tint.70 }}",
-    "minimap.selectionOccurrenceHighlight": "{{ tint.70 }}",
+    "minimap.selectionHighlight":           "{{ surface.raised-high }}",
+    "minimap.selectionOccurrenceHighlight": "{{ surface.raised-high }}",
     "minimap.warningHighlight":             "{{ ui.warning.dim }}",
     "minimapGutter.addedBackground":        "{{ ui.success.dim }}",
     "minimapGutter.deletedBackground":      "{{ ui.danger.dim }}",
@@ -270,10 +270,10 @@
     "editorGroup.emptyBackground":        "{{ surface.base }}",
     "editorGroupHeader.noTabsBackground": "{{ surface.base }}",
     "editorGroupHeader.tabsBackground":   "{{ surface.base }}",
-    "editorGroup.dropBackground":         "{{ tint.70 }}{{ opacity.med }}",
+    "editorGroup.dropBackground":         "{{ surface.raised-low }}",
     "editorGroup.border":                 "{{ border.dim }}",
     "editorGroupHeader.tabsBorder":       "{{ border.dim }}",
-    "editorGroup.focusedEmptyBorder":     "{{ tint.70 }}",
+    "editorGroup.focusedEmptyBorder":     "{{ border.mid }}",
 
     "editorGroup.dropIntoPromptForeground": "{{ tint.50 }}",
     "editorGroup.dropIntoPromptBackground": "{{ surface.sunken }}",
@@ -311,13 +311,13 @@
     
     "panel.background":              "{{ surface.base }}",
     "panel.border":                  "{{ border.dim }}",
-    "panel.dropBorder":              "{{ tint.70 }}",
-    "panelTitle.activeBorder":       "{{ tint.50 }}",
+    "panel.dropBorder":              "{{ border.mid }}",
+    "panelTitle.activeBorder":       "{{ border.base }}",
     "panelTitle.activeForeground":   "{{ text.base }}",
     "panelTitle.inactiveForeground": "{{ tint.50 }}",
-    "panelInput.border":             "{{ tint.70 }}",
+    "panelInput.border":             "{{ border.mid }}",
     "panelSection.border":           "{{ border.dim }}",
-    "panelSection.dropBackground":   "{{ tint.70 }}{{ opacity.med }}",
+    "panelSection.dropBackground":   "{{ surface.raised-low }}",
     "panelSectionHeader.background": "{{ surface.base }}",
     "panelSectionHeader.foreground": "{{ text.base }}",
     "panelSectionHeader.border":     "{{ border.dim }}",
@@ -333,7 +333,7 @@
     */
     "editor.background":              "{{ surface.base }}",
     "editor.foreground":              "{{ text.base }}",
-    "editorLineNumber.foreground":    "{{ tint.70 }}",
+    "editorLineNumber.foreground":    "{{ text.disabled }}",
     "editorLink.activeForeground":    "{{ text.base }}",
     "editor.lineHighlightBackground": "{{ surface.sunken }}",
     "editor.lineHighlightBorder":     null,
@@ -351,7 +351,7 @@
     "editor.findMatchHighlightBackground":    "{{ surface.none }}",
     "editor.findMatchHighlightBorder":        "{{ ui.accent2.base }}",
     // selection range when "Find in Selection" is applied
-    "editor.findRangeHighlightBackground":    "{{ tint.70 }}{{ opacity.low }}", 
+    "editor.findRangeHighlightBackground":    "{{ surface.sunken}}", 
     "editor.findRangeHighlightBorder":        null,
     //background selection on hover
     "editor.hoverHighlightBackground":        "{{ tint.80 }}",
@@ -366,7 +366,7 @@
     "editorUnicodeHighlight.border":          "{{ border.dim }}",
     "editorUnicodeHighlight.background":      "{{ surface.base }}",
 
-    "editorWhitespace.foreground":         "{{ tint.70 }}",
+    "editorWhitespace.foreground":         "{{ text.disabled }}",
     "editorCursor.foreground":             "{{ text.mid }}",
     "editorError.foreground":              "{{ ui.danger.dim }}",
     "editorWarning.foreground":            "{{ ui.warning.dim }}",
@@ -377,7 +377,7 @@
     "editorGutter.modifiedBackground":     "{{ ui.warning.base }}",
     "editorIndentGuide.background1":       "{{ border.dim }}{{ opacity.med }}",
     "editorIndentGuide.activeBackground1": "{{ border.mid }}",
-    "editorRuler.foreground":              "{{ tint.70 }}",
+    "editorRuler.foreground":              "{{ text.disabled }}",
     "editorCodeLens.foreground":           "{{ tint.50 }}{{ opacity.med }}",
     "editorHoverWidget.background":        "{{ surface.base }}",
     "editorHoverWidget.border":            "{{ border.dim }}",
@@ -394,10 +394,10 @@
     */
     
     "editorBracketMatch.background":          "{{ surface.base }}",
-    "editorBracketMatch.border":              "{{ tint.70 }}",
+    "editorBracketMatch.border":              "{{ border.mid }}",
     
  
-    "editorBracketHighlight.foreground1":     "{{ tint.70 }}",
+    "editorBracketHighlight.foreground1":     "{{ text.disabled }}",
     "editorBracketHighlight.foreground2":     "{{ syntax.01.base }}",
     "editorBracketHighlight.foreground3":     "{{ syntax.02.base }}",
     "editorBracketHighlight.foreground4":     "{{ syntax.03.base }}",
@@ -510,7 +510,7 @@
     "debugExceptionWidget.border":                 "{{ ui.danger.dim }}",
     "debugToolBar.background":                     "{{ surface.base }}",
     "debugToolBar.border":                         "{{ border.dim }}",
-    "editor.stackFrameHighlightBackground":        "{{ tint.70 }}{{ opacity.med }}",
+    "editor.stackFrameHighlightBackground":        "{{ surface.raised-med }}",
     "editor.focusedStackFrameHighlightBackground": "{{ tint.60 }}{{ opacity.med }}",
     "editor.inlineValuesForeground":               "{{ tint.50 }}",
     "editor.inlineValuesBackground":               "{{ surface.none }}",
@@ -533,10 +533,10 @@
        https://code.visualstudio.com/api/references/theme-color#debug-icons-colors
     */
     "debugIcon.breakpointForeground":                  "{{ ui.danger.base }}",
-    "debugIcon.breakpointDisabledForeground":          "{{ tint.70 }}",
-    "debugIcon.breakpointUnverifiedForeground":        "{{ tint.60 }}",
+    "debugIcon.breakpointDisabledForeground":          "{{ icon.dim }}",
+    "debugIcon.breakpointUnverifiedForeground":        "{{ icon.mid }}",
     "debugIcon.breakpointCurrentStackframeForeground": "{{ ui.warning.base }}",
-    "debugIcon.breakpointStackframeForeground":        "{{ tint.60 }}",
+    "debugIcon.breakpointStackframeForeground":        "{{ icon.mid }}",
     "debugIcon.startForeground":                       "{{ ui.success.base }}",
     "debugIcon.pauseForeground":                       "{{ ui.accent2.base }}",
     "debugIcon.stopForeground":                        "{{ ui.danger.base }}",
@@ -551,7 +551,7 @@
     "debugConsole.warningForeground":                  "{{ ui.warning.base }}",
     "debugConsole.errorForeground":                    "{{ ui.danger.base }}",
     "debugConsole.sourceForeground":                   "{{ ui.accent2.base }}",
-    "debugConsoleInputIcon.foreground":                "{{ tint.60 }}",
+    "debugConsoleInputIcon.foreground":                "{{ icon.mid }}",
 
 
 
@@ -561,39 +561,39 @@
        The theme colors for symbol icons that appears in the Outline view, breadcrumb navigation, and suggest widget
        https://code.visualstudio.com/api/references/theme-color#symbol-icons-colors
     */
-    "symbolIcon.arrayForeground":            "{{ tint.70 }}",
-    "symbolIcon.booleanForeground":          "{{ tint.70 }}",
-    "symbolIcon.classForeground":            "{{ tint.70 }}",
-    "symbolIcon.colorForeground":            "{{ tint.70 }}",
-    "symbolIcon.constantForeground":         "{{ tint.70 }}",
-    "symbolIcon.constructorForeground":      "{{ tint.70 }}",
-    "symbolIcon.enumeratorForeground":       "{{ tint.70 }}",
-    "symbolIcon.enumeratorMemberForeground": "{{ tint.70 }}",
-    "symbolIcon.eventForeground":            "{{ tint.70 }}",
-    "symbolIcon.fieldForeground":            "{{ tint.70 }}",
-    "symbolIcon.fileForeground":             "{{ tint.70 }}",
-    "symbolIcon.folderForeground":           "{{ tint.70 }}",
-    "symbolIcon.functionForeground":         "{{ tint.70 }}",
-    "symbolIcon.interfaceForeground":        "{{ tint.70 }}",
-    "symbolIcon.keyForeground":              "{{ tint.70 }}",
-    "symbolIcon.keywordForeground":          "{{ tint.70 }}",
-    "symbolIcon.methodForeground":           "{{ tint.70 }}",
-    "symbolIcon.moduleForeground":           "{{ tint.70 }}",
-    "symbolIcon.namespaceForeground":        "{{ tint.70 }}",
-    "symbolIcon.nullForeground":             "{{ tint.70 }}",
-    "symbolIcon.numberForeground":           "{{ tint.70 }}",
-    "symbolIcon.objectForeground":           "{{ tint.70 }}",
-    "symbolIcon.operatorForeground":         "{{ tint.70 }}",
-    "symbolIcon.packageForeground":          "{{ tint.70 }}",
-    "symbolIcon.propertyForeground":         "{{ tint.70 }}",
-    "symbolIcon.referenceForeground":        "{{ tint.70 }}",
-    "symbolIcon.snippetForeground":          "{{ tint.70 }}",
-    "symbolIcon.stringForeground":           "{{ tint.70 }}",
-    "symbolIcon.structForeground":           "{{ tint.70 }}",
-    "symbolIcon.textForeground":             "{{ tint.70 }}",
-    "symbolIcon.typeParameterForeground":    "{{ tint.70 }}",
-    "symbolIcon.unitForeground":             "{{ tint.70 }}",
-    "symbolIcon.variableForeground":         "{{ tint.70 }}",
+    "symbolIcon.arrayForeground":            "{{ icon.dim }}",
+    "symbolIcon.booleanForeground":          "{{ icon.dim }}",
+    "symbolIcon.classForeground":            "{{ icon.dim }}",
+    "symbolIcon.colorForeground":            "{{ icon.dim }}",
+    "symbolIcon.constantForeground":         "{{ icon.dim }}",
+    "symbolIcon.constructorForeground":      "{{ icon.dim }}",
+    "symbolIcon.enumeratorForeground":       "{{ icon.dim }}",
+    "symbolIcon.enumeratorMemberForeground": "{{ icon.dim }}",
+    "symbolIcon.eventForeground":            "{{ icon.dim }}",
+    "symbolIcon.fieldForeground":            "{{ icon.dim }}",
+    "symbolIcon.fileForeground":             "{{ icon.dim }}",
+    "symbolIcon.folderForeground":           "{{ icon.dim }}",
+    "symbolIcon.functionForeground":         "{{ icon.dim }}",
+    "symbolIcon.interfaceForeground":        "{{ icon.dim }}",
+    "symbolIcon.keyForeground":              "{{ icon.dim }}",
+    "symbolIcon.keywordForeground":          "{{ icon.dim }}",
+    "symbolIcon.methodForeground":           "{{ icon.dim }}",
+    "symbolIcon.moduleForeground":           "{{ icon.dim }}",
+    "symbolIcon.namespaceForeground":        "{{ icon.dim }}",
+    "symbolIcon.nullForeground":             "{{ icon.dim }}",
+    "symbolIcon.numberForeground":           "{{ icon.dim }}",
+    "symbolIcon.objectForeground":           "{{ icon.dim }}",
+    "symbolIcon.operatorForeground":         "{{ icon.dim }}",
+    "symbolIcon.packageForeground":          "{{ icon.dim }}",
+    "symbolIcon.propertyForeground":         "{{ icon.dim }}",
+    "symbolIcon.referenceForeground":        "{{ icon.dim }}",
+    "symbolIcon.snippetForeground":          "{{ icon.dim }}",
+    "symbolIcon.stringForeground":           "{{ icon.dim }}",
+    "symbolIcon.structForeground":           "{{ icon.dim }}",
+    "symbolIcon.textForeground":             "{{ icon.dim }}",
+    "symbolIcon.typeParameterForeground":    "{{ icon.dim }}",
+    "symbolIcon.unitForeground":             "{{ icon.dim }}",
+    "symbolIcon.variableForeground":         "{{ icon.dim }}",
 
 
     /* Integrated terminal
@@ -617,8 +617,8 @@
     "terminal.foreground":                   "{{ text.base }}",
     "terminal.background":                   "{{ surface.base }}",
     "terminal.border":                       "{{ border.dim }}",
-    "terminal.dropBackground":               "{{ tint.70 }}{{ opacity.med }}",
-    "terminal.selectionBackground":          "{{ tint.70 }}",
+    "terminal.dropBackground":               "{{ surface.raised-low }}",
+    "terminal.selectionBackground":          "{{ surface.raised-med }}",
     "terminal.tab.activeBorder":             "{{ border.base }}",
     "terminalCursor.background":             "{{ surface.sunken }}",
     "terminalCursor.foreground":             "{{ text.mid }}",
@@ -626,7 +626,7 @@
     "terminalCommandDecoration.successBackground": "{{ ui.success.dim }}",
     "terminalCommandDecoration.errorBackground":   "{{ ui.danger.dim }}",
     "terminal.findMatchBackground":                "{{ ui.accent2.base }}{{ opacity.med-low }}",
-    "terminal.findMatchHighlightBackground":       "{{ tint.70 }}{{ opacity.med }}",
+    "terminal.findMatchHighlightBackground":       "{{ surface.raised-med }}",
 
 
 
@@ -653,7 +653,7 @@
     "extensionButton.prominentHoverBackground": "{{ tint.50 }}",
     "extensionBadge.remoteBackground":          "{{ tint.40 }}",
     "extensionBadge.remoteForeground":          "{{ tint.90 }}",
-    "extensionIcon.starForeground":             "{{ tint.70 }}",
+    "extensionIcon.starForeground":             "{{ icon.dim }}",
     "extensionIcon.verifiedForeground":         "{{ ui.accent1.base }}", 
     "extensionIcon.preReleaseForeground":       "{{ ui.accent2.base }}",
 
