@@ -22,6 +22,7 @@ Security
 - More subtle `list.hoverBackground`; it impacts hovers for Sidebar items, Quick Input items and Notifications
 - More subtle diagonal fill in the Diff Editor
 - More subtle background color under removed/added lines in the Diff editor
+- Comments are more visible
 - Refactored color naming, the repository folder structure and how the themes are generated. 
 
 ### Security

@@ -50,7 +50,7 @@
     "input.background":                       "#282430",
     "input.border":                           "#3c3746",
     "input.foreground":                       "#c8c5cf",
-    "input.placeholderForeground":            "#918a9f",
+    "input.placeholderForeground":            "#746b84",
     "inputOption.activeBackground":           "#aba6b6",
     "inputOption.hoverBackground":            "#564f6480",  
     "inputOption.activeForeground":           "#282430",
@@ -283,14 +283,14 @@
     "tab.activeForeground":                "#c8c5cf",
     "tab.activeBorder":                    "#918a9f",
     "tab.activeBorderTop":                 "#1d1a2300",
-    "tab.inactiveForeground":              "#918a9f",
+    "tab.inactiveForeground":              "#746b84",
     "tab.inactiveBackground":              "#1d1a23",
     "tab.hoverBorder":                     "#564f64",
     "tab.hoverBackground":                 "#564f6480",
     "tab.hoverForeground":                 "#aba6b6",
     "tab.border":                          "#1d1a2300",
     "tab.unfocusedActiveBackground":       "#564f644d",
-    "tab.unfocusedActiveForeground":       "#918a9f",
+    "tab.unfocusedActiveForeground":       "#746b84",
     "tab.unfocusedActiveBorder":           "#564f64",
     "tab.unfocusedInactiveForeground":     "#564f64",
     "tab.unfocusedInactiveBackground":     "#1d1a23",
@@ -709,7 +709,7 @@
         "string.quoted.docstring.multi.python"
       ],
       "settings": {
-        "foreground": "#564f64",
+        "foreground": "#746b84",
         "fontStyle": "italic"
       }
     },

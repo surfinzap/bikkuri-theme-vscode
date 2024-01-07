@@ -50,7 +50,7 @@
     "input.background":                       "#262623",
     "input.border":                           "#393935",
     "input.foreground":                       "#c6c7bb",
-    "input.placeholderForeground":            "#8d8e85",
+    "input.placeholderForeground":            "#6f7069",
     "inputOption.activeBackground":           "#a8a99f",
     "inputOption.hoverBackground":            "#52534d80",  
     "inputOption.activeForeground":           "#262623",
@@ -283,14 +283,14 @@
     "tab.activeForeground":                "#c6c7bb",
     "tab.activeBorder":                    "#8d8e85",
     "tab.activeBorderTop":                 "#1b1c1900",
-    "tab.inactiveForeground":              "#8d8e85",
+    "tab.inactiveForeground":              "#6f7069",
     "tab.inactiveBackground":              "#1b1c19",
     "tab.hoverBorder":                     "#52534d",
     "tab.hoverBackground":                 "#52534d80",
     "tab.hoverForeground":                 "#a8a99f",
     "tab.border":                          "#1b1c1900",
     "tab.unfocusedActiveBackground":       "#52534d4d",
-    "tab.unfocusedActiveForeground":       "#8d8e85",
+    "tab.unfocusedActiveForeground":       "#6f7069",
     "tab.unfocusedActiveBorder":           "#52534d",
     "tab.unfocusedInactiveForeground":     "#52534d",
     "tab.unfocusedInactiveBackground":     "#1b1c19",
@@ -709,7 +709,7 @@
         "string.quoted.docstring.multi.python"
       ],
       "settings": {
-        "foreground": "#52534d",
+        "foreground": "#6f7069",
         "fontStyle": "italic"
       }
     },
