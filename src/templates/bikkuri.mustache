@@ -30,7 +30,7 @@
     "button.secondaryForeground":             "{{ text.base }}",
     "button.secondaryHoverBackground":        "{{ tint.80 }}",
     "button.border":                          "{{ border.none }}",
-    "checkbox.background":                    "{{ tint.90 }}",
+    "checkbox.background":                    "{{ surface.base }}",
     "checkbox.foreground":                    "{{ icon.base }}",
     "checkbox.border":                        "{{ tint.60 }}",
 
@@ -38,29 +38,29 @@
     /* Dropdown
        https://code.visualstudio.com/api/references/theme-color#dropdown-control
     */
-    "dropdown.background":                    "{{ tint.90 }}", 
+    "dropdown.background":                    "{{ surface.sunken }}", 
     "dropdown.border":                        "{{ border.dim }}",
     "dropdown.foreground":                    "{{ text.base }}",
-    "dropdown.listBackground":                "{{ tint.90 }}",
+    "dropdown.listBackground":                "{{ surface.sunken }}",
 
 
     /* Input
        https://code.visualstudio.com/api/references/theme-color#input-control 
     */  
-    "input.background":                       "{{ tint.90 }}",
+    "input.background":                       "{{ surface.sunken }}",
     "input.border":                           "{{ border.dim }}",
     "input.foreground":                       "{{ text.base }}",
     "input.placeholderForeground":            "{{ text.disabled }}",
     "inputOption.activeBackground":           "{{ tint.40 }}",
     "inputOption.hoverBackground":            "{{ tint.70 }}",  
-    "inputOption.activeForeground":           "{{ tint.90 }}",
+    "inputOption.activeForeground":           "{{ surface.sunken }}",
     // Border color of activated options in input fields.
     "inputOption.activeBorder":               "{{ border.none }}", //cannot be null
-    "inputValidation.errorBackground":        "{{ tint.90 }}",
+    "inputValidation.errorBackground":        "{{ surface.sunken }}",
     "inputValidation.errorBorder":            "{{ ui.danger.base }}",
-    "inputValidation.infoBackground":         "{{ tint.90 }}",
+    "inputValidation.infoBackground":         "{{ surface.sunken }}",
     "inputValidation.infoBorder":             "{{ tint.40 }}",
-    "inputValidation.warningBackground":      "{{ tint.90 }}",
+    "inputValidation.warningBackground":      "{{ surface.sunken }}",
     "inputValidation.warningBorder":          "{{ ui.warning.base }}",
 
     /* Scrollbar
@@ -100,17 +100,17 @@
     /* Lists & Trees
        https://code.visualstudio.com/api/references/theme-color#lists-and-trees
     */
-    "list.activeSelectionBackground":   "{{ tint.90 }}",
+    "list.activeSelectionBackground":   "{{ surface.raised-low }}",
     "list.activeSelectionForeground":   "{{ text.base }}",
     "list.errorForeground":             "{{ ui.danger.base }}",
-    "list.focusBackground":             "{{ tint.80 }}",
+    "list.focusBackground":             "{{ surface.raised-med }}",
     "list.focusForeground":             "{{ text.base }}",
 
     // list.hoverBackground/Foreground has a broad impact: Sidebar items hover, Quick Input items hover, Notifications hover; but not for the menu
-    "list.hoverBackground":             "{{ tint.80 }}{{ opacity.med-low}}",
+    "list.hoverBackground":             "{{ surface.raised-low }}",
     "list.hoverForeground":             "{{ text.base }}",
 
-    "list.inactiveSelectionBackground": "{{ tint.90 }}",
+    "list.inactiveSelectionBackground": "{{ surface.raised-low }}",
     "list.inactiveSelectionForeground": "{{ text.base }}",
     "list.warningForeground":           "{{ ui.warning.base }}",
     "list.deemphasizedForeground":      "{{ tint.60 }}",
@@ -130,7 +130,7 @@
 
     /* Quick input (Command palette, Quick picker)
     */
-    "quickInput.background":              "{{ tint.90 }}",
+    "quickInput.background":              "{{ surface.sunken }}",
     "quickInput.foreground":              "{{ tint.40 }}",
     "pickerGroup.foreground":             "{{ tint.40 }}",
     "pickerGroup.border":                 "{{ border.dim }}",
@@ -147,7 +147,7 @@
        https://code.visualstudio.com/api/references/theme-color#keybinding-label-colors
     */
     "keybindingLabel.background":   "{{ surface.base }}",
-    "keybindingLabel.border":       "{{ tint.90 }}",
+    "keybindingLabel.border":       "{{ surface.sunken }}",
     "keybindingLabel.bottomBorder": "{{ border.dim }}",
     "keybindingLabel.foreground":   "{{ text.mid }}",
 
@@ -171,7 +171,7 @@
        https://code.visualstudio.com/api/references/theme-color#side-bar
     */
     "sideBar.background":              "{{ surface.base }}",
-    "sideBarSectionHeader.background": "{{ tint.90 }}",
+    "sideBarSectionHeader.background": "{{ surface.sunken }}",
     "sideBar.border":                  "{{ border.dim }}",
     "sideBar.dropBackground":          "{{ tint.60 }}{{ opacity.low }}",
     "sideBar.foreground":              "{{ tint.40 }}",
@@ -246,12 +246,12 @@
     "statusBar.debuggingBorder":              "{{ border.dim }}",
     "statusBar.noFolderBackground":           "{{ surface.base }}",
     "statusBar.noFolderBorder":               "{{ border.dim }}",
-    "statusBarItem.activeBackground":         "{{ tint.90 }}",
-    "statusBarItem.hoverBackground":          "{{ tint.80 }}",
+    "statusBarItem.activeBackground":         "{{ surface.raised-low }}",
+    "statusBarItem.hoverBackground":          "{{ surface.raised-med }}",
     "statusBarItem.prominentForeground":      "{{ text.on-color }}",
     "statusBarItem.prominentBackground":      "{{ ui.accent2.dim }}",
     "statusBarItem.prominentHoverBackground": "{{ ui.accent2.base }}",
-    "statusBarItem.remoteBackground":         "{{ tint.90 }}",
+    "statusBarItem.remoteBackground":         "{{ surface.sunken }}",
     "statusBarItem.remoteForeground":         "{{ tint.50 }}",
     "statusBarItem.errorBackground":          "{{ ui.danger.base }}",
     "statusBarItem.errorForeground":          "{{ text.on-color }}",
@@ -276,8 +276,8 @@
     "editorGroup.focusedEmptyBorder":     "{{ tint.70 }}",
 
     "editorGroup.dropIntoPromptForeground": "{{ tint.50 }}",
-    "editorGroup.dropIntoPromptBackground": "{{ tint.90 }}",
-    "editorGroup.dropIntoPromptBorder":     "{{ tint.90 }}",
+    "editorGroup.dropIntoPromptBackground": "{{ surface.sunken }}",
+    "editorGroup.dropIntoPromptBorder":     "{{ border.dim }}",
 
     "tab.activeBackground":                "{{ surface.raised-low }}",
     "tab.activeForeground":                "{{ text.base }}",
@@ -335,12 +335,12 @@
     "editor.foreground":              "{{ text.base }}",
     "editorLineNumber.foreground":    "{{ tint.70 }}",
     "editorLink.activeForeground":    "{{ text.base }}",
-    "editor.lineHighlightBackground": "{{ tint.90 }}",
+    "editor.lineHighlightBackground": "{{ surface.sunken }}",
     "editor.lineHighlightBorder":     null,
     "editor.selectionBackground":     "{{ tint.80 }}",
     // selectionForeground does not seem to work
     // "editor.selectionForeground":             "{{ tint.40 }}",
-    "editor.inactiveSelectionBackground":     "{{ tint.90 }}",
+    "editor.inactiveSelectionBackground":     "{{ surface.sunken }}",
     // same content as selection
     "editor.selectionHighlightBackground":    "{{ surface.none }}",
     "editor.selectionHighlightBorder":        "{{ ui.accent1.base }}",
@@ -375,8 +375,8 @@
     "editorGutter.addedBackground":       "{{ ui.success.base }}",
     "editorGutter.deletedBackground":     "{{ ui.danger.base }}",
     "editorGutter.modifiedBackground":    "{{ ui.warning.base }}",
-    "editorIndentGuide.background":       "{{ tint.90 }}",
-    "editorIndentGuide.activeBackground": "{{ border.dim }}",
+    "editorIndentGuide.background1":      "{{ border.dim }}",
+    "editorIndentGuide.activeBackground1": "{{ border.mid }}",
     "editorRuler.foreground":             "{{ tint.70 }}",
     "editorCodeLens.foreground":          "{{ tint.50 }}{{ opacity.med }}",
     "editorHoverWidget.background":       "{{ surface.base }}",
@@ -422,7 +422,7 @@
     /* Diff Editor
        https://code.visualstudio.com/api/references/theme-color#diff-editor-colors
     */
-    "diffEditor.diagonalFill":                 "{{ tint.90 }}",
+    "diffEditor.diagonalFill":                 "{{ surface.sunken }}",
     "diffEditor.insertedTextBackground":       "{{ ui.success.dim }}{{ opacity.low }}",
     "diffEditor.removedTextBackground":        "{{ ui.danger.dim }}{{ opacity.low }}",
     "diffEditor.insertedTextBorder":           null,             //it impacts line as well
@@ -449,7 +449,7 @@
     "editorOverviewRuler.incomingContentForeground":       "{{ ui.accent3.dim }}{{ opacity.med-low }}",
     "editorOverviewRuler.commonContentForeground":         null,
     "mergeEditor.change.background":                       "{{ surface.base }}",
-    "mergeEditor.change.word.background":                  "{{ tint.90 }}",
+    "mergeEditor.change.word.background":                  "{{ surface.sunken }}",
     "mergeEditor.conflict.unhandledUnfocused.border":      "{{ ui.danger.base }}",
     "mergeEditor.conflict.unhandledFocused.border":        "{{ ui.danger.base }}",
     "mergeEditor.conflict.handledUnfocused.border":        "{{ ui.success.base }}",
@@ -472,7 +472,7 @@
 
     /* Widget
     */
-    "editorWidget.background":                 "{{ tint.90 }}",
+    "editorWidget.background":                 "{{ surface.sunken }}",
     "editorWidget.border":                     "{{ border.dim }}",
     "editorSuggestWidget.background":          "{{ surface.base }}",
     "editorSuggestWidget.foreground":          "{{ text.base }}",
@@ -489,7 +489,7 @@
     "peekViewEditorGutter.background":         "{{ surface.base }}",
     "peekViewEditor.matchHighlightBackground": "{{ tint.80 }}",
     "peekViewEditor.matchHighlightBorder":     null,
-    "peekViewResult.background":               "{{ tint.90 }}",
+    "peekViewResult.background":               "{{ surface.sunken }}",
     "peekViewResult.fileForeground":           "{{ tint.90 }}",
     "peekViewResult.lineForeground":           "{{ tint.40 }}",
     "peekViewResult.matchHighlightBackground": "{{ tint.80 }}",
@@ -517,7 +517,7 @@
     "debugView.exceptionLabelForeground":          "{{ text.on-color }}",
     "debugView.exceptionLabelBackground":          "{{ ui.danger.dim }}",
     "debugView.stateLabelForeground":              "{{ text.base }}",
-    "debugView.stateLabelBackground":              "{{ tint.90 }}",
+    "debugView.stateLabelBackground":              "{{ surface.sunken }}",
     "debugView.valueChangedHighlight":             "{{ ui.accent2.dim }}{{ opacity.med }}",
     "debugTokenExpression.name":                   "{{ syntax.05.base }}",
     "debugTokenExpression.value":                  "{{ syntax.04.base }}",
@@ -620,9 +620,9 @@
     "terminal.dropBackground":               "{{ tint.70 }}{{ opacity.med }}",
     "terminal.selectionBackground":          "{{ tint.70 }}",
     "terminal.tab.activeBorder":             "{{ border.base }}",
-    "terminalCursor.background":             "{{ tint.90 }}",
+    "terminalCursor.background":             "{{ surface.sunken }}",
     "terminalCursor.foreground":             "{{ text.mid }}",
-    "terminalCommandDecoration.defaultBackground": "{{ tint.90 }}",
+    "terminalCommandDecoration.defaultBackground": "{{ surface.sunken }}",
     "terminalCommandDecoration.successBackground": "{{ ui.success.dim }}",
     "terminalCommandDecoration.errorBackground":   "{{ ui.danger.dim }}",
     "terminal.findMatchBackground":                "{{ ui.accent2.base }}{{ opacity.med-low }}",
@@ -663,7 +663,7 @@
     "menubar.selectionBackground":           "{{ tint.80 }}", 
     "menubar.selectionBorder":                null,
     "menu.foreground":                       "{{ text.base }}",
-    "menu.background":                       "{{ tint.90 }}",
+    "menu.background":                       "{{ surface.sunken }}",
     "menu.selectionForeground":              "{{ text.base }}",
     "menu.selectionBackground":              "{{ tint.80 }}",
     "menu.selectionBorder":                   null,

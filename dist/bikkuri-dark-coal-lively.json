@@ -30,7 +30,7 @@
     "button.secondaryForeground":             "#c6c6c6",
     "button.secondaryHoverBackground":        "#393939",
     "button.border":                          "#1b1b1b00",
-    "checkbox.background":                    "#262626",
+    "checkbox.background":                    "#1b1b1b",
     "checkbox.foreground":                    "#a8a8a8",
     "checkbox.border":                        "#6f6f6f",
 
@@ -100,17 +100,17 @@
     /* Lists & Trees
        https://code.visualstudio.com/api/references/theme-color#lists-and-trees
     */
-    "list.activeSelectionBackground":   "#262626",
+    "list.activeSelectionBackground":   "#5252524d",
     "list.activeSelectionForeground":   "#c6c6c6",
     "list.errorForeground":             "#e56176",
-    "list.focusBackground":             "#393939",
+    "list.focusBackground":             "#52525280",
     "list.focusForeground":             "#c6c6c6",
 
     // list.hoverBackground/Foreground has a broad impact: Sidebar items hover, Quick Input items hover, Notifications hover; but not for the menu
-    "list.hoverBackground":             "#3939394d",
+    "list.hoverBackground":             "#5252524d",
     "list.hoverForeground":             "#c6c6c6",
 
-    "list.inactiveSelectionBackground": "#262626",
+    "list.inactiveSelectionBackground": "#5252524d",
     "list.inactiveSelectionForeground": "#c6c6c6",
     "list.warningForeground":           "#ebc075",
     "list.deemphasizedForeground":      "#6f6f6f",
@@ -246,8 +246,8 @@
     "statusBar.debuggingBorder":              "#393939",
     "statusBar.noFolderBackground":           "#1b1b1b",
     "statusBar.noFolderBorder":               "#393939",
-    "statusBarItem.activeBackground":         "#262626",
-    "statusBarItem.hoverBackground":          "#393939",
+    "statusBarItem.activeBackground":         "#5252524d",
+    "statusBarItem.hoverBackground":          "#52525280",
     "statusBarItem.prominentForeground":      "#1b1b1b",
     "statusBarItem.prominentBackground":      "#8e81dd",
     "statusBarItem.prominentHoverBackground": "#a9a0e6",
@@ -277,7 +277,7 @@
 
     "editorGroup.dropIntoPromptForeground": "#8d8d8d",
     "editorGroup.dropIntoPromptBackground": "#262626",
-    "editorGroup.dropIntoPromptBorder":     "#262626",
+    "editorGroup.dropIntoPromptBorder":     "#393939",
 
     "tab.activeBackground":                "#5252524d",
     "tab.activeForeground":                "#c6c6c6",
@@ -375,8 +375,8 @@
     "editorGutter.addedBackground":       "#9cb062",
     "editorGutter.deletedBackground":     "#e56176",
     "editorGutter.modifiedBackground":    "#ebc075",
-    "editorIndentGuide.background":       "#262626",
-    "editorIndentGuide.activeBackground": "#393939",
+    "editorIndentGuide.background1":      "#393939",
+    "editorIndentGuide.activeBackground1": "#525252",
     "editorRuler.foreground":             "#525252",
     "editorCodeLens.foreground":          "#8d8d8d80",
     "editorHoverWidget.background":       "#1b1b1b",
