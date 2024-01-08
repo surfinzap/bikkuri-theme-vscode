@@ -2,7 +2,7 @@
   "$schema": "vscode://schemas/color-theme",
   "name": "Bikkuri ({{ mode-name }} {{ tint-name }} & {{ mood-name }})",
   "type": "{{ mode-type }}",
-  "colors": { 
+  "colors": {
     /* Base colors
      https://code.visualstudio.com/api/references/theme-color#status-bar-colors
     */
@@ -116,7 +116,7 @@
     "list.dropBackground":              "{{ surface.raised-low }}",
     "list.filterMatchBackground":       "{{ surface.raised-high }}",
     "list.focusHighlightForeground":    "{{ ui.accent1.base }}",
-    "list.focusOutline":                null,
+    "list.focusOutline":                "{{ border.none }}",
     "list.highlightForeground":         "{{ ui.accent1.base }}",
     "list.invalidItemForeground":       "{{ ui.danger.dim }}",
     //"list.activeSelectionIconForeground": null,
@@ -161,7 +161,7 @@
     "activityBarBadge.foreground":    "{{ tint.90 }}",
     "activityBar.activeBorder":       "{{ border.base }}",
     "activityBar.activeBackground":   "{{ tint.80 }}",
-    "activityBar.activeFocusBorder":  null,
+    "activityBar.activeFocusBorder":  "{{ border.none }}",
     "profileBadge.background" :       "{{ tint.80 }}",
     "profileBadge.foreground":        "{{ icon.base }}",
 
@@ -176,7 +176,7 @@
     "sideBar.foreground":              "{{ text.mid }}",
     "sideBarSectionHeader.foreground": "{{ text.mid }}",
     "sideBarTitle.foreground":         "{{ text.mid }}",
-    "sideBarSectionHeader.border":     null,
+    "sideBarSectionHeader.border":     "{{ border.none }}",
 
     /* Git Decorations
        Changed files in sidebar or tabs;
@@ -335,7 +335,7 @@
     "editorLineNumber.foreground":    "{{ text.disabled }}",
     "editorLink.activeForeground":    "{{ text.base }}",
     "editor.lineHighlightBackground": "{{ surface.sunken }}",
-    "editor.lineHighlightBorder":     null,
+    "editor.lineHighlightBorder":     "{{ border.none }}",
     "editor.selectionBackground":     "{{ tint.80 }}",
     // selectionForeground does not seem to work
     // "editor.selectionForeground":             "{{ undefined }}",
@@ -351,7 +351,7 @@
     "editor.findMatchHighlightBorder":        "{{ ui.accent2.base }}",
     // selection range when "Find in Selection" is applied
     "editor.findRangeHighlightBackground":    "{{ surface.sunken}}", 
-    "editor.findRangeHighlightBorder":        null,
+    "editor.findRangeHighlightBorder":        "{{ border.none }}",
     //background selection on hover
     "editor.hoverHighlightBackground":        "{{ tint.80 }}",
     // highlighting variables 
@@ -359,8 +359,8 @@
     "editor.wordHighlightStrongBorder":       "{{ ui.accent1.base }}",
     "editor.wordHighlightBackground":         "{{ surface.none }}",
     "editor.wordHighlightBorder":             "{{ ui.accent2.base }}",
-    "editor.wordHighlightTextBackground":     null,
-    "editor.wordHighlightTextBorder":         null,
+    "editor.wordHighlightTextBackground":     "{{ surface.none }}",
+    "editor.wordHighlightTextBorder":         "{{ border.none }}",
     
     "editorUnicodeHighlight.border":          "{{ border.dim }}",
     "editorUnicodeHighlight.background":      "{{ surface.base }}",
@@ -403,18 +403,18 @@
     "editorBracketHighlight.foreground5":     "{{ syntax.04.base }}",
     "editorBracketHighlight.foreground6":     "{{ syntax.06.base }}",
     "editorBracketHighlight.unexpectedBracket.foreground": "{{ ui.danger.dim }}",
-    "editorBracketPairGuide.activeBackground1": null,
-    "editorBracketPairGuide.activeBackground2": null,
-    "editorBracketPairGuide.activeBackground3": null,
-    "editorBracketPairGuide.activeBackground4": null,
-    "editorBracketPairGuide.activeBackground5": null,
-    "editorBracketPairGuide.activeBackground6": null,
-    "editorBracketPairGuide.background1":     null,
-    "editorBracketPairGuide.background2":     null,
-    "editorBracketPairGuide.background3":     null,
-    "editorBracketPairGuide.background4":     null,
-    "editorBracketPairGuide.background5":     null,
-    "editorBracketPairGuide.background6":     null,
+    "editorBracketPairGuide.activeBackground1": "{{ text.none }}",
+    "editorBracketPairGuide.activeBackground2": "{{ text.none }}",
+    "editorBracketPairGuide.activeBackground3": "{{ text.none }}",
+    "editorBracketPairGuide.activeBackground4": "{{ text.none }}",
+    "editorBracketPairGuide.activeBackground5": "{{ text.none }}",
+    "editorBracketPairGuide.activeBackground6": "{{ text.none }}",
+    "editorBracketPairGuide.background1":     "{{ text.none }}",
+    "editorBracketPairGuide.background2":     "{{ text.none }}",
+    "editorBracketPairGuide.background3":     "{{ text.none }}",
+    "editorBracketPairGuide.background4":     "{{ text.none }}",
+    "editorBracketPairGuide.background5":     "{{ text.none }}",
+    "editorBracketPairGuide.background6":     "{{ text.none }}",
 
 
 
@@ -424,9 +424,9 @@
     "diffEditor.diagonalFill":                 "{{ surface.sunken }}",
     "diffEditor.insertedTextBackground":       "{{ ui.success.dim }}{{ opacity.low }}",
     "diffEditor.removedTextBackground":        "{{ ui.danger.dim }}{{ opacity.low }}",
-    "diffEditor.insertedTextBorder":           null,             //it impacts line as well
-    "diffEditor.removedTextBorder":            null,
-    "diffEditor.border":                       null,             //border between diffs
+    "diffEditor.insertedTextBorder":           "{{ border.none }}",             //it impacts line as well
+    "diffEditor.removedTextBorder":            "{{ border.none }}",
+    "diffEditor.border":                       "{{ border.none }}",             //border between diffs
     "diffEditor.insertedLineBackground":       "{{ ui.success.dim }}{{ opacity.low }}",
     "diffEditor.removedLineBackground":        "{{ ui.danger.dim }}{{ opacity.low }}",
     "diffEditorGutter.insertedLineBackground": "{{ ui.success.dim }}{{ opacity.low }}",
@@ -437,16 +437,16 @@
     
     /* Merge conflicts, Merge editor
      */
-    "merge.border":                                        null,
+    "merge.border":                                        "{{ border.none }}",
     "merge.currentHeaderBackground":                       "{{ ui.accent2.dim }}{{ opacity.med-low }}",
     "merge.currentContentBackground":                      "{{ ui.accent2.dim }}{{ opacity.low }}",
     "merge.incomingHeaderBackground":                      "{{ ui.accent3.dim }}{{ opacity.med-low }}",
     "merge.incomingContentBackground":                     "{{ ui.accent3.dim }}{{ opacity.low }}",
-    "merge.commonContentBackground":                       null,
-    "merge.commonHeaderBackground":                        null,
+    "merge.commonContentBackground":                       "{{ surface.none }}",
+    "merge.commonHeaderBackground":                        "{{ surface.none }}",
     "editorOverviewRuler.currentContentForeground":        "{{ ui.accent2.dim }}{{ opacity.med-low }}",
     "editorOverviewRuler.incomingContentForeground":       "{{ ui.accent3.dim }}{{ opacity.med-low }}",
-    "editorOverviewRuler.commonContentForeground":         null,
+    "editorOverviewRuler.commonContentForeground":         "{{ border.none }}",
     "mergeEditor.change.background":                       "{{ surface.base }}",
     "mergeEditor.change.word.background":                  "{{ surface.sunken }}",
     "mergeEditor.conflict.unhandledUnfocused.border":      "{{ ui.danger.base }}",
@@ -487,7 +487,7 @@
     "peekViewEditor.background":               "{{ surface.base }}",
     "peekViewEditorGutter.background":         "{{ surface.base }}",
     "peekViewEditor.matchHighlightBackground": "{{ tint.80 }}",
-    "peekViewEditor.matchHighlightBorder":     null,
+    "peekViewEditor.matchHighlightBorder":     "{{ border.none }}",
     "peekViewResult.background":               "{{ surface.sunken }}",
     "peekViewResult.fileForeground":           "{{ tint.90 }}",
     "peekViewResult.lineForeground":           "{{ tint.40 }}",
@@ -660,12 +660,12 @@
     */
     "menubar.selectionForeground":           "{{ text.base }}",
     "menubar.selectionBackground":           "{{ tint.80 }}", 
-    "menubar.selectionBorder":                null,
+    "menubar.selectionBorder":               "{{ border.none }}",
     "menu.foreground":                       "{{ text.base }}",
     "menu.background":                       "{{ surface.sunken }}",
     "menu.selectionForeground":              "{{ text.base }}",
     "menu.selectionBackground":              "{{ tint.80 }}",
-    "menu.selectionBorder":                   null,
+    "menu.selectionBorder":                  "{{ border.none }}",
     "menu.separatorBackground":              "{{ border.dim }}",
     "menu.border":                           "{{ border.dim }}",
 
@@ -1288,7 +1288,6 @@
       "scope": "string.other.link.title.markdown",
       "settings": {
         "foreground": "{{ text.base }}",
-        "fontStyle": null
       }
     },
     {
@@ -1305,7 +1304,6 @@
         "entity.name.section.markdown"
       ],
       "settings": {
-        "fontStyle": null,
         "foreground": "{{ syntax.01.base }}"
       }
     },
@@ -1321,7 +1319,6 @@
     {
       "scope": "markup.bold",
       "settings": {
-        "fontStyle": null,
         "foreground": "{{ syntax.03.base }}"
       }
     },

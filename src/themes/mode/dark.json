@@ -18,7 +18,8 @@
     "mid": "{{ tint.50 }}",
     "dim": "{{ tint.60 }}",
     "disabled": "{{ tint.70 }}",
-    "on-color": "{{ tint.100 }}"
+    "on-color": "{{ tint.100 }}",
+    "none": "{{ tint.30}}{{opacity.none}}"
   },
   "icon": {
     "base": "{{ tint.40 }}",

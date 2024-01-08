@@ -2,7 +2,7 @@
   "$schema": "vscode://schemas/color-theme",
   "name": "Bikkuri (Dark Moss & Lively)",
   "type": "dark",
-  "colors": { 
+  "colors": {
     /* Base colors
      https://code.visualstudio.com/api/references/theme-color#status-bar-colors
     */
@@ -18,7 +18,6 @@
     "sash.hoverBorder":                       "#8d8e85",
     "textLink.foreground":                    "#75aedd",
     "textLink.activeForeground":              "#6192bb",
-    "debugToolBar.background":                "#1b1c19",
 
     /* Button 
        https://code.visualstudio.com/api/references/theme-color#button-control
@@ -117,7 +116,7 @@
     "list.dropBackground":              "#52534d4d",
     "list.filterMatchBackground":       "#52534db3",
     "list.focusHighlightForeground":    "#75aedd",
-    "list.focusOutline":                null,
+    "list.focusOutline":                "#1b1c1900",
     "list.highlightForeground":         "#75aedd",
     "list.invalidItemForeground":       "#c53d56",
     //"list.activeSelectionIconForeground": null,
@@ -162,7 +161,7 @@
     "activityBarBadge.foreground":    "#262623",
     "activityBar.activeBorder":       "#8d8e85",
     "activityBar.activeBackground":   "#393935",
-    "activityBar.activeFocusBorder":  null,
+    "activityBar.activeFocusBorder":  "#1b1c1900",
     "profileBadge.background" :       "#393935",
     "profileBadge.foreground":        "#a8a99f",
 
@@ -177,7 +176,7 @@
     "sideBar.foreground":              "#8d8e85",
     "sideBarSectionHeader.foreground": "#8d8e85",
     "sideBarTitle.foreground":         "#8d8e85",
-    "sideBarSectionHeader.border":     null,
+    "sideBarSectionHeader.border":     "#1b1c1900",
 
     /* Git Decorations
        Changed files in sidebar or tabs;
@@ -336,7 +335,7 @@
     "editorLineNumber.foreground":    "#52534d",
     "editorLink.activeForeground":    "#c6c7bb",
     "editor.lineHighlightBackground": "#262623",
-    "editor.lineHighlightBorder":     null,
+    "editor.lineHighlightBorder":     "#1b1c1900",
     "editor.selectionBackground":     "#393935",
     // selectionForeground does not seem to work
     // "editor.selectionForeground":             "",
@@ -352,7 +351,7 @@
     "editor.findMatchHighlightBorder":        "#a9a0e6",
     // selection range when "Find in Selection" is applied
     "editor.findRangeHighlightBackground":    "#262623", 
-    "editor.findRangeHighlightBorder":        null,
+    "editor.findRangeHighlightBorder":        "#1b1c1900",
     //background selection on hover
     "editor.hoverHighlightBackground":        "#393935",
     // highlighting variables 
@@ -360,8 +359,8 @@
     "editor.wordHighlightStrongBorder":       "#75aedd",
     "editor.wordHighlightBackground":         "#1b1c1900",
     "editor.wordHighlightBorder":             "#a9a0e6",
-    "editor.wordHighlightTextBackground":     null,
-    "editor.wordHighlightTextBorder":         null,
+    "editor.wordHighlightTextBackground":     "#1b1c1900",
+    "editor.wordHighlightTextBorder":         "#1b1c1900",
     
     "editorUnicodeHighlight.border":          "#393935",
     "editorUnicodeHighlight.background":      "#1b1c19",
@@ -404,18 +403,18 @@
     "editorBracketHighlight.foreground5":     "#9cb062",
     "editorBracketHighlight.foreground6":     "#75aedd",
     "editorBracketHighlight.unexpectedBracket.foreground": "#c53d56",
-    "editorBracketPairGuide.activeBackground1": null,
-    "editorBracketPairGuide.activeBackground2": null,
-    "editorBracketPairGuide.activeBackground3": null,
-    "editorBracketPairGuide.activeBackground4": null,
-    "editorBracketPairGuide.activeBackground5": null,
-    "editorBracketPairGuide.activeBackground6": null,
-    "editorBracketPairGuide.background1":     null,
-    "editorBracketPairGuide.background2":     null,
-    "editorBracketPairGuide.background3":     null,
-    "editorBracketPairGuide.background4":     null,
-    "editorBracketPairGuide.background5":     null,
-    "editorBracketPairGuide.background6":     null,
+    "editorBracketPairGuide.activeBackground1": "#c6c7bb00",
+    "editorBracketPairGuide.activeBackground2": "#c6c7bb00",
+    "editorBracketPairGuide.activeBackground3": "#c6c7bb00",
+    "editorBracketPairGuide.activeBackground4": "#c6c7bb00",
+    "editorBracketPairGuide.activeBackground5": "#c6c7bb00",
+    "editorBracketPairGuide.activeBackground6": "#c6c7bb00",
+    "editorBracketPairGuide.background1":     "#c6c7bb00",
+    "editorBracketPairGuide.background2":     "#c6c7bb00",
+    "editorBracketPairGuide.background3":     "#c6c7bb00",
+    "editorBracketPairGuide.background4":     "#c6c7bb00",
+    "editorBracketPairGuide.background5":     "#c6c7bb00",
+    "editorBracketPairGuide.background6":     "#c6c7bb00",
 
 
 
@@ -425,9 +424,9 @@
     "diffEditor.diagonalFill":                 "#262623",
     "diffEditor.insertedTextBackground":       "#8394511f",
     "diffEditor.removedTextBackground":        "#c53d561f",
-    "diffEditor.insertedTextBorder":           null,             //it impacts line as well
-    "diffEditor.removedTextBorder":            null,
-    "diffEditor.border":                       null,             //border between diffs
+    "diffEditor.insertedTextBorder":           "#1b1c1900",             //it impacts line as well
+    "diffEditor.removedTextBorder":            "#1b1c1900",
+    "diffEditor.border":                       "#1b1c1900",             //border between diffs
     "diffEditor.insertedLineBackground":       "#8394511f",
     "diffEditor.removedLineBackground":        "#c53d561f",
     "diffEditorGutter.insertedLineBackground": "#8394511f",
@@ -438,16 +437,16 @@
     
     /* Merge conflicts, Merge editor
      */
-    "merge.border":                                        null,
+    "merge.border":                                        "#1b1c1900",
     "merge.currentHeaderBackground":                       "#8e81dd4d",
     "merge.currentContentBackground":                      "#8e81dd1f",
     "merge.incomingHeaderBackground":                      "#5099974d",
     "merge.incomingContentBackground":                     "#5099971f",
-    "merge.commonContentBackground":                       null,
-    "merge.commonHeaderBackground":                        null,
+    "merge.commonContentBackground":                       "#1b1c1900",
+    "merge.commonHeaderBackground":                        "#1b1c1900",
     "editorOverviewRuler.currentContentForeground":        "#8e81dd4d",
     "editorOverviewRuler.incomingContentForeground":       "#5099974d",
-    "editorOverviewRuler.commonContentForeground":         null,
+    "editorOverviewRuler.commonContentForeground":         "#1b1c1900",
     "mergeEditor.change.background":                       "#1b1c19",
     "mergeEditor.change.word.background":                  "#262623",
     "mergeEditor.conflict.unhandledUnfocused.border":      "#e56176",
@@ -488,7 +487,7 @@
     "peekViewEditor.background":               "#1b1c19",
     "peekViewEditorGutter.background":         "#1b1c19",
     "peekViewEditor.matchHighlightBackground": "#393935",
-    "peekViewEditor.matchHighlightBorder":     null,
+    "peekViewEditor.matchHighlightBorder":     "#1b1c1900",
     "peekViewResult.background":               "#262623",
     "peekViewResult.fileForeground":           "#262623",
     "peekViewResult.lineForeground":           "#a8a99f",
@@ -661,12 +660,12 @@
     */
     "menubar.selectionForeground":           "#c6c7bb",
     "menubar.selectionBackground":           "#393935", 
-    "menubar.selectionBorder":                null,
+    "menubar.selectionBorder":               "#1b1c1900",
     "menu.foreground":                       "#c6c7bb",
     "menu.background":                       "#262623",
     "menu.selectionForeground":              "#c6c7bb",
     "menu.selectionBackground":              "#393935",
-    "menu.selectionBorder":                   null,
+    "menu.selectionBorder":                  "#1b1c1900",
     "menu.separatorBackground":              "#393935",
     "menu.border":                           "#393935",
 
@@ -1289,7 +1288,6 @@
       "scope": "string.other.link.title.markdown",
       "settings": {
         "foreground": "#c6c7bb",
-        "fontStyle": null
       }
     },
     {
@@ -1306,7 +1304,6 @@
         "entity.name.section.markdown"
       ],
       "settings": {
-        "fontStyle": null,
         "foreground": "#e56176"
       }
     },
@@ -1322,7 +1319,6 @@
     {
       "scope": "markup.bold",
       "settings": {
-        "fontStyle": null,
         "foreground": "#ebc075"
       }
     },
