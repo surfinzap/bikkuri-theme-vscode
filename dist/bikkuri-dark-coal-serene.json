@@ -596,24 +596,26 @@
 
 
     /* Integrated terminal
+
+       https://code.visualstudio.com/api/references/theme-color#integrated-terminal-colors
     */ 
-    "terminal.ansiBlack":                    "#262626",
-    "terminal.ansiBrightBlack":              "#6f6f6f",
-    "terminal.ansiRed":                      "#a25a63",
-    "terminal.ansiBrightRed":                "#c07982",
-    "terminal.ansiGreen":                    "#879170",
-    "terminal.ansiBrightGreen":              "#a1ad86",
-    "terminal.ansiYellow":                   "#bfa481",
-    "terminal.ansiBrightYellow":             "#dfc299",
-    "terminal.ansiBlue":                     "#7790a8",
-    "terminal.ansiBrightBlue":               "#8fabc8",
-    "terminal.ansiMagenta":                  "#8d88b6",
-    "terminal.ansiBrightMagenta":            "#a8a4c8",
-    "terminal.ansiCyan":                     "#749392",
-    "terminal.ansiBrightCyan":               "#8bafae",
-    "terminal.ansiWhite":                    "#8d8d8d",
-    "terminal.ansiBrightWhite":              "#c6c6c6",
-    "terminal.foreground":                   "#c6c6c6",
+    "terminal.ansiBlack":                    "#262626",       // 30
+    "terminal.ansiRed":                      "#a25a63", // 31
+    "terminal.ansiGreen":                    "#879170", // 32
+    "terminal.ansiYellow":                   "#bfa481", // 33
+    "terminal.ansiBlue":                     "#7790a8", // 34
+    "terminal.ansiMagenta":                  "#8d88b6", // 35
+    "terminal.ansiCyan":                     "#749392", // 36
+    "terminal.ansiWhite":                    "#c6c6c6",       // 37
+    "terminal.ansiBrightBlack":              "#6f6f6f",       // 90
+    "terminal.ansiBrightRed":                "#c07982",// 91
+    "terminal.ansiBrightGreen":              "#a1ad86",// 92
+    "terminal.ansiBrightYellow":             "#dfc299",// 93
+    "terminal.ansiBrightBlue":               "#8fabc8",// 94
+    "terminal.ansiBrightMagenta":            "#a8a4c8",// 95
+    "terminal.ansiBrightCyan":               "#8bafae",// 96
+    "terminal.ansiBrightWhite":              "#e0e0e0",       // 97
+    "terminal.foreground":                   "#c6c6c6",     // 39
     "terminal.background":                   "#1b1b1b",
     "terminal.border":                       "#393939",
     "terminal.dropBackground":               "#5252524d",

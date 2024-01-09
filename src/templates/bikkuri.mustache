@@ -596,24 +596,26 @@
 
 
     /* Integrated terminal
+
+       https://code.visualstudio.com/api/references/theme-color#integrated-terminal-colors
     */ 
-    "terminal.ansiBlack":                    "{{ tint.90 }}",
-    "terminal.ansiBrightBlack":              "{{ tint.60 }}",
-    "terminal.ansiRed":                      "{{ syntax.01.dim }}",
-    "terminal.ansiBrightRed":                "{{ syntax.01.base }}",
-    "terminal.ansiGreen":                    "{{ syntax.04.dim }}",
-    "terminal.ansiBrightGreen":              "{{ syntax.04.base }}",
-    "terminal.ansiYellow":                   "{{ syntax.03.dim }}",
-    "terminal.ansiBrightYellow":             "{{ syntax.03.base }}",
-    "terminal.ansiBlue":                     "{{ syntax.06.dim }}",
-    "terminal.ansiBrightBlue":               "{{ syntax.06.base }}",
-    "terminal.ansiMagenta":                  "{{ syntax.07.dim }}",
-    "terminal.ansiBrightMagenta":            "{{ syntax.07.base }}",
-    "terminal.ansiCyan":                     "{{ syntax.05.dim }}",
-    "terminal.ansiBrightCyan":               "{{ syntax.05.base }}",
-    "terminal.ansiWhite":                    "{{ text.mid }}",
-    "terminal.ansiBrightWhite":              "{{ text.base }}",
-    "terminal.foreground":                   "{{ text.base }}",
+    "terminal.ansiBlack":                    "{{ tint.90 }}",       // 30
+    "terminal.ansiRed":                      "{{ syntax.01.dim }}", // 31
+    "terminal.ansiGreen":                    "{{ syntax.04.dim }}", // 32
+    "terminal.ansiYellow":                   "{{ syntax.03.dim }}", // 33
+    "terminal.ansiBlue":                     "{{ syntax.06.dim }}", // 34
+    "terminal.ansiMagenta":                  "{{ syntax.07.dim }}", // 35
+    "terminal.ansiCyan":                     "{{ syntax.05.dim }}", // 36
+    "terminal.ansiWhite":                    "{{ tint.30 }}",       // 37
+    "terminal.ansiBrightBlack":              "{{ tint.60 }}",       // 90
+    "terminal.ansiBrightRed":                "{{ syntax.01.base }}",// 91
+    "terminal.ansiBrightGreen":              "{{ syntax.04.base }}",// 92
+    "terminal.ansiBrightYellow":             "{{ syntax.03.base }}",// 93
+    "terminal.ansiBrightBlue":               "{{ syntax.06.base }}",// 94
+    "terminal.ansiBrightMagenta":            "{{ syntax.07.base }}",// 95
+    "terminal.ansiBrightCyan":               "{{ syntax.05.base }}",// 96
+    "terminal.ansiBrightWhite":              "{{ tint.20 }}",       // 97
+    "terminal.foreground":                   "{{ text.base }}",     // 39
     "terminal.background":                   "{{ surface.base }}",
     "terminal.border":                       "{{ border.dim }}",
     "terminal.dropBackground":               "{{ surface.raised-low }}",
