@@ -22,12 +22,13 @@
     /* Button 
        https://code.visualstudio.com/api/references/theme-color#button-control
     */
-    "button.background":                      "#a8a99f",
+    "button.background":                      "#8d8e85",
     "button.foreground":                      "#1b1c19",
-    "button.hoverBackground":                 "#8d8e85",
-    "button.secondaryBackground":             "#393935",
+    "button.hoverBackground":                 "#a8a99f",
+    // secondary button → notification to install recommended extensions
+    "button.secondaryBackground":             "#52534d4d",
     "button.secondaryForeground":             "#c6c7bb",
-    "button.secondaryHoverBackground":        "#393935",
+    "button.secondaryHoverBackground":        "#52534d80",
     "button.border":                          "#1b1c1900",
     "checkbox.background":                    "#1b1c19",
     "checkbox.foreground":                    "#a8a99f",

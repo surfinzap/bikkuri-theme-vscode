@@ -22,12 +22,13 @@
     /* Button 
        https://code.visualstudio.com/api/references/theme-color#button-control
     */
-    "button.background":                      "{{ tint.40 }}",
-    "button.foreground":                      "{{ tint.100 }}",
-    "button.hoverBackground":                 "{{ tint.50 }}",
-    "button.secondaryBackground":             "{{ tint.80 }}",
+    "button.background":                      "{{ temp.button-bg }}",
+    "button.foreground":                      "{{ temp.button-fg }}",
+    "button.hoverBackground":                 "{{ temp.button-bg-hover }}",
+    // secondary button → notification to install recommended extensions
+    "button.secondaryBackground":             "{{ surface.raised.low }}",
     "button.secondaryForeground":             "{{ text.base }}",
-    "button.secondaryHoverBackground":        "{{ tint.80 }}",
+    "button.secondaryHoverBackground":        "{{ surface.raised.med }}",
     "button.border":                          "{{ border.none }}",
     "checkbox.background":                    "{{ surface.base }}",
     "checkbox.foreground":                    "{{ icon.base }}",

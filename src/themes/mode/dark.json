@@ -3,8 +3,12 @@
   "mode-name": "Dark",
   "shadow": "{{ color.black }}",
 
-  "test-repl": "{{ red.60 }}",
-
+  "temp": {
+    "alert": "#ff0000",
+    "button-bg": "{{ tint.50 }}",
+    "button-bg-hover": "{{ tint.40 }}",
+    "button-fg": "{{ tint.100 }}"
+  },
   "surface" : {
     "sunken": "{{ tint.90 }}",
     "base": "{{ tint.100 }}",
