@@ -11,7 +11,7 @@
     "foreground":                             "{{ text.base }}",
     "widget.shadow":                          "{{ shadow }}",
     // text selections for input fields or text areas, does not apply to selections within the editor and the terminal
-    "selection.background":                   "{{ surface.raised-high }}",
+    "selection.background":                   "{{ surface.raised.high }}",
     "descriptionForeground":                  "{{ text.base }}",
     "errorForeground":                        "{{ ui.danger.base }}",
     "icon.foreground":                        "{{ icon.mid }}",
@@ -23,7 +23,7 @@
        https://code.visualstudio.com/api/references/theme-color#button-control
     */
     "button.background":                      "{{ tint.40 }}",
-    "button.foreground":                      "{{ tint.90 }}",
+    "button.foreground":                      "{{ tint.100 }}",
     "button.hoverBackground":                 "{{ tint.50 }}",
     "button.secondaryBackground":             "{{ tint.80 }}",
     "button.secondaryForeground":             "{{ text.base }}",
@@ -51,7 +51,7 @@
     "input.foreground":                       "{{ text.base }}",
     "input.placeholderForeground":            "{{ text.dim }}",
     "inputOption.activeBackground":           "{{ tint.40 }}",
-    "inputOption.hoverBackground":            "{{ surface.raised-med }}",  
+    "inputOption.hoverBackground":            "{{ surface.raised.med }}",  
     "inputOption.activeForeground":           "{{ surface.sunken }}",
     // Border color of activated options in input fields.
     "inputOption.activeBorder":               "{{ border.none }}", //cannot be null
@@ -65,9 +65,9 @@
     /* Scrollbar
     */
     "scrollbar.shadow":                        "{{ shadow }}",
-    "scrollbarSlider.background":              "{{ surface.raised-low }}",
-    "scrollbarSlider.activeBackground":        "{{ surface.raised-med }}",
-    "scrollbarSlider.hoverBackground":         "{{ surface.raised-med }}",
+    "scrollbarSlider.background":              "{{ surface.raised.low }}",
+    "scrollbarSlider.activeBackground":        "{{ surface.raised.med }}",
+    "scrollbarSlider.hoverBackground":         "{{ surface.raised.med }}",
 
 
     /* Badge
@@ -99,22 +99,22 @@
     /* Lists & Trees
        https://code.visualstudio.com/api/references/theme-color#lists-and-trees
     */
-    "list.activeSelectionBackground":   "{{ surface.raised-low }}",
+    "list.activeSelectionBackground":   "{{ surface.raised.low }}",
     "list.activeSelectionForeground":   "{{ text.base }}",
     "list.errorForeground":             "{{ ui.danger.base }}",
-    "list.focusBackground":             "{{ surface.raised-med }}",
+    "list.focusBackground":             "{{ surface.raised.med }}",
     "list.focusForeground":             "{{ text.base }}",
 
     // list.hoverBackground/Foreground has a broad impact: Sidebar items hover, Quick Input items hover, Notifications hover; but not for the menu
-    "list.hoverBackground":             "{{ surface.raised-low }}",
+    "list.hoverBackground":             "{{ surface.raised.low }}",
     "list.hoverForeground":             "{{ text.base }}",
 
-    "list.inactiveSelectionBackground": "{{ surface.raised-low }}",
+    "list.inactiveSelectionBackground": "{{ surface.raised.low }}",
     "list.inactiveSelectionForeground": "{{ text.base }}",
     "list.warningForeground":           "{{ ui.warning.base }}",
     "list.deemphasizedForeground":      "{{ text.dim }}",
-    "list.dropBackground":              "{{ surface.raised-low }}",
-    "list.filterMatchBackground":       "{{ surface.raised-high }}",
+    "list.dropBackground":              "{{ surface.raised.low }}",
+    "list.filterMatchBackground":       "{{ surface.raised.high }}",
     "list.focusHighlightForeground":    "{{ ui.accent1.base }}",
     "list.focusOutline":                "{{ border.none }}",
     "list.highlightForeground":         "{{ ui.accent1.base }}",
@@ -172,7 +172,7 @@
     "sideBar.background":              "{{ surface.base }}",
     "sideBarSectionHeader.background": "{{ surface.sunken }}",
     "sideBar.border":                  "{{ border.dim }}",
-    "sideBar.dropBackground":          "{{ surface.raised-low }}",
+    "sideBar.dropBackground":          "{{ surface.raised.low }}",
     "sideBar.foreground":              "{{ text.mid }}",
     "sideBarSectionHeader.foreground": "{{ text.mid }}",
     "sideBarTitle.foreground":         "{{ text.mid }}",
@@ -207,15 +207,15 @@
     "minimap.errorHighlight":               "{{ ui.danger.dim }}",
     "minimap.findMatchHighlight":           "{{ ui.warning.dim }}",
     // "minimap.foregroundOpacity":            "#000000c0",
-    "minimap.selectionHighlight":           "{{ surface.raised-high }}",
-    "minimap.selectionOccurrenceHighlight": "{{ surface.raised-high }}",
+    "minimap.selectionHighlight":           "{{ surface.raised.high }}",
+    "minimap.selectionOccurrenceHighlight": "{{ surface.raised.high }}",
     "minimap.warningHighlight":             "{{ ui.warning.dim }}",
     "minimapGutter.addedBackground":        "{{ ui.success.dim }}",
     "minimapGutter.deletedBackground":      "{{ ui.danger.dim }}",
     "minimapGutter.modifiedBackground":     "{{ ui.warning.dim }}",
-    "minimapSlider.background":             "{{ surface.raised-med }}",
-    "minimapSlider.activeBackground":       "{{ surface.raised-high }}",
-    "minimapSlider.hoverBackground":        "{{ surface.raised-high }}",
+    "minimapSlider.background":             "{{ surface.raised.med }}",
+    "minimapSlider.activeBackground":       "{{ surface.raised.high }}",
+    "minimapSlider.hoverBackground":        "{{ surface.raised.high }}",
 
     "editorOverviewRuler.border":                        "{{ surface.base }}",
     "editorOverviewRuler.addedForeground":               "{{ ui.success.dim }}{{ opacity.med }}",
@@ -245,8 +245,8 @@
     "statusBar.debuggingBorder":              "{{ border.dim }}",
     "statusBar.noFolderBackground":           "{{ surface.base }}",
     "statusBar.noFolderBorder":               "{{ border.dim }}",
-    "statusBarItem.activeBackground":         "{{ surface.raised-low }}",
-    "statusBarItem.hoverBackground":          "{{ surface.raised-med }}",
+    "statusBarItem.activeBackground":         "{{ surface.raised.low }}",
+    "statusBarItem.hoverBackground":          "{{ surface.raised.med }}",
     "statusBarItem.prominentForeground":      "{{ text.on-color }}",
     "statusBarItem.prominentBackground":      "{{ ui.accent2.dim }}",
     "statusBarItem.prominentHoverBackground": "{{ ui.accent2.base }}",
@@ -269,7 +269,7 @@
     "editorGroup.emptyBackground":        "{{ surface.base }}",
     "editorGroupHeader.noTabsBackground": "{{ surface.base }}",
     "editorGroupHeader.tabsBackground":   "{{ surface.base }}",
-    "editorGroup.dropBackground":         "{{ surface.raised-low }}",
+    "editorGroup.dropBackground":         "{{ surface.raised.low }}",
     "editorGroup.border":                 "{{ border.dim }}",
     "editorGroupHeader.tabsBorder":       "{{ border.dim }}",
     "editorGroup.focusedEmptyBorder":     "{{ border.mid }}",
@@ -278,23 +278,23 @@
     "editorGroup.dropIntoPromptBackground": "{{ surface.sunken }}",
     "editorGroup.dropIntoPromptBorder":     "{{ border.dim }}",
 
-    "tab.activeBackground":                "{{ surface.raised-low }}",
+    "tab.activeBackground":                "{{ surface.raised.low }}",
     "tab.activeForeground":                "{{ text.base }}",
     "tab.activeBorder":                    "{{ border.base }}",
     "tab.activeBorderTop":                 "{{ border.none }}",
     "tab.inactiveForeground":              "{{ text.dim }}",
     "tab.inactiveBackground":              "{{ surface.base }}",
     "tab.hoverBorder":                     "{{ border.mid }}",
-    "tab.hoverBackground":                 "{{ surface.raised-med }}",
+    "tab.hoverBackground":                 "{{ surface.raised.med }}",
     "tab.hoverForeground":                 "{{ text.mid }}",
     "tab.border":                          "{{ border.none }}",
-    "tab.unfocusedActiveBackground":       "{{ surface.raised-low }}",
+    "tab.unfocusedActiveBackground":       "{{ surface.raised.low }}",
     "tab.unfocusedActiveForeground":       "{{ text.dim }}",
     "tab.unfocusedActiveBorder":           "{{ border.mid }}",
     "tab.unfocusedInactiveForeground":     "{{ text.disabled }}",
     "tab.unfocusedInactiveBackground":     "{{ surface.base }}",
     "tab.unfocusedActiveBorderTop":        "{{ border.none }}",
-    "tab.unfocusedHoverBackground":        "{{ surface.raised-med }}",
+    "tab.unfocusedHoverBackground":        "{{ surface.raised.med }}",
     "tab.unfocusedHoverForeground":        "{{ text.mid }}",
     "tab.unfocusedHoverBorder":            "{{ border.mid }}",
     "tab.lastPinnedBorder":                "{{ border.mid }}",
@@ -316,7 +316,7 @@
     "panelTitle.inactiveForeground": "{{ text.dim }}",
     "panelInput.border":             "{{ border.mid }}",
     "panelSection.border":           "{{ border.dim }}",
-    "panelSection.dropBackground":   "{{ surface.raised-low }}",
+    "panelSection.dropBackground":   "{{ surface.raised.low }}",
     "panelSectionHeader.background": "{{ surface.base }}",
     "panelSectionHeader.foreground": "{{ text.base }}",
     "panelSectionHeader.border":     "{{ border.dim }}",
@@ -382,7 +382,7 @@
     "editorHoverWidget.border":            "{{ border.dim }}",
 
     "editorStickyScroll.background":      "{{ surface.base }}",
-    "editorStickyScrollHover.background": "{{ tint.80 }}",
+    "editorStickyScrollHover.background": "{{ surface.raised.low }}",
     
 
     
@@ -509,8 +509,8 @@
     "debugExceptionWidget.border":                 "{{ ui.danger.dim }}",
     "debugToolBar.background":                     "{{ surface.base }}",
     "debugToolBar.border":                         "{{ border.dim }}",
-    "editor.stackFrameHighlightBackground":        "{{ surface.raised-med }}",
-    "editor.focusedStackFrameHighlightBackground": "{{ surface.raised-low }}",
+    "editor.stackFrameHighlightBackground":        "{{ surface.raised.med }}",
+    "editor.focusedStackFrameHighlightBackground": "{{ surface.raised.low }}",
     "editor.inlineValuesForeground":               "{{ text.mid }}",
     "editor.inlineValuesBackground":               "{{ surface.none }}",
     "debugView.exceptionLabelForeground":          "{{ text.on-color }}",
@@ -618,8 +618,8 @@
     "terminal.foreground":                   "{{ text.base }}",     // 39
     "terminal.background":                   "{{ surface.base }}",
     "terminal.border":                       "{{ border.dim }}",
-    "terminal.dropBackground":               "{{ surface.raised-low }}",
-    "terminal.selectionBackground":          "{{ surface.raised-med }}",
+    "terminal.dropBackground":               "{{ surface.raised.low }}",
+    "terminal.selectionBackground":          "{{ surface.raised.med }}",
     "terminal.tab.activeBorder":             "{{ border.base }}",
     "terminalCursor.background":             "{{ surface.sunken }}",
     "terminalCursor.foreground":             "{{ text.mid }}",
@@ -627,7 +627,7 @@
     "terminalCommandDecoration.successBackground": "{{ ui.success.dim }}",
     "terminalCommandDecoration.errorBackground":   "{{ ui.danger.dim }}",
     "terminal.findMatchBackground":                "{{ ui.accent2.base }}{{ opacity.med-low }}",
-    "terminal.findMatchHighlightBackground":       "{{ surface.raised-med }}",
+    "terminal.findMatchHighlightBackground":       "{{ surface.raised.med }}",
 
 
 

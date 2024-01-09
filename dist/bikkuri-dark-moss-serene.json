@@ -23,7 +23,7 @@
        https://code.visualstudio.com/api/references/theme-color#button-control
     */
     "button.background":                      "#a8a99f",
-    "button.foreground":                      "#262623",
+    "button.foreground":                      "#1b1c19",
     "button.hoverBackground":                 "#8d8e85",
     "button.secondaryBackground":             "#393935",
     "button.secondaryForeground":             "#c6c7bb",
@@ -382,7 +382,7 @@
     "editorHoverWidget.border":            "#393935",
 
     "editorStickyScroll.background":      "#1b1c19",
-    "editorStickyScrollHover.background": "#393935",
+    "editorStickyScrollHover.background": "#52534d4d",
     
 
     
