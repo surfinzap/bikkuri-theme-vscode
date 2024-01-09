@@ -22,9 +22,9 @@
     /* Button 
        https://code.visualstudio.com/api/references/theme-color#button-control
     */
-    "button.background":                      "{{ temp.button-bg }}",
-    "button.foreground":                      "{{ temp.button-fg }}",
-    "button.hoverBackground":                 "{{ temp.button-bg-hover }}",
+    "button.background":                      "{{ ui.button.bg  }}",
+    "button.foreground":                      "{{ text.on-ui }}",
+    "button.hoverBackground":                 "{{ ui.button.bg-hover }}",
     // secondary button → notification to install recommended extensions
     "button.secondaryBackground":             "{{ surface.raised.low }}",
     "button.secondaryForeground":             "{{ text.base }}",
@@ -73,8 +73,8 @@
 
     /* Badge
     */
-    "badge.background":                       "{{ tint.40 }}",
-    "badge.foreground":                       "{{ tint.90 }}",
+    "badge.background":                       "{{ ui.button.bg  }}",
+    "badge.foreground":                       "{{ text.on-ui }}",
 
     /* Progress bar
     */
@@ -158,8 +158,8 @@
     "activityBar.foreground":         "{{ text.base }}",
     "activityBar.inactiveForeground": "{{ icon.dim }}", //icon colors
     "activityBar.border":             "{{ border.dim }}",
-    "activityBarBadge.background":    "{{ tint.40 }}",
-    "activityBarBadge.foreground":    "{{ tint.90 }}",
+    "activityBarBadge.background":    "{{ ui.button.bg  }}",
+    "activityBarBadge.foreground":    "{{ text.on-ui }}",
     "activityBar.activeBorder":       "{{ border.base }}",
     "activityBar.activeBackground":   "{{ tint.80 }}",
     "activityBar.activeFocusBorder":  "{{ border.none }}",
@@ -242,21 +242,21 @@
     "statusBar.foreground":                   "{{ text.mid }}",
     "statusBar.border":                       "{{ border.dim }}",
     "statusBar.debuggingBackground":          "{{ ui.accent2.dim }}",
-    "statusBar.debuggingForeground":          "{{ text.on-color }}",
+    "statusBar.debuggingForeground":          "{{ text.on-ui }}",
     "statusBar.debuggingBorder":              "{{ border.dim }}",
     "statusBar.noFolderBackground":           "{{ surface.base }}",
     "statusBar.noFolderBorder":               "{{ border.dim }}",
     "statusBarItem.activeBackground":         "{{ surface.raised.low }}",
     "statusBarItem.hoverBackground":          "{{ surface.raised.med }}",
-    "statusBarItem.prominentForeground":      "{{ text.on-color }}",
+    "statusBarItem.prominentForeground":      "{{ text.on-ui }}",
     "statusBarItem.prominentBackground":      "{{ ui.accent2.dim }}",
     "statusBarItem.prominentHoverBackground": "{{ ui.accent2.base }}",
     "statusBarItem.remoteBackground":         "{{ surface.sunken }}",
     "statusBarItem.remoteForeground":         "{{ text.mid }}",
     "statusBarItem.errorBackground":          "{{ ui.danger.base }}",
-    "statusBarItem.errorForeground":          "{{ text.on-color }}",
+    "statusBarItem.errorForeground":          "{{ text.on-ui }}",
     "statusBarItem.warningBackground":        "{{ ui.warning.base }}",
-    "statusBarItem.warningForeground":        "{{ text.on-color }}",
+    "statusBarItem.warningForeground":        "{{ text.on-ui }}",
     "statusBarItem.compactHoverBackground":   "{{ tint.80 }}",
     "statusBarItem.focusBorder":              "{{ border.dim }}",
     "statusBar.focusBorder":                  "{{ border.dim }}",
@@ -528,7 +528,7 @@
     "editor.focusedStackFrameHighlightBackground": "{{ surface.raised.low }}",
     "editor.inlineValuesForeground":               "{{ text.mid }}",
     "editor.inlineValuesBackground":               "{{ surface.none }}",
-    "debugView.exceptionLabelForeground":          "{{ text.on-color }}",
+    "debugView.exceptionLabelForeground":          "{{ text.on-ui }}",
     "debugView.exceptionLabelBackground":          "{{ ui.danger.dim }}",
     "debugView.stateLabelForeground":              "{{ text.base }}",
     "debugView.stateLabelBackground":              "{{ surface.sunken }}",
@@ -664,11 +664,11 @@
 
     /* Extensions
     */
-    "extensionButton.prominentForeground":      "{{ tint.90 }}",
-    "extensionButton.prominentBackground":      "{{ tint.40 }}",
-    "extensionButton.prominentHoverBackground": "{{ tint.50 }}",
-    "extensionBadge.remoteBackground":          "{{ tint.40 }}",
-    "extensionBadge.remoteForeground":          "{{ tint.90 }}",
+    "extensionButton.prominentForeground":      "{{ text.on-ui }}",
+    "extensionButton.prominentBackground":      "{{ ui.button.bg  }}",
+    "extensionButton.prominentHoverBackground": "{{ ui.button.bg-hover }}",
+    "extensionBadge.remoteBackground":          "{{ ui.button.bg  }}",
+    "extensionBadge.remoteForeground":          "{{ text.on-ui }}",
     "extensionIcon.starForeground":             "{{ icon.dim }}",
     "extensionIcon.verifiedForeground":         "{{ ui.accent1.base }}", 
     "extensionIcon.preReleaseForeground":       "{{ ui.accent2.base }}",

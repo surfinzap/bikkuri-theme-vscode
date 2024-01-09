@@ -73,8 +73,8 @@
 
     /* Badge
     */
-    "badge.background":                       "#a8a99f",
-    "badge.foreground":                       "#262623",
+    "badge.background":                       "#8d8e85",
+    "badge.foreground":                       "#1b1c19",
 
     /* Progress bar
     */
@@ -158,8 +158,8 @@
     "activityBar.foreground":         "#c6c7bb",
     "activityBar.inactiveForeground": "#52534d", //icon colors
     "activityBar.border":             "#393935",
-    "activityBarBadge.background":    "#a8a99f",
-    "activityBarBadge.foreground":    "#262623",
+    "activityBarBadge.background":    "#8d8e85",
+    "activityBarBadge.foreground":    "#1b1c19",
     "activityBar.activeBorder":       "#8d8e85",
     "activityBar.activeBackground":   "#393935",
     "activityBar.activeFocusBorder":  "#1b1c1900",
@@ -664,11 +664,11 @@
 
     /* Extensions
     */
-    "extensionButton.prominentForeground":      "#262623",
-    "extensionButton.prominentBackground":      "#a8a99f",
-    "extensionButton.prominentHoverBackground": "#8d8e85",
-    "extensionBadge.remoteBackground":          "#a8a99f",
-    "extensionBadge.remoteForeground":          "#262623",
+    "extensionButton.prominentForeground":      "#1b1c19",
+    "extensionButton.prominentBackground":      "#8d8e85",
+    "extensionButton.prominentHoverBackground": "#a8a99f",
+    "extensionBadge.remoteBackground":          "#8d8e85",
+    "extensionBadge.remoteForeground":          "#1b1c19",
     "extensionIcon.starForeground":             "#52534d",
     "extensionIcon.verifiedForeground":         "#8fabc8", 
     "extensionIcon.preReleaseForeground":       "#a8a4c8",
