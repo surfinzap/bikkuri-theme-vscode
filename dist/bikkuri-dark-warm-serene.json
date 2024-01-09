@@ -135,7 +135,7 @@
     "pickerGroup.foreground":             "#958a8c",
     "pickerGroup.border":                 "#3e3839",
     "quickInputTitle.background":         "#1e1b1b",
-    "quickInputList.focusBackground":     "#3e3839",
+    "quickInputList.focusBackground":     "#5950514d",
     "quickInputList.focusForeground":     "#c9c5c6",
     "quickInputList.focusIconForeground": "#aea6a8",
     
@@ -161,9 +161,9 @@
     "activityBarBadge.background":    "#958a8c",
     "activityBarBadge.foreground":    "#1e1b1b",
     "activityBar.activeBorder":       "#958a8c",
-    "activityBar.activeBackground":   "#3e3839",
+    "activityBar.activeBackground":   "#5950514d",
     "activityBar.activeFocusBorder":  "#1e1b1b00",
-    "profileBadge.background" :       "#3e3839",
+    "profileBadge.background" :       "#5950514d",
     "profileBadge.foreground":        "#aea6a8",
 
 
@@ -257,7 +257,7 @@
     "statusBarItem.errorForeground":          "#1e1b1b",
     "statusBarItem.warningBackground":        "#dfc299",
     "statusBarItem.warningForeground":        "#1e1b1b",
-    "statusBarItem.compactHoverBackground":   "#3e3839",
+    "statusBarItem.compactHoverBackground":   "#595051b3",
     "statusBarItem.focusBorder":              "#3e3839",
     "statusBar.focusBorder":                  "#3e3839",
 
@@ -351,7 +351,7 @@
     "editorLink.activeForeground":    "#c9c5c6",
     "editor.lineHighlightBackground": "#2a2526",
     "editor.lineHighlightBorder":     "#1e1b1b00",
-    "editor.selectionBackground":     "#3e3839",
+    "editor.selectionBackground":     "#5950514d",
     // selectionForeground does not seem to work
     // "editor.selectionForeground":             "",
     "editor.inactiveSelectionBackground":     "#2a2526",
@@ -368,7 +368,7 @@
     "editor.findRangeHighlightBackground":    "#2a2526", 
     "editor.findRangeHighlightBorder":        "#1e1b1b00",
     //background selection on hover
-    "editor.hoverHighlightBackground":        "#3e3839",
+    "editor.hoverHighlightBackground":        "#5950514d",
     // highlighting variables 
     "editor.wordHighlightStrongBackground":   "#1e1b1b00",
     "editor.wordHighlightStrongBorder":       "#8fabc8",
@@ -491,7 +491,7 @@
     "editorSuggestWidget.background":          "#1e1b1b",
     "editorSuggestWidget.foreground":          "#c9c5c6",
     "editorSuggestWidget.highlightForeground": "#7790a8",
-    "editorSuggestWidget.selectedBackground":  "#3e3839",
+    "editorSuggestWidget.selectedBackground":  "#5950514d",
     "editorSuggestWidget.border":              "#3e3839",
 
     /* Peek view
@@ -501,13 +501,13 @@
     "peekView.border":                         "#3e3839",
     "peekViewEditor.background":               "#1e1b1b",
     "peekViewEditorGutter.background":         "#1e1b1b",
-    "peekViewEditor.matchHighlightBackground": "#3e3839",
+    "peekViewEditor.matchHighlightBackground": "#5950514d",
     "peekViewEditor.matchHighlightBorder":     "#1e1b1b00",
     "peekViewResult.background":               "#2a2526",
     "peekViewResult.fileForeground":           "#2a2526",
     "peekViewResult.lineForeground":           "#aea6a8",
-    "peekViewResult.matchHighlightBackground": "#3e3839",
-    "peekViewResult.selectionBackground":      "#3e3839",
+    "peekViewResult.matchHighlightBackground": "#5950514d",
+    "peekViewResult.selectionBackground":      "#5950514d",
     "peekViewResult.selectionForeground":      "#c9c5c6",
     "peekViewTitle.background":                "#1e1b1b",
     "peekViewTitleDescription.foreground":     "#958a8c",
@@ -676,12 +676,12 @@
     /* Menu
     */
     "menubar.selectionForeground":           "#c9c5c6",
-    "menubar.selectionBackground":           "#3e3839", 
+    "menubar.selectionBackground":           "#5950514d", 
     "menubar.selectionBorder":               "#1e1b1b00",
     "menu.foreground":                       "#c9c5c6",
     "menu.background":                       "#2a2526",
     "menu.selectionForeground":              "#c9c5c6",
-    "menu.selectionBackground":              "#3e3839",
+    "menu.selectionBackground":              "#5950514d",
     "menu.selectionBorder":                  "#1e1b1b00",
     "menu.separatorBackground":              "#3e3839",
     "menu.border":                           "#3e3839",
