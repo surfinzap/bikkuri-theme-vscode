@@ -51,9 +51,9 @@
     "input.border":                           "#3e3839",
     "input.foreground":                       "#c9c5c6",
     "input.placeholderForeground":            "#786c6e",
-    "inputOption.activeBackground":           "#aea6a8",
+    "inputOption.activeBackground":           "#958a8c", // bg for active icons in inputs
     "inputOption.hoverBackground":            "#59505180",  
-    "inputOption.activeForeground":           "#2a2526",
+    "inputOption.activeForeground":           "#1e1b1b",
     // Border color of activated options in input fields.
     "inputOption.activeBorder":               "#1e1b1b00", //cannot be null
     "inputValidation.errorBackground":        "#2a2526",
@@ -351,7 +351,7 @@
     "editorLink.activeForeground":    "#c9c5c6",
     "editor.lineHighlightBackground": "#2a2526",
     "editor.lineHighlightBorder":     "#1e1b1b00",
-    "editor.selectionBackground":     "#5950514d",
+    "editor.selectionBackground":     "#59505180",
     // selectionForeground does not seem to work
     // "editor.selectionForeground":             "",
     "editor.inactiveSelectionBackground":     "#2a2526",
@@ -392,7 +392,7 @@
     "editorIndentGuide.background1":       "#3e383980",
     "editorIndentGuide.activeBackground1": "#595051",
     "editorRuler.foreground":              "#595051",
-    "editorCodeLens.foreground":           "#958a8c80",
+    "editorCodeLens.foreground":           "#5950514d",
     "editorHoverWidget.background":        "#1e1b1b",
     "editorHoverWidget.border":            "#3e3839",
 
@@ -496,7 +496,7 @@
 
     /* Peek view
 
-       e.g. error within the Editor
+       e.g. right-click → Peek → Peek definition
     */
     "peekView.border":                         "#3e3839",
     "peekViewEditor.background":               "#1e1b1b",
@@ -504,8 +504,8 @@
     "peekViewEditor.matchHighlightBackground": "#5950514d",
     "peekViewEditor.matchHighlightBorder":     "#1e1b1b00",
     "peekViewResult.background":               "#2a2526",
-    "peekViewResult.fileForeground":           "#2a2526",
-    "peekViewResult.lineForeground":           "#aea6a8",
+    "peekViewResult.fileForeground":           "#958a8c",
+    "peekViewResult.lineForeground":           "#786c6e",
     "peekViewResult.matchHighlightBackground": "#5950514d",
     "peekViewResult.selectionBackground":      "#5950514d",
     "peekViewResult.selectionForeground":      "#c9c5c6",

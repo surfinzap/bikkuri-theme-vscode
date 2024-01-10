@@ -4,10 +4,7 @@
   "shadow": "{{ color.black }}",
 
   "temp": {
-    "alert": "#ff0000",
-    "button-bg": "{{ tint.50 }}",
-    "button-bg-hover": "{{ tint.40 }}",
-    "button-fg": "{{ tint.100 }}"
+    "alert": "#ff0000"
   },
   "surface" : {
     "sunken": "{{ tint.90 }}",

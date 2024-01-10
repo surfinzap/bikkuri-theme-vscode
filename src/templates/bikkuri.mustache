@@ -51,9 +51,9 @@
     "input.border":                           "{{ border.dim }}",
     "input.foreground":                       "{{ text.base }}",
     "input.placeholderForeground":            "{{ text.dim }}",
-    "inputOption.activeBackground":           "{{ tint.40 }}",
+    "inputOption.activeBackground":           "{{ ui.button.bg }}", // bg for active icons in inputs
     "inputOption.hoverBackground":            "{{ surface.raised.med }}",  
-    "inputOption.activeForeground":           "{{ surface.sunken }}",
+    "inputOption.activeForeground":           "{{ text.on-ui }}",
     // Border color of activated options in input fields.
     "inputOption.activeBorder":               "{{ border.none }}", //cannot be null
     "inputValidation.errorBackground":        "{{ surface.sunken }}",
@@ -351,7 +351,7 @@
     "editorLink.activeForeground":    "{{ text.base }}",
     "editor.lineHighlightBackground": "{{ surface.sunken }}",
     "editor.lineHighlightBorder":     "{{ border.none }}",
-    "editor.selectionBackground":     "{{ surface.raised.low }}",
+    "editor.selectionBackground":     "{{ surface.raised.med }}",
     // selectionForeground does not seem to work
     // "editor.selectionForeground":             "{{ undefined }}",
     "editor.inactiveSelectionBackground":     "{{ surface.sunken }}",
@@ -392,7 +392,7 @@
     "editorIndentGuide.background1":       "{{ border.dim }}{{ opacity.med }}",
     "editorIndentGuide.activeBackground1": "{{ border.mid }}",
     "editorRuler.foreground":              "{{ text.disabled }}",
-    "editorCodeLens.foreground":           "{{ tint.50 }}{{ opacity.med }}",
+    "editorCodeLens.foreground":           "{{ surface.raised.low }}",
     "editorHoverWidget.background":        "{{ surface.base }}",
     "editorHoverWidget.border":            "{{ border.dim }}",
 
@@ -496,7 +496,7 @@
 
     /* Peek view
 
-       e.g. error within the Editor
+       e.g. right-click → Peek → Peek definition
     */
     "peekView.border":                         "{{ border.dim }}",
     "peekViewEditor.background":               "{{ surface.base }}",
@@ -504,8 +504,8 @@
     "peekViewEditor.matchHighlightBackground": "{{ surface.raised.low }}",
     "peekViewEditor.matchHighlightBorder":     "{{ border.none }}",
     "peekViewResult.background":               "{{ surface.sunken }}",
-    "peekViewResult.fileForeground":           "{{ tint.90 }}",
-    "peekViewResult.lineForeground":           "{{ tint.40 }}",
+    "peekViewResult.fileForeground":           "{{ text.mid }}",
+    "peekViewResult.lineForeground":           "{{ text.dim }}",
     "peekViewResult.matchHighlightBackground": "{{ surface.raised.low }}",
     "peekViewResult.selectionBackground":      "{{ surface.raised.low }}",
     "peekViewResult.selectionForeground":      "{{ text.base }}",
