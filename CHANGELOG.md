@@ -26,6 +26,7 @@ Security
 - Brighter comments 
 - Brighter diff highlights
 - Brighter punctuation
+- editor.FindMatchBorder to red color
 - Refactored color naming, the repository folder structure and how the themes are generated. 
 
 ### Security
