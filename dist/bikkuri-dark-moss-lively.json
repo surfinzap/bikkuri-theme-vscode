@@ -427,9 +427,6 @@
     "editorBracketPairGuide.background1":     "#c6c7bb00",
     "editorBracketPairGuide.background2":     "#c6c7bb00",
     "editorBracketPairGuide.background3":     "#c6c7bb00",
-    "editorBracketPairGuide.background4":     "#c6c7bb00",
-    "editorBracketPairGuide.background5":     "#c6c7bb00",
-    "editorBracketPairGuide.background6":     "#c6c7bb00",
 
 
 
@@ -437,17 +434,17 @@
        https://code.visualstudio.com/api/references/theme-color#diff-editor-colors
     */
     "diffEditor.diagonalFill":                 "#262623",
-    "diffEditor.insertedTextBackground":       "#8394511f",
-    "diffEditor.removedTextBackground":        "#c53d561f",
-    "diffEditor.insertedTextBorder":           "#1b1c1900",             //it impacts line as well
+    "diffEditor.insertedTextBorder":           "#1b1c1900", //it impacts line as well
     "diffEditor.removedTextBorder":            "#1b1c1900",
-    "diffEditor.border":                       "#1b1c1900",             //border between diffs
-    "diffEditor.insertedLineBackground":       "#8394511f",
-    "diffEditor.removedLineBackground":        "#c53d561f",
-    "diffEditorGutter.insertedLineBackground": "#8394511f",
-    "diffEditorGutter.removedLineBackground":  "#c53d561f",
-    "diffEditorOverview.insertedForeground":   "#8394514d",
-    "diffEditorOverview.removedForeground":    "#c53d564d",
+    "diffEditor.border":                       "#1b1c1900", //border between diffs
+    "diffEditor.insertedTextBackground":       "#353c20e6",
+    "diffEditor.removedTextBackground":        "#65222de6",
+    "diffEditor.insertedLineBackground":       "#353c204d",
+    "diffEditor.removedLineBackground":        "#65222d4d",
+    "diffEditorGutter.insertedLineBackground": "#353c204d",
+    "diffEditorGutter.removedLineBackground":  "#65222d4d",
+    "diffEditorOverview.insertedForeground":   "#353c20e6",
+    "diffEditorOverview.removedForeground":    "#65222de6",
     
     
     /* Merge conflicts, Merge editor
