@@ -310,12 +310,13 @@
        Impacts
        - tab close button
        - right-top actions in git local working changes
+       - actions in editor search (ctrl+F)
        https://code.visualstudio.com/api/references/theme-color#action-colors
     */
     
-    "toolbar.hoverBackground":  "#262626",
+    "toolbar.hoverBackground":  "#52525280",
     "toolbar.hoverOutline":     "#1b1b1b00",
-    "toolbar.activeBackground": "#262626",
+    "toolbar.activeBackground": "#52525280",
 
 
 
