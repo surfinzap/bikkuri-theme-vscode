@@ -58,11 +58,13 @@
     },
     "success": {
       "base": "{{ green.40 }}",
-      "mid": "{{ green.50 }}"
+      "mid": "{{ green.50 }}",
+      "dim": "{{ green.80 }}"
     },
     "danger": {
       "base": "{{ red.50 }}",
-      "mid": "{{ red.60 }}"
+      "mid": "{{ red.60 }}",
+      "dim": "{{ red.80 }}"
     },
     "warning": {
       "base": "{{ yellow.30 }}",
