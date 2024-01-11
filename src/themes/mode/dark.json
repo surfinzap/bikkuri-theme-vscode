@@ -38,39 +38,39 @@
   "ui": {
     "primary": {
       "base": "{{ tint.40 }}",
-      "dim": "{{ tint.50 }}"
+      "mid": "{{ tint.50 }}"
     },
     "button": {
-      "bg": "{{ ui.primary.dim }}",
+      "bg": "{{ ui.primary.mid }}",
       "bg-hover": "{{ ui.primary.base }}"
     },
     "accent1": {
       "base": "{{ blue.40 }}",
-      "dim": "{{ blue.50 }}"
+      "mid": "{{ blue.50 }}"
     },
     "accent2": {
       "base": "{{ violet.40 }}",
-      "dim": "{{ violet.50 }}"
+      "mid": "{{ violet.50 }}"
     },
     "accent3": {
       "base": "{{ teal.40 }}",
-      "dim": "{{ teal.50 }}"
+      "mid": "{{ teal.50 }}"
     },
     "success": {
       "base": "{{ green.40 }}",
-      "dim": "{{ green.50 }}"
+      "mid": "{{ green.50 }}"
     },
     "danger": {
       "base": "{{ red.50 }}",
-      "dim": "{{ red.60 }}"
+      "mid": "{{ red.60 }}"
     },
     "warning": {
       "base": "{{ yellow.30 }}",
-      "dim": "{{ yellow.40 }}"
+      "mid": "{{ yellow.40 }}"
     },
     "info": {
       "base": "{{ blue.40 }}",
-      "dim": "{{ blue.50 }}"
+      "mid": "{{ blue.50 }}"
     }
   },
 
