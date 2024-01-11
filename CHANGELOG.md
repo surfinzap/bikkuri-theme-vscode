@@ -20,11 +20,12 @@ Security
 - New 2023 styles for [tabs](https://code.visualstudio.com/api/references/theme-color#editor-groups-tabs)
 
 ### Changed
-- More subtle `list.hoverBackground`; it impacts hovers for Sidebar items, Quick Input items and Notifications
-- More subtle diagonal fill in the Diff Editor
-- More subtle background color under removed/added lines in the Diff editor
-- More visible comments 
-- More visible diff highlights
+- Calmer `list.hoverBackground`; it impacts hovers for Sidebar items, Quick Input items and Notifications
+- Calmer diagonal fill in the Diff Editor
+- Calmer background color under removed/added lines in the Diff editor
+- Brighter comments 
+- Brighter diff highlights
+- Brighter punctuation
 - Refactored color naming, the repository folder structure and how the themes are generated. 
 
 ### Security
