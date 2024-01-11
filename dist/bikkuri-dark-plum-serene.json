@@ -1551,16 +1551,7 @@
         "foreground": "#918a9f"
       }
     },
-    {
-      "scope": [
-        "support.type.property-name.css",
-        "meta.property-name.scss",
-        "source.css.scss"
-      ],
-      "settings": {
-        "foreground": "#918a9f"
-      }
-    },
+
 
     {
       "scope": [
