@@ -18,6 +18,7 @@ Security
 - Styles for [SCM (Source Control Management)](https://code.visualstudio.com/api/references/theme-color#scm)
 - Styles for [Action colors](https://code.visualstudio.com/api/references/theme-color#action-colors)
 - New 2023 styles for [tabs](https://code.visualstudio.com/api/references/theme-color#editor-groups-tabs)
+- A script to find missing VS Code variables
 
 ### Changed
 - Calmer `list.hoverBackground`; it impacts hovers for Sidebar items, Quick Input items and Notifications
