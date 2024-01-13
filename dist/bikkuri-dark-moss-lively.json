@@ -3,6 +3,14 @@
   "name": "Bikkuri (Dark Moss & Lively)",
   "type": "dark",
   "colors": {
+
+    /* Contrast colors
+       For high-contrast theme definition
+       https://code.visualstudio.com/api/references/theme-color#contrast-colors
+    */
+    "contrastActiveBorder": "#1b1c1900",
+    "contrastBorder": "#1b1c1900",
+
     /* Base colors
      https://code.visualstudio.com/api/references/theme-color#status-bar-colors
     */

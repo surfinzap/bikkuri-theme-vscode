@@ -3,6 +3,14 @@
   "name": "Bikkuri (Dark Warm & Serene)",
   "type": "dark",
   "colors": {
+
+    /* Contrast colors
+       For high-contrast theme definition
+       https://code.visualstudio.com/api/references/theme-color#contrast-colors
+    */
+    "contrastActiveBorder": "#1e1b1b00",
+    "contrastBorder": "#1e1b1b00",
+
     /* Base colors
      https://code.visualstudio.com/api/references/theme-color#status-bar-colors
     */

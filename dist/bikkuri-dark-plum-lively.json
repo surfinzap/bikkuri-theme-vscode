@@ -3,6 +3,14 @@
   "name": "Bikkuri (Dark Plum & Lively)",
   "type": "dark",
   "colors": {
+
+    /* Contrast colors
+       For high-contrast theme definition
+       https://code.visualstudio.com/api/references/theme-color#contrast-colors
+    */
+    "contrastActiveBorder": "#1d1a2300",
+    "contrastBorder": "#1d1a2300",
+
     /* Base colors
      https://code.visualstudio.com/api/references/theme-color#status-bar-colors
     */
