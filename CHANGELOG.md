@@ -23,6 +23,7 @@ Security
 - New 2023 styles for [tabs](https://code.visualstudio.com/api/references/theme-color#editor-groups-tabs)
 - A script to find missing VS Code variables
 - Definitions for [Contrast colors](https://code.visualstudio.com/api/references/theme-color#contrast-colors)
+- Updated styles for [List](https://code.visualstudio.com/api/references/theme-color#lists-and-trees)
 
 ### Changed
 - Calmer `list.hoverBackground`; it impacts hovers for Sidebar items, Quick Input items and Notifications
