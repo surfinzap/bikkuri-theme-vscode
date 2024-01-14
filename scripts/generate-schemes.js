@@ -2,7 +2,7 @@ const fs = require('fs');
 
 function main() {
   modes = ['dark'];
-  tints = ['coal', 'moss', 'plum', 'warm'];
+  tints = ['coal', 'moss', 'iron', 'iron2', 'plum', 'warm'];
   moods = ['serene', 'lively'];
 
   modes.forEach((mode) => {

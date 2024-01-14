@@ -31,6 +31,26 @@
         "path": "./dist/bikkuri-dark-coal-serene.json"
       },
       {
+        "label": "Bikkuri (Dark Iron & Lively)",
+        "uiTheme": "vs-dark",
+        "path": "./dist/bikkuri-dark-iron-lively.json"
+      },
+      {
+        "label": "Bikkuri (Dark Iron & Serene)",
+        "uiTheme": "vs-dark",
+        "path": "./dist/bikkuri-dark-iron-serene.json"
+      },
+      {
+        "label": "Bikkuri (Dark Iron2 & Lively)",
+        "uiTheme": "vs-dark",
+        "path": "./dist/bikkuri-dark-iron2-lively.json"
+      },
+      {
+        "label": "Bikkuri (Dark Iron2 & Serene)",
+        "uiTheme": "vs-dark",
+        "path": "./dist/bikkuri-dark-iron2-serene.json"
+      },
+      {
         "label": "Bikkuri (Dark Moss & Lively)",
         "uiTheme": "vs-dark",
         "path": "./dist/bikkuri-dark-moss-lively.json"
@@ -67,6 +87,7 @@
     "theme",
     "warm",
     "moss",
+    "iron",
     "plum",
     "coal",
     "lively",
