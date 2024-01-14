@@ -125,7 +125,7 @@
     "list.dropBackground":              "#564f644d",
     "list.filterMatchBackground":       "#564f64b3",
     "list.focusHighlightForeground":    "#8fabc8",
-    "list.focusOutline":                "#1d1a2300",
+    "list.focusOutline":                "#564f64", // leave focusOutline for right-click
     "list.highlightForeground":         "#8fabc8",
     "list.invalidItemForeground":       "#a25a63",
     //"list.activeSelectionIconForeground": null,
