@@ -12,12 +12,12 @@ Fixed
 Security
  
 
-## [0.4.3] — 2024-
+## [1.0.0] — 2024-
 
 ### Added 
 - ✨ New themes in a steel tint:
-  - Dark Iron & Lively
-  - Dark Iron & Serene
+  - Dark Navy & Lively
+  - Dark Navy & Serene
 - Styles for [SCM (Source Control Management)](https://code.visualstudio.com/api/references/theme-color#scm)
 - Styles for [Action colors](https://code.visualstudio.com/api/references/theme-color#action-colors)
 - New 2023 styles for [tabs](https://code.visualstudio.com/api/references/theme-color#editor-groups-tabs)
@@ -37,6 +37,8 @@ Security
 
 ### Security
 - Updated dependencies to their latest versions
+
+
 
 
 
