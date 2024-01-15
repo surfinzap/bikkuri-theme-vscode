@@ -2,7 +2,7 @@
 <h1 align="center">
   <br>
   <a href="https://marketplace.visualstudio.com/items?itemName=brano.b-theme" target="_blank">
-    <img src="https://raw.githubusercontent.com/surfinzap/b-theme-vscode/master/assets/b-theme-icon.png">
+    <img src="https://raw.githubusercontent.com/surfinzap/bikkuri-theme-vscode/master/assets/b-theme-icon.png">
   </a>
   <br>
   Bikkuri Theme
