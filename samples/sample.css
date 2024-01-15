@@ -40,7 +40,7 @@ a {
 }
 
 button {
-  background-color: #0077cc; /* button background color */
+  background-color: var(--gray-100); /* button background color */
   color: #fff; /* button text color */
   border: none; /* border */
   border-radius: 4px; /* border radius */

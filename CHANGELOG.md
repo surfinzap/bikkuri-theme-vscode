@@ -34,6 +34,7 @@ Security
 - Brighter punctuation
 - editor.FindMatchBorder to red color
 - Refactored color naming, the repository folder structure and how the themes are generated. 
+- CSS/SCSS variables colors
 
 ### Security
 - Updated dependencies to their latest versions

@@ -1573,10 +1573,27 @@
         "source.css support.function.transform",
         "source.css support.function.timing-function",
         "source.css support.function.misc",
-        "punctuation.definition.keyword.scss"
+        "punctuation.definition.keyword.scss",
+        "keyword.control.at-rule.media.scss",
+        "keyword.control.at-rule.mixin.scss",
+        "keyword.control.else.scss",
+        "keyword.control.if.scss",
+        "keyword.control.content.scss",
+        "keyword.operator.logical.scss",
       ],
       "settings": {
-        "foreground": "#c07982"
+        "foreground": "#a25a63"
+      }
+    },
+
+    {
+      "scope": [
+        "variable.css",
+        "variable.scss",
+        "variable.argument.css"
+      ],
+      "settings": {
+        "foreground": "#bfa481"
       }
     },
 
