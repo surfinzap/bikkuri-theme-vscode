@@ -192,11 +192,16 @@
        Changed files in sidebar or tabs;
     */
 
-    "gitDecoration.conflictingResourceForeground": "#8e81dd",
-    "gitDecoration.deletedResourceForeground":     "#c53d56",
-    "gitDecoration.ignoredResourceForeground":     "#525252",
-    "gitDecoration.modifiedResourceForeground":    "#caa263",
-    "gitDecoration.untrackedResourceForeground":   "#839451",
+    "gitDecoration.conflictingResourceForeground":   "#8e81dd",
+    "gitDecoration.deletedResourceForeground":       "#c53d56",
+    "gitDecoration.ignoredResourceForeground":       "#525252",
+    "gitDecoration.modifiedResourceForeground":      "#caa263",
+    "gitDecoration.untrackedResourceForeground":     "#839451",
+    "gitDecoration.addedResourceForeground":         "#839451",
+    "gitDecoration.renamedResourceForeground":       "#caa263",
+    "gitDecoration.stageModifiedResourceForeground": "#caa263",
+    "gitDecoration.stageDeletedResourceForeground":  "#c53d56",
+    "gitDecoration.submoduleResourceForeground":     "#6f6f6f",
 
     /* SCM (Source Control Management)
        Stats in Incoming/Outgoing part in Source Control

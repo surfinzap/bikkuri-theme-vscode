@@ -4,7 +4,10 @@
   "shadow": "{{ color.black }}",
 
   "temp": {
-    "alert": "#ff0000"
+    "alert": "#ff0000",
+    "green": "#00ff00",
+    "teal": "#0055ff",
+    "pink": "#ff00ff"
   },
   "surface" : {
     "sunken": "{{ tint.90 }}",
