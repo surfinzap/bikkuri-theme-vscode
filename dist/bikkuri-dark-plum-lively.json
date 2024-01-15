@@ -377,8 +377,8 @@
     "editor.findMatchBackground":             "#1d1a2300",
     "editor.findMatchBorder":                 "#e56176",
     // other matches
-    "editor.findMatchHighlightBackground":    "#1d1a2300",
-    "editor.findMatchHighlightBorder":        "#a9a0e6",
+    "editor.findMatchHighlightBackground":    "#564f644d",
+    "editor.findMatchHighlightBorder":        "#918a9f",
     // selection range when "Find in Selection" is applied
     "editor.findRangeHighlightBackground":    "#282430", 
     "editor.findRangeHighlightBorder":        "#1d1a2300",
