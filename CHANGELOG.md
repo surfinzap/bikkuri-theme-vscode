@@ -26,9 +26,10 @@ Security
 - Updated styles for [List](https://code.visualstudio.com/api/references/theme-color#lists-and-trees)
 
 ### Changed
-- Calmer `list.hoverBackground`; it impacts hovers for Sidebar items, Quick Input items and Notifications
+- Calmer `list.hoverBackground`; it impacts hovers for Sidebar items, Quick Input items, and Notifications
 - Calmer diagonal fill in the Diff Editor
 - Calmer background color under removed/added lines in the Diff editor
+- A bit calmer reds, teals, and yellows so they are not so spiky during the night light 
 - Brighter comments 
 - Brighter diff highlights
 - Brighter punctuation
