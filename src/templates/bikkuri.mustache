@@ -708,11 +708,6 @@
   },
   "tokenColors": [
     {
-      "settings": {
-        "foreground": "{{ text.base }}"
-      }
-    },
-    {
       "scope": "emphasis",
       "settings": {
         "fontStyle": "italic"
@@ -825,7 +820,17 @@
       }
     },
     {
-      "scope": "storage",
+      "scope": [
+        "storage",
+        "storage.type.function",
+        "keyword.control",
+
+      ],
+      "settings": {
+        "foreground": "{{ syntax.07.dim }}"
+      }
+    },
+    {
       "settings": {
         "foreground": "{{ syntax.01.base }}"
       }
@@ -839,7 +844,7 @@
     {
       "scope": "string",
       "settings": {
-        "foreground": "{{ syntax.07.base }}"
+        "foreground": "{{ syntax.08.base }}"
       }
     },
     {
@@ -902,12 +907,7 @@
         "foreground": "{{ syntax.01.base }}"
       }
     },
-    {
-      "scope": "keyword.control",
-      "settings": {
-        "foreground": "{{ syntax.01.base }}"
-      }
-    },
+
     {
       "scope": "keyword.control.module",
       "settings": {
@@ -929,7 +929,7 @@
     {
       "scope": "keyword.operator.new",
       "settings": {
-        "foreground": "{{ syntax.02.base }}"
+        "foreground": "{{ text.mid }}"
       }
     },
     // keyword.other.unit impacts CSS/SCSS, anything else?
@@ -993,13 +993,12 @@
         "entity.name.type"
       ],
       "settings": {
-        "foreground": "{{ syntax.03.base }}"
+        "foreground": "{{ text.base }}"
       }
     },
     {
       "name": "Function declarations",
       "scope": [
-        "storage.type.function",
         "entity.function",
         "entity.name.function.static"
       ],
@@ -1046,7 +1045,7 @@
         "string.constant.other.placeholder"
       ],
       "settings": {
-        "foreground": "{{ syntax.05.base }}"
+        "foreground": "{{ syntax.06.base }}"
       }
     },
     {
@@ -1161,7 +1160,7 @@
     {
       "scope": "keyword.operator.logical",
       "settings": {
-        "foreground": "{{ syntax.01.base }}"
+        "foreground": "{{ text.dim }}"
       }
     },
     {
@@ -1642,7 +1641,15 @@
         "source.ts"
       ],
       "settings": {
-        "foreground": "{{ syntax.02.base }}"
+        "foreground": "{{ text.mid }}"
+      }
+    },
+    {
+      "scope": [
+        "variable.other.property.js"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.05.base }}"
       }
     },
     // golang --------------------------------------------

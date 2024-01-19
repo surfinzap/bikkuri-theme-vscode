@@ -20,7 +20,7 @@
     "none": "{{ tint.100 }}{{ opacity.none }}"
   },
   "text": {
-    "base": "{{ tint.30 }}",
+    "base": "{{ tint.20 }}",
     "mid": "{{ tint.50 }}",
     "dim": "{{ tint.60 }}",
     "disabled": "{{ tint.70 }}",
@@ -107,6 +107,10 @@
     "07": {
       "base": "{{ violet.40 }}",
       "dim": "{{ violet.50 }}"
+    },
+    "08": {
+      "base": "{{ pink.40 }}",
+      "dim": "{{ pink.50 }}"
     }
   }
 }

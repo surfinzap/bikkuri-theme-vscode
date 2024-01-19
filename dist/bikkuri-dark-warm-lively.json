@@ -16,11 +16,11 @@
     */
     // focusBorder has a very wide scope
     "focusBorder":                            "#595051",
-    "foreground":                             "#c9c5c6",
+    "foreground":                             "#e2e0e0",
     "widget.shadow":                          "#111111",
     // text selections for input fields or text areas, does not apply to selections within the editor and the terminal
     "selection.background":                   "#595051b3",
-    "descriptionForeground":                  "#c9c5c6",
+    "descriptionForeground":                  "#e2e0e0",
     "errorForeground":                        "#e06578",
     "icon.foreground":                        "#aea6a8", // broad scope of icons, icon buttons across the board
     "sash.hoverBorder":                       "#958a8c",
@@ -35,7 +35,7 @@
     "button.hoverBackground":                 "#aea6a8",
     // secondary button → notification to install recommended extensions
     "button.secondaryBackground":             "#5950514d",
-    "button.secondaryForeground":             "#c9c5c6",
+    "button.secondaryForeground":             "#e2e0e0",
     "button.secondaryHoverBackground":        "#59505180",
     "button.border":                          "#1e1b1b00",
     "checkbox.background":                    "#1e1b1b",
@@ -48,7 +48,7 @@
     */
     "dropdown.background":                    "#2a2526", 
     "dropdown.border":                        "#3e3839",
-    "dropdown.foreground":                    "#c9c5c6",
+    "dropdown.foreground":                    "#e2e0e0",
     "dropdown.listBackground":                "#2a2526",
 
 
@@ -57,7 +57,7 @@
     */  
     "input.background":                       "#2a2526",
     "input.border":                           "#3e3839",
-    "input.foreground":                       "#c9c5c6",
+    "input.foreground":                       "#e2e0e0",
     "input.placeholderForeground":            "#786c6e",
     "inputOption.activeBackground":           "#958a8c", // bg for active icons in inputs
     "inputOption.hoverBackground":            "#59505180",  
@@ -100,8 +100,8 @@
     */    
     "breadcrumb.foreground":                    "#786c6e",
     "breadcrumb.background":                    "#1e1b1b",
-    "breadcrumb.focusForeground":               "#c9c5c6",
-    "breadcrumb.activeSelectionForeground":     "#c9c5c6",
+    "breadcrumb.focusForeground":               "#e2e0e0",
+    "breadcrumb.activeSelectionForeground":     "#e2e0e0",
     "breadcrumbPicker.background":              "#1e1b1b",
 
     
@@ -109,18 +109,18 @@
        https://code.visualstudio.com/api/references/theme-color#lists-and-trees
     */
     "list.activeSelectionBackground":   "#5950514d",
-    "list.activeSelectionForeground":   "#c9c5c6",
+    "list.activeSelectionForeground":   "#e2e0e0",
     "list.errorForeground":             "#e06578",
     "list.focusBackground":             "#59505180",
-    "list.focusForeground":             "#c9c5c6",
+    "list.focusForeground":             "#e2e0e0",
     "list.focusAndSelectionOutline":    "#1e1b1b00",
 
     // list.hoverBackground/Foreground has a broad impact: Sidebar items hover, Quick Input items hover, Notifications hover; but not for the menu
     "list.hoverBackground":                 "#5950514d",
-    "list.hoverForeground":                 "#c9c5c6",
+    "list.hoverForeground":                 "#e2e0e0",
 
     "list.inactiveSelectionBackground":     "#5950514d",
-    "list.inactiveSelectionForeground":     "#c9c5c6",
+    "list.inactiveSelectionForeground":     "#e2e0e0",
     "list.warningForeground":               "#e9c07d",
     "list.deemphasizedForeground":          "#786c6e",
     "list.dropBackground":                  "#5950514d",
@@ -145,7 +145,7 @@
     "pickerGroup.border":                 "#3e3839",
     "quickInputTitle.background":         "#1e1b1b",
     "quickInputList.focusBackground":     "#5950514d",
-    "quickInputList.focusForeground":     "#c9c5c6",
+    "quickInputList.focusForeground":     "#e2e0e0",
     "quickInputList.focusIconForeground": "#aea6a8",
     
     
@@ -164,7 +164,7 @@
     */
     "activityBar.background":         "#1e1b1b",
     "activityBar.dropBorder":         "#958a8c",
-    "activityBar.foreground":         "#c9c5c6",
+    "activityBar.foreground":         "#e2e0e0",
     "activityBar.inactiveForeground": "#595051", //icon colors
     "activityBar.border":             "#3e3839",
     "activityBarBadge.background":    "#958a8c",
@@ -294,7 +294,7 @@
     "editorGroup.dropIntoPromptBorder":     "#3e3839",
 
     "tab.activeBackground":                "#5950514d",
-    "tab.activeForeground":                "#c9c5c6",
+    "tab.activeForeground":                "#e2e0e0",
     "tab.activeBorder":                    "#958a8c",
     "tab.activeBorderTop":                 "#1e1b1b00",
     "tab.inactiveForeground":              "#786c6e",
@@ -342,13 +342,13 @@
     "panel.border":                  "#3e3839",
     "panel.dropBorder":              "#595051",
     "panelTitle.activeBorder":       "#958a8c",
-    "panelTitle.activeForeground":   "#c9c5c6",
+    "panelTitle.activeForeground":   "#e2e0e0",
     "panelTitle.inactiveForeground": "#786c6e",
     "panelInput.border":             "#595051",
     "panelSection.border":           "#3e3839",
     "panelSection.dropBackground":   "#5950514d",
     "panelSectionHeader.background": "#1e1b1b",
-    "panelSectionHeader.foreground": "#c9c5c6",
+    "panelSectionHeader.foreground": "#e2e0e0",
     "panelSectionHeader.border":     "#3e3839",
 
 
@@ -361,9 +361,9 @@
        
     */
     "editor.background":              "#1e1b1b",
-    "editor.foreground":              "#c9c5c6",
+    "editor.foreground":              "#e2e0e0",
     "editorLineNumber.foreground":    "#595051",
-    "editorLink.activeForeground":    "#c9c5c6",
+    "editorLink.activeForeground":    "#e2e0e0",
     "editor.lineHighlightBackground": "#2a2526",
     "editor.lineHighlightBorder":     "#1e1b1b00",
     "editor.selectionBackground":     "#59505180",
@@ -501,7 +501,7 @@
     "editorWidget.background":                 "#2a2526",
     "editorWidget.border":                     "#3e3839",
     "editorSuggestWidget.background":          "#1e1b1b",
-    "editorSuggestWidget.foreground":          "#c9c5c6",
+    "editorSuggestWidget.foreground":          "#e2e0e0",
     "editorSuggestWidget.highlightForeground": "#6192bb",
     "editorSuggestWidget.selectedBackground":  "#5950514d",
     "editorSuggestWidget.border":              "#3e3839",
@@ -520,11 +520,11 @@
     "peekViewResult.lineForeground":           "#786c6e",
     "peekViewResult.matchHighlightBackground": "#5950514d",
     "peekViewResult.selectionBackground":      "#5950514d",
-    "peekViewResult.selectionForeground":      "#c9c5c6",
+    "peekViewResult.selectionForeground":      "#e2e0e0",
     "peekViewEditorStickyScroll.background":   "#1e1b1b",
     "peekViewTitle.background":                "#1e1b1b",
     "peekViewTitleDescription.foreground":     "#958a8c",
-    "peekViewTitleLabel.foreground":           "#c9c5c6",
+    "peekViewTitleLabel.foreground":           "#e2e0e0",
 
 
 
@@ -543,7 +543,7 @@
     "editor.inlineValuesBackground":               "#1e1b1b00",
     "debugView.exceptionLabelForeground":          "#1e1b1b",
     "debugView.exceptionLabelBackground":          "#c14258",
-    "debugView.stateLabelForeground":              "#c9c5c6",
+    "debugView.stateLabelForeground":              "#e2e0e0",
     "debugView.stateLabelBackground":              "#2a2526",
     "debugView.valueChangedHighlight":             "#8e81dd80",
     "debugTokenExpression.name":                   "#68b5b3",
@@ -643,7 +643,7 @@
     "terminal.ansiBrightMagenta":            "#a9a0e6",// 95
     "terminal.ansiBrightCyan":               "#68b5b3",// 96
     "terminal.ansiBrightWhite":              "#e2e0e0",       // 97
-    "terminal.foreground":                   "#c9c5c6",     // 39
+    "terminal.foreground":                   "#e2e0e0",     // 39
     "terminal.background":                   "#1e1b1b",
     "terminal.border":                       "#3e3839",
     "terminal.dropBackground":               "#5950514d",
@@ -664,10 +664,10 @@
        https://code.visualstudio.com/api/references/theme-color#notification-colors
     */
     "notificationCenter.border":             "#3e3839",
-    "notificationCenterHeader.foreground":   "#c9c5c6",
+    "notificationCenterHeader.foreground":   "#e2e0e0",
     "notificationCenterHeader.background":   "#1e1b1b",
     "notificationToast.border":              "#3e3839",
-    "notifications.foreground":              "#c9c5c6",
+    "notifications.foreground":              "#e2e0e0",
     "notifications.background":              "#1e1b1b",
     "notifications.border":                  "#3e3839",
     "notificationLink.foreground":           "#75aedd",
@@ -688,12 +688,12 @@
 
     /* Menu
     */
-    "menubar.selectionForeground":           "#c9c5c6",
+    "menubar.selectionForeground":           "#e2e0e0",
     "menubar.selectionBackground":           "#5950514d", 
     "menubar.selectionBorder":               "#1e1b1b00",
-    "menu.foreground":                       "#c9c5c6",
+    "menu.foreground":                       "#e2e0e0",
     "menu.background":                       "#2a2526",
-    "menu.selectionForeground":              "#c9c5c6",
+    "menu.selectionForeground":              "#e2e0e0",
     "menu.selectionBackground":              "#5950514d",
     "menu.selectionBorder":                  "#1e1b1b00",
     "menu.separatorBackground":              "#3e3839",
@@ -707,11 +707,6 @@
 
   },
   "tokenColors": [
-    {
-      "settings": {
-        "foreground": "#c9c5c6"
-      }
-    },
     {
       "scope": "emphasis",
       "settings": {
@@ -755,7 +750,7 @@
     {
       "scope": "constant.rgb-value",
       "settings": {
-        "foreground": "#c9c5c6"
+        "foreground": "#e2e0e0"
       }
     },
     {
@@ -825,7 +820,17 @@
       }
     },
     {
-      "scope": "storage",
+      "scope": [
+        "storage",
+        "storage.type.function",
+        "keyword.control",
+
+      ],
+      "settings": {
+        "foreground": "#8e81dd"
+      }
+    },
+    {
       "settings": {
         "foreground": "#e06578"
       }
@@ -839,7 +844,7 @@
     {
       "scope": "string",
       "settings": {
-        "foreground": "#a9a0e6"
+        "foreground": "#df8fc1"
       }
     },
     {
@@ -881,7 +886,7 @@
     {
       "scope": "object",
       "settings": {
-        "foreground": "#c9c5c6"
+        "foreground": "#e2e0e0"
       }
     },
     {
@@ -902,12 +907,7 @@
         "foreground": "#e06578"
       }
     },
-    {
-      "scope": "keyword.control",
-      "settings": {
-        "foreground": "#e06578"
-      }
-    },
+
     {
       "scope": "keyword.control.module",
       "settings": {
@@ -929,7 +929,7 @@
     {
       "scope": "keyword.operator.new",
       "settings": {
-        "foreground": "#e1976a"
+        "foreground": "#958a8c"
       }
     },
     // keyword.other.unit impacts CSS/SCSS, anything else?
@@ -993,13 +993,12 @@
         "entity.name.type"
       ],
       "settings": {
-        "foreground": "#e9c07d"
+        "foreground": "#e2e0e0"
       }
     },
     {
       "name": "Function declarations",
       "scope": [
-        "storage.type.function",
         "entity.function",
         "entity.name.function.static"
       ],
@@ -1032,7 +1031,7 @@
     {
       "scope": "brace",
       "settings": {
-        "foreground": "#c9c5c6"
+        "foreground": "#e2e0e0"
       }
     },
     {
@@ -1046,7 +1045,7 @@
         "string.constant.other.placeholder"
       ],
       "settings": {
-        "foreground": "#68b5b3"
+        "foreground": "#75aedd"
       }
     },
     {
@@ -1074,7 +1073,7 @@
     {
       "scope": "punctuation.quoted",
       "settings": {
-        "foreground": "#c9c5c6"
+        "foreground": "#e2e0e0"
       }
     },
     {
@@ -1104,7 +1103,7 @@
         "meta.function-call.arguments"
       ],
       "settings": {
-        "foreground": "#c9c5c6"
+        "foreground": "#e2e0e0"
       }
     },
     {
@@ -1161,7 +1160,7 @@
     {
       "scope": "keyword.operator.logical",
       "settings": {
-        "foreground": "#e06578"
+        "foreground": "#786c6e"
       }
     },
     {
@@ -1298,7 +1297,7 @@
         "source.java variable.other.definition.java"
       ],
       "settings": {
-        "foreground": "#c9c5c6"
+        "foreground": "#e2e0e0"
       }
     },
     // LISP ----------------------------------------
@@ -1319,7 +1318,7 @@
     {
       "scope": "string.other.link.title.markdown",
       "settings": {
-        "foreground": "#c9c5c6",
+        "foreground": "#e2e0e0",
       }
     },
     {
@@ -1470,7 +1469,7 @@
     {
       "scope": "string.quoted.double.json",
       "settings": {
-        "foreground": "#c9c5c6"
+        "foreground": "#e2e0e0"
       }
     },
     {
@@ -1565,7 +1564,7 @@
         "source.css.scss"
       ],
       "settings": {
-        "foreground": "#c9c5c6"
+        "foreground": "#e2e0e0"
       }
     },
 
@@ -1642,7 +1641,15 @@
         "source.ts"
       ],
       "settings": {
-        "foreground": "#e1976a"
+        "foreground": "#958a8c"
+      }
+    },
+    {
+      "scope": [
+        "variable.other.property.js"
+      ],
+      "settings": {
+        "foreground": "#68b5b3"
       }
     },
     // golang --------------------------------------------
@@ -1685,7 +1692,7 @@
         "source.go entity.name.type"
       ],
       "settings": {
-        "foreground": "#c9c5c6"
+        "foreground": "#e2e0e0"
       }
     },
     {

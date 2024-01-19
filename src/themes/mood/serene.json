@@ -83,5 +83,17 @@
     "30": "{{ color.violet-dim.30 }}",
     "20": "{{ color.violet-dim.20 }}",
     "10": "{{ color.violet-dim.10 }}"
+  },
+  "pink": {
+    "100": "{{ color.pink-dim.100 }}",
+    "90": "{{ color.pink-dim.90 }}",
+    "80": "{{ color.pink-dim.80 }}",
+    "70": "{{ color.pink-dim.70 }}",
+    "60": "{{ color.pink-dim.60 }}",
+    "50": "{{ color.pink-dim.50 }}",
+    "40": "{{ color.pink-dim.40 }}",
+    "30": "{{ color.pink-dim.30 }}",
+    "20": "{{ color.pink-dim.20 }}",
+    "10": "{{ color.pink-dim.10 }}"
   }
 }
