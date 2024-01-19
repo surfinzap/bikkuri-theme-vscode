@@ -1380,7 +1380,7 @@
         "punctuation.definition.strikethrough.markdown"
       ],
       "settings": {
-        "foreground": "#c14258"
+        "foreground": "#6a6e85",
       }
     },
     {
@@ -1430,7 +1430,7 @@
         "keyword.control.mermaid",
       ],
       "settings": {
-        "foreground": "#e06578"
+        "foreground": "#a9a0e6"
       }
     },
     {
@@ -1459,7 +1459,6 @@
     },
     {
       "scope": [
-        //same as markup.fenced_code.block.markdown
         "punctuation.parenthesis.open.mermaid",
       ],
       "settings": {
@@ -1616,6 +1615,14 @@
       ],
       "settings": {
         "foreground": "#e06578",
+      }
+    },
+    {
+      "scope": [
+        "string.quoted.double.html"
+      ],
+      "settings": {
+        "foreground": "#a9a0e6",
       }
     },
     // pug ----------------------------------------------
