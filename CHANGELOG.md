@@ -29,15 +29,15 @@ Security
 - Calmer `list.hoverBackground`; it impacts hovers for Sidebar items, Quick Input items, and Notifications
 - Calmer diagonal fill in the Diff Editor
 - Calmer background color under removed/added lines in the Diff editor
-- A bit calmer reds, teals, and yellows so they are not so spiky during the night light 
+- A bit calmer reds, oranges, teals, and yellows so they are not so spiky during the night light 
 - Brighter comments 
 - Brighter diff highlights
 - Brighter punctuation
 - editor.FindMatchBorder to red color
 - Refactored color naming, the repository folder structure and how the themes are generated. 
 - CSS/SCSS variables colors
-- More balanced JavaScript Syntax
-
+- More balanced JavaScript syntax
+- Adjusted Markdown syntac
 
 ### Security
 - Updated dependencies to their latest versions

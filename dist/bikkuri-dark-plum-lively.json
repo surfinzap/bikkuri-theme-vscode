@@ -428,7 +428,7 @@
  
     "editorBracketHighlight.foreground1":     "#746b84",
     "editorBracketHighlight.foreground2":     "#e06578",
-    "editorBracketHighlight.foreground3":     "#e1976a",
+    "editorBracketHighlight.foreground3":     "#da9a6a",
     "editorBracketHighlight.foreground4":     "#e9c07d",
     "editorBracketHighlight.foreground5":     "#9cb062",
     "editorBracketHighlight.foreground6":     "#75aedd",
@@ -798,7 +798,7 @@
     {
       "scope": "meta.preprocessor",
       "settings": {
-        "foreground": "#e1976a"
+        "foreground": "#da9a6a"
       }
     },
     {
@@ -816,7 +816,7 @@
     {
       "scope": "meta.header.diff",
       "settings": {
-        "foreground": "#e1976a"
+        "foreground": "#da9a6a"
       }
     },
     {
@@ -838,7 +838,7 @@
     {
       "scope": "storage.modifier",
       "settings": {
-        "foreground": "#e1976a"
+        "foreground": "#da9a6a"
       }
     },
     {
@@ -862,7 +862,7 @@
     {
       "scope": "string.regexp",
       "settings": {
-        "foreground": "#e1976a"
+        "foreground": "#da9a6a"
       }
     },
     {
@@ -943,7 +943,7 @@
     {
       "scope": "metatag.php",
       "settings": {
-        "foreground": "#e1976a"
+        "foreground": "#da9a6a"
       }
     },
     {
@@ -1015,7 +1015,7 @@
     {
       "scope": "support.function.builtin",
       "settings": {
-        "foreground": "#e1976a"
+        "foreground": "#da9a6a"
       }
     },
     {
@@ -1146,7 +1146,7 @@
       "name": "Python Support Tyype",
       "scope": "support.type.exception.python",
       "settings": {
-        "foreground": "#e1976a",
+        "foreground": "#da9a6a",
       }
     },
     {
@@ -1166,13 +1166,13 @@
     {
       "scope": "punctuation.definition.logical-expression",
       "settings": {
-        "foreground": "#e1976a"
+        "foreground": "#da9a6a"
       }
     },
     {
       "scope": "string.inperpolated.dollar.shell",
       "settings": {
-        "foreground": "#e1976a"
+        "foreground": "#da9a6a"
       }
     },
     {
@@ -1335,7 +1335,7 @@
         "entity.name.section.markdown"
       ],
       "settings": {
-        "foreground": "#e06578"
+        "foreground": "#df8fc1"
       }
     },
     {
@@ -1344,7 +1344,7 @@
         "string.other.link"
       ],
       "settings": {
-        "foreground": "#e1976a"
+        "foreground": "#da9a6a"
       }
     },
     {
@@ -1384,7 +1384,7 @@
     {
       "scope": "markup.changed",
       "settings": {
-        "foreground": "#e1976a"
+        "foreground": "#da9a6a"
       }
     },
     {
@@ -1403,7 +1403,7 @@
         "text.markdown.notes.tag",
       ],
       "settings": {
-        "foreground": "#68b5b3"
+        "foreground": "#75aedd"
       }
     },
     {
@@ -1452,7 +1452,7 @@
         "entity.name.function.mermaid",
       ],
       "settings": {
-        "foreground": "#e1976a"
+        "foreground": "#da9a6a"
       }
     },
     {
@@ -1487,7 +1487,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#e1976a"
+        "foreground": "#da9a6a"
       }
     },
     {
@@ -1748,7 +1748,7 @@
         "source.reason entity.name.filename"
       ],
       "settings": {
-        "foreground": "#e1976a"
+        "foreground": "#da9a6a"
       }
     },
     // POWERSHELL ------------------------------------
@@ -1758,7 +1758,7 @@
         "source.powershell variable.other.member.powershell"
       ],
       "settings": {
-        "foreground": "#e1976a"
+        "foreground": "#da9a6a"
       }
     },
     {
@@ -1785,7 +1785,7 @@
         "source.powershell meta.hashtable.assignment.powershell variable.other.readwrite.powershell"
       ],
       "settings": {
-        "foreground": "#e1976a"
+        "foreground": "#da9a6a"
       }
     }
   ],
