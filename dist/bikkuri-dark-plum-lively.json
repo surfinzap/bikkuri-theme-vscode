@@ -762,7 +762,7 @@
     {
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#75aedd"
+        "foreground": "#a9a0e6"
       }
     },
     {
@@ -1669,6 +1669,15 @@
         "foreground": "#68b5b3"
       }
     },
+    {
+      "scope": [
+        "meta.object-literal.key.js"
+      ],
+      "settings": {
+        "foreground": "#e1dfe5"
+      }
+    },
+ 
 
     // golang --------------------------------------------
     {
