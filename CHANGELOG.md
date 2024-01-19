@@ -36,8 +36,9 @@ Security
 - editor.FindMatchBorder to red color
 - Refactored color naming, the repository folder structure and how the themes are generated. 
 - CSS/SCSS variables colors
-- More balanced JavaScript syntax
-- Adjusted Markdown syntac
+- Tweaked JavaScript syntax
+- Tweaked Python syntax
+- Tweaked Markdown syntax
 
 ### Security
 - Updated dependencies to their latest versions

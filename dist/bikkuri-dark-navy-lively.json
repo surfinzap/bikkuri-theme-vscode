@@ -1015,7 +1015,7 @@
     {
       "scope": "support.function.builtin",
       "settings": {
-        "foreground": "#da9a6a"
+        "foreground": "#898c9f"
       }
     },
     {
@@ -1103,7 +1103,7 @@
         "meta.function-call.arguments"
       ],
       "settings": {
-        "foreground": "#dee0e5"
+        "foreground": "#75aedd"
       }
     },
     {
@@ -1128,10 +1128,12 @@
       }
     },
     {
-      "name": "Python Function Call",
-      "scope": "meta.function-call.generic",
+      "scope": [
+        "meta.function-call.generic"
+      ],
+      
       "settings": {
-        "foreground": "#75aedd"
+        "foreground": "#dee0e5"
       }
     },
     {
@@ -1146,7 +1148,7 @@
       "name": "Python Support Tyype",
       "scope": "support.type.exception.python",
       "settings": {
-        "foreground": "#da9a6a",
+        "foreground": "#898c9f",
       }
     },
     {
@@ -1646,12 +1648,21 @@
     },
     {
       "scope": [
+        "entity.name.type.class.js"
+      ],
+      "settings": {
+        "foreground": "#e9c07d"
+      }
+    },
+    {
+      "scope": [
         "variable.other.property.js"
       ],
       "settings": {
         "foreground": "#68b5b3"
       }
     },
+
     // golang --------------------------------------------
     {
       "scope": [
