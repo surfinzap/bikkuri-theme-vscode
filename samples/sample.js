@@ -13,7 +13,7 @@ import { fixSpaces } from './lib/whitespace/spaces';
 var x = 10;
 let y = 20;
 const z = 30;
-
+ 
 // Data types
 let myString = "Hello, World!";
 let myNumber = 123;

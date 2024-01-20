@@ -1617,6 +1617,14 @@
         "foreground": "#a8a4c8",
       }
     },
+    {
+      "scope": [
+        "entity.other.attribute-name.html"
+      ],
+      "settings": {
+        "foreground": "#8fabc8",
+      }
+    },
     // pug ----------------------------------------------
     {
       "scope": [
