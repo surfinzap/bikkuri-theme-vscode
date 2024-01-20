@@ -10,7 +10,7 @@
 </h1>
 
 
-<p align="center">Set of 8 dark themes for VS Code, including syntax highlighting, debugging, diff/merge and terminal colors.</p>
+<p align="center">Set of 10 dark themes for VS Code, including syntax highlighting, debugging, diff/merge and terminal colors.</p>
 
 
 ## Variants
@@ -20,6 +20,12 @@
 
 ### Dark Warm & Serene
 ![Dark Warm & Serene](assets/bikkuri-dark-warm-serene.png)
+
+### Dark Navy & Lively
+![Dark Navy & Lively](assets/bikkuri-dark-navy-lively.png)
+
+### Dark Navy & Serene
+![Dark Navy & Serene](assets/bikkuri-dark-navy-serene.png)
 
 ### Dark Plum & Lively
 ![Dark Plum & Lively](assets/bikkuri-dark-plum-lively.png)
@@ -51,12 +57,12 @@
 2. Search for `Bikkuri Theme`
 3. Click **Install** to install it
 4. Click **Reload** to reload the Visual Studio Code
-5. Open `Preferences: Color Theme` from the command palette and select the preferred flavor of the **B** Theme
+5. Open `Preferences: Color Theme` from the command palette and select the preferred flavor of the **Bikkuri** Theme
 
 
 ## Feedback
 
-Share your feedback as a [GitHub issue](https://github.com/surfinzap/b-theme-vscode/issues).
+Share your feedback as a [GitHub issue](https://github.com/surfinzap/bikkuri-theme-vscode/issues).
 
 
 ## Support 
@@ -65,6 +71,6 @@ Share your feedback as a [GitHub issue](https://github.com/surfinzap/b-theme-vsc
 
 
 ## Inspiration / Recommendations
+
 - colors for the theme were designed with [Colorca](https://colorca.org)
 - the theme plays nicely with [JetBrains Mono](https://github.com/JetBrains/JetBrainsMono) font
-- syntax highlighting rules inspiration: [vscode-theme-gruvbox](https://github.com/jdinhify/vscode-theme-gruvbox)
