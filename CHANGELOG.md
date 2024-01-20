@@ -35,7 +35,7 @@ Security
 - Brighter punctuation
 - editor.FindMatchBorder to red color
 - Refactored color naming, the repository folder structure and how the themes are generated. 
-- CSS/SCSS variables colors
+- Tweaked CSS/SCSS syntax
 - Tweaked JavaScript syntax
 - Tweaked Python syntax
 - Tweaked Markdown syntax
