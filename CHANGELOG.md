@@ -13,7 +13,7 @@ Security
   
 
 ## [1.0.0] — 2024-
-After two years, it's time to set this theme as version one. Bikkuri has surprisingly matured. Nevertheless, we ship two new dark navy themes with this update. We have refactored the theme generation of themes completely. We have changed the syntax highlighting for javascript, python, CSS, and markdown. 
+It’s been over two years since version 0.0.1 and Bikkuri has matured since then. It’s now a set of 10 dark themes, with two new navy themes since this release. Also, we have changed the syntax highlighting for javascript, python, CSS, and markdown.
 
 ### Added 
 - ✨ New themes in a steel tint:
