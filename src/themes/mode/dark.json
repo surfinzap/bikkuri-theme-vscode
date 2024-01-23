@@ -1,0 +1,110 @@
+{
+  "mode-type": "dark",
+  "mode-name": "Dark",
+  "shadow": "{{ color.black }}",
+
+  "surface" : {
+    "sunken": "{{ tint.90 }}",
+    "base": "{{ tint.100 }}",
+    "raised" : {
+      "low": "{{ tint.70 }}{{ opacity.med-low }}",
+      "med": "{{ tint.70 }}{{ opacity.med }}",
+      "high": "{{ tint.70 }}{{ opacity.med-high }}"
+    },
+    "none": "{{ tint.100 }}{{ opacity.none }}"
+  },
+  "text": {
+    "base": "{{ tint.20 }}",
+    "mid": "{{ tint.50 }}",
+    "dim": "{{ tint.60 }}",
+    "disabled": "{{ tint.70 }}",
+    "on-ui": "{{ tint.100 }}",
+    "none": "{{ tint.30 }}{{ opacity.none }}"
+  },
+  "icon": {
+    "base": "{{ tint.40 }}",
+    "mid": "{{ tint.60 }}",
+    "dim": "{{ tint.70 }}"
+  },
+  "border": {
+    "base": "{{ tint.50 }}",
+    "mid": "{{ tint.70 }}",
+    "dim": "{{ tint.80 }}",
+    "none": "{{ surface.base }}{{ opacity.none }}"
+  },
+  "ui": {
+    "primary": {
+      "base": "{{ tint.40 }}",
+      "mid": "{{ tint.50 }}"
+    },
+    "button": {
+      "bg": "{{ ui.primary.mid }}",
+      "bg-hover": "{{ ui.primary.base }}"
+    },
+    "accent1": {
+      "base": "{{ blue.40 }}",
+      "mid": "{{ blue.50 }}"
+    },
+    "accent2": {
+      "base": "{{ violet.40 }}",
+      "mid": "{{ violet.50 }}"
+    },
+    "accent3": {
+      "base": "{{ teal.40 }}",
+      "mid": "{{ teal.50 }}"
+    },
+    "success": {
+      "base": "{{ green.40 }}",
+      "mid": "{{ green.50 }}",
+      "dim": "{{ green.80 }}"
+    },
+    "danger": {
+      "base": "{{ red.50 }}",
+      "mid": "{{ red.60 }}",
+      "dim": "{{ red.80 }}"
+    },
+    "warning": {
+      "base": "{{ yellow.30 }}",
+      "mid": "{{ yellow.40 }}"
+    },
+    "info": {
+      "base": "{{ blue.40 }}",
+      "mid": "{{ blue.50 }}"
+    }
+  },
+
+  "syntax": {
+    "01": {
+      "base": "{{ red.50 }}",
+      "dim": "{{ red.60 }}"
+    },
+    "02": {
+      "base": "{{ orange.40 }}",
+      "dim": "{{ orange.50 }}"
+    },
+    "03": {
+      "base": "{{ yellow.30 }}",
+      "dim": "{{ yellow.40 }}"
+    },
+    "04": {
+      "base": "{{ green.40 }}",
+      "dim": "{{ green.50 }}"
+    },
+    "05": {
+      "base": "{{ teal.40 }}",
+      "dim": "{{ teal.50 }}"
+    },
+    "06": {
+      "base": "{{ blue.40 }}",
+      "dim": "{{ blue.50 }}"
+    },
+    "07": {
+      "base": "{{ violet.40 }}",
+      "dim": "{{ violet.50 }}"
+    },
+    "08": {
+      "base": "{{ pink.40 }}",
+      "dim": "{{ pink.50 }}"
+    }
+  }
+}

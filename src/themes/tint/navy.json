@@ -1,0 +1,15 @@
+{
+  "tint-name": "Navy",
+  "tint": {
+    "100": "{{ color.gray-navy.100 }}",
+    "90": "{{ color.gray-navy.90 }}",
+    "80": "{{ color.gray-navy.80 }}",
+    "70": "{{ color.gray-navy.70 }}",
+    "60": "{{ color.gray-navy.60 }}",
+    "50": "{{ color.gray-navy.50 }}",
+    "40": "{{ color.gray-navy.40 }}",
+    "30": "{{ color.gray-navy.30 }}",
+    "20": "{{ color.gray-navy.20 }}",
+    "10": "{{ color.gray-navy.10 }}"
+  }
+}

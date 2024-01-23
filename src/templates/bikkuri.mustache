@@ -1,0 +1,1820 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Bikkuri ({{ mode-name }} {{ tint-name }} & {{ mood-name }})",
+  "type": "{{ mode-type }}",
+  "colors": {
+
+    /* Contrast colors
+       For high-contrast theme definition
+       https://code.visualstudio.com/api/references/theme-color#contrast-colors
+    */
+    "contrastActiveBorder": "{{ border.none }}",
+    "contrastBorder": "{{ border.none }}",
+
+    /* Base colors
+     https://code.visualstudio.com/api/references/theme-color#status-bar-colors
+    */
+    // focusBorder has a very wide scope
+    "focusBorder":                            "{{ border.mid }}",
+    "foreground":                             "{{ text.base }}",
+    "widget.shadow":                          "{{ shadow }}",
+    // text selections for input fields or text areas, does not apply to selections within the editor and the terminal
+    "selection.background":                   "{{ surface.raised.high }}",
+    "descriptionForeground":                  "{{ text.base }}",
+    "errorForeground":                        "{{ ui.danger.base }}",
+    "icon.foreground":                        "{{ icon.base }}", // broad scope of icons, icon buttons across the board
+    "sash.hoverBorder":                       "{{ border.base }}",
+    "textLink.foreground":                    "{{ ui.accent1.base }}",
+    "textLink.activeForeground":              "{{ ui.accent1.mid }}",
+
+    /* Button 
+       https://code.visualstudio.com/api/references/theme-color#button-control
+    */
+    "button.background":                      "{{ ui.button.bg  }}",
+    "button.foreground":                      "{{ text.on-ui }}",
+    "button.hoverBackground":                 "{{ ui.button.bg-hover }}",
+    // secondary button → notification to install recommended extensions
+    "button.secondaryBackground":             "{{ surface.raised.low }}",
+    "button.secondaryForeground":             "{{ text.base }}",
+    "button.secondaryHoverBackground":        "{{ surface.raised.med }}",
+    "button.border":                          "{{ border.none }}",
+    "checkbox.background":                    "{{ surface.base }}",
+    "checkbox.foreground":                    "{{ icon.base }}",
+    "checkbox.border":                        "{{ border.base }}",
+
+
+    /* Dropdown
+       https://code.visualstudio.com/api/references/theme-color#dropdown-control
+    */
+    "dropdown.background":                    "{{ surface.sunken }}", 
+    "dropdown.border":                        "{{ border.dim }}",
+    "dropdown.foreground":                    "{{ text.base }}",
+    "dropdown.listBackground":                "{{ surface.sunken }}",
+
+
+    /* Input
+       https://code.visualstudio.com/api/references/theme-color#input-control 
+    */  
+    "input.background":                       "{{ surface.sunken }}",
+    "input.border":                           "{{ border.dim }}",
+    "input.foreground":                       "{{ text.base }}",
+    "input.placeholderForeground":            "{{ text.dim }}",
+    "inputOption.activeBackground":           "{{ ui.button.bg }}", // bg for active icons in inputs
+    "inputOption.hoverBackground":            "{{ surface.raised.med }}",  
+    "inputOption.activeForeground":           "{{ text.on-ui }}",
+    // Border color of activated options in input fields.
+    "inputOption.activeBorder":               "{{ border.none }}", //cannot be null
+    "inputValidation.errorBackground":        "{{ surface.sunken }}",
+    "inputValidation.errorBorder":            "{{ ui.danger.base }}",
+    "inputValidation.infoBackground":         "{{ surface.sunken }}",
+    "inputValidation.infoBorder":             "{{ border.base }}",
+    "inputValidation.warningBackground":      "{{ surface.sunken }}",
+    "inputValidation.warningBorder":          "{{ ui.warning.base }}",
+
+    /* Scrollbar
+    */
+    "scrollbar.shadow":                        "{{ shadow }}",
+    "scrollbarSlider.background":              "{{ surface.raised.low }}",
+    "scrollbarSlider.activeBackground":        "{{ surface.raised.med }}",
+    "scrollbarSlider.hoverBackground":         "{{ surface.raised.med }}",
+
+
+    /* Badge
+    */
+    "badge.background":                       "{{ ui.button.bg  }}",
+    "badge.foreground":                       "{{ text.on-ui }}",
+
+    /* Progress bar
+    */
+    "progressBar.background":                 "{{ ui.accent3.base }}",
+
+    /* Title Bar
+    */
+    "titleBar.activeBackground":              "{{ surface.base }}",
+    "titleBar.activeForeground":              "{{ text.mid }}",
+    "titleBar.inactiveBackground":            "{{ surface.base }}",
+    "titleBar.inactiveForeground":            "{{ text.mid }}",
+    "titleBar.border" :                       "{{ border.dim }}",
+
+    /* Breadcrumbs
+    */    
+    "breadcrumb.foreground":                    "{{ text.dim }}",
+    "breadcrumb.background":                    "{{ surface.base }}",
+    "breadcrumb.focusForeground":               "{{ text.base }}",
+    "breadcrumb.activeSelectionForeground":     "{{ text.base }}",
+    "breadcrumbPicker.background":              "{{ surface.base }}",
+
+    
+    /* Lists & Trees
+       https://code.visualstudio.com/api/references/theme-color#lists-and-trees
+    */
+    "list.activeSelectionBackground":   "{{ surface.raised.low }}",
+    "list.activeSelectionForeground":   "{{ text.base }}",
+    "list.errorForeground":             "{{ ui.danger.base }}",
+    "list.focusBackground":             "{{ surface.raised.med }}",
+    "list.focusForeground":             "{{ text.base }}",
+    "list.focusAndSelectionOutline":    "{{ border.none }}",
+
+    // list.hoverBackground/Foreground has a broad impact: Sidebar items hover, Quick Input items hover, Notifications hover; but not for the menu
+    "list.hoverBackground":                 "{{ surface.raised.low }}",
+    "list.hoverForeground":                 "{{ text.base }}",
+
+    "list.inactiveSelectionBackground":     "{{ surface.raised.low }}",
+    "list.inactiveSelectionForeground":     "{{ text.base }}",
+    "list.warningForeground":               "{{ ui.warning.base }}",
+    "list.deemphasizedForeground":          "{{ text.dim }}",
+    "list.dropBackground":                  "{{ surface.raised.low }}",
+    "list.filterMatchBackground":           "{{ surface.raised.high }}",
+    "list.focusHighlightForeground":        "{{ ui.accent1.base }}",
+    "list.focusOutline":                    "{{ border.none }}",        
+    "list.highlightForeground":             "{{ ui.accent1.base }}",
+    "list.invalidItemForeground":           "{{ ui.danger.mid }}",
+    "list.activeSelectionIconForeground":   "{{ icon.base }}",
+    "list.filterMatchBorder":               "{{ border.none }}",
+    "list.inactiveFocusBackground":         "{{ surface.raised.med }}",
+    "list.inactiveFocusOutline":            "{{ border.none }}",
+    "list.inactiveSelectionIconForeground": "{{ icon.base }}",
+
+
+
+    /* Quick input (Command palette, Quick picker)
+    */
+    "quickInput.background":              "{{ surface.sunken }}",
+    "quickInput.foreground":              "{{ text.mid }}",
+    "pickerGroup.foreground":             "{{ text.mid }}",
+    "pickerGroup.border":                 "{{ border.dim }}",
+    "quickInputTitle.background":         "{{ surface.base}}",
+    "quickInputList.focusBackground":     "{{ surface.raised.low }}",
+    "quickInputList.focusForeground":     "{{ text.base }}",
+    "quickInputList.focusIconForeground": "{{ icon.base }}",
+    
+    
+
+
+
+    /* Keybinding labels
+       https://code.visualstudio.com/api/references/theme-color#keybinding-label-colors
+    */
+    "keybindingLabel.background":   "{{ surface.base }}",
+    "keybindingLabel.border":       "{{ surface.sunken }}",
+    "keybindingLabel.bottomBorder": "{{ border.dim }}",
+    "keybindingLabel.foreground":   "{{ text.mid }}",
+
+    /* Activity Bar 
+    */
+    "activityBar.background":         "{{ surface.base }}",
+    "activityBar.dropBorder":         "{{ border.base }}",
+    "activityBar.foreground":         "{{ text.base }}",
+    "activityBar.inactiveForeground": "{{ icon.dim }}", //icon colors
+    "activityBar.border":             "{{ border.dim }}",
+    "activityBarBadge.background":    "{{ ui.button.bg  }}",
+    "activityBarBadge.foreground":    "{{ text.on-ui }}",
+    "activityBar.activeBorder":       "{{ border.base }}",
+    "activityBar.activeBackground":   "{{ surface.raised.low }}",
+    "activityBar.activeFocusBorder":  "{{ border.none }}",
+    "profileBadge.background" :       "{{ surface.raised.low }}",
+    "profileBadge.foreground":        "{{ icon.base }}",
+
+
+    /* Sidebar
+       https://code.visualstudio.com/api/references/theme-color#side-bar
+    */
+    "sideBar.background":              "{{ surface.base }}",
+    "sideBarSectionHeader.background": "{{ surface.sunken }}",
+    "sideBar.border":                  "{{ border.dim }}",
+    "sideBar.dropBackground":          "{{ surface.raised.low }}",
+    "sideBar.foreground":              "{{ text.mid }}",
+    "sideBarSectionHeader.foreground": "{{ text.mid }}",
+    "sideBarTitle.foreground":         "{{ text.mid }}",
+    "sideBarSectionHeader.border":     "{{ border.none }}",
+
+    /* Git Decorations
+       Changed files in sidebar or tabs;
+    */
+
+    "gitDecoration.conflictingResourceForeground":   "{{ ui.accent2.mid }}",
+    "gitDecoration.deletedResourceForeground":       "{{ ui.danger.mid }}",
+    "gitDecoration.ignoredResourceForeground":       "{{ text.disabled }}",
+    "gitDecoration.modifiedResourceForeground":      "{{ ui.warning.mid }}",
+    "gitDecoration.untrackedResourceForeground":     "{{ ui.success.mid }}",
+    "gitDecoration.addedResourceForeground":         "{{ ui.success.mid }}",
+    "gitDecoration.renamedResourceForeground":       "{{ ui.warning.mid }}",
+    "gitDecoration.stageModifiedResourceForeground": "{{ ui.warning.mid }}",
+    "gitDecoration.stageDeletedResourceForeground":  "{{ ui.danger.mid }}",
+    "gitDecoration.submoduleResourceForeground":     "{{ text.dim }}",
+
+    /* SCM (Source Control Management)
+       Stats in Incoming/Outgoing part in Source Control
+    */
+    
+    "scm.historyItemAdditionsForeground": "{{ ui.success.base }}",
+    "scm.historyItemDeletionsForeground": "{{ ui.danger.base }}",
+    "scm.historyItemStatisticsBorder": "{{ border.none }}",
+    "scm.historyItemSelectedStatisticsBorder": "{{ border.none }}",
+
+
+
+
+
+    /* Minimap & Overview ruler
+       https://code.visualstudio.com/api/references/theme-color#minimap
+    */
+    "minimap.errorHighlight":               "{{ ui.danger.mid }}",
+    "minimap.findMatchHighlight":           "{{ ui.warning.mid }}",
+    // "minimap.foregroundOpacity":            "#000000c0",
+    "minimap.selectionHighlight":           "{{ surface.raised.high }}",
+    "minimap.selectionOccurrenceHighlight": "{{ surface.raised.high }}",
+    "minimap.warningHighlight":             "{{ ui.warning.mid }}",
+    "minimapGutter.addedBackground":        "{{ ui.success.mid }}",
+    "minimapGutter.deletedBackground":      "{{ ui.danger.mid }}",
+    "minimapGutter.modifiedBackground":     "{{ ui.warning.mid }}",
+    "minimapSlider.background":             "{{ surface.raised.med }}",
+    "minimapSlider.activeBackground":       "{{ surface.raised.high }}",
+    "minimapSlider.hoverBackground":        "{{ surface.raised.high }}",
+
+    "editorOverviewRuler.border":                        "{{ surface.base }}",
+    "editorOverviewRuler.addedForeground":               "{{ ui.success.mid }}{{ opacity.med }}",
+    "editorOverviewRuler.bracketMatchForeground":        "{{ text.dim }}",
+    "editorOverviewRuler.deletedForeground":             "{{ ui.danger.mid }}{{ opacity.med }}",
+    "editorOverviewRuler.errorForeground":               "{{ ui.danger.mid }}",
+    "editorOverviewRuler.findMatchForeground":           "{{ ui.warning.mid }}",
+    "editorOverviewRuler.infoForeground":                "{{ ui.info.mid }}",
+    "editorOverviewRuler.modifiedForeground":            "{{ ui.warning.mid }}",
+    "editorOverviewRuler.rangeHighlightForeground":      "{{ ui.accent1.mid }}",
+    "editorOverviewRuler.selectionHighlightForeground":  "{{ text.dim }}",
+    "editorOverviewRuler.warningForeground":             "{{ ui.warning.mid }}",
+    "editorOverviewRuler.wordHighlightForeground":       "{{ text.dim }}",
+    "editorOverviewRuler.wordHighlightStrongForeground": "{{ text.dim }}",
+    //editorOverviewRuler for merge conflicts is located within merge conflicts
+  
+    
+
+    /* Status bar
+       https://code.visualstudio.com/api/references/theme-color#status-bar-colors
+    */
+    "statusBar.background":                   "{{ surface.base }}",
+    "statusBar.foreground":                   "{{ text.mid }}",
+    "statusBar.border":                       "{{ border.dim }}",
+    "statusBar.debuggingBackground":          "{{ ui.accent2.mid }}",
+    "statusBar.debuggingForeground":          "{{ text.on-ui }}",
+    "statusBar.debuggingBorder":              "{{ border.dim }}",
+    "statusBar.noFolderBackground":           "{{ surface.base }}",
+    "statusBar.noFolderBorder":               "{{ border.dim }}",
+    "statusBarItem.activeBackground":         "{{ surface.raised.low }}",
+    "statusBarItem.hoverBackground":          "{{ surface.raised.med }}",
+    "statusBarItem.prominentForeground":      "{{ text.on-ui }}",
+    "statusBarItem.prominentBackground":      "{{ ui.accent2.mid }}",
+    "statusBarItem.prominentHoverBackground": "{{ ui.accent2.base }}",
+    "statusBarItem.remoteBackground":         "{{ surface.sunken }}",
+    "statusBarItem.remoteForeground":         "{{ text.mid }}",
+    "statusBarItem.errorBackground":          "{{ ui.danger.base }}",
+    "statusBarItem.errorForeground":          "{{ text.on-ui }}",
+    "statusBarItem.warningBackground":        "{{ ui.warning.base }}",
+    "statusBarItem.warningForeground":        "{{ text.on-ui }}",
+    "statusBarItem.compactHoverBackground":   "{{ surface.raised.high }}",
+    "statusBarItem.focusBorder":              "{{ border.dim }}",
+    "statusBar.focusBorder":                  "{{ border.dim }}",
+
+
+
+
+    /* Editor Groups & Tabs
+       https://code.visualstudio.com/api/references/theme-color#editor-groups-tabs
+    */
+    "editorGroup.emptyBackground":        "{{ surface.base }}",
+    "editorGroupHeader.noTabsBackground": "{{ surface.base }}",
+    "editorGroupHeader.tabsBackground":   "{{ surface.base }}",
+    "editorGroup.dropBackground":         "{{ surface.raised.low }}",
+    "editorGroup.border":                 "{{ border.dim }}",
+    "editorGroupHeader.tabsBorder":       "{{ border.dim }}",
+    "editorGroup.focusedEmptyBorder":     "{{ border.mid }}",
+
+    "editorGroup.dropIntoPromptForeground": "{{ text.mid }}",
+    "editorGroup.dropIntoPromptBackground": "{{ surface.sunken }}",
+    "editorGroup.dropIntoPromptBorder":     "{{ border.dim }}",
+
+    "tab.activeBackground":                "{{ surface.raised.low }}",
+    "tab.activeForeground":                "{{ text.base }}",
+    "tab.activeBorder":                    "{{ border.base }}",
+    "tab.activeBorderTop":                 "{{ border.none }}",
+    "tab.inactiveForeground":              "{{ text.dim }}",
+    "tab.inactiveBackground":              "{{ surface.base }}",
+    "tab.hoverBorder":                     "{{ border.mid }}",
+    "tab.hoverBackground":                 "{{ surface.raised.med }}",
+    "tab.hoverForeground":                 "{{ text.mid }}",
+    "tab.border":                          "{{ border.none }}",
+    "tab.unfocusedActiveBackground":       "{{ surface.raised.low }}",
+    "tab.unfocusedActiveForeground":       "{{ text.dim }}",
+    "tab.unfocusedActiveBorder":           "{{ border.mid }}",
+    "tab.unfocusedInactiveForeground":     "{{ text.disabled }}",
+    "tab.unfocusedInactiveBackground":     "{{ surface.base }}",
+    "tab.unfocusedActiveBorderTop":        "{{ border.none }}",
+    "tab.unfocusedHoverBackground":        "{{ surface.raised.med }}",
+    "tab.unfocusedHoverForeground":        "{{ text.mid }}",
+    "tab.unfocusedHoverBorder":            "{{ border.mid }}",
+    "tab.lastPinnedBorder":                "{{ border.mid }}",
+    "tab.activeModifiedBorder":            "{{ border.none }}",
+    "tab.inactiveModifiedBorder":          "{{ border.none }}",
+    "tab.unfocusedActiveModifiedBorder":   "{{ border.none }}",
+    "tab.unfocusedInactiveModifiedBorder": "{{ border.none }}",
+
+
+    /* Action Colors
+
+       Impacts
+       - tab close button
+       - right-top actions in git local working changes
+       - actions in editor search (ctrl+F)
+       https://code.visualstudio.com/api/references/theme-color#action-colors
+    */
+    
+    "toolbar.hoverBackground":  "{{ surface.raised.med }}",
+    "toolbar.hoverOutline":     "{{ border.none }}",
+    "toolbar.activeBackground": "{{ surface.raised.med }}",
+
+
+
+    /* Panels
+       e.g. Output, Debug Console, Terminal 
+    */
+    
+    "panel.background":              "{{ surface.base }}",
+    "panel.border":                  "{{ border.dim }}",
+    "panel.dropBorder":              "{{ border.mid }}",
+    "panelTitle.activeBorder":       "{{ border.base }}",
+    "panelTitle.activeForeground":   "{{ text.base }}",
+    "panelTitle.inactiveForeground": "{{ text.dim }}",
+    "panelInput.border":             "{{ border.mid }}",
+    "panelSection.border":           "{{ border.dim }}",
+    "panelSection.dropBackground":   "{{ surface.raised.low }}",
+    "panelSectionHeader.background": "{{ surface.base }}",
+    "panelSectionHeader.foreground": "{{ text.base }}",
+    "panelSectionHeader.border":     "{{ border.dim }}",
+
+
+    /* Editor
+
+
+       Sidenotes
+       editorInfo.foreground is also used as icon color in "Do you trust..." dialog
+       editorWarning.foreground is used for warning squiggles. Also used as warning color by Github Co-pilot VS Code plugin.
+       
+    */
+    "editor.background":              "{{ surface.base }}",
+    "editor.foreground":              "{{ text.base }}",
+    "editorLineNumber.foreground":    "{{ text.disabled }}",
+    "editorLink.activeForeground":    "{{ text.base }}",
+    "editor.lineHighlightBackground": "{{ surface.sunken }}",
+    "editor.lineHighlightBorder":     "{{ border.none }}",
+    "editor.selectionBackground":     "{{ surface.raised.med }}",
+    // selectionForeground does not seem to work
+    // "editor.selectionForeground":             "{{ undefined }}",
+    "editor.inactiveSelectionBackground":     "{{ surface.sunken }}",
+    // same content as selection
+    "editor.selectionHighlightBackground":    "{{ surface.none }}",
+    "editor.selectionHighlightBorder":        "{{ ui.accent1.base }}",
+    // current match
+    "editor.findMatchBackground":             "{{ surface.none }}",
+    "editor.findMatchBorder":                 "{{ ui.danger.base }}",
+    // other matches
+    "editor.findMatchHighlightBackground":    "{{ surface.raised.low }}",
+    "editor.findMatchHighlightBorder":        "{{ border.base }}",
+    // selection range when "Find in Selection" is applied
+    "editor.findRangeHighlightBackground":    "{{ surface.sunken}}", 
+    "editor.findRangeHighlightBorder":        "{{ border.none }}",
+    //background selection on hover
+    "editor.hoverHighlightBackground":        "{{ surface.raised.low }}",
+    // highlighting variables 
+    "editor.wordHighlightStrongBackground":   "{{ surface.none }}",
+    "editor.wordHighlightStrongBorder":       "{{ ui.accent1.base }}",
+    "editor.wordHighlightBackground":         "{{ surface.none }}",
+    "editor.wordHighlightBorder":             "{{ ui.accent2.base }}",
+    "editor.wordHighlightTextBackground":     "{{ surface.none }}",
+    "editor.wordHighlightTextBorder":         "{{ border.none }}",
+    
+    "editorUnicodeHighlight.border":          "{{ border.dim }}",
+    "editorUnicodeHighlight.background":      "{{ surface.base }}",
+
+    "editorWhitespace.foreground":         "{{ text.disabled }}",
+    "editorCursor.foreground":             "{{ text.mid }}",
+    "editorError.foreground":              "{{ ui.danger.mid }}",
+    "editorWarning.foreground":            "{{ ui.warning.mid }}",
+    "editorHint.foreground":               "{{ ui.success.mid }}",
+    "editorInfo.foreground":               "{{ ui.info.mid }}",
+    "editorGutter.addedBackground":        "{{ ui.success.base }}",
+    "editorGutter.deletedBackground":      "{{ ui.danger.base }}",
+    "editorGutter.modifiedBackground":     "{{ ui.warning.base }}",
+    "editorIndentGuide.background1":       "{{ border.dim }}{{ opacity.med }}",
+    "editorIndentGuide.activeBackground1": "{{ border.mid }}",
+    "editorRuler.foreground":              "{{ text.disabled }}",
+    "editorCodeLens.foreground":           "{{ surface.raised.low }}",
+    "editorHoverWidget.background":        "{{ surface.base }}",
+    "editorHoverWidget.border":            "{{ border.dim }}",
+
+    "editorStickyScroll.background":      "{{ surface.base }}",
+    "editorStickyScrollHover.background": "{{ surface.raised.low }}",
+    
+
+    
+    /* Bracket matching and bracket pair colorization
+
+    Bracket pair colorization introduced in VS Code v1.67:
+    https://code.visualstudio.com/updates/v1_67#_editor   
+    */
+    
+    "editorBracketMatch.background":          "{{ surface.base }}",
+    "editorBracketMatch.border":              "{{ border.mid }}",
+    
+ 
+    "editorBracketHighlight.foreground1":     "{{ text.dim }}",
+    "editorBracketHighlight.foreground2":     "{{ syntax.01.base }}",
+    "editorBracketHighlight.foreground3":     "{{ syntax.02.base }}",
+    "editorBracketHighlight.foreground4":     "{{ syntax.03.base }}",
+    "editorBracketHighlight.foreground5":     "{{ syntax.04.base }}",
+    "editorBracketHighlight.foreground6":     "{{ syntax.06.base }}",
+    "editorBracketHighlight.unexpectedBracket.foreground": "{{ ui.danger.mid }}",
+    "editorBracketPairGuide.activeBackground1": "{{ text.none }}",
+    "editorBracketPairGuide.activeBackground2": "{{ text.none }}",
+    "editorBracketPairGuide.activeBackground3": "{{ text.none }}",
+    "editorBracketPairGuide.activeBackground4": "{{ text.none }}",
+    "editorBracketPairGuide.activeBackground5": "{{ text.none }}",
+    "editorBracketPairGuide.activeBackground6": "{{ text.none }}",
+    "editorBracketPairGuide.background1":     "{{ text.none }}",
+    "editorBracketPairGuide.background2":     "{{ text.none }}",
+    "editorBracketPairGuide.background3":     "{{ text.none }}",
+
+
+
+    /* Diff Editor
+       https://code.visualstudio.com/api/references/theme-color#diff-editor-colors
+    */
+    "diffEditor.diagonalFill":                 "{{ surface.sunken }}",
+    "diffEditor.insertedTextBorder":           "{{ border.none }}", //it impacts line as well
+    "diffEditor.removedTextBorder":            "{{ border.none }}",
+    "diffEditor.border":                       "{{ border.none }}", //border between diffs
+    "diffEditor.insertedTextBackground":       "{{ ui.success.dim }}{{ opacity.high }}",
+    "diffEditor.removedTextBackground":        "{{ ui.danger.dim }}{{ opacity.high }}",
+    "diffEditor.insertedLineBackground":       "{{ ui.success.dim }}{{ opacity.med-low }}",
+    "diffEditor.removedLineBackground":        "{{ ui.danger.dim }}{{ opacity.med-low }}",
+    "diffEditorGutter.insertedLineBackground": "{{ ui.success.dim }}{{ opacity.med-low }}",
+    "diffEditorGutter.removedLineBackground":  "{{ ui.danger.dim }}{{ opacity.med-low }}",
+    "diffEditorOverview.insertedForeground":   "{{ ui.success.dim }}{{ opacity.high }}",
+    "diffEditorOverview.removedForeground":    "{{ ui.danger.dim }}{{ opacity.high }}",
+    
+    
+    /* Merge conflicts, Merge editor
+     */
+    "merge.border":                                        "{{ border.none }}",
+    "merge.currentHeaderBackground":                       "{{ ui.accent2.mid }}{{ opacity.med-low }}",
+    "merge.currentContentBackground":                      "{{ ui.accent2.mid }}{{ opacity.low }}",
+    "merge.incomingHeaderBackground":                      "{{ ui.accent3.mid }}{{ opacity.med-low }}",
+    "merge.incomingContentBackground":                     "{{ ui.accent3.mid }}{{ opacity.low }}",
+    "merge.commonContentBackground":                       "{{ surface.none }}",
+    "merge.commonHeaderBackground":                        "{{ surface.none }}",
+    "editorOverviewRuler.currentContentForeground":        "{{ ui.accent2.mid }}{{ opacity.med-low }}",
+    "editorOverviewRuler.incomingContentForeground":       "{{ ui.accent3.mid }}{{ opacity.med-low }}",
+    "editorOverviewRuler.commonContentForeground":         "{{ border.none }}",
+    "mergeEditor.change.background":                       "{{ surface.base }}",
+    "mergeEditor.change.word.background":                  "{{ surface.sunken }}",
+    "mergeEditor.conflict.unhandledUnfocused.border":      "{{ ui.danger.base }}",
+    "mergeEditor.conflict.unhandledFocused.border":        "{{ ui.danger.base }}",
+    "mergeEditor.conflict.handledUnfocused.border":        "{{ ui.success.base }}",
+    "mergeEditor.conflict.handledFocused.border":          "{{ ui.success.base }}",
+    "mergeEditor.conflict.unhandled.minimapOverViewRuler": "{{ ui.danger.base }}",
+    "mergeEditor.conflict.handled.minimapOverViewRuler":   "{{ ui.success.base }}",
+    "mergeEditor.conflictingLines.background":             "{{ surface.base }}",
+    "mergeEditor.changeBase.background":                   "{{ surface.none }}",    // not tested
+    "mergeEditor.changeBase.word.background":              "{{ surface.none }}",    // not tested
+    "mergeEditor.conflict.input1.background":              "{{ surface.none }}",    // not tested
+    "mergeEditor.conflict.input2.background":              "{{ surface.none }}",    // not tested
+
+
+
+
+
+   
+
+
+
+    /* Widget
+    */
+    "editorWidget.background":                 "{{ surface.sunken }}",
+    "editorWidget.border":                     "{{ border.dim }}",
+    "editorSuggestWidget.background":          "{{ surface.base }}",
+    "editorSuggestWidget.foreground":          "{{ text.base }}",
+    "editorSuggestWidget.highlightForeground": "{{ ui.accent1.mid }}",
+    "editorSuggestWidget.selectedBackground":  "{{ surface.raised.low }}",
+    "editorSuggestWidget.border":              "{{ border.dim }}",
+
+    /* Peek view
+
+       e.g. right-click → Peek → Peek definition
+    */
+    "peekView.border":                         "{{ border.dim }}",
+    "peekViewEditor.background":               "{{ surface.base }}",
+    "peekViewEditorGutter.background":         "{{ surface.base }}",
+    "peekViewEditor.matchHighlightBackground": "{{ surface.raised.low }}",
+    "peekViewEditor.matchHighlightBorder":     "{{ border.none }}",
+    "peekViewResult.background":               "{{ surface.sunken }}",
+    "peekViewResult.fileForeground":           "{{ text.mid }}",
+    "peekViewResult.lineForeground":           "{{ text.dim }}",
+    "peekViewResult.matchHighlightBackground": "{{ surface.raised.low }}",
+    "peekViewResult.selectionBackground":      "{{ surface.raised.low }}",
+    "peekViewResult.selectionForeground":      "{{ text.base }}",
+    "peekViewEditorStickyScroll.background":   "{{ surface.base }}",
+    "peekViewTitle.background":                "{{ surface.base }}",
+    "peekViewTitleDescription.foreground":     "{{ text.mid }}",
+    "peekViewTitleLabel.foreground":           "{{ text.base }}",
+
+
+
+    /* Debugging Interfaces 
+
+       https://code.visualstudio.com/api/references/theme-color#debug-colors
+    */
+   
+    "debugExceptionWidget.background":             "{{ ui.danger.mid }}{{ opacity.med-low }}",
+    "debugExceptionWidget.border":                 "{{ ui.danger.mid }}",
+    "debugToolBar.background":                     "{{ surface.base }}",
+    "debugToolBar.border":                         "{{ border.dim }}",
+    "editor.stackFrameHighlightBackground":        "{{ surface.raised.med }}",
+    "editor.focusedStackFrameHighlightBackground": "{{ surface.raised.low }}",
+    "editor.inlineValuesForeground":               "{{ text.mid }}",
+    "editor.inlineValuesBackground":               "{{ surface.none }}",
+    "debugView.exceptionLabelForeground":          "{{ text.on-ui }}",
+    "debugView.exceptionLabelBackground":          "{{ ui.danger.mid }}",
+    "debugView.stateLabelForeground":              "{{ text.base }}",
+    "debugView.stateLabelBackground":              "{{ surface.sunken }}",
+    "debugView.valueChangedHighlight":             "{{ ui.accent2.mid }}{{ opacity.med }}",
+    "debugTokenExpression.name":                   "{{ syntax.05.base }}",
+    "debugTokenExpression.value":                  "{{ syntax.04.base }}",
+    "debugTokenExpression.string":                 "{{ syntax.06.base }}",
+    "debugTokenExpression.boolean":                "{{ syntax.07.base }}",
+    "debugTokenExpression.number":                 "{{ syntax.03.base }}",
+    "debugTokenExpression.error":                  "{{ syntax.01.base }}",
+
+
+    
+    /* Debug Icons colors
+
+       https://code.visualstudio.com/api/references/theme-color#debug-icons-colors
+    */
+    "debugIcon.breakpointForeground":                  "{{ ui.danger.base }}",
+    "debugIcon.breakpointDisabledForeground":          "{{ icon.dim }}",
+    "debugIcon.breakpointUnverifiedForeground":        "{{ icon.mid }}",
+    "debugIcon.breakpointCurrentStackframeForeground": "{{ ui.warning.base }}",
+    "debugIcon.breakpointStackframeForeground":        "{{ icon.mid }}",
+    "debugIcon.startForeground":                       "{{ ui.success.base }}",
+    "debugIcon.pauseForeground":                       "{{ ui.accent2.base }}",
+    "debugIcon.stopForeground":                        "{{ ui.danger.base }}",
+    "debugIcon.disconnectForeground":                  "{{ ui.accent2.base }}",
+    "debugIcon.restartForeground":                     "{{ ui.success.base }}",
+    "debugIcon.continueForeground":                    "{{ ui.accent2.base }}",
+    "debugIcon.stepOverForeground":                    "{{ ui.accent2.base }}",
+    "debugIcon.stepIntoForeground":                    "{{ ui.accent2.base }}",
+    "debugIcon.stepOutForeground":                     "{{ ui.accent2.base }}",
+    "debugIcon.stepBackForeground":                    "{{ ui.accent2.base }}",
+    "debugConsole.infoForeground":                     "{{ ui.accent1.base }}",
+    "debugConsole.warningForeground":                  "{{ ui.warning.base }}",
+    "debugConsole.errorForeground":                    "{{ ui.danger.base }}",
+    "debugConsole.sourceForeground":                   "{{ ui.accent2.base }}",
+    "debugConsoleInputIcon.foreground":                "{{ icon.mid }}",
+
+
+
+
+    /* Symbol Icons Colors
+
+       The theme colors for symbol icons that appears in the Outline view, breadcrumb navigation, and suggest widget
+       https://code.visualstudio.com/api/references/theme-color#symbol-icons-colors
+    */
+    "symbolIcon.arrayForeground":            "{{ icon.dim }}",
+    "symbolIcon.booleanForeground":          "{{ icon.dim }}",
+    "symbolIcon.classForeground":            "{{ icon.dim }}",
+    "symbolIcon.colorForeground":            "{{ icon.dim }}",
+    "symbolIcon.constantForeground":         "{{ icon.dim }}",
+    "symbolIcon.constructorForeground":      "{{ icon.dim }}",
+    "symbolIcon.enumeratorForeground":       "{{ icon.dim }}",
+    "symbolIcon.enumeratorMemberForeground": "{{ icon.dim }}",
+    "symbolIcon.eventForeground":            "{{ icon.dim }}",
+    "symbolIcon.fieldForeground":            "{{ icon.dim }}",
+    "symbolIcon.fileForeground":             "{{ icon.dim }}",
+    "symbolIcon.folderForeground":           "{{ icon.dim }}",
+    "symbolIcon.functionForeground":         "{{ icon.dim }}",
+    "symbolIcon.interfaceForeground":        "{{ icon.dim }}",
+    "symbolIcon.keyForeground":              "{{ icon.dim }}",
+    "symbolIcon.keywordForeground":          "{{ icon.dim }}",
+    "symbolIcon.methodForeground":           "{{ icon.dim }}",
+    "symbolIcon.moduleForeground":           "{{ icon.dim }}",
+    "symbolIcon.namespaceForeground":        "{{ icon.dim }}",
+    "symbolIcon.nullForeground":             "{{ icon.dim }}",
+    "symbolIcon.numberForeground":           "{{ icon.dim }}",
+    "symbolIcon.objectForeground":           "{{ icon.dim }}",
+    "symbolIcon.operatorForeground":         "{{ icon.dim }}",
+    "symbolIcon.packageForeground":          "{{ icon.dim }}",
+    "symbolIcon.propertyForeground":         "{{ icon.dim }}",
+    "symbolIcon.referenceForeground":        "{{ icon.dim }}",
+    "symbolIcon.snippetForeground":          "{{ icon.dim }}",
+    "symbolIcon.stringForeground":           "{{ icon.dim }}",
+    "symbolIcon.structForeground":           "{{ icon.dim }}",
+    "symbolIcon.textForeground":             "{{ icon.dim }}",
+    "symbolIcon.typeParameterForeground":    "{{ icon.dim }}",
+    "symbolIcon.unitForeground":             "{{ icon.dim }}",
+    "symbolIcon.variableForeground":         "{{ icon.dim }}",
+
+
+    /* Integrated terminal
+
+       https://code.visualstudio.com/api/references/theme-color#integrated-terminal-colors
+    */ 
+    "terminal.ansiBlack":                    "{{ tint.90 }}",       // 30
+    "terminal.ansiRed":                      "{{ syntax.01.dim }}", // 31
+    "terminal.ansiGreen":                    "{{ syntax.04.dim }}", // 32
+    "terminal.ansiYellow":                   "{{ syntax.03.dim }}", // 33
+    "terminal.ansiBlue":                     "{{ syntax.06.dim }}", // 34
+    "terminal.ansiMagenta":                  "{{ syntax.07.dim }}", // 35
+    "terminal.ansiCyan":                     "{{ syntax.05.dim }}", // 36
+    "terminal.ansiWhite":                    "{{ tint.30 }}",       // 37
+    "terminal.ansiBrightBlack":              "{{ tint.60 }}",       // 90
+    "terminal.ansiBrightRed":                "{{ syntax.01.base }}",// 91
+    "terminal.ansiBrightGreen":              "{{ syntax.04.base }}",// 92
+    "terminal.ansiBrightYellow":             "{{ syntax.03.base }}",// 93
+    "terminal.ansiBrightBlue":               "{{ syntax.06.base }}",// 94
+    "terminal.ansiBrightMagenta":            "{{ syntax.07.base }}",// 95
+    "terminal.ansiBrightCyan":               "{{ syntax.05.base }}",// 96
+    "terminal.ansiBrightWhite":              "{{ tint.20 }}",       // 97
+    "terminal.foreground":                   "{{ text.base }}",     // 39
+    "terminal.background":                   "{{ surface.base }}",
+    "terminal.border":                       "{{ border.dim }}",
+    "terminal.dropBackground":               "{{ surface.raised.low }}",
+    "terminal.selectionBackground":          "{{ surface.raised.med }}",
+    "terminal.tab.activeBorder":             "{{ border.base }}",
+    "terminalCursor.background":             "{{ surface.sunken }}",
+    "terminalCursor.foreground":             "{{ text.mid }}",
+    "terminalCommandDecoration.defaultBackground": "{{ surface.sunken }}",
+    "terminalCommandDecoration.successBackground": "{{ ui.success.mid }}",
+    "terminalCommandDecoration.errorBackground":   "{{ ui.danger.mid }}",
+    "terminal.findMatchBackground":                "{{ ui.accent2.base }}{{ opacity.med-low }}",
+    "terminal.findMatchHighlightBackground":       "{{ surface.raised.med }}",
+
+
+
+
+    /* Notification
+       https://code.visualstudio.com/api/references/theme-color#notification-colors
+    */
+    "notificationCenter.border":             "{{ border.dim }}",
+    "notificationCenterHeader.foreground":   "{{ text.base }}",
+    "notificationCenterHeader.background":   "{{ surface.base }}",
+    "notificationToast.border":              "{{ border.dim }}",
+    "notifications.foreground":              "{{ text.base }}",
+    "notifications.background":              "{{ surface.base }}",
+    "notifications.border":                  "{{ border.dim }}",
+    "notificationLink.foreground":           "{{ ui.accent1.base }}",
+    "notificationsErrorIcon.foreground":     "{{ ui.danger.base }}",
+    "notificationsWarningIcon.foreground":   "{{ ui.warning.base }}",
+    "notificationsInfoIcon.foreground":      "{{ ui.info.base }}",
+
+    /* Extensions
+    */
+    "extensionButton.prominentForeground":      "{{ text.on-ui }}",
+    "extensionButton.prominentBackground":      "{{ ui.button.bg  }}",
+    "extensionButton.prominentHoverBackground": "{{ ui.button.bg-hover }}",
+    "extensionBadge.remoteBackground":          "{{ ui.button.bg  }}",
+    "extensionBadge.remoteForeground":          "{{ text.on-ui }}",
+    "extensionIcon.starForeground":             "{{ icon.dim }}",
+    "extensionIcon.verifiedForeground":         "{{ ui.accent1.base }}", 
+    "extensionIcon.preReleaseForeground":       "{{ ui.accent2.base }}",
+
+    /* Menu
+    */
+    "menubar.selectionForeground":           "{{ text.base }}",
+    "menubar.selectionBackground":           "{{ surface.raised.low }}", 
+    "menubar.selectionBorder":               "{{ border.none }}",
+    "menu.foreground":                       "{{ text.base }}",
+    "menu.background":                       "{{ surface.sunken }}",
+    "menu.selectionForeground":              "{{ text.base }}",
+    "menu.selectionBackground":              "{{ surface.raised.low }}",
+    "menu.selectionBorder":                  "{{ border.none }}",
+    "menu.separatorBackground":              "{{ border.dim }}",
+    "menu.border":                           "{{ border.dim }}",
+
+    /* Lightbulb
+    */
+
+    "editorLightBulb.foreground":            "{{ ui.warning.base }}",
+    "editorLightBulbAutoFix.foreground":     "{{ ui.warning.base }}",
+
+  },
+  "tokenColors": [
+    {
+      "scope": "emphasis",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "strong",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "header",
+      "settings": {
+        "foreground": "{{ syntax.06.dim }}"
+      }
+    },
+    {
+      "scope": [
+        "comment",
+        "punctuation.definition.comment",
+        "string.comment.buffered.block.pug",
+        "string.quoted.docstring.multi.python"
+      ],
+      "settings": {
+        "foreground": "{{ text.dim }}",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "constant",
+        "support.constant",
+        "variable.arguments"
+      ],
+      "settings": {
+        "foreground": "{{ text.base }}"
+      }
+    },
+    {
+      "scope": "constant.rgb-value",
+      "settings": {
+        "foreground": "{{ text.base }}"
+      }
+    },
+    {
+      "scope": "entity.name.selector",
+      "settings": {
+        "foreground": "{{ syntax.05.base }}"
+      }
+    },
+    {
+      "scope": "entity.other.attribute-name",
+      "settings": {
+        "foreground": "{{ syntax.07.base }}"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.tag",
+        "punctuation.tag"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.04.base }}"
+      }
+    },
+    {
+      "scope": [
+        "invalid",
+        "invalid.illegal"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.01.dim }}"
+      }
+    },
+    {
+      "scope": "invalid.deprecated",
+      "settings": {
+        "foreground": "{{ syntax.07.dim }}"
+      }
+    },
+    {
+      "scope": "meta.selector",
+      "settings": {
+        "foreground": "{{ syntax.05.base }}"
+      }
+    },
+    {
+      "scope": "meta.preprocessor",
+      "settings": {
+        "foreground": "{{ syntax.02.base }}"
+      }
+    },
+    {
+      "scope": "meta.preprocessor.string",
+      "settings": {
+        "foreground": "{{ syntax.04.base }}"
+      }
+    },
+    {
+      "scope": "meta.preprocessor.numeric",
+      "settings": {
+        "foreground": "{{ syntax.04.base }}"
+      }
+    },
+    {
+      "scope": "meta.header.diff",
+      "settings": {
+        "foreground": "{{ syntax.02.base }}"
+      }
+    },
+    {
+      "scope": [
+        "storage",
+        "storage.type.function",
+        "keyword.control",
+
+      ],
+      "settings": {
+        "foreground": "{{ syntax.07.dim }}"
+      }
+    },
+    {
+      "settings": {
+        "foreground": "{{ syntax.01.base }}"
+      }
+    },
+    {
+      "scope": "storage.modifier",
+      "settings": {
+        "foreground": "{{ syntax.02.base }}"
+      }
+    },
+    {
+      "scope": "string",
+      "settings": {
+        "foreground": "{{ syntax.08.base }}"
+      }
+    },
+    {
+      "scope": "string.tag",
+      "settings": {
+        "foreground": "{{ syntax.04.base }}"
+      }
+    },
+    {
+      "scope": "string.value",
+      "settings": {
+        "foreground": "{{ syntax.04.base }}"
+      }
+    },
+    {
+      "scope": "string.regexp",
+      "settings": {
+        "foreground": "{{ syntax.02.base }}"
+      }
+    },
+    {
+      "scope": "string.escape",
+      "settings": {
+        "foreground": "{{ syntax.01.base }}"
+      }
+    },
+    {
+      "scope": "string.quasi",
+      "settings": {
+        "foreground": "{{ syntax.05.base }}"
+      }
+    },
+    {
+      "scope": "string.entity",
+      "settings": {
+        "foreground": "{{ syntax.04.base }}"
+      }
+    },
+    {
+      "scope": "object",
+      "settings": {
+        "foreground": "{{ text.base }}"
+      }
+    },
+    {
+      "scope": "module.node",
+      "settings": {
+        "foreground": "{{ syntax.06.base }}"
+      }
+    },
+    {
+      "scope": "support.type.property-name",
+      "settings": {
+        "foreground": "{{ syntax.05.dim }}"
+      }
+    },
+    {
+      "scope": "keyword",
+      "settings": {
+        "foreground": "{{ syntax.01.base }}"
+      }
+    },
+
+    {
+      "scope": "keyword.control.module",
+      "settings": {
+        "foreground": "{{ syntax.05.base }}"
+      }
+    },
+    {
+      "scope": "keyword.control.less",
+      "settings": {
+        "foreground": "{{ syntax.03.base }}"
+      }
+    },
+    {
+      "scope": "keyword.operator",
+      "settings": {
+        "foreground": "{{ text.mid }}"
+      }
+    },
+    {
+      "scope": "keyword.operator.new",
+      "settings": {
+        "foreground": "{{ text.mid }}"
+      }
+    },
+    // keyword.other.unit impacts CSS/SCSS, anything else?
+    // if yes, I can target it as "source.css keyword.other..."
+    {
+      "scope": "keyword.other.unit",
+      "settings": {
+        "foreground": "{{ text.mid }}"
+      }
+    },
+    {
+      "scope": "metatag.php",
+      "settings": {
+        "foreground": "{{ syntax.02.base }}"
+      }
+    },
+    {
+      "scope": "support.function.git-rebase",
+      "settings": {
+        "foreground": "{{ syntax.05.dim }}"
+      }
+    },
+    {
+      "scope": "constant.sha.git-rebase",
+      "settings": {
+        "foreground": "{{ syntax.04.base }}"
+      }
+    },
+    {
+      "name": "Types declaration and references",
+      "scope": [
+        "meta.type.name",
+        "meta.return.type",
+        "meta.return-type",
+        "meta.cast",
+        "meta.type.annotation",
+        "support.type",
+        "storage.type.cs",
+        "variable.class"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.03.base }}"
+      }
+    },
+    {
+      "scope": [
+        "variable.this",
+        "support.variable"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.07.base }}"
+      }
+    },
+    {
+      "scope": [
+        "entity.name",
+        "entity.static",
+        "entity.name.class.static.function",
+        "entity.name.function",
+        "entity.name.class",
+        "entity.name.type"
+      ],
+      "settings": {
+        "foreground": "{{ text.base }}"
+      }
+    },
+    {
+      "name": "Function declarations",
+      "scope": [
+        "entity.function",
+        "entity.name.function.static"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.05.base }}"
+      }
+    },
+    {
+      "scope": "entity.name.function.function-call",
+      "settings": {
+        "foreground": "{{ syntax.05.base }}"
+      }
+    },
+    {
+      "scope": "support.function.builtin",
+      "settings": {
+        "foreground": "{{ text.mid }}"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.method",
+        "entity.name.method.function-call",
+        "entity.name.static.function-call"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.05.dim }}"
+      }
+    },
+    {
+      "scope": "brace",
+      "settings": {
+        "foreground": "{{ text.base }}"
+      }
+    },
+    {
+      "name": "variables",
+      "scope": [
+        "meta.parameter.type.variable",
+        "variable.parameter",
+        "variable.name",
+        "variable.other",
+        "variable",
+        "string.constant.other.placeholder"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.06.base }}"
+      }
+    },
+    {
+      "scope": "prototype",
+      "settings": {
+        "foreground": "{{ syntax.07.base }}"
+      }
+    },
+    {
+      "scope": "storage.type.class",
+      "settings": {
+        "foreground": "{{ syntax.01.base }}"
+      }
+    },
+    {
+      "scope": [
+        "punctuation",
+        "attribute_value",
+        "meta.tag.other"
+      ],
+      "settings": {
+        "foreground": "{{ text.dim }}"
+      }
+    },
+    {
+      "scope": "punctuation.quoted",
+      "settings": {
+        "foreground": "{{ text.base }}"
+      }
+    },
+    {
+      "scope": "punctuation.quasi",
+      "settings": {
+        "foreground": "{{ syntax.01.base }}"
+      }
+    },
+    {
+      "name": "URL",
+      "scope": [
+        "*url*",
+        "*link*",
+        "*uri*"
+      ],
+      "settings": {
+        "fontStyle": "underline"
+      }
+    },
+    // ----------------------------------------
+    //            LANGUAGE SPECIFIC
+    // ----------------------------------------
+    // PYTHON ----------------------------------------
+    {
+      "scope": [
+        "source.python",
+        "meta.function-call.arguments"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.06.base }}"
+      }
+    },
+    {
+      "name": "Python function",
+      "scope": [
+        "meta.function.python",
+        "entity.name.function.python"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.03.base }}"
+      }
+    },
+    {
+      "name": "Python Function and Class definition keywords",
+      "scope": [
+        "storage.type.function.python",
+        "storage.modifier.declaration",
+        "storage.type.class.python"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.01.base }}"
+      }
+    },
+    {
+      "scope": [
+        "meta.function-call.generic"
+      ],
+      
+      "settings": {
+        "foreground": "{{ text.base }}"
+      }
+    },
+    {
+      "name": "Python Function decorator",
+      "scope": "entity.name.function.decorator",
+      "settings": {
+        "foreground": "{{ syntax.03.base }}",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Python Support Tyype",
+      "scope": "support.type.exception.python",
+      "settings": {
+        "foreground": "{{ text.mid }}",
+      }
+    },
+    {
+      "name": "Python ALL CAPS",
+      "scope": "constant.other.caps",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    // SHELL ----------------------------------------
+    {
+      "scope": "keyword.operator.logical",
+      "settings": {
+        "foreground": "{{ text.dim }}"
+      }
+    },
+    {
+      "scope": "punctuation.definition.logical-expression",
+      "settings": {
+        "foreground": "{{ syntax.02.base }}"
+      }
+    },
+    {
+      "scope": "string.inperpolated.dollar.shell",
+      "settings": {
+        "foreground": "{{ syntax.02.base }}"
+      }
+    },
+    {
+      "scope": [
+        "string.interpolated.dollar.shell",
+        "string.interpolated.backtick.shell"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.05.base }}"
+      }
+    },
+    // C C++ ----------------------------------------
+    {
+      "scope": "keyword.control.directive",
+      "settings": {
+        "foreground": "{{ syntax.05.base }}"
+      }
+    },
+    {
+      "scope": "support.function.C99",
+      "settings": {
+        "foreground": "{{ syntax.03.base }}"
+      }
+    },
+    // C# ----------------------------------------
+    {
+      "name": "C# functions & namespace",
+      "scope": [
+        "meta.function.cs",
+        "entity.name.function.cs",
+        "entity.name.type.namespace.cs"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.04.base }}"
+      }
+    },
+    {
+      "name": "C# Variables",
+      "scope": [
+        "keyword.other.using.cs",
+        "entity.name.variable.field.cs",
+        "entity.name.variable.local.cs",
+        "variable.other.readwrite.cs"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.05.base }}"
+      }
+    },
+    {
+      "name": "C# This",
+      "scope": [
+        "keyword.other.this.cs",
+        "keyword.other.base.cs"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.07.base }}"
+      }
+    },
+    // MAKEFILE ----------------------------------------
+    {
+      "scope": "meta.scope.prerequisites",
+      "settings": {
+        "foreground": "{{ syntax.03.base }}"
+      }
+    },
+    {
+      "scope": "entity.name.function.target",
+      "settings": {
+        "foreground": "{{ syntax.04.base }}",
+        "fontStyle": "bold"
+      }
+    },
+    // JAVA ----------------------------------------
+    {
+      "name": "coloring of the Java import and package identifiers",
+      "scope": [
+        "storage.modifier.import.java",
+        "storage.modifier.package.java"
+      ],
+      "settings": {
+        "foreground": "{{ text.mid }}"
+      }
+    },
+    {
+      "scope": [
+        "keyword.other.import.java",
+        "keyword.other.package.java"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.05.base }}"
+      }
+    },
+    {
+      "scope": "storage.type.java",
+      "settings": {
+        "foreground": "{{ syntax.03.base }}"
+      }
+    },
+    {
+      "scope": "storage.type.annotation",
+      "settings": {
+        "foreground": "{{ syntax.06.base }}",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "keyword.other.documentation.javadoc",
+      "settings": {
+        "foreground": "{{ syntax.05.base }}"
+      }
+    },
+    {
+      "scope": "comment.block.javadoc variable.parameter.java",
+      "settings": {
+        "foreground": "{{ syntax.04.base }}",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "source.java variable.other.object",
+        "source.java variable.other.definition.java"
+      ],
+      "settings": {
+        "foreground": "{{ text.base }}"
+      }
+    },
+    // LISP ----------------------------------------
+    {
+      "name": "Lisp optional function parameters",
+      "scope": "meta.function-parameters.lisp",
+      "settings": {
+        "foreground": "{{ syntax.03.base }}"
+      }
+    },
+    // MARKUP (MARKDOWN) --------------------------------
+    {
+      "scope": "markup.underline",
+      "settings": {
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "scope": "string.other.link.title.markdown",
+      "settings": {
+        "foreground": "{{ text.base }}",
+      }
+    },
+    {
+      "scope": [
+        "markup.underline.link",
+      ],
+      "settings": {
+        "foreground": "{{ syntax.07.base }}"
+      }
+    },
+    {
+      "scope": [
+        "markup.heading.markdown",
+        "entity.name.section.markdown"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.08.base }}"
+      }
+    },
+    {
+      "scope": [
+        "support.function.text.markdown.notes.wiki-link.title",
+        "string.other.link"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.02.base }}"
+      }
+    },
+    {
+      "scope": "markup.bold",
+      "settings": {
+        "foreground": "{{ syntax.03.base }}"
+      }
+    },
+    {
+      "scope": "markup.italic",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "{{ syntax.03.base }}"
+      }
+    },
+    {
+      "scope": "markup.inserted",
+      "settings": {
+        "foreground": "{{ syntax.04.base }}"
+      }
+    },
+    {
+      "scope": ["markup.deleted"],
+      "settings": {
+        "foreground": "{{ text.dim }}"
+      }
+    },
+    {
+      "scope": [
+        "markup.strikethrough.markdown",
+        "punctuation.definition.strikethrough.markdown"
+      ],
+      "settings": {
+        "foreground": "{{ text.dim }}",
+      }
+    },
+    {
+      "scope": "markup.changed",
+      "settings": {
+        "foreground": "{{ syntax.02.base }}"
+      }
+    },
+    {
+      "scope": [
+        "markup.inline.raw",
+        "markup.fenced_code.block"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.04.base }}"
+      }
+    },
+
+
+    {
+      "scope": [
+        "text.markdown.notes.tag",
+      ],
+      "settings": {
+        "foreground": "{{ syntax.06.base }}"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.definition.list.begin.markdown",
+        "markup.quote.markdown",
+        "punctuation.definition.heading.markdown",
+        "punctuation.definition.wiki-link",
+        "punctuation.definition.string.begin.markdown",
+        "punctuation.definition.string.end.markdown",
+        "punctuation.definition.metadata.markdown",
+        "punctuation.definition.italic.markdown",
+        "punctuation.definition.bold.markdown",
+      ],
+      "settings": {
+        "foreground": "{{ text.dim }}"
+      }
+    },
+    // Mermaid -------------------------------------
+    {
+      "scope": [
+        "keyword.control.mermaid",
+      ],
+      "settings": {
+        "foreground": "{{ syntax.07.base }}"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type.class.mermaid",
+      ],
+      "settings": {
+        "foreground": "{{ syntax.03.base }}"
+      }
+    },
+    {
+      "scope": [
+        "storage.type.mermaid",
+      ],
+      "settings": {
+        "foreground": "{{ syntax.05.base }}"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function.mermaid",
+      ],
+      "settings": {
+        "foreground": "{{ syntax.02.base }}"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.parenthesis.open.mermaid",
+      ],
+      "settings": {
+        "foreground": "{{ syntax.04.base }}"
+      }
+    },
+    
+    // JSON ----------------------------------------
+    {
+      "scope": "string.quoted.double.json",
+      "settings": {
+        "foreground": "{{ text.base }}"
+      }
+    },
+    {
+      "name": "JSON Level 0",
+      "scope": [
+        "source.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.01.base }}"
+      }
+    },
+    {
+      "name": "JSON Level 1",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.02.base }}"
+      }
+    },
+    {
+      "name": "JSON Level 2",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.03.base }}"
+      }
+    },
+    {
+      "name": "JSON Level 3",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.04.base }}"
+      }
+    },
+    {
+      "name": "JSON Level 4",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.06.base }}"
+      }
+    },
+    // CSS / SCSS ----------------------------------
+    {
+      "scope": [
+        "entity.other.attribute-name.class.css",
+      ],
+      "settings": {
+        "foreground": "{{ syntax.03.base }}"
+      }
+    },  
+    {
+      "scope": [
+        "entity.name.tag.css",
+      ],
+      "settings": {
+        "foreground": "{{ syntax.04.base }}"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.tag.reference.scss",
+        "entity.name.tag.wildcard.scss",
+        "entity.other.attribute-name.pseudo-class.css",
+        "entity.other.attribute-name.parent-selector-suffix.css",
+        "punctuation.definition.entity.css",
+        "source.css.scss",
+        "entity.name.tag.custom.scss"
+
+      ],
+      "settings": {
+        "foreground": "{{ syntax.07.dim }}"
+      }
+    },
+    {
+      "scope": [
+        "support.type.property-name.css",
+        "meta.property-name.scss",
+        "source.css.scss"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.07.base }}"
+      }
+    },
+
+
+    {
+      "scope": [
+        "source.css support.function.transform",
+        "source.css support.function.timing-function",
+        "source.css support.function.misc",
+        "punctuation.definition.keyword.scss",
+        "keyword.control.at-rule.media.scss",
+        "keyword.control.at-rule.mixin.scss",
+        "keyword.control.else.scss",
+        "keyword.control.if.scss",
+        "keyword.control.content.scss",
+        "keyword.operator.logical.scss",
+      ],
+      "settings": {
+        "foreground": "{{ syntax.02.base }}"
+      }
+    },
+
+    {
+      "scope": [
+        "variable.css",
+        "variable.scss",
+        // "variable.argument.css"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.06.base }}"
+      }
+    },
+
+
+    // HTML / XML ----------------------------------------
+    {
+      "scope": [
+        "punctuation.definition.tag",
+      ],
+      "settings": {
+        "foreground": "{{ text.dim }}"
+      }
+    },
+    {
+      "scope": [
+        "text.html punctuation.tag"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.01.base }}",
+      }
+    },
+    {
+      "scope": [
+        "string.quoted.double.html"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.07.base }}",
+      }
+    },
+    {
+      "scope": [
+        "entity.other.attribute-name.html"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.06.base }}",
+      }
+    },
+    // pug ----------------------------------------------
+    {
+      "scope": [
+        "entity.other.attribute-name.class.pug"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.03.base }}",
+      }
+    },  
+    // vue ---------------------------------------------- 
+    {
+      "scope": [
+        "meta.directive.vue"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.05.base }}",
+      }
+    },  
+    // javascript ---------------------------------------
+    {
+      "scope": [
+        "source.js",
+        "source.ts"
+      ],
+      "settings": {
+        "foreground": "{{ text.mid }}"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type.class.js"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.03.base }}"
+      }
+    },
+    {
+      "scope": [
+        "variable.other.property.js"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.05.base }}"
+      }
+    },
+    {
+      "scope": [
+        "meta.object-literal.key.js"
+      ],
+      "settings": {
+        "foreground": "{{ text.base }}"
+      }
+    },
+ 
+
+    // golang --------------------------------------------
+    {
+      "scope": [
+        "source.go storage.type"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.03.base }}"
+      }
+    },
+    {
+      "scope": [
+        "source.go entity.name.import"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.04.base }}"
+      }
+    },
+    {
+      "scope": [
+        "source.go keyword.package",
+        "source.go keyword.import"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.05.base }}"
+      }
+    },
+    {
+      "scope": [
+        "source.go keyword.interface",
+        "source.go keyword.struct"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.06.base }}"
+      }
+    },
+    {
+      "scope": [
+        "source.go entity.name.type"
+      ],
+      "settings": {
+        "foreground": "{{ text.base }}"
+      }
+    },
+    {
+      "scope": [
+        "source.go entity.name.function"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.07.base }}"
+      }
+    },
+    // cucumber
+    {
+      "scope": [
+        "keyword.control.cucumber.table"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.06.base }}"
+      }
+    },
+    // REASONML ------------------------------------
+    {
+      "name": "ReasonML String",
+      "scope": [
+        "source.reason string.double",
+        "source.reason string.regexp"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.04.base }}"
+      }
+    },
+    {
+      "name": "ReasonML equals sign",
+      "scope": [
+        "source.reason keyword.control.less"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.05.base }}"
+      }
+    },
+    {
+      "name": "ReasonML variable",
+      "scope": [
+        "source.reason entity.name.function"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.06.base }}"
+      }
+    },
+    {
+      "name": "ReasonML property",
+      "scope": [
+        "source.reason support.property-value",
+        "source.reason entity.name.filename"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.02.base }}"
+      }
+    },
+    // POWERSHELL ------------------------------------
+    {
+      "name": "Powershell member",
+      "scope": [
+        "source.powershell variable.other.member.powershell"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.02.base }}"
+      }
+    },
+    {
+      "name": "Powershell function",
+      "scope": [
+        "source.powershell support.function.powershell"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.03.base }}"
+      }
+    },
+    {
+      "name": "Powershell function attribute",
+      "scope": [
+        "source.powershell support.function.attribute.powershell"
+      ],
+      "settings": {
+        "foreground": "{{ text.mid }}"
+      }
+    },
+    {
+      "name": "Powershell hashtable member",
+      "scope": [
+        "source.powershell meta.hashtable.assignment.powershell variable.other.readwrite.powershell"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.02.base }}"
+      }
+    }
+  ],
+
+}

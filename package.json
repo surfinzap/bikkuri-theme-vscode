@@ -1,12 +1,12 @@
 {
   "name": "b-theme",
   "displayName": "Bikkuri Theme",
-  "description": "Set of dark themes for VS Code, including syntax highlighting, debugging, diff/merge and terminal colors.",
+  "description": "Set of 8 dark themes for VS Code, including syntax highlighting, debugging, diff/merge and terminal colors.",
   "publisher": "brano",
   "version": "0.4.3",
-  "icon": "assets/b-theme-icon.png",
+  "icon": "assets/bikkuri-icon.png",
   "engines": {
-    "vscode": "^1.78.0"
+    "vscode": "^1.85.1"
   },
   "categories": [
     "Themes"
@@ -23,42 +23,52 @@
       {
         "label": "Bikkuri (Dark Coal & Lively)",
         "uiTheme": "vs-dark",
-        "path": "./themes/b-theme-dark-coal-lively.json"
+        "path": "./dist/bikkuri-dark-coal-lively.json"
       },
       {
         "label": "Bikkuri (Dark Coal & Serene)",
         "uiTheme": "vs-dark",
-        "path": "./themes/b-theme-dark-coal-serene.json"
+        "path": "./dist/bikkuri-dark-coal-serene.json"
       },
       {
         "label": "Bikkuri (Dark Moss & Lively)",
         "uiTheme": "vs-dark",
-        "path": "./themes/b-theme-dark-moss-lively.json"
+        "path": "./dist/bikkuri-dark-moss-lively.json"
       },
       {
         "label": "Bikkuri (Dark Moss & Serene)",
         "uiTheme": "vs-dark",
-        "path": "./themes/b-theme-dark-moss-serene.json"
+        "path": "./dist/bikkuri-dark-moss-serene.json"
+      },
+      {
+        "label": "Bikkuri (Dark Navy & Lively)",
+        "uiTheme": "vs-dark",
+        "path": "./dist/bikkuri-dark-navy-lively.json"
+      },
+      {
+        "label": "Bikkuri (Dark Navy & Serene)",
+        "uiTheme": "vs-dark",
+        "path": "./dist/bikkuri-dark-navy-serene.json"
       },
       {
         "label": "Bikkuri (Dark Plum & Lively)",
         "uiTheme": "vs-dark",
-        "path": "./themes/b-theme-dark-plum-lively.json"
+        "path": "./dist/bikkuri-dark-plum-lively.json"
       },
       {
         "label": "Bikkuri (Dark Plum & Serene)",
         "uiTheme": "vs-dark",
-        "path": "./themes/b-theme-dark-plum-serene.json"
+        "path": "./dist/bikkuri-dark-plum-serene.json"
       },
       {
         "label": "Bikkuri (Dark Warm & Lively)",
         "uiTheme": "vs-dark",
-        "path": "./themes/b-theme-dark-warm-lively.json"
+        "path": "./dist/bikkuri-dark-warm-lively.json"
       },
       {
         "label": "Bikkuri (Dark Warm & Serene)",
         "uiTheme": "vs-dark",
-        "path": "./themes/b-theme-dark-warm-serene.json"
+        "path": "./dist/bikkuri-dark-warm-serene.json"
       }
     ]
   },
@@ -67,6 +77,7 @@
     "theme",
     "warm",
     "moss",
+    "navy",
     "plum",
     "coal",
     "lively",
@@ -79,12 +90,16 @@
     "isPreReleaseVersion": false
   },
   "scripts": {
-    "watch": "gulp watch"
+    "watch": "gulp watch",
+    "fetch": "node scripts/fetch-vs-code-vars.js"
   },
   "devDependencies": {
-    "@vscode/vsce": "^2.20.1",
+    "@vscode/vsce": "^2.22.0",
+    "axios": "^1.6.5",
+    "cheerio": "^1.0.0-rc.12",
     "child_process": "^1.0.2",
     "gulp": "^4.0.2",
-    "gulp-watch": "^5.0.1"
+    "gulp-watch": "^5.0.1",
+    "json5": "^2.2.3"
   }
 }

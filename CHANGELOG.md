@@ -10,6 +10,44 @@ Deprecated
 Removed
 Fixed
 Security
+  
+
+## [1.0.0] — 2024-
+It’s been over two years since version 0.0.1 and Bikkuri has matured since then. It’s now a set of 10 dark themes, with two new navy themes since this release. Also, we have changed the syntax highlighting for javascript, python, CSS, and markdown.
+
+### Added 
+- ✨ New themes in a steel tint:
+  - Dark Navy & Lively
+  - Dark Navy & Serene
+- Styles for [SCM (Source Control Management)](https://code.visualstudio.com/api/references/theme-color#scm)
+- Styles for [Action colors](https://code.visualstudio.com/api/references/theme-color#action-colors)
+- New 2023 styles for [tabs](https://code.visualstudio.com/api/references/theme-color#editor-groups-tabs)
+- A script to find missing VS Code variables
+- Definitions for [Contrast colors](https://code.visualstudio.com/api/references/theme-color#contrast-colors)
+- Updated styles for [List](https://code.visualstudio.com/api/references/theme-color#lists-and-trees)
+
+### Changed
+- Calmer `list.hoverBackground`; it impacts hovers for Sidebar items, Quick Input items, and Notifications
+- Calmer diagonal fill in the Diff Editor
+- Calmer background color under removed/added lines in the Diff editor
+- A bit calmer reds, oranges, teals, and yellows so they are not so spiky during the night light 
+- Brighter comments 
+- Brighter diff highlights
+- Brighter punctuation
+- editor.FindMatchBorder to red color
+- Refactored color naming, the repository folder structure and how the themes are generated. 
+- Tweaked CSS/SCSS syntax
+- Tweaked JavaScript syntax
+- Tweaked Python syntax
+- Tweaked Markdown syntax
+
+### Security
+- Updated dependencies to their latest versions
+
+
+
+
+
 
 
 ## [0.4.3] — 2024-01-15
@@ -67,7 +105,7 @@ This is a significant release. One theme has grown into **8 dark theme variati
 
 ### Changed
 - Refactored how tokens, schemes and templates are generated
-- Muted multi-line comments in python
+- Muted multi-line comments in Python
 - Increased scrollbar contrast
 - Updated Python syntax highlighting (function & support type)
 - Consolidated opacity for colors
@@ -99,7 +137,7 @@ This is a significant release. One theme has grown into **8 dark theme variati
 
 ### Changed
 - syntax highlighting for HTML
-- syntax highlighting for pug
+- syntax highlighting for Pug
 - syntax highlighting for Mermaid
 - syntax highlighting for CSS/SCSS
 
@@ -129,7 +167,7 @@ This is a significant release. One theme has grown into **8 dark theme variati
 - Consolidated hashtag colors in markdown to gray40
 - Changed editorInfo.foreground to {{blue1}}
 - Updated Peek view styles
-- Increased contrast for bracket matching background
+- Increased contrast for bracket-matching background
 - Increased contrast for text selection background
 
 ### Removed

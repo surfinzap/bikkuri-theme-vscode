@@ -1,0 +1,15 @@
+{
+  "tint-name": "Warm",
+  "tint": {
+    "100": "{{ color.gray-warm.100 }}",
+    "90": "{{ color.gray-warm.90 }}",
+    "80": "{{ color.gray-warm.80 }}",
+    "70": "{{ color.gray-warm.70 }}",
+    "60": "{{ color.gray-warm.60 }}",
+    "50": "{{ color.gray-warm.50 }}",
+    "40": "{{ color.gray-warm.40 }}",
+    "30": "{{ color.gray-warm.30 }}",
+    "20": "{{ color.gray-warm.20 }}",
+    "10": "{{ color.gray-warm.10 }}"
+  }
+}
