@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <a href="https://marketplace.visualstudio.com/items?itemName=brano.b-theme" target="_blank">
+  <a href="https://marketplace.visualstudio.com/items?itemName=brano.bikkuri-theme" target="_blank">
     <img src="https://raw.githubusercontent.com/surfinzap/bikkuri-theme-vscode/main/assets/bikkuri-icon.png">
   </a>
   <br>
