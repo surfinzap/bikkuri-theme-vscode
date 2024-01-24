@@ -10,7 +10,15 @@ Deprecated
 Removed
 Fixed
 Security
-  
+
+
+## [1.0.1] — 2024
+
+
+### Added
+- missing definitions for [Base colors](https://code.visualstudio.com/api/references/theme-color#base-colors)
+
+
 
 ## [1.0.0] — 2024-01-23
 It’s been over two years since version 0.0.1, and Bikkuri has matured. It’s now a set of 10 dark themes, with two new navy themes since this release. Also, we have changed the syntax highlighting for javascript, python, CSS, and markdown.

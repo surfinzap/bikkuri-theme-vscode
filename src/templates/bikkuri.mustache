@@ -12,12 +12,14 @@
     "contrastBorder": "{{ border.none }}",
 
     /* Base colors
-     https://code.visualstudio.com/api/references/theme-color#status-bar-colors
+       https://code.visualstudio.com/api/references/theme-color#base-colors
     */
     // focusBorder has a very wide scope
     "focusBorder":                            "{{ border.mid }}",
     "foreground":                             "{{ text.base }}",
+    "disabledForeground":                     "{{ text.disabled }}",
     "widget.shadow":                          "{{ shadow }}",
+    "widget.border":                          "{{ border.dim }}",
     // text selections for input fields or text areas, does not apply to selections within the editor and the terminal
     "selection.background":                   "{{ surface.raised.high }}",
     "descriptionForeground":                  "{{ text.base }}",
@@ -26,6 +28,8 @@
     "sash.hoverBorder":                       "{{ border.base }}",
     "textLink.foreground":                    "{{ ui.accent1.base }}",
     "textLink.activeForeground":              "{{ ui.accent1.mid }}",
+
+
 
     /* Button 
        https://code.visualstudio.com/api/references/theme-color#button-control

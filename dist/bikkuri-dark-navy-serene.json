@@ -12,12 +12,14 @@
     "contrastBorder": "#1a1b2300",
 
     /* Base colors
-     https://code.visualstudio.com/api/references/theme-color#status-bar-colors
+       https://code.visualstudio.com/api/references/theme-color#base-colors
     */
     // focusBorder has a very wide scope
     "focusBorder":                            "#4e5163",
     "foreground":                             "#dee0e5",
+    "disabledForeground":                     "#4e5163",
     "widget.shadow":                          "#111111",
+    "widget.border":                          "#363846",
     // text selections for input fields or text areas, does not apply to selections within the editor and the terminal
     "selection.background":                   "#4e5163b3",
     "descriptionForeground":                  "#dee0e5",
@@ -26,6 +28,8 @@
     "sash.hoverBorder":                       "#898c9f",
     "textLink.foreground":                    "#8fabc8",
     "textLink.activeForeground":              "#7790a8",
+
+
 
     /* Button 
        https://code.visualstudio.com/api/references/theme-color#button-control
