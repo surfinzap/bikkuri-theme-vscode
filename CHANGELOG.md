@@ -18,6 +18,7 @@ Security
 ### Added
 - missing definitions for [Base colors](https://code.visualstudio.com/api/references/theme-color#base-colors)
 - definitions for [Window Borders](https://code.visualstudio.com/api/references/theme-color#window-border)
+- definitions for nested indent guides
 
 
 

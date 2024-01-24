@@ -64,6 +64,7 @@ function findMissingVars(vscodeVars, jsonVars) {
   return vscodeVars.filter((varName) => !jsonVars.includes(varName));
 }
 
+
 async function main() {
 
   await fetchVSCodeThemeColors();
