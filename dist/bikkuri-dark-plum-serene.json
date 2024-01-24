@@ -30,6 +30,12 @@
     "textLink.activeForeground":              "#7790a8",
 
 
+    /* Window border 
+       https://code.visualstudio.com/api/references/theme-color#window-border
+    */
+    "window.activeBorder":   "#1d1a2300",
+    "window.inactiveBorder": "#1d1a2300",
+
 
     /* Button 
        https://code.visualstudio.com/api/references/theme-color#button-control
