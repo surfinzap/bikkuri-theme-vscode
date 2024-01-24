@@ -64,6 +64,15 @@ function findMissingVars(vscodeVars, jsonVars) {
   return vscodeVars.filter((varName) => !jsonVars.includes(varName));
 }
 
+function removeDeprecatedVars(vscodeVars) {
+  const deprecatedVars = [
+    'editorIndentGuide.background',
+    'editorIndentGuide.activeBackground',
+  ];
+
+  return vscodeVars.filter((varName) => !deprecatedVars.includes(varName));
+}
+
 
 async function main() {
 
@@ -71,7 +80,8 @@ async function main() {
   const vscodeVars = readVarsFromFile(vscodeVarsPath);
   const jsonContent = fs.readFileSync(templatePath, 'utf8');
   const jsonVars = extractJsonKeys(jsonContent);
-  const missingVars = findMissingVars(vscodeVars, jsonVars);
+  let missingVars = findMissingVars(vscodeVars, jsonVars);
+  missingVars = removeDeprecatedVars(missingVars);
 
   fs.writeFileSync(outputPath, missingVars.join('\n'));
   console.log(`Missing variables written to ${outputPath}`);
