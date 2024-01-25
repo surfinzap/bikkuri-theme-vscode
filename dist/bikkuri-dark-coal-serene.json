@@ -37,7 +37,7 @@
     
     /* Text colors 
 
-    Colors inside a text document, such as the welcome page; also in markdown preview.
+    Colors inside a text document, such as the welcome page, markdown preview, or settings.
     https://code.visualstudio.com/api/references/theme-color#text-colors
     */
     "textBlockQuote.background": "#262626",
@@ -49,6 +49,7 @@
     "textPreformat.background":  "#262626",
     "textSeparator.foreground":  "#525252",
 
+
     /* Button 
 
        https://code.visualstudio.com/api/references/theme-color#button-control
@@ -56,6 +57,7 @@
     "button.background":                      "#8d8d8d",
     "button.foreground":                      "#1b1b1b",
     "button.hoverBackground":                 "#a8a8a8",
+    "button.separator":                       "#525252",
     // secondary button → notification to install recommended extensions
     "button.secondaryBackground":             "#5252524d",
     "button.secondaryForeground":             "#e0e0e0",
@@ -64,6 +66,8 @@
     "checkbox.background":                    "#1b1b1b",
     "checkbox.foreground":                    "#a8a8a8",
     "checkbox.border":                        "#8d8d8d",
+    "checkbox.selectBackground":              "#1b1b1b",
+    "checkbox.selectBorder":                  "#8d8d8d",
 
 
     /* Dropdown
@@ -88,10 +92,13 @@
     // Border color of activated options in input fields.
     "inputOption.activeBorder":               "#1b1b1b00", //cannot be null
     "inputValidation.errorBackground":        "#262626",
+    "inputValidation.errorForeground":        "#c07982",
     "inputValidation.errorBorder":            "#c07982",
     "inputValidation.infoBackground":         "#262626",
+    "inputValidation.infoForeground":         "#8d8d8d",
     "inputValidation.infoBorder":             "#8d8d8d",
     "inputValidation.warningBackground":      "#262626",
+    "inputValidation.warningForeground":      "#dfc299",
     "inputValidation.warningBorder":          "#dfc299",
 
     /* Scrollbar

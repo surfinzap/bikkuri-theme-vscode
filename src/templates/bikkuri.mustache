@@ -37,7 +37,7 @@
     
     /* Text colors 
 
-    Colors inside a text document, such as the welcome page; also in markdown preview.
+    Colors inside a text document, such as the welcome page, markdown preview, or settings.
     https://code.visualstudio.com/api/references/theme-color#text-colors
     */
     "textBlockQuote.background": "{{ surface.sunken }}",
@@ -49,6 +49,7 @@
     "textPreformat.background":  "{{ surface.sunken }}",
     "textSeparator.foreground":  "{{ border.mid }}",
 
+
     /* Button 
 
        https://code.visualstudio.com/api/references/theme-color#button-control
@@ -56,6 +57,7 @@
     "button.background":                      "{{ ui.button.bg  }}",
     "button.foreground":                      "{{ text.on-ui }}",
     "button.hoverBackground":                 "{{ ui.button.bg-hover }}",
+    "button.separator":                       "{{ border.mid }}",
     // secondary button → notification to install recommended extensions
     "button.secondaryBackground":             "{{ surface.raised.low }}",
     "button.secondaryForeground":             "{{ text.base }}",
@@ -64,6 +66,8 @@
     "checkbox.background":                    "{{ surface.base }}",
     "checkbox.foreground":                    "{{ icon.base }}",
     "checkbox.border":                        "{{ border.base }}",
+    "checkbox.selectBackground":              "{{ surface.base }}",
+    "checkbox.selectBorder":                  "{{ border.base }}",
 
 
     /* Dropdown
@@ -88,10 +92,13 @@
     // Border color of activated options in input fields.
     "inputOption.activeBorder":               "{{ border.none }}", //cannot be null
     "inputValidation.errorBackground":        "{{ surface.sunken }}",
+    "inputValidation.errorForeground":        "{{ ui.danger.base }}",
     "inputValidation.errorBorder":            "{{ ui.danger.base }}",
     "inputValidation.infoBackground":         "{{ surface.sunken }}",
+    "inputValidation.infoForeground":         "{{ text.mid }}",
     "inputValidation.infoBorder":             "{{ border.base }}",
     "inputValidation.warningBackground":      "{{ surface.sunken }}",
+    "inputValidation.warningForeground":      "{{ ui.warning.base }}",
     "inputValidation.warningBorder":          "{{ ui.warning.base }}",
 
     /* Scrollbar
