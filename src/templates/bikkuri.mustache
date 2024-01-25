@@ -26,18 +26,31 @@
     "errorForeground":                        "{{ ui.danger.base }}",
     "icon.foreground":                        "{{ icon.base }}", // broad scope of icons, icon buttons across the board
     "sash.hoverBorder":                       "{{ border.base }}",
-    "textLink.foreground":                    "{{ ui.accent1.base }}",
-    "textLink.activeForeground":              "{{ ui.accent1.mid }}",
-
-
+    
+    
     /* Window border 
-       https://code.visualstudio.com/api/references/theme-color#window-border
+    https://code.visualstudio.com/api/references/theme-color#window-border
     */
     "window.activeBorder":   "{{ border.none }}",
     "window.inactiveBorder": "{{ border.none }}",
 
+    
+    /* Text colors 
+
+    Colors inside a text document, such as the welcome page; also in markdown preview.
+    https://code.visualstudio.com/api/references/theme-color#text-colors
+    */
+    "textBlockQuote.background": "{{ surface.sunken }}",
+    "textBlockQuote.border":     "{{ border.dim }}",
+    "textLink.foreground":       "{{ ui.accent1.base }}",
+    "textLink.activeForeground": "{{ ui.accent1.mid }}",
+    "textCodeBlock.background":  "{{ surface.sunken }}",
+    "textPreformat.foreground":  "{{ syntax.08.base }}",
+    "textPreformat.background":  "{{ surface.sunken }}",
+    "textSeparator.foreground":  "{{ border.mid }}",
 
     /* Button 
+
        https://code.visualstudio.com/api/references/theme-color#button-control
     */
     "button.background":                      "{{ ui.button.bg  }}",

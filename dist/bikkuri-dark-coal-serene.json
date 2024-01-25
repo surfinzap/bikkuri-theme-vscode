@@ -26,18 +26,31 @@
     "errorForeground":                        "#c07982",
     "icon.foreground":                        "#a8a8a8", // broad scope of icons, icon buttons across the board
     "sash.hoverBorder":                       "#8d8d8d",
-    "textLink.foreground":                    "#8fabc8",
-    "textLink.activeForeground":              "#7790a8",
-
-
+    
+    
     /* Window border 
-       https://code.visualstudio.com/api/references/theme-color#window-border
+    https://code.visualstudio.com/api/references/theme-color#window-border
     */
     "window.activeBorder":   "#1b1b1b00",
     "window.inactiveBorder": "#1b1b1b00",
 
+    
+    /* Text colors 
+
+    Colors inside a text document, such as the welcome page; also in markdown preview.
+    https://code.visualstudio.com/api/references/theme-color#text-colors
+    */
+    "textBlockQuote.background": "#262626",
+    "textBlockQuote.border":     "#393939",
+    "textLink.foreground":       "#8fabc8",
+    "textLink.activeForeground": "#7790a8",
+    "textCodeBlock.background":  "#262626",
+    "textPreformat.foreground":  "#cd99b8",
+    "textPreformat.background":  "#262626",
+    "textSeparator.foreground":  "#525252",
 
     /* Button 
+
        https://code.visualstudio.com/api/references/theme-color#button-control
     */
     "button.background":                      "#8d8d8d",
