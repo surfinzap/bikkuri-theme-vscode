@@ -21,6 +21,8 @@ Security
 - definitions for nested indent guides
 - definitions for [text colors](https://code.visualstudio.com/api/references/theme-color#text-colors)
 
+### Security
+- Updated dependencies to their latest versions
 
 
 ## [1.0.0] — 2024-01-23
