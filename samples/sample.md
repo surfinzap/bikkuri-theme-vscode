@@ -9,6 +9,10 @@ Here’s a list of items:
 - Item 2
 - Item 3
 
+Checkboxes
+- [ ] Checkbox
+- [x] Checkbox checked
+
 ### Header 3
 
 This is a blockquote:

@@ -12,27 +12,52 @@
     "contrastBorder": "#1a1b2300",
 
     /* Base colors
-     https://code.visualstudio.com/api/references/theme-color#status-bar-colors
+       https://code.visualstudio.com/api/references/theme-color#base-colors
     */
     // focusBorder has a very wide scope
     "focusBorder":                            "#4e5163",
     "foreground":                             "#dee0e5",
+    "disabledForeground":                     "#4e5163",
     "widget.shadow":                          "#111111",
+    "widget.border":                          "#363846",
     // text selections for input fields or text areas, does not apply to selections within the editor and the terminal
     "selection.background":                   "#4e5163b3",
     "descriptionForeground":                  "#dee0e5",
     "errorForeground":                        "#c07982",
     "icon.foreground":                        "#a5a8b6", // broad scope of icons, icon buttons across the board
     "sash.hoverBorder":                       "#898c9f",
-    "textLink.foreground":                    "#8fabc8",
-    "textLink.activeForeground":              "#7790a8",
+    
+    
+    /* Window border 
+    https://code.visualstudio.com/api/references/theme-color#window-border
+    */
+    "window.activeBorder":   "#1a1b2300",
+    "window.inactiveBorder": "#1a1b2300",
+
+    
+    /* Text colors 
+
+    Colors inside a text document, such as the welcome page, markdown preview, or settings.
+    https://code.visualstudio.com/api/references/theme-color#text-colors
+    */
+    "textBlockQuote.background": "#24262f",
+    "textBlockQuote.border":     "#363846",
+    "textLink.foreground":       "#8fabc8",
+    "textLink.activeForeground": "#7790a8",
+    "textCodeBlock.background":  "#24262f",
+    "textPreformat.foreground":  "#cd99b8",
+    "textPreformat.background":  "#24262f",
+    "textSeparator.foreground":  "#4e5163",
+
 
     /* Button 
+
        https://code.visualstudio.com/api/references/theme-color#button-control
     */
     "button.background":                      "#898c9f",
     "button.foreground":                      "#1a1b23",
     "button.hoverBackground":                 "#a5a8b6",
+    "button.separator":                       "#4e5163",
     // secondary button → notification to install recommended extensions
     "button.secondaryBackground":             "#4e51634d",
     "button.secondaryForeground":             "#dee0e5",
@@ -41,6 +66,8 @@
     "checkbox.background":                    "#1a1b23",
     "checkbox.foreground":                    "#a5a8b6",
     "checkbox.border":                        "#898c9f",
+    "checkbox.selectBackground":              "#1a1b23",
+    "checkbox.selectBorder":                  "#898c9f",
 
 
     /* Dropdown
@@ -65,10 +92,13 @@
     // Border color of activated options in input fields.
     "inputOption.activeBorder":               "#1a1b2300", //cannot be null
     "inputValidation.errorBackground":        "#24262f",
+    "inputValidation.errorForeground":        "#c07982",
     "inputValidation.errorBorder":            "#c07982",
     "inputValidation.infoBackground":         "#24262f",
+    "inputValidation.infoForeground":         "#898c9f",
     "inputValidation.infoBorder":             "#898c9f",
     "inputValidation.warningBackground":      "#24262f",
+    "inputValidation.warningForeground":      "#dfc299",
     "inputValidation.warningBorder":          "#dfc299",
 
     /* Scrollbar
@@ -405,7 +435,17 @@
     "editorGutter.deletedBackground":      "#c07982",
     "editorGutter.modifiedBackground":     "#dfc299",
     "editorIndentGuide.background1":       "#36384680",
+    "editorIndentGuide.background2":       "#36384680",
+    "editorIndentGuide.background3":       "#36384680",
+    "editorIndentGuide.background4":       "#36384680",
+    "editorIndentGuide.background5":       "#36384680",
+    "editorIndentGuide.background6":       "#36384680",
     "editorIndentGuide.activeBackground1": "#4e5163",
+    "editorIndentGuide.activeBackground2": "#4e5163",
+    "editorIndentGuide.activeBackground3": "#4e5163",
+    "editorIndentGuide.activeBackground4": "#4e5163",
+    "editorIndentGuide.activeBackground5": "#4e5163",
+    "editorIndentGuide.activeBackground6": "#4e5163",
     "editorRuler.foreground":              "#4e5163",
     "editorCodeLens.foreground":           "#4e51634d",
     "editorHoverWidget.background":        "#1a1b23",
