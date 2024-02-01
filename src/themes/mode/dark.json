@@ -2,11 +2,10 @@
   "mode-type": "dark",
   "mode-name": "Dark",
   "shadow": "{{ color.black }}",
-
-  "surface" : {
+  "surface": {
     "sunken": "{{ tint.90 }}",
     "base": "{{ tint.100 }}",
-    "raised" : {
+    "raised": {
       "low": "{{ tint.70 }}{{ opacity.med-low }}",
       "med": "{{ tint.70 }}{{ opacity.med }}",
       "high": "{{ tint.70 }}{{ opacity.med-high }}"
