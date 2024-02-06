@@ -413,7 +413,7 @@
     "editor.lineHighlightBackground":    "#282430",
     "editor.lineHighlightBorder":        "#1d1a2300",
     "editor.selectionBackground":        "#564f6480",
-    // selectionForeground does not seem to work
+    // selectionForeground does not seem to take effect
     // "editor.selectionForeground":             "",
     "editor.inactiveSelectionBackground":     "#282430",
     // same content as selection
@@ -443,6 +443,7 @@
 
     "editorWhitespace.foreground":         "#564f64",
     "editorCursor.foreground":             "#918a9f",
+    "editorCursor.background":             "#1d1a23",
     "editorError.foreground":              "#a25a63",
     "editorWarning.foreground":            "#bfa481",
     "editorHint.foreground":               "#879170",

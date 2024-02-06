@@ -18,6 +18,7 @@ Security
 - Tree definitions introduced in [VS Code 1.86](https://code.visualstudio.com/updates/v1_86)
 - Icon definitions when the Activity Bar is on top
 - Line Number definitions for active and dimmed number
+- Color of a character overlapped by a block cursor
 
 
 

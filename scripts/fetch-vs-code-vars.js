@@ -68,6 +68,7 @@ function removeDeprecatedVars(vscodeVars) {
   const deprecatedVars = [
     'editorIndentGuide.background',
     'editorIndentGuide.activeBackground',
+    'editor.selectionForeground', // does not seem to take effect
   ];
 
   return vscodeVars.filter((varName) => !deprecatedVars.includes(varName));
