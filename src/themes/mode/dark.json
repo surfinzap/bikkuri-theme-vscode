@@ -2,6 +2,11 @@
   "mode-type": "dark",
   "mode-name": "Dark",
   "shadow": "{{ color.black }}",
+  "temp": {
+    "alert": "#ff0000",
+    "green": "#00ff00",
+    "blue": "#0088ff"
+  },
   "surface": {
     "sunken": "{{ tint.90 }}",
     "base": "{{ tint.100 }}",

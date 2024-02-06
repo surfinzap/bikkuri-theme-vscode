@@ -16,6 +16,7 @@ Security
 ### Added 
 - listFilterWidget styles [VS Code 1.86](https://code.visualstudio.com/updates/v1_86)
 - tree styles introduced in [VS Code 1.86](https://code.visualstudio.com/updates/v1_86)
+- icon styles when Activity Bar is on top
 
 
 

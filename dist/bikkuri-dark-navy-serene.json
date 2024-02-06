@@ -201,18 +201,23 @@
 
     /* Activity Bar 
     */
-    "activityBar.background":         "#1a1b23",
-    "activityBar.dropBorder":         "#898c9f",
-    "activityBar.foreground":         "#dee0e5",
-    "activityBar.inactiveForeground": "#4e5163", //icon colors
-    "activityBar.border":             "#363846",
-    "activityBarBadge.background":    "#898c9f",
-    "activityBarBadge.foreground":    "#1a1b23",
-    "activityBar.activeBorder":       "#898c9f",
-    "activityBar.activeBackground":   "#4e51634d",
-    "activityBar.activeFocusBorder":  "#1a1b2300",
-    "profileBadge.background" :       "#4e51634d",
-    "profileBadge.foreground":        "#a5a8b6",
+    "activityBar.background":            "#1a1b23",
+    "activityBar.dropBorder":            "#898c9f",
+    "activityBar.foreground":            "#dee0e5",
+    "activityBar.inactiveForeground":    "#4e5163",             //icon colors
+    "activityBar.border":                "#363846",
+    "activityBarBadge.background":       "#898c9f",
+    "activityBarBadge.foreground":       "#1a1b23",
+    "activityBar.activeBorder":          "#898c9f",
+    "activityBar.activeBackground":      "#4e51634d",
+    "activityBar.activeFocusBorder":     "#1a1b2300",
+    "activityBarTop.foreground":         "#dee0e5",
+    "activityBarTop.activeBorder":       "#1a1b2300",
+    "activityBarTop.inactiveForeground": "#6a6e85",
+    "activityBarTop.dropBorder":         "#898c9f",
+    "profileBadge.background":           "#4e51634d",
+    "profileBadge.foreground":           "#a5a8b6",
+
 
 
     /* Sidebar
