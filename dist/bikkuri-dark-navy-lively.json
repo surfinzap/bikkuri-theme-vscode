@@ -404,13 +404,15 @@
        editorWarning.foreground is used for warning squiggles. Also used as warning color by Github Co-pilot VS Code plugin.
        
     */
-    "editor.background":              "#1a1b23",
-    "editor.foreground":              "#dee0e5",
-    "editorLineNumber.foreground":    "#4e5163",
-    "editorLink.activeForeground":    "#dee0e5",
-    "editor.lineHighlightBackground": "#24262f",
-    "editor.lineHighlightBorder":     "#1a1b2300",
-    "editor.selectionBackground":     "#4e516380",
+    "editor.background":                 "#1a1b23",
+    "editor.foreground":                 "#dee0e5",
+    "editorLineNumber.foreground":       "#4e5163",
+    "editorLineNumber.activeForeground": "#dee0e5",
+    "editorLineNumber.dimmedForeground": "#898c9f",
+    "editorLink.activeForeground":       "#dee0e5",
+    "editor.lineHighlightBackground":    "#24262f",
+    "editor.lineHighlightBorder":        "#1a1b2300",
+    "editor.selectionBackground":        "#4e516380",
     // selectionForeground does not seem to work
     // "editor.selectionForeground":             "",
     "editor.inactiveSelectionBackground":     "#24262f",

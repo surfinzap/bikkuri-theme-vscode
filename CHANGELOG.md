@@ -14,19 +14,20 @@ Security
 ## [1.0.2] — 2024-
 
 ### Added 
-- listFilterWidget styles [VS Code 1.86](https://code.visualstudio.com/updates/v1_86)
-- tree styles introduced in [VS Code 1.86](https://code.visualstudio.com/updates/v1_86)
-- icon styles when Activity Bar is on top
+- ListFilterWidget definitions [VS Code 1.86](https://code.visualstudio.com/updates/v1_86)
+- Tree definitions introduced in [VS Code 1.86](https://code.visualstudio.com/updates/v1_86)
+- Icon definitions when the Activity Bar is on top
+- Line Number definitions for active and dimmed number
 
 
 
 ## [1.0.1] — 2024-02-01
 
 ### Added
-- missing definitions for [Base colors](https://code.visualstudio.com/api/references/theme-color#base-colors)
-- definitions for [Window Borders](https://code.visualstudio.com/api/references/theme-color#window-border)
-- definitions for nested indent guides
-- definitions for [text colors](https://code.visualstudio.com/api/references/theme-color#text-colors)
+- Missing definitions for [Base colors](https://code.visualstudio.com/api/references/theme-color#base-colors)
+- Definitions for [Window Borders](https://code.visualstudio.com/api/references/theme-color#window-border)
+- Definitions for nested indent guides
+- Definitions for [text colors](https://code.visualstudio.com/api/references/theme-color#text-colors)
 
 ### Security
 - Updated dependencies to their latest versions
