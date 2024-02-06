@@ -14,7 +14,8 @@ Security
 ## [1.0.2] — 2024-
 
 ### Added 
-- listFilterWidget styles
+- listFilterWidget styles [VS Code 1.86](https://code.visualstudio.com/updates/v1_86)
+- tree styles introduced in [VS Code 1.86](https://code.visualstudio.com/updates/v1_86)
 
 
 
