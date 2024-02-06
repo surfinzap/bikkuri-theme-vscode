@@ -11,9 +11,14 @@ Removed
 Fixed
 Security
 
+## [1.0.2] — 2024-
+
+### Added 
+- listFilterWidget styles
+
+
 
 ## [1.0.1] — 2024-02-01
-
 
 ### Added
 - missing definitions for [Base colors](https://code.visualstudio.com/api/references/theme-color#base-colors)
@@ -23,6 +28,7 @@ Security
 
 ### Security
 - Updated dependencies to their latest versions
+
 
 
 ## [1.0.0] — 2024-01-23

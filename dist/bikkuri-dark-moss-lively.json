@@ -146,17 +146,18 @@
     "list.focusAndSelectionOutline":    "#1b1c1900",
 
     // list.hoverBackground/Foreground has a broad impact: Sidebar items hover, Quick Input items hover, Notifications hover; but not for the menu
-    "list.hoverBackground":                 "#52534d4d",
-    "list.hoverForeground":                 "#e0e1d4",
+    "list.hoverBackground": "#52534d4d",
+    "list.hoverForeground": "#e0e1d4",
 
     "list.inactiveSelectionBackground":     "#52534d4d",
     "list.inactiveSelectionForeground":     "#e0e1d4",
     "list.warningForeground":               "#e9c07d",
     "list.deemphasizedForeground":          "#6f7069",
     "list.dropBackground":                  "#52534d4d",
+    "list.dropBetweenBackground":           "#52534d",
     "list.filterMatchBackground":           "#52534db3",
     "list.focusHighlightForeground":        "#75aedd",
-    "list.focusOutline":                    "#1b1c1900",        
+    "list.focusOutline":                    "#1b1c1900",
     "list.highlightForeground":             "#75aedd",
     "list.invalidItemForeground":           "#c14258",
     "list.activeSelectionIconForeground":   "#a8a99f",
@@ -164,6 +165,10 @@
     "list.inactiveFocusBackground":         "#52534d80",
     "list.inactiveFocusOutline":            "#1b1c1900",
     "list.inactiveSelectionIconForeground": "#a8a99f",
+    "listFilterWidget.background":          "#262623",
+    "listFilterWidget.outline":             "#393935",
+    "listFilterWidget.noMatchesOutline":    "#e06578",
+    "listFilterWidget.shadow":              "#111111",
 
 
 
