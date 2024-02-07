@@ -445,15 +445,25 @@
     //background selection on hover
     "editor.hoverHighlightBackground":        "#52534d4d",
     // highlighting variables 
-    "editor.wordHighlightStrongBackground":   "#1b1c1900",
-    "editor.wordHighlightStrongBorder":       "#8fabc8",
-    "editor.wordHighlightBackground":         "#1b1c1900",
-    "editor.wordHighlightBorder":             "#a8a4c8",
-    "editor.wordHighlightTextBackground":     "#1b1c1900",
-    "editor.wordHighlightTextBorder":         "#1b1c1900",
-    
-    "editorUnicodeHighlight.border":          "#393935",
-    "editorUnicodeHighlight.background":      "#1b1c19",
+    "editor.wordHighlightStrongBackground": "#1b1c1900",
+    "editor.wordHighlightStrongBorder":     "#8fabc8",
+    "editor.wordHighlightBackground":       "#1b1c1900",
+    "editor.wordHighlightBorder":           "#a8a4c8",
+    "editor.wordHighlightTextBackground":   "#1b1c1900",
+    "editor.wordHighlightTextBorder":       "#1b1c1900",
+    "searchEditor.findMatchBackground":     "#52534d4d",
+    "searchEditor.findMatchBorder":         "#c07982",
+    "searchEditor.textInputBorder":         "#393935",
+    "editorWatermark.foreground":           "#8d8e85",
+    "editorUnicodeHighlight.border":        "#393935",
+    "editorUnicodeHighlight.background":    "#1b1c19",
+    "editor.rangeHighlightBackground":      "#52534d4d",
+    "editor.rangeHighlightBorder":          "#1b1c1900",
+
+    /* highlighted @ search for symbols, haven’t found the impact of this config */
+    "editor.symbolHighlightBackground":     "#1b1c1900",
+    "editor.symbolHighlightBorder":         "#1b1c1900",
+
 
     "editorWhitespace.foreground":         "#52534d",
     "editorCursor.foreground":             "#8d8e85",
@@ -485,10 +495,6 @@
     "editorStickyScroll.background":      "#1b1c19",
     "editorStickyScrollHover.background": "#52534d4d",
     "search.resultsInfoForeground":       "#8d8e85",
-    "searchEditor.findMatchBackground":   "#52534d4d",
-    "searchEditor.findMatchBorder":       "#c07982",
-    "searchEditor.textInputBorder":       "#393935",
-    "editorWatermark.foreground":         "#8d8e85",
 
     
     /* Bracket matching and bracket pair colorization
