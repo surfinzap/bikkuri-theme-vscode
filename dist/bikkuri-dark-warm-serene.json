@@ -298,6 +298,8 @@
     */
     "statusBar.background":                   "#1e1b1b",
     "statusBar.foreground":                   "#958a8c",
+    "statusBarItem.hoverForeground":          "#e2e0e0",
+    "statusBar.noFolderForeground":           "#958a8c",
     "statusBar.border":                       "#3e3839",
     "statusBar.debuggingBackground":          "#8d88b6",
     "statusBar.debuggingForeground":          "#1e1b1b",
@@ -307,17 +309,29 @@
     "statusBarItem.activeBackground":         "#5950514d",
     "statusBarItem.hoverBackground":          "#59505180",
     "statusBarItem.prominentForeground":      "#1e1b1b",
+    "statusBarItem.prominentHoverForeground": "#1e1b1b",
     "statusBarItem.prominentBackground":      "#8d88b6",
     "statusBarItem.prominentHoverBackground": "#a8a4c8",
     "statusBarItem.remoteBackground":         "#2a2526",
     "statusBarItem.remoteForeground":         "#958a8c",
+    "statusBarItem.remoteHoverBackground":    "#59505180",
+    "statusBarItem.remoteHoverForeground":    "#e2e0e0",
     "statusBarItem.errorBackground":          "#c07982",
     "statusBarItem.errorForeground":          "#1e1b1b",
+    "statusBarItem.errorHoverBackground":     "#cd9ca1",
+    "statusBarItem.errorHoverForeground":     "#1e1b1b",
     "statusBarItem.warningBackground":        "#dfc299",
     "statusBarItem.warningForeground":        "#1e1b1b",
+    "statusBarItem.warningHoverBackground":   "#eedeca",
+    "statusBarItem.warningHoverForeground":   "#1e1b1b",
+    "statusBarItem.offlineBackground":        "#dfc299",
+    "statusBarItem.offlineForeground":        "#1e1b1b",
+    "statusBarItem.offlineHoverBackground":   "#eedeca",
+    "statusBarItem.offlineHoverForeground":   "#1e1b1b",
     "statusBarItem.compactHoverBackground":   "#595051b3",
     "statusBarItem.focusBorder":              "#3e3839",
     "statusBar.focusBorder":                  "#3e3839",
+
 
 
 

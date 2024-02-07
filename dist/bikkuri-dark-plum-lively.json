@@ -298,6 +298,8 @@
     */
     "statusBar.background":                   "#1d1a23",
     "statusBar.foreground":                   "#918a9f",
+    "statusBarItem.hoverForeground":          "#e1dfe5",
+    "statusBar.noFolderForeground":           "#918a9f",
     "statusBar.border":                       "#3c3746",
     "statusBar.debuggingBackground":          "#8e81dd",
     "statusBar.debuggingForeground":          "#1d1a23",
@@ -307,17 +309,29 @@
     "statusBarItem.activeBackground":         "#564f644d",
     "statusBarItem.hoverBackground":          "#564f6480",
     "statusBarItem.prominentForeground":      "#1d1a23",
+    "statusBarItem.prominentHoverForeground": "#1d1a23",
     "statusBarItem.prominentBackground":      "#8e81dd",
     "statusBarItem.prominentHoverBackground": "#a9a0e6",
     "statusBarItem.remoteBackground":         "#282430",
     "statusBarItem.remoteForeground":         "#918a9f",
+    "statusBarItem.remoteHoverBackground":    "#564f6480",
+    "statusBarItem.remoteHoverForeground":    "#e1dfe5",
     "statusBarItem.errorBackground":          "#e06578",
     "statusBarItem.errorForeground":          "#1d1a23",
+    "statusBarItem.errorHoverBackground":     "#e6909b",
+    "statusBarItem.errorHoverForeground":     "#1d1a23",
     "statusBarItem.warningBackground":        "#e9c07d",
     "statusBarItem.warningForeground":        "#1d1a23",
+    "statusBarItem.warningHoverBackground":   "#f5ddbb",
+    "statusBarItem.warningHoverForeground":   "#1d1a23",
+    "statusBarItem.offlineBackground":        "#e9c07d",
+    "statusBarItem.offlineForeground":        "#1d1a23",
+    "statusBarItem.offlineHoverBackground":   "#f5ddbb",
+    "statusBarItem.offlineHoverForeground":   "#1d1a23",
     "statusBarItem.compactHoverBackground":   "#564f64b3",
     "statusBarItem.focusBorder":              "#3c3746",
     "statusBar.focusBorder":                  "#3c3746",
+
 
 
 

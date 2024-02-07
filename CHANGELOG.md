@@ -19,6 +19,7 @@ Security
 - Icon definitions when the Activity Bar is on top
 - Line Number definitions for active and dimmed number
 - Color of a character overlapped by a block cursor
+- Missing definitions for [Status Bar item hovers](https://code.visualstudio.com/api/references/theme-color#status-bar-colors).
 
 
 
