@@ -21,6 +21,7 @@ Security
 - Color of a character overlapped by a block cursor
 - Missing definitions for [Status Bar item hovers](https://code.visualstudio.com/api/references/theme-color#status-bar-colors).
 - Search editor “find-match” colors
+- Definitions for Inlay hints
 
 
 

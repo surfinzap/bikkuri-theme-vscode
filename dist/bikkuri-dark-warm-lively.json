@@ -464,6 +464,14 @@
     "editor.symbolHighlightBackground":     "#1e1b1b00",
     "editor.symbolHighlightBorder":         "#1e1b1b00",
 
+    /* To see the editor inline hints, set "editor.inlayHints.enabled": on. */
+    "editorInlayHint.background":          "#1e1b1b00",
+    "editorInlayHint.foreground":          "#595051",
+    "editorInlayHint.typeBackground":      "#1e1b1b00",
+    "editorInlayHint.typeForeground":      "#595051",
+    "editorInlayHint.parameterBackground": "#1e1b1b00",
+    "editorInlayHint.parameterForeground": "#595051",
+
 
     "editorWhitespace.foreground":         "#595051",
     "editorCursor.foreground":             "#958a8c",
