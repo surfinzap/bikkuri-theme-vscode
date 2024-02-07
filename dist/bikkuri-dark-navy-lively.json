@@ -485,7 +485,9 @@
     "editorStickyScroll.background":      "#1a1b23",
     "editorStickyScrollHover.background": "#4e51634d",
     "search.resultsInfoForeground":       "#898c9f",
-    
+    "searchEditor.findMatchBackground":   "#4e51634d",
+    "searchEditor.findMatchBorder":       "#e06578",
+    "searchEditor.textInputBorder":       "#363846",
 
     
     /* Bracket matching and bracket pair colorization
