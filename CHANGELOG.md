@@ -11,6 +11,11 @@ Removed
 Fixed
 Security
 
+## [1.0.3]
+
+
+
+
 ## [1.0.2] — 2024-02-08
 
 ### Added 
@@ -22,7 +27,6 @@ Security
 - Missing definitions for [Status Bar item hovers](https://code.visualstudio.com/api/references/theme-color#status-bar-colors).
 - Search editor “find-match” colors
 - Definitions for Inlay hints
-
 
 
 
