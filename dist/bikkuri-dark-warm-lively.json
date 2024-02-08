@@ -531,6 +531,7 @@
     "editorBracketPairGuide.background1":     "#c9c5c600",
     "editorBracketPairGuide.background2":     "#c9c5c600",
     "editorBracketPairGuide.background3":     "#c9c5c600",
+    "editor.foldBackground":                  "#5950511f",
 
 
 
@@ -793,6 +794,7 @@
 
     "editorLightBulb.foreground":            "#e9c07d",
     "editorLightBulbAutoFix.foreground":     "#e9c07d",
+    "editorLightBulbAi.foreground":          "#e9c07d",
 
   },
   "tokenColors": [
