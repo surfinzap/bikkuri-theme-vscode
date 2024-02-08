@@ -277,6 +277,7 @@
     "minimapSlider.hoverBackground":        "#595051b3",
 
     "editorOverviewRuler.border":                        "#1e1b1b",
+    "editorOverviewRuler.background":                    "#1e1b1b00",
     "editorOverviewRuler.addedForeground":               "#87917080",
     "editorOverviewRuler.bracketMatchForeground":        "#786c6e",
     "editorOverviewRuler.deletedForeground":             "#a25a6380",
@@ -285,10 +286,14 @@
     "editorOverviewRuler.infoForeground":                "#7790a8",
     "editorOverviewRuler.modifiedForeground":            "#bfa481",
     "editorOverviewRuler.rangeHighlightForeground":      "#7790a8",
-    "editorOverviewRuler.selectionHighlightForeground":  "#786c6e",
+    "editorOverviewRuler.selectionHighlightForeground":  "#8bafae",
     "editorOverviewRuler.warningForeground":             "#bfa481",
     "editorOverviewRuler.wordHighlightForeground":       "#786c6e",
+    "editorOverviewRuler.wordHighlightTextForeground":   "#a8a4c8",
     "editorOverviewRuler.wordHighlightStrongForeground": "#786c6e",
+    "editorOverviewRuler.inlineChatInserted":            "#879170",
+    "editorOverviewRuler.inlineChatRemoved":             "#a25a63",
+
     //editorOverviewRuler for merge conflicts is located within merge conflicts
   
     

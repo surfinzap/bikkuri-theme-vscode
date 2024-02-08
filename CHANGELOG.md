@@ -13,6 +13,9 @@ Security
 
 ## [1.0.3]
 
+### Added
+- Missing definitions for [Editor Overview Ruler](https://code.visualstudio.com/api/references/theme-color#minimap)
+
 
 
 
