@@ -58,11 +58,13 @@
       "dim": "{{ green.80 }}"
     },
     "danger": {
+      "high": "{{ red.40 }}",
       "base": "{{ red.50 }}",
       "mid": "{{ red.60 }}",
       "dim": "{{ red.80 }}"
     },
     "warning": {
+      "high": "{{ yellow.20 }}",
       "base": "{{ yellow.30 }}",
       "mid": "{{ yellow.40 }}"
     },

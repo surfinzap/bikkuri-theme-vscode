@@ -146,17 +146,18 @@
     "list.focusAndSelectionOutline":    "#1a1b2300",
 
     // list.hoverBackground/Foreground has a broad impact: Sidebar items hover, Quick Input items hover, Notifications hover; but not for the menu
-    "list.hoverBackground":                 "#4e51634d",
-    "list.hoverForeground":                 "#dee0e5",
+    "list.hoverBackground": "#4e51634d",
+    "list.hoverForeground": "#dee0e5",
 
     "list.inactiveSelectionBackground":     "#4e51634d",
     "list.inactiveSelectionForeground":     "#dee0e5",
     "list.warningForeground":               "#dfc299",
     "list.deemphasizedForeground":          "#6a6e85",
     "list.dropBackground":                  "#4e51634d",
+    "list.dropBetweenBackground":           "#4e5163",
     "list.filterMatchBackground":           "#4e5163b3",
     "list.focusHighlightForeground":        "#8fabc8",
-    "list.focusOutline":                    "#1a1b2300",        
+    "list.focusOutline":                    "#1a1b2300",
     "list.highlightForeground":             "#8fabc8",
     "list.invalidItemForeground":           "#a25a63",
     "list.activeSelectionIconForeground":   "#a5a8b6",
@@ -164,6 +165,14 @@
     "list.inactiveFocusBackground":         "#4e516380",
     "list.inactiveFocusOutline":            "#1a1b2300",
     "list.inactiveSelectionIconForeground": "#a5a8b6",
+    "listFilterWidget.background":          "#24262f",
+    "listFilterWidget.outline":             "#363846",
+    "listFilterWidget.noMatchesOutline":    "#c07982",
+    "listFilterWidget.shadow":              "#111111",
+    "tree.indentGuidesStroke":              "#4e5163",
+    "tree.inactiveIndentGuidesStroke":      "#363846",
+    "tree.tableColumnsBorder":              "#363846",
+    "tree.tableOddRowsBackground":          "",
 
 
 
@@ -192,18 +201,23 @@
 
     /* Activity Bar 
     */
-    "activityBar.background":         "#1a1b23",
-    "activityBar.dropBorder":         "#898c9f",
-    "activityBar.foreground":         "#dee0e5",
-    "activityBar.inactiveForeground": "#4e5163", //icon colors
-    "activityBar.border":             "#363846",
-    "activityBarBadge.background":    "#898c9f",
-    "activityBarBadge.foreground":    "#1a1b23",
-    "activityBar.activeBorder":       "#898c9f",
-    "activityBar.activeBackground":   "#4e51634d",
-    "activityBar.activeFocusBorder":  "#1a1b2300",
-    "profileBadge.background" :       "#4e51634d",
-    "profileBadge.foreground":        "#a5a8b6",
+    "activityBar.background":            "#1a1b23",
+    "activityBar.dropBorder":            "#898c9f",
+    "activityBar.foreground":            "#dee0e5",
+    "activityBar.inactiveForeground":    "#4e5163",             //icon colors
+    "activityBar.border":                "#363846",
+    "activityBarBadge.background":       "#898c9f",
+    "activityBarBadge.foreground":       "#1a1b23",
+    "activityBar.activeBorder":          "#898c9f",
+    "activityBar.activeBackground":      "#4e51634d",
+    "activityBar.activeFocusBorder":     "#1a1b2300",
+    "activityBarTop.foreground":         "#dee0e5",
+    "activityBarTop.activeBorder":       "#1a1b2300",
+    "activityBarTop.inactiveForeground": "#6a6e85",
+    "activityBarTop.dropBorder":         "#898c9f",
+    "profileBadge.background":           "#4e51634d",
+    "profileBadge.foreground":           "#a5a8b6",
+
 
 
     /* Sidebar
@@ -284,6 +298,8 @@
     */
     "statusBar.background":                   "#1a1b23",
     "statusBar.foreground":                   "#898c9f",
+    "statusBarItem.hoverForeground":          "#dee0e5",
+    "statusBar.noFolderForeground":           "#898c9f",
     "statusBar.border":                       "#363846",
     "statusBar.debuggingBackground":          "#8d88b6",
     "statusBar.debuggingForeground":          "#1a1b23",
@@ -293,17 +309,29 @@
     "statusBarItem.activeBackground":         "#4e51634d",
     "statusBarItem.hoverBackground":          "#4e516380",
     "statusBarItem.prominentForeground":      "#1a1b23",
+    "statusBarItem.prominentHoverForeground": "#1a1b23",
     "statusBarItem.prominentBackground":      "#8d88b6",
     "statusBarItem.prominentHoverBackground": "#a8a4c8",
     "statusBarItem.remoteBackground":         "#24262f",
     "statusBarItem.remoteForeground":         "#898c9f",
+    "statusBarItem.remoteHoverBackground":    "#4e516380",
+    "statusBarItem.remoteHoverForeground":    "#dee0e5",
     "statusBarItem.errorBackground":          "#c07982",
     "statusBarItem.errorForeground":          "#1a1b23",
+    "statusBarItem.errorHoverBackground":     "#cd9ca1",
+    "statusBarItem.errorHoverForeground":     "#1a1b23",
     "statusBarItem.warningBackground":        "#dfc299",
     "statusBarItem.warningForeground":        "#1a1b23",
+    "statusBarItem.warningHoverBackground":   "#eedeca",
+    "statusBarItem.warningHoverForeground":   "#1a1b23",
+    "statusBarItem.offlineBackground":        "#dfc299",
+    "statusBarItem.offlineForeground":        "#1a1b23",
+    "statusBarItem.offlineHoverBackground":   "#eedeca",
+    "statusBarItem.offlineHoverForeground":   "#1a1b23",
     "statusBarItem.compactHoverBackground":   "#4e5163b3",
     "statusBarItem.focusBorder":              "#363846",
     "statusBar.focusBorder":                  "#363846",
+
 
 
 
@@ -390,14 +418,16 @@
        editorWarning.foreground is used for warning squiggles. Also used as warning color by Github Co-pilot VS Code plugin.
        
     */
-    "editor.background":              "#1a1b23",
-    "editor.foreground":              "#dee0e5",
-    "editorLineNumber.foreground":    "#4e5163",
-    "editorLink.activeForeground":    "#dee0e5",
-    "editor.lineHighlightBackground": "#24262f",
-    "editor.lineHighlightBorder":     "#1a1b2300",
-    "editor.selectionBackground":     "#4e516380",
-    // selectionForeground does not seem to work
+    "editor.background":                 "#1a1b23",
+    "editor.foreground":                 "#dee0e5",
+    "editorLineNumber.foreground":       "#4e5163",
+    "editorLineNumber.activeForeground": "#dee0e5",
+    "editorLineNumber.dimmedForeground": "#898c9f",
+    "editorLink.activeForeground":       "#dee0e5",
+    "editor.lineHighlightBackground":    "#24262f",
+    "editor.lineHighlightBorder":        "#1a1b2300",
+    "editor.selectionBackground":        "#4e516380",
+    // selectionForeground does not seem to take effect
     // "editor.selectionForeground":             "",
     "editor.inactiveSelectionBackground":     "#24262f",
     // same content as selection
@@ -415,18 +445,37 @@
     //background selection on hover
     "editor.hoverHighlightBackground":        "#4e51634d",
     // highlighting variables 
-    "editor.wordHighlightStrongBackground":   "#1a1b2300",
-    "editor.wordHighlightStrongBorder":       "#8fabc8",
-    "editor.wordHighlightBackground":         "#1a1b2300",
-    "editor.wordHighlightBorder":             "#a8a4c8",
-    "editor.wordHighlightTextBackground":     "#1a1b2300",
-    "editor.wordHighlightTextBorder":         "#1a1b2300",
-    
-    "editorUnicodeHighlight.border":          "#363846",
-    "editorUnicodeHighlight.background":      "#1a1b23",
+    "editor.wordHighlightStrongBackground": "#1a1b2300",
+    "editor.wordHighlightStrongBorder":     "#8fabc8",
+    "editor.wordHighlightBackground":       "#1a1b2300",
+    "editor.wordHighlightBorder":           "#a8a4c8",
+    "editor.wordHighlightTextBackground":   "#1a1b2300",
+    "editor.wordHighlightTextBorder":       "#1a1b2300",
+    "searchEditor.findMatchBackground":     "#4e51634d",
+    "searchEditor.findMatchBorder":         "#c07982",
+    "searchEditor.textInputBorder":         "#363846",
+    "editorWatermark.foreground":           "#898c9f",
+    "editorUnicodeHighlight.border":        "#363846",
+    "editorUnicodeHighlight.background":    "#1a1b23",
+    "editor.rangeHighlightBackground":      "#4e51634d",
+    "editor.rangeHighlightBorder":          "#1a1b2300",
+
+    /* highlighted @ search for symbols, haven’t found the impact of this config */
+    "editor.symbolHighlightBackground":     "#1a1b2300",
+    "editor.symbolHighlightBorder":         "#1a1b2300",
+
+    /* To see the editor inline hints, set "editor.inlayHints.enabled": on. */
+    "editorInlayHint.background":          "#1a1b2300",
+    "editorInlayHint.foreground":          "#4e5163",
+    "editorInlayHint.typeBackground":      "#1a1b2300",
+    "editorInlayHint.typeForeground":      "#4e5163",
+    "editorInlayHint.parameterBackground": "#1a1b2300",
+    "editorInlayHint.parameterForeground": "#4e5163",
+
 
     "editorWhitespace.foreground":         "#4e5163",
     "editorCursor.foreground":             "#898c9f",
+    "editorCursor.background":             "#1a1b23",
     "editorError.foreground":              "#a25a63",
     "editorWarning.foreground":            "#bfa481",
     "editorHint.foreground":               "#879170",
@@ -453,7 +502,7 @@
 
     "editorStickyScroll.background":      "#1a1b23",
     "editorStickyScrollHover.background": "#4e51634d",
-    
+    "search.resultsInfoForeground":       "#898c9f",
 
     
     /* Bracket matching and bracket pair colorization

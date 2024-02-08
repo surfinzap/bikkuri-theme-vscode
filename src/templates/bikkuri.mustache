@@ -146,17 +146,18 @@
     "list.focusAndSelectionOutline":    "{{ border.none }}",
 
     // list.hoverBackground/Foreground has a broad impact: Sidebar items hover, Quick Input items hover, Notifications hover; but not for the menu
-    "list.hoverBackground":                 "{{ surface.raised.low }}",
-    "list.hoverForeground":                 "{{ text.base }}",
+    "list.hoverBackground": "{{ surface.raised.low }}",
+    "list.hoverForeground": "{{ text.base }}",
 
     "list.inactiveSelectionBackground":     "{{ surface.raised.low }}",
     "list.inactiveSelectionForeground":     "{{ text.base }}",
     "list.warningForeground":               "{{ ui.warning.base }}",
     "list.deemphasizedForeground":          "{{ text.dim }}",
     "list.dropBackground":                  "{{ surface.raised.low }}",
+    "list.dropBetweenBackground":           "{{ border.mid }}",
     "list.filterMatchBackground":           "{{ surface.raised.high }}",
     "list.focusHighlightForeground":        "{{ ui.accent1.base }}",
-    "list.focusOutline":                    "{{ border.none }}",        
+    "list.focusOutline":                    "{{ border.none }}",
     "list.highlightForeground":             "{{ ui.accent1.base }}",
     "list.invalidItemForeground":           "{{ ui.danger.mid }}",
     "list.activeSelectionIconForeground":   "{{ icon.base }}",
@@ -164,6 +165,14 @@
     "list.inactiveFocusBackground":         "{{ surface.raised.med }}",
     "list.inactiveFocusOutline":            "{{ border.none }}",
     "list.inactiveSelectionIconForeground": "{{ icon.base }}",
+    "listFilterWidget.background":          "{{ surface.sunken }}",
+    "listFilterWidget.outline":             "{{ border.dim }}",
+    "listFilterWidget.noMatchesOutline":    "{{ ui.danger.base }}",
+    "listFilterWidget.shadow":              "{{ shadow }}",
+    "tree.indentGuidesStroke":              "{{ border.mid }}",
+    "tree.inactiveIndentGuidesStroke":      "{{ border.dim }}",
+    "tree.tableColumnsBorder":              "{{ border.dim }}",
+    "tree.tableOddRowsBackground":          "{{ suface.none }}",
 
 
 
@@ -192,18 +201,23 @@
 
     /* Activity Bar 
     */
-    "activityBar.background":         "{{ surface.base }}",
-    "activityBar.dropBorder":         "{{ border.base }}",
-    "activityBar.foreground":         "{{ text.base }}",
-    "activityBar.inactiveForeground": "{{ icon.dim }}", //icon colors
-    "activityBar.border":             "{{ border.dim }}",
-    "activityBarBadge.background":    "{{ ui.button.bg  }}",
-    "activityBarBadge.foreground":    "{{ text.on-ui }}",
-    "activityBar.activeBorder":       "{{ border.base }}",
-    "activityBar.activeBackground":   "{{ surface.raised.low }}",
-    "activityBar.activeFocusBorder":  "{{ border.none }}",
-    "profileBadge.background" :       "{{ surface.raised.low }}",
-    "profileBadge.foreground":        "{{ icon.base }}",
+    "activityBar.background":            "{{ surface.base }}",
+    "activityBar.dropBorder":            "{{ border.base }}",
+    "activityBar.foreground":            "{{ text.base }}",
+    "activityBar.inactiveForeground":    "{{ icon.dim }}",             //icon colors
+    "activityBar.border":                "{{ border.dim }}",
+    "activityBarBadge.background":       "{{ ui.button.bg  }}",
+    "activityBarBadge.foreground":       "{{ text.on-ui }}",
+    "activityBar.activeBorder":          "{{ border.base }}",
+    "activityBar.activeBackground":      "{{ surface.raised.low }}",
+    "activityBar.activeFocusBorder":     "{{ border.none }}",
+    "activityBarTop.foreground":         "{{ text.base }}",
+    "activityBarTop.activeBorder":       "{{ border.none }}",
+    "activityBarTop.inactiveForeground": "{{ icon.mid }}",
+    "activityBarTop.dropBorder":         "{{ border.base }}",
+    "profileBadge.background":           "{{ surface.raised.low }}",
+    "profileBadge.foreground":           "{{ icon.base }}",
+
 
 
     /* Sidebar
@@ -284,6 +298,8 @@
     */
     "statusBar.background":                   "{{ surface.base }}",
     "statusBar.foreground":                   "{{ text.mid }}",
+    "statusBarItem.hoverForeground":          "{{ text.base }}",
+    "statusBar.noFolderForeground":           "{{ text.mid }}",
     "statusBar.border":                       "{{ border.dim }}",
     "statusBar.debuggingBackground":          "{{ ui.accent2.mid }}",
     "statusBar.debuggingForeground":          "{{ text.on-ui }}",
@@ -293,17 +309,29 @@
     "statusBarItem.activeBackground":         "{{ surface.raised.low }}",
     "statusBarItem.hoverBackground":          "{{ surface.raised.med }}",
     "statusBarItem.prominentForeground":      "{{ text.on-ui }}",
+    "statusBarItem.prominentHoverForeground": "{{ text.on-ui }}",
     "statusBarItem.prominentBackground":      "{{ ui.accent2.mid }}",
     "statusBarItem.prominentHoverBackground": "{{ ui.accent2.base }}",
     "statusBarItem.remoteBackground":         "{{ surface.sunken }}",
     "statusBarItem.remoteForeground":         "{{ text.mid }}",
+    "statusBarItem.remoteHoverBackground":    "{{ surface.raised.med }}",
+    "statusBarItem.remoteHoverForeground":    "{{ text.base }}",
     "statusBarItem.errorBackground":          "{{ ui.danger.base }}",
     "statusBarItem.errorForeground":          "{{ text.on-ui }}",
+    "statusBarItem.errorHoverBackground":     "{{ ui.danger.high }}",
+    "statusBarItem.errorHoverForeground":     "{{ text.on-ui }}",
     "statusBarItem.warningBackground":        "{{ ui.warning.base }}",
     "statusBarItem.warningForeground":        "{{ text.on-ui }}",
+    "statusBarItem.warningHoverBackground":   "{{ ui.warning.high }}",
+    "statusBarItem.warningHoverForeground":   "{{ text.on-ui }}",
+    "statusBarItem.offlineBackground":        "{{ ui.warning.base }}",
+    "statusBarItem.offlineForeground":        "{{ text.on-ui }}",
+    "statusBarItem.offlineHoverBackground":   "{{ ui.warning.high }}",
+    "statusBarItem.offlineHoverForeground":   "{{ text.on-ui }}",
     "statusBarItem.compactHoverBackground":   "{{ surface.raised.high }}",
     "statusBarItem.focusBorder":              "{{ border.dim }}",
     "statusBar.focusBorder":                  "{{ border.dim }}",
+
 
 
 
@@ -390,14 +418,16 @@
        editorWarning.foreground is used for warning squiggles. Also used as warning color by Github Co-pilot VS Code plugin.
        
     */
-    "editor.background":              "{{ surface.base }}",
-    "editor.foreground":              "{{ text.base }}",
-    "editorLineNumber.foreground":    "{{ text.disabled }}",
-    "editorLink.activeForeground":    "{{ text.base }}",
-    "editor.lineHighlightBackground": "{{ surface.sunken }}",
-    "editor.lineHighlightBorder":     "{{ border.none }}",
-    "editor.selectionBackground":     "{{ surface.raised.med }}",
-    // selectionForeground does not seem to work
+    "editor.background":                 "{{ surface.base }}",
+    "editor.foreground":                 "{{ text.base }}",
+    "editorLineNumber.foreground":       "{{ text.disabled }}",
+    "editorLineNumber.activeForeground": "{{ text.base }}",
+    "editorLineNumber.dimmedForeground": "{{ text.mid }}",
+    "editorLink.activeForeground":       "{{ text.base }}",
+    "editor.lineHighlightBackground":    "{{ surface.sunken }}",
+    "editor.lineHighlightBorder":        "{{ border.none }}",
+    "editor.selectionBackground":        "{{ surface.raised.med }}",
+    // selectionForeground does not seem to take effect
     // "editor.selectionForeground":             "{{ undefined }}",
     "editor.inactiveSelectionBackground":     "{{ surface.sunken }}",
     // same content as selection
@@ -415,18 +445,37 @@
     //background selection on hover
     "editor.hoverHighlightBackground":        "{{ surface.raised.low }}",
     // highlighting variables 
-    "editor.wordHighlightStrongBackground":   "{{ surface.none }}",
-    "editor.wordHighlightStrongBorder":       "{{ ui.accent1.base }}",
-    "editor.wordHighlightBackground":         "{{ surface.none }}",
-    "editor.wordHighlightBorder":             "{{ ui.accent2.base }}",
-    "editor.wordHighlightTextBackground":     "{{ surface.none }}",
-    "editor.wordHighlightTextBorder":         "{{ border.none }}",
-    
-    "editorUnicodeHighlight.border":          "{{ border.dim }}",
-    "editorUnicodeHighlight.background":      "{{ surface.base }}",
+    "editor.wordHighlightStrongBackground": "{{ surface.none }}",
+    "editor.wordHighlightStrongBorder":     "{{ ui.accent1.base }}",
+    "editor.wordHighlightBackground":       "{{ surface.none }}",
+    "editor.wordHighlightBorder":           "{{ ui.accent2.base }}",
+    "editor.wordHighlightTextBackground":   "{{ surface.none }}",
+    "editor.wordHighlightTextBorder":       "{{ border.none }}",
+    "searchEditor.findMatchBackground":     "{{ surface.raised.low }}",
+    "searchEditor.findMatchBorder":         "{{ ui.danger.base }}",
+    "searchEditor.textInputBorder":         "{{ border.dim }}",
+    "editorWatermark.foreground":           "{{ text.mid }}",
+    "editorUnicodeHighlight.border":        "{{ border.dim }}",
+    "editorUnicodeHighlight.background":    "{{ surface.base }}",
+    "editor.rangeHighlightBackground":      "{{ surface.raised.low }}",
+    "editor.rangeHighlightBorder":          "{{ border.none }}",
+
+    /* highlighted @ search for symbols, haven’t found the impact of this config */
+    "editor.symbolHighlightBackground":     "{{ surface.none }}",
+    "editor.symbolHighlightBorder":         "{{ surface.none }}",
+
+    /* To see the editor inline hints, set "editor.inlayHints.enabled": on. */
+    "editorInlayHint.background":          "{{ surface.none }}",
+    "editorInlayHint.foreground":          "{{ text.disabled }}",
+    "editorInlayHint.typeBackground":      "{{ surface.none }}",
+    "editorInlayHint.typeForeground":      "{{ text.disabled }}",
+    "editorInlayHint.parameterBackground": "{{ surface.none }}",
+    "editorInlayHint.parameterForeground": "{{ text.disabled }}",
+
 
     "editorWhitespace.foreground":         "{{ text.disabled }}",
     "editorCursor.foreground":             "{{ text.mid }}",
+    "editorCursor.background":             "{{ text.on-ui }}",
     "editorError.foreground":              "{{ ui.danger.mid }}",
     "editorWarning.foreground":            "{{ ui.warning.mid }}",
     "editorHint.foreground":               "{{ ui.success.mid }}",
@@ -453,7 +502,7 @@
 
     "editorStickyScroll.background":      "{{ surface.base }}",
     "editorStickyScrollHover.background": "{{ surface.raised.low }}",
-    
+    "search.resultsInfoForeground":       "{{ text.mid }}",
 
     
     /* Bracket matching and bracket pair colorization

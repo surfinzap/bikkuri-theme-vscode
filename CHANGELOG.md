@@ -11,18 +11,32 @@ Removed
 Fixed
 Security
 
+## [1.0.2] — 2024-02-08
+
+### Added 
+- ListFilterWidget definitions [VS Code 1.86](https://code.visualstudio.com/updates/v1_86)
+- Tree definitions introduced in [VS Code 1.86](https://code.visualstudio.com/updates/v1_86)
+- Icon definitions when the Activity Bar is on top
+- Line Number definitions for active and dimmed number
+- Color of a character overlapped by a block cursor
+- Missing definitions for [Status Bar item hovers](https://code.visualstudio.com/api/references/theme-color#status-bar-colors).
+- Search editor “find-match” colors
+- Definitions for Inlay hints
+
+
+
 
 ## [1.0.1] — 2024-02-01
 
-
 ### Added
-- missing definitions for [Base colors](https://code.visualstudio.com/api/references/theme-color#base-colors)
-- definitions for [Window Borders](https://code.visualstudio.com/api/references/theme-color#window-border)
-- definitions for nested indent guides
-- definitions for [text colors](https://code.visualstudio.com/api/references/theme-color#text-colors)
+- Missing definitions for [Base colors](https://code.visualstudio.com/api/references/theme-color#base-colors)
+- Definitions for [Window Borders](https://code.visualstudio.com/api/references/theme-color#window-border)
+- Definitions for nested indent guides
+- Definitions for [text colors](https://code.visualstudio.com/api/references/theme-color#text-colors)
 
 ### Security
 - Updated dependencies to their latest versions
+
 
 
 ## [1.0.0] — 2024-01-23
