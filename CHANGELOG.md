@@ -11,7 +11,7 @@ Removed
 Fixed
 Security
 
-## [1.0.2] — 2024-
+## [1.0.2] — 2024-02-08
 
 ### Added 
 - ListFilterWidget definitions [VS Code 1.86](https://code.visualstudio.com/updates/v1_86)
