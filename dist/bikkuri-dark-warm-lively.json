@@ -500,10 +500,17 @@
     "editorGutter.addedBackground":                  "#9cb062",
     "editorGutter.deletedBackground":                "#e06578",
     "editorGutter.modifiedBackground":               "#e9c07d",
+    
     /* requires e.g. GitHub pull requests extension to preview these comment ranges */
-    "editorGutter.commentRangeForeground":           "#e9c07d",
-    "editorGutter.commentGlyphForeground":           "#e9c07d",
-    "editorGutter.commentUnresolvedGlyphForeground": "#e9c07d",
+    "editorGutter.commentRangeForeground":           "#579896",
+    "editorGutter.commentUnresolvedGlyphForeground": "#1e1b1b",
+    "editorGutter.commentGlyphForeground":           "#1e1b1b",
+    "editorCommentsWidget.unresolvedBorder":         "#caa263",
+    "editorCommentsWidget.resolvedBorder":           "#839451",
+    "editorCommentsWidget.rangeBackground":          "#5950511f",
+    "editorCommentsWidget.rangeActiveBackground":    "#5950514d",
+    "editorCommentsWidget.replyInputBackground":     "#2a2526",
+
     "editorGutter.foldingControlForeground":         "#958a8c",
     "editorIndentGuide.background1":       "#3e383980",
     "editorIndentGuide.background2":       "#3e383980",
