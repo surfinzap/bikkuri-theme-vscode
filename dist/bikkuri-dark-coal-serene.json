@@ -584,6 +584,8 @@
     "diffEditor.unchangedRegionForeground":    "#6f6f6f",
     "diffEditor.unchangedRegionShadow":        "#525252",
     "diffEditor.unchangedCodeBackground":      "#1b1b1b00",
+
+    /* experimental in v 1.80 https://code.visualstudio.com/updates/v1_80#_move-detection */ 
     "diffEditor.move.border":                  "#393939",
     "diffEditor.moveActive.border":            "#525252",
 
