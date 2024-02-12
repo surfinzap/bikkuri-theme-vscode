@@ -579,6 +579,14 @@
     "diffEditor.removedTextBackground":        "#65222de6",
     "diffEditor.insertedLineBackground":       "#353c204d",
     "diffEditor.removedLineBackground":        "#65222d4d",
+    /* "diffEditor.hideUnchangedRegions.enabled": true, to make unchaged regions visible*/
+    "diffEditor.unchangedRegionBackground":    "#1e1b1b00",
+    "diffEditor.unchangedRegionForeground":    "#786c6e",
+    "diffEditor.unchangedRegionShadow":        "#595051",
+    "diffEditor.unchangedCodeBackground":      "#1e1b1b00",
+    "diffEditor.move.border":                  "#3e3839",
+    "diffEditor.moveActive.border":            "#595051",
+
     "diffEditorGutter.insertedLineBackground": "#353c204d",
     "diffEditorGutter.removedLineBackground":  "#65222d4d",
     "diffEditorOverview.insertedForeground":   "#353c20e6",

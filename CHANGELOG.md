@@ -17,7 +17,7 @@ Security
 - Missing styles for [Editor Overview Ruler](https://code.visualstudio.com/api/references/theme-color#minimap)
 - Styles for errors and warnings in the Editor
 - Styles for unused code
-
+- Styles for unchanged regions in Diff editor
 
 
 
