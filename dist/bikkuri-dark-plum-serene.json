@@ -496,11 +496,15 @@
     "problemsErrorIcon.foreground":        "#c07982",
     "problemsWarningIcon.foreground":      "#dfc299",
     "problemsInfoIcon.foreground":         "#8fabc8",
+
+    "editorUnnecessaryCode.border":        "#1d1a2300",
+    "editorUnnecessaryCode.opacity":       "#e1dfe580", 
+
     "editorGutter.background":                       "#1d1a2300",
     "editorGutter.addedBackground":                  "#a1ad86",
     "editorGutter.deletedBackground":                "#c07982",
     "editorGutter.modifiedBackground":               "#dfc299",
-    
+
     /* requires e.g. GitHub pull requests extension to preview these comment ranges */
     "editorGutter.commentRangeForeground":           "#749392",
     "editorGutter.commentUnresolvedGlyphForeground": "#1d1a23",

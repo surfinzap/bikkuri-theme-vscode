@@ -14,8 +14,9 @@ Security
 ## [1.0.3]
 
 ### Added
-- Missing definitions for [Editor Overview Ruler](https://code.visualstudio.com/api/references/theme-color#minimap)
-- Definitions for errors and warnings in the Editor
+- Missing styles for [Editor Overview Ruler](https://code.visualstudio.com/api/references/theme-color#minimap)
+- Styles for errors and warnings in the Editor
+- Styles for unused code
 
 
 
