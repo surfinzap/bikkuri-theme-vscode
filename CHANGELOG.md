@@ -11,13 +11,14 @@ Removed
 Fixed
 Security
 
-## [1.0.3]
+## [1.0.3] — 2024-02-15
 
 ### Added
 - Missing styles for [Editor Overview Ruler](https://code.visualstudio.com/api/references/theme-color#minimap)
 - Styles for errors and warnings in the Editor
 - Styles for unused code
 - Styles for unchanged regions in Diff editor
+- Styles for [chart colors](https://code.visualstudio.com/api/references/theme-color#chart-colors)
 
 
 

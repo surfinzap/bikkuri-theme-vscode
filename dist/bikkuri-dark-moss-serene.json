@@ -839,6 +839,24 @@
     "editorLightBulbAutoFix.foreground":     "#dfc299",
     "editorLightBulbAi.foreground":          "#dfc299",
 
+
+
+    /* Chart colors
+
+       Missing an example of aplication
+
+       https://code.visualstudio.com/api/references/theme-color#chart-colors
+    */
+    "charts.foreground": " ",
+    "charts.lines":      " #393935",
+    "charts.red":        " #c07982",
+    "charts.orange":     " #c8a087",
+    "charts.yellow":     " #dfc299",
+    "charts.green":      " #a1ad86",
+    "charts.blue":       " #8fabc8",
+    "charts.purple":     " #a8a4c8",
+
+    
   },
   "tokenColors": [
     {
