@@ -401,18 +401,20 @@
        e.g. Output, Debug Console, Terminal 
     */
     
-    "panel.background":              "#1b1c19",
-    "panel.border":                  "#393935",
-    "panel.dropBorder":              "#52534d",
-    "panelTitle.activeBorder":       "#8d8e85",
-    "panelTitle.activeForeground":   "#e0e1d4",
-    "panelTitle.inactiveForeground": "#6f7069",
-    "panelInput.border":             "#52534d",
-    "panelSection.border":           "#393935",
-    "panelSection.dropBackground":   "#52534d4d",
-    "panelSectionHeader.background": "#1b1c19",
-    "panelSectionHeader.foreground": "#e0e1d4",
-    "panelSectionHeader.border":     "#393935",
+  "panel.background":                  "#1b1c19",
+  "panel.border":                      "#393935",
+  "panel.dropBorder":                  "#52534d",
+  "panelTitle.activeBorder":           "#8d8e85",
+  "panelTitle.activeForeground":       "#e0e1d4",
+  "panelTitle.inactiveForeground":     "#6f7069",
+  "panelInput.border":                 "#52534d",
+  "panelSection.border":               "#393935",
+  "panelSection.dropBackground":       "#52534d4d",
+  "panelSectionHeader.background":     "#1b1c19",
+  "panelSectionHeader.foreground":     "#e0e1d4",
+  "panelSectionHeader.border":         "#393935",
+  "outputView.background":             "#1b1c19",
+  "outputViewStickyScroll.background": "#262623",
 
 
     /* Editor
