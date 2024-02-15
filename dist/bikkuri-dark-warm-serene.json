@@ -593,7 +593,9 @@
     "diffEditorGutter.removedLineBackground":  "#572c324d",
     "diffEditorOverview.insertedForeground":   "#363b2be6",
     "diffEditorOverview.removedForeground":    "#572c32e6",
-    
+    "multiDiffEditor.headerBackground":        "#2a2526",
+    "multiDiffEditor.background":              "#2a2526",
+    "multiDiffEditor.border":                  "#3e3839",
     
     /* Merge conflicts, Merge editor
      */
