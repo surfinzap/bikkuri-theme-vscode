@@ -847,7 +847,7 @@
 
        https://code.visualstudio.com/api/references/theme-color#chart-colors
     */
-    "charts.foreground": " ",
+    "charts.foreground": " #e1dfe5",
     "charts.lines":      " #3c3746",
     "charts.red":        " #e06578",
     "charts.orange":     " #da9a6a",
