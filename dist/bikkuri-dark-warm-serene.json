@@ -836,6 +836,21 @@
     "menu.separatorBackground":              "#3e3839",
     "menu.border":                           "#3e3839",
 
+    /* Command center
+
+       https://code.visualstudio.com/api/references/theme-color#command-center-colors
+    */
+    "commandCenter.foreground":          "#958a8c",
+    "commandCenter.activeForeground":    "#e2e0e0",
+    "commandCenter.background":          "#2a2526",
+    "commandCenter.activeBackground":    "#59505180",
+    "commandCenter.border":              "#3e3839",
+    "commandCenter.inactiveForeground":  "#786c6e",
+    "commandCenter.inactiveBorder":      "#3e3839",
+    "commandCenter.activeBorder":        "#595051",
+    "commandCenter.debuggingBackground": "#2a2526",
+
+
     /* Lightbulb
     */
 

@@ -16,6 +16,7 @@ Security
 ### Added
 - Styles for [Multi-diff editor](https://code.visualstudio.com/updates/v1_86#_review-multiple-files-in-diff-editor)
 - Styles for [Output view](https://code.visualstudio.com/api/references/theme-color#panel-colors)
+- Styles for [Command center](https://code.visualstudio.com/updates/v1_69#_command-center)
 
 
 
