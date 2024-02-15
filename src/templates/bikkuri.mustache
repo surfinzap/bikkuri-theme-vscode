@@ -277,6 +277,7 @@
     "minimapSlider.hoverBackground":        "{{ surface.raised.high }}",
 
     "editorOverviewRuler.border":                        "{{ surface.base }}",
+    "editorOverviewRuler.background":                    "{{ surface.none }}",
     "editorOverviewRuler.addedForeground":               "{{ ui.success.mid }}{{ opacity.med }}",
     "editorOverviewRuler.bracketMatchForeground":        "{{ text.dim }}",
     "editorOverviewRuler.deletedForeground":             "{{ ui.danger.mid }}{{ opacity.med }}",
@@ -285,10 +286,14 @@
     "editorOverviewRuler.infoForeground":                "{{ ui.info.mid }}",
     "editorOverviewRuler.modifiedForeground":            "{{ ui.warning.mid }}",
     "editorOverviewRuler.rangeHighlightForeground":      "{{ ui.accent1.mid }}",
-    "editorOverviewRuler.selectionHighlightForeground":  "{{ text.dim }}",
+    "editorOverviewRuler.selectionHighlightForeground":  "{{ ui.accent3.base }}",
     "editorOverviewRuler.warningForeground":             "{{ ui.warning.mid }}",
     "editorOverviewRuler.wordHighlightForeground":       "{{ text.dim }}",
+    "editorOverviewRuler.wordHighlightTextForeground":   "{{ ui.accent2.base }}",
     "editorOverviewRuler.wordHighlightStrongForeground": "{{ text.dim }}",
+    "editorOverviewRuler.inlineChatInserted":            "{{ ui.success.mid }}",
+    "editorOverviewRuler.inlineChatRemoved":             "{{ ui.danger.mid }}",
+
     //editorOverviewRuler for merge conflicts is located within merge conflicts
   
     
@@ -477,12 +482,40 @@
     "editorCursor.foreground":             "{{ text.mid }}",
     "editorCursor.background":             "{{ text.on-ui }}",
     "editorError.foreground":              "{{ ui.danger.mid }}",
+    "editorError.background":              "{{ surface.none }}",
+    "editorError.border":                  "{{ border.none }}",
     "editorWarning.foreground":            "{{ ui.warning.mid }}",
+    "editorWarning.background":            "{{ surface.none }}",
+    "editorWarning.border":                "{{ border.none }}",
     "editorHint.foreground":               "{{ ui.success.mid }}",
+    "editorHint.border":                   "{{ border.none }}",
     "editorInfo.foreground":               "{{ ui.info.mid }}",
-    "editorGutter.addedBackground":        "{{ ui.success.base }}",
-    "editorGutter.deletedBackground":      "{{ ui.danger.base }}",
-    "editorGutter.modifiedBackground":     "{{ ui.warning.base }}",
+    "editorInfo.border":                   "{{ border.none }}",
+    "editorInfo.background":               "{{ surface.none }}",
+    /* icons in the panel view */
+    "problemsErrorIcon.foreground":        "{{ ui.danger.base }}",
+    "problemsWarningIcon.foreground":      "{{ ui.warning.base }}",
+    "problemsInfoIcon.foreground":         "{{ ui.accent1.base }}",
+
+    "editorUnnecessaryCode.border":        "{{ border.none }}",
+    "editorUnnecessaryCode.opacity":       "{{ text.base }}{{ opacity.med }}", 
+
+    "editorGutter.background":                       "{{ surface.none }}",
+    "editorGutter.addedBackground":                  "{{ ui.success.base }}",
+    "editorGutter.deletedBackground":                "{{ ui.danger.base }}",
+    "editorGutter.modifiedBackground":               "{{ ui.warning.base }}",
+
+    /* requires e.g. GitHub pull requests extension to preview these comment ranges */
+    "editorGutter.commentRangeForeground":           "{{ ui.accent3.mid }}",
+    "editorGutter.commentUnresolvedGlyphForeground": "{{ text.on-ui }}",
+    "editorGutter.commentGlyphForeground":           "{{ text.on-ui }}",
+    "editorCommentsWidget.unresolvedBorder":         "{{ ui.warning.mid }}",
+    "editorCommentsWidget.resolvedBorder":           "{{ ui.success.mid }}",
+    "editorCommentsWidget.rangeBackground":          "{{ surface.raised.min }}",
+    "editorCommentsWidget.rangeActiveBackground":    "{{ surface.raised.low }}",
+    "editorCommentsWidget.replyInputBackground":     "{{ surface.sunken }}",
+
+    "editorGutter.foldingControlForeground":         "{{ text.mid }}",
     "editorIndentGuide.background1":       "{{ border.dim }}{{ opacity.med }}",
     "editorIndentGuide.background2":       "{{ border.dim }}{{ opacity.med }}",
     "editorIndentGuide.background3":       "{{ border.dim }}{{ opacity.med }}",
@@ -531,6 +564,7 @@
     "editorBracketPairGuide.background1":     "{{ text.none }}",
     "editorBracketPairGuide.background2":     "{{ text.none }}",
     "editorBracketPairGuide.background3":     "{{ text.none }}",
+    "editor.foldBackground":                  "{{ surface.raised.min }}",
 
 
 
@@ -545,6 +579,16 @@
     "diffEditor.removedTextBackground":        "{{ ui.danger.dim }}{{ opacity.high }}",
     "diffEditor.insertedLineBackground":       "{{ ui.success.dim }}{{ opacity.med-low }}",
     "diffEditor.removedLineBackground":        "{{ ui.danger.dim }}{{ opacity.med-low }}",
+    /* "diffEditor.hideUnchangedRegions.enabled": true, to make unchaged regions visible*/
+    "diffEditor.unchangedRegionBackground":    "{{ surface.none }}",
+    "diffEditor.unchangedRegionForeground":    "{{ text.dim }}",
+    "diffEditor.unchangedRegionShadow":        "{{ border.mid }}",
+    "diffEditor.unchangedCodeBackground":      "{{ surface.none }}",
+
+    /* experimental in v 1.80 https://code.visualstudio.com/updates/v1_80#_move-detection */ 
+    "diffEditor.move.border":                  "{{ border.dim }}",
+    "diffEditor.moveActive.border":            "{{ border.mid }}",
+
     "diffEditorGutter.insertedLineBackground": "{{ ui.success.dim }}{{ opacity.med-low }}",
     "diffEditorGutter.removedLineBackground":  "{{ ui.danger.dim }}{{ opacity.med-low }}",
     "diffEditorOverview.insertedForeground":   "{{ ui.success.dim }}{{ opacity.high }}",
@@ -793,7 +837,26 @@
 
     "editorLightBulb.foreground":            "{{ ui.warning.base }}",
     "editorLightBulbAutoFix.foreground":     "{{ ui.warning.base }}",
+    "editorLightBulbAi.foreground":          "{{ ui.warning.base }}",
 
+
+
+    /* Chart colors
+
+       Missing an example of aplication
+
+       https://code.visualstudio.com/api/references/theme-color#chart-colors
+    */
+    "charts.foreground": " {{ text.base }}",
+    "charts.lines":      " {{ border.dim }}",
+    "charts.red":        " {{ syntax.01.base }}",
+    "charts.orange":     " {{ syntax.02.base }}",
+    "charts.yellow":     " {{ syntax.03.base }}",
+    "charts.green":      " {{ syntax.04.base }}",
+    "charts.blue":       " {{ syntax.06.base }}",
+    "charts.purple":     " {{ syntax.07.base }}",
+
+    
   },
   "tokenColors": [
     {

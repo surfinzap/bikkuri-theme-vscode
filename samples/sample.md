@@ -52,7 +52,7 @@ And here’s some inline code: `print("Hello, World!")`
 And here’s some ~~strikethrough~~ text.
 
 ```mermaid
-graph TD %% Comment 
+graph TD 
 OUTCOME(Desired Outcome) 
 OUTCOME--> OPP1(Opportunity 1) & OPP2(Opportunity 2) & OPP3(Opportunity 3)
 OPP1 --> IDEA1(Solution idea 1) & IDEA2(Solution idea 2) & IDEA3(...)
@@ -113,3 +113,4 @@ gantt
   Task 5         :b2, after b1, 6d
   Task 6         :b3, after b2, 4d
 ```
+

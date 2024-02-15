@@ -11,6 +11,17 @@ Removed
 Fixed
 Security
 
+## [1.0.3] — 2024-02-15
+
+### Added
+- Missing styles for [Editor Overview Ruler](https://code.visualstudio.com/api/references/theme-color#minimap)
+- Styles for errors and warnings in the Editor
+- Styles for unused code
+- Styles for unchanged regions in the Diff editor
+- Styles for [chart colors](https://code.visualstudio.com/api/references/theme-color#chart-colors)
+
+
+
 ## [1.0.2] — 2024-02-08
 
 ### Added 
@@ -22,7 +33,7 @@ Security
 - Missing definitions for [Status Bar item hovers](https://code.visualstudio.com/api/references/theme-color#status-bar-colors).
 - Search editor “find-match” colors
 - Definitions for Inlay hints
-
+- Definitions for Pull request comments
 
 
 

@@ -277,6 +277,7 @@
     "minimapSlider.hoverBackground":        "#4e5163b3",
 
     "editorOverviewRuler.border":                        "#1a1b23",
+    "editorOverviewRuler.background":                    "#1a1b2300",
     "editorOverviewRuler.addedForeground":               "#87917080",
     "editorOverviewRuler.bracketMatchForeground":        "#6a6e85",
     "editorOverviewRuler.deletedForeground":             "#a25a6380",
@@ -285,10 +286,14 @@
     "editorOverviewRuler.infoForeground":                "#7790a8",
     "editorOverviewRuler.modifiedForeground":            "#bfa481",
     "editorOverviewRuler.rangeHighlightForeground":      "#7790a8",
-    "editorOverviewRuler.selectionHighlightForeground":  "#6a6e85",
+    "editorOverviewRuler.selectionHighlightForeground":  "#8bafae",
     "editorOverviewRuler.warningForeground":             "#bfa481",
     "editorOverviewRuler.wordHighlightForeground":       "#6a6e85",
+    "editorOverviewRuler.wordHighlightTextForeground":   "#a8a4c8",
     "editorOverviewRuler.wordHighlightStrongForeground": "#6a6e85",
+    "editorOverviewRuler.inlineChatInserted":            "#879170",
+    "editorOverviewRuler.inlineChatRemoved":             "#a25a63",
+
     //editorOverviewRuler for merge conflicts is located within merge conflicts
   
     
@@ -477,12 +482,40 @@
     "editorCursor.foreground":             "#898c9f",
     "editorCursor.background":             "#1a1b23",
     "editorError.foreground":              "#a25a63",
+    "editorError.background":              "#1a1b2300",
+    "editorError.border":                  "#1a1b2300",
     "editorWarning.foreground":            "#bfa481",
+    "editorWarning.background":            "#1a1b2300",
+    "editorWarning.border":                "#1a1b2300",
     "editorHint.foreground":               "#879170",
+    "editorHint.border":                   "#1a1b2300",
     "editorInfo.foreground":               "#7790a8",
-    "editorGutter.addedBackground":        "#a1ad86",
-    "editorGutter.deletedBackground":      "#c07982",
-    "editorGutter.modifiedBackground":     "#dfc299",
+    "editorInfo.border":                   "#1a1b2300",
+    "editorInfo.background":               "#1a1b2300",
+    /* icons in the panel view */
+    "problemsErrorIcon.foreground":        "#c07982",
+    "problemsWarningIcon.foreground":      "#dfc299",
+    "problemsInfoIcon.foreground":         "#8fabc8",
+
+    "editorUnnecessaryCode.border":        "#1a1b2300",
+    "editorUnnecessaryCode.opacity":       "#dee0e580", 
+
+    "editorGutter.background":                       "#1a1b2300",
+    "editorGutter.addedBackground":                  "#a1ad86",
+    "editorGutter.deletedBackground":                "#c07982",
+    "editorGutter.modifiedBackground":               "#dfc299",
+
+    /* requires e.g. GitHub pull requests extension to preview these comment ranges */
+    "editorGutter.commentRangeForeground":           "#749392",
+    "editorGutter.commentUnresolvedGlyphForeground": "#1a1b23",
+    "editorGutter.commentGlyphForeground":           "#1a1b23",
+    "editorCommentsWidget.unresolvedBorder":         "#bfa481",
+    "editorCommentsWidget.resolvedBorder":           "#879170",
+    "editorCommentsWidget.rangeBackground":          "#4e51631f",
+    "editorCommentsWidget.rangeActiveBackground":    "#4e51634d",
+    "editorCommentsWidget.replyInputBackground":     "#24262f",
+
+    "editorGutter.foldingControlForeground":         "#898c9f",
     "editorIndentGuide.background1":       "#36384680",
     "editorIndentGuide.background2":       "#36384680",
     "editorIndentGuide.background3":       "#36384680",
@@ -531,6 +564,7 @@
     "editorBracketPairGuide.background1":     "#c3c6cf00",
     "editorBracketPairGuide.background2":     "#c3c6cf00",
     "editorBracketPairGuide.background3":     "#c3c6cf00",
+    "editor.foldBackground":                  "#4e51631f",
 
 
 
@@ -545,6 +579,16 @@
     "diffEditor.removedTextBackground":        "#572c32e6",
     "diffEditor.insertedLineBackground":       "#363b2b4d",
     "diffEditor.removedLineBackground":        "#572c324d",
+    /* "diffEditor.hideUnchangedRegions.enabled": true, to make unchaged regions visible*/
+    "diffEditor.unchangedRegionBackground":    "#1a1b2300",
+    "diffEditor.unchangedRegionForeground":    "#6a6e85",
+    "diffEditor.unchangedRegionShadow":        "#4e5163",
+    "diffEditor.unchangedCodeBackground":      "#1a1b2300",
+
+    /* experimental in v 1.80 https://code.visualstudio.com/updates/v1_80#_move-detection */ 
+    "diffEditor.move.border":                  "#363846",
+    "diffEditor.moveActive.border":            "#4e5163",
+
     "diffEditorGutter.insertedLineBackground": "#363b2b4d",
     "diffEditorGutter.removedLineBackground":  "#572c324d",
     "diffEditorOverview.insertedForeground":   "#363b2be6",
@@ -793,7 +837,26 @@
 
     "editorLightBulb.foreground":            "#dfc299",
     "editorLightBulbAutoFix.foreground":     "#dfc299",
+    "editorLightBulbAi.foreground":          "#dfc299",
 
+
+
+    /* Chart colors
+
+       Missing an example of aplication
+
+       https://code.visualstudio.com/api/references/theme-color#chart-colors
+    */
+    "charts.foreground": " #dee0e5",
+    "charts.lines":      " #363846",
+    "charts.red":        " #c07982",
+    "charts.orange":     " #c8a087",
+    "charts.yellow":     " #dfc299",
+    "charts.green":      " #a1ad86",
+    "charts.blue":       " #8fabc8",
+    "charts.purple":     " #a8a4c8",
+
+    
   },
   "tokenColors": [
     {
