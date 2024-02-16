@@ -11,7 +11,7 @@ Removed
 Fixed
 Security
 
-## [1.0.4]
+## [1.0.4] — 2024-02-16
 
 ### Added
 - Styles for [Multi-diff editor](https://code.visualstudio.com/updates/v1_86#_review-multiple-files-in-diff-editor)
