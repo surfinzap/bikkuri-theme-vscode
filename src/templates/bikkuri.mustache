@@ -172,7 +172,7 @@
     "tree.indentGuidesStroke":              "{{ border.mid }}",
     "tree.inactiveIndentGuidesStroke":      "{{ border.dim }}",
     "tree.tableColumnsBorder":              "{{ border.dim }}",
-    "tree.tableOddRowsBackground":          "{{ suface.none }}",
+    "tree.tableOddRowsBackground":          "{{ surface.none }}",
 
 
 
@@ -401,18 +401,20 @@
        e.g. Output, Debug Console, Terminal 
     */
     
-    "panel.background":              "{{ surface.base }}",
-    "panel.border":                  "{{ border.dim }}",
-    "panel.dropBorder":              "{{ border.mid }}",
-    "panelTitle.activeBorder":       "{{ border.base }}",
-    "panelTitle.activeForeground":   "{{ text.base }}",
-    "panelTitle.inactiveForeground": "{{ text.dim }}",
-    "panelInput.border":             "{{ border.mid }}",
-    "panelSection.border":           "{{ border.dim }}",
-    "panelSection.dropBackground":   "{{ surface.raised.low }}",
-    "panelSectionHeader.background": "{{ surface.base }}",
-    "panelSectionHeader.foreground": "{{ text.base }}",
-    "panelSectionHeader.border":     "{{ border.dim }}",
+  "panel.background":                  "{{ surface.base }}",
+  "panel.border":                      "{{ border.dim }}",
+  "panel.dropBorder":                  "{{ border.mid }}",
+  "panelTitle.activeBorder":           "{{ border.base }}",
+  "panelTitle.activeForeground":       "{{ text.base }}",
+  "panelTitle.inactiveForeground":     "{{ text.dim }}",
+  "panelInput.border":                 "{{ border.mid }}",
+  "panelSection.border":               "{{ border.dim }}",
+  "panelSection.dropBackground":       "{{ surface.raised.low }}",
+  "panelSectionHeader.background":     "{{ surface.base }}",
+  "panelSectionHeader.foreground":     "{{ text.base }}",
+  "panelSectionHeader.border":         "{{ border.dim }}",
+  "outputView.background":             "{{ surface.base }}",
+  "outputViewStickyScroll.background": "{{ surface.sunken }}",
 
 
     /* Editor
@@ -593,7 +595,9 @@
     "diffEditorGutter.removedLineBackground":  "{{ ui.danger.dim }}{{ opacity.med-low }}",
     "diffEditorOverview.insertedForeground":   "{{ ui.success.dim }}{{ opacity.high }}",
     "diffEditorOverview.removedForeground":    "{{ ui.danger.dim }}{{ opacity.high }}",
-    
+    "multiDiffEditor.headerBackground":        "{{ surface.sunken }}",
+    "multiDiffEditor.background":              "{{ surface.sunken }}",
+    "multiDiffEditor.border":                  "{{ border.dim }}",
     
     /* Merge conflicts, Merge editor
      */
@@ -831,6 +835,21 @@
     "menu.selectionBorder":                  "{{ border.none }}",
     "menu.separatorBackground":              "{{ border.dim }}",
     "menu.border":                           "{{ border.dim }}",
+
+    /* Command center
+
+       https://code.visualstudio.com/api/references/theme-color#command-center-colors
+    */
+    "commandCenter.foreground":          "{{ text.mid }}",
+    "commandCenter.activeForeground":    "{{ text.base }}",
+    "commandCenter.background":          "{{ surface.sunken }}",
+    "commandCenter.activeBackground":    "{{ surface.raised.med }}",
+    "commandCenter.border":              "{{ border.dim }}",
+    "commandCenter.inactiveForeground":  "{{ text.dim }}",
+    "commandCenter.inactiveBorder":      "{{ border.dim }}",
+    "commandCenter.activeBorder":        "{{ border.mid }}",
+    "commandCenter.debuggingBackground": "{{ surface.sunken }}",
+
 
     /* Lightbulb
     */

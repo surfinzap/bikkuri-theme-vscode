@@ -172,7 +172,7 @@
     "tree.indentGuidesStroke":              "#595051",
     "tree.inactiveIndentGuidesStroke":      "#3e3839",
     "tree.tableColumnsBorder":              "#3e3839",
-    "tree.tableOddRowsBackground":          "",
+    "tree.tableOddRowsBackground":          "#1e1b1b00",
 
 
 
@@ -401,18 +401,20 @@
        e.g. Output, Debug Console, Terminal 
     */
     
-    "panel.background":              "#1e1b1b",
-    "panel.border":                  "#3e3839",
-    "panel.dropBorder":              "#595051",
-    "panelTitle.activeBorder":       "#958a8c",
-    "panelTitle.activeForeground":   "#e2e0e0",
-    "panelTitle.inactiveForeground": "#786c6e",
-    "panelInput.border":             "#595051",
-    "panelSection.border":           "#3e3839",
-    "panelSection.dropBackground":   "#5950514d",
-    "panelSectionHeader.background": "#1e1b1b",
-    "panelSectionHeader.foreground": "#e2e0e0",
-    "panelSectionHeader.border":     "#3e3839",
+  "panel.background":                  "#1e1b1b",
+  "panel.border":                      "#3e3839",
+  "panel.dropBorder":                  "#595051",
+  "panelTitle.activeBorder":           "#958a8c",
+  "panelTitle.activeForeground":       "#e2e0e0",
+  "panelTitle.inactiveForeground":     "#786c6e",
+  "panelInput.border":                 "#595051",
+  "panelSection.border":               "#3e3839",
+  "panelSection.dropBackground":       "#5950514d",
+  "panelSectionHeader.background":     "#1e1b1b",
+  "panelSectionHeader.foreground":     "#e2e0e0",
+  "panelSectionHeader.border":         "#3e3839",
+  "outputView.background":             "#1e1b1b",
+  "outputViewStickyScroll.background": "#2a2526",
 
 
     /* Editor
@@ -593,7 +595,9 @@
     "diffEditorGutter.removedLineBackground":  "#572c324d",
     "diffEditorOverview.insertedForeground":   "#363b2be6",
     "diffEditorOverview.removedForeground":    "#572c32e6",
-    
+    "multiDiffEditor.headerBackground":        "#2a2526",
+    "multiDiffEditor.background":              "#2a2526",
+    "multiDiffEditor.border":                  "#3e3839",
     
     /* Merge conflicts, Merge editor
      */
@@ -831,6 +835,21 @@
     "menu.selectionBorder":                  "#1e1b1b00",
     "menu.separatorBackground":              "#3e3839",
     "menu.border":                           "#3e3839",
+
+    /* Command center
+
+       https://code.visualstudio.com/api/references/theme-color#command-center-colors
+    */
+    "commandCenter.foreground":          "#958a8c",
+    "commandCenter.activeForeground":    "#e2e0e0",
+    "commandCenter.background":          "#2a2526",
+    "commandCenter.activeBackground":    "#59505180",
+    "commandCenter.border":              "#3e3839",
+    "commandCenter.inactiveForeground":  "#786c6e",
+    "commandCenter.inactiveBorder":      "#3e3839",
+    "commandCenter.activeBorder":        "#595051",
+    "commandCenter.debuggingBackground": "#2a2526",
+
 
     /* Lightbulb
     */

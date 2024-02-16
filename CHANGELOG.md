@@ -11,6 +11,18 @@ Removed
 Fixed
 Security
 
+## [1.0.4] — 2024-02-16
+
+### Added
+- Styles for [Multi-diff editor](https://code.visualstudio.com/updates/v1_86#_review-multiple-files-in-diff-editor)
+- Styles for [Output view](https://code.visualstudio.com/api/references/theme-color#panel-colors)
+- Styles for [Command center](https://code.visualstudio.com/updates/v1_69#_command-center)
+
+### Fixed
+- Rows color in `Open Keyboard Shortcuts` dialog (#17)
+
+
+
 ## [1.0.3] — 2024-02-15
 
 ### Added
