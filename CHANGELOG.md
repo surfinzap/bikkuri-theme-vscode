@@ -15,6 +15,7 @@ Security
 
 ### Added 
 - Styles for [Chat](https://code.visualstudio.com/api/references/theme-color#chat-colors) and [Inline Chat](https://code.visualstudio.com/api/references/theme-color#inline-chat-colors)
+- Styles for [Notebook](https://code.visualstudio.com/api/references/theme-color#notebook-colors)
 
 
 

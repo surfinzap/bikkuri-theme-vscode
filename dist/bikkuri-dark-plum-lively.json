@@ -888,6 +888,38 @@
 
 
 
+    /* Notebook 
+       
+       https://code.visualstudio.com/api/references/theme-color#notebook-colors
+    */
+
+    "notebook.editorBackground":                         "#1d1a23",
+    "notebook.cellBorderColor":                          "#3c3746",
+    "notebook.cellHoverBackground":                      "#564f644d",
+    "notebook.cellInsertionIndicator":                   "#918a9f",
+    "notebook.cellStatusBarItemHoverBackground":         "#564f644d",
+    "notebook.cellToolbarSeparator":                     "#3c3746",
+    "notebook.cellEditorBackground":                     "#1d1a23",
+    "notebook.focusedCellBackground":                    "#1d1a2300",
+    "notebook.focusedCellBorder":                        "#3c3746",
+    "notebook.focusedEditorBorder":                      "#564f64",
+    "notebook.inactiveFocusedCellBorder":                "#3c3746",
+    "notebook.inactiveSelectedCellBorder":               "#3c3746",
+    "notebook.outputContainerBackgroundColor":           "#1d1a2300",
+    "notebook.outputContainerBorderColor":               "#3c3746",
+    "notebook.selectedCellBackground":                   "#ff0000",
+    "notebook.selectedCellBorder":                       "#564f64",
+    "notebook.symbolHighlightBackground":                "#1d1a2300",
+    "notebookScrollbarSlider.background":                "#564f644d",
+    "notebookScrollbarSlider.activeBackground":          "#564f6480",
+    "notebookScrollbarSlider.hoverBackground":           "#564f6480",
+    "notebookStatusErrorIcon.foreground":                "#e06578",
+    "notebookStatusRunningIcon.foreground":              "#e9c07d",
+    "notebookStatusSuccessIcon.foreground":              "#9cb062",
+    "notebookEditorOverviewRuler.runningCellForeground": "",
+    "interactive.activeCodeBorder":                      "#564f64",
+    "interactive.inactiveCodeBorder":                    "#3c3746",
+
     /* Chart colors
 
        Missing an example of aplication
