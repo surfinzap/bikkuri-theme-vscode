@@ -12,7 +12,9 @@ Fixed
 Security
 
 ## [1.0.5] —
-- 
+
+### Added 
+- Styles for [Chat](https://code.visualstudio.com/api/references/theme-color#chat-colors) and [Inline Chat](https://code.visualstudio.com/api/references/theme-color#inline-chat-colors)
 
 
 

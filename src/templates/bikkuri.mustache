@@ -600,15 +600,31 @@
     "multiDiffEditor.border":                  "{{ border.dim }}",
     
 
-    /* Chat 
+    /* Chat, Inline Chat,
+
+       e.g. Github Co-pilot
     
-       https: //code.visualstudio.com/api/references/theme-color#chat-colors
+       https://code.visualstudio.com/api/references/theme-color#chat-colors
     */
-    "chat.requestBorder":          "{{ temp.alert }}",
-    "chat.slashCommandBackground": "{{ temp.alert }}",
-    "chat.slashCommandForeground": "{{ temp.alert }}",
-    "chat.avatarBackground":       "{{ temp.alert }}",
-    "chat.avatarForeground":       "{{ temp.alert }}",
+    "chat.requestBorder":          "{{ border.dim }}", //co-pilot icon
+    "chat.slashCommandBackground": "{{ surface.base }}", //in-chat slash command
+    "chat.slashCommandForeground": "{{ text.mid }}", //in-chat slash command
+    "chat.avatarBackground":       "{{ surface.none }}", //co-pilot icon
+    "chat.avatarForeground":       "{{ icon.mid }}", //co-pilot icon
+
+    "inlineChat.background":                 "{{ surface.sunken }}",
+    "inlineChat.border":                     "{{ border.dim }}",
+    "inlineChat.shadow":                     "{{ shadow }}",
+    "inlineChat.regionHighlight":            "{{ ui.accent1.mid }}{{ opacity.med }}",
+    "inlineChatInput.border":                "{{ border.dim }}",
+    "inlineChatInput.focusBorder":           "{{ border.mid }}",
+    "inlineChatInput.placeholderForeground": "{{ text.dim }}",
+    "inlineChatInput.background":            "{{ surface.sunken }}",
+    "inlineChatDiff.inserted":               "{{ ui.success.dim }}{{ opacity.med-high }}",
+    "inlineChatDiff.removed":                "{{ ui.danger.dim }}{{ opacity.med-high }}",
+
+
+
 
 
     /* Merge conflicts, Merge editor

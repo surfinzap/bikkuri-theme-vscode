@@ -599,6 +599,34 @@
     "multiDiffEditor.background":              "#24262f",
     "multiDiffEditor.border":                  "#363846",
     
+
+    /* Chat, Inline Chat,
+
+       e.g. Github Co-pilot
+    
+       https://code.visualstudio.com/api/references/theme-color#chat-colors
+    */
+    "chat.requestBorder":          "#363846", //co-pilot icon
+    "chat.slashCommandBackground": "#1a1b23", //in-chat slash command
+    "chat.slashCommandForeground": "#898c9f", //in-chat slash command
+    "chat.avatarBackground":       "#1a1b2300", //co-pilot icon
+    "chat.avatarForeground":       "#6a6e85", //co-pilot icon
+
+    "inlineChat.background":                 "#24262f",
+    "inlineChat.border":                     "#363846",
+    "inlineChat.shadow":                     "#111111",
+    "inlineChat.regionHighlight":            "#6192bb80",
+    "inlineChatInput.border":                "#363846",
+    "inlineChatInput.focusBorder":           "#4e5163",
+    "inlineChatInput.placeholderForeground": "#6a6e85",
+    "inlineChatInput.background":            "#24262f",
+    "inlineChatDiff.inserted":               "#353c20b3",
+    "inlineChatDiff.removed":                "#65222db3",
+
+
+
+
+
     /* Merge conflicts, Merge editor
      */
     "merge.border":                                        "#1a1b2300",
