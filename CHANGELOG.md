@@ -11,6 +11,11 @@ Removed
 Fixed
 Security
 
+## [1.0.5] —
+- 
+
+
+
 ## [1.0.4] — 2024-02-16
 
 ### Added
