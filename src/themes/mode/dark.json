@@ -24,7 +24,7 @@
     "dim": "{{ tint.60 }}",
     "disabled": "{{ tint.70 }}",
     "on-ui": "{{ tint.100 }}",
-    "none": "{{ tint.30 }}{{ opacity.none }}"
+    "none": "{{ tint.20 }}{{ opacity.none }}"
   },
   "icon": {
     "base": "{{ tint.40 }}",

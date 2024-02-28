@@ -198,6 +198,9 @@
     "keybindingLabel.border":       "#282430",
     "keybindingLabel.bottomBorder": "#3c3746",
     "keybindingLabel.foreground":   "#918a9f",
+    "keybindingTable.headerBackground": "#1d1a2300",
+    "keybindingTable.rowsBackground": "#1d1a2300",
+
 
     /* Activity Bar 
     */
@@ -414,7 +417,7 @@
   "panelSectionHeader.foreground":     "#e1dfe5",
   "panelSectionHeader.border":         "#3c3746",
   "outputView.background":             "#1d1a23",
-  "outputViewStickyScroll.background": "#282430",
+  "outputViewStickyScroll.background": "#1d1a23",
 
 
     /* Editor
@@ -557,15 +560,15 @@
     "editorBracketHighlight.foreground5":     "#a1ad86",
     "editorBracketHighlight.foreground6":     "#8fabc8",
     "editorBracketHighlight.unexpectedBracket.foreground": "#a25a63",
-    "editorBracketPairGuide.activeBackground1": "#c8c5cf00",
-    "editorBracketPairGuide.activeBackground2": "#c8c5cf00",
-    "editorBracketPairGuide.activeBackground3": "#c8c5cf00",
-    "editorBracketPairGuide.activeBackground4": "#c8c5cf00",
-    "editorBracketPairGuide.activeBackground5": "#c8c5cf00",
-    "editorBracketPairGuide.activeBackground6": "#c8c5cf00",
-    "editorBracketPairGuide.background1":     "#c8c5cf00",
-    "editorBracketPairGuide.background2":     "#c8c5cf00",
-    "editorBracketPairGuide.background3":     "#c8c5cf00",
+    "editorBracketPairGuide.activeBackground1": "#e1dfe500",
+    "editorBracketPairGuide.activeBackground2": "#e1dfe500",
+    "editorBracketPairGuide.activeBackground3": "#e1dfe500",
+    "editorBracketPairGuide.activeBackground4": "#e1dfe500",
+    "editorBracketPairGuide.activeBackground5": "#e1dfe500",
+    "editorBracketPairGuide.activeBackground6": "#e1dfe500",
+    "editorBracketPairGuide.background1":     "#e1dfe500",
+    "editorBracketPairGuide.background2":     "#e1dfe500",
+    "editorBracketPairGuide.background3":     "#e1dfe500",
     "editor.foldBackground":                  "#564f641f",
 
 
@@ -812,7 +815,9 @@
     "terminal.background":                   "#1d1a23",
     "terminal.border":                       "#3c3746",
     "terminal.dropBackground":               "#564f644d",
-    "terminal.selectionBackground":          "#564f6480",
+    "terminal.selectionBackground":          "#564f644d",
+    "terminal.inactiveSelectionBackground":  "#564f641f",
+    // "terminal.selectionForeground": "undefined to keep the color of the terminal text",
     "terminal.tab.activeBorder":             "#918a9f",
     "terminalCursor.background":             "#282430",
     "terminalCursor.foreground":             "#918a9f",
@@ -821,7 +826,13 @@
     "terminalCommandDecoration.errorBackground":   "#a25a63",
     "terminal.findMatchBackground":                "#a8a4c84d",
     "terminal.findMatchHighlightBackground":       "#564f6480",
-
+    "terminal.findMatchBorder":                    "#c07982",
+    "terminal.findMatchHighlightBorder":           "#a8a4c8",
+    "terminal.hoverHighlightBackground":           "#564f644d",
+    "terminalOverviewRuler.cursorForeground":      "",
+    "terminalOverviewRuler.findMatchForeground":   "#bfa481",
+    "terminalStickyScroll.background":             "#1d1a23",
+    "terminalStickyScrollHover.background":        "#564f644d",
 
 
 

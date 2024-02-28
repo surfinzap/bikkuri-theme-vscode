@@ -198,6 +198,9 @@
     "keybindingLabel.border":       "{{ surface.sunken }}",
     "keybindingLabel.bottomBorder": "{{ border.dim }}",
     "keybindingLabel.foreground":   "{{ text.mid }}",
+    "keybindingTable.headerBackground": "{{ surface.none }}",
+    "keybindingTable.rowsBackground": "{{ surface.none }}",
+
 
     /* Activity Bar 
     */
@@ -414,7 +417,7 @@
   "panelSectionHeader.foreground":     "{{ text.base }}",
   "panelSectionHeader.border":         "{{ border.dim }}",
   "outputView.background":             "{{ surface.base }}",
-  "outputViewStickyScroll.background": "{{ surface.sunken }}",
+  "outputViewStickyScroll.background": "{{ surface.base }}",
 
 
     /* Editor
@@ -812,7 +815,9 @@
     "terminal.background":                   "{{ surface.base }}",
     "terminal.border":                       "{{ border.dim }}",
     "terminal.dropBackground":               "{{ surface.raised.low }}",
-    "terminal.selectionBackground":          "{{ surface.raised.med }}",
+    "terminal.selectionBackground":          "{{ surface.raised.low }}",
+    "terminal.inactiveSelectionBackground":  "{{ surface.raised.min }}",
+    // "terminal.selectionForeground": "undefined to keep the color of the terminal text",
     "terminal.tab.activeBorder":             "{{ border.base }}",
     "terminalCursor.background":             "{{ surface.sunken }}",
     "terminalCursor.foreground":             "{{ text.mid }}",
@@ -821,7 +826,13 @@
     "terminalCommandDecoration.errorBackground":   "{{ ui.danger.mid }}",
     "terminal.findMatchBackground":                "{{ ui.accent2.base }}{{ opacity.med-low }}",
     "terminal.findMatchHighlightBackground":       "{{ surface.raised.med }}",
-
+    "terminal.findMatchBorder":                    "{{ ui.danger.base }}",
+    "terminal.findMatchHighlightBorder":           "{{ ui.accent2.base }}",
+    "terminal.hoverHighlightBackground":           "{{ surface.raised.low }}",
+    "terminalOverviewRuler.cursorForeground":      "{{ surface.raised.mid}}",
+    "terminalOverviewRuler.findMatchForeground":   "{{ ui.warning.mid }}",
+    "terminalStickyScroll.background":             "{{ surface.base }}",
+    "terminalStickyScrollHover.background":        "{{ surface.raised.low }}",
 
 
 
