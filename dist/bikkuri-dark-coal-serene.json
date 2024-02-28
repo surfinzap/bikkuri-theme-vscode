@@ -198,6 +198,9 @@
     "keybindingLabel.border":       "#262626",
     "keybindingLabel.bottomBorder": "#393939",
     "keybindingLabel.foreground":   "#8d8d8d",
+    "keybindingTable.headerBackground": "#1b1b1b00",
+    "keybindingTable.rowsBackground": "#1b1b1b00",
+
 
     /* Activity Bar 
     */
@@ -414,7 +417,7 @@
   "panelSectionHeader.foreground":     "#e0e0e0",
   "panelSectionHeader.border":         "#393939",
   "outputView.background":             "#1b1b1b",
-  "outputViewStickyScroll.background": "#262626",
+  "outputViewStickyScroll.background": "#1b1b1b",
 
 
     /* Editor
@@ -557,15 +560,15 @@
     "editorBracketHighlight.foreground5":     "#a1ad86",
     "editorBracketHighlight.foreground6":     "#8fabc8",
     "editorBracketHighlight.unexpectedBracket.foreground": "#a25a63",
-    "editorBracketPairGuide.activeBackground1": "#c6c6c600",
-    "editorBracketPairGuide.activeBackground2": "#c6c6c600",
-    "editorBracketPairGuide.activeBackground3": "#c6c6c600",
-    "editorBracketPairGuide.activeBackground4": "#c6c6c600",
-    "editorBracketPairGuide.activeBackground5": "#c6c6c600",
-    "editorBracketPairGuide.activeBackground6": "#c6c6c600",
-    "editorBracketPairGuide.background1":     "#c6c6c600",
-    "editorBracketPairGuide.background2":     "#c6c6c600",
-    "editorBracketPairGuide.background3":     "#c6c6c600",
+    "editorBracketPairGuide.activeBackground1": "#e0e0e000",
+    "editorBracketPairGuide.activeBackground2": "#e0e0e000",
+    "editorBracketPairGuide.activeBackground3": "#e0e0e000",
+    "editorBracketPairGuide.activeBackground4": "#e0e0e000",
+    "editorBracketPairGuide.activeBackground5": "#e0e0e000",
+    "editorBracketPairGuide.activeBackground6": "#e0e0e000",
+    "editorBracketPairGuide.background1":     "#e0e0e000",
+    "editorBracketPairGuide.background2":     "#e0e0e000",
+    "editorBracketPairGuide.background3":     "#e0e0e000",
     "editor.foldBackground":                  "#5252521f",
 
 
@@ -599,6 +602,34 @@
     "multiDiffEditor.background":              "#262626",
     "multiDiffEditor.border":                  "#393939",
     
+
+    /* Chat, Inline Chat,
+
+       e.g. Github Co-pilot
+    
+       https://code.visualstudio.com/api/references/theme-color#chat-colors
+    */
+    "chat.requestBorder":          "#393939", //co-pilot icon
+    "chat.slashCommandBackground": "#1b1b1b", //in-chat slash command
+    "chat.slashCommandForeground": "#8d8d8d", //in-chat slash command
+    "chat.avatarBackground":       "#1b1b1b00", //co-pilot icon
+    "chat.avatarForeground":       "#6f6f6f", //co-pilot icon
+
+    "inlineChat.background":                 "#262626",
+    "inlineChat.border":                     "#393939",
+    "inlineChat.shadow":                     "#111111",
+    "inlineChat.regionHighlight":            "#7790a880",
+    "inlineChatInput.border":                "#393939",
+    "inlineChatInput.focusBorder":           "#525252",
+    "inlineChatInput.placeholderForeground": "#6f6f6f",
+    "inlineChatInput.background":            "#262626",
+    "inlineChatDiff.inserted":               "#363b2bb3",
+    "inlineChatDiff.removed":                "#572c32b3",
+
+
+
+
+
     /* Merge conflicts, Merge editor
      */
     "merge.border":                                        "#1b1b1b00",
@@ -784,7 +815,9 @@
     "terminal.background":                   "#1b1b1b",
     "terminal.border":                       "#393939",
     "terminal.dropBackground":               "#5252524d",
-    "terminal.selectionBackground":          "#52525280",
+    "terminal.selectionBackground":          "#5252524d",
+    "terminal.inactiveSelectionBackground":  "#5252521f",
+    // "terminal.selectionForeground": "undefined to keep the color of the terminal text",
     "terminal.tab.activeBorder":             "#8d8d8d",
     "terminalCursor.background":             "#262626",
     "terminalCursor.foreground":             "#8d8d8d",
@@ -793,7 +826,13 @@
     "terminalCommandDecoration.errorBackground":   "#a25a63",
     "terminal.findMatchBackground":                "#a8a4c84d",
     "terminal.findMatchHighlightBackground":       "#52525280",
-
+    "terminal.findMatchBorder":                    "#c07982",
+    "terminal.findMatchHighlightBorder":           "#a8a4c8",
+    "terminal.hoverHighlightBackground":           "#5252524d",
+    "terminalOverviewRuler.cursorForeground":      "",
+    "terminalOverviewRuler.findMatchForeground":   "#bfa481",
+    "terminalStickyScroll.background":             "#1b1b1b",
+    "terminalStickyScrollHover.background":        "#5252524d",
 
 
 
@@ -859,6 +898,38 @@
     "editorLightBulbAi.foreground":          "#dfc299",
 
 
+
+    /* Notebook 
+       
+       https://code.visualstudio.com/api/references/theme-color#notebook-colors
+    */
+
+    "notebook.editorBackground":                         "#1b1b1b",
+    "notebook.cellBorderColor":                          "#393939",
+    "notebook.cellHoverBackground":                      "#5252524d",
+    "notebook.cellInsertionIndicator":                   "#8d8d8d",
+    "notebook.cellStatusBarItemHoverBackground":         "#5252524d",
+    "notebook.cellToolbarSeparator":                     "#393939",
+    "notebook.cellEditorBackground":                     "#1b1b1b",
+    "notebook.focusedCellBackground":                    "#1b1b1b00",
+    "notebook.focusedCellBorder":                        "#393939",
+    "notebook.focusedEditorBorder":                      "#525252",
+    "notebook.inactiveFocusedCellBorder":                "#393939",
+    "notebook.inactiveSelectedCellBorder":               "#393939",
+    "notebook.outputContainerBackgroundColor":           "#1b1b1b00",
+    "notebook.outputContainerBorderColor":               "#393939",
+    "notebook.selectedCellBackground":                   "#ff0000",
+    "notebook.selectedCellBorder":                       "#525252",
+    "notebook.symbolHighlightBackground":                "#1b1b1b00",
+    "notebookScrollbarSlider.background":                "#5252524d",
+    "notebookScrollbarSlider.activeBackground":          "#52525280",
+    "notebookScrollbarSlider.hoverBackground":           "#52525280",
+    "notebookStatusErrorIcon.foreground":                "#c07982",
+    "notebookStatusRunningIcon.foreground":              "#dfc299",
+    "notebookStatusSuccessIcon.foreground":              "#a1ad86",
+    "notebookEditorOverviewRuler.runningCellForeground": "",
+    "interactive.activeCodeBorder":                      "#525252",
+    "interactive.inactiveCodeBorder":                    "#393939",
 
     /* Chart colors
 

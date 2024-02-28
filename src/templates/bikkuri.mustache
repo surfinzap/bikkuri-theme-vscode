@@ -198,6 +198,9 @@
     "keybindingLabel.border":       "{{ surface.sunken }}",
     "keybindingLabel.bottomBorder": "{{ border.dim }}",
     "keybindingLabel.foreground":   "{{ text.mid }}",
+    "keybindingTable.headerBackground": "{{ surface.none }}",
+    "keybindingTable.rowsBackground": "{{ surface.none }}",
+
 
     /* Activity Bar 
     */
@@ -414,7 +417,7 @@
   "panelSectionHeader.foreground":     "{{ text.base }}",
   "panelSectionHeader.border":         "{{ border.dim }}",
   "outputView.background":             "{{ surface.base }}",
-  "outputViewStickyScroll.background": "{{ surface.sunken }}",
+  "outputViewStickyScroll.background": "{{ surface.base }}",
 
 
     /* Editor
@@ -599,6 +602,34 @@
     "multiDiffEditor.background":              "{{ surface.sunken }}",
     "multiDiffEditor.border":                  "{{ border.dim }}",
     
+
+    /* Chat, Inline Chat,
+
+       e.g. Github Co-pilot
+    
+       https://code.visualstudio.com/api/references/theme-color#chat-colors
+    */
+    "chat.requestBorder":          "{{ border.dim }}", //co-pilot icon
+    "chat.slashCommandBackground": "{{ surface.base }}", //in-chat slash command
+    "chat.slashCommandForeground": "{{ text.mid }}", //in-chat slash command
+    "chat.avatarBackground":       "{{ surface.none }}", //co-pilot icon
+    "chat.avatarForeground":       "{{ icon.mid }}", //co-pilot icon
+
+    "inlineChat.background":                 "{{ surface.sunken }}",
+    "inlineChat.border":                     "{{ border.dim }}",
+    "inlineChat.shadow":                     "{{ shadow }}",
+    "inlineChat.regionHighlight":            "{{ ui.accent1.mid }}{{ opacity.med }}",
+    "inlineChatInput.border":                "{{ border.dim }}",
+    "inlineChatInput.focusBorder":           "{{ border.mid }}",
+    "inlineChatInput.placeholderForeground": "{{ text.dim }}",
+    "inlineChatInput.background":            "{{ surface.sunken }}",
+    "inlineChatDiff.inserted":               "{{ ui.success.dim }}{{ opacity.med-high }}",
+    "inlineChatDiff.removed":                "{{ ui.danger.dim }}{{ opacity.med-high }}",
+
+
+
+
+
     /* Merge conflicts, Merge editor
      */
     "merge.border":                                        "{{ border.none }}",
@@ -784,7 +815,9 @@
     "terminal.background":                   "{{ surface.base }}",
     "terminal.border":                       "{{ border.dim }}",
     "terminal.dropBackground":               "{{ surface.raised.low }}",
-    "terminal.selectionBackground":          "{{ surface.raised.med }}",
+    "terminal.selectionBackground":          "{{ surface.raised.low }}",
+    "terminal.inactiveSelectionBackground":  "{{ surface.raised.min }}",
+    // "terminal.selectionForeground": "undefined to keep the color of the terminal text",
     "terminal.tab.activeBorder":             "{{ border.base }}",
     "terminalCursor.background":             "{{ surface.sunken }}",
     "terminalCursor.foreground":             "{{ text.mid }}",
@@ -793,7 +826,13 @@
     "terminalCommandDecoration.errorBackground":   "{{ ui.danger.mid }}",
     "terminal.findMatchBackground":                "{{ ui.accent2.base }}{{ opacity.med-low }}",
     "terminal.findMatchHighlightBackground":       "{{ surface.raised.med }}",
-
+    "terminal.findMatchBorder":                    "{{ ui.danger.base }}",
+    "terminal.findMatchHighlightBorder":           "{{ ui.accent2.base }}",
+    "terminal.hoverHighlightBackground":           "{{ surface.raised.low }}",
+    "terminalOverviewRuler.cursorForeground":      "{{ surface.raised.mid}}",
+    "terminalOverviewRuler.findMatchForeground":   "{{ ui.warning.mid }}",
+    "terminalStickyScroll.background":             "{{ surface.base }}",
+    "terminalStickyScrollHover.background":        "{{ surface.raised.low }}",
 
 
 
@@ -859,6 +898,38 @@
     "editorLightBulbAi.foreground":          "{{ ui.warning.base }}",
 
 
+
+    /* Notebook 
+       
+       https://code.visualstudio.com/api/references/theme-color#notebook-colors
+    */
+
+    "notebook.editorBackground":                         "{{ surface.base }}",
+    "notebook.cellBorderColor":                          "{{ border.dim }}",
+    "notebook.cellHoverBackground":                      "{{ surface.raised.low }}",
+    "notebook.cellInsertionIndicator":                   "{{ border.base }}",
+    "notebook.cellStatusBarItemHoverBackground":         "{{ surface.raised.low }}",
+    "notebook.cellToolbarSeparator":                     "{{ border.dim }}",
+    "notebook.cellEditorBackground":                     "{{ surface.base }}",
+    "notebook.focusedCellBackground":                    "{{ surface.none }}",
+    "notebook.focusedCellBorder":                        "{{ border.dim }}",
+    "notebook.focusedEditorBorder":                      "{{ border.mid }}",
+    "notebook.inactiveFocusedCellBorder":                "{{ border.dim}}",
+    "notebook.inactiveSelectedCellBorder":               "{{ border.dim }}",
+    "notebook.outputContainerBackgroundColor":           "{{ surface.none }}",
+    "notebook.outputContainerBorderColor":               "{{ border.dim }}",
+    "notebook.selectedCellBackground":                   "{{ temp.alert }}",
+    "notebook.selectedCellBorder":                       "{{ border.mid }}",
+    "notebook.symbolHighlightBackground":                "{{ surface.none }}",
+    "notebookScrollbarSlider.background":                "{{ surface.raised.low }}",
+    "notebookScrollbarSlider.activeBackground":          "{{ surface.raised.med }}",
+    "notebookScrollbarSlider.hoverBackground":           "{{ surface.raised.med }}",
+    "notebookStatusErrorIcon.foreground":                "{{ ui.danger.base }}",
+    "notebookStatusRunningIcon.foreground":              "{{ ui.warning.base }}",
+    "notebookStatusSuccessIcon.foreground":              "{{ ui.success.base }}",
+    "notebookEditorOverviewRuler.runningCellForeground": "{{ ui.warning.dim }}",
+    "interactive.activeCodeBorder":                      "{{ border.mid }}",
+    "interactive.inactiveCodeBorder":                    "{{ border.dim }}",
 
     /* Chart colors
 

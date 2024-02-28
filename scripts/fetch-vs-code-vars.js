@@ -69,6 +69,7 @@ function removeDeprecatedVars(vscodeVars) {
     'editorIndentGuide.background',
     'editorIndentGuide.activeBackground',
     'editor.selectionForeground', // does not seem to take effect
+    'terminal.selectionForeground', // undefined to keep terminal text colors
   ];
 
   return vscodeVars.filter((varName) => !deprecatedVars.includes(varName));

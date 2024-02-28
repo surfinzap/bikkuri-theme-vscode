@@ -11,6 +11,15 @@ Removed
 Fixed
 Security
 
+## [1.0.5] —
+
+### Added 
+- Styles for [Chat](https://code.visualstudio.com/api/references/theme-color#chat-colors) and [Inline Chat](https://code.visualstudio.com/api/references/theme-color#inline-chat-colors)
+- Styles for [Notebook](https://code.visualstudio.com/api/references/theme-color#notebook-colors)
+- Additional styles for [Integrated Terminal](https://code.visualstudio.com/api/references/theme-color#integrated-terminal-colors)
+- Styles for [Keyboard Shortcut Table](https://code.visualstudio.com/api/references/theme-color#keyboard-shortcut-table-colors)
+
+
 ## [1.0.4] — 2024-02-16
 
 ### Added
