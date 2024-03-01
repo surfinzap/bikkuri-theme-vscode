@@ -11,6 +11,12 @@ Removed
 Fixed
 Security
 
+## [1.0.6]
+
+### Added 
+- Background color for your chat requests 
+- 
+
 ## [1.0.5] — 2024-02-28
 
 ### Added 

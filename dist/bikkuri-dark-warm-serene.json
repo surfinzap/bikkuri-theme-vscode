@@ -610,6 +610,7 @@
        https://code.visualstudio.com/api/references/theme-color#chat-colors
     */
     "chat.requestBorder":          "#3e3839", //co-pilot icon
+    "chat.requestBackground":      "#2a2526", //bg of your message
     "chat.slashCommandBackground": "#1e1b1b", //in-chat slash command
     "chat.slashCommandForeground": "#958a8c", //in-chat slash command
     "chat.avatarBackground":       "#1e1b1b00", //co-pilot icon
