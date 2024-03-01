@@ -15,7 +15,7 @@ Security
 
 ### Added 
 - Background color for your chat requests 
-- 
+- Additional styles for [Extension buttons](https://code.visualstudio.com/api/references/theme-color#extensions-colors)
 
 ## [1.0.5] — 2024-02-28
 

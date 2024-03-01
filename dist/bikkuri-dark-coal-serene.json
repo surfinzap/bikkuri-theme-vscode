@@ -857,11 +857,17 @@
     "extensionButton.prominentForeground":      "#1b1b1b",
     "extensionButton.prominentBackground":      "#8d8d8d",
     "extensionButton.prominentHoverBackground": "#a8a8a8",
+    "extensionButton.background":               "#5252524d",
+    "extensionButton.foreground":               "#e0e0e0",
+    "extensionButton.hoverBackground":          "#52525280",
+    "extensionButton.separator":                "#525252",
     "extensionBadge.remoteBackground":          "#8d8d8d",
     "extensionBadge.remoteForeground":          "#1b1b1b",
     "extensionIcon.starForeground":             "#525252",
-    "extensionIcon.verifiedForeground":         "#8fabc8", 
+    "extensionIcon.verifiedForeground":         "#8fabc8",
     "extensionIcon.preReleaseForeground":       "#a8a4c8",
+    "extensionIcon.sponsorForeground":          "#c07982",
+
 
     /* Menu
     */
