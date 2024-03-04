@@ -853,6 +853,19 @@
     "notificationsInfoIcon.foreground":      "#8fabc8",
 
 
+    /* Banners
+
+       You can see banner in Restricted Mode:
+       Command Palette > Workspaces: Manage Workspaces Trust
+       https://code.visualstudio.com/blogs/2021/07/06/workspace-trust#_workspace-trust-editor
+
+       https://code.visualstudio.com/api/references/theme-color#banner-colors
+    */ 
+    "banner.background":     "#a8a4c8",
+    "banner.foreground":     "#1d1a23",
+    "banner.iconForeground": "#1d1a23",
+
+
 
     /* Extensions
     */
