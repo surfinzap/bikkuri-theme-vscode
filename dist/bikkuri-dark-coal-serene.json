@@ -852,14 +852,16 @@
     "notificationsWarningIcon.foreground":   "#dfc299",
     "notificationsInfoIcon.foreground":      "#8fabc8",
 
+
+
     /* Extensions
     */
     "extensionButton.prominentForeground":      "#1b1b1b",
     "extensionButton.prominentBackground":      "#8d8d8d",
     "extensionButton.prominentHoverBackground": "#a8a8a8",
-    "extensionButton.background":               "#5252524d",
-    "extensionButton.foreground":               "#e0e0e0",
-    "extensionButton.hoverBackground":          "#52525280",
+    "extensionButton.background":               "#8d8d8d",
+    "extensionButton.foreground":               "#1b1b1b",
+    "extensionButton.hoverBackground":          "#a8a8a8",
     "extensionButton.separator":                "#525252",
     "extensionBadge.remoteBackground":          "#8d8d8d",
     "extensionBadge.remoteForeground":          "#1b1b1b",
