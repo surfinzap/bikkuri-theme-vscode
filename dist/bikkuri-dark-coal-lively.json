@@ -126,6 +126,34 @@
     "titleBar.inactiveForeground":            "#8d8d8d",
     "titleBar.border" :                       "#393939",
 
+    /* Settings
+    
+       GUI settings editor which can be opened with the "Preferences: Open Settings (UI) command".
+
+       https://code.visualstudio.com/api/references/theme-color#settings-editor-colors
+    */
+
+    "settings.headerForeground":      "#e0e0e0",
+    "settings.modifiedItemIndicator": "#e9c07d",
+    "settings.dropdownBackground":    "#262626",
+    "settings.dropdownForeground":    "#e0e0e0",
+    "settings.dropdownBorder":        "#393939",
+    "settings.dropdownListBorder":    "#393939",
+    "settings.checkboxBackground":    "#1b1b1b",
+    "settings.checkboxForeground":    "#a8a8a8",
+    "settings.checkboxBorder":        "#8d8d8d",
+    "settings.rowHoverBackground":    "#5252521f",
+    "settings.textInputBackground":   "#262626",
+    "settings.textInputForeground":   "#e0e0e0",
+    "settings.textInputBorder":       "#393939",
+    "settings.numberInputBackground": "#262626",
+    "settings.numberInputForeground": "#e0e0e0",
+    "settings.numberInputBorder":     "#393939",
+    "settings.focusedRowBackground":  "#5252524d",
+    "settings.focusedRowBorder":      "#1b1b1b00",
+    "settings.headerBorder":          "#393939",
+    "settings.sashBorder":            "#393939",
+
     /* Breadcrumbs
     */    
     "breadcrumb.foreground":                    "#6f6f6f",

@@ -14,6 +14,7 @@ Security
 ## [1.0.6]
 
 ### Added 
+- Styles for [Settings](https://code.visualstudio.com/api/references/theme-color#settings-editor-colors)
 - Styles for [Banners](https://code.visualstudio.com/api/references/theme-color#banner-colors) (shown, for example, in a [Restricted Mode](https://code.visualstudio.com/blogs/2021/07/06/workspace-trust#_workspace-trust-editor))
 - Background color for your chat requests 
 - Additional styles for [Extension buttons](https://code.visualstudio.com/api/references/theme-color#extensions-colors)
