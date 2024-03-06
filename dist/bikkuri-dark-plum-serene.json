@@ -779,6 +779,40 @@
     "debugConsoleInputIcon.foreground":                "#746b84",
 
 
+    /* Testing
+       
+
+       For Javasript with Jest test, install Facebook's Jest extension to see the Testing pane in the Activity Bar
+
+       https://code.visualstudio.com/api/references/theme-color#testing-colors
+    */ 
+
+    "testing.iconFailed":                         "#c07982",
+    "testing.iconErrored":                        "#c07982",
+    "testing.iconPassed":                         "#a1ad86",
+    "testing.runAction":                          "#a1ad86",
+    "testing.iconQueued":                         "#a8a4c8",
+    "testing.iconUnset":                          "#746b84",
+    "testing.iconSkipped":                        "#dfc299",
+    "testing.peekBorder":                         "#3c3746",
+    "testing.peekHeaderBackground":               "#1d1a2300",
+    "testing.message.error.decorationForeground": "#c07982",
+    "testing.message.error.lineBackground":       "#c07982",
+    "testing.message.info.decorationForeground":  "#8fabc8",
+    "testing.message.info.lineBackground":        "#8fabc8",
+    "testing.messagePeekBorder":                  "#3c3746",
+    "testing.messagePeekHeaderBackground":        "#1d1a2300",
+    // needs a plugin like Coverage Gutters to see the impact
+    "testing.coveredBackground":                  "#363b2b4d", 
+    "testing.coveredGutterBackground":            "#363b2b4d",
+    "testing.coveredBorder":                      "#1d1a2300",
+    "testing.uncoveredBranchBackground":          "#572c324d",
+    "testing.uncoveredBackground":                "#572c324d",
+    "testing.uncoveredGutterBackground":          "#572c324d",
+    "testing.uncoveredBorder":                    "#1d1a2300",
+    "testing.coverCountBadgeBackground":          "#918a9f",
+    "testing.coverCountBadgeForeground":          "#1d1a23",
+
 
 
     /* Symbol Icons Colors
