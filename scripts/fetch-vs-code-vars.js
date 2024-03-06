@@ -15,23 +15,14 @@ async function fetchVSCodeThemeColors() {
     );
     const $ = cheerio.load(response.data);
 
-    // straightforward impl, but catches extra <code> definitions
-    // const codeElements = $('ul > li > code');
-    //
-    // let vars = [];
-    // codeElements.each((i, elem) => {
-    //   vars.push($(elem).text().trim());
-    // });
-
-    // alternative to get first <code> occurence only
     let vars = [];
     $('ul > li').each((i, li) => {
-      const firstCodeElement = $(li).children('code').first();
+      console.log($(li).children());
+      const firstCodeElement = $(li).find('code').first();
       if (firstCodeElement.length) {
         vars.push(firstCodeElement.text().trim());
       }
     });
-    // 
 
     const dirPath = 'temp';
     if (!fs.existsSync(dirPath)) {
