@@ -11,7 +11,7 @@ Removed
 Fixed
 Security
 
-## [1.0.6]
+## [1.0.6] — 2024-03-06
 
 ### Added 
 - Styles for [Settings](https://code.visualstudio.com/api/references/theme-color#settings-editor-colors)
@@ -19,6 +19,7 @@ Security
 - Styles for [Tests](https://code.visualstudio.com/api/references/theme-color#testing-colors)
 - Background color for your chat requests 
 - Additional styles for [Extension buttons](https://code.visualstudio.com/api/references/theme-color#extensions-colors)
+- Additional styles for Minimap
 
 ## [1.0.5] — 2024-02-28
 
