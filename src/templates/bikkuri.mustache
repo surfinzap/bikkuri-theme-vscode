@@ -86,10 +86,13 @@
     "input.border":                           "{{ border.dim }}",
     "input.foreground":                       "{{ text.base }}",
     "input.placeholderForeground":            "{{ text.dim }}",
-    "inputOption.activeBackground":           "{{ ui.button.bg }}", // bg for active icons in inputs
+    /* inputOption.* for
+       - active icons in inputs
+       - checkboxes in "Profiles: Show Profile Contents"
+    */
+    "inputOption.activeBackground":           "{{ ui.button.bg }}", 
     "inputOption.hoverBackground":            "{{ surface.raised.med }}",  
     "inputOption.activeForeground":           "{{ text.on-ui }}",
-    // Border color of activated options in input fields.
     "inputOption.activeBorder":               "{{ border.none }}", //cannot be null
     "inputValidation.errorBackground":        "{{ surface.sunken }}",
     "inputValidation.errorForeground":        "{{ ui.danger.base }}",

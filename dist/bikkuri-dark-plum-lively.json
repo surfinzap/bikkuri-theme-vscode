@@ -86,10 +86,13 @@
     "input.border":                           "#3c3746",
     "input.foreground":                       "#e1dfe5",
     "input.placeholderForeground":            "#746b84",
-    "inputOption.activeBackground":           "#918a9f", // bg for active icons in inputs
+    /* inputOption.* for
+       - active icons in inputs
+       - checkboxes in "Profiles: Show Profile Contents"
+    */
+    "inputOption.activeBackground":           "#918a9f", 
     "inputOption.hoverBackground":            "#564f6480",  
     "inputOption.activeForeground":           "#1d1a23",
-    // Border color of activated options in input fields.
     "inputOption.activeBorder":               "#1d1a2300", //cannot be null
     "inputValidation.errorBackground":        "#282430",
     "inputValidation.errorForeground":        "#e06578",
