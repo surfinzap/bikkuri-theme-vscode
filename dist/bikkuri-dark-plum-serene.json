@@ -295,12 +295,14 @@
     /* Minimap & Overview ruler
        https://code.visualstudio.com/api/references/theme-color#minimap
     */
+    "minimap.background":                   "#1d1a2300",
+    "minimap.foregroundOpacity":            "#1d1a23e6",
     "minimap.errorHighlight":               "#a25a63",
     "minimap.findMatchHighlight":           "#bfa481",
-    // "minimap.foregroundOpacity":            "#000000c0",
     "minimap.selectionHighlight":           "#564f64b3",
     "minimap.selectionOccurrenceHighlight": "#564f64b3",
     "minimap.warningHighlight":             "#bfa481",
+    "minimap.infoHighlight":                "#7790a8",
     "minimapGutter.addedBackground":        "#879170",
     "minimapGutter.deletedBackground":      "#a25a63",
     "minimapGutter.modifiedBackground":     "#bfa481",
@@ -379,6 +381,7 @@
     "editorGroup.emptyBackground":        "#1d1a23",
     "editorGroupHeader.noTabsBackground": "#1d1a23",
     "editorGroupHeader.tabsBackground":   "#1d1a23",
+    "editorGroupHeader.border":           "#1d1a2300",
     "editorGroup.dropBackground":         "#564f644d",
     "editorGroup.border":                 "#3c3746",
     "editorGroupHeader.tabsBorder":       "#3c3746",
@@ -398,6 +401,7 @@
     "tab.hoverBackground":                 "#564f6480",
     "tab.hoverForeground":                 "#918a9f",
     "tab.border":                          "#1d1a2300",
+    "tab.dragAndDropBorder":               "#918a9f",
     "tab.unfocusedActiveBackground":       "#564f644d",
     "tab.unfocusedActiveForeground":       "#746b84",
     "tab.unfocusedActiveBorder":           "#564f64",

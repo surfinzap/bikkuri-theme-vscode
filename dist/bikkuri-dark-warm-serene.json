@@ -295,12 +295,14 @@
     /* Minimap & Overview ruler
        https://code.visualstudio.com/api/references/theme-color#minimap
     */
+    "minimap.background":                   "#1e1b1b00",
+    "minimap.foregroundOpacity":            "#1e1b1be6",
     "minimap.errorHighlight":               "#a25a63",
     "minimap.findMatchHighlight":           "#bfa481",
-    // "minimap.foregroundOpacity":            "#000000c0",
     "minimap.selectionHighlight":           "#595051b3",
     "minimap.selectionOccurrenceHighlight": "#595051b3",
     "minimap.warningHighlight":             "#bfa481",
+    "minimap.infoHighlight":                "#7790a8",
     "minimapGutter.addedBackground":        "#879170",
     "minimapGutter.deletedBackground":      "#a25a63",
     "minimapGutter.modifiedBackground":     "#bfa481",
@@ -379,6 +381,7 @@
     "editorGroup.emptyBackground":        "#1e1b1b",
     "editorGroupHeader.noTabsBackground": "#1e1b1b",
     "editorGroupHeader.tabsBackground":   "#1e1b1b",
+    "editorGroupHeader.border":           "#1e1b1b00",
     "editorGroup.dropBackground":         "#5950514d",
     "editorGroup.border":                 "#3e3839",
     "editorGroupHeader.tabsBorder":       "#3e3839",
@@ -398,6 +401,7 @@
     "tab.hoverBackground":                 "#59505180",
     "tab.hoverForeground":                 "#958a8c",
     "tab.border":                          "#1e1b1b00",
+    "tab.dragAndDropBorder":               "#958a8c",
     "tab.unfocusedActiveBackground":       "#5950514d",
     "tab.unfocusedActiveForeground":       "#786c6e",
     "tab.unfocusedActiveBorder":           "#595051",
