@@ -17,7 +17,6 @@ async function fetchVSCodeThemeColors() {
 
     let vars = [];
     $('ul > li').each((i, li) => {
-      console.log($(li).children());
       const firstCodeElement = $(li).find('code').first();
       if (firstCodeElement.length) {
         vars.push(firstCodeElement.text().trim());
