@@ -126,6 +126,35 @@
     "titleBar.inactiveForeground":            "#8d8e85",
     "titleBar.border" :                       "#393935",
 
+    /* Settings
+    
+       GUI settings editor which can be opened with the "Preferences: Open Settings (UI) command".
+
+       https://code.visualstudio.com/api/references/theme-color#settings-editor-colors
+    */
+
+    "settings.headerForeground":              "#e0e1d4",
+    "settings.settingsHeaderHoverForeground": "#8d8e85",
+    "settings.modifiedItemIndicator":         "#dfc299",
+    "settings.dropdownBackground":            "#262623",
+    "settings.dropdownForeground":            "#e0e1d4",
+    "settings.dropdownBorder":                "#393935",
+    "settings.dropdownListBorder":            "#393935",
+    "settings.checkboxBackground":            "#1b1c19",
+    "settings.checkboxForeground":            "#a8a99f",
+    "settings.checkboxBorder":                "#8d8e85",
+    "settings.rowHoverBackground":            "#52534d1f",
+    "settings.textInputBackground":           "#262623",
+    "settings.textInputForeground":           "#e0e1d4",
+    "settings.textInputBorder":               "#393935",
+    "settings.numberInputBackground":         "#262623",
+    "settings.numberInputForeground":         "#e0e1d4",
+    "settings.numberInputBorder":             "#393935",
+    "settings.focusedRowBackground":          "#52534d4d",
+    "settings.focusedRowBorder":              "#1b1c1900",
+    "settings.headerBorder":                  "#393935",
+    "settings.sashBorder":                    "#393935",
+
     /* Breadcrumbs
     */    
     "breadcrumb.foreground":                    "#6f7069",
@@ -266,12 +295,14 @@
     /* Minimap & Overview ruler
        https://code.visualstudio.com/api/references/theme-color#minimap
     */
+    "minimap.background":                   "#1b1c1900",
+    "minimap.foregroundOpacity":            "#1b1c19e6",
     "minimap.errorHighlight":               "#a25a63",
     "minimap.findMatchHighlight":           "#bfa481",
-    // "minimap.foregroundOpacity":            "#000000c0",
     "minimap.selectionHighlight":           "#52534db3",
     "minimap.selectionOccurrenceHighlight": "#52534db3",
     "minimap.warningHighlight":             "#bfa481",
+    "minimap.infoHighlight":                "#7790a8",
     "minimapGutter.addedBackground":        "#879170",
     "minimapGutter.deletedBackground":      "#a25a63",
     "minimapGutter.modifiedBackground":     "#bfa481",
@@ -350,6 +381,7 @@
     "editorGroup.emptyBackground":        "#1b1c19",
     "editorGroupHeader.noTabsBackground": "#1b1c19",
     "editorGroupHeader.tabsBackground":   "#1b1c19",
+    "editorGroupHeader.border":           "#1b1c1900",
     "editorGroup.dropBackground":         "#52534d4d",
     "editorGroup.border":                 "#393935",
     "editorGroupHeader.tabsBorder":       "#393935",
@@ -369,6 +401,7 @@
     "tab.hoverBackground":                 "#52534d80",
     "tab.hoverForeground":                 "#8d8e85",
     "tab.border":                          "#1b1c1900",
+    "tab.dragAndDropBorder":               "#8d8e85",
     "tab.unfocusedActiveBackground":       "#52534d4d",
     "tab.unfocusedActiveForeground":       "#6f7069",
     "tab.unfocusedActiveBorder":           "#52534d",
@@ -610,6 +643,7 @@
        https://code.visualstudio.com/api/references/theme-color#chat-colors
     */
     "chat.requestBorder":          "#393935", //co-pilot icon
+    "chat.requestBackground":      "#262623", //bg of your message
     "chat.slashCommandBackground": "#1b1c19", //in-chat slash command
     "chat.slashCommandForeground": "#8d8e85", //in-chat slash command
     "chat.avatarBackground":       "#1b1c1900", //co-pilot icon
@@ -749,6 +783,40 @@
     "debugConsoleInputIcon.foreground":                "#6f7069",
 
 
+    /* Testing
+       
+
+       For Javasript with Jest test, install Facebook's Jest extension to see the Testing pane in the Activity Bar
+
+       https://code.visualstudio.com/api/references/theme-color#testing-colors
+    */ 
+
+    "testing.iconFailed":                         "#c07982",
+    "testing.iconErrored":                        "#c07982",
+    "testing.iconPassed":                         "#a1ad86",
+    "testing.runAction":                          "#a1ad86",
+    "testing.iconQueued":                         "#a8a4c8",
+    "testing.iconUnset":                          "#6f7069",
+    "testing.iconSkipped":                        "#dfc299",
+    "testing.peekBorder":                         "#393935",
+    "testing.peekHeaderBackground":               "#1b1c1900",
+    "testing.message.error.decorationForeground": "#c07982",
+    "testing.message.error.lineBackground":       "#c07982",
+    "testing.message.info.decorationForeground":  "#8fabc8",
+    "testing.message.info.lineBackground":        "#8fabc8",
+    "testing.messagePeekBorder":                  "#393935",
+    "testing.messagePeekHeaderBackground":        "#1b1c1900",
+    // needs a plugin like Coverage Gutters to see the impact
+    "testing.coveredBackground":                  "#363b2b4d", 
+    "testing.coveredGutterBackground":            "#363b2b4d",
+    "testing.coveredBorder":                      "#1b1c1900",
+    "testing.uncoveredBranchBackground":          "#572c324d",
+    "testing.uncoveredBackground":                "#572c324d",
+    "testing.uncoveredGutterBackground":          "#572c324d",
+    "testing.uncoveredBorder":                    "#1b1c1900",
+    "testing.coverCountBadgeBackground":          "#8d8e85",
+    "testing.coverCountBadgeForeground":          "#1b1c19",
+
 
 
     /* Symbol Icons Colors
@@ -851,16 +919,37 @@
     "notificationsWarningIcon.foreground":   "#dfc299",
     "notificationsInfoIcon.foreground":      "#8fabc8",
 
+
+    /* Banners
+
+       You can see banner in Restricted Mode:
+       Command Palette > Workspaces: Manage Workspaces Trust
+       https://code.visualstudio.com/blogs/2021/07/06/workspace-trust#_workspace-trust-editor
+
+       https://code.visualstudio.com/api/references/theme-color#banner-colors
+    */ 
+    "banner.background":     "#a8a4c8",
+    "banner.foreground":     "#1b1c19",
+    "banner.iconForeground": "#1b1c19",
+
+
+
     /* Extensions
     */
     "extensionButton.prominentForeground":      "#1b1c19",
     "extensionButton.prominentBackground":      "#8d8e85",
     "extensionButton.prominentHoverBackground": "#a8a99f",
+    "extensionButton.background":               "#8d8e85",
+    "extensionButton.foreground":               "#1b1c19",
+    "extensionButton.hoverBackground":          "#a8a99f",
+    "extensionButton.separator":                "#52534d",
     "extensionBadge.remoteBackground":          "#8d8e85",
     "extensionBadge.remoteForeground":          "#1b1c19",
     "extensionIcon.starForeground":             "#52534d",
-    "extensionIcon.verifiedForeground":         "#8fabc8", 
+    "extensionIcon.verifiedForeground":         "#8fabc8",
     "extensionIcon.preReleaseForeground":       "#a8a4c8",
+    "extensionIcon.sponsorForeground":          "#c07982",
+
 
     /* Menu
     */

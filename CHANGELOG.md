@@ -11,6 +11,16 @@ Removed
 Fixed
 Security
 
+## [1.0.6] — 2024-03-06
+
+### Added 
+- Styles for [Settings](https://code.visualstudio.com/api/references/theme-color#settings-editor-colors)
+- Styles for [Banners](https://code.visualstudio.com/api/references/theme-color#banner-colors) (shown, for example, in a [Restricted Mode](https://code.visualstudio.com/blogs/2021/07/06/workspace-trust#_workspace-trust-editor))
+- Styles for [Tests](https://code.visualstudio.com/api/references/theme-color#testing-colors)
+- Background color for your chat requests 
+- Additional styles for [Extension buttons](https://code.visualstudio.com/api/references/theme-color#extensions-colors)
+- Additional styles for Minimap
+
 ## [1.0.5] — 2024-02-28
 
 ### Added 
@@ -50,12 +60,12 @@ Security
 - ListFilterWidget definitions [VS Code 1.86](https://code.visualstudio.com/updates/v1_86)
 - Tree definitions introduced in [VS Code 1.86](https://code.visualstudio.com/updates/v1_86)
 - Icon definitions when the Activity Bar is on top
-- Line Number definitions for active and dimmed number
-- Color of a character overlapped by a block cursor
+- Line Number definitions for an active and dimmed number
+- The color of a character overlapped by a block cursor
 - Missing definitions for [Status Bar item hovers](https://code.visualstudio.com/api/references/theme-color#status-bar-colors).
 - Search editor “find-match” colors
 - Definitions for Inlay hints
-- Definitions for Pull request comments
+- Definitions for Pull Request Comments
 
 
 

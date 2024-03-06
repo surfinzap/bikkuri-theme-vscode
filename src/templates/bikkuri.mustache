@@ -126,6 +126,35 @@
     "titleBar.inactiveForeground":            "{{ text.mid }}",
     "titleBar.border" :                       "{{ border.dim }}",
 
+    /* Settings
+    
+       GUI settings editor which can be opened with the "Preferences: Open Settings (UI) command".
+
+       https://code.visualstudio.com/api/references/theme-color#settings-editor-colors
+    */
+
+    "settings.headerForeground":              "{{ text.base }}",
+    "settings.settingsHeaderHoverForeground": "{{ text.mid }}",
+    "settings.modifiedItemIndicator":         "{{ ui.warning.base }}",
+    "settings.dropdownBackground":            "{{ surface.sunken }}",
+    "settings.dropdownForeground":            "{{ text.base }}",
+    "settings.dropdownBorder":                "{{ border.dim }}",
+    "settings.dropdownListBorder":            "{{ border.dim }}",
+    "settings.checkboxBackground":            "{{ surface.base }}",
+    "settings.checkboxForeground":            "{{ icon.base }}",
+    "settings.checkboxBorder":                "{{ border.base }}",
+    "settings.rowHoverBackground":            "{{ surface.raised.min }}",
+    "settings.textInputBackground":           "{{ surface.sunken }}",
+    "settings.textInputForeground":           "{{ text.base }}",
+    "settings.textInputBorder":               "{{ border.dim }}",
+    "settings.numberInputBackground":         "{{ surface.sunken }}",
+    "settings.numberInputForeground":         "{{ text.base }}",
+    "settings.numberInputBorder":             "{{ border.dim }}",
+    "settings.focusedRowBackground":          "{{ surface.raised.low }}",
+    "settings.focusedRowBorder":              "{{ border.none }}",
+    "settings.headerBorder":                  "{{ border.dim }}",
+    "settings.sashBorder":                    "{{ border.dim }}",
+
     /* Breadcrumbs
     */    
     "breadcrumb.foreground":                    "{{ text.dim }}",
@@ -266,12 +295,14 @@
     /* Minimap & Overview ruler
        https://code.visualstudio.com/api/references/theme-color#minimap
     */
+    "minimap.background":                   "{{ surface.none }}",
+    "minimap.foregroundOpacity":            "{{ surface.base }}{{ opacity.high }}",
     "minimap.errorHighlight":               "{{ ui.danger.mid }}",
     "minimap.findMatchHighlight":           "{{ ui.warning.mid }}",
-    // "minimap.foregroundOpacity":            "#000000c0",
     "minimap.selectionHighlight":           "{{ surface.raised.high }}",
     "minimap.selectionOccurrenceHighlight": "{{ surface.raised.high }}",
     "minimap.warningHighlight":             "{{ ui.warning.mid }}",
+    "minimap.infoHighlight":                "{{ ui.info.mid }}",
     "minimapGutter.addedBackground":        "{{ ui.success.mid }}",
     "minimapGutter.deletedBackground":      "{{ ui.danger.mid }}",
     "minimapGutter.modifiedBackground":     "{{ ui.warning.mid }}",
@@ -350,6 +381,7 @@
     "editorGroup.emptyBackground":        "{{ surface.base }}",
     "editorGroupHeader.noTabsBackground": "{{ surface.base }}",
     "editorGroupHeader.tabsBackground":   "{{ surface.base }}",
+    "editorGroupHeader.border":           "{{ border.none }}",
     "editorGroup.dropBackground":         "{{ surface.raised.low }}",
     "editorGroup.border":                 "{{ border.dim }}",
     "editorGroupHeader.tabsBorder":       "{{ border.dim }}",
@@ -369,6 +401,7 @@
     "tab.hoverBackground":                 "{{ surface.raised.med }}",
     "tab.hoverForeground":                 "{{ text.mid }}",
     "tab.border":                          "{{ border.none }}",
+    "tab.dragAndDropBorder":               "{{ border.base }}",
     "tab.unfocusedActiveBackground":       "{{ surface.raised.low }}",
     "tab.unfocusedActiveForeground":       "{{ text.dim }}",
     "tab.unfocusedActiveBorder":           "{{ border.mid }}",
@@ -610,6 +643,7 @@
        https://code.visualstudio.com/api/references/theme-color#chat-colors
     */
     "chat.requestBorder":          "{{ border.dim }}", //co-pilot icon
+    "chat.requestBackground":      "{{ surface.sunken }}", //bg of your message
     "chat.slashCommandBackground": "{{ surface.base }}", //in-chat slash command
     "chat.slashCommandForeground": "{{ text.mid }}", //in-chat slash command
     "chat.avatarBackground":       "{{ surface.none }}", //co-pilot icon
@@ -749,6 +783,40 @@
     "debugConsoleInputIcon.foreground":                "{{ icon.mid }}",
 
 
+    /* Testing
+       
+
+       For Javasript with Jest test, install Facebook's Jest extension to see the Testing pane in the Activity Bar
+
+       https://code.visualstudio.com/api/references/theme-color#testing-colors
+    */ 
+
+    "testing.iconFailed":                         "{{ ui.danger.base }}",
+    "testing.iconErrored":                        "{{ ui.danger.base }}",
+    "testing.iconPassed":                         "{{ ui.success.base }}",
+    "testing.runAction":                          "{{ ui.success.base }}",
+    "testing.iconQueued":                         "{{ ui.accent2.base}}",
+    "testing.iconUnset":                          "{{ icon.mid }}",
+    "testing.iconSkipped":                        "{{ ui.warning.base }}",
+    "testing.peekBorder":                         "{{ border.dim }}",
+    "testing.peekHeaderBackground":               "{{ surface.none }}",
+    "testing.message.error.decorationForeground": "{{ ui.danger.base }}",
+    "testing.message.error.lineBackground":       "{{ ui.danger.base }}",
+    "testing.message.info.decorationForeground":  "{{ ui.info.base }}",
+    "testing.message.info.lineBackground":        "{{ ui.info.base }}",
+    "testing.messagePeekBorder":                  "{{ border.dim }}",
+    "testing.messagePeekHeaderBackground":        "{{ surface.none }}",
+    // needs a plugin like Coverage Gutters to see the impact
+    "testing.coveredBackground":                  "{{ ui.success.dim }}{{ opacity.med-low }}", 
+    "testing.coveredGutterBackground":            "{{ ui.success.dim }}{{ opacity.med-low }}",
+    "testing.coveredBorder":                      "{{ border.none }}",
+    "testing.uncoveredBranchBackground":          "{{ ui.danger.dim }}{{ opacity.med-low }}",
+    "testing.uncoveredBackground":                "{{ ui.danger.dim }}{{ opacity.med-low }}",
+    "testing.uncoveredGutterBackground":          "{{ ui.danger.dim }}{{ opacity.med-low }}",
+    "testing.uncoveredBorder":                    "{{ border.none }}",
+    "testing.coverCountBadgeBackground":          "{{ ui.button.bg }}",
+    "testing.coverCountBadgeForeground":          "{{ text.on-ui }}",
+
 
 
     /* Symbol Icons Colors
@@ -851,16 +919,37 @@
     "notificationsWarningIcon.foreground":   "{{ ui.warning.base }}",
     "notificationsInfoIcon.foreground":      "{{ ui.info.base }}",
 
+
+    /* Banners
+
+       You can see banner in Restricted Mode:
+       Command Palette > Workspaces: Manage Workspaces Trust
+       https://code.visualstudio.com/blogs/2021/07/06/workspace-trust#_workspace-trust-editor
+
+       https://code.visualstudio.com/api/references/theme-color#banner-colors
+    */ 
+    "banner.background":     "{{ ui.accent2.base }}",
+    "banner.foreground":     "{{ text.on-ui }}",
+    "banner.iconForeground": "{{ text.on-ui }}",
+
+
+
     /* Extensions
     */
     "extensionButton.prominentForeground":      "{{ text.on-ui }}",
     "extensionButton.prominentBackground":      "{{ ui.button.bg  }}",
     "extensionButton.prominentHoverBackground": "{{ ui.button.bg-hover }}",
-    "extensionBadge.remoteBackground":          "{{ ui.button.bg  }}",
+    "extensionButton.background":               "{{ ui.button.bg }}",
+    "extensionButton.foreground":               "{{ text.on-ui }}",
+    "extensionButton.hoverBackground":          "{{ ui.button.bg-hover }}",
+    "extensionButton.separator":                "{{ border.mid }}",
+    "extensionBadge.remoteBackground":          "{{ ui.button.bg }}",
     "extensionBadge.remoteForeground":          "{{ text.on-ui }}",
     "extensionIcon.starForeground":             "{{ icon.dim }}",
-    "extensionIcon.verifiedForeground":         "{{ ui.accent1.base }}", 
+    "extensionIcon.verifiedForeground":         "{{ ui.accent1.base }}",
     "extensionIcon.preReleaseForeground":       "{{ ui.accent2.base }}",
+    "extensionIcon.sponsorForeground":          "{{ ui.danger.base }}",
+
 
     /* Menu
     */
