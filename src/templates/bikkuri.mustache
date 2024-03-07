@@ -442,20 +442,20 @@
        e.g. Output, Debug Console, Terminal 
     */
     
-  "panel.background":                  "{{ surface.base }}",
-  "panel.border":                      "{{ border.dim }}",
-  "panel.dropBorder":                  "{{ border.mid }}",
-  "panelTitle.activeBorder":           "{{ border.base }}",
-  "panelTitle.activeForeground":       "{{ text.base }}",
-  "panelTitle.inactiveForeground":     "{{ text.dim }}",
-  "panelInput.border":                 "{{ border.mid }}",
-  "panelSection.border":               "{{ border.dim }}",
-  "panelSection.dropBackground":       "{{ surface.raised.low }}",
-  "panelSectionHeader.background":     "{{ surface.base }}",
-  "panelSectionHeader.foreground":     "{{ text.base }}",
-  "panelSectionHeader.border":         "{{ border.dim }}",
-  "outputView.background":             "{{ surface.base }}",
-  "outputViewStickyScroll.background": "{{ surface.base }}",
+    "panel.background":                  "{{ surface.base }}",
+    "panel.border":                      "{{ border.dim }}",
+    "panel.dropBorder":                  "{{ border.mid }}",
+    "panelTitle.activeBorder":           "{{ border.base }}",
+    "panelTitle.activeForeground":       "{{ text.base }}",
+    "panelTitle.inactiveForeground":     "{{ text.dim }}",
+    "panelInput.border":                 "{{ border.mid }}",
+    "panelSection.border":               "{{ border.dim }}",
+    "panelSection.dropBackground":       "{{ surface.raised.low }}",
+    "panelSectionHeader.background":     "{{ surface.base }}",
+    "panelSectionHeader.foreground":     "{{ text.base }}",
+    "panelSectionHeader.border":         "{{ border.dim }}",
+    "outputView.background":             "{{ surface.base }}",
+    "outputViewStickyScroll.background": "{{ surface.base }}",
 
 
     /* Editor
@@ -1025,6 +1025,19 @@
     "interactive.activeCodeBorder":                      "{{ border.mid }}",
     "interactive.inactiveCodeBorder":                    "{{ border.dim }}",
 
+    /* Welcome Page
+       https://code.visualstudio.com/api/references/theme-color#welcome-page-colors
+    */ 
+    "welcomePage.background":               "{{ surface.base }}",
+    "welcomePage.progress.background":      "{{ surface.raised.low }}",
+    "welcomePage.progress.foreground":      "{{ ui.accent1.base }}",
+    "welcomePage.tileBackground":           "{{ surface.raised.low }}",
+    "welcomePage.tileHoverBackground":      "{{ surface.raised.med }}",
+    "welcomePage.tileBorder":               "{{ border.none }}",
+    "walkThrough.embeddedEditorBackground": "{{ surface.base }}",
+    "walkthrough.stepTitle.foreground":     "{{ text.base }}",
+
+
     /* Chart colors
 
        Missing an example of aplication
@@ -1039,6 +1052,31 @@
     "charts.green":      " {{ syntax.04.base }}",
     "charts.blue":       " {{ syntax.06.base }}",
     "charts.purple":     " {{ syntax.07.base }}",
+
+
+    /* Ports Colors
+       https://code.visualstudio.com/api/references/theme-color#ports-colors
+    */
+    "ports.iconRunningProcessForeground": "{{ ui.warning.base }}",
+
+
+    /* Comments View colors
+       https://code.visualstudio.com/api/references/theme-color#action-bar-colors
+    */
+    "commentsView.resolvedIcon":          "{{ ui.success.base }}",
+    "commentsView.unresolvedIcon":        "{{ ui.warning.base }}",
+
+
+    /* Action Bar colors
+       https://code.visualstudio.com/api/references/theme-color#action-bar-colors
+    */
+    "actionBar.toggledBackground":        "{{ temp.alert }}",
+
+
+    /* Simple Find Widget
+       https://code.visualstudio.com/api/references/theme-color#simple-find-widget
+    */
+    "simpleFindWidget.sashBorder":        "{{ temp.alert }}",
 
     
   },

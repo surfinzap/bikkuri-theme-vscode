@@ -442,20 +442,20 @@
        e.g. Output, Debug Console, Terminal 
     */
     
-  "panel.background":                  "#1b1c19",
-  "panel.border":                      "#393935",
-  "panel.dropBorder":                  "#52534d",
-  "panelTitle.activeBorder":           "#8d8e85",
-  "panelTitle.activeForeground":       "#e0e1d4",
-  "panelTitle.inactiveForeground":     "#6f7069",
-  "panelInput.border":                 "#52534d",
-  "panelSection.border":               "#393935",
-  "panelSection.dropBackground":       "#52534d4d",
-  "panelSectionHeader.background":     "#1b1c19",
-  "panelSectionHeader.foreground":     "#e0e1d4",
-  "panelSectionHeader.border":         "#393935",
-  "outputView.background":             "#1b1c19",
-  "outputViewStickyScroll.background": "#1b1c19",
+    "panel.background":                  "#1b1c19",
+    "panel.border":                      "#393935",
+    "panel.dropBorder":                  "#52534d",
+    "panelTitle.activeBorder":           "#8d8e85",
+    "panelTitle.activeForeground":       "#e0e1d4",
+    "panelTitle.inactiveForeground":     "#6f7069",
+    "panelInput.border":                 "#52534d",
+    "panelSection.border":               "#393935",
+    "panelSection.dropBackground":       "#52534d4d",
+    "panelSectionHeader.background":     "#1b1c19",
+    "panelSectionHeader.foreground":     "#e0e1d4",
+    "panelSectionHeader.border":         "#393935",
+    "outputView.background":             "#1b1c19",
+    "outputViewStickyScroll.background": "#1b1c19",
 
 
     /* Editor
@@ -1025,6 +1025,19 @@
     "interactive.activeCodeBorder":                      "#52534d",
     "interactive.inactiveCodeBorder":                    "#393935",
 
+    /* Welcome Page
+       https://code.visualstudio.com/api/references/theme-color#welcome-page-colors
+    */ 
+    "welcomePage.background":               "#1b1c19",
+    "welcomePage.progress.background":      "#52534d4d",
+    "welcomePage.progress.foreground":      "#75aedd",
+    "welcomePage.tileBackground":           "#52534d4d",
+    "welcomePage.tileHoverBackground":      "#52534d80",
+    "welcomePage.tileBorder":               "#1b1c1900",
+    "walkThrough.embeddedEditorBackground": "#1b1c19",
+    "walkthrough.stepTitle.foreground":     "#e0e1d4",
+
+
     /* Chart colors
 
        Missing an example of aplication
@@ -1039,6 +1052,31 @@
     "charts.green":      " #9cb062",
     "charts.blue":       " #75aedd",
     "charts.purple":     " #a9a0e6",
+
+
+    /* Ports Colors
+       https://code.visualstudio.com/api/references/theme-color#ports-colors
+    */
+    "ports.iconRunningProcessForeground": "#e9c07d",
+
+
+    /* Comments View colors
+       https://code.visualstudio.com/api/references/theme-color#action-bar-colors
+    */
+    "commentsView.resolvedIcon":          "#9cb062",
+    "commentsView.unresolvedIcon":        "#e9c07d",
+
+
+    /* Action Bar colors
+       https://code.visualstudio.com/api/references/theme-color#action-bar-colors
+    */
+    "actionBar.toggledBackground":        "#ff0000",
+
+
+    /* Simple Find Widget
+       https://code.visualstudio.com/api/references/theme-color#simple-find-widget
+    */
+    "simpleFindWidget.sashBorder":        "#ff0000",
 
     
   },
