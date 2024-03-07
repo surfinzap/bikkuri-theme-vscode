@@ -381,18 +381,20 @@
     /* Editor Groups & Tabs
        https://code.visualstudio.com/api/references/theme-color#editor-groups-tabs
     */
-    "editorGroup.emptyBackground":        "#1b1b1b",
-    "editorGroupHeader.noTabsBackground": "#1b1b1b",
-    "editorGroupHeader.tabsBackground":   "#1b1b1b",
-    "editorGroupHeader.border":           "#1b1b1b00",
-    "editorGroup.dropBackground":         "#5252524d",
-    "editorGroup.border":                 "#393939",
-    "editorGroupHeader.tabsBorder":       "#393939",
-    "editorGroup.focusedEmptyBorder":     "#525252",
-
+    "editorGroup.emptyBackground":          "#1b1b1b",
+    "editorGroupHeader.noTabsBackground":   "#1b1b1b",
+    "editorGroupHeader.tabsBackground":     "#1b1b1b",
+    "editorGroupHeader.border":             "#1b1b1b00",
+    "editorGroup.dropBackground":           "#5252524d",
+    "editorGroup.border":                   "#393939",
+    "editorGroupHeader.tabsBorder":         "#393939",
+    "editorGroup.focusedEmptyBorder":       "#525252",
     "editorGroup.dropIntoPromptForeground": "#8d8d8d",
     "editorGroup.dropIntoPromptBackground": "#262626",
     "editorGroup.dropIntoPromptBorder":     "#393939",
+    "editorPane.background":                "#1b1b1b",
+    "sideBySideEditor.horizontalBorder":    "#393939",
+    "sideBySideEditor.verticalBorder":      "#393939",
 
     "tab.activeBackground":                "#5252524d",
     "tab.activeForeground":                "#e0e0e0",
