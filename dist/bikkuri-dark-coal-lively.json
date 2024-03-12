@@ -572,10 +572,10 @@
     "editorIndentGuide.activeBackground5": "#525252",
     "editorIndentGuide.activeBackground6": "#525252",
     "editorRuler.foreground":              "#525252",
+    "editor.linkedEditingBackground":      "#52525280", // Turn Linked Editing on; works for HTML tag pairs
     "editorCodeLens.foreground":           "#5252524d",
     "editorHoverWidget.background":        "#1b1b1b",
     "editorHoverWidget.border":            "#393939",
-
     "editorStickyScroll.background":      "#1b1b1b",
     "editorStickyScrollHover.background": "#5252524d",
     "search.resultsInfoForeground":       "#8d8d8d",
@@ -607,6 +607,9 @@
     "editorBracketPairGuide.background1":     "#e0e0e000",
     "editorBracketPairGuide.background2":     "#e0e0e000",
     "editorBracketPairGuide.background3":     "#e0e0e000",
+    "editorBracketPairGuide.background4":     "#e0e0e000",
+    "editorBracketPairGuide.background5":     "#e0e0e000",
+    "editorBracketPairGuide.background6":     "#e0e0e000",
     "editor.foldBackground":                  "#5252521f",
 
 
@@ -902,7 +905,7 @@
     "terminal.findMatchBorder":                    "#e06578",
     "terminal.findMatchHighlightBorder":           "#a9a0e6",
     "terminal.hoverHighlightBackground":           "#5252524d",
-    "terminalOverviewRuler.cursorForeground":      "",
+    "terminalOverviewRuler.cursorForeground":      "#52525280",
     "terminalOverviewRuler.findMatchForeground":   "#caa263",
     "terminalStickyScroll.background":             "#1b1b1b",
     "terminalStickyScrollHover.background":        "#5252524d",
@@ -1021,7 +1024,7 @@
     "notebookStatusErrorIcon.foreground":                "#e06578",
     "notebookStatusRunningIcon.foreground":              "#e9c07d",
     "notebookStatusSuccessIcon.foreground":              "#9cb062",
-    "notebookEditorOverviewRuler.runningCellForeground": "",
+    "notebookEditorOverviewRuler.runningCellForeground": "#caa263",
     "interactive.activeCodeBorder":                      "#525252",
     "interactive.inactiveCodeBorder":                    "#393939",
 
