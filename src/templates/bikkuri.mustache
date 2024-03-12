@@ -707,14 +707,27 @@
 
 
     /* Widget
+
+       Widget: e.g. Find/Replace dialog
+       Suggestion Widget: suggestion upon typing in the editor (intelisense)
+       https://code.visualstudio.com/api/references/theme-color#editor-widget-colors
     */
-    "editorWidget.background":                 "{{ surface.sunken }}",
-    "editorWidget.border":                     "{{ border.dim }}",
-    "editorSuggestWidget.background":          "{{ surface.base }}",
-    "editorSuggestWidget.foreground":          "{{ text.base }}",
-    "editorSuggestWidget.highlightForeground": "{{ ui.accent1.mid }}",
-    "editorSuggestWidget.selectedBackground":  "{{ surface.raised.low }}",
-    "editorSuggestWidget.border":              "{{ border.dim }}",
+    "editorWidget.background":                      "{{ surface.sunken }}",
+    "editorWidget.foreground":                      "{{ text.mid }}",
+    "editorWidget.resizeBorder":                    "{{ border.dim }}",
+    "editorWidget.border":                          "{{ border.mid }}",
+    "editorSuggestWidget.background":               "{{ surface.base }}",
+    "editorSuggestWidget.foreground":               "{{ text.base }}",
+    "editorSuggestWidget.highlightForeground":      "{{ ui.accent1.mid }}",
+    "editorSuggestWidget.selectedBackground":       "{{ surface.raised.low }}",
+    "editorSuggestWidget.border":                   "{{ border.dim }}",
+    "editorSuggestWidget.focusHighlightForeground": "{{ ui.accent1.base }}",
+    "editorSuggestWidget.selectedForeground":       "{{ text.base }}",
+    "editorSuggestWidget.selectedIconForeground":   "{{ icon.base }}",
+    "editorSuggestWidgetStatus.foreground":         "{{ text.dim }}",
+    "editorHoverWidget.foreground":                 "{{ text.base }}",
+    "editorHoverWidget.highlightForeground":        "{{ text.base }}",
+    "editorHoverWidget.statusBarBackground":        "{{ surface.base }}",
 
     /* Peek view
 

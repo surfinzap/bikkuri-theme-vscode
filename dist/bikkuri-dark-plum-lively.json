@@ -707,14 +707,27 @@
 
 
     /* Widget
+
+       Widget: e.g. Find/Replace dialog
+       Suggestion Widget: suggestion upon typing in the editor (intelisense)
+       https://code.visualstudio.com/api/references/theme-color#editor-widget-colors
     */
-    "editorWidget.background":                 "#282430",
-    "editorWidget.border":                     "#3c3746",
-    "editorSuggestWidget.background":          "#1d1a23",
-    "editorSuggestWidget.foreground":          "#e1dfe5",
-    "editorSuggestWidget.highlightForeground": "#6192bb",
-    "editorSuggestWidget.selectedBackground":  "#564f644d",
-    "editorSuggestWidget.border":              "#3c3746",
+    "editorWidget.background":                      "#282430",
+    "editorWidget.foreground":                      "#918a9f",
+    "editorWidget.resizeBorder":                    "#3c3746",
+    "editorWidget.border":                          "#564f64",
+    "editorSuggestWidget.background":               "#1d1a23",
+    "editorSuggestWidget.foreground":               "#e1dfe5",
+    "editorSuggestWidget.highlightForeground":      "#6192bb",
+    "editorSuggestWidget.selectedBackground":       "#564f644d",
+    "editorSuggestWidget.border":                   "#3c3746",
+    "editorSuggestWidget.focusHighlightForeground": "#75aedd",
+    "editorSuggestWidget.selectedForeground":       "#e1dfe5",
+    "editorSuggestWidget.selectedIconForeground":   "#aba6b6",
+    "editorSuggestWidgetStatus.foreground":         "#746b84",
+    "editorHoverWidget.foreground":                 "#e1dfe5",
+    "editorHoverWidget.highlightForeground":        "#e1dfe5",
+    "editorHoverWidget.statusBarBackground":        "#1d1a23",
 
     /* Peek view
 
