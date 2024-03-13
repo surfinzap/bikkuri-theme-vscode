@@ -5,7 +5,8 @@
   "temp": {
     "alert": "#ff0000",
     "green": "#00ff00",
-    "blue": "#0088ff"
+    "blue": "#0088ff",
+    "yellow": "#ffff00"
   },
   "surface": {
     "sunken": "{{ tint.90 }}",

@@ -166,7 +166,20 @@
     "breadcrumb.activeSelectionForeground":     "#dee0e5",
     "breadcrumbPicker.background":              "#1a1b23",
 
-    
+
+    /* Snippets
+
+       when you use, e.g. "for" and press tab, the snippet placeholders are highlighted
+
+      https://code.visualstudio.com/api/references/theme-color#snippets-colors
+    */
+    "editor.snippetTabstopHighlightBackground":      "#4e51631f",
+    "editor.snippetTabstopHighlightBorder":          "#1a1b2300",
+    "editor.snippetFinalTabstopHighlightBackground": "#1a1b2300",
+    "editor.snippetFinalTabstopHighlightBorder":     "#4e5163",
+
+
+
     /* Lists & Trees
        https://code.visualstudio.com/api/references/theme-color#lists-and-trees
     */
