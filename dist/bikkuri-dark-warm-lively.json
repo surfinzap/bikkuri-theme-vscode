@@ -732,11 +732,19 @@
     "editorHoverWidget.statusBarBackground":        "#1e1b1b",
     "editorGhostText.border":                       "#1e1b1b00",
     "editorGhostText.background":                   "#1e1b1b00",
-    "editorGhostText.foreground":                   "#786c6e", 
-  
+    "editorGhostText.foreground":                   "#958a8c", 
+    // Command: Go to Next Problem
+    "editorMarkerNavigation.background":               "#1e1b1b",
+    "editorMarkerNavigationError.background":          "#c14258",
+    "editorMarkerNavigationError.headerBackground":    "#c142581f",
+    "editorMarkerNavigationWarning.background":        "#caa263",
+    "editorMarkerNavigationWarning.headerBackground":  "#caa2631f",
+    "editorMarkerNavigationInfo.background":           "#6192bb",
+    "editorMarkerNavigationInfo.headerBackground    ": "#6192bb1f",
+
     
-
-
+    
+    
     /* Peek view
 
        e.g. right-click → Peek → Peek definition
