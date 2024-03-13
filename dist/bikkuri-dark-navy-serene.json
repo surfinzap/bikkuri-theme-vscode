@@ -728,6 +728,12 @@
     "editorHoverWidget.foreground":                 "#dee0e5",
     "editorHoverWidget.highlightForeground":        "#dee0e5",
     "editorHoverWidget.statusBarBackground":        "#1a1b23",
+    "editorGhostText.border":                       "#1a1b2300",
+    "editorGhostText.background":                   "#1a1b2300",
+    "editorGhostText.foreground":                   "#6a6e85", 
+  
+    
+
 
     /* Peek view
 
