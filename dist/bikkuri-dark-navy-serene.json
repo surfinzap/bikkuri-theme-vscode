@@ -686,6 +686,8 @@
     "editorOverviewRuler.currentContentForeground":        "#8d88b64d",
     "editorOverviewRuler.incomingContentForeground":       "#7493924d",
     "editorOverviewRuler.commonContentForeground":         "#1a1b2300",
+    "editorOverviewRuler.commentForeground":               "#8791704d",
+    "editorOverviewRuler.commentUnresolvedForeground":     "#bfa4814d",
     "mergeEditor.change.background":                       "#1a1b23",
     "mergeEditor.change.word.background":                  "#24262f",
     "mergeEditor.conflict.unhandledUnfocused.border":      "#c07982",
@@ -744,7 +746,7 @@
 
     
     
-    
+
     /* Peek view
 
        e.g. right-click → Peek → Peek definition
