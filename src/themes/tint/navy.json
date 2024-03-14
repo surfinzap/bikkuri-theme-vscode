@@ -1,6 +1,7 @@
 {
   "tint-name": "Navy",
   "tint": {
+    "110": "{{ color.gray-navy.110 }}",
     "100": "{{ color.gray-navy.100 }}",
     "90": "{{ color.gray-navy.90 }}",
     "80": "{{ color.gray-navy.80 }}",

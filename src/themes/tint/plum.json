@@ -1,6 +1,7 @@
 {
   "tint-name": "Plum",
   "tint": {
+    "110": "{{ color.gray-plum.110 }}",
     "100": "{{ color.gray-plum.100 }}",
     "90": "{{ color.gray-plum.90 }}",
     "80": "{{ color.gray-plum.80 }}",

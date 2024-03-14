@@ -18,7 +18,7 @@
     "focusBorder":                            "#52534d",
     "foreground":                             "#e0e1d4",
     "disabledForeground":                     "#52534d",
-    "widget.shadow":                          "#111111",
+    "widget.shadow":                          "#11110f",
     "widget.border":                          "#393935",
     // text selections for input fields or text areas, does not apply to selections within the editor and the terminal
     "selection.background":                   "#52534db3",
@@ -106,7 +106,7 @@
 
     /* Scrollbar
     */
-    "scrollbar.shadow":                        "#111111",
+    "scrollbar.shadow":                        "#11110f",
     "scrollbarSlider.background":              "#52534d4d",
     "scrollbarSlider.activeBackground":        "#52534d80",
     "scrollbarSlider.hoverBackground":         "#52534d80",
@@ -213,7 +213,7 @@
     "listFilterWidget.background":          "#262623",
     "listFilterWidget.outline":             "#393935",
     "listFilterWidget.noMatchesOutline":    "#c07982",
-    "listFilterWidget.shadow":              "#111111",
+    "listFilterWidget.shadow":              "#11110f",
     "tree.indentGuidesStroke":              "#52534d",
     "tree.inactiveIndentGuidesStroke":      "#393935",
     "tree.tableColumnsBorder":              "#393935",
@@ -592,7 +592,7 @@
     "editorStickyScroll.background":      "#1b1c19",
     "editorStickyScrollHover.background": "#52534d4d",
     "editorStickyScroll.border":          "#1b1c1900",
-    "editorStickyScroll.shadow":          "#111111",
+    "editorStickyScroll.shadow":          "#11110f",
     "search.resultsInfoForeground":       "#8d8e85",
 
     
@@ -674,7 +674,7 @@
 
     "inlineChat.background":                 "#262623",
     "inlineChat.border":                     "#393935",
-    "inlineChat.shadow":                     "#111111",
+    "inlineChat.shadow":                     "#11110f",
     "inlineChat.regionHighlight":            "#7790a880",
     "inlineChatInput.border":                "#393935",
     "inlineChatInput.focusBorder":           "#52534d",

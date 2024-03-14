@@ -1,7 +1,7 @@
 {
   "mode-type": "dark",
   "mode-name": "Dark",
-  "shadow": "{{ color.black }}",
+  "shadow": "{{ tint.110}}",
   "test": {
     "red": "#ff0000",
     "green": "#00ff00",

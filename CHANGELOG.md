@@ -11,6 +11,13 @@ Removed
 Fixed
 Security
 
+## [1.0.8] — 
+
+### Changed
+- Shadows adjusted for each tint (coal, plum, navy, moss, warm)
+
+
+
 ## [1.0.7] — 2024-03-14
 
 ### Added 
