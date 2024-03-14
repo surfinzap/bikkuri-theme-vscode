@@ -11,8 +11,7 @@ Removed
 Fixed
 Security
 
-## [1.0.7] — 2024
-
+## [1.0.7] — 2024-03-14
 
 ### Added 
 - Styles for [Welcome Page](https://code.visualstudio.com/api/references/theme-color#welcome-page-colors)
@@ -20,6 +19,7 @@ Security
 - Assorted bits of Editor Styles
 - Inline completion (e.g. GitHub’s Co-pilot) styles
 - Styles for [Snippets](https://code.visualstudio.com/api/references/theme-color#snippets-colors)
+
 
 
 ## [1.0.6] — 2024-03-06
