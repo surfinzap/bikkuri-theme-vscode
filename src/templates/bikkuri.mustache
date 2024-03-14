@@ -86,10 +86,13 @@
     "input.border":                           "{{ border.dim }}",
     "input.foreground":                       "{{ text.base }}",
     "input.placeholderForeground":            "{{ text.dim }}",
-    "inputOption.activeBackground":           "{{ ui.button.bg }}", // bg for active icons in inputs
+    /* inputOption.* for
+       - active icons in inputs
+       - checkboxes in "Profiles: Show Profile Contents"
+    */
+    "inputOption.activeBackground":           "{{ ui.button.bg }}", 
     "inputOption.hoverBackground":            "{{ surface.raised.med }}",  
     "inputOption.activeForeground":           "{{ text.on-ui }}",
-    // Border color of activated options in input fields.
     "inputOption.activeBorder":               "{{ border.none }}", //cannot be null
     "inputValidation.errorBackground":        "{{ surface.sunken }}",
     "inputValidation.errorForeground":        "{{ ui.danger.base }}",
@@ -163,7 +166,20 @@
     "breadcrumb.activeSelectionForeground":     "{{ text.base }}",
     "breadcrumbPicker.background":              "{{ surface.base }}",
 
-    
+
+    /* Snippets
+
+       when you use, e.g. "for" and press tab, the snippet placeholders are highlighted
+
+      https://code.visualstudio.com/api/references/theme-color#snippets-colors
+    */
+    "editor.snippetTabstopHighlightBackground":      "{{ surface.raised.min }}",
+    "editor.snippetTabstopHighlightBorder":          "{{ border.none }}",
+    "editor.snippetFinalTabstopHighlightBackground": "{{ surface.none }}",
+    "editor.snippetFinalTabstopHighlightBorder":     "{{ border.mid }}",
+
+
+
     /* Lists & Trees
        https://code.visualstudio.com/api/references/theme-color#lists-and-trees
     */
@@ -378,18 +394,20 @@
     /* Editor Groups & Tabs
        https://code.visualstudio.com/api/references/theme-color#editor-groups-tabs
     */
-    "editorGroup.emptyBackground":        "{{ surface.base }}",
-    "editorGroupHeader.noTabsBackground": "{{ surface.base }}",
-    "editorGroupHeader.tabsBackground":   "{{ surface.base }}",
-    "editorGroupHeader.border":           "{{ border.none }}",
-    "editorGroup.dropBackground":         "{{ surface.raised.low }}",
-    "editorGroup.border":                 "{{ border.dim }}",
-    "editorGroupHeader.tabsBorder":       "{{ border.dim }}",
-    "editorGroup.focusedEmptyBorder":     "{{ border.mid }}",
-
+    "editorGroup.emptyBackground":          "{{ surface.base }}",
+    "editorGroupHeader.noTabsBackground":   "{{ surface.base }}",
+    "editorGroupHeader.tabsBackground":     "{{ surface.base }}",
+    "editorGroupHeader.border":             "{{ border.none }}",
+    "editorGroup.dropBackground":           "{{ surface.raised.low }}",
+    "editorGroup.border":                   "{{ border.dim }}",
+    "editorGroupHeader.tabsBorder":         "{{ border.dim }}",
+    "editorGroup.focusedEmptyBorder":       "{{ border.mid }}",
     "editorGroup.dropIntoPromptForeground": "{{ text.mid }}",
     "editorGroup.dropIntoPromptBackground": "{{ surface.sunken }}",
     "editorGroup.dropIntoPromptBorder":     "{{ border.dim }}",
+    "editorPane.background":                "{{ surface.base }}",
+    "sideBySideEditor.horizontalBorder":    "{{ border.dim }}",
+    "sideBySideEditor.verticalBorder":      "{{ border.dim }}",
 
     "tab.activeBackground":                "{{ surface.raised.low }}",
     "tab.activeForeground":                "{{ text.base }}",
@@ -437,20 +455,20 @@
        e.g. Output, Debug Console, Terminal 
     */
     
-  "panel.background":                  "{{ surface.base }}",
-  "panel.border":                      "{{ border.dim }}",
-  "panel.dropBorder":                  "{{ border.mid }}",
-  "panelTitle.activeBorder":           "{{ border.base }}",
-  "panelTitle.activeForeground":       "{{ text.base }}",
-  "panelTitle.inactiveForeground":     "{{ text.dim }}",
-  "panelInput.border":                 "{{ border.mid }}",
-  "panelSection.border":               "{{ border.dim }}",
-  "panelSection.dropBackground":       "{{ surface.raised.low }}",
-  "panelSectionHeader.background":     "{{ surface.base }}",
-  "panelSectionHeader.foreground":     "{{ text.base }}",
-  "panelSectionHeader.border":         "{{ border.dim }}",
-  "outputView.background":             "{{ surface.base }}",
-  "outputViewStickyScroll.background": "{{ surface.base }}",
+    "panel.background":                  "{{ surface.base }}",
+    "panel.border":                      "{{ border.dim }}",
+    "panel.dropBorder":                  "{{ border.mid }}",
+    "panelTitle.activeBorder":           "{{ border.base }}",
+    "panelTitle.activeForeground":       "{{ text.base }}",
+    "panelTitle.inactiveForeground":     "{{ text.dim }}",
+    "panelInput.border":                 "{{ border.mid }}",
+    "panelSection.border":               "{{ border.dim }}",
+    "panelSection.dropBackground":       "{{ surface.raised.low }}",
+    "panelSectionHeader.background":     "{{ surface.base }}",
+    "panelSectionHeader.foreground":     "{{ text.base }}",
+    "panelSectionHeader.border":         "{{ border.dim }}",
+    "outputView.background":             "{{ surface.base }}",
+    "outputViewStickyScroll.background": "{{ surface.base }}",
 
 
     /* Editor
@@ -567,12 +585,14 @@
     "editorIndentGuide.activeBackground5": "{{ border.mid }}",
     "editorIndentGuide.activeBackground6": "{{ border.mid }}",
     "editorRuler.foreground":              "{{ text.disabled }}",
+    "editor.linkedEditingBackground":      "{{ surface.raised.med }}", // Turn Linked Editing on; works for HTML tag pairs
     "editorCodeLens.foreground":           "{{ surface.raised.low }}",
     "editorHoverWidget.background":        "{{ surface.base }}",
     "editorHoverWidget.border":            "{{ border.dim }}",
-
     "editorStickyScroll.background":      "{{ surface.base }}",
     "editorStickyScrollHover.background": "{{ surface.raised.low }}",
+    "editorStickyScroll.border":          "{{ border.none }}",
+    "editorStickyScroll.shadow":          "{{ shadow }}",
     "search.resultsInfoForeground":       "{{ text.mid }}",
 
     
@@ -602,6 +622,9 @@
     "editorBracketPairGuide.background1":     "{{ text.none }}",
     "editorBracketPairGuide.background2":     "{{ text.none }}",
     "editorBracketPairGuide.background3":     "{{ text.none }}",
+    "editorBracketPairGuide.background4":     "{{ text.none }}",
+    "editorBracketPairGuide.background5":     "{{ text.none }}",
+    "editorBracketPairGuide.background6":     "{{ text.none }}",
     "editor.foldBackground":                  "{{ surface.raised.min }}",
 
 
@@ -676,6 +699,8 @@
     "editorOverviewRuler.currentContentForeground":        "{{ ui.accent2.mid }}{{ opacity.med-low }}",
     "editorOverviewRuler.incomingContentForeground":       "{{ ui.accent3.mid }}{{ opacity.med-low }}",
     "editorOverviewRuler.commonContentForeground":         "{{ border.none }}",
+    "editorOverviewRuler.commentForeground":               "{{ ui.success.mid }}{{ opacity.med-low }}",
+    "editorOverviewRuler.commentUnresolvedForeground":     "{{ ui.warning.mid }}{{ opacity.med-low }}",
     "mergeEditor.change.background":                       "{{ surface.base }}",
     "mergeEditor.change.word.background":                  "{{ surface.sunken }}",
     "mergeEditor.conflict.unhandledUnfocused.border":      "{{ ui.danger.base }}",
@@ -699,14 +724,41 @@
 
 
     /* Widget
+
+       Widget: e.g. Find/Replace dialog
+       Suggestion Widget: suggestion upon typing in the editor (intelisense)
+       https://code.visualstudio.com/api/references/theme-color#editor-widget-colors
     */
-    "editorWidget.background":                 "{{ surface.sunken }}",
-    "editorWidget.border":                     "{{ border.dim }}",
-    "editorSuggestWidget.background":          "{{ surface.base }}",
-    "editorSuggestWidget.foreground":          "{{ text.base }}",
-    "editorSuggestWidget.highlightForeground": "{{ ui.accent1.mid }}",
-    "editorSuggestWidget.selectedBackground":  "{{ surface.raised.low }}",
-    "editorSuggestWidget.border":              "{{ border.dim }}",
+    "editorWidget.background":                      "{{ surface.sunken }}",
+    "editorWidget.foreground":                      "{{ text.mid }}",
+    "editorWidget.resizeBorder":                    "{{ border.dim }}",
+    "editorWidget.border":                          "{{ border.mid }}",
+    "editorSuggestWidget.background":               "{{ surface.base }}",
+    "editorSuggestWidget.foreground":               "{{ text.base }}",
+    "editorSuggestWidget.highlightForeground":      "{{ ui.accent1.mid }}",
+    "editorSuggestWidget.selectedBackground":       "{{ surface.raised.low }}",
+    "editorSuggestWidget.border":                   "{{ border.dim }}",
+    "editorSuggestWidget.focusHighlightForeground": "{{ ui.accent1.base }}",
+    "editorSuggestWidget.selectedForeground":       "{{ text.base }}",
+    "editorSuggestWidget.selectedIconForeground":   "{{ icon.base }}",
+    "editorSuggestWidgetStatus.foreground":         "{{ text.dim }}",
+    "editorHoverWidget.foreground":                 "{{ text.base }}",
+    "editorHoverWidget.highlightForeground":        "{{ text.base }}",
+    "editorHoverWidget.statusBarBackground":        "{{ surface.base }}",
+    "editorGhostText.border":                       "{{ border.none }}",
+    "editorGhostText.background":                   "{{ surface.none }}",
+    "editorGhostText.foreground":                   "{{ text.mid }}", 
+    // Command: Go to Next Problem
+    "editorMarkerNavigation.background":               "{{ surface.base }}",
+    "editorMarkerNavigationError.background":          "{{ ui.danger.mid }}",
+    "editorMarkerNavigationError.headerBackground":    "{{ ui.danger.mid }}{{ opacity.low }}",
+    "editorMarkerNavigationWarning.background":        "{{ ui.warning.mid }}",
+    "editorMarkerNavigationWarning.headerBackground":  "{{ ui.warning.mid }}{{ opacity.low }}",
+    "editorMarkerNavigationInfo.background":           "{{ ui.info.mid }}",
+    "editorMarkerNavigationInfo.headerBackground":     "{{ ui.info.mid }}{{ opacity.low }}",
+
+    
+    
 
     /* Peek view
 
@@ -897,7 +949,7 @@
     "terminal.findMatchBorder":                    "{{ ui.danger.base }}",
     "terminal.findMatchHighlightBorder":           "{{ ui.accent2.base }}",
     "terminal.hoverHighlightBackground":           "{{ surface.raised.low }}",
-    "terminalOverviewRuler.cursorForeground":      "{{ surface.raised.mid}}",
+    "terminalOverviewRuler.cursorForeground":      "{{ surface.raised.med }}",
     "terminalOverviewRuler.findMatchForeground":   "{{ ui.warning.mid }}",
     "terminalStickyScroll.background":             "{{ surface.base }}",
     "terminalStickyScrollHover.background":        "{{ surface.raised.low }}",
@@ -1007,7 +1059,7 @@
     "notebook.inactiveSelectedCellBorder":               "{{ border.dim }}",
     "notebook.outputContainerBackgroundColor":           "{{ surface.none }}",
     "notebook.outputContainerBorderColor":               "{{ border.dim }}",
-    "notebook.selectedCellBackground":                   "{{ temp.alert }}",
+    "notebook.selectedCellBackground":                   "{{ surface.none }}",
     "notebook.selectedCellBorder":                       "{{ border.mid }}",
     "notebook.symbolHighlightBackground":                "{{ surface.none }}",
     "notebookScrollbarSlider.background":                "{{ surface.raised.low }}",
@@ -1016,9 +1068,22 @@
     "notebookStatusErrorIcon.foreground":                "{{ ui.danger.base }}",
     "notebookStatusRunningIcon.foreground":              "{{ ui.warning.base }}",
     "notebookStatusSuccessIcon.foreground":              "{{ ui.success.base }}",
-    "notebookEditorOverviewRuler.runningCellForeground": "{{ ui.warning.dim }}",
+    "notebookEditorOverviewRuler.runningCellForeground": "{{ ui.warning.mid }}",
     "interactive.activeCodeBorder":                      "{{ border.mid }}",
     "interactive.inactiveCodeBorder":                    "{{ border.dim }}",
+
+    /* Welcome Page
+       https://code.visualstudio.com/api/references/theme-color#welcome-page-colors
+    */ 
+    "welcomePage.background":               "{{ surface.base }}",
+    "welcomePage.progress.background":      "{{ surface.raised.low }}",
+    "welcomePage.progress.foreground":      "{{ ui.accent1.base }}",
+    "welcomePage.tileBackground":           "{{ surface.raised.low }}",
+    "welcomePage.tileHoverBackground":      "{{ surface.raised.med }}",
+    "welcomePage.tileBorder":               "{{ border.none }}",
+    "walkThrough.embeddedEditorBackground": "{{ surface.base }}",
+    "walkthrough.stepTitle.foreground":     "{{ text.base }}",
+
 
     /* Chart colors
 
@@ -1034,6 +1099,31 @@
     "charts.green":      " {{ syntax.04.base }}",
     "charts.blue":       " {{ syntax.06.base }}",
     "charts.purple":     " {{ syntax.07.base }}",
+
+
+    /* Ports Colors
+       https://code.visualstudio.com/api/references/theme-color#ports-colors
+    */
+    "ports.iconRunningProcessForeground": "{{ ui.warning.base }}",
+
+
+    /* Comments View colors
+       https://code.visualstudio.com/api/references/theme-color#action-bar-colors
+    */
+    "commentsView.resolvedIcon":          "{{ ui.success.base }}",
+    "commentsView.unresolvedIcon":        "{{ ui.warning.base }}",
+
+
+    /* Action Bar colors
+       https://code.visualstudio.com/api/references/theme-color#action-bar-colors
+    */
+    "actionBar.toggledBackground":        "{{ surface.raised.med }}",
+
+
+    /* Simple Find Widget
+       https://code.visualstudio.com/api/references/theme-color#simple-find-widget
+    */
+    "simpleFindWidget.sashBorder":        "{{ border.dim }}",
 
     
   },
