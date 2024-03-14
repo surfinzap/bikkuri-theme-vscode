@@ -1059,7 +1059,7 @@
     "notebook.inactiveSelectedCellBorder":               "#393939",
     "notebook.outputContainerBackgroundColor":           "#1b1b1b00",
     "notebook.outputContainerBorderColor":               "#393939",
-    "notebook.selectedCellBackground":                   "#ff0000",
+    "notebook.selectedCellBackground":                   "#1b1b1b00",
     "notebook.selectedCellBorder":                       "#525252",
     "notebook.symbolHighlightBackground":                "#1b1b1b00",
     "notebookScrollbarSlider.background":                "#5252524d",
@@ -1117,13 +1117,13 @@
     /* Action Bar colors
        https://code.visualstudio.com/api/references/theme-color#action-bar-colors
     */
-    "actionBar.toggledBackground":        "#ff0000",
+    "actionBar.toggledBackground":        "#52525280",
 
 
     /* Simple Find Widget
        https://code.visualstudio.com/api/references/theme-color#simple-find-widget
     */
-    "simpleFindWidget.sashBorder":        "#ff0000",
+    "simpleFindWidget.sashBorder":        "#393939",
 
     
   },

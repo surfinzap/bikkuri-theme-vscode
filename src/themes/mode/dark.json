@@ -2,8 +2,8 @@
   "mode-type": "dark",
   "mode-name": "Dark",
   "shadow": "{{ color.black }}",
-  "temp": {
-    "alert": "#ff0000",
+  "test": {
+    "red": "#ff0000",
     "green": "#00ff00",
     "blue": "#0088ff",
     "yellow": "#ffff00"
