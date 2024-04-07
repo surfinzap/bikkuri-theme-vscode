@@ -14,7 +14,7 @@ Security
 ## [1.0.8] — 
 
 ### Added
-- Activity Bar and Multi-cursor styles introduced in [VS Code v1.88](https://code.visualstudio.com/updates/v1_88)
+- Activity Bar, Testing icons, and Multi-cursor styles introduced in [VS Code v1.88](https://code.visualstudio.com/updates/v1_88)
 
 ### Changed
 - Shadows adjusted for each tint (coal, plum, navy, moss, warm)

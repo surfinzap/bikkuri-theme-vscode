@@ -850,13 +850,19 @@
        https://code.visualstudio.com/api/references/theme-color#testing-colors
     */ 
 
-    "testing.iconFailed":                         "#e06578",
     "testing.iconErrored":                        "#e06578",
+    "testing.iconErrored.retired":                "#e06578",
+    "testing.iconFailed":                         "#e06578",
+    "testing.iconFailed.retired":                 "#e06578",
     "testing.iconPassed":                         "#9cb062",
-    "testing.runAction":                          "#9cb062",
+    "testing.iconPassed.retired":                 "#9cb062",
     "testing.iconQueued":                         "#a9a0e6",
+    "testing.iconQueued.retired":                 "#a9a0e6",
     "testing.iconUnset":                          "#6a6e85",
+    "testing.iconUnset.retired":                  "#6a6e85",
     "testing.iconSkipped":                        "#e9c07d",
+    "testing.iconSkipped.retired":                "#e9c07d",
+    "testing.runAction":                          "#9cb062",
     "testing.peekBorder":                         "#363846",
     "testing.peekHeaderBackground":               "#1a1b2300",
     "testing.message.error.decorationForeground": "#e06578",
