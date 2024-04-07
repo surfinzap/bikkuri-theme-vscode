@@ -260,9 +260,12 @@
     "activityBar.activeBackground":      "#564f644d",
     "activityBar.activeFocusBorder":     "#1d1a2300",
     "activityBarTop.foreground":         "#e1dfe5",
+    "activityBarTop.background":         "#1d1a23",
     "activityBarTop.activeBorder":       "#1d1a2300",
+    "activityBarTop.activeBackground":   "#564f641f",
     "activityBarTop.inactiveForeground": "#746b84",
     "activityBarTop.dropBorder":         "#918a9f",
+    "sideBarActivityBarTop.border":      "#3c3746",
     "profileBadge.background":           "#564f644d",
     "profileBadge.foreground":           "#aba6b6",
 
