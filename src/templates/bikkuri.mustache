@@ -260,9 +260,12 @@
     "activityBar.activeBackground":      "{{ surface.raised.low }}",
     "activityBar.activeFocusBorder":     "{{ border.none }}",
     "activityBarTop.foreground":         "{{ text.base }}",
+    "activityBarTop.background":         "{{ surface.base }}",
     "activityBarTop.activeBorder":       "{{ border.none }}",
+    "activityBarTop.activeBackground":   "{{ surface.raised.min }}",
     "activityBarTop.inactiveForeground": "{{ icon.mid }}",
     "activityBarTop.dropBorder":         "{{ border.base }}",
+    "sideBarActivityBarTop.border":      "{{ border.dim }}",
     "profileBadge.background":           "{{ surface.raised.low }}",
     "profileBadge.foreground":           "{{ icon.base }}",
 
@@ -533,10 +536,14 @@
     "editorInlayHint.parameterBackground": "{{ surface.none }}",
     "editorInlayHint.parameterForeground": "{{ text.disabled }}",
 
-
-    "editorWhitespace.foreground":         "{{ text.disabled }}",
-    "editorCursor.foreground":             "{{ text.mid }}",
-    "editorCursor.background":             "{{ text.on-ui }}",
+    "editorWhitespace.foreground":            "{{ text.disabled }}",
+    "editorCursor.foreground":                "{{ icon.base }}",
+    "editorCursor.background":                "{{ text.on-ui }}",
+    "editorMultiCursor.primary.foreground":   "{{ icon.base }}",
+    "editorMultiCursor.primary.background":   "{{ text.on-ui }}",
+    "editorMultiCursor.secondary.foreground": "{{ icon.base }}",
+    "editorMultiCursor.secondary.background": "{{ text.on-ui }}",
+    
     "editorError.foreground":              "{{ ui.danger.mid }}",
     "editorError.background":              "{{ surface.none }}",
     "editorError.border":                  "{{ border.none }}",
@@ -843,13 +850,19 @@
        https://code.visualstudio.com/api/references/theme-color#testing-colors
     */ 
 
-    "testing.iconFailed":                         "{{ ui.danger.base }}",
     "testing.iconErrored":                        "{{ ui.danger.base }}",
+    "testing.iconErrored.retired":                "{{ ui.danger.base }}",
+    "testing.iconFailed":                         "{{ ui.danger.base }}",
+    "testing.iconFailed.retired":                 "{{ ui.danger.base }}",
     "testing.iconPassed":                         "{{ ui.success.base }}",
-    "testing.runAction":                          "{{ ui.success.base }}",
+    "testing.iconPassed.retired":                 "{{ ui.success.base }}",
     "testing.iconQueued":                         "{{ ui.accent2.base}}",
+    "testing.iconQueued.retired":                 "{{ ui.accent2.base}}",
     "testing.iconUnset":                          "{{ icon.mid }}",
+    "testing.iconUnset.retired":                  "{{ icon.mid }}",
     "testing.iconSkipped":                        "{{ ui.warning.base }}",
+    "testing.iconSkipped.retired":                "{{ ui.warning.base }}",
+    "testing.runAction":                          "{{ ui.success.base }}",
     "testing.peekBorder":                         "{{ border.dim }}",
     "testing.peekHeaderBackground":               "{{ surface.none }}",
     "testing.message.error.decorationForeground": "{{ ui.danger.base }}",

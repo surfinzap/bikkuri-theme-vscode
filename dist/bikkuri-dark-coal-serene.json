@@ -260,9 +260,12 @@
     "activityBar.activeBackground":      "#5252524d",
     "activityBar.activeFocusBorder":     "#1b1b1b00",
     "activityBarTop.foreground":         "#e0e0e0",
+    "activityBarTop.background":         "#1b1b1b",
     "activityBarTop.activeBorder":       "#1b1b1b00",
+    "activityBarTop.activeBackground":   "#5252521f",
     "activityBarTop.inactiveForeground": "#6f6f6f",
     "activityBarTop.dropBorder":         "#8d8d8d",
+    "sideBarActivityBarTop.border":      "#393939",
     "profileBadge.background":           "#5252524d",
     "profileBadge.foreground":           "#a8a8a8",
 
@@ -533,10 +536,14 @@
     "editorInlayHint.parameterBackground": "#1b1b1b00",
     "editorInlayHint.parameterForeground": "#525252",
 
-
-    "editorWhitespace.foreground":         "#525252",
-    "editorCursor.foreground":             "#8d8d8d",
-    "editorCursor.background":             "#1b1b1b",
+    "editorWhitespace.foreground":            "#525252",
+    "editorCursor.foreground":                "#a8a8a8",
+    "editorCursor.background":                "#1b1b1b",
+    "editorMultiCursor.primary.foreground":   "#a8a8a8",
+    "editorMultiCursor.primary.background":   "#1b1b1b",
+    "editorMultiCursor.secondary.foreground": "#a8a8a8",
+    "editorMultiCursor.secondary.background": "#1b1b1b",
+    
     "editorError.foreground":              "#a25a63",
     "editorError.background":              "#1b1b1b00",
     "editorError.border":                  "#1b1b1b00",
@@ -843,13 +850,19 @@
        https://code.visualstudio.com/api/references/theme-color#testing-colors
     */ 
 
-    "testing.iconFailed":                         "#c07982",
     "testing.iconErrored":                        "#c07982",
+    "testing.iconErrored.retired":                "#c07982",
+    "testing.iconFailed":                         "#c07982",
+    "testing.iconFailed.retired":                 "#c07982",
     "testing.iconPassed":                         "#a1ad86",
-    "testing.runAction":                          "#a1ad86",
+    "testing.iconPassed.retired":                 "#a1ad86",
     "testing.iconQueued":                         "#a8a4c8",
+    "testing.iconQueued.retired":                 "#a8a4c8",
     "testing.iconUnset":                          "#6f6f6f",
+    "testing.iconUnset.retired":                  "#6f6f6f",
     "testing.iconSkipped":                        "#dfc299",
+    "testing.iconSkipped.retired":                "#dfc299",
+    "testing.runAction":                          "#a1ad86",
     "testing.peekBorder":                         "#393939",
     "testing.peekHeaderBackground":               "#1b1b1b00",
     "testing.message.error.decorationForeground": "#c07982",

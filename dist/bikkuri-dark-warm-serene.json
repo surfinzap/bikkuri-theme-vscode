@@ -18,7 +18,7 @@
     "focusBorder":                            "#595051",
     "foreground":                             "#e2e0e0",
     "disabledForeground":                     "#595051",
-    "widget.shadow":                          "#111111",
+    "widget.shadow":                          "#131011",
     "widget.border":                          "#3e3839",
     // text selections for input fields or text areas, does not apply to selections within the editor and the terminal
     "selection.background":                   "#595051b3",
@@ -106,7 +106,7 @@
 
     /* Scrollbar
     */
-    "scrollbar.shadow":                        "#111111",
+    "scrollbar.shadow":                        "#131011",
     "scrollbarSlider.background":              "#5950514d",
     "scrollbarSlider.activeBackground":        "#59505180",
     "scrollbarSlider.hoverBackground":         "#59505180",
@@ -213,7 +213,7 @@
     "listFilterWidget.background":          "#2a2526",
     "listFilterWidget.outline":             "#3e3839",
     "listFilterWidget.noMatchesOutline":    "#c07982",
-    "listFilterWidget.shadow":              "#111111",
+    "listFilterWidget.shadow":              "#131011",
     "tree.indentGuidesStroke":              "#595051",
     "tree.inactiveIndentGuidesStroke":      "#3e3839",
     "tree.tableColumnsBorder":              "#3e3839",
@@ -260,9 +260,12 @@
     "activityBar.activeBackground":      "#5950514d",
     "activityBar.activeFocusBorder":     "#1e1b1b00",
     "activityBarTop.foreground":         "#e2e0e0",
+    "activityBarTop.background":         "#1e1b1b",
     "activityBarTop.activeBorder":       "#1e1b1b00",
+    "activityBarTop.activeBackground":   "#5950511f",
     "activityBarTop.inactiveForeground": "#786c6e",
     "activityBarTop.dropBorder":         "#958a8c",
+    "sideBarActivityBarTop.border":      "#3e3839",
     "profileBadge.background":           "#5950514d",
     "profileBadge.foreground":           "#aea6a8",
 
@@ -533,10 +536,14 @@
     "editorInlayHint.parameterBackground": "#1e1b1b00",
     "editorInlayHint.parameterForeground": "#595051",
 
-
-    "editorWhitespace.foreground":         "#595051",
-    "editorCursor.foreground":             "#958a8c",
-    "editorCursor.background":             "#1e1b1b",
+    "editorWhitespace.foreground":            "#595051",
+    "editorCursor.foreground":                "#aea6a8",
+    "editorCursor.background":                "#1e1b1b",
+    "editorMultiCursor.primary.foreground":   "#aea6a8",
+    "editorMultiCursor.primary.background":   "#1e1b1b",
+    "editorMultiCursor.secondary.foreground": "#aea6a8",
+    "editorMultiCursor.secondary.background": "#1e1b1b",
+    
     "editorError.foreground":              "#a25a63",
     "editorError.background":              "#1e1b1b00",
     "editorError.border":                  "#1e1b1b00",
@@ -592,7 +599,7 @@
     "editorStickyScroll.background":      "#1e1b1b",
     "editorStickyScrollHover.background": "#5950514d",
     "editorStickyScroll.border":          "#1e1b1b00",
-    "editorStickyScroll.shadow":          "#111111",
+    "editorStickyScroll.shadow":          "#131011",
     "search.resultsInfoForeground":       "#958a8c",
 
     
@@ -674,7 +681,7 @@
 
     "inlineChat.background":                 "#2a2526",
     "inlineChat.border":                     "#3e3839",
-    "inlineChat.shadow":                     "#111111",
+    "inlineChat.shadow":                     "#131011",
     "inlineChat.regionHighlight":            "#7790a880",
     "inlineChatInput.border":                "#3e3839",
     "inlineChatInput.focusBorder":           "#595051",
@@ -843,13 +850,19 @@
        https://code.visualstudio.com/api/references/theme-color#testing-colors
     */ 
 
-    "testing.iconFailed":                         "#c07982",
     "testing.iconErrored":                        "#c07982",
+    "testing.iconErrored.retired":                "#c07982",
+    "testing.iconFailed":                         "#c07982",
+    "testing.iconFailed.retired":                 "#c07982",
     "testing.iconPassed":                         "#a1ad86",
-    "testing.runAction":                          "#a1ad86",
+    "testing.iconPassed.retired":                 "#a1ad86",
     "testing.iconQueued":                         "#a8a4c8",
+    "testing.iconQueued.retired":                 "#a8a4c8",
     "testing.iconUnset":                          "#786c6e",
+    "testing.iconUnset.retired":                  "#786c6e",
     "testing.iconSkipped":                        "#dfc299",
+    "testing.iconSkipped.retired":                "#dfc299",
+    "testing.runAction":                          "#a1ad86",
     "testing.peekBorder":                         "#3e3839",
     "testing.peekHeaderBackground":               "#1e1b1b00",
     "testing.message.error.decorationForeground": "#c07982",

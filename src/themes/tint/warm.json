@@ -1,6 +1,7 @@
 {
   "tint-name": "Warm",
   "tint": {
+    "110": "{{ color.gray-warm.110 }}",
     "100": "{{ color.gray-warm.100 }}",
     "90": "{{ color.gray-warm.90 }}",
     "80": "{{ color.gray-warm.80 }}",
