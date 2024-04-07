@@ -536,10 +536,14 @@
     "editorInlayHint.parameterBackground": "#1e1b1b00",
     "editorInlayHint.parameterForeground": "#595051",
 
-
-    "editorWhitespace.foreground":         "#595051",
-    "editorCursor.foreground":             "#958a8c",
-    "editorCursor.background":             "#1e1b1b",
+    "editorWhitespace.foreground":            "#595051",
+    "editorCursor.foreground":                "#aea6a8",
+    "editorCursor.background":                "#1e1b1b",
+    "editorMultiCursor.primary.foreground":   "#aea6a8",
+    "editorMultiCursor.primary.background":   "#1e1b1b",
+    "editorMultiCursor.secondary.foreground": "#aea6a8",
+    "editorMultiCursor.secondary.background": "#1e1b1b",
+    
     "editorError.foreground":              "#a25a63",
     "editorError.background":              "#1e1b1b00",
     "editorError.border":                  "#1e1b1b00",
