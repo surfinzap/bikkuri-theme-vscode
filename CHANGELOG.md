@@ -11,7 +11,7 @@ Removed
 Fixed
 Security
 
-## [1.0.8] — 
+## [1.0.8] — 2024-04-07
 
 ### Added
 - Activity Bar, Testing icons, and Multi-cursor styles introduced in [VS Code v1.88](https://code.visualstudio.com/updates/v1_88)
