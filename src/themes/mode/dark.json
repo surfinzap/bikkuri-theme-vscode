@@ -40,12 +40,16 @@
   },
   "ui": {
     "primary": {
-      "base": "{{ tint.40 }}",
-      "mid": "{{ tint.50 }}"
+      "base": "{{ teal.40 }}",
+      "mid": "{{ teal.50 }}"
     },
     "button": {
       "bg": "{{ ui.primary.mid }}",
       "bg-hover": "{{ ui.primary.base }}"
+    },
+    "badge": {
+      "bg": "{{ tint.50 }}",
+      "text": "{{ text.on-ui }}"
     },
     "accent1": {
       "base": "{{ blue.40 }}",

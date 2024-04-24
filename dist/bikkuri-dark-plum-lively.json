@@ -54,9 +54,9 @@
 
        https://code.visualstudio.com/api/references/theme-color#button-control
     */
-    "button.background":                      "#918a9f",
+    "button.background":                      "#579896",
     "button.foreground":                      "#1d1a23",
-    "button.hoverBackground":                 "#aba6b6",
+    "button.hoverBackground":                 "#68b5b3",
     "button.separator":                       "#564f64",
     // secondary button → notification to install recommended extensions
     "button.secondaryBackground":             "#564f644d",
@@ -90,7 +90,7 @@
        - active icons in inputs
        - checkboxes in "Profiles: Show Profile Contents"
     */
-    "inputOption.activeBackground":           "#918a9f", 
+    "inputOption.activeBackground":           "#579896", 
     "inputOption.hoverBackground":            "#564f6480",  
     "inputOption.activeForeground":           "#1d1a23",
     "inputOption.activeBorder":               "#1d1a2300", //cannot be null
@@ -266,8 +266,8 @@
     "activityBarTop.inactiveForeground": "#746b84",
     "activityBarTop.dropBorder":         "#918a9f",
     "sideBarActivityBarTop.border":      "#3c3746",
-    "profileBadge.background":           "#564f644d",
-    "profileBadge.foreground":           "#aba6b6",
+    "profileBadge.background":           "#918a9f",
+    "profileBadge.foreground":           "#1d1a23",
 
 
 
@@ -1002,11 +1002,11 @@
     /* Extensions
     */
     "extensionButton.prominentForeground":      "#1d1a23",
-    "extensionButton.prominentBackground":      "#918a9f",
-    "extensionButton.prominentHoverBackground": "#aba6b6",
-    "extensionButton.background":               "#918a9f",
+    "extensionButton.prominentBackground":      "#579896",
+    "extensionButton.prominentHoverBackground": "#68b5b3",
+    "extensionButton.background":               "#579896",
     "extensionButton.foreground":               "#1d1a23",
-    "extensionButton.hoverBackground":          "#aba6b6",
+    "extensionButton.hoverBackground":          "#68b5b3",
     "extensionButton.separator":                "#564f64",
     "extensionBadge.remoteBackground":          "#918a9f",
     "extensionBadge.remoteForeground":          "#1d1a23",

@@ -54,7 +54,7 @@
 
        https://code.visualstudio.com/api/references/theme-color#button-control
     */
-    "button.background":                      "{{ ui.button.bg  }}",
+    "button.background":                      "{{ ui.button.bg }}",
     "button.foreground":                      "{{ text.on-ui }}",
     "button.hoverBackground":                 "{{ ui.button.bg-hover }}",
     "button.separator":                       "{{ border.mid }}",
@@ -114,8 +114,8 @@
 
     /* Badge
     */
-    "badge.background":                       "{{ ui.button.bg  }}",
-    "badge.foreground":                       "{{ text.on-ui }}",
+    "badge.background":                       "{{ ui.badge.bg  }}",
+    "badge.foreground":                       "{{ ui.badge.text }}",
 
     /* Progress bar
     */
@@ -254,8 +254,8 @@
     "activityBar.foreground":            "{{ text.base }}",
     "activityBar.inactiveForeground":    "{{ icon.dim }}",             //icon colors
     "activityBar.border":                "{{ border.dim }}",
-    "activityBarBadge.background":       "{{ ui.button.bg  }}",
-    "activityBarBadge.foreground":       "{{ text.on-ui }}",
+    "activityBarBadge.background":       "{{ ui.badge.bg  }}",
+    "activityBarBadge.foreground":       "{{ ui.badge.text }}",
     "activityBar.activeBorder":          "{{ border.base }}",
     "activityBar.activeBackground":      "{{ surface.raised.low }}",
     "activityBar.activeFocusBorder":     "{{ border.none }}",
@@ -266,8 +266,8 @@
     "activityBarTop.inactiveForeground": "{{ icon.mid }}",
     "activityBarTop.dropBorder":         "{{ border.base }}",
     "sideBarActivityBarTop.border":      "{{ border.dim }}",
-    "profileBadge.background":           "{{ surface.raised.low }}",
-    "profileBadge.foreground":           "{{ icon.base }}",
+    "profileBadge.background":           "{{ ui.badge.bg}}",
+    "profileBadge.foreground":           "{{ ui.badge.text }}",
 
 
 
@@ -879,8 +879,8 @@
     "testing.uncoveredBackground":                "{{ ui.danger.dim }}{{ opacity.med-low }}",
     "testing.uncoveredGutterBackground":          "{{ ui.danger.dim }}{{ opacity.med-low }}",
     "testing.uncoveredBorder":                    "{{ border.none }}",
-    "testing.coverCountBadgeBackground":          "{{ ui.button.bg }}",
-    "testing.coverCountBadgeForeground":          "{{ text.on-ui }}",
+    "testing.coverCountBadgeBackground":          "{{ ui.badge.bg }}",
+    "testing.coverCountBadgeForeground":          "{{ ui.badge.text }}",
 
 
 
@@ -1008,8 +1008,8 @@
     "extensionButton.foreground":               "{{ text.on-ui }}",
     "extensionButton.hoverBackground":          "{{ ui.button.bg-hover }}",
     "extensionButton.separator":                "{{ border.mid }}",
-    "extensionBadge.remoteBackground":          "{{ ui.button.bg }}",
-    "extensionBadge.remoteForeground":          "{{ text.on-ui }}",
+    "extensionBadge.remoteBackground":          "{{ ui.badge.bg }}",
+    "extensionBadge.remoteForeground":          "{{ ui.badge.text }}",
     "extensionIcon.starForeground":             "{{ icon.dim }}",
     "extensionIcon.verifiedForeground":         "{{ ui.accent1.base }}",
     "extensionIcon.preReleaseForeground":       "{{ ui.accent2.base }}",

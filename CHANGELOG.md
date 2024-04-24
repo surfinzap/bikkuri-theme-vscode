@@ -11,6 +11,13 @@ Removed
 Fixed
 Security
 
+## [1.0.8] — 2024-*
+
+### Change
+- TBD Primary action color
+
+
+
 ## [1.0.8] — 2024-04-07
 
 ### Added
