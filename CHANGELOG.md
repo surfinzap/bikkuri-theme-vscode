@@ -16,6 +16,9 @@ Security
 ### Change
 - TBD Primary action color
 
+### Fixed 
+- text color for actions in Merge Editor
+
 
 
 ## [1.0.8] — 2024-04-07
