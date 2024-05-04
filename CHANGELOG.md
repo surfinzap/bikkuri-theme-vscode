@@ -11,6 +11,22 @@ Removed
 Fixed
 Security
 
+
+
+## [1.0.9] — 2024-05-04
+
+### Added
+- Side Bar and Panel styles introduced in [VS Code v1.89](https://code.visualstudio.com/updates/v1_89)
+
+### Changed
+- Button, Link, and Badge styles
+- Theme variables refactoring (med → mid)
+
+### Fixed 
+- Text color for actions in Merge Editor
+
+
+
 ## [1.0.8] — 2024-04-07
 
 ### Added

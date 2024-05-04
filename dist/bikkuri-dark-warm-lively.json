@@ -42,8 +42,8 @@
     */
     "textBlockQuote.background": "#2a2526",
     "textBlockQuote.border":     "#3e3839",
-    "textLink.foreground":       "#75aedd",
-    "textLink.activeForeground": "#6192bb",
+    "textLink.foreground":       "#6192bb",
+    "textLink.activeForeground": "#75aedd",
     "textCodeBlock.background":  "#2a2526",
     "textPreformat.foreground":  "#df8fc1",
     "textPreformat.background":  "#2a2526",
@@ -54,9 +54,9 @@
 
        https://code.visualstudio.com/api/references/theme-color#button-control
     */
-    "button.background":                      "#958a8c",
+    "button.background":                      "#579896",
     "button.foreground":                      "#1e1b1b",
-    "button.hoverBackground":                 "#aea6a8",
+    "button.hoverBackground":                 "#68b5b3",
     "button.separator":                       "#595051",
     // secondary button → notification to install recommended extensions
     "button.secondaryBackground":             "#5950514d",
@@ -90,9 +90,9 @@
        - active icons in inputs
        - checkboxes in "Profiles: Show Profile Contents"
     */
-    "inputOption.activeBackground":           "#958a8c", 
-    "inputOption.hoverBackground":            "#59505180",  
+    "inputOption.activeBackground":           "#579896", 
     "inputOption.activeForeground":           "#1e1b1b",
+    "inputOption.hoverBackground":            "#59505180",  
     "inputOption.activeBorder":               "#1e1b1b00", //cannot be null
     "inputValidation.errorBackground":        "#2a2526",
     "inputValidation.errorForeground":        "#e06578",
@@ -266,8 +266,8 @@
     "activityBarTop.inactiveForeground": "#786c6e",
     "activityBarTop.dropBorder":         "#958a8c",
     "sideBarActivityBarTop.border":      "#3e3839",
-    "profileBadge.background":           "#5950514d",
-    "profileBadge.foreground":           "#aea6a8",
+    "profileBadge.background":           "#958a8c",
+    "profileBadge.foreground":           "#1e1b1b",
 
 
 
@@ -282,6 +282,10 @@
     "sideBarSectionHeader.foreground": "#958a8c",
     "sideBarTitle.foreground":         "#958a8c",
     "sideBarSectionHeader.border":     "#1e1b1b00",
+    "sideBarTitle.background":         "#1e1b1b",
+    "sideBarStickyScroll.background":  "#1e1b1b",
+    "sideBarStickyScroll.border":      "#1e1b1b00",
+    "sideBarStickyScroll.shadow":      "#131011",
 
     /* Git Decorations
        Changed files in sidebar or tabs;
@@ -470,12 +474,14 @@
     "panelSectionHeader.background":     "#1e1b1b",
     "panelSectionHeader.foreground":     "#e2e0e0",
     "panelSectionHeader.border":         "#3e3839",
+    "panelStickyScroll.background":      "#1e1b1b",
+    "panelStickyScroll.border":          "#1e1b1b00",
+    "panelStickyScroll.shadow":          "#131011",
     "outputView.background":             "#1e1b1b",
     "outputViewStickyScroll.background": "#1e1b1b",
 
 
     /* Editor
-
 
        Sidenotes
        editorInfo.foreground is also used as icon color in "Do you trust..." dialog
@@ -593,7 +599,7 @@
     "editorIndentGuide.activeBackground6": "#595051",
     "editorRuler.foreground":              "#595051",
     "editor.linkedEditingBackground":      "#59505180", // Turn Linked Editing on; works for HTML tag pairs
-    "editorCodeLens.foreground":           "#5950514d",
+    "editorCodeLens.foreground":           "#958a8c",
     "editorHoverWidget.background":        "#1e1b1b",
     "editorHoverWidget.border":            "#3e3839",
     "editorStickyScroll.background":      "#1e1b1b",
@@ -979,7 +985,7 @@
     "notifications.foreground":              "#e2e0e0",
     "notifications.background":              "#1e1b1b",
     "notifications.border":                  "#3e3839",
-    "notificationLink.foreground":           "#75aedd",
+    "notificationLink.foreground":           "#6192bb",
     "notificationsErrorIcon.foreground":     "#e06578",
     "notificationsWarningIcon.foreground":   "#e9c07d",
     "notificationsInfoIcon.foreground":      "#75aedd",
@@ -1002,11 +1008,11 @@
     /* Extensions
     */
     "extensionButton.prominentForeground":      "#1e1b1b",
-    "extensionButton.prominentBackground":      "#958a8c",
-    "extensionButton.prominentHoverBackground": "#aea6a8",
-    "extensionButton.background":               "#958a8c",
+    "extensionButton.prominentBackground":      "#579896",
+    "extensionButton.prominentHoverBackground": "#68b5b3",
+    "extensionButton.background":               "#579896",
     "extensionButton.foreground":               "#1e1b1b",
-    "extensionButton.hoverBackground":          "#aea6a8",
+    "extensionButton.hoverBackground":          "#68b5b3",
     "extensionButton.separator":                "#595051",
     "extensionBadge.remoteBackground":          "#958a8c",
     "extensionBadge.remoteForeground":          "#1e1b1b",

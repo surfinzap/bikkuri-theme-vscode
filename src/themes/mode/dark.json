@@ -13,9 +13,9 @@
     "base": "{{ tint.100 }}",
     "raised": {
       "min": "{{ tint.70 }}{{ opacity.low }}",
-      "low": "{{ tint.70 }}{{ opacity.med-low }}",
-      "med": "{{ tint.70 }}{{ opacity.med }}",
-      "high": "{{ tint.70 }}{{ opacity.med-high }}"
+      "low": "{{ tint.70 }}{{ opacity.mid-low }}",
+      "mid": "{{ tint.70 }}{{ opacity.mid }}",
+      "high": "{{ tint.70 }}{{ opacity.mid-high }}"
     },
     "none": "{{ tint.100 }}{{ opacity.none }}"
   },
@@ -38,15 +38,27 @@
     "dim": "{{ tint.80 }}",
     "none": "{{ surface.base }}{{ opacity.none }}"
   },
-  "ui": {
+  "button": {
     "primary": {
-      "base": "{{ tint.40 }}",
-      "mid": "{{ tint.50 }}"
+      "bg": "{{ teal.50 }}",
+      "bg-hover": "{{ teal.40 }}",
+      "text": "{{ text.on-ui }}"
     },
-    "button": {
-      "bg": "{{ ui.primary.mid }}",
-      "bg-hover": "{{ ui.primary.base }}"
-    },
+    "secondary": {
+      "bg": "{{ surface.raised.low }}",
+      "bg-hover": "{{ surface.raised.mid }}",
+      "text": "{{ text.base }}"
+    }
+  },
+  "link": {
+    "text": "{{ blue.50 }}",
+    "text-hover": "{{ blue.40 }}"
+  },
+  "badge": {
+    "bg": "{{ tint.50 }}",
+    "text": "{{ text.on-ui }}"
+  },
+  "ui": {
     "accent1": {
       "base": "{{ blue.40 }}",
       "mid": "{{ blue.50 }}"
