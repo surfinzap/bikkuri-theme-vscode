@@ -282,6 +282,10 @@
     "sideBarSectionHeader.foreground": "#8d8d8d",
     "sideBarTitle.foreground":         "#8d8d8d",
     "sideBarSectionHeader.border":     "#1b1b1b00",
+    "sideBarTitle.background":         "#1b1b1b",
+    "sideBarStickyScroll.background":  "#1b1b1b",
+    "sideBarStickyScroll.border":      "#1b1b1b00",
+    "sideBarStickyScroll.shadow":      "#111111",
 
     /* Git Decorations
        Changed files in sidebar or tabs;
@@ -470,12 +474,14 @@
     "panelSectionHeader.background":     "#1b1b1b",
     "panelSectionHeader.foreground":     "#e0e0e0",
     "panelSectionHeader.border":         "#393939",
+    "panelStickyScroll.background":      "#1b1b1b",
+    "panelStickyScroll.border":          "#1b1b1b00",
+    "panelStickyScroll.shadow":          "#111111",
     "outputView.background":             "#1b1b1b",
     "outputViewStickyScroll.background": "#1b1b1b",
 
 
     /* Editor
-
 
        Sidenotes
        editorInfo.foreground is also used as icon color in "Do you trust..." dialog
