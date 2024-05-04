@@ -91,8 +91,8 @@
        - checkboxes in "Profiles: Show Profile Contents"
     */
     "inputOption.activeBackground":           "#749392", 
-    "inputOption.hoverBackground":            "#564f6480",  
     "inputOption.activeForeground":           "#1d1a23",
+    "inputOption.hoverBackground":            "#564f6480",  
     "inputOption.activeBorder":               "#1d1a2300", //cannot be null
     "inputValidation.errorBackground":        "#282430",
     "inputValidation.errorForeground":        "#c07982",

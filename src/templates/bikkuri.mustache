@@ -54,14 +54,14 @@
 
        https://code.visualstudio.com/api/references/theme-color#button-control
     */
-    "button.background":                      "{{ ui.button.bg }}",
-    "button.foreground":                      "{{ text.on-ui }}",
-    "button.hoverBackground":                 "{{ ui.button.bg-hover }}",
+    "button.background":                      "{{ button.primary.bg }}",
+    "button.foreground":                      "{{ button.primary.text }}",
+    "button.hoverBackground":                 "{{ button.primary.bg-hover }}",
     "button.separator":                       "{{ border.mid }}",
     // secondary button → notification to install recommended extensions
-    "button.secondaryBackground":             "{{ surface.raised.low }}",
-    "button.secondaryForeground":             "{{ text.base }}",
-    "button.secondaryHoverBackground":        "{{ surface.raised.med }}",
+    "button.secondaryBackground":             "{{ button.secondary.bg }}",
+    "button.secondaryForeground":             "{{ button.secondary.text }}",
+    "button.secondaryHoverBackground":        "{{ button.secondary.bg-hover }}",
     "button.border":                          "{{ border.none }}",
     "checkbox.background":                    "{{ surface.base }}",
     "checkbox.foreground":                    "{{ icon.base }}",
@@ -90,9 +90,9 @@
        - active icons in inputs
        - checkboxes in "Profiles: Show Profile Contents"
     */
-    "inputOption.activeBackground":           "{{ ui.button.bg }}", 
+    "inputOption.activeBackground":           "{{ button.primary.bg }}", 
+    "inputOption.activeForeground":           "{{ button.primary.text }}",
     "inputOption.hoverBackground":            "{{ surface.raised.med }}",  
-    "inputOption.activeForeground":           "{{ text.on-ui }}",
     "inputOption.activeBorder":               "{{ border.none }}", //cannot be null
     "inputValidation.errorBackground":        "{{ surface.sunken }}",
     "inputValidation.errorForeground":        "{{ ui.danger.base }}",
@@ -114,8 +114,8 @@
 
     /* Badge
     */
-    "badge.background":                       "{{ ui.badge.bg  }}",
-    "badge.foreground":                       "{{ ui.badge.text }}",
+    "badge.background":                       "{{ badge.bg  }}",
+    "badge.foreground":                       "{{ badge.text }}",
 
     /* Progress bar
     */
@@ -254,8 +254,8 @@
     "activityBar.foreground":            "{{ text.base }}",
     "activityBar.inactiveForeground":    "{{ icon.dim }}",             //icon colors
     "activityBar.border":                "{{ border.dim }}",
-    "activityBarBadge.background":       "{{ ui.badge.bg  }}",
-    "activityBarBadge.foreground":       "{{ ui.badge.text }}",
+    "activityBarBadge.background":       "{{ badge.bg  }}",
+    "activityBarBadge.foreground":       "{{ badge.text }}",
     "activityBar.activeBorder":          "{{ border.base }}",
     "activityBar.activeBackground":      "{{ surface.raised.low }}",
     "activityBar.activeFocusBorder":     "{{ border.none }}",
@@ -266,8 +266,8 @@
     "activityBarTop.inactiveForeground": "{{ icon.mid }}",
     "activityBarTop.dropBorder":         "{{ border.base }}",
     "sideBarActivityBarTop.border":      "{{ border.dim }}",
-    "profileBadge.background":           "{{ ui.badge.bg}}",
-    "profileBadge.foreground":           "{{ ui.badge.text }}",
+    "profileBadge.background":           "{{ badge.bg}}",
+    "profileBadge.foreground":           "{{ badge.text }}",
 
 
 
@@ -879,8 +879,8 @@
     "testing.uncoveredBackground":                "{{ ui.danger.dim }}{{ opacity.med-low }}",
     "testing.uncoveredGutterBackground":          "{{ ui.danger.dim }}{{ opacity.med-low }}",
     "testing.uncoveredBorder":                    "{{ border.none }}",
-    "testing.coverCountBadgeBackground":          "{{ ui.badge.bg }}",
-    "testing.coverCountBadgeForeground":          "{{ ui.badge.text }}",
+    "testing.coverCountBadgeBackground":          "{{ badge.bg }}",
+    "testing.coverCountBadgeForeground":          "{{ badge.text }}",
 
 
 
@@ -1001,15 +1001,15 @@
 
     /* Extensions
     */
-    "extensionButton.prominentForeground":      "{{ text.on-ui }}",
-    "extensionButton.prominentBackground":      "{{ ui.button.bg  }}",
-    "extensionButton.prominentHoverBackground": "{{ ui.button.bg-hover }}",
-    "extensionButton.background":               "{{ ui.button.bg }}",
-    "extensionButton.foreground":               "{{ text.on-ui }}",
-    "extensionButton.hoverBackground":          "{{ ui.button.bg-hover }}",
+    "extensionButton.prominentForeground":      "{{ button.primary.text }}",
+    "extensionButton.prominentBackground":      "{{ button.primary.bg  }}",
+    "extensionButton.prominentHoverBackground": "{{ button.primary.bg-hover }}",
+    "extensionButton.background":               "{{ button.primary.bg }}",
+    "extensionButton.foreground":               "{{ button.primary.text }}",
+    "extensionButton.hoverBackground":          "{{ button.primary.bg-hover }}",
     "extensionButton.separator":                "{{ border.mid }}",
-    "extensionBadge.remoteBackground":          "{{ ui.badge.bg }}",
-    "extensionBadge.remoteForeground":          "{{ ui.badge.text }}",
+    "extensionBadge.remoteBackground":          "{{ badge.bg }}",
+    "extensionBadge.remoteForeground":          "{{ badge.text }}",
     "extensionIcon.starForeground":             "{{ icon.dim }}",
     "extensionIcon.verifiedForeground":         "{{ ui.accent1.base }}",
     "extensionIcon.preReleaseForeground":       "{{ ui.accent2.base }}",

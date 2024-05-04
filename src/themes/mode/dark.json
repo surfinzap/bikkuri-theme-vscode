@@ -38,19 +38,23 @@
     "dim": "{{ tint.80 }}",
     "none": "{{ surface.base }}{{ opacity.none }}"
   },
-  "ui": {
+  "button": {
     "primary": {
-      "base": "{{ teal.40 }}",
-      "mid": "{{ teal.50 }}"
-    },
-    "button": {
-      "bg": "{{ ui.primary.mid }}",
-      "bg-hover": "{{ ui.primary.base }}"
-    },
-    "badge": {
-      "bg": "{{ tint.50 }}",
+      "bg": "{{ teal.50 }}",
+      "bg-hover": "{{ teal.40 }}",
       "text": "{{ text.on-ui }}"
     },
+    "secondary": {
+      "bg": "{{ surface.raised.low }}",
+      "bg-hover": "{{ surface.raised.med }}",
+      "text": "{{ text.base }}"
+    }
+  },
+  "badge": {
+    "bg": "{{ tint.50 }}",
+    "text": "{{ text.on-ui }}"
+  },
+  "ui": {
     "accent1": {
       "base": "{{ blue.40 }}",
       "mid": "{{ blue.50 }}"

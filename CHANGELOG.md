@@ -11,13 +11,13 @@ Removed
 Fixed
 Security
 
-## [1.0.8] — 2024-*
+## [1.0.9] — 2024-*
 
-### Change
-- TBD Primary action color
+### Changed
+- Button and Badge styles
 
 ### Fixed 
-- text color for actions in Merge Editor
+- Text color for actions in Merge Editor
 
 
 
