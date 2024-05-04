@@ -1961,7 +1961,15 @@
     // CSS / SCSS ----------------------------------
     {
       "scope": [
-        "entity.other.attribute-name.class.css",
+        "string.quoted.double.scss"
+      ],
+      "settings": {
+        "foreground": "#c8a087"
+      }
+    },
+    {
+      "scope": [
+        "entity.other.attribute-name.class.css"
       ],
       "settings": {
         "foreground": "#dfc299"
@@ -1987,13 +1995,23 @@
 
       ],
       "settings": {
-        "foreground": "#8d88b6"
+        "foreground": "#8bafae"
+      }
+    },
+    {
+      "scope": [
+        "variable.css",
+        "variable.scss",
+      ],
+      "settings": {
+        "foreground": "#8fabc8"
       }
     },
     {
       "scope": [
         "support.type.property-name.css",
         "meta.property-name.scss",
+        "support.type.property-name.media.css",
         "source.css.scss"
       ],
       "settings": {
@@ -2016,18 +2034,7 @@
         "keyword.operator.logical.scss",
       ],
       "settings": {
-        "foreground": "#c8a087"
-      }
-    },
-
-    {
-      "scope": [
-        "variable.css",
-        "variable.scss",
-        // "variable.argument.css"
-      ],
-      "settings": {
-        "foreground": "#8fabc8"
+        "foreground": "#cd99b8"
       }
     },
 
