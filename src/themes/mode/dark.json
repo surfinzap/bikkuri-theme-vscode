@@ -13,9 +13,9 @@
     "base": "{{ tint.100 }}",
     "raised": {
       "min": "{{ tint.70 }}{{ opacity.low }}",
-      "low": "{{ tint.70 }}{{ opacity.med-low }}",
-      "med": "{{ tint.70 }}{{ opacity.med }}",
-      "high": "{{ tint.70 }}{{ opacity.med-high }}"
+      "low": "{{ tint.70 }}{{ opacity.mid-low }}",
+      "mid": "{{ tint.70 }}{{ opacity.mid }}",
+      "high": "{{ tint.70 }}{{ opacity.mid-high }}"
     },
     "none": "{{ tint.100 }}{{ opacity.none }}"
   },
@@ -46,7 +46,7 @@
     },
     "secondary": {
       "bg": "{{ surface.raised.low }}",
-      "bg-hover": "{{ surface.raised.med }}",
+      "bg-hover": "{{ surface.raised.mid }}",
       "text": "{{ text.base }}"
     }
   },

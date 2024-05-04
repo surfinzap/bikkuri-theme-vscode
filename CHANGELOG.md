@@ -15,6 +15,7 @@ Security
 
 ### Changed
 - Button and Badge styles
+- Theme variables refactoring (med → mid)
 
 ### Fixed 
 - Text color for actions in Merge Editor
