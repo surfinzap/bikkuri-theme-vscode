@@ -50,6 +50,10 @@
       "text": "{{ text.base }}"
     }
   },
+  "link": {
+    "text": "{{ blue.50 }}",
+    "text-hover": "{{ blue.40 }}"
+  },
   "badge": {
     "bg": "{{ tint.50 }}",
     "text": "{{ text.on-ui }}"

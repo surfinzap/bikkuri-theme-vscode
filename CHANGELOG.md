@@ -14,7 +14,7 @@ Security
 ## [1.0.9] — 2024-*
 
 ### Changed
-- Button and Badge styles
+- Button, Link, and Badge styles
 - Theme variables refactoring (med → mid)
 
 ### Fixed 

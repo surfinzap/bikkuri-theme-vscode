@@ -42,8 +42,8 @@
     */
     "textBlockQuote.background": "{{ surface.sunken }}",
     "textBlockQuote.border":     "{{ border.dim }}",
-    "textLink.foreground":       "{{ ui.accent1.base }}",
-    "textLink.activeForeground": "{{ ui.accent1.mid }}",
+    "textLink.foreground":       "{{ link.text }}",
+    "textLink.activeForeground": "{{ link.text-hover }}",
     "textCodeBlock.background":  "{{ surface.sunken }}",
     "textPreformat.foreground":  "{{ syntax.08.base }}",
     "textPreformat.background":  "{{ surface.sunken }}",
@@ -558,7 +558,7 @@
     /* icons in the panel view */
     "problemsErrorIcon.foreground":        "{{ ui.danger.base }}",
     "problemsWarningIcon.foreground":      "{{ ui.warning.base }}",
-    "problemsInfoIcon.foreground":         "{{ ui.accent1.base }}",
+    "problemsInfoIcon.foreground":         "{{ ui.info.base }}",
 
     "editorUnnecessaryCode.border":        "{{ border.none }}",
     "editorUnnecessaryCode.opacity":       "{{ text.base }}{{ opacity.mid }}", 
@@ -835,7 +835,7 @@
     "debugIcon.stepIntoForeground":                    "{{ ui.accent2.base }}",
     "debugIcon.stepOutForeground":                     "{{ ui.accent2.base }}",
     "debugIcon.stepBackForeground":                    "{{ ui.accent2.base }}",
-    "debugConsole.infoForeground":                     "{{ ui.accent1.base }}",
+    "debugConsole.infoForeground":                     "{{ ui.info.base }}",
     "debugConsole.warningForeground":                  "{{ ui.warning.base }}",
     "debugConsole.errorForeground":                    "{{ ui.danger.base }}",
     "debugConsole.sourceForeground":                   "{{ ui.accent2.base }}",
@@ -979,7 +979,7 @@
     "notifications.foreground":              "{{ text.base }}",
     "notifications.background":              "{{ surface.base }}",
     "notifications.border":                  "{{ border.dim }}",
-    "notificationLink.foreground":           "{{ ui.accent1.base }}",
+    "notificationLink.foreground":           "{{ link.text }}",
     "notificationsErrorIcon.foreground":     "{{ ui.danger.base }}",
     "notificationsWarningIcon.foreground":   "{{ ui.warning.base }}",
     "notificationsInfoIcon.foreground":      "{{ ui.info.base }}",
