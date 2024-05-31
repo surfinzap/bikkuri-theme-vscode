@@ -16,7 +16,7 @@ Security
 
 ### Changed 
 - CSS/SCSS syntax highlighting
-
+- JSDoc syntax highlighting
 
 
 ## [1.0.9] — 2024-05-04

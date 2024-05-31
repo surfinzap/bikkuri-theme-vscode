@@ -2125,6 +2125,36 @@
       }
     },
  
+    // JSDoc ---------------------------------------
+    {
+      "scope": [
+        "punctuation.definition.block.tag.jsdoc",
+        "storage.type.class.jsdoc"
+      ],
+      "settings": {
+        "foreground": "#8d88b6"
+      }
+    },
+
+    {
+      "scope": [
+        "entity.name.type.instance.jsdoc"
+      ],
+      "settings": {
+        "foreground": "#898c9f"
+      }
+    },
+
+    {
+      "scope": [
+        "variable.other.jsdoc"
+      ],
+      "settings": {
+        "foreground": "#7790a8"
+      }
+    },
+
+
 
     // golang --------------------------------------------
     {
