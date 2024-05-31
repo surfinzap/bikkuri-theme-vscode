@@ -1199,12 +1199,7 @@
         "foreground": "{{ syntax.05.base }}"
       }
     },
-    {
-      "scope": "entity.other.attribute-name",
-      "settings": {
-        "foreground": "{{ syntax.07.base }}"
-      }
-    },
+
     {
       "scope": [
         "entity.name.tag",
@@ -2058,18 +2053,22 @@
     },
     {
       "scope": [
-        "string.quoted.double.html"
+        "string.quoted.double.html",
+        "string.quoted.double.xml",
+        "string.quoted.double.js"
       ],
       "settings": {
-        "foreground": "{{ syntax.07.base }}",
+        "foreground": "{{ syntax.08.base }}",
       }
     },
+
     {
       "scope": [
+        "entity.other.attribute-name",
         "entity.other.attribute-name.html"
       ],
       "settings": {
-        "foreground": "{{ syntax.06.base }}",
+        "foreground": "{{ syntax.07.base }}",
       }
     },
     // pug ----------------------------------------------

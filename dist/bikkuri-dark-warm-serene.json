@@ -1199,12 +1199,7 @@
         "foreground": "#8bafae"
       }
     },
-    {
-      "scope": "entity.other.attribute-name",
-      "settings": {
-        "foreground": "#a8a4c8"
-      }
-    },
+
     {
       "scope": [
         "entity.name.tag",
@@ -2058,18 +2053,22 @@
     },
     {
       "scope": [
-        "string.quoted.double.html"
+        "string.quoted.double.html",
+        "string.quoted.double.xml",
+        "string.quoted.double.js"
       ],
       "settings": {
-        "foreground": "#a8a4c8",
+        "foreground": "#cd99b8",
       }
     },
+
     {
       "scope": [
+        "entity.other.attribute-name",
         "entity.other.attribute-name.html"
       ],
       "settings": {
-        "foreground": "#8fabc8",
+        "foreground": "#a8a4c8",
       }
     },
     // pug ----------------------------------------------
