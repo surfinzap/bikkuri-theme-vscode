@@ -17,7 +17,7 @@ Security
 ### Changed 
 - CSS/SCSS syntax highlighting
 - JSDoc syntax highlighting
-- Consolidate HTML/SVG/Pug syntax highlighting
+- HTML/SVG/Pug syntax highlighting
 
 
 
