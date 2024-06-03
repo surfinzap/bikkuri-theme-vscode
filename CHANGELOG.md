@@ -12,12 +12,13 @@ Fixed
 Security
 
 
-## [1.0.10] — 2024-*
+## [1.0.10] — 2024-06-03
 
 ### Changed 
 - CSS/SCSS syntax highlighting
 - JSDoc syntax highlighting
 - Consolidate HTML/SVG/Pug syntax highlighting
+
 
 
 ## [1.0.9] — 2024-05-04
