@@ -4,7 +4,7 @@
   "description": "Set of 10 dark themes for VS Code, including syntax highlighting, debugging, diff/merge and terminal colors.",
   "publisher": "brano",
   "author": "Brano Sandala",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "icon": "assets/bikkuri-icon.png",
   "engines": {
     "vscode": "^1.89.0"
@@ -96,7 +96,7 @@
   },
   "devDependencies": {
     "@vscode/vsce": "^2.26.1",
-    "axios": "^1.6.8",
+    "axios": "^1.7.2",
     "cheerio": "^1.0.0-rc.12",
     "child_process": "^1.0.2",
     "gulp": "^5.0.0",

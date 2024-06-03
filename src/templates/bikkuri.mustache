@@ -57,7 +57,7 @@
     "button.background":                      "{{ button.primary.bg }}",
     "button.foreground":                      "{{ button.primary.text }}",
     "button.hoverBackground":                 "{{ button.primary.bg-hover }}",
-    "button.separator":                       "{{ border.mid }}",
+    "button.separator":                       "{{ button.primary.bg }}",
     // secondary button → notification to install recommended extensions
     "button.secondaryBackground":             "{{ button.secondary.bg }}",
     "button.secondaryForeground":             "{{ button.secondary.text }}",
@@ -1199,12 +1199,7 @@
         "foreground": "{{ syntax.05.base }}"
       }
     },
-    {
-      "scope": "entity.other.attribute-name",
-      "settings": {
-        "foreground": "{{ syntax.07.base }}"
-      }
-    },
+
     {
       "scope": [
         "entity.name.tag",
@@ -1961,7 +1956,15 @@
     // CSS / SCSS ----------------------------------
     {
       "scope": [
-        "entity.other.attribute-name.class.css",
+        "string.quoted.double.scss"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.02.base }}"
+      }
+    },
+    {
+      "scope": [
+        "entity.other.attribute-name.class.css"
       ],
       "settings": {
         "foreground": "{{ syntax.03.base }}"
@@ -1987,13 +1990,23 @@
 
       ],
       "settings": {
-        "foreground": "{{ syntax.07.dim }}"
+        "foreground": "{{ syntax.05.base }}"
+      }
+    },
+    {
+      "scope": [
+        "variable.css",
+        "variable.scss",
+      ],
+      "settings": {
+        "foreground": "{{ syntax.06.base }}"
       }
     },
     {
       "scope": [
         "support.type.property-name.css",
         "meta.property-name.scss",
+        "support.type.property-name.media.css",
         "source.css.scss"
       ],
       "settings": {
@@ -2016,18 +2029,7 @@
         "keyword.operator.logical.scss",
       ],
       "settings": {
-        "foreground": "{{ syntax.02.base }}"
-      }
-    },
-
-    {
-      "scope": [
-        "variable.css",
-        "variable.scss",
-        // "variable.argument.css"
-      ],
-      "settings": {
-        "foreground": "{{ syntax.06.base }}"
+        "foreground": "{{ syntax.08.base }}"
       }
     },
 
@@ -2051,18 +2053,22 @@
     },
     {
       "scope": [
-        "string.quoted.double.html"
+        "string.quoted.double.html",
+        "string.quoted.double.xml",
+        "string.quoted.double.js"
       ],
       "settings": {
-        "foreground": "{{ syntax.07.base }}",
+        "foreground": "{{ syntax.08.base }}",
       }
     },
+
     {
       "scope": [
+        "entity.other.attribute-name",
         "entity.other.attribute-name.html"
       ],
       "settings": {
-        "foreground": "{{ syntax.06.base }}",
+        "foreground": "{{ syntax.07.base }}",
       }
     },
     // pug ----------------------------------------------
@@ -2118,6 +2124,36 @@
       }
     },
  
+    // JSDoc ---------------------------------------
+    {
+      "scope": [
+        "punctuation.definition.block.tag.jsdoc",
+        "storage.type.class.jsdoc"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.07.dim }}"
+      }
+    },
+
+    {
+      "scope": [
+        "entity.name.type.instance.jsdoc"
+      ],
+      "settings": {
+        "foreground": "{{ text.mid }}"
+      }
+    },
+
+    {
+      "scope": [
+        "variable.other.jsdoc"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.06.dim }}"
+      }
+    },
+
+
 
     // golang --------------------------------------------
     {

@@ -57,7 +57,7 @@
     "button.background":                      "#749392",
     "button.foreground":                      "#1b1c19",
     "button.hoverBackground":                 "#8bafae",
-    "button.separator":                       "#52534d",
+    "button.separator":                       "#749392",
     // secondary button → notification to install recommended extensions
     "button.secondaryBackground":             "#52534d4d",
     "button.secondaryForeground":             "#e0e1d4",
@@ -1199,12 +1199,7 @@
         "foreground": "#8bafae"
       }
     },
-    {
-      "scope": "entity.other.attribute-name",
-      "settings": {
-        "foreground": "#a8a4c8"
-      }
-    },
+
     {
       "scope": [
         "entity.name.tag",
@@ -1961,7 +1956,15 @@
     // CSS / SCSS ----------------------------------
     {
       "scope": [
-        "entity.other.attribute-name.class.css",
+        "string.quoted.double.scss"
+      ],
+      "settings": {
+        "foreground": "#c8a087"
+      }
+    },
+    {
+      "scope": [
+        "entity.other.attribute-name.class.css"
       ],
       "settings": {
         "foreground": "#dfc299"
@@ -1987,13 +1990,23 @@
 
       ],
       "settings": {
-        "foreground": "#8d88b6"
+        "foreground": "#8bafae"
+      }
+    },
+    {
+      "scope": [
+        "variable.css",
+        "variable.scss",
+      ],
+      "settings": {
+        "foreground": "#8fabc8"
       }
     },
     {
       "scope": [
         "support.type.property-name.css",
         "meta.property-name.scss",
+        "support.type.property-name.media.css",
         "source.css.scss"
       ],
       "settings": {
@@ -2016,18 +2029,7 @@
         "keyword.operator.logical.scss",
       ],
       "settings": {
-        "foreground": "#c8a087"
-      }
-    },
-
-    {
-      "scope": [
-        "variable.css",
-        "variable.scss",
-        // "variable.argument.css"
-      ],
-      "settings": {
-        "foreground": "#8fabc8"
+        "foreground": "#cd99b8"
       }
     },
 
@@ -2051,18 +2053,22 @@
     },
     {
       "scope": [
-        "string.quoted.double.html"
+        "string.quoted.double.html",
+        "string.quoted.double.xml",
+        "string.quoted.double.js"
       ],
       "settings": {
-        "foreground": "#a8a4c8",
+        "foreground": "#cd99b8",
       }
     },
+
     {
       "scope": [
+        "entity.other.attribute-name",
         "entity.other.attribute-name.html"
       ],
       "settings": {
-        "foreground": "#8fabc8",
+        "foreground": "#a8a4c8",
       }
     },
     // pug ----------------------------------------------
@@ -2118,6 +2124,36 @@
       }
     },
  
+    // JSDoc ---------------------------------------
+    {
+      "scope": [
+        "punctuation.definition.block.tag.jsdoc",
+        "storage.type.class.jsdoc"
+      ],
+      "settings": {
+        "foreground": "#8d88b6"
+      }
+    },
+
+    {
+      "scope": [
+        "entity.name.type.instance.jsdoc"
+      ],
+      "settings": {
+        "foreground": "#8d8e85"
+      }
+    },
+
+    {
+      "scope": [
+        "variable.other.jsdoc"
+      ],
+      "settings": {
+        "foreground": "#7790a8"
+      }
+    },
+
+
 
     // golang --------------------------------------------
     {
