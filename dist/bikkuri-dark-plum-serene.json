@@ -575,7 +575,7 @@
     "editorGutter.modifiedBackground":               "#dfc299",
 
     /* requires e.g. GitHub pull requests extension to preview these comment ranges */
-    "editorGutter.commentRangeForeground":           "#749392",
+    "editorGutter.commentRangeForeground":           "#564f644d",
     "editorGutter.commentUnresolvedGlyphForeground": "#1d1a23",
     "editorGutter.commentGlyphForeground":           "#1d1a23",
     "editorCommentsWidget.unresolvedBorder":         "#bfa481",
