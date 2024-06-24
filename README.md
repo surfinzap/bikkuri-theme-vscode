@@ -46,6 +46,14 @@
 ![Dark Moss & Serene](assets/bikkuri-dark-moss-serene.png)
 
 
+## Syntax Highlighting
+
+We’ve got syntax highlighting covered for many popular languages, including `CSS`, `HTML`, `JavaScript`, `JSON`, `Markdown`, `Pug`, `Python`, `SCSS`, `Vue`.
+
+If you’d like to contribute or help us improve syntax highlighting for other languages, we’d love to hear from you!
+
+
+
 ## Installation
 
 **Prerequisite: VS Code**
