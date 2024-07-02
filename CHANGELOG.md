@@ -12,7 +12,7 @@ Fixed
 Security
 
 
-## [1.0.11] —  2024-07-02
+## [1.0.11] — 2024-07-02
 
 ### Changed
 - bash syntax
