@@ -575,7 +575,7 @@
     "editorGutter.modifiedBackground":               "#dfc299",
 
     /* requires e.g. GitHub pull requests extension to preview these comment ranges */
-    "editorGutter.commentRangeForeground":           "#749392",
+    "editorGutter.commentRangeForeground":           "#52534d4d",
     "editorGutter.commentUnresolvedGlyphForeground": "#1b1c19",
     "editorGutter.commentGlyphForeground":           "#1b1c19",
     "editorCommentsWidget.unresolvedBorder":         "#bfa481",
@@ -1595,6 +1595,15 @@
     },
     // SHELL ----------------------------------------
     {
+      "scope": [
+        "entity.name.command.shell",
+        "entity.name.function.call.shell"
+      ],
+      "settings": {
+        "foreground": "#dfc299"
+      }
+    },
+    {
       "scope": "keyword.operator.logical",
       "settings": {
         "foreground": "#6f7069"
@@ -1621,6 +1630,15 @@
         "foreground": "#8bafae"
       }
     },
+    {
+      "scope": [
+        "string.unquoted.argument.shell",
+      ],
+      "settings": {
+        "foreground": "#e0e1d4"
+      }
+    },
+  
     // C C++ ----------------------------------------
     {
       "scope": "keyword.control.directive",

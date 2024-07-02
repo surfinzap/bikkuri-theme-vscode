@@ -12,6 +12,16 @@ Fixed
 Security
 
 
+## [1.0.11] —  2024-07-02
+
+### Changed
+- bash syntax
+
+### Fixed 
+- Gutter button when comparing changes 
+
+
+
 ## [1.0.10] — 2024-06-03
 
 ### Changed 
