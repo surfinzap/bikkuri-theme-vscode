@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 function main() {
-  modes = ['dark'];
+  modes = ['dark', 'light'];
   tints = ['coal', 'moss', 'navy', 'plum', 'warm'];
   moods = ['serene', 'lively'];
 
