@@ -12,7 +12,10 @@ Fixed
 Security
 
 
-## [1.0.11] —
+## [1.0.11] —  2024-07-02
+
+### Changed
+- bash syntax
 
 ### Fixed 
 - Gutter button when comparing changes 

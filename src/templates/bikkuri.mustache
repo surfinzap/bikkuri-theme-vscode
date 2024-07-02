@@ -1595,6 +1595,15 @@
     },
     // SHELL ----------------------------------------
     {
+      "scope": [
+        "entity.name.command.shell",
+        "entity.name.function.call.shell"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.03.base }}"
+      }
+    },
+    {
       "scope": "keyword.operator.logical",
       "settings": {
         "foreground": "{{ text.dim }}"
@@ -1621,6 +1630,15 @@
         "foreground": "{{ syntax.05.base }}"
       }
     },
+    {
+      "scope": [
+        "string.unquoted.argument.shell",
+      ],
+      "settings": {
+        "foreground": "{{ text.base }}"
+      }
+    },
+  
     // C C++ ----------------------------------------
     {
       "scope": "keyword.control.directive",

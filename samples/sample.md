@@ -114,3 +114,8 @@ gantt
   Task 6         :b3, after b2, 4d
 ```
 
+```bash
+git checkout main
+git pull origin main
+
+```
