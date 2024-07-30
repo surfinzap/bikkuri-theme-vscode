@@ -22,7 +22,7 @@
   },
   "text": {
     "base": "{{ tint.80 }}",
-    "mid": "{{ tint.70 }}",
+    "mid": "{{ tint.60 }}",
     "dim": "{{ tint.50 }}",
     "disabled": "{{ tint.40 }}",
     "on-ui": "{{ tint.100 }}",
