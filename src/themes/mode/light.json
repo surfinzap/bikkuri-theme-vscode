@@ -1,16 +1,16 @@
 {
-  "mode-type": "light",
+  "mode-type": "vs",
   "mode-name": "Light",
   "shadow": "{{ tint.30}}",
   "test": {
     "red": "#ff0000",
     "green": "#00ff00",
     "blue": "#0088ff",
-    "yellow": "#ffff00"
+    "yellow": "#ffff00" 
   },
   "surface": {
     "sunken-tbd": "sunken-tbd",
-    "sunken": "{{ tint.30 }}{{ opacity.low }}",
+    "sunken": "{{ tint.20 }}",
     "base": "{{ tint.10 }}",
     "raised": {
       "min": "{{ tint.30 }}{{ opacity.low }}",
@@ -23,8 +23,8 @@
   "text": {
     "base": "{{ tint.80 }}",
     "mid": "{{ tint.70 }}",
-    "dim": "{{ tint.60 }}",
-    "disabled": "{{ tint.50 }}",
+    "dim": "{{ tint.50 }}",
+    "disabled": "{{ tint.40 }}",
     "on-ui": "{{ tint.100 }}",
     "none": "{{ surface.base }}{{ opacity.none }}"
   },
@@ -61,9 +61,10 @@
     "text": "{{ text.on-ui }}"
   },
   "ui": {
+    "ui-tbd": "finish",
     "accent1": {
-      "base": "{{ blue.40 }}",
-      "mid": "{{ blue.50 }}"
+      "base": "{{ blue.50 }}",
+      "mid": "{{ blue.60 }}"
     },
     "accent2": {
       "base": "{{ violet.40 }}",
@@ -97,36 +98,36 @@
 
   "syntax": {
     "01": {
-      "base": "{{ red.50 }}",
-      "dim": "{{ red.60 }}"
+      "base": "{{ red.60 }}",
+      "dim": "{{ red.70 }}"
     },
     "02": {
-      "base": "{{ orange.40 }}",
-      "dim": "{{ orange.50 }}"
+      "base": "{{ orange.50 }}",
+      "dim": "{{ orange.60 }}"
     },
     "03": {
-      "base": "{{ yellow.30 }}",
-      "dim": "{{ yellow.40 }}"
+      "base": "{{ yellow.40 }}",
+      "dim": "{{ yellow.50 }}"
     },
     "04": {
-      "base": "{{ green.40 }}",
-      "dim": "{{ green.50 }}"
+      "base": "{{ green.50 }}",
+      "dim": "{{ green.60 }}"
     },
     "05": {
-      "base": "{{ teal.40 }}",
-      "dim": "{{ teal.50 }}"
+      "base": "{{ teal.50 }}",
+      "dim": "{{ teal.60 }}"
     },
     "06": {
-      "base": "{{ blue.40 }}",
-      "dim": "{{ blue.50 }}"
+      "base": "{{ blue.50 }}",
+      "dim": "{{ blue.60 }}"
     },
     "07": {
-      "base": "{{ violet.40 }}",
-      "dim": "{{ violet.50 }}"
+      "base": "{{ violet.50 }}",
+      "dim": "{{ violet.60 }}"
     },
     "08": {
-      "base": "{{ pink.40 }}",
-      "dim": "{{ pink.50 }}"
+      "base": "{{ pink.50 }}",
+      "dim": "{{ pink.60 }}"
     }
   }
 }

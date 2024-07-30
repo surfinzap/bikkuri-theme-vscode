@@ -38,7 +38,7 @@ def process_schemes(folder_path):
           "label":
           f"Bikkuri ({scheme_json['mode-name']} {scheme_json['tint-name']} & {scheme_json['mood-name']})",
           "uiTheme":
-          f"vs-{scheme_json['mode-type']}",
+          f"{scheme_json['mode-type']}",
           "path":
           f"./{dist_folder + theme_prefix + scheme_file}"
       })
