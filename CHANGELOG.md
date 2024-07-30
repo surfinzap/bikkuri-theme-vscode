@@ -18,6 +18,7 @@ Security
 - new variables for tabs, editor and terminal introduced in [VS Code v1.91](https://code.visualstudio.com/updates/v1_91)
 
 
+
 ## [1.0.11] — 2024-07-02
 
 ### Changed
