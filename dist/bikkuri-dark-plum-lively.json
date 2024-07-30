@@ -509,10 +509,12 @@
     "editor.selectionHighlightBorder":        "#75aedd",
     // current match
     "editor.findMatchBackground":             "#1d1a2300",
-    "editor.findMatchBorder":                 "#e06578",
+    "editor.findMatchForeground":             "#68b5b3",
+    "editor.findMatchHighlightBorder":        "#579896",
+    "editor.findMatchHighlightForeground":    "#f5ddbb",
+    "editor.findMatchBorder":                 "#caa263",
     // other matches
     "editor.findMatchHighlightBackground":    "#564f644d",
-    "editor.findMatchHighlightBorder":        "#918a9f",
     // selection range when "Find in Selection" is applied
     "editor.findRangeHighlightBackground":    "#282430", 
     "editor.findRangeHighlightBorder":        "#1d1a2300",
@@ -553,6 +555,7 @@
     "editorMultiCursor.primary.background":   "#1d1a23",
     "editorMultiCursor.secondary.foreground": "#aba6b6",
     "editorMultiCursor.secondary.background": "#1d1a23",
+    "editor.placeholder.foreground":          "#918a9f",
     
     "editorError.foreground":              "#c14258",
     "editorError.background":              "#1d1a2300",
