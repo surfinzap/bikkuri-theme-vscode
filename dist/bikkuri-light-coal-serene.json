@@ -239,12 +239,12 @@
     /* Keybinding labels
        https://code.visualstudio.com/api/references/theme-color#keybinding-label-colors
     */
-    "keybindingLabel.background":   "#f4f4f4",
-    "keybindingLabel.border":       "#e0e0e0",
-    "keybindingLabel.bottomBorder": "#c6c6c6",
-    "keybindingLabel.foreground":   "#525252",
+    "keybindingLabel.background":       "#f4f4f4",
+    "keybindingLabel.border":           "#e0e0e0",
+    "keybindingLabel.bottomBorder":     "#c6c6c6",
+    "keybindingLabel.foreground":       "#525252",
     "keybindingTable.headerBackground": "#f4f4f400",
-    "keybindingTable.rowsBackground": "#f4f4f400",
+    "keybindingTable.rowsBackground":   "#f4f4f400",
 
 
     /* Activity Bar 
@@ -268,6 +268,7 @@
     "sideBarActivityBarTop.border":      "#c6c6c6",
     "profileBadge.background":           "#c6c6c6",
     "profileBadge.foreground":           "#1b1b1b",
+    "profiles.sashBorder":               "#c6c6c6",
 
 
 
@@ -420,6 +421,9 @@
     "tab.activeForeground":                "#393939",
     "tab.activeBorder":                    "#8d8d8d",
     "tab.activeBorderTop":                 "#f4f4f400",
+    "tab.selectedBorderTop":               "#f4f4f400",
+    "tab.selectedBackground":              "#c6c6c64d",
+    "tab.selectedForeground":              "#393939",
     "tab.inactiveForeground":              "#8d8d8d",
     "tab.inactiveBackground":              "#f4f4f4",
     "tab.hoverBorder":                     "#a8a8a8",
@@ -505,10 +509,12 @@
     "editor.selectionHighlightBorder":        "#7790a8",
     // current match
     "editor.findMatchBackground":             "#f4f4f400",
-    "editor.findMatchBorder":                 "#c07982",
+    "editor.findMatchForeground":             "#8bafae",
+    "editor.findMatchHighlightBorder":        "#749392",
+    "editor.findMatchHighlightForeground":    "#eedeca",
+    "editor.findMatchBorder":                 "#bfa481",
     // other matches
     "editor.findMatchHighlightBackground":    "#c6c6c64d",
-    "editor.findMatchHighlightBorder":        "#8d8d8d",
     // selection range when "Find in Selection" is applied
     "editor.findRangeHighlightBackground":    "#e0e0e0", 
     "editor.findRangeHighlightBorder":        "#f4f4f400",
@@ -549,6 +555,7 @@
     "editorMultiCursor.primary.background":   "#1b1b1b",
     "editorMultiCursor.secondary.foreground": "#a8a8a8",
     "editorMultiCursor.secondary.background": "#1b1b1b",
+    "editor.placeholder.foreground":          "#525252",
     
     "editorError.foreground":              "#a25a63",
     "editorError.background":              "#f4f4f400",
@@ -639,6 +646,7 @@
     "editorBracketPairGuide.background5":     "#f4f4f400",
     "editorBracketPairGuide.background6":     "#f4f4f400",
     "editor.foldBackground":                  "#c6c6c61f",
+    "editor.foldPlaceholderForeground":       "#8d8d8d",
 
 
 
@@ -686,6 +694,7 @@
     "chat.avatarForeground":       "#6f6f6f", //co-pilot icon
 
     "inlineChat.background":                 "#e0e0e0",
+    "inlineChat.foreground":                 "#393939",
     "inlineChat.border":                     "#c6c6c6",
     "inlineChat.shadow":                     "#c6c6c6",
     "inlineChat.regionHighlight":            "#5d718580",
@@ -819,6 +828,7 @@
     "debugTokenExpression.boolean":                "#8d88b6",
     "debugTokenExpression.number":                 "#bfa481",
     "debugTokenExpression.error":                  "#a25a63",
+    "debugTokenExpression.type":                   "#a88671",
 
 
     
@@ -972,6 +982,8 @@
     "terminalOverviewRuler.findMatchForeground":   "#bfa481",
     "terminalStickyScroll.background":             "#f4f4f4",
     "terminalStickyScrollHover.background":        "#c6c6c64d",
+    "terminalStickyScroll.border":                 "#f4f4f400",
+    "terminal.initialHintForeground":              "#525252",
 
 
 
