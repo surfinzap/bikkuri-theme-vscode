@@ -239,12 +239,12 @@
     /* Keybinding labels
        https://code.visualstudio.com/api/references/theme-color#keybinding-label-colors
     */
-    "keybindingLabel.background":   "#1d1a23",
-    "keybindingLabel.border":       "#282430",
-    "keybindingLabel.bottomBorder": "#3c3746",
-    "keybindingLabel.foreground":   "#918a9f",
+    "keybindingLabel.background":       "#1d1a23",
+    "keybindingLabel.border":           "#282430",
+    "keybindingLabel.bottomBorder":     "#3c3746",
+    "keybindingLabel.foreground":       "#918a9f",
     "keybindingTable.headerBackground": "#1d1a2300",
-    "keybindingTable.rowsBackground": "#1d1a2300",
+    "keybindingTable.rowsBackground":   "#1d1a2300",
 
 
     /* Activity Bar 
@@ -268,6 +268,7 @@
     "sideBarActivityBarTop.border":      "#3c3746",
     "profileBadge.background":           "#918a9f",
     "profileBadge.foreground":           "#1d1a23",
+    "profiles.sashBorder":               "#3c3746",
 
 
 
