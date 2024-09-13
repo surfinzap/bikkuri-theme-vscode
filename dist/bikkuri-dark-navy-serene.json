@@ -321,7 +321,18 @@
     "scm.historyItemSelectedStatisticsBorder": "#1a1b2300",
 
 
-
+    /* Source Control Graph colors
+       https: //code.visualstudio.com/api/references/theme-color#source-control-graph-colors
+    */
+    "scmGraph.historyItemGroupLocal":               "#8bafae",
+    "scmGraph.historyItemGroupRemote":              "#24262f",
+    "scmGraph.historyItemGroupBase":                "#6a6e85",
+    "scmGraph.historyItemHoverLabelForeground":     "#dee0e5",
+    "scmGraph.foreground1":                         "#7790a8",
+    "scmGraph.foreground2":                         "#879170",
+    "scmGraph.foreground3":                         "#8d88b6",
+    "scmGraph.historyItemHoverAdditionsForeground": "#a1ad86",
+    "scmGraph.historyItemHoverDeletionsForeground": "#c07982",
 
 
     /* Minimap & Overview ruler
