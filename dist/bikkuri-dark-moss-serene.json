@@ -466,8 +466,8 @@
     "tab.unfocusedInactiveModifiedBorder": "#1b1c1900",
 
 
-    /* Action Colors
 
+    /* Action Colors 
        Impacts
        - tab close button
        - right-top actions in git local working changes
@@ -475,9 +475,13 @@
        https://code.visualstudio.com/api/references/theme-color#action-colors
     */
     
-    "toolbar.hoverBackground":  "#52534d80",
-    "toolbar.hoverOutline":     "#1b1c1900",
-    "toolbar.activeBackground": "#52534d80",
+    "toolbar.hoverBackground":          "#52534d80",
+    "toolbar.hoverOutline":             "#1b1c1900",
+    "toolbar.activeBackground":         "#52534d80",
+    "editorActionList.background":      "#1b1c19",
+    "editorActionList.foreground":      "#8d8e85",
+    "editorActionList.focusForeground": "#e0e1d4",
+    "editorActionList.focusBackground": "#52534d4d",
 
 
 
