@@ -13,7 +13,9 @@ Security
 
 
 ## [1.0.13] — 2024-09-*
-- 
+
+### Maintenance
+- packaging changed from NPM to PNPM
 
 ## [1.0.12] — 2024-07-30
 
