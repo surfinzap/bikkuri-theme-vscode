@@ -54,20 +54,28 @@
 
        https://code.visualstudio.com/api/references/theme-color#button-control
     */
-    "button.background":                      "#749392",
-    "button.foreground":                      "#1b1c19",
-    "button.hoverBackground":                 "#8bafae",
-    "button.separator":                       "#749392",
-    // secondary button → notification to install recommended extensions
-    "button.secondaryBackground":             "#52534d4d",
-    "button.secondaryForeground":             "#e0e1d4",
-    "button.secondaryHoverBackground":        "#52534d80",
-    "button.border":                          "#1b1c1900",
-    "checkbox.background":                    "#1b1c19",
-    "checkbox.foreground":                    "#a8a99f",
-    "checkbox.border":                        "#8d8e85",
-    "checkbox.selectBackground":              "#1b1c19",
-    "checkbox.selectBorder":                  "#8d8e85",
+    "button.background":                 "#749392",
+    "button.foreground":                 "#1b1c19",
+    "button.hoverBackground":            "#8bafae",
+    "button.separator":                  "#749392",
+      // secondary button → notification to install recommended extensions
+    "button.secondaryBackground":        "#52534d4d",
+    "button.secondaryForeground":        "#e0e1d4",
+    "button.secondaryHoverBackground":   "#52534d80",
+    "button.border":                     "#1b1c1900",
+    "checkbox.background":               "#1b1c19",
+    "checkbox.foreground":               "#a8a99f",
+    "checkbox.border":                   "#8d8e85",
+    "checkbox.selectBackground":         "#1b1c19",
+    "checkbox.selectBorder":             "#8d8e85",
+    "radio.activeForeground":            "#a8a99f",
+    "radio.activeBackground":            "#1b1c19",
+    "radio.activeBorder":                "#8d8e85",
+    "radio.inactiveForeground":          "#1b1c19",
+    "radio.inactiveBackground":          "#1b1c19",
+    "radio.inactiveBorder":              "#52534d",
+    "radio.inactiveHoverBackground":     "#52534d1f",
+
 
 
     /* Dropdown

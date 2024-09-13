@@ -14,10 +14,15 @@ Security
 
 ## [1.0.13] — 2024-09-*
 
+### Added
+- new variables for a radio button introduced in [VS Code v1.93](https://code.visualstudio.com/updates/v1_93)
+
 ### Maintenance
 - packaging changed from NPM to PNPM
 - update dependencies to their latest versions
 - minimize the distribution package size
+
+
 
 ## [1.0.12] — 2024-07-30
 
