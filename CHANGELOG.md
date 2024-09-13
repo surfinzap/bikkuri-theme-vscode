@@ -16,6 +16,7 @@ Security
 
 ### Maintenance
 - packaging changed from NPM to PNPM
+- update dependencies to their latest versions
 
 ## [1.0.12] — 2024-07-30
 
