@@ -54,20 +54,28 @@
 
        https://code.visualstudio.com/api/references/theme-color#button-control
     */
-    "button.background":                      "{{ button.primary.bg }}",
-    "button.foreground":                      "{{ button.primary.text }}",
-    "button.hoverBackground":                 "{{ button.primary.bg-hover }}",
-    "button.separator":                       "{{ button.primary.bg }}",
-    // secondary button → notification to install recommended extensions
-    "button.secondaryBackground":             "{{ button.secondary.bg }}",
-    "button.secondaryForeground":             "{{ button.secondary.text }}",
-    "button.secondaryHoverBackground":        "{{ button.secondary.bg-hover }}",
-    "button.border":                          "{{ border.none }}",
-    "checkbox.background":                    "{{ surface.base }}",
-    "checkbox.foreground":                    "{{ icon.base }}",
-    "checkbox.border":                        "{{ border.base }}",
-    "checkbox.selectBackground":              "{{ surface.base }}",
-    "checkbox.selectBorder":                  "{{ border.base }}",
+    "button.background":                 "{{ button.primary.bg }}",
+    "button.foreground":                 "{{ button.primary.text }}",
+    "button.hoverBackground":            "{{ button.primary.bg-hover }}",
+    "button.separator":                  "{{ button.primary.bg }}",
+      // secondary button → notification to install recommended extensions
+    "button.secondaryBackground":        "{{ button.secondary.bg }}",
+    "button.secondaryForeground":        "{{ button.secondary.text }}",
+    "button.secondaryHoverBackground":   "{{ button.secondary.bg-hover }}",
+    "button.border":                     "{{ border.none }}",
+    "checkbox.background":               "{{ surface.base }}",
+    "checkbox.foreground":               "{{ icon.base }}",
+    "checkbox.border":                   "{{ border.base }}",
+    "checkbox.selectBackground":         "{{ surface.base }}",
+    "checkbox.selectBorder":             "{{ border.base }}",
+    "radio.activeForeground":            "{{ icon.base }}",
+    "radio.activeBackground":            "{{ surface.base }}",
+    "radio.activeBorder":                "{{ border.base }}",
+    "radio.inactiveForeground":          "{{ surface.base }}",
+    "radio.inactiveBackground":          "{{ surface.base }}",
+    "radio.inactiveBorder":              "{{ border.mid }}",
+    "radio.inactiveHoverBackground":     "{{ surface.raised.min }}",
+
 
 
     /* Dropdown
@@ -313,7 +321,18 @@
     "scm.historyItemSelectedStatisticsBorder": "{{ border.none }}",
 
 
-
+    /* Source Control Graph colors
+       https: //code.visualstudio.com/api/references/theme-color#source-control-graph-colors
+    */
+    "scmGraph.historyItemGroupLocal":               "{{ ui.accent3.base }}",
+    "scmGraph.historyItemGroupRemote":              "{{ surface.sunken }}",
+    "scmGraph.historyItemGroupBase":                "{{ icon.mid }}",
+    "scmGraph.historyItemHoverLabelForeground":     "{{ text.base }}",
+    "scmGraph.foreground1":                         "{{ syntax.06.dim }}",
+    "scmGraph.foreground2":                         "{{ syntax.04.dim }}",
+    "scmGraph.foreground3":                         "{{ syntax.07.dim }}",
+    "scmGraph.historyItemHoverAdditionsForeground": "{{ ui.success.base }}",
+    "scmGraph.historyItemHoverDeletionsForeground": "{{ ui.danger.base }}",
 
 
     /* Minimap & Overview ruler
@@ -447,8 +466,8 @@
     "tab.unfocusedInactiveModifiedBorder": "{{ border.none }}",
 
 
-    /* Action Colors
 
+    /* Action Colors 
        Impacts
        - tab close button
        - right-top actions in git local working changes
@@ -456,9 +475,13 @@
        https://code.visualstudio.com/api/references/theme-color#action-colors
     */
     
-    "toolbar.hoverBackground":  "{{ surface.raised.mid }}",
-    "toolbar.hoverOutline":     "{{ border.none }}",
-    "toolbar.activeBackground": "{{ surface.raised.mid }}",
+    "toolbar.hoverBackground":          "{{ surface.raised.mid }}",
+    "toolbar.hoverOutline":             "{{ border.none }}",
+    "toolbar.activeBackground":         "{{ surface.raised.mid }}",
+    "editorActionList.background":      "{{ surface.base }}",
+    "editorActionList.foreground":      "{{ text.mid }}",
+    "editorActionList.focusForeground": "{{ text.base }}",
+    "editorActionList.focusBackground": "{{ surface.raised.low }}",
 
 
 
@@ -984,6 +1007,8 @@
     "terminalStickyScrollHover.background":        "{{ surface.raised.low }}",
     "terminalStickyScroll.border":                 "{{ border.none }}",
     "terminal.initialHintForeground":              "{{ text.mid }}",
+    "terminalOverviewRuler.border":                "{{ border.none }}",
+    "terminalCommandGuide.foreground":             "{{ ui.accent3.mid }}",
 
 
 

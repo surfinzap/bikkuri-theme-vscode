@@ -54,20 +54,28 @@
 
        https://code.visualstudio.com/api/references/theme-color#button-control
     */
-    "button.background":                      "#749392",
-    "button.foreground":                      "#1b1c19",
-    "button.hoverBackground":                 "#8bafae",
-    "button.separator":                       "#749392",
-    // secondary button → notification to install recommended extensions
-    "button.secondaryBackground":             "#52534d4d",
-    "button.secondaryForeground":             "#e0e1d4",
-    "button.secondaryHoverBackground":        "#52534d80",
-    "button.border":                          "#1b1c1900",
-    "checkbox.background":                    "#1b1c19",
-    "checkbox.foreground":                    "#a8a99f",
-    "checkbox.border":                        "#8d8e85",
-    "checkbox.selectBackground":              "#1b1c19",
-    "checkbox.selectBorder":                  "#8d8e85",
+    "button.background":                 "#749392",
+    "button.foreground":                 "#1b1c19",
+    "button.hoverBackground":            "#8bafae",
+    "button.separator":                  "#749392",
+      // secondary button → notification to install recommended extensions
+    "button.secondaryBackground":        "#52534d4d",
+    "button.secondaryForeground":        "#e0e1d4",
+    "button.secondaryHoverBackground":   "#52534d80",
+    "button.border":                     "#1b1c1900",
+    "checkbox.background":               "#1b1c19",
+    "checkbox.foreground":               "#a8a99f",
+    "checkbox.border":                   "#8d8e85",
+    "checkbox.selectBackground":         "#1b1c19",
+    "checkbox.selectBorder":             "#8d8e85",
+    "radio.activeForeground":            "#a8a99f",
+    "radio.activeBackground":            "#1b1c19",
+    "radio.activeBorder":                "#8d8e85",
+    "radio.inactiveForeground":          "#1b1c19",
+    "radio.inactiveBackground":          "#1b1c19",
+    "radio.inactiveBorder":              "#52534d",
+    "radio.inactiveHoverBackground":     "#52534d1f",
+
 
 
     /* Dropdown
@@ -313,7 +321,18 @@
     "scm.historyItemSelectedStatisticsBorder": "#1b1c1900",
 
 
-
+    /* Source Control Graph colors
+       https: //code.visualstudio.com/api/references/theme-color#source-control-graph-colors
+    */
+    "scmGraph.historyItemGroupLocal":               "#8bafae",
+    "scmGraph.historyItemGroupRemote":              "#262623",
+    "scmGraph.historyItemGroupBase":                "#6f7069",
+    "scmGraph.historyItemHoverLabelForeground":     "#e0e1d4",
+    "scmGraph.foreground1":                         "#7790a8",
+    "scmGraph.foreground2":                         "#879170",
+    "scmGraph.foreground3":                         "#8d88b6",
+    "scmGraph.historyItemHoverAdditionsForeground": "#a1ad86",
+    "scmGraph.historyItemHoverDeletionsForeground": "#c07982",
 
 
     /* Minimap & Overview ruler
@@ -447,8 +466,8 @@
     "tab.unfocusedInactiveModifiedBorder": "#1b1c1900",
 
 
-    /* Action Colors
 
+    /* Action Colors 
        Impacts
        - tab close button
        - right-top actions in git local working changes
@@ -456,9 +475,13 @@
        https://code.visualstudio.com/api/references/theme-color#action-colors
     */
     
-    "toolbar.hoverBackground":  "#52534d80",
-    "toolbar.hoverOutline":     "#1b1c1900",
-    "toolbar.activeBackground": "#52534d80",
+    "toolbar.hoverBackground":          "#52534d80",
+    "toolbar.hoverOutline":             "#1b1c1900",
+    "toolbar.activeBackground":         "#52534d80",
+    "editorActionList.background":      "#1b1c19",
+    "editorActionList.foreground":      "#8d8e85",
+    "editorActionList.focusForeground": "#e0e1d4",
+    "editorActionList.focusBackground": "#52534d4d",
 
 
 
@@ -984,6 +1007,8 @@
     "terminalStickyScrollHover.background":        "#52534d4d",
     "terminalStickyScroll.border":                 "#1b1c1900",
     "terminal.initialHintForeground":              "#8d8e85",
+    "terminalOverviewRuler.border":                "#1b1c1900",
+    "terminalCommandGuide.foreground":             "#749392",
 
 
 

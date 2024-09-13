@@ -1,4 +1,13 @@
 .vscode/**
 .vscode-test/**
 .gitignore
+.github/
 vsc-extension-quickstart.md
+gulpfile.js
+package.json
+pnpm-lock.yaml
+assets/bikkuri-dark-*
+samples/
+scripts/
+src/
+temp/

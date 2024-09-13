@@ -12,6 +12,18 @@ Fixed
 Security
 
 
+## [1.0.13] — 2024-09-13
+
+### Added
+- new variables for a Radio button, Source Control Graph, Terminal, and Action list introduced in [VS Code v1.93](https://code.visualstudio.com/updates/v1_93)
+
+### Maintenance
+- packaging changed from NPM to PNPM
+- update dependencies to their latest versions
+- minimize the distribution package size
+
+
+
 ## [1.0.12] — 2024-07-30
 
 ### Added
