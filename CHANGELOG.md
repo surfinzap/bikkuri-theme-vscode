@@ -15,7 +15,7 @@ Security
 ## [1.0.13] — 2024-09-*
 
 ### Added
-- new variables for a Radio button, Source Control Graph introduced in [VS Code v1.93](https://code.visualstudio.com/updates/v1_93)
+- new variables for a Radio button, Source Control Graph, Terminal introduced in [VS Code v1.93](https://code.visualstudio.com/updates/v1_93)
 
 ### Maintenance
 - packaging changed from NPM to PNPM
