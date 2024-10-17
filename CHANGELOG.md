@@ -12,6 +12,16 @@ Fixed
 Security
 
 
+## [1.0.14] — 2024-10-17
+
+### Added
+- new variables for Source Control Graph and Activity Bar Badges introduced in [VS Code v1.94](https://code.visualstudio.com/updates/v1_94)
+
+### Maintenance
+- update dependencies to their latest versions
+
+
+
 ## [1.0.13] — 2024-09-13
 
 ### Added

@@ -262,8 +262,12 @@
     "activityBar.foreground":            "{{ text.base }}",
     "activityBar.inactiveForeground":    "{{ icon.dim }}",             //icon colors
     "activityBar.border":                "{{ border.dim }}",
-    "activityBarBadge.background":       "{{ badge.bg  }}",
+    "activityBarBadge.background":       "{{ badge.bg }}",
     "activityBarBadge.foreground":       "{{ badge.text }}",
+    "activityWarningBadge.foreground":   "{{ ui.warning.base }}",
+    "activityWarningBadge.background":   "{{ text.on-ui }}",
+    "activityErrorBadge.foreground":     "{{ ui.danger.base }}",
+    "activityErrorBadge.background":     "{{ text.on-ui }}",
     "activityBar.activeBorder":          "{{ border.base }}",
     "activityBar.activeBackground":      "{{ surface.raised.low }}",
     "activityBar.activeFocusBorder":     "{{ border.none }}",
@@ -324,15 +328,22 @@
     /* Source Control Graph colors
        https: //code.visualstudio.com/api/references/theme-color#source-control-graph-colors
     */
-    "scmGraph.historyItemGroupLocal":               "{{ ui.accent3.base }}",
-    "scmGraph.historyItemGroupRemote":              "{{ surface.sunken }}",
-    "scmGraph.historyItemGroupBase":                "{{ icon.mid }}",
-    "scmGraph.historyItemHoverLabelForeground":     "{{ text.base }}",
-    "scmGraph.foreground1":                         "{{ syntax.06.dim }}",
-    "scmGraph.foreground2":                         "{{ syntax.04.dim }}",
-    "scmGraph.foreground3":                         "{{ syntax.07.dim }}",
-    "scmGraph.historyItemHoverAdditionsForeground": "{{ ui.success.base }}",
-    "scmGraph.historyItemHoverDeletionsForeground": "{{ ui.danger.base }}",
+    "scmGraph.historyItemGroupLocal":                  "{{ ui.accent3.base }}",
+    "scmGraph.historyItemGroupRemote":                 "{{ surface.sunken }}",
+    "scmGraph.historyItemGroupBase":                   "{{ icon.mid }}",
+    "scmGraph.historyItemHoverLabelForeground":        "{{ text.base }}",
+    "scmGraph.foreground1":                            "{{ syntax.06.dim }}",
+    "scmGraph.foreground2":                            "{{ syntax.04.dim }}",
+    "scmGraph.foreground3":                            "{{ syntax.07.dim }}",
+    "scmGraph.foreground4":                            "{{ syntax.08.dim }}",
+    "scmGraph.foreground5":                            "{{ syntax.05.dim }}",
+    "scmGraph.historyItemHoverAdditionsForeground":    "{{ ui.success.base }}",
+    "scmGraph.historyItemHoverDeletionsForeground":    "{{ ui.danger.base }}",
+    "scmGraph.historyItemRefColor":                    "{{ icon.dim }}",
+    "scmGraph.historyItemRemoteRefColor":              "{{ syntax.04.dim }}",
+    "scmGraph.historyItemBaseRefColor":                "{{ icon.dim }}",
+    "scmGraph.historyItemHoverDefaultLabelForeground": "{{ text.base }}",
+    "scmGraph.historyItemHoverDefaultLabelBackground": "{{ syntax.05.dim }}",
 
 
     /* Minimap & Overview ruler

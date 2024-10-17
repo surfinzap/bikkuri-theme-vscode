@@ -264,6 +264,10 @@
     "activityBar.border":                "#393935",
     "activityBarBadge.background":       "#8d8e85",
     "activityBarBadge.foreground":       "#1b1c19",
+    "activityWarningBadge.foreground":   "#e9c07d",
+    "activityWarningBadge.background":   "#1b1c19",
+    "activityErrorBadge.foreground":     "#e06578",
+    "activityErrorBadge.background":     "#1b1c19",
     "activityBar.activeBorder":          "#8d8e85",
     "activityBar.activeBackground":      "#52534d4d",
     "activityBar.activeFocusBorder":     "#1b1c1900",
@@ -324,15 +328,22 @@
     /* Source Control Graph colors
        https: //code.visualstudio.com/api/references/theme-color#source-control-graph-colors
     */
-    "scmGraph.historyItemGroupLocal":               "#68b5b3",
-    "scmGraph.historyItemGroupRemote":              "#262623",
-    "scmGraph.historyItemGroupBase":                "#6f7069",
-    "scmGraph.historyItemHoverLabelForeground":     "#e0e1d4",
-    "scmGraph.foreground1":                         "#6192bb",
-    "scmGraph.foreground2":                         "#839451",
-    "scmGraph.foreground3":                         "#8e81dd",
-    "scmGraph.historyItemHoverAdditionsForeground": "#9cb062",
-    "scmGraph.historyItemHoverDeletionsForeground": "#e06578",
+    "scmGraph.historyItemGroupLocal":                  "#68b5b3",
+    "scmGraph.historyItemGroupRemote":                 "#262623",
+    "scmGraph.historyItemGroupBase":                   "#6f7069",
+    "scmGraph.historyItemHoverLabelForeground":        "#e0e1d4",
+    "scmGraph.foreground1":                            "#6192bb",
+    "scmGraph.foreground2":                            "#839451",
+    "scmGraph.foreground3":                            "#8e81dd",
+    "scmGraph.foreground4":                            "#d664af",
+    "scmGraph.foreground5":                            "#579896",
+    "scmGraph.historyItemHoverAdditionsForeground":    "#9cb062",
+    "scmGraph.historyItemHoverDeletionsForeground":    "#e06578",
+    "scmGraph.historyItemRefColor":                    "#52534d",
+    "scmGraph.historyItemRemoteRefColor":              "#839451",
+    "scmGraph.historyItemBaseRefColor":                "#52534d",
+    "scmGraph.historyItemHoverDefaultLabelForeground": "#e0e1d4",
+    "scmGraph.historyItemHoverDefaultLabelBackground": "#579896",
 
 
     /* Minimap & Overview ruler
