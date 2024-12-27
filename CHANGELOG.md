@@ -12,6 +12,16 @@ Fixed
 Security
 
 
+## [1.0.15] — 2024-12-27
+
+### Added 
+- new variables for Side Bar, Chat, Editor and Charts introduced in [VS Code v1.95](https://code.visualstudio.com/updates/v1_95) and [v1.96](https://code.visualstudio.com/updates/v1_96)
+
+### Maintenance
+- updated dependencies to their latest versions
+
+
+
 ## [1.0.14] — 2024-10-17
 
 ### Added
