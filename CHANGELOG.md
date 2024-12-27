@@ -12,6 +12,13 @@ Fixed
 Security
 
 
+## [1.0.15] 
+
+### Maintenance
+- update dependencies to their latest versions
+
+
+
 ## [1.0.14] — 2024-10-17
 
 ### Added
