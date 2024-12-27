@@ -296,6 +296,7 @@
     "sideBarTitle.foreground":         "#958a8c",
     "sideBarSectionHeader.border":     "#1e1b1b00",
     "sideBarTitle.background":         "#1e1b1b",
+    "sideBarTitle.border":             "#1e1b1b00",
     "sideBarStickyScroll.background":  "#1e1b1b",
     "sideBarStickyScroll.border":      "#1e1b1b00",
     "sideBarStickyScroll.shadow":      "#131011",
@@ -314,6 +315,7 @@
     "gitDecoration.stageModifiedResourceForeground": "#caa263",
     "gitDecoration.stageDeletedResourceForeground":  "#c14258",
     "gitDecoration.submoduleResourceForeground":     "#786c6e",
+    "git.blame.editorDecorationForeground":          "#958a8c",
 
     /* SCM (Source Control Management)
        Stats in Incoming/Outgoing part in Source Control
@@ -506,6 +508,7 @@
     "panelTitle.activeBorder":           "#958a8c",
     "panelTitle.activeForeground":       "#e2e0e0",
     "panelTitle.inactiveForeground":     "#786c6e",
+    "panelTitle.border":                 "#1e1b1b00",
     "panelInput.border":                 "#595051",
     "panelSection.border":               "#3e3839",
     "panelSection.dropBackground":       "#5950514d",
@@ -590,6 +593,8 @@
     "editorMultiCursor.secondary.foreground": "#aea6a8",
     "editorMultiCursor.secondary.background": "#1e1b1b",
     "editor.placeholder.foreground":          "#958a8c",
+    "editor.compositionBorder":               "#1e1b1b00",
+
     
     "editorError.foreground":              "#c14258",
     "editorError.background":              "#1e1b1b00",
@@ -726,6 +731,7 @@
     "chat.slashCommandForeground": "#958a8c", //in-chat slash command
     "chat.avatarBackground":       "#1e1b1b00", //co-pilot icon
     "chat.avatarForeground":       "#786c6e", //co-pilot icon
+    "chat.editedFileForeground":   "#e2e0e0",
 
     "inlineChat.background":                 "#2a2526",
     "inlineChat.foreground":                 "#e2e0e0",
@@ -931,6 +937,9 @@
     "testing.uncoveredBorder":                    "#1e1b1b00",
     "testing.coverCountBadgeBackground":          "#958a8c",
     "testing.coverCountBadgeForeground":          "#1e1b1b",
+    "testing.message.error.badgeBackground":      "#65222d4d",
+    "testing.message.error.badgeBorder":          "#e06578",
+    "testing.message.error.badgeForeground":      "#1e1b1b",
 
 
 
@@ -1158,14 +1167,17 @@
 
        https://code.visualstudio.com/api/references/theme-color#chart-colors
     */
-    "charts.foreground": " #e2e0e0",
-    "charts.lines":      " #3e3839",
-    "charts.red":        " #e06578",
-    "charts.orange":     " #da9a6a",
-    "charts.yellow":     " #e9c07d",
-    "charts.green":      " #9cb062",
-    "charts.blue":       " #75aedd",
-    "charts.purple":     " #a9a0e6",
+    "charts.foreground": "#e2e0e0",
+    "charts.lines":      "#3e3839",
+    "charts.red":        "#e06578",
+    "charts.orange":     "#da9a6a",
+    "charts.yellow":     "#e9c07d",
+    "charts.green":      "#9cb062",
+    "charts.blue":       "#75aedd",
+    "charts.purple":     "#a9a0e6",
+    "chart.line":        "#75aedd",
+    "chart.axis":        "#958a8c",
+    "chart.guide":       "#595051",
 
 
     /* Ports Colors

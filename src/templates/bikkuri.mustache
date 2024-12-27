@@ -296,6 +296,7 @@
     "sideBarTitle.foreground":         "{{ text.mid }}",
     "sideBarSectionHeader.border":     "{{ border.none }}",
     "sideBarTitle.background":         "{{ surface.base }}",
+    "sideBarTitle.border":             "{{ border.none }}",
     "sideBarStickyScroll.background":  "{{ surface.base }}",
     "sideBarStickyScroll.border":      "{{ border.none }}",
     "sideBarStickyScroll.shadow":      "{{ shadow }}",
@@ -314,6 +315,7 @@
     "gitDecoration.stageModifiedResourceForeground": "{{ ui.warning.mid }}",
     "gitDecoration.stageDeletedResourceForeground":  "{{ ui.danger.mid }}",
     "gitDecoration.submoduleResourceForeground":     "{{ text.dim }}",
+    "git.blame.editorDecorationForeground":          "{{ text.mid }}",
 
     /* SCM (Source Control Management)
        Stats in Incoming/Outgoing part in Source Control
@@ -506,6 +508,7 @@
     "panelTitle.activeBorder":           "{{ border.base }}",
     "panelTitle.activeForeground":       "{{ text.base }}",
     "panelTitle.inactiveForeground":     "{{ text.dim }}",
+    "panelTitle.border":                 "{{ border.none }}",
     "panelInput.border":                 "{{ border.mid }}",
     "panelSection.border":               "{{ border.dim }}",
     "panelSection.dropBackground":       "{{ surface.raised.low }}",
@@ -590,6 +593,8 @@
     "editorMultiCursor.secondary.foreground": "{{ icon.base }}",
     "editorMultiCursor.secondary.background": "{{ text.on-ui }}",
     "editor.placeholder.foreground":          "{{ text.mid  }}",
+    "editor.compositionBorder":               "{{ border.none }}",
+
     
     "editorError.foreground":              "{{ ui.danger.mid }}",
     "editorError.background":              "{{ surface.none }}",
@@ -726,6 +731,7 @@
     "chat.slashCommandForeground": "{{ text.mid }}", //in-chat slash command
     "chat.avatarBackground":       "{{ surface.none }}", //co-pilot icon
     "chat.avatarForeground":       "{{ icon.mid }}", //co-pilot icon
+    "chat.editedFileForeground":   "{{ text.base }}",
 
     "inlineChat.background":                 "{{ surface.sunken }}",
     "inlineChat.foreground":                 "{{ text.base}}",
@@ -931,6 +937,9 @@
     "testing.uncoveredBorder":                    "{{ border.none }}",
     "testing.coverCountBadgeBackground":          "{{ badge.bg }}",
     "testing.coverCountBadgeForeground":          "{{ badge.text }}",
+    "testing.message.error.badgeBackground":      "{{ ui.danger.dim }}{{ opacity.mid-low }}",
+    "testing.message.error.badgeBorder":          "{{ ui.danger.base }}",
+    "testing.message.error.badgeForeground":      "{{ text.on-ui }}",
 
 
 
@@ -1158,14 +1167,17 @@
 
        https://code.visualstudio.com/api/references/theme-color#chart-colors
     */
-    "charts.foreground": " {{ text.base }}",
-    "charts.lines":      " {{ border.dim }}",
-    "charts.red":        " {{ syntax.01.base }}",
-    "charts.orange":     " {{ syntax.02.base }}",
-    "charts.yellow":     " {{ syntax.03.base }}",
-    "charts.green":      " {{ syntax.04.base }}",
-    "charts.blue":       " {{ syntax.06.base }}",
-    "charts.purple":     " {{ syntax.07.base }}",
+    "charts.foreground": "{{ text.base }}",
+    "charts.lines":      "{{ border.dim }}",
+    "charts.red":        "{{ syntax.01.base }}",
+    "charts.orange":     "{{ syntax.02.base }}",
+    "charts.yellow":     "{{ syntax.03.base }}",
+    "charts.green":      "{{ syntax.04.base }}",
+    "charts.blue":       "{{ syntax.06.base }}",
+    "charts.purple":     "{{ syntax.07.base }}",
+    "chart.line":        "{{ ui.accent1.base }}",
+    "chart.axis":        "{{ border.base }}",
+    "chart.guide":       "{{ border.mid }}",
 
 
     /* Ports Colors
