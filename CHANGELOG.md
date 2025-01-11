@@ -18,6 +18,7 @@ Security
 - increase visibility for Inlay Hints (#28)
 
 
+
 ## [1.0.15] — 2024-12-27
 
 ### Added 
