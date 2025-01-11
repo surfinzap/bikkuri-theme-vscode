@@ -11,8 +11,10 @@ Removed
 Fixed
 Security
 
-## [1.0.16] —
+## [1.0.16] — 2025-
 
+### Changed
+- align TypeScript syntax with JavaScript syntax (#31)
 
 
 
