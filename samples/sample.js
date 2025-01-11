@@ -1,61 +1,61 @@
-// This is a single-line comment
+// Single-line comment example
 
 /*
-This is a multi-line comment
+Multi-line comment example
 */
 
-import Locale from './locale/locale';
-import { removeEmptyLines } from './lib/whitespace/lines';
-import { fixNbsp } from './lib/whitespace/nbsp';
-import { fixSpaces } from './lib/whitespace/spaces';
+/**
+ * JSDoc style comment
+ * This function greets a user by name.
+ * @param {string} name - The user's name
+ * @returns {void}
+ */
 
-// Variables
-var x = 10;
-let y = 20;
-const z = 30;
+import Locale from './locale/locale';
+import { removeEmptyLines, fixNbsp, fixSpaces } from './lib/whitespace/lines';
+
+// Variable declarations
+var x = 10; // var example
+let y = 20; // let example
+const z = 30; // const example
 
 // Data types
-let myString = "Hello, World!";
-let myNumber = 123;
-let myBoolean = true;
-let myArray = [1, 2, 3];
-let myObject = { 
-  name: "John",
+let myString = 'Hello, World!'; // String
+let myNumber = 123; // Number
+let myBoolean = true; // Boolean
+let myArray = [1, 2, 3]; // Array
+let myObject = {
+  // Object
+  name: 'John',
   age: 30,
-  hobbies: ["reading", "music"]
+  hobbies: ['reading', 'music'],
 };
+
+// Template literals
+console.log(`Template literal example: ${myString}`);
 
 // Control structures
 if (x > y) {
-  console.log("x is greater than y");
-} else if (y > x) {
-  console.log("y is greater than x");
+  console.log('x is greater than y');
 } else {
-  console.log("x is equal to y");
+  console.log('x is not greater than y');
 }
 
-for (let i = 0; i < myArray.length; i++) {
-  console.log(myArray[i]);
+for (let item of myArray) {
+  console.log(item); // for-of loop
 }
 
-while (x < 20) {
-  console.log(x);
+while (x < 15) {
+  console.log(`Incrementing x: ${x}`);
   x++;
 }
 
-/**
- * Greets a person with their name.
- *
- * @param {string} name - The name of the person to greet.
- * @returns {string} The greeting message.
- */
+// Functions
 function greet(name) {
-    console.log("Hello, " + name + "!");
+  console.log(`Hello, ${name}!`);
 }
 
-greet("John");
-
-// Arrow functions
+// Arrow function
 const multiply = (a, b) => a * b;
 console.log(multiply(2, 3));
 
@@ -65,63 +65,54 @@ class Person {
     this.name = name;
     this.age = age;
   }
-  
   greet() {
-    console.log("Hello, my name is " + this.name + " and I am " + this.age + " years old.");
+    console.log(`Hello, my name is ${this.name}.`);
+  }
+  greetAnother() {
+    console.log(
+      'Hello, my name is ' + this.name + ' and I am ' + this.age + ' years old.'
+    );
   }
 }
 
-const john = new Person("John", 30);
+const john = new Person('John', 30);
 john.greet();
-fixSpaces();
-fixNbsp();
 
+// Regular expressions
+let regex = /abc/g;
+console.log('Regex test:', regex.test('abc'));
 
-
-/*
-	Identify:
-	- {{typopo__spacedHyphen}} 
-	- improperly used or spaced en dash 
-	- improperly used or spaced em dash 
-	between words and fix dash and spacing for given locale
-
-	Example
-	see tests
-
-  @param {string} string: input text for identification
-	@param {string} locale: locale option
-	@returns {string} output with fixed dashes and spaces between words
-*/
 export function fixDashesBetweenWords(string, locale) {
-	let pattern = 
-			"([" + locale.allChars + "])"
-		+ "([" + locale.spaces + "]?)+"
-		+ "({{typopo__spacedHyphen}}|["+ locale.enDash + "|" + locale.emDash + "])"
-		+ "([" + locale.spaces + "]?)+"
-		+ "([" + locale.allChars + "])";
+  let pattern =
+    '([' +
+    locale.allChars +
+    '])' +
+    '([' +
+    locale.spaces +
+    ']?)+' +
+    '({{typopo__spacedHyphen}}|[' +
+    locale.enDash +
+    '|' +
+    locale.emDash +
+    '])' +
+    '([' +
+    locale.spaces +
+    ']?)+' +
+    '([' +
+    locale.allChars +
+    '])';
 
-	let re = new RegExp(pattern, "g");
-	let replacement = "";
+  let re = new RegExp(pattern, 'g');
+  let replacement = '';
 
-	switch (locale.locale) {
-		case "en-us":
-			replacement = "$1" + locale.emDash + "$5";
-			break;
-		case "rue":
-		case "sk":
-			replacement = "$1" + locale.hairSpace + locale.emDash + locale.hairSpace + "$5";
-			break;
-		case "cs":
-			replacement = "$1" + locale.nbsp + locale.enDash + locale.space + "$5";
-			break;
-		case "de-de":
-			replacement = "$1" + locale.hairSpace + locale.enDash + locale.hairSpace + "$5";
-			break;
-	}
+  switch (locale.locale) {
+    case 'en-us':
+      replacement = '$1' + locale.emDash + '$5';
+      break;
+  }
 
-	return string = string.replace(re, replacement);
+  return (string = string.replace(re, replacement));
 }
-
 
 export function getSemanticFamily(state) {
   return function (key) {
@@ -144,9 +135,3 @@ export function getSemanticFamily(state) {
     }
   };
 }
-
-function greet(name, greeting) {
-  console.log(`${greeting}, ${name}!`);
-}
-
-greet('Alice', 'Hello');

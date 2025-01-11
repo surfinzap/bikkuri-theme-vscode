@@ -579,11 +579,11 @@
 
     /* To see the editor inline hints, set "editor.inlayHints.enabled": on. */
     "editorInlayHint.background":          "#1b1b1b00",
-    "editorInlayHint.foreground":          "#525252",
-    "editorInlayHint.typeBackground":      "#1b1b1b00",
-    "editorInlayHint.typeForeground":      "#525252",
-    "editorInlayHint.parameterBackground": "#1b1b1b00",
-    "editorInlayHint.parameterForeground": "#525252",
+    "editorInlayHint.foreground":          "#6f6f6f",
+    "editorInlayHint.typeBackground":      "#75aedd1f",
+    "editorInlayHint.typeForeground":      "#6192bb",
+    "editorInlayHint.parameterBackground": "#df8fc11f",
+    "editorInlayHint.parameterForeground": "#df8fc1",
 
     "editorWhitespace.foreground":            "#525252",
     "editorCursor.foreground":                "#a8a8a8",
@@ -1317,6 +1317,7 @@
     {
       "scope": [
         "storage",
+        "storage.modifier",
         "storage.type.function",
         "keyword.control",
 
@@ -1328,12 +1329,6 @@
     {
       "settings": {
         "foreground": "#e06578"
-      }
-    },
-    {
-      "scope": "storage.modifier",
-      "settings": {
-        "foreground": "#da9a6a"
       }
     },
     {
@@ -1466,7 +1461,7 @@
         "variable.class"
       ],
       "settings": {
-        "foreground": "#e9c07d"
+        "foreground": "#8d8d8d"
       }
     },
     {
@@ -2167,7 +2162,7 @@
         "foreground": "#68b5b3",
       }
     },  
-    // javascript ---------------------------------------
+    // javascript / typescript --------------------------
     {
       "scope": [
         "source.js",
@@ -2179,7 +2174,8 @@
     },
     {
       "scope": [
-        "entity.name.type.class.js"
+        "entity.name.type.class.js",
+        "entity.name.type.class.ts"
       ],
       "settings": {
         "foreground": "#e9c07d"
@@ -2195,10 +2191,31 @@
     },
     {
       "scope": [
-        "meta.object-literal.key.js"
+        "meta.object-literal.key.js",
+        "meta.object-literal.key.ts",
       ],
       "settings": {
         "foreground": "#e0e0e0"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.definition.template-expression.begin.js",
+        "punctuation.definition.template-expression.end.js",
+        "punctuation.definition.template-expression.begin.ts",
+        "punctuation.definition.template-expression.end.ts"
+      ],
+      "settings": {
+        "foreground": "#579896"
+      }
+    },
+    {
+      "scope": [
+        "keyword.other.js",
+        "keyword.other.ts",
+      ],
+      "settings": {
+        "foreground": "#579896",
       }
     },
  

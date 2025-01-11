@@ -11,6 +11,13 @@ Removed
 Fixed
 Security
 
+## [1.0.16] — 2025-01-11
+
+### Changed
+- align TypeScript syntax with JavaScript syntax (#31)
+- increase visibility for Inlay Hints (#28)
+
+
 
 ## [1.0.15] — 2024-12-27
 
