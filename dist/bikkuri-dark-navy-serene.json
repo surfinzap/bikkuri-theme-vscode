@@ -579,11 +579,11 @@
 
     /* To see the editor inline hints, set "editor.inlayHints.enabled": on. */
     "editorInlayHint.background":          "#1a1b2300",
-    "editorInlayHint.foreground":          "#4e5163",
-    "editorInlayHint.typeBackground":      "#1a1b2300",
-    "editorInlayHint.typeForeground":      "#4e5163",
-    "editorInlayHint.parameterBackground": "#1a1b2300",
-    "editorInlayHint.parameterForeground": "#4e5163",
+    "editorInlayHint.foreground":          "#6a6e85",
+    "editorInlayHint.typeBackground":      "#8fabc81f",
+    "editorInlayHint.typeForeground":      "#7790a8",
+    "editorInlayHint.parameterBackground": "#cd99b81f",
+    "editorInlayHint.parameterForeground": "#cd99b8",
 
     "editorWhitespace.foreground":            "#4e5163",
     "editorCursor.foreground":                "#a5a8b6",
