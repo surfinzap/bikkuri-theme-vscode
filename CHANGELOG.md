@@ -11,6 +11,12 @@ Removed
 Fixed
 Security
 
+## [1.0.17] — 2025-
+
+## Changed
+- SASS vars color in vue context
+
+
 ## [1.0.16] — 2025-01-11
 
 ### Changed
