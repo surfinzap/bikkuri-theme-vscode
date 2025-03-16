@@ -503,7 +503,7 @@
     /* Panels
        e.g. Output, Debug Console, Terminal 
     */
-    
+
     "panel.background":                  "#1d1a23",
     "panel.border":                      "#3c3746",
     "panel.dropBorder":                  "#564f64",
@@ -1033,6 +1033,8 @@
     "terminal.initialHintForeground":              "#918a9f",
     "terminalOverviewRuler.border":                "#1d1a2300",
     "terminalCommandGuide.foreground":             "#579896",
+    "terminalSymbolIcon.aliasForeground":          "#a9a0e6",
+    "terminalSymbolIcon.flagForeground":           "#e9c07d",
 
 
 
