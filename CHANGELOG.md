@@ -13,7 +13,11 @@ Security
 
 ## [1.0.17] — 2025-
 
-## Changed
+### Added
+- new variables for *...* chat edits in Minimap introduced in [VS Code v1.97](https://code.visualstudio.com/updates/v1_97) and [v1.98](https://code.visualstudio.com/updates/v1_98)
+
+
+### Changed
 - Sass variables color in Vue
 
 ### Maintenance
