@@ -14,7 +14,11 @@ Security
 ## [1.0.17] — 2025-
 
 ## Changed
-- SASS vars color in vue context
+- Sass variables color in Vue
+
+### Maintenance
+- updated dependencies to their latest versions
+
 
 
 ## [1.0.16] — 2025-01-11
