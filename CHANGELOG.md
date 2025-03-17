@@ -14,7 +14,7 @@ Security
 ## [1.0.17] — 2025-
 
 ### Added
-- new variables for *...* chat edits in Minimap introduced in [VS Code v1.97](https://code.visualstudio.com/updates/v1_97) and [v1.98](https://code.visualstudio.com/updates/v1_98)
+- new variables for Gauge ([Quota component](https://code.visualstudio.com/updates/v1_98#_copilot-status-overview-experimental)) and Chat edits in Minimap introduced in [VS Code v1.97](https://code.visualstudio.com/updates/v1_97) and [v1.98](https://code.visualstudio.com/updates/v1_98)
 
 
 ### Changed

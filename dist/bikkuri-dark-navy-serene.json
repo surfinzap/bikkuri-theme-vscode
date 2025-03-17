@@ -1210,6 +1210,21 @@
     */
     "simpleFindWidget.sashBorder":        "#363846",
 
+
+    /* Gauge 
+       https://code.visualstudio.com/api/references/theme-color#gauge-colors
+
+       Use: Quota information if you are a Copilot Free user
+       - https://code.visualstudio.com/assets/updates/1_98/copilot-status.png
+       - https://code.visualstudio.com/updates/v1_98#_copilot-status-overview-experimental
+    */
+    "gauge.background":        "#8bafae",
+    "gauge.foreground":        "#24262f",
+    "gauge.border":            "#1a1b2300",
+    "gauge.warningBackground": "#dfc299",
+    "gauge.warningForeground": "#24262f",
+    "gauge.errorBackground":   "#c07982",
+    "gauge.errorForeground":   "#24262f",
     
   },
   "tokenColors": [
