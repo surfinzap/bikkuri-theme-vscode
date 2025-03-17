@@ -317,22 +317,9 @@
     "gitDecoration.submoduleResourceForeground":     "#6f6f6f",
     "git.blame.editorDecorationForeground":          "#8d8d8d",
 
-    /* SCM (Source Control Management)
-       Stats in Incoming/Outgoing part in Source Control
-    */
-    
-    "scm.historyItemAdditionsForeground": "#9cb062",
-    "scm.historyItemDeletionsForeground": "#e06578",
-    "scm.historyItemStatisticsBorder": "#1b1b1b00",
-    "scm.historyItemSelectedStatisticsBorder": "#1b1b1b00",
-
-
     /* Source Control Graph colors
        https: //code.visualstudio.com/api/references/theme-color#source-control-graph-colors
     */
-    "scmGraph.historyItemGroupLocal":                  "#68b5b3",
-    "scmGraph.historyItemGroupRemote":                 "#262626",
-    "scmGraph.historyItemGroupBase":                   "#6f6f6f",
     "scmGraph.historyItemHoverLabelForeground":        "#e0e0e0",
     "scmGraph.foreground1":                            "#6192bb",
     "scmGraph.foreground2":                            "#839451",
@@ -741,7 +728,6 @@
     "inlineChat.foreground":                 "#e0e0e0",
     "inlineChat.border":                     "#393939",
     "inlineChat.shadow":                     "#111111",
-    "inlineChat.regionHighlight":            "#6192bb80",
     "inlineChatInput.border":                "#393939",
     "inlineChatInput.focusBorder":           "#525252",
     "inlineChatInput.placeholderForeground": "#6f6f6f",
@@ -1225,7 +1211,6 @@
     "gauge.warningForeground": "#262626",
     "gauge.errorBackground":   "#e06578",
     "gauge.errorForeground":   "#262626",
-    
   },
   "tokenColors": [
     {
