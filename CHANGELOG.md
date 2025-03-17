@@ -20,6 +20,9 @@ Security
 ### Changed
 - Sass variables color in Vue
 
+### Removed
+- deprecated VS Code variables
+
 ### Maintenance
 - updated dependencies to their latest versions
 
