@@ -6,7 +6,8 @@ const json5 = require('json5');
 /* file paths */
 const vscodeVarsPath = 'temp/vs-code-vars.txt';
 const templatePath = 'src/templates/bikkuri.mustache';
-const outputPath = 'temp/missing-vars.txt';
+const missingVarsPath = 'temp/missing-vars.txt';
+const extraVarsPath = 'temp/extra-vars.txt';
 
 async function fetchVSCodeThemeColors() {
   try {
@@ -67,6 +68,10 @@ function findMissingVars(vscodeVars, jsonVars) {
   return vscodeVars.filter((varName) => !jsonVars.includes(varName));
 }
 
+function findExtraVars(vscodeVars, jsonVars) {
+  return jsonVars.filter((varName) => !vscodeVars.includes(varName));
+}
+
 function removeDeprecatedVars(vscodeVars) {
   const deprecatedVars = [
     'editorIndentGuide.background',
@@ -85,11 +90,15 @@ async function main() {
   const vscodeVars = readVarsFromFile(vscodeVarsPath);
   const jsonContent = fs.readFileSync(templatePath, 'utf8');
   const jsonVars = extractJsonKeys(jsonContent);
+
   let missingVars = findMissingVars(vscodeVars, jsonVars);
   missingVars = removeDeprecatedVars(missingVars);
+  fs.writeFileSync(missingVarsPath, missingVars.join('\n'));
+  console.log(`Missing variables written to ${missingVarsPath}`);
 
-  fs.writeFileSync(outputPath, missingVars.join('\n'));
-  console.log(`Missing variables written to ${outputPath}`);
+  const extraVars = findExtraVars(vscodeVars, jsonVars);
+  fs.writeFileSync(extraVarsPath, extraVars.join('\n'));
+  console.log(`Extra variables written to ${extraVarsPath}`);
 }
 
 main();
