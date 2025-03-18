@@ -317,22 +317,9 @@
     "gitDecoration.submoduleResourceForeground":     "#746b84",
     "git.blame.editorDecorationForeground":          "#918a9f",
 
-    /* SCM (Source Control Management)
-       Stats in Incoming/Outgoing part in Source Control
-    */
-    
-    "scm.historyItemAdditionsForeground": "#a1ad86",
-    "scm.historyItemDeletionsForeground": "#c07982",
-    "scm.historyItemStatisticsBorder": "#1d1a2300",
-    "scm.historyItemSelectedStatisticsBorder": "#1d1a2300",
-
-
     /* Source Control Graph colors
        https: //code.visualstudio.com/api/references/theme-color#source-control-graph-colors
     */
-    "scmGraph.historyItemGroupLocal":                  "#8bafae",
-    "scmGraph.historyItemGroupRemote":                 "#282430",
-    "scmGraph.historyItemGroupBase":                   "#746b84",
     "scmGraph.historyItemHoverLabelForeground":        "#e1dfe5",
     "scmGraph.foreground1":                            "#7790a8",
     "scmGraph.foreground2":                            "#879170",
@@ -358,10 +345,12 @@
     "minimap.selectionHighlight":           "#564f64b3",
     "minimap.selectionOccurrenceHighlight": "#564f64b3",
     "minimap.warningHighlight":             "#bfa481",
+    "minimap.chatEditHighlight":            "#bfa481",
     "minimap.infoHighlight":                "#7790a8",
     "minimapGutter.addedBackground":        "#879170",
     "minimapGutter.deletedBackground":      "#a25a63",
     "minimapGutter.modifiedBackground":     "#bfa481",
+    "editorMinimap.inlineChatInserted":     "#8d88b6",
     "minimapSlider.background":             "#564f6480",
     "minimapSlider.activeBackground":       "#564f64b3",
     "minimapSlider.hoverBackground":        "#564f64b3",
@@ -501,7 +490,7 @@
     /* Panels
        e.g. Output, Debug Console, Terminal 
     */
-    
+
     "panel.background":                  "#1d1a23",
     "panel.border":                      "#3c3746",
     "panel.dropBorder":                  "#564f64",
@@ -509,6 +498,8 @@
     "panelTitle.activeForeground":       "#e1dfe5",
     "panelTitle.inactiveForeground":     "#746b84",
     "panelTitle.border":                 "#1d1a2300",
+    "panelTitleBadge.background":        "#918a9f",
+    "panelTitleBadge.foreground":        "#1d1a23",
     "panelInput.border":                 "#564f64",
     "panelSection.border":               "#3c3746",
     "panelSection.dropBackground":       "#564f644d",
@@ -629,6 +620,28 @@
     "editorCommentsWidget.rangeBackground":          "#564f641f",
     "editorCommentsWidget.rangeActiveBackground":    "#564f644d",
     "editorCommentsWidget.replyInputBackground":     "#282430",
+     
+    /* wait for the next release to see the impact of these settings */
+    // "inlineEdit.gutterIndicator.primaryForeground":    "#a8a4c8",
+    // "inlineEdit.gutterIndicator.primaryBackground":    "#282430",
+    // "inlineEdit.gutterIndicator.secondaryForeground":  "#8bafae",
+    // "inlineEdit.gutterIndicator.secondaryBackground":  "#282430",
+    // "inlineEdit.gutterIndicator.successfulForeground": "#a1ad86",
+    // "inlineEdit.gutterIndicator.successfulBackground": "#282430",
+    // "inlineEdit.gutterIndicator.background":           "#282430",
+    // "inlineEdit.indicator.foreground":                 "#e1dfe5",
+    // "inlineEdit.indicator.background":                 "#282430",
+    // "inlineEdit.indicator.border":                     "#3c3746",
+    // "inlineEdit.originalBackground":                   "#282430",
+    // "inlineEdit.modifiedBackground":                   "#282430",
+    // "inlineEdit.originalChangedLineBackground":        "4d",
+    // "inlineEdit.originalChangedTextBackground":        "e6",
+    // "inlineEdit.modifiedChangedLineBackground":        "4d",
+    // "inlineEdit.modifiedChangedTextBackground":        "e6",
+    // "inlineEdit.originalBorder":                       "#3c3746",
+    // "inlineEdit.modifiedBorder":                       "#3c3746",
+    // "inlineEdit.tabWillAcceptBorder":                  "#564f64",
+    // "inlineEdit.wordReplacementView.background":       "#282430",
 
     "editorGutter.foldingControlForeground":         "#918a9f",
     "editorIndentGuide.background1":       "#3c374680",
@@ -737,7 +750,6 @@
     "inlineChat.foreground":                 "#e1dfe5",
     "inlineChat.border":                     "#3c3746",
     "inlineChat.shadow":                     "#121017",
-    "inlineChat.regionHighlight":            "#7790a880",
     "inlineChatInput.border":                "#3c3746",
     "inlineChatInput.focusBorder":           "#564f64",
     "inlineChatInput.placeholderForeground": "#746b84",
@@ -1029,6 +1041,8 @@
     "terminal.initialHintForeground":              "#918a9f",
     "terminalOverviewRuler.border":                "#1d1a2300",
     "terminalCommandGuide.foreground":             "#749392",
+    "terminalSymbolIcon.aliasForeground":          "#a8a4c8",
+    "terminalSymbolIcon.flagForeground":           "#dfc299",
 
 
 
@@ -1204,7 +1218,21 @@
     */
     "simpleFindWidget.sashBorder":        "#3c3746",
 
-    
+
+    /* Gauge 
+       https://code.visualstudio.com/api/references/theme-color#gauge-colors
+
+       Use: Quota information if you are a Copilot Free user
+       - https://code.visualstudio.com/assets/updates/1_98/copilot-status.png
+       - https://code.visualstudio.com/updates/v1_98#_copilot-status-overview-experimental
+    */
+    "gauge.background":        "#8bafae",
+    "gauge.foreground":        "#282430",
+    "gauge.border":            "#1d1a2300",
+    "gauge.warningBackground": "#dfc299",
+    "gauge.warningForeground": "#282430",
+    "gauge.errorBackground":   "#c07982",
+    "gauge.errorForeground":   "#282430",
   },
   "tokenColors": [
     {
@@ -2070,6 +2098,8 @@
       "scope": [
         "variable.css",
         "variable.scss",
+        "meta.property-value.css",
+        "meta.property-list.css"
       ],
       "settings": {
         "foreground": "#8fabc8"
@@ -2105,6 +2135,7 @@
         "foreground": "#cd99b8"
       }
     },
+
 
 
     // HTML / XML ----------------------------------------
@@ -2389,3 +2420,10 @@
   ],
 
 }
+
+/* 
+Links 
+
+Variables in VS Code: https://github.com/microsoft/vscode/blob/main/build/lib/stylelint/vscode-known-variables.json
+
+*/

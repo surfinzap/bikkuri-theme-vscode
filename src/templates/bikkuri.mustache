@@ -317,22 +317,9 @@
     "gitDecoration.submoduleResourceForeground":     "{{ text.dim }}",
     "git.blame.editorDecorationForeground":          "{{ text.mid }}",
 
-    /* SCM (Source Control Management)
-       Stats in Incoming/Outgoing part in Source Control
-    */
-    
-    "scm.historyItemAdditionsForeground": "{{ ui.success.base }}",
-    "scm.historyItemDeletionsForeground": "{{ ui.danger.base }}",
-    "scm.historyItemStatisticsBorder": "{{ border.none }}",
-    "scm.historyItemSelectedStatisticsBorder": "{{ border.none }}",
-
-
     /* Source Control Graph colors
        https: //code.visualstudio.com/api/references/theme-color#source-control-graph-colors
     */
-    "scmGraph.historyItemGroupLocal":                  "{{ ui.accent3.base }}",
-    "scmGraph.historyItemGroupRemote":                 "{{ surface.sunken }}",
-    "scmGraph.historyItemGroupBase":                   "{{ icon.mid }}",
     "scmGraph.historyItemHoverLabelForeground":        "{{ text.base }}",
     "scmGraph.foreground1":                            "{{ syntax.06.dim }}",
     "scmGraph.foreground2":                            "{{ syntax.04.dim }}",
@@ -358,10 +345,12 @@
     "minimap.selectionHighlight":           "{{ surface.raised.high }}",
     "minimap.selectionOccurrenceHighlight": "{{ surface.raised.high }}",
     "minimap.warningHighlight":             "{{ ui.warning.mid }}",
+    "minimap.chatEditHighlight":            "{{ ui.warning.mid }}",
     "minimap.infoHighlight":                "{{ ui.info.mid }}",
     "minimapGutter.addedBackground":        "{{ ui.success.mid }}",
     "minimapGutter.deletedBackground":      "{{ ui.danger.mid }}",
     "minimapGutter.modifiedBackground":     "{{ ui.warning.mid }}",
+    "editorMinimap.inlineChatInserted":     "{{ ui.accent2.mid }}",
     "minimapSlider.background":             "{{ surface.raised.mid }}",
     "minimapSlider.activeBackground":       "{{ surface.raised.high }}",
     "minimapSlider.hoverBackground":        "{{ surface.raised.high }}",
@@ -501,7 +490,7 @@
     /* Panels
        e.g. Output, Debug Console, Terminal 
     */
-    
+
     "panel.background":                  "{{ surface.base }}",
     "panel.border":                      "{{ border.dim }}",
     "panel.dropBorder":                  "{{ border.mid }}",
@@ -509,6 +498,8 @@
     "panelTitle.activeForeground":       "{{ text.base }}",
     "panelTitle.inactiveForeground":     "{{ text.dim }}",
     "panelTitle.border":                 "{{ border.none }}",
+    "panelTitleBadge.background":        "{{ badge.bg }}",
+    "panelTitleBadge.foreground":        "{{ badge.text }}",
     "panelInput.border":                 "{{ border.mid }}",
     "panelSection.border":               "{{ border.dim }}",
     "panelSection.dropBackground":       "{{ surface.raised.low }}",
@@ -629,6 +620,28 @@
     "editorCommentsWidget.rangeBackground":          "{{ surface.raised.min }}",
     "editorCommentsWidget.rangeActiveBackground":    "{{ surface.raised.low }}",
     "editorCommentsWidget.replyInputBackground":     "{{ surface.sunken }}",
+     
+    /* wait for the next release to see the impact of these settings */
+    // "inlineEdit.gutterIndicator.primaryForeground":    "{{ ui.accent2.base }}",
+    // "inlineEdit.gutterIndicator.primaryBackground":    "{{ surface.sunken }}",
+    // "inlineEdit.gutterIndicator.secondaryForeground":  "{{ ui.accent3.base }}",
+    // "inlineEdit.gutterIndicator.secondaryBackground":  "{{ surface.sunken }}",
+    // "inlineEdit.gutterIndicator.successfulForeground": "{{ ui.success.base }}",
+    // "inlineEdit.gutterIndicator.successfulBackground": "{{ surface.sunken }}",
+    // "inlineEdit.gutterIndicator.background":           "{{ surface.sunken }}",
+    // "inlineEdit.indicator.foreground":                 "{{ text.base }}",
+    // "inlineEdit.indicator.background":                 "{{ surface.sunken }}",
+    // "inlineEdit.indicator.border":                     "{{ border.dim }}",
+    // "inlineEdit.originalBackground":                   "{{ surface.sunken }}",
+    // "inlineEdit.modifiedBackground":                   "{{ surface.sunken }}",
+    // "inlineEdit.originalChangedLineBackground":        "{{ ui.accent2.dim }}{{ opacity.mid-low }}",
+    // "inlineEdit.originalChangedTextBackground":        "{{ ui.accent2.dim }}{{ opacity.high }}",
+    // "inlineEdit.modifiedChangedLineBackground":        "{{ ui.accent3.dim }}{{ opacity.mid-low }}",
+    // "inlineEdit.modifiedChangedTextBackground":        "{{ ui.accent3.dim }}{{ opacity.high }}",
+    // "inlineEdit.originalBorder":                       "{{ border.dim }}",
+    // "inlineEdit.modifiedBorder":                       "{{ border.dim }}",
+    // "inlineEdit.tabWillAcceptBorder":                  "{{ border.mid }}",
+    // "inlineEdit.wordReplacementView.background":       "{{ surface.sunken }}",
 
     "editorGutter.foldingControlForeground":         "{{ text.mid }}",
     "editorIndentGuide.background1":       "{{ border.dim }}{{ opacity.mid }}",
@@ -737,7 +750,6 @@
     "inlineChat.foreground":                 "{{ text.base}}",
     "inlineChat.border":                     "{{ border.dim }}",
     "inlineChat.shadow":                     "{{ shadow }}",
-    "inlineChat.regionHighlight":            "{{ ui.accent1.mid }}{{ opacity.mid }}",
     "inlineChatInput.border":                "{{ border.dim }}",
     "inlineChatInput.focusBorder":           "{{ border.mid }}",
     "inlineChatInput.placeholderForeground": "{{ text.dim }}",
@@ -1029,6 +1041,8 @@
     "terminal.initialHintForeground":              "{{ text.mid }}",
     "terminalOverviewRuler.border":                "{{ border.none }}",
     "terminalCommandGuide.foreground":             "{{ ui.accent3.mid }}",
+    "terminalSymbolIcon.aliasForeground":          "{{ ui.accent2.base }}",
+    "terminalSymbolIcon.flagForeground":           "{{ ui.warning.base }}",
 
 
 
@@ -1204,7 +1218,21 @@
     */
     "simpleFindWidget.sashBorder":        "{{ border.dim }}",
 
-    
+
+    /* Gauge 
+       https://code.visualstudio.com/api/references/theme-color#gauge-colors
+
+       Use: Quota information if you are a Copilot Free user
+       - https://code.visualstudio.com/assets/updates/1_98/copilot-status.png
+       - https://code.visualstudio.com/updates/v1_98#_copilot-status-overview-experimental
+    */
+    "gauge.background":        "{{ ui.accent3.base }}",
+    "gauge.foreground":        "{{ surface.sunken }}",
+    "gauge.border":            "{{ border.none }}",
+    "gauge.warningBackground": "{{ ui.warning.base }}",
+    "gauge.warningForeground": "{{ surface.sunken }}",
+    "gauge.errorBackground":   "{{ ui.danger.base }}",
+    "gauge.errorForeground":   "{{ surface.sunken }}",
   },
   "tokenColors": [
     {
@@ -2070,6 +2098,8 @@
       "scope": [
         "variable.css",
         "variable.scss",
+        "meta.property-value.css",
+        "meta.property-list.css"
       ],
       "settings": {
         "foreground": "{{ syntax.06.base }}"
@@ -2105,6 +2135,7 @@
         "foreground": "{{ syntax.08.base }}"
       }
     },
+
 
 
     // HTML / XML ----------------------------------------
@@ -2389,3 +2420,10 @@
   ],
 
 }
+
+/* 
+Links 
+
+Variables in VS Code: https://github.com/microsoft/vscode/blob/main/build/lib/stylelint/vscode-known-variables.json
+
+*/
