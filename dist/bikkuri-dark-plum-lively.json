@@ -620,6 +620,28 @@
     "editorCommentsWidget.rangeBackground":          "#564f641f",
     "editorCommentsWidget.rangeActiveBackground":    "#564f644d",
     "editorCommentsWidget.replyInputBackground":     "#282430",
+     
+    /* wait for the next release to see the impact of these settings */
+    // "inlineEdit.gutterIndicator.primaryForeground":    "#a9a0e6",
+    // "inlineEdit.gutterIndicator.primaryBackground":    "#282430",
+    // "inlineEdit.gutterIndicator.secondaryForeground":  "#68b5b3",
+    // "inlineEdit.gutterIndicator.secondaryBackground":  "#282430",
+    // "inlineEdit.gutterIndicator.successfulForeground": "#9cb062",
+    // "inlineEdit.gutterIndicator.successfulBackground": "#282430",
+    // "inlineEdit.gutterIndicator.background":           "#282430",
+    // "inlineEdit.indicator.foreground":                 "#e1dfe5",
+    // "inlineEdit.indicator.background":                 "#282430",
+    // "inlineEdit.indicator.border":                     "#3c3746",
+    // "inlineEdit.originalBackground":                   "#282430",
+    // "inlineEdit.modifiedBackground":                   "#282430",
+    // "inlineEdit.originalChangedLineBackground":        "4d",
+    // "inlineEdit.originalChangedTextBackground":        "e6",
+    // "inlineEdit.modifiedChangedLineBackground":        "4d",
+    // "inlineEdit.modifiedChangedTextBackground":        "e6",
+    // "inlineEdit.originalBorder":                       "#3c3746",
+    // "inlineEdit.modifiedBorder":                       "#3c3746",
+    // "inlineEdit.tabWillAcceptBorder":                  "#564f64",
+    // "inlineEdit.wordReplacementView.background":       "#282430",
 
     "editorGutter.foldingControlForeground":         "#918a9f",
     "editorIndentGuide.background1":       "#3c374680",
@@ -2398,3 +2420,10 @@
   ],
 
 }
+
+/* 
+Links 
+
+Variables in VS Code: https://github.com/microsoft/vscode/blob/main/build/lib/stylelint/vscode-known-variables.json
+
+*/
