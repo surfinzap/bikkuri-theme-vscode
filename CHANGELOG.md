@@ -10,7 +10,6 @@ Deprecated
 Removed
 Fixed
 Security
-
 ## [1.0.17] — 2025-03-18
 
 ### Added
