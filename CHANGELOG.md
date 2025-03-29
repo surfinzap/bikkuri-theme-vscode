@@ -10,6 +10,16 @@ Deprecated
 Removed
 Fixed
 Security
+
+
+## [1.1.0]
+
+
+### Fixed 
+- link color in Pug/Vue
+
+
+
 ## [1.0.17] — 2025-03-18
 
 ### Added

@@ -1360,7 +1360,11 @@
       }
     },
     {
-      "scope": "string",
+      "scope":[ 
+        "string",
+    	  "entity.other.attribute-name.html.vue",
+        "punctuation.attribute-shorthand.bind.html.vue"
+      ],
       "settings": {
         "foreground": "{{ syntax.08.base }}"
       }
@@ -2182,6 +2186,14 @@
       ],
       "settings": {
         "foreground": "{{ syntax.03.base }}",
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function.pug"
+      ],
+      "settings": {
+        "foreground": "{{ text.mid }}",
       }
     },  
     // vue ---------------------------------------------- 
