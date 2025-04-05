@@ -27,6 +27,7 @@ Security
 
 ### Changed
 - Sass variables color in Vue
+- Markdown heading and code styles
 
 ### Removed
 - deprecated VS Code variables

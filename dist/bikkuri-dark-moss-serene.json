@@ -1865,25 +1865,19 @@
     },
     {
       "scope": [
-        "markup.underline.link",
+        "markup.deleted",
+        "markup.strikethrough.markdown",
+        "punctuation.definition.strikethrough.markdown"
       ],
       "settings": {
-        "foreground": "#a8a4c8"
-      }
-    },
-    {
-      "scope": [
-        "markup.heading.markdown",
-        "entity.name.section.markdown"
-      ],
-      "settings": {
-        "foreground": "#cd99b8"
+        "foreground": "#6f7069",
       }
     },
     {
       "scope": [
         "support.function.text.markdown.notes.wiki-link.title",
-        "string.other.link"
+        "string.other.link",
+        "markup.changed"
       ],
       "settings": {
         "foreground": "#c8a087"
@@ -1909,24 +1903,20 @@
       }
     },
     {
-      "scope": ["markup.deleted"],
+      "scope": [
+        "markup.heading.markdown",
+        "entity.name.section.markdown"
+      ],
       "settings": {
-        "foreground": "#6f7069"
+        "foreground": "#88b295"
       }
     },
     {
       "scope": [
-        "markup.strikethrough.markdown",
-        "punctuation.definition.strikethrough.markdown"
+        "markup.underline.link",
       ],
       "settings": {
-        "foreground": "#6f7069",
-      }
-    },
-    {
-      "scope": "markup.changed",
-      "settings": {
-        "foreground": "#c8a087"
+        "foreground": "#a8a4c8"
       }
     },
     {
@@ -1935,7 +1925,7 @@
         "markup.fenced_code.block"
       ],
       "settings": {
-        "foreground": "#88b295"
+        "foreground": "#a8a4c8"
       }
     },
 

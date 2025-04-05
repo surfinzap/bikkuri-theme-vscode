@@ -1865,25 +1865,19 @@
     },
     {
       "scope": [
-        "markup.underline.link",
+        "markup.deleted",
+        "markup.strikethrough.markdown",
+        "punctuation.definition.strikethrough.markdown"
       ],
       "settings": {
-        "foreground": "{{ syntax.07.base }}"
-      }
-    },
-    {
-      "scope": [
-        "markup.heading.markdown",
-        "entity.name.section.markdown"
-      ],
-      "settings": {
-        "foreground": "{{ syntax.08.base }}"
+        "foreground": "{{ text.dim }}",
       }
     },
     {
       "scope": [
         "support.function.text.markdown.notes.wiki-link.title",
-        "string.other.link"
+        "string.other.link",
+        "markup.changed"
       ],
       "settings": {
         "foreground": "{{ syntax.02.base }}"
@@ -1909,24 +1903,20 @@
       }
     },
     {
-      "scope": ["markup.deleted"],
+      "scope": [
+        "markup.heading.markdown",
+        "entity.name.section.markdown"
+      ],
       "settings": {
-        "foreground": "{{ text.dim }}"
+        "foreground": "{{ syntax.04.base }}"
       }
     },
     {
       "scope": [
-        "markup.strikethrough.markdown",
-        "punctuation.definition.strikethrough.markdown"
+        "markup.underline.link",
       ],
       "settings": {
-        "foreground": "{{ text.dim }}",
-      }
-    },
-    {
-      "scope": "markup.changed",
-      "settings": {
-        "foreground": "{{ syntax.02.base }}"
+        "foreground": "{{ syntax.07.base }}"
       }
     },
     {
@@ -1935,7 +1925,7 @@
         "markup.fenced_code.block"
       ],
       "settings": {
-        "foreground": "{{ syntax.04.base }}"
+        "foreground": "{{ syntax.07.base }}"
       }
     },
 
