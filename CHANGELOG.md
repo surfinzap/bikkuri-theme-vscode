@@ -24,6 +24,9 @@ Security
 - markdown heading, code, and link styles
 - green hue → emerald hue
 
+### Removed
+- deprecated VS Code variables
+
 ### Maintenance
 - updated dependencies to their latest versions
 
