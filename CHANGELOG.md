@@ -14,9 +14,15 @@ Security
 
 ## [1.1.0]
 
-
 ### Fixed 
 - link color in Pug/Vue
+
+### Changed
+- markdown heading, code, and link styles
+- green color for more emerald hue
+
+### Maintenance
+- updated dependencies to their latest versions
 
 
 
@@ -27,7 +33,6 @@ Security
 
 ### Changed
 - Sass variables color in Vue
-- Markdown heading and code styles
 
 ### Removed
 - deprecated VS Code variables

@@ -1,6 +1,6 @@
 # Header 1
 
-This is some **bold text** and some *italic text* and also an `inline code`.
+This is some **bold text** and some *italic text* and also an `inline code` or [[link]].
 
 ## Header 2
 
