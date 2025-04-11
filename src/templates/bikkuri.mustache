@@ -612,9 +612,11 @@
     "editorGutter.modifiedBackground":               "{{ ui.warning.base }}",
 
     /* requires e.g. GitHub pull requests extension to preview these comment ranges */
-    "editorGutter.commentRangeForeground":           "{{ button.secondary.bg}}",
+    "editorGutter.commentRangeForeground":           "{{ button.secondary.bg }}",
     "editorGutter.commentUnresolvedGlyphForeground": "{{ text.on-ui }}",
     "editorGutter.commentGlyphForeground":           "{{ text.on-ui }}",
+    "editorGutter.itemGlyphForeground":              "{{ text.on-ui }}",
+    "editorGutter.itemBackground":                   "{{ button.secondary.bg }}",
     "editorCommentsWidget.unresolvedBorder":         "{{ ui.warning.mid }}",
     "editorCommentsWidget.resolvedBorder":           "{{ ui.success.mid }}",
     "editorCommentsWidget.rangeBackground":          "{{ surface.raised.min }}",
@@ -933,7 +935,6 @@
     "testing.runAction":                          "{{ ui.success.base }}",
     "testing.peekBorder":                         "{{ border.dim }}",
     "testing.peekHeaderBackground":               "{{ surface.none }}",
-    "testing.message.error.decorationForeground": "{{ ui.danger.base }}",
     "testing.message.error.lineBackground":       "{{ ui.danger.base }}",
     "testing.message.info.decorationForeground":  "{{ ui.info.base }}",
     "testing.message.info.lineBackground":        "{{ ui.info.base }}",
@@ -1025,24 +1026,31 @@
     "terminal.tab.activeBorder":             "{{ border.base }}",
     "terminalCursor.background":             "{{ surface.sunken }}",
     "terminalCursor.foreground":             "{{ text.mid }}",
-    "terminalCommandDecoration.defaultBackground": "{{ surface.sunken }}",
-    "terminalCommandDecoration.successBackground": "{{ ui.success.mid }}",
-    "terminalCommandDecoration.errorBackground":   "{{ ui.danger.mid }}",
-    "terminal.findMatchBackground":                "{{ ui.accent2.base }}{{ opacity.mid-low }}",
-    "terminal.findMatchHighlightBackground":       "{{ surface.raised.mid }}",
-    "terminal.findMatchBorder":                    "{{ ui.danger.base }}",
-    "terminal.findMatchHighlightBorder":           "{{ ui.accent2.base }}",
-    "terminal.hoverHighlightBackground":           "{{ surface.raised.low }}",
-    "terminalOverviewRuler.cursorForeground":      "{{ surface.raised.mid }}",
-    "terminalOverviewRuler.findMatchForeground":   "{{ ui.warning.mid }}",
-    "terminalStickyScroll.background":             "{{ surface.base }}",
-    "terminalStickyScrollHover.background":        "{{ surface.raised.low }}",
-    "terminalStickyScroll.border":                 "{{ border.none }}",
-    "terminal.initialHintForeground":              "{{ text.mid }}",
-    "terminalOverviewRuler.border":                "{{ border.none }}",
-    "terminalCommandGuide.foreground":             "{{ ui.accent3.mid }}",
-    "terminalSymbolIcon.aliasForeground":          "{{ ui.accent2.base }}",
-    "terminalSymbolIcon.flagForeground":           "{{ ui.warning.base }}",
+    "terminalCommandDecoration.defaultBackground":   "{{ surface.sunken }}",
+    "terminalCommandDecoration.successBackground":   "{{ ui.success.mid }}",
+    "terminalCommandDecoration.errorBackground":     "{{ ui.danger.mid }}",
+    "terminal.findMatchBackground":                  "{{ ui.accent2.base }}{{ opacity.mid-low }}",
+    "terminal.findMatchHighlightBackground":         "{{ surface.raised.mid }}",
+    "terminal.findMatchBorder":                      "{{ ui.danger.base }}",
+    "terminal.findMatchHighlightBorder":             "{{ ui.accent2.base }}",
+    "terminal.hoverHighlightBackground":             "{{ surface.raised.low }}",
+    "terminalOverviewRuler.cursorForeground":        "{{ surface.raised.mid }}",
+    "terminalOverviewRuler.findMatchForeground":     "{{ ui.warning.mid }}",
+    "terminalStickyScroll.background":               "{{ surface.base }}",
+    "terminalStickyScrollHover.background":          "{{ surface.raised.low }}",
+    "terminalStickyScroll.border":                   "{{ border.none }}",
+    "terminal.initialHintForeground":                "{{ text.mid }}",
+    "terminalOverviewRuler.border":                  "{{ border.none }}",
+    "terminalCommandGuide.foreground":               "{{ ui.accent3.mid }}",
+    "terminalSymbolIcon.aliasForeground":            "{{ ui.accent2.base }}",
+    "terminalSymbolIcon.flagForeground":             "{{ ui.warning.base }}",
+    "terminalSymbolIcon.optionForeground":           "{{ icon.mid }}",
+    "terminalSymbolIcon.optionValueForeground":      "{{ icon.mid }}",
+    "terminalSymbolIcon.methodForeground":           "{{ icon.mid }}",
+    "terminalSymbolIcon.argumentForeground":         "{{ icon.mid }}",
+    "terminalSymbolIcon.inlineSuggestionForeground": "{{ icon.mid }}",
+    "terminalSymbolIcon.fileForeground":             "{{ icon.mid }}",
+    "terminalSymbolIcon.folderForeground":           "{{ icon.mid }}",
 
 
 
@@ -1088,9 +1096,10 @@
     "extensionBadge.remoteBackground":          "{{ badge.bg }}",
     "extensionBadge.remoteForeground":          "{{ badge.text }}",
     "extensionIcon.starForeground":             "{{ icon.dim }}",
-    "extensionIcon.verifiedForeground":         "{{ ui.accent1.base }}",
-    "extensionIcon.preReleaseForeground":       "{{ ui.accent2.base }}",
+    "extensionIcon.verifiedForeground":         "{{ ui.success.base }}",
+    "extensionIcon.preReleaseForeground":       "{{ ui.accent1.base }}",
     "extensionIcon.sponsorForeground":          "{{ ui.danger.base }}",
+    "extensionIcon.privateForeground":          "{{ ui.accent2.base }}",
 
 
     /* Menu
@@ -1360,7 +1369,11 @@
       }
     },
     {
-      "scope": "string",
+      "scope":[ 
+        "string",
+    	  "entity.other.attribute-name.html.vue",
+        "punctuation.attribute-shorthand.bind.html.vue"
+      ],
       "settings": {
         "foreground": "{{ syntax.08.base }}"
       }
@@ -1861,28 +1874,22 @@
     },
     {
       "scope": [
-        "markup.underline.link",
+        "markup.deleted",
+        "markup.strikethrough.markdown",
+        "punctuation.definition.strikethrough.markdown"
       ],
       "settings": {
-        "foreground": "{{ syntax.07.base }}"
-      }
-    },
-    {
-      "scope": [
-        "markup.heading.markdown",
-        "entity.name.section.markdown"
-      ],
-      "settings": {
-        "foreground": "{{ syntax.08.base }}"
+        "foreground": "{{ text.dim }}",
       }
     },
     {
       "scope": [
         "support.function.text.markdown.notes.wiki-link.title",
-        "string.other.link"
+        "string.other.link",
+        "markup.changed"
       ],
       "settings": {
-        "foreground": "{{ syntax.02.base }}"
+        "foreground": "{{ syntax.08.base }}"
       }
     },
     {
@@ -1905,24 +1912,20 @@
       }
     },
     {
-      "scope": ["markup.deleted"],
+      "scope": [
+        "markup.heading.markdown",
+        "entity.name.section.markdown"
+      ],
       "settings": {
-        "foreground": "{{ text.dim }}"
+        "foreground": "{{ syntax.04.base }}"
       }
     },
     {
       "scope": [
-        "markup.strikethrough.markdown",
-        "punctuation.definition.strikethrough.markdown"
+        "markup.underline.link",
       ],
       "settings": {
-        "foreground": "{{ text.dim }}",
-      }
-    },
-    {
-      "scope": "markup.changed",
-      "settings": {
-        "foreground": "{{ syntax.02.base }}"
+        "foreground": "{{ syntax.07.base }}"
       }
     },
     {
@@ -1931,7 +1934,7 @@
         "markup.fenced_code.block"
       ],
       "settings": {
-        "foreground": "{{ syntax.04.base }}"
+        "foreground": "{{ syntax.07.base }}"
       }
     },
 
@@ -2182,6 +2185,14 @@
       ],
       "settings": {
         "foreground": "{{ syntax.03.base }}",
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function.pug"
+      ],
+      "settings": {
+        "foreground": "{{ text.mid }}",
       }
     },  
     // vue ---------------------------------------------- 

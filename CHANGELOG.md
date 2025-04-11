@@ -11,6 +11,27 @@ Removed
 Fixed
 Security
 
+
+## [1.1.0] — 2025-04-11
+
+### Added
+- new variables for Symbol icons in Terminal introduced in [VS Code v1.99](https://code.visualstudio.com/updates/v1_99)
+
+### Fixed 
+- link color in Pug/Vue
+
+### Changed
+- markdown headings, code, and link styles
+- green hue → emerald hue
+
+### Removed
+- deprecated VS Code variables
+
+### Maintenance
+- updated dependencies to their latest versions
+
+
+
 ## [1.0.17] — 2025-03-18
 
 ### Added
