@@ -37,16 +37,16 @@
     "10": "{{ color.yellow-mid.10 }}"
   },
   "emerald": {
-    "100": "{{ color.emerald-mid-2.100 }}",
-    "90": "{{ color.emerald-mid-2.90 }}",
-    "80": "{{ color.emerald-mid-2.80 }}",
-    "70": "{{ color.emerald-mid-2.70 }}",
-    "60": "{{ color.emerald-mid-2.60 }}",
-    "50": "{{ color.emerald-mid-2.50 }}",
-    "40": "{{ color.emerald-mid-2.40 }}",
-    "30": "{{ color.emerald-mid-2.30 }}",
-    "20": "{{ color.emerald-mid-2.20 }}",
-    "10": "{{ color.emerald-mid-2.10 }}"
+    "100": "{{ color.emerald-mid.100 }}",
+    "90": "{{ color.emerald-mid.90 }}",
+    "80": "{{ color.emerald-mid.80 }}",
+    "70": "{{ color.emerald-mid.70 }}",
+    "60": "{{ color.emerald-mid.60 }}",
+    "50": "{{ color.emerald-mid.50 }}",
+    "40": "{{ color.emerald-mid.40 }}",
+    "30": "{{ color.emerald-mid.30 }}",
+    "20": "{{ color.emerald-mid.20 }}",
+    "10": "{{ color.emerald-mid.10 }}"
   },
   "teal": {
     "100": "{{ color.teal-mid.100 }}",
