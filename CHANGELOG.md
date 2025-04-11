@@ -15,7 +15,7 @@ Security
 ## [1.1.0] — 2025-04-
 
 ### Added
-- new variables introduced in [VS Code v1.99](https://code.visualstudio.com/updates/v1_99)
+- new variables for Symbol icons in Terminal introduced in [VS Code v1.99](https://code.visualstudio.com/updates/v1_99)
 
 ### Fixed 
 - link color in Pug/Vue
