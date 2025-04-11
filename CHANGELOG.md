@@ -12,7 +12,7 @@ Fixed
 Security
 
 
-## [1.1.0] — 2025-04-
+## [1.1.0] — 2025-04-11
 
 ### Added
 - new variables for Symbol icons in Terminal introduced in [VS Code v1.99](https://code.visualstudio.com/updates/v1_99)
@@ -21,7 +21,7 @@ Security
 - link color in Pug/Vue
 
 ### Changed
-- markdown heading, code, and link styles
+- markdown headings, code, and link styles
 - green hue → emerald hue
 
 ### Removed
