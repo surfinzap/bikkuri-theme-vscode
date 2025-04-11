@@ -615,6 +615,8 @@
     "editorGutter.commentRangeForeground":           "#5252524d",
     "editorGutter.commentUnresolvedGlyphForeground": "#1b1b1b",
     "editorGutter.commentGlyphForeground":           "#1b1b1b",
+    "editorGutter.itemGlyphForeground":              "#1b1b1b",
+    "editorGutter.itemBackground":                   "#5252524d",
     "editorCommentsWidget.unresolvedBorder":         "#bfa481",
     "editorCommentsWidget.resolvedBorder":           "#71957d",
     "editorCommentsWidget.rangeBackground":          "#5252521f",
@@ -1088,9 +1090,10 @@
     "extensionBadge.remoteBackground":          "#8d8d8d",
     "extensionBadge.remoteForeground":          "#1b1b1b",
     "extensionIcon.starForeground":             "#525252",
-    "extensionIcon.verifiedForeground":         "#8fabc8",
-    "extensionIcon.preReleaseForeground":       "#a8a4c8",
+    "extensionIcon.verifiedForeground":         "#88b295",
+    "extensionIcon.preReleaseForeground":       "#8fabc8",
     "extensionIcon.sponsorForeground":          "#c07982",
+    "extensionIcon.privateForeground":          "#a8a4c8",
 
 
     /* Menu

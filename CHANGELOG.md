@@ -12,14 +12,17 @@ Fixed
 Security
 
 
-## [1.1.0]
+## [1.1.0] — 2025-04-
+
+### Added
+- new variables introduced in [VS Code v1.99](https://code.visualstudio.com/updates/v1_99)
 
 ### Fixed 
 - link color in Pug/Vue
 
 ### Changed
 - markdown heading, code, and link styles
-- green color for more emerald hue
+- green hue → emerald hue
 
 ### Maintenance
 - updated dependencies to their latest versions
