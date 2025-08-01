@@ -1,3 +1,5 @@
 *.vsix
 node_modules/
 temp/
+CLAUDE.md
+.claude/
