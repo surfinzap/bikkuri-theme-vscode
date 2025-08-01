@@ -18,9 +18,8 @@ Security
 - new variables introduced in [VS Code v1.100](https://code.visualstudio.com/updates/v1_100), [VS Code v1.101](https://code.visualstudio.com/updates/v1_101), and [VS Code v1.102](https://code.visualstudio.com/updates/v1_102).
 
 ### Maintenance
-- Theme processing pipeline changed to JavaScript
-
-
+- theme processing pipeline changed to JavaScript
+- updated dependencies to their latest versions
 
 
 

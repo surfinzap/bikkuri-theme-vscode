@@ -4,7 +4,7 @@
   "description": "Set of 10 dark themes for VS Code, including syntax highlighting, debugging, diff/merge and terminal colors.",
   "publisher": "brano",
   "author": "Brano Sandala",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "icon": "assets/bikkuri-icon.png",
   "engines": {
     "vscode": "^1.102.0"
@@ -95,11 +95,11 @@
     "fetch": "node scripts/fetch-vs-code-vars.js"
   },
   "devDependencies": {
-    "@vscode/vsce": "^3.3.2",
-    "axios": "^1.8.4",
-    "cheerio": "^1.0.0",
+    "@vscode/vsce": "^3.6.0",
+    "axios": "^1.11.0",
+    "cheerio": "^1.1.2",
     "child_process": "^1.0.2",
-    "gulp": "^5.0.0",
+    "gulp": "^5.0.1",
     "gulp-watch": "^5.0.1",
     "json5": "^2.2.3"
   }
