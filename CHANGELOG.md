@@ -12,6 +12,18 @@ Fixed
 Security
 
 
+## [1.1.1] — 2025-08-01
+
+### Added
+- new variables introduced in [VS Code v1.100](https://code.visualstudio.com/updates/v1_100), [VS Code v1.101](https://code.visualstudio.com/updates/v1_101), and [VS Code v1.102](https://code.visualstudio.com/updates/v1_102).
+
+### Maintenance
+- Theme processing pipeline changed to JavaScript
+
+
+
+
+
 ## [1.1.0] — 2025-04-11
 
 ### Added
