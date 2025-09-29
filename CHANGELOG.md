@@ -12,6 +12,17 @@ Fixed
 Security
 
 
+## [1.1.2] — 2025-0
+
+## Added
+- new variables introduced in [VS Code v1.103](https://code.visualstudio.com/updates/v1_103), and [VS Code v1.104](https://code.visualstudio.com/updates/v1_101).
+- the is now also published in [Open VSX registry](https://open-vsx.org/extension/brano/bikkuri-theme)
+
+
+### Maintenance
+- update dependencies to their latest versions
+- remove deprecated variables
+
 ## [1.1.1] — 2025-08-01
 
 ### Added
