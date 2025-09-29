@@ -16,6 +16,7 @@ Security
 
 ## Added
 - new variables introduced in [VS Code v1.103](https://code.visualstudio.com/updates/v1_103), and [VS Code v1.104](https://code.visualstudio.com/updates/v1_101).
+- the is now also published in [Open VSX registry](https://open-vsx.org/extension/brano/bikkuri-theme)
 
 
 ### Maintenance
