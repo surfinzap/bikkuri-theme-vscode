@@ -1,4 +1,4 @@
-name: deploy
+name: Publish extension
 
 on:
   release:
@@ -22,7 +22,7 @@ jobs:
 
       - run: npm install
 
-      - name: deploy to vscode marketplace
+      - name: Publish to Visual Studio Marketplace
         env:
           VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
         run: |
