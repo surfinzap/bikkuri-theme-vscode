@@ -12,6 +12,12 @@ Fixed
 Security
 
 
+## [1.1.2] — 2025-0
+
+### Maintenance
+- update dependencies to their latest versions
+- remove deprecated variables
+
 ## [1.1.1] — 2025-08-01
 
 ### Added
