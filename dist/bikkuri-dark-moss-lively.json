@@ -1111,11 +1111,12 @@
     "extensionButton.separator":                "#52534d",
     "extensionBadge.remoteBackground":          "#8d8e85",
     "extensionBadge.remoteForeground":          "#1b1c19",
-    "extensionIcon.starForeground":             "#52534d",
+    "extensionIcon.starForeground": "#52534d",
     "extensionIcon.verifiedForeground":         "#68b985",
     "extensionIcon.preReleaseForeground":       "#75aedd",
     "extensionIcon.sponsorForeground":          "#e06578",
     "extensionIcon.privateForeground":          "#a99ef0",
+    "mcpIcon.starForeground":             "#52534d",
 
 
     /* Menu
