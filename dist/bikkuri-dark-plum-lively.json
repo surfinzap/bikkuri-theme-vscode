@@ -759,6 +759,7 @@
     "chat.requestCodeBorder":      "#564f64",
     "chat.requestBubbleBackground": "#564f644d",
     "chat.requestBubbleHoverBackground": "#564f6480",
+    "chat.checkpointSeparator": "#3c3746",
 
     "inlineChat.background":                 "#282430",
     "inlineChat.foreground":                 "#e1dfe5",
@@ -948,7 +949,6 @@
     "testing.runAction":                          "#68b985",
     "testing.peekBorder":                         "#3c3746",
     "testing.peekHeaderBackground":               "#1d1a2300",
-    "testing.message.error.decorationForeground": "#e06578",
     "testing.message.error.lineBackground":       "#e06578",
     "testing.message.info.decorationForeground":  "#75aedd",
     "testing.message.info.lineBackground":        "#75aedd",

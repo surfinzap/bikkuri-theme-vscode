@@ -14,6 +14,10 @@ Security
 
 ## [1.1.2] — 2025-0
 
+## Added
+- new variables introduced in [VS Code v1.103](https://code.visualstudio.com/updates/v1_103), and [VS Code v1.104](https://code.visualstudio.com/updates/v1_101).
+
+
 ### Maintenance
 - update dependencies to their latest versions
 - remove deprecated variables
