@@ -12,6 +12,11 @@ Fixed
 Security
 
 
+## [1.1.3]
+
+### Added
+- styles for template expression for JavaScript and TypeScript
+
 ## [1.1.2] — 2025-09-29
 
 ### Added

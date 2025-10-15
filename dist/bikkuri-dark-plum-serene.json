@@ -2269,10 +2269,12 @@
         "punctuation.definition.template-expression.begin.js",
         "punctuation.definition.template-expression.end.js",
         "punctuation.definition.template-expression.begin.ts",
-        "punctuation.definition.template-expression.end.ts"
+        "punctuation.definition.template-expression.end.ts",
+        "meta.template.expression.js", 
+        "meta.template.expression.ts"
       ],
       "settings": {
-        "foreground": "#749392"
+        "foreground": "#8fabc880"
       }
     },
     {
