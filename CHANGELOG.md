@@ -20,7 +20,6 @@ Security
 
 ### Maintenance
 - update dependencies to their latest versions
-- remove deprecated variables
 
 
 
