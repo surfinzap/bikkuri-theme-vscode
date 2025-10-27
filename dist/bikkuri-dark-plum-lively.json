@@ -1883,7 +1883,7 @@
         "foreground": "#e9c07d"
       }
     },
-    // MARKUP (MARKDOWN) --------------------------------
+    // MARKUP (MARKDOWN, MDC) ----------------------
     {
       "scope": "markup.underline",
       "settings": {
@@ -1969,6 +1969,14 @@
       ],
       "settings": {
         "foreground": "#75aedd"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.tag.mdc",
+      ],
+      "settings": {
+        "foreground": "#68b5b3"
       }
     },
     {
