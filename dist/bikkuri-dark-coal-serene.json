@@ -1883,7 +1883,7 @@
         "foreground": "#dfc299"
       }
     },
-    // MARKUP (MARKDOWN) --------------------------------
+    // MARKUP (MARKDOWN, MDC) ----------------------
     {
       "scope": "markup.underline",
       "settings": {
@@ -1969,6 +1969,14 @@
       ],
       "settings": {
         "foreground": "#8fabc8"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.tag.mdc",
+      ],
+      "settings": {
+        "foreground": "#8bafae"
       }
     },
     {
@@ -2269,10 +2277,12 @@
         "punctuation.definition.template-expression.begin.js",
         "punctuation.definition.template-expression.end.js",
         "punctuation.definition.template-expression.begin.ts",
-        "punctuation.definition.template-expression.end.ts"
+        "punctuation.definition.template-expression.end.ts",
+        "meta.template.expression.js", 
+        "meta.template.expression.ts"
       ],
       "settings": {
-        "foreground": "#749392"
+        "foreground": "#8fabc880"
       }
     },
     {

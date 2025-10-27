@@ -1883,7 +1883,7 @@
         "foreground": "{{ syntax.03.base }}"
       }
     },
-    // MARKUP (MARKDOWN) --------------------------------
+    // MARKUP (MARKDOWN, MDC) ----------------------
     {
       "scope": "markup.underline",
       "settings": {
@@ -1969,6 +1969,14 @@
       ],
       "settings": {
         "foreground": "{{ syntax.06.base }}"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.tag.mdc",
+      ],
+      "settings": {
+        "foreground": "{{ syntax.05.base }}"
       }
     },
     {
@@ -2269,10 +2277,12 @@
         "punctuation.definition.template-expression.begin.js",
         "punctuation.definition.template-expression.end.js",
         "punctuation.definition.template-expression.begin.ts",
-        "punctuation.definition.template-expression.end.ts"
+        "punctuation.definition.template-expression.end.ts",
+        "meta.template.expression.js", 
+        "meta.template.expression.ts"
       ],
       "settings": {
-        "foreground": "{{ syntax.05.dim }}"
+        "foreground": "{{ syntax.06.base }}{{ opacity.mid }}"
       }
     },
     {

@@ -102,6 +102,13 @@ export function fixDashesBetweenWords(string, locale) {
     locale.allChars +
     '])';
 
+    let backtickPattern =
+      `(${locale.cardinalNumber})` +
+      `(${locale.ordinalIndicator})` +
+      `([${locale.spaces}]?[${locale.hyphen}${locale.enDash}${locale.emDash}][${locale.spaces}]?)` +
+      `(${locale.cardinalNumber})` +
+      `(${locale.ordinalIndicator})`;
+
   let re = new RegExp(pattern, 'g');
   let replacement = '';
 

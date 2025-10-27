@@ -12,6 +12,18 @@ Fixed
 Security
 
 
+## [1.1.3] — 2025-10-27
+
+### Added
+- template literals styles (JavaScript, TypeScript)
+- MDC syntax styles
+
+### Maintenance
+- update dependencies to their latest versions
+- remove deprecated variables
+
+
+
 ## [1.1.2] — 2025-09-29
 
 ### Added

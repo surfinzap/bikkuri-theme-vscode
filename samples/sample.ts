@@ -59,6 +59,13 @@ function greet(name: string): void {
   console.log(`Hello, ${name}!`);
 }
 
+   let backtickPattern =
+     `(${locale.cardinalNumber})` +
+     `(${locale.ordinalIndicator})` +
+     `([${locale.spaces}]?[${locale.hyphen}${locale.enDash}${locale.emDash}][${locale.spaces}]?)` +
+     `(${locale.cardinalNumber})` +
+     `(${locale.ordinalIndicator})`;
+
 // Arrow function with type annotations
 const multiply = (a: number, b: number): number => a * b;
 console.log(multiply(2, 3));
