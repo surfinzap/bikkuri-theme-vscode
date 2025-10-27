@@ -15,8 +15,8 @@ Security
 ## [1.1.3] — 2025-10-27
 
 ### Added
-- styles for template literals for JavaScript and TypeScript
-- styles for MDC syntax
+- template literals styles (JavaScript, TypeScript)
+- MDC syntax styles
 
 ### Maintenance
 - update dependencies to their latest versions
