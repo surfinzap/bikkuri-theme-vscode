@@ -11,6 +11,11 @@ Removed
 Fixed
 Security
 
+## [1.1.4] — 
+
+### Maintenance
+- update dependencies to their latest versions
+
 
 ## [1.1.3] — 2025-10-27
 
