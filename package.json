@@ -95,7 +95,7 @@
     "fetch": "node scripts/fetch-vs-code-vars.js"
   },
   "devDependencies": {
-    "@vscode/vsce": "^3.7.0",
+    "@vscode/vsce": "^3.7.1",
     "axios": "^1.13.2",
     "cheerio": "^1.1.2",
     "child_process": "^1.0.2",
