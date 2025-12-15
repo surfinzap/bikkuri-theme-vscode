@@ -12,6 +12,17 @@ Fixed
 Security
 
 
+
+## [1.1.4] — 2025-12-15
+
+### Fixed 
+- Update engines.vscode from ^1.105.0 to ^1.95.0 to support a wider range of VS Code versions
+
+### Maintenance
+- Update dependencies to their latest versions
+
+
+
 ## [1.1.3] — 2025-10-27
 
 ### Added
@@ -20,7 +31,6 @@ Security
 
 ### Maintenance
 - update dependencies to their latest versions
-- remove deprecated variables
 
 
 
