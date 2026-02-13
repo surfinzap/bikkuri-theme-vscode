@@ -11,22 +11,18 @@ const extraVarsPath = 'temp/extra-vars.txt';
 
 async function fetchVSCodeThemeColors() {
   try {
-    const response = await axios.get(
-      'https://code.visualstudio.com/api/references/theme-color',
-      {
-        headers: {
-          'User-Agent':
-            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
-          Accept:
-            'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-          'Accept-Encoding': 'gzip, deflate, br',
-          Connection: 'keep-alive',
-          Referer: 'https://code.visualstudio.com/',
-          Host: 'code.visualstudio.com',
-        },
-      }
-    );
-    
+    const response = await axios.get('https://code.visualstudio.com/api/references/theme-color', {
+      headers: {
+        'User-Agent':
+          'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+        Accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+        'Accept-Encoding': 'gzip, deflate, br',
+        Connection: 'keep-alive',
+        Referer: 'https://code.visualstudio.com/',
+        Host: 'code.visualstudio.com',
+      },
+    });
+
     const $ = cheerio.load(response.data);
 
     let vars = [];
@@ -48,7 +44,6 @@ async function fetchVSCodeThemeColors() {
     console.error('Error fetching data:', error);
   }
 }
-
 
 function extractJsonKeys(jsonContent) {
   try {
@@ -83,9 +78,7 @@ function removeDeprecatedVars(vscodeVars) {
   return vscodeVars.filter((varName) => !deprecatedVars.includes(varName));
 }
 
-
 async function main() {
-
   await fetchVSCodeThemeColors();
   const vscodeVars = readVarsFromFile(vscodeVarsPath);
   const jsonContent = fs.readFileSync(templatePath, 'utf8');

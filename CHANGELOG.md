@@ -12,14 +12,26 @@ Fixed
 Security
 
 
+## [1.1.5] — 2026-02-13
+
+### Added
+- new variables introduced in VS Code in the past three months
+
+### Changed
+- increase contrast between text and background in Diff editor
+
+### Maintenance
+- update dependencies to their latest versions
+- configure prettier and pre-commit hooks
+
 
 ## [1.1.4] — 2025-12-15
 
 ### Fixed 
-- Update engines.vscode from ^1.105.0 to ^1.95.0 to support a wider range of VS Code versions
+- update engines.vscode from ^1.105.0 to ^1.95.0 to support a wider range of VS Code versions
 
 ### Maintenance
-- Update dependencies to their latest versions
+- update dependencies to their latest versions
 
 
 
@@ -38,7 +50,7 @@ Security
 
 ### Added
 - new variables introduced in [VS Code v1.103](https://code.visualstudio.com/updates/v1_103), and [VS Code v1.104](https://code.visualstudio.com/updates/v1_101).
-- the is now also published in [Open VSX registry](https://open-vsx.org/extension/brano/bikkuri-theme)
+- the theme is now also published in [Open VSX registry](https://open-vsx.org/extension/brano/bikkuri-theme)
 
 ### Maintenance
 - update dependencies to their latest versions

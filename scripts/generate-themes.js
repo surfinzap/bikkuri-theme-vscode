@@ -14,7 +14,7 @@ function deleteFiles(folderPath) {
 
   const files = fs.readdirSync(folderPath);
 
-  files.forEach(fileName => {
+  files.forEach((fileName) => {
     const filePath = path.join(folderPath, fileName);
     try {
       if (fs.lstatSync(filePath).isFile()) {
@@ -28,11 +28,11 @@ function deleteFiles(folderPath) {
 
 function renderMustache(template, data) {
   let result = template;
-  
+
   result = result.replace(/\{\{\s*([^}]+)\s*\}\}/g, (match, key) => {
     const keys = key.trim().split('.');
     let value = data;
-    
+
     for (const k of keys) {
       if (value && typeof value === 'object' && k in value) {
         value = value[k];
@@ -40,10 +40,10 @@ function renderMustache(template, data) {
         return match;
       }
     }
-    
+
     return value !== undefined ? value : match;
   });
-  
+
   return result;
 }
 
@@ -66,20 +66,20 @@ function processSchemes(folderPath) {
     return;
   }
 
-  const schemeFiles = fs.readdirSync(folderPath).filter(f => f.endsWith('.json'));
+  const schemeFiles = fs.readdirSync(folderPath).filter((f) => f.endsWith('.json'));
   const themesList = []; // for populating package.json
 
-  schemeFiles.forEach(schemeFile => {
+  schemeFiles.forEach((schemeFile) => {
     const schemeFilepath = path.join(folderPath, schemeFile);
-    
+
     try {
       const schemeData = fs.readFileSync(schemeFilepath, 'utf8');
       const schemeJson = JSON.parse(schemeData);
 
       themesList.push({
-        "label": `Bikkuri (${schemeJson['mode-name']} ${schemeJson['tint-name']} & ${schemeJson['mood-name']})`,
-        "uiTheme": `vs-${schemeJson['mode-type']}`,
-        "path": `./${distFolder}${themePrefix}${schemeFile}`
+        label: `Bikkuri (${schemeJson['mode-name']} ${schemeJson['tint-name']} & ${schemeJson['mood-name']})`,
+        uiTheme: `vs-${schemeJson['mode-type']}`,
+        path: `./${distFolder}${themePrefix}${schemeFile}`,
       });
 
       renderTheme(schemeJson, schemeFile);

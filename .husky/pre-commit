@@ -1,0 +1,23 @@
+#!/usr/bin/env sh
+set -e
+
+echo "🎨 Running pre-commit checks..."
+
+# 1. Format code
+echo "📝 Formatting code..."
+pnpm format
+
+# 2. Generate schemes
+echo "🔧 Generating schemes..."
+node scripts/generate-schemes.js
+
+# 3. Generate themes and update package.json
+echo "🎨 Generating themes..."
+node scripts/generate-themes.js
+
+# 4. Stage generated files
+echo "📦 Staging generated files..."
+git add dist/*.json
+git add package.json
+
+echo "✅ Pre-commit checks passed!"
