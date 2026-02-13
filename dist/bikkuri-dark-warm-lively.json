@@ -47,6 +47,7 @@
     "textCodeBlock.background":  "#2a2526",
     "textPreformat.foreground":  "#df8fc1",
     "textPreformat.background":  "#2a2526",
+    "textPreformat.border":      "#3e3839",
     "textSeparator.foreground":  "#595051",
 
 
@@ -62,6 +63,7 @@
     "button.secondaryBackground":        "#5950514d",
     "button.secondaryForeground":        "#e2e0e0",
     "button.secondaryHoverBackground":   "#59505180",
+    "button.secondaryBorder":            "#1e1b1b00",
     "button.border":                     "#1e1b1b00",
     "checkbox.background":               "#1e1b1b",
     "checkbox.foreground":               "#aea6a8",
@@ -116,6 +118,7 @@
 
     /* Scrollbar
     */
+    "scrollbar.background":                    "#1e1b1b00",
     "scrollbar.shadow":                        "#131011",
     "scrollbarSlider.background":              "#5950514d",
     "scrollbarSlider.activeBackground":        "#59505180",
@@ -528,9 +531,10 @@
     "editorLineNumber.activeForeground": "#e2e0e0",
     "editorLineNumber.dimmedForeground": "#958a8c",
     "editorLink.activeForeground":       "#e2e0e0",
-    "editor.lineHighlightBackground":    "#2a2526",
-    "editor.lineHighlightBorder":        "#1e1b1b00",
-    "editor.selectionBackground":        "#59505180",
+    "editor.lineHighlightBackground":         "#2a2526",
+    "editor.lineHighlightBorder":             "#1e1b1b00",
+    "editor.inactiveLineHighlightBackground": "#1e1b1b00",
+    "editor.selectionBackground":             "#59505180",
     // selectionForeground does not seem to take effect
     // "editor.selectionForeground":             "{{ undefined }}",
     "editor.inactiveSelectionBackground":     "#2a2526",
@@ -620,6 +624,7 @@
     "editorGutter.commentRangeForeground":           "#5950514d",
     "editorGutter.commentUnresolvedGlyphForeground": "#1e1b1b",
     "editorGutter.commentGlyphForeground":           "#1e1b1b",
+    "editorGutter.commentDraftGlyphForeground":      "#e9c07d",
     "editorGutter.itemGlyphForeground":              "#1e1b1b",
     "editorGutter.itemBackground":                   "#5950514d",
     "editorCommentsWidget.unresolvedBorder":         "#caa263",
@@ -684,9 +689,9 @@
     */
     
     "editorBracketMatch.background":          "#1e1b1b",
-    "editorBracketMatch.border":              "#595051",
-    
- 
+    "editorBracketMatch.border":              "#958a8c",
+    // "editorBracketMatch.foreground":          "{{ undefined }}",
+
     "editorBracketHighlight.foreground1":     "#786c6e",
     "editorBracketHighlight.foreground2":     "#e06578",
     "editorBracketHighlight.foreground3":     "#da9a6a",
@@ -760,6 +765,8 @@
     "chat.requestBubbleBackground": "#5950514d",
     "chat.requestBubbleHoverBackground": "#59505180",
     "chat.checkpointSeparator": "#3e3839",
+    "chat.thinkingShimmer":     "#57989680",
+    "chatManagement.sashBorder": "#3e3839",
 
     "inlineChat.background":                 "#2a2526",
     "inlineChat.foreground":                 "#e2e0e0",
@@ -790,6 +797,7 @@
     "editorOverviewRuler.commonContentForeground":         "#1e1b1b00",
     "editorOverviewRuler.commentForeground":               "#569b6f4d",
     "editorOverviewRuler.commentUnresolvedForeground":     "#caa2634d",
+    "editorOverviewRuler.commentDraftForeground":          "#caa2634d",
     "mergeEditor.change.background":                       "#1e1b1b",
     "mergeEditor.change.word.background":                  "#2a2526",
     "mergeEditor.conflict.unhandledUnfocused.border":      "#e06578",
@@ -1074,6 +1082,7 @@
     "terminalSymbolIcon.remoteForeground":             "#786c6e",
     "terminalSymbolIcon.stashForeground":              "#786c6e",
     "terminalSymbolIcon.tagForeground":                "#786c6e",
+    "terminalSymbolIcon.symbolText":                   "#e2e0e0",
 
 
 
@@ -1116,6 +1125,7 @@
     "extensionButton.foreground":               "#1e1b1b",
     "extensionButton.hoverBackground":          "#68b5b3",
     "extensionButton.separator":                "#595051",
+    "extensionButton.border":                   "#1e1b1b00",
     "extensionBadge.remoteBackground":          "#958a8c",
     "extensionBadge.remoteForeground":          "#1e1b1b",
     "extensionIcon.starForeground": "#595051",
@@ -1266,6 +1276,20 @@
     "gauge.warningForeground": "#2a2526",
     "gauge.errorBackground":   "#e06578",
     "gauge.errorForeground":   "#2a2526",
+
+
+    /* Markdown alerts (GitHub-style) .................................. */
+    "markdownAlert.note.foreground":      "#75aedd",
+    "markdownAlert.tip.foreground":       "#68b985",
+    "markdownAlert.important.foreground": "#a99ef0",
+    "markdownAlert.warning.foreground":   "#e9c07d",
+    "markdownAlert.caution.foreground":   "#e06578",
+
+
+    /* Agent session (AI assistants) ..................................... */
+    "agentSessionReadIndicator.foreground":           "#786c6e",
+    "agentSessionSelectedBadge.border":               "#595051",
+    "agentSessionSelectedUnfocusedBadge.border":      "#3e3839"
   },
   "tokenColors": [
     {

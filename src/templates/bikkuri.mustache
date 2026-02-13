@@ -47,6 +47,7 @@
     "textCodeBlock.background":  "{{ surface.sunken }}",
     "textPreformat.foreground":  "{{ syntax.08.base }}",
     "textPreformat.background":  "{{ surface.sunken }}",
+    "textPreformat.border":      "{{ border.dim }}",
     "textSeparator.foreground":  "{{ border.mid }}",
 
 
@@ -62,6 +63,7 @@
     "button.secondaryBackground":        "{{ button.secondary.bg }}",
     "button.secondaryForeground":        "{{ button.secondary.text }}",
     "button.secondaryHoverBackground":   "{{ button.secondary.bg-hover }}",
+    "button.secondaryBorder":            "{{ border.none }}",
     "button.border":                     "{{ border.none }}",
     "checkbox.background":               "{{ surface.base }}",
     "checkbox.foreground":               "{{ icon.base }}",
@@ -116,6 +118,7 @@
 
     /* Scrollbar
     */
+    "scrollbar.background":                    "{{ surface.none }}",
     "scrollbar.shadow":                        "{{ shadow }}",
     "scrollbarSlider.background":              "{{ surface.raised.low }}",
     "scrollbarSlider.activeBackground":        "{{ surface.raised.mid }}",
@@ -528,9 +531,10 @@
     "editorLineNumber.activeForeground": "{{ text.base }}",
     "editorLineNumber.dimmedForeground": "{{ text.mid }}",
     "editorLink.activeForeground":       "{{ text.base }}",
-    "editor.lineHighlightBackground":    "{{ surface.sunken }}",
-    "editor.lineHighlightBorder":        "{{ border.none }}",
-    "editor.selectionBackground":        "{{ surface.raised.mid }}",
+    "editor.lineHighlightBackground":         "{{ surface.sunken }}",
+    "editor.lineHighlightBorder":             "{{ border.none }}",
+    "editor.inactiveLineHighlightBackground": "{{ surface.none }}",
+    "editor.selectionBackground":             "{{ surface.raised.mid }}",
     // selectionForeground does not seem to take effect
     // "editor.selectionForeground":             "{{ undefined }}",
     "editor.inactiveSelectionBackground":     "{{ surface.sunken }}",
@@ -620,6 +624,7 @@
     "editorGutter.commentRangeForeground":           "{{ button.secondary.bg }}",
     "editorGutter.commentUnresolvedGlyphForeground": "{{ text.on-ui }}",
     "editorGutter.commentGlyphForeground":           "{{ text.on-ui }}",
+    "editorGutter.commentDraftGlyphForeground":      "{{ ui.warning.base }}",
     "editorGutter.itemGlyphForeground":              "{{ text.on-ui }}",
     "editorGutter.itemBackground":                   "{{ button.secondary.bg }}",
     "editorCommentsWidget.unresolvedBorder":         "{{ ui.warning.mid }}",
@@ -684,9 +689,9 @@
     */
     
     "editorBracketMatch.background":          "{{ surface.base }}",
-    "editorBracketMatch.border":              "{{ border.mid }}",
-    
- 
+    "editorBracketMatch.border":              "{{ border.base }}",
+    // "editorBracketMatch.foreground":          "{{ undefined }}",
+
     "editorBracketHighlight.foreground1":     "{{ text.dim }}",
     "editorBracketHighlight.foreground2":     "{{ syntax.01.base }}",
     "editorBracketHighlight.foreground3":     "{{ syntax.02.base }}",
@@ -760,6 +765,8 @@
     "chat.requestBubbleBackground": "{{ surface.raised.low }}",
     "chat.requestBubbleHoverBackground": "{{ surface.raised.mid }}",
     "chat.checkpointSeparator": "{{ border.dim }}",
+    "chat.thinkingShimmer":     "{{ ui.accent3.mid }}{{ opacity.mid }}",
+    "chatManagement.sashBorder": "{{ border.dim }}",
 
     "inlineChat.background":                 "{{ surface.sunken }}",
     "inlineChat.foreground":                 "{{ text.base}}",
@@ -790,6 +797,7 @@
     "editorOverviewRuler.commonContentForeground":         "{{ border.none }}",
     "editorOverviewRuler.commentForeground":               "{{ ui.success.mid }}{{ opacity.mid-low }}",
     "editorOverviewRuler.commentUnresolvedForeground":     "{{ ui.warning.mid }}{{ opacity.mid-low }}",
+    "editorOverviewRuler.commentDraftForeground":          "{{ ui.warning.mid }}{{ opacity.mid-low }}",
     "mergeEditor.change.background":                       "{{ surface.base }}",
     "mergeEditor.change.word.background":                  "{{ surface.sunken }}",
     "mergeEditor.conflict.unhandledUnfocused.border":      "{{ ui.danger.base }}",
@@ -1074,6 +1082,7 @@
     "terminalSymbolIcon.remoteForeground":             "{{ icon.mid }}",
     "terminalSymbolIcon.stashForeground":              "{{ icon.mid }}",
     "terminalSymbolIcon.tagForeground":                "{{ icon.mid }}",
+    "terminalSymbolIcon.symbolText":                   "{{ text.base }}",
 
 
 
@@ -1116,6 +1125,7 @@
     "extensionButton.foreground":               "{{ button.primary.text }}",
     "extensionButton.hoverBackground":          "{{ button.primary.bg-hover }}",
     "extensionButton.separator":                "{{ border.mid }}",
+    "extensionButton.border":                   "{{ border.none }}",
     "extensionBadge.remoteBackground":          "{{ badge.bg }}",
     "extensionBadge.remoteForeground":          "{{ badge.text }}",
     "extensionIcon.starForeground": "{{ icon.dim }}",
@@ -1266,6 +1276,20 @@
     "gauge.warningForeground": "{{ surface.sunken }}",
     "gauge.errorBackground":   "{{ ui.danger.base }}",
     "gauge.errorForeground":   "{{ surface.sunken }}",
+
+
+    /* Markdown alerts (GitHub-style) .................................. */
+    "markdownAlert.note.foreground":      "{{ ui.info.base }}",
+    "markdownAlert.tip.foreground":       "{{ ui.success.base }}",
+    "markdownAlert.important.foreground": "{{ ui.accent2.base }}",
+    "markdownAlert.warning.foreground":   "{{ ui.warning.base }}",
+    "markdownAlert.caution.foreground":   "{{ ui.danger.base }}",
+
+
+    /* Agent session (AI assistants) ..................................... */
+    "agentSessionReadIndicator.foreground":           "{{ text.dim }}",
+    "agentSessionSelectedBadge.border":               "{{ border.mid }}",
+    "agentSessionSelectedUnfocusedBadge.border":      "{{ border.dim }}"
   },
   "tokenColors": [
     {
