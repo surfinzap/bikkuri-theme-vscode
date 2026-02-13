@@ -92,7 +92,9 @@
   },
   "scripts": {
     "watch": "gulp watch",
-    "fetch": "node scripts/fetch-vs-code-vars.js"
+    "fetch": "node scripts/fetch-vs-code-vars.js",
+    "format": "prettier --write \"src/**/*.json\" \"scripts/**/*.js\"",
+    "format:check": "prettier --check \"src/**/*.json\" \"scripts/**/*.js\""
   },
   "devDependencies": {
     "@vscode/vsce": "^3.7.1",
@@ -101,6 +103,7 @@
     "child_process": "^1.0.2",
     "gulp": "^5.0.1",
     "gulp-watch": "^5.0.1",
-    "json5": "^2.2.3"
+    "json5": "^2.2.3",
+    "prettier": "^3.8.1"
   }
 }

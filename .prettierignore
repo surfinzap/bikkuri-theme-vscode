@@ -1,0 +1,26 @@
+# Generated files
+dist/
+temp/
+
+# Dependencies
+node_modules/
+
+# Lock files
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# VS Code extension packaging
+*.vsix
+
+# Git
+.git/
+
+# Documentation
+*.md
+
+# Config files
+.gitignore
+.gitattributes
+.vscodeignore
+gulpfile.js

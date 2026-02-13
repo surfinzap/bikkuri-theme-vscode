@@ -22,6 +22,7 @@ Security
 
 ### Maintenance
 - update dependencies to their latest versions
+- configure prettier 
 
 
 ## [1.1.4] — 2025-12-15
