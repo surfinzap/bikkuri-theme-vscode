@@ -718,10 +718,10 @@
     "diffEditor.insertedTextBorder":           "#1b1c1900", //it impacts line as well
     "diffEditor.removedTextBorder":            "#1b1c1900",
     "diffEditor.border":                       "#1b1c1900", //border between diffs
-    "diffEditor.insertedTextBackground":       "#213f2ce6",
-    "diffEditor.removedTextBackground":        "#65222de6",
-    "diffEditor.insertedLineBackground":       "#213f2c4d",
-    "diffEditor.removedLineBackground":        "#65222d4d",
+    "diffEditor.insertedTextBackground":       "#569b6f4d",
+    "diffEditor.removedTextBackground":        "#c142584d",
+    "diffEditor.insertedLineBackground":       "#213f2c1f",
+    "diffEditor.removedLineBackground":        "#65222d1f",
     /* "diffEditor.hideUnchangedRegions.enabled": true, to make unchaged regions visible*/
     "diffEditor.unchangedRegionBackground":    "#1b1c1900",
     "diffEditor.unchangedRegionForeground":    "#6f7069",
@@ -732,10 +732,10 @@
     "diffEditor.move.border":                  "#393935",
     "diffEditor.moveActive.border":            "#52534d",
 
-    "diffEditorGutter.insertedLineBackground": "#213f2c4d",
-    "diffEditorGutter.removedLineBackground":  "#65222d4d",
-    "diffEditorOverview.insertedForeground":   "#213f2ce6",
-    "diffEditorOverview.removedForeground":    "#65222de6",
+    "diffEditorGutter.insertedLineBackground": "#569b6f1f",
+    "diffEditorGutter.removedLineBackground":  "#c142581f",
+    "diffEditorOverview.insertedForeground":   "#213f2c80",
+    "diffEditorOverview.removedForeground":    "#65222d80",
     "multiDiffEditor.headerBackground":        "#262623",
     "multiDiffEditor.background":              "#262623",
     "multiDiffEditor.border":                  "#393935",
