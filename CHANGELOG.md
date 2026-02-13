@@ -12,7 +12,7 @@ Fixed
 Security
 
 
-## [1.1.5] — 2026-02
+## [1.1.5] — 2026-02-13
 
 ### Added
 - new variables introduced in VS Code in the past three months
@@ -22,7 +22,7 @@ Security
 
 ### Maintenance
 - update dependencies to their latest versions
-- configure prettier 
+- configure prettier and pre-commit hooks
 
 
 ## [1.1.4] — 2025-12-15
