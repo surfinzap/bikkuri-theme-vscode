@@ -14,6 +14,9 @@ Security
 
 ## [1.1.5] — 2026-02
 
+### Added
+- new variables introduced in VS Code in the past three months
+
 ### Changed
 - increase contrast between text and background in Diff editor
 
