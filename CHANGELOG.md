@@ -17,6 +17,9 @@ Security
 ### Changed
 - increase contrast between text and background in Diff editor
 
+### Maintenance
+- update dependencies to their latest versions
+
 
 ## [1.1.4] — 2025-12-15
 
