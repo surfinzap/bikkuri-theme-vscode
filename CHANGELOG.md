@@ -12,7 +12,7 @@ Fixed
 Security
 
 
-## [1.1.6] — 2026-
+## [1.1.6] — 2026-05-16
 
 ### Added
 - foreground color (violet) for matching brackets
