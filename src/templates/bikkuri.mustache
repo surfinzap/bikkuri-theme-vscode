@@ -564,7 +564,6 @@
     "searchEditor.findMatchBackground":     "{{ surface.raised.low }}",
     "searchEditor.findMatchBorder":         "{{ ui.danger.base }}",
     "searchEditor.textInputBorder":         "{{ border.dim }}",
-    "editorWatermark.foreground":           "{{ text.mid }}",
     "editorUnicodeHighlight.border":        "{{ border.dim }}",
     "editorUnicodeHighlight.background":    "{{ surface.base }}",
     "editor.rangeHighlightBackground":      "{{ surface.raised.low }}",
@@ -690,7 +689,7 @@
     
     "editorBracketMatch.background":          "{{ surface.base }}",
     "editorBracketMatch.border":              "{{ border.base }}",
-    // "editorBracketMatch.foreground":          "{{ undefined }}",
+    "editorBracketMatch.foreground":          "{{ syntax.07.base }}",
 
     "editorBracketHighlight.foreground1":     "{{ text.dim }}",
     "editorBracketHighlight.foreground2":     "{{ syntax.01.base }}",
@@ -1287,9 +1286,11 @@
 
 
     /* Agent session (AI assistants) ..................................... */
-    "agentSessionReadIndicator.foreground":           "{{ text.dim }}",
-    "agentSessionSelectedBadge.border":               "{{ border.mid }}",
-    "agentSessionSelectedUnfocusedBadge.border":      "{{ border.dim }}"
+    "agentSessionReadIndicator.foreground":      "{{ text.dim }}",
+    "agentSessionSelectedBadge.border":          "{{ border.mid }}",
+    "agentSessionSelectedUnfocusedBadge.border": "{{ border.dim }}",
+    "agentStatusIndicator.background":           "{{ surface.sunken }}",
+    "aiCustomizationManagement.sashBorder":      "{{ border.dim }}",
   },
   "tokenColors": [
     {

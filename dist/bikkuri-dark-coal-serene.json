@@ -564,7 +564,6 @@
     "searchEditor.findMatchBackground":     "#5252524d",
     "searchEditor.findMatchBorder":         "#c07982",
     "searchEditor.textInputBorder":         "#393939",
-    "editorWatermark.foreground":           "#8d8d8d",
     "editorUnicodeHighlight.border":        "#393939",
     "editorUnicodeHighlight.background":    "#1b1b1b",
     "editor.rangeHighlightBackground":      "#5252524d",
@@ -690,7 +689,7 @@
     
     "editorBracketMatch.background":          "#1b1b1b",
     "editorBracketMatch.border":              "#8d8d8d",
-    // "editorBracketMatch.foreground":          "{{ undefined }}",
+    "editorBracketMatch.foreground":          "#a8a4c8",
 
     "editorBracketHighlight.foreground1":     "#6f6f6f",
     "editorBracketHighlight.foreground2":     "#c07982",
@@ -1287,9 +1286,11 @@
 
 
     /* Agent session (AI assistants) ..................................... */
-    "agentSessionReadIndicator.foreground":           "#6f6f6f",
-    "agentSessionSelectedBadge.border":               "#525252",
-    "agentSessionSelectedUnfocusedBadge.border":      "#393939"
+    "agentSessionReadIndicator.foreground":      "#6f6f6f",
+    "agentSessionSelectedBadge.border":          "#525252",
+    "agentSessionSelectedUnfocusedBadge.border": "#393939",
+    "agentStatusIndicator.background":           "#262626",
+    "aiCustomizationManagement.sashBorder":      "#393939",
   },
   "tokenColors": [
     {

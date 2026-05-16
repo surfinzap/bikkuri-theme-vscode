@@ -12,6 +12,17 @@ Fixed
 Security
 
 
+## [1.1.6] — 2026-05-16
+
+### Added
+- foreground color (violet) for matching brackets
+- new variables introduced in VS Code
+
+### Maintenance
+- update dependencies to their latest versions
+
+
+
 ## [1.1.5] — 2026-02-13
 
 ### Added
