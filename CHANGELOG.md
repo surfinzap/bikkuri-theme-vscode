@@ -12,6 +12,150 @@ Fixed
 Security
 
 
+## [1.1.6] — 2026-05-16
+
+### Added
+- foreground color (violet) for matching brackets
+- new variables introduced in VS Code
+
+### Maintenance
+- update dependencies to their latest versions
+
+
+
+## [1.1.5] — 2026-02-13
+
+### Added
+- new variables introduced in VS Code in the past three months
+
+### Changed
+- increase contrast between text and background in Diff editor
+
+### Maintenance
+- update dependencies to their latest versions
+- configure prettier and pre-commit hooks
+
+
+## [1.1.4] — 2025-12-15
+
+### Fixed 
+- update engines.vscode from ^1.105.0 to ^1.95.0 to support a wider range of VS Code versions
+
+### Maintenance
+- update dependencies to their latest versions
+
+
+
+## [1.1.3] — 2025-10-27
+
+### Added
+- template literals styles (JavaScript, TypeScript)
+- MDC syntax styles
+
+### Maintenance
+- update dependencies to their latest versions
+
+
+
+## [1.1.2] — 2025-09-29
+
+### Added
+- new variables introduced in [VS Code v1.103](https://code.visualstudio.com/updates/v1_103), and [VS Code v1.104](https://code.visualstudio.com/updates/v1_101).
+- the theme is now also published in [Open VSX registry](https://open-vsx.org/extension/brano/bikkuri-theme)
+
+### Maintenance
+- update dependencies to their latest versions
+- remove deprecated variables
+
+
+
+## [1.1.1] — 2025-08-01
+
+### Added
+- new variables introduced in [VS Code v1.100](https://code.visualstudio.com/updates/v1_100), [VS Code v1.101](https://code.visualstudio.com/updates/v1_101), and [VS Code v1.102](https://code.visualstudio.com/updates/v1_102).
+
+### Maintenance
+- theme processing pipeline changed to JavaScript
+- updated dependencies to their latest versions
+
+
+
+## [1.1.0] — 2025-04-11
+
+### Added
+- new variables for Symbol icons in Terminal introduced in [VS Code v1.99](https://code.visualstudio.com/updates/v1_99)
+
+### Fixed 
+- link color in Pug/Vue
+
+### Changed
+- markdown headings, code, and link styles
+- green hue → emerald hue
+
+### Removed
+- deprecated VS Code variables
+
+### Maintenance
+- updated dependencies to their latest versions
+
+
+
+## [1.0.17] — 2025-03-18
+
+### Added
+- new variables for Gauge ([Quota component](https://code.visualstudio.com/updates/v1_98#_copilot-status-overview-experimental)) and Chat edits in Minimap introduced in [VS Code v1.97](https://code.visualstudio.com/updates/v1_97) and [v1.98](https://code.visualstudio.com/updates/v1_98)
+
+### Changed
+- Sass variables color in Vue
+
+### Removed
+- deprecated VS Code variables
+
+### Maintenance
+- updated dependencies to their latest versions
+
+
+
+## [1.0.16] — 2025-01-11
+
+### Changed
+- align TypeScript syntax with JavaScript syntax (#31)
+- increase visibility for Inlay Hints (#28)
+
+
+
+## [1.0.15] — 2024-12-27
+
+### Added 
+- new variables for Side Bar, Chat, Editor and Charts introduced in [VS Code v1.95](https://code.visualstudio.com/updates/v1_95) and [v1.96](https://code.visualstudio.com/updates/v1_96)
+
+### Maintenance
+- updated dependencies to their latest versions
+
+
+
+## [1.0.14] — 2024-10-17
+
+### Added
+- new variables for Source Control Graph and Activity Bar Badges introduced in [VS Code v1.94](https://code.visualstudio.com/updates/v1_94)
+
+### Maintenance
+- update dependencies to their latest versions
+
+
+
+## [1.0.13] — 2024-09-13
+
+### Added
+- new variables for a Radio button, Source Control Graph, Terminal, and Action list introduced in [VS Code v1.93](https://code.visualstudio.com/updates/v1_93)
+
+### Maintenance
+- packaging changed from NPM to PNPM
+- update dependencies to their latest versions
+- minimize the distribution package size
+
+
+
 ## [1.0.12] — 2024-07-30
 
 ### Added

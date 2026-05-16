@@ -7,24 +7,13 @@ let watchPaths = ['src/**/*', 'scripts/**/*'];
 gulp.task('watch', function () {
   watch(watchPaths, function () {
     runScript('generate-schemes.js');
-    runScript('generate-themes.py');
+    runScript('generate-themes.js');
   });
 });
 
 function runScript(scriptName) {
-  let command;
-  let args;
-
-  if (scriptName.endsWith('.py')) {
-    command = 'python'; 
-    args = [`scripts/${scriptName}`];
-  } else if (scriptName.endsWith('.js')) {
-    command = 'node';
-    args = [`scripts/${scriptName}`];
-  } else {
-    console.error('Unsupported script type:', scriptName);
-    return;
-  }
+  const command = 'node';
+  const args = [`scripts/${scriptName}`];
 
   const process = spawn(command, args);
 

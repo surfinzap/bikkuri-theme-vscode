@@ -1,0 +1,218 @@
+---
+title: MDC Syntax Showcase
+description: Comprehensive example of Markdown Components (MDC) features
+author: Theme Developer
+date: 2025-10-15
+tags: [mdc, markdown, components, demo]
+featured: true
+---
+
+# MDC Syntax Showcase
+
+This document demonstrates the **expressive power** of _Markdown Components (MDC)_ syntax, combining traditional markdown with Vue-like components. You can read more about MDC at [Nuxt Content Documentation](https://content.nuxt.com/usage/markdown).
+
+## Inline Formatting Examples
+
+Here's some **bold text**, _italic text_, **_bold and italic_**, and `inline code`. You can also use ~~strikethrough~~ text and create [links to external sites](https://example.com) or reference `variables` in your content.
+
+Use `code` for technical terms like `useState()` or `const theme = 'dark'` within sentences.
+
+## Component with Props
+
+::alert{type="warning" icon="⚠️"}
+This is an alert component with **props**! The `type` and `icon` are passed as attributes.
+::
+
+::badge{color="blue" size="large"}
+Premium Feature
+::
+
+## Components with Named Slots
+
+::card{title="Feature Card" image="/assets/feature.png"}
+This is the **default slot** content of the card component.
+
+You can include _any markdown_ here, including:
+- Lists
+- **Formatted text**
+- [Links](https://example.com)
+- And even code: `const x = 42`
+
+#footer
+Card footer content goes here with actions and metadata.
+::
+
+## Nested Components
+
+::container{theme="dark" padding="large"}
+  ::grid{columns="3" gap="md"}
+    ::card
+    # Card 1
+    First card with **nested** content
+    ::
+
+    ::card
+    # Card 2
+    Second card with _emphasis_
+    ::
+
+    ::card
+    # Card 3
+    Third card with `code`
+    ::
+  ::
+
+  #sidebar
+  This is a **sidebar slot** within the container!
+
+  - Item one
+  - Item two
+  - Item three
+::
+
+## Code Blocks with Highlighting
+
+```javascript
+// Syntax highlighting example
+function generateTheme(colors, mood) {
+  const { primary, secondary, accent } = colors;
+  return {
+    background: mood === 'dark' ? '#1a1a1a' : '#ffffff',
+    foreground: primary,
+    accent: accent || secondary
+  };
+}
+```
+
+```python
+# Python example
+def calculate_contrast(color1, color2):
+    """Calculate contrast ratio between two colors."""
+    luminance1 = get_relative_luminance(color1)
+    luminance2 = get_relative_luminance(color2)
+    return (max(luminance1, luminance2) + 0.05) / (min(luminance1, luminance2) + 0.05)
+```
+
+## Component with Multiple Named Slots
+
+::tabs{default-tab="preview"}
+  #preview
+  ## Preview Tab
+  This is the **preview** content with full markdown support!
+
+  ::callout{type="info"}
+  Nested component inside a slot!
+  ::
+
+  #code
+  ## Code Tab
+  ```typescript
+  interface ThemeConfig {
+    name: string;
+    colors: ColorScheme;
+    mood: 'lively' | 'serene';
+  }
+  ```
+
+  #settings
+  ## Settings Tab
+  - Enable dark mode
+  - Choose accent color
+  - Select typography scale
+::
+
+## Blockquotes and Lists
+
+> This is a blockquote with **bold** and _italic_ text.
+> It can span multiple lines and include [links](https://example.com).
+
+### Ordered List
+1. First item with `code`
+2. Second item with **emphasis**
+3. Third item with _italics_
+   - Nested unordered item
+   - Another nested item
+
+### Task List
+- [x] Completed task
+- [ ] Pending task with **formatting**
+- [ ] Another task with `inline code`
+
+## Advanced Component Usage
+
+::hero{background="gradient" align="center"}
+# Welcome to MDC
+
+Experience the power of **components** in markdown with full **type safety** and IDE support.
+
+::button-group
+  ::button{variant="primary" size="lg"}
+  Get Started
+  ::
+
+  ::button{variant="secondary" size="lg"}
+  Learn More
+  ::
+::
+
+#image
+![Hero Image](/assets/hero.png)
+
+#caption
+_Beautiful, expressive, and powerful syntax for modern content._
+::
+
+## Inline Components
+
+Here's an inline component: ::badge{color="green"}New::, and another one ::icon{name="star"}:: within the text flow.
+
+You can combine them: This feature is ::badge{color="purple"}Premium:: and rated ::icon{name="star"}::::icon{name="star"}::::icon{name="star"}::::icon{name="star"}::::icon{name="star"}::.
+
+## Table with Formatting
+
+| Feature | Status | Priority |
+|---------|--------|----------|
+| **MDC Support** | ::badge{color="green"}Active:: | High |
+| _Component Props_ | ::badge{color="blue"}Stable:: | Medium |
+| `Nested Slots` | ::badge{color="yellow"}Beta:: | Low |
+
+## Final Complex Example
+
+::article{layout="two-column" theme="elevated"}
+  ::section{sticky="true"}
+  # Main Content
+
+  This is the **main content area** with full markdown support including _emphasis_, `code`, and [links](https://example.com).
+
+  ::video{src="/videos/demo.mp4" autoplay="false"}
+  #caption
+  Video demonstration with custom caption slot
+  ::
+
+  Code example:
+  ```bash
+  npm run watch
+  pnpm install
+  ```
+  ::
+
+  #sidebar
+  ## Sidebar Content
+
+  ::callout{type="tip" icon="💡"}
+  This is a **tip** in the sidebar!
+  ::
+
+  ::list{style="checklist"}
+  - [x] Feature complete
+  - [x] Tests passing
+  - [ ] Documentation
+  ::
+
+  #footer
+  Last updated: **2025-10-15** | Author: _Theme Developer_
+::
+
+---
+
+**That's it!** This showcase demonstrates components, slots, props, nesting, inline formatting, and more. 🎨

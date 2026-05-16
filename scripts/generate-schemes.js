@@ -57,9 +57,7 @@ function resolveReferences(obj, data) {
     if (typeof obj[key] === 'string') {
       obj[key] = obj[key].replace(/\{\{(.+?)\}\}/g, (match, keyPath) => {
         keyPath = keyPath.trim();
-        let refValue = keyPath
-          .split('.')
-          .reduce((acc, k) => acc && acc[k], data);
+        let refValue = keyPath.split('.').reduce((acc, k) => acc && acc[k], data);
         return refValue !== undefined ? refValue : match;
       });
     } else if (typeof obj[key] === 'object' && obj[key] !== null) {

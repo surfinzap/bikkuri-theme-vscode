@@ -1,6 +1,6 @@
 # Header 1
 
-This is some **bold text** and some *italic text*.
+This is some **bold text** and some *italic text* and also an `inline code` or [[link]].
 
 ## Header 2
 
@@ -119,3 +119,19 @@ git checkout main
 git pull origin main
 
 ```
+
+> [!NOTE]
+> This is a note
+
+> [!TIP]
+> This is a tip
+
+> [!IMPORTANT]
+> This is important
+
+> [!WARNING]
+> This is a warning
+
+> [!CAUTION]
+> This is a caution
+

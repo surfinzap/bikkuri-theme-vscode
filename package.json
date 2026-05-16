@@ -4,10 +4,10 @@
   "description": "Set of 10 dark themes for VS Code, including syntax highlighting, debugging, diff/merge and terminal colors.",
   "publisher": "brano",
   "author": "Brano Sandala",
-  "version": "1.0.12",
+  "version": "1.1.6",
   "icon": "assets/bikkuri-icon.png",
   "engines": {
-    "vscode": "^1.91.0"
+    "vscode": "^1.95.0"
   },
   "categories": [
     "Themes"
@@ -23,102 +23,102 @@
     "themes": [
       {
         "label": "Bikkuri (Dark Coal & Lively)",
-        "uiTheme": "vs-dark",
+        "uiTheme": "vs-vs-dark",
         "path": "./dist/bikkuri-dark-coal-lively.json"
       },
       {
         "label": "Bikkuri (Dark Coal & Serene)",
-        "uiTheme": "vs-dark",
+        "uiTheme": "vs-vs-dark",
         "path": "./dist/bikkuri-dark-coal-serene.json"
       },
       {
         "label": "Bikkuri (Dark Moss & Lively)",
-        "uiTheme": "vs-dark",
+        "uiTheme": "vs-vs-dark",
         "path": "./dist/bikkuri-dark-moss-lively.json"
       },
       {
         "label": "Bikkuri (Dark Moss & Serene)",
-        "uiTheme": "vs-dark",
+        "uiTheme": "vs-vs-dark",
         "path": "./dist/bikkuri-dark-moss-serene.json"
       },
       {
         "label": "Bikkuri (Dark Navy & Lively)",
-        "uiTheme": "vs-dark",
+        "uiTheme": "vs-vs-dark",
         "path": "./dist/bikkuri-dark-navy-lively.json"
       },
       {
         "label": "Bikkuri (Dark Navy & Serene)",
-        "uiTheme": "vs-dark",
+        "uiTheme": "vs-vs-dark",
         "path": "./dist/bikkuri-dark-navy-serene.json"
       },
       {
         "label": "Bikkuri (Dark Plum & Lively)",
-        "uiTheme": "vs-dark",
+        "uiTheme": "vs-vs-dark",
         "path": "./dist/bikkuri-dark-plum-lively.json"
       },
       {
         "label": "Bikkuri (Dark Plum & Serene)",
-        "uiTheme": "vs-dark",
+        "uiTheme": "vs-vs-dark",
         "path": "./dist/bikkuri-dark-plum-serene.json"
       },
       {
         "label": "Bikkuri (Dark Warm & Lively)",
-        "uiTheme": "vs-dark",
+        "uiTheme": "vs-vs-dark",
         "path": "./dist/bikkuri-dark-warm-lively.json"
       },
       {
         "label": "Bikkuri (Dark Warm & Serene)",
-        "uiTheme": "vs-dark",
+        "uiTheme": "vs-vs-dark",
         "path": "./dist/bikkuri-dark-warm-serene.json"
       },
       {
         "label": "Bikkuri (Light Coal & Lively)",
-        "uiTheme": "vs",
+        "uiTheme": "vs-vs",
         "path": "./dist/bikkuri-light-coal-lively.json"
       },
       {
         "label": "Bikkuri (Light Coal & Serene)",
-        "uiTheme": "vs",
+        "uiTheme": "vs-vs",
         "path": "./dist/bikkuri-light-coal-serene.json"
       },
       {
         "label": "Bikkuri (Light Moss & Lively)",
-        "uiTheme": "vs",
+        "uiTheme": "vs-vs",
         "path": "./dist/bikkuri-light-moss-lively.json"
       },
       {
         "label": "Bikkuri (Light Moss & Serene)",
-        "uiTheme": "vs",
+        "uiTheme": "vs-vs",
         "path": "./dist/bikkuri-light-moss-serene.json"
       },
       {
         "label": "Bikkuri (Light Navy & Lively)",
-        "uiTheme": "vs",
+        "uiTheme": "vs-vs",
         "path": "./dist/bikkuri-light-navy-lively.json"
       },
       {
         "label": "Bikkuri (Light Navy & Serene)",
-        "uiTheme": "vs",
+        "uiTheme": "vs-vs",
         "path": "./dist/bikkuri-light-navy-serene.json"
       },
       {
         "label": "Bikkuri (Light Plum & Lively)",
-        "uiTheme": "vs",
+        "uiTheme": "vs-vs",
         "path": "./dist/bikkuri-light-plum-lively.json"
       },
       {
         "label": "Bikkuri (Light Plum & Serene)",
-        "uiTheme": "vs",
+        "uiTheme": "vs-vs",
         "path": "./dist/bikkuri-light-plum-serene.json"
       },
       {
         "label": "Bikkuri (Light Warm & Lively)",
-        "uiTheme": "vs",
+        "uiTheme": "vs-vs",
         "path": "./dist/bikkuri-light-warm-lively.json"
       },
       {
         "label": "Bikkuri (Light Warm & Serene)",
-        "uiTheme": "vs",
+        "uiTheme": "vs-vs",
         "path": "./dist/bikkuri-light-warm-serene.json"
       }
     ]
@@ -141,16 +141,21 @@
     "isPreReleaseVersion": false
   },
   "scripts": {
+    "prepare": "husky",
     "watch": "gulp watch",
-    "fetch": "node scripts/fetch-vs-code-vars.js"
+    "fetch": "node scripts/fetch-vs-code-vars.js",
+    "format": "prettier --write \"src/**/*.json\" \"scripts/**/*.js\"",
+    "format:check": "prettier --check \"src/**/*.json\" \"scripts/**/*.js\""
   },
   "devDependencies": {
-    "@vscode/vsce": "^2.31.1",
-    "axios": "^1.7.2",
-    "cheerio": "^1.0.0-rc.12",
+    "@vscode/vsce": "^3.9.1",
+    "axios": "^1.16.1",
+    "cheerio": "^1.2.0",
     "child_process": "^1.0.2",
-    "gulp": "^5.0.0",
+    "gulp": "^5.0.1",
     "gulp-watch": "^5.0.1",
-    "json5": "^2.2.3"
+    "husky": "^9.1.7",
+    "json5": "^2.2.3",
+    "prettier": "^3.8.3"
   }
 }

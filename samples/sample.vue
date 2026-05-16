@@ -3,6 +3,7 @@
     h1 Nuxt.js Example
     p Welcome to my Nuxt.js example page!
     button(@click="increment") Click me
+      p Inline text #[a(href='https://www.example.com/link/') and link]
 
     div.card
       h2 Card Title
@@ -31,21 +32,21 @@
 export default {
   data() {
     return {
-      count: 0
-    }
+      count: 0,
+    };
   },
   methods: {
     increment() {
-      this.count++
+      this.count++;
     },
     openHelp() {
       this.showHelp = true;
-      let element = document.querySelector('body')
-      element.classList.add('freeze-scroll')
+      let element = document.querySelector('body');
+      element.classList.add('freeze-scroll');
       sa_event('openHelp');
     },
-  }
-}
+  },
+};
 </script>
 
 <style lang="scss">

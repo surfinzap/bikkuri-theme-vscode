@@ -6,13 +6,23 @@ const json5 = require('json5');
 /* file paths */
 const vscodeVarsPath = 'temp/vs-code-vars.txt';
 const templatePath = 'src/templates/bikkuri.mustache';
-const outputPath = 'temp/missing-vars.txt';
+const missingVarsPath = 'temp/missing-vars.txt';
+const extraVarsPath = 'temp/extra-vars.txt';
 
 async function fetchVSCodeThemeColors() {
   try {
-    const response = await axios.get(
-      'https://code.visualstudio.com/api/references/theme-color'
-    );
+    const response = await axios.get('https://code.visualstudio.com/api/references/theme-color', {
+      headers: {
+        'User-Agent':
+          'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+        Accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+        'Accept-Encoding': 'gzip, deflate, br',
+        Connection: 'keep-alive',
+        Referer: 'https://code.visualstudio.com/',
+        Host: 'code.visualstudio.com',
+      },
+    });
+
     const $ = cheerio.load(response.data);
 
     let vars = [];
@@ -35,7 +45,6 @@ async function fetchVSCodeThemeColors() {
   }
 }
 
-
 function extractJsonKeys(jsonContent) {
   try {
     const data = json5.parse(jsonContent);
@@ -54,6 +63,10 @@ function findMissingVars(vscodeVars, jsonVars) {
   return vscodeVars.filter((varName) => !jsonVars.includes(varName));
 }
 
+function findExtraVars(vscodeVars, jsonVars) {
+  return jsonVars.filter((varName) => !vscodeVars.includes(varName));
+}
+
 function removeDeprecatedVars(vscodeVars) {
   const deprecatedVars = [
     'editorIndentGuide.background',
@@ -65,18 +78,20 @@ function removeDeprecatedVars(vscodeVars) {
   return vscodeVars.filter((varName) => !deprecatedVars.includes(varName));
 }
 
-
 async function main() {
-
   await fetchVSCodeThemeColors();
   const vscodeVars = readVarsFromFile(vscodeVarsPath);
   const jsonContent = fs.readFileSync(templatePath, 'utf8');
   const jsonVars = extractJsonKeys(jsonContent);
+
   let missingVars = findMissingVars(vscodeVars, jsonVars);
   missingVars = removeDeprecatedVars(missingVars);
+  fs.writeFileSync(missingVarsPath, missingVars.join('\n'));
+  console.log(`Missing variables written to ${missingVarsPath}`);
 
-  fs.writeFileSync(outputPath, missingVars.join('\n'));
-  console.log(`Missing variables written to ${outputPath}`);
+  const extraVars = findExtraVars(vscodeVars, jsonVars);
+  fs.writeFileSync(extraVarsPath, extraVars.join('\n'));
+  console.log(`Extra variables written to ${extraVarsPath}`);
 }
 
 main();
