@@ -1,4 +1,7 @@
-{
+{ 
+  "comments": {
+    "grays": "have 97 lightness in #10s"
+  },
   "palette": {
     "items": [
       {
@@ -44,7 +47,7 @@
             "name": "Gray Moss",
             "hue": 90,
             "saturation": 10,
-            "localAdjustments": [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+            "localAdjustments": [{}, {}, {}, {}, {}, {}, {}, {}, {}, { "saturation": 2 }]
           },
           {
             "name": "Red High",
