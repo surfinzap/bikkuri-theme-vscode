@@ -20,8 +20,8 @@
     "none": "{{ surface.base }}{{ opacity.none }}"
   },
   "text": {
-    "base": "{{ tint.80 }}",
-    "mid": "{{ tint.60 }}",
+    "base": "{{ tint.90 }}",
+    "mid": "{{ tint.70 }}",
     "dim": "{{ tint.50 }}",
     "disabled": "{{ tint.40 }}",
     "on-ui": "{{ tint.100 }}",
@@ -56,7 +56,7 @@
     "text-hover": "{{ blue.40 }}"
   },
   "badge": {
-    "bg": "{{ tint.30 }}",
+    "bg": "{{ tint.20 }}",
     "text": "{{ text.on-ui }}"
   },
   "ui": {
