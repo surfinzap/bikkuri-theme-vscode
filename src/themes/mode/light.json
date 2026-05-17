@@ -9,21 +9,21 @@
     "yellow": "#ffff00"
   },
   "surface": {
-    "sunken": "{{ tint.20 }}",
+    "sunken": "{{ tint.20 }}{{ opacity.high }}",
     "base": "{{ tint.10 }}",
     "raised": {
       "min": "{{ tint.30 }}{{ opacity.low }}",
       "low": "{{ tint.30 }}{{ opacity.mid-low }}",
-      "mid": "{{ tint.30 }}{{ opacity.mid }}",
-      "high": "{{ tint.30 }}{{ opacity.mid-high }}"
+      "mid": "{{ tint.30 }}{{ opacity.mid-low }}",
+      "high": "{{ tint.30 }}{{ opacity.mid }}"
     },
     "none": "{{ surface.base }}{{ opacity.none }}"
   },
   "text": {
-    "base": "{{ tint.90 }}",
-    "mid": "{{ tint.70 }}",
-    "dim": "{{ tint.50 }}",
-    "disabled": "{{ tint.40 }}",
+    "base": "{{ tint.100 }}",
+    "mid": "{{ tint.80 }}",
+    "dim": "{{ tint.60 }}",
+    "disabled": "{{ tint.50 }}",
     "on-ui": "{{ tint.100 }}",
     "none": "{{ surface.base }}{{ opacity.none }}"
   },
