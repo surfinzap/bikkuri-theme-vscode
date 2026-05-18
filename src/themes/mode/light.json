@@ -9,7 +9,7 @@
     "yellow": "#ffff00"
   },
   "surface": {
-    "sunken": "{{ tint.20 }}{{ opacity.high }}",
+    "sunken": "{{ tint.20 }}",
     "base": "{{ tint.10 }}",
     "raised": {
       "min": "{{ tint.30 }}{{ opacity.low }}",

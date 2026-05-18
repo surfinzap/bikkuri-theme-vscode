@@ -1,6 +1,7 @@
 {
   "comments": {
-    "grays": "have 97 lightness in #10s"
+    "gray-10s": "have 97 lightness (the rest is 96.2)",
+    "gray-20s": "have 91 lightness (the rest is 89.2)"
   },
   "palette": {
     "items": [
@@ -47,7 +48,18 @@
             "name": "Gray Moss",
             "hue": 90,
             "saturation": 10,
-            "localAdjustments": [{}, {}, {}, {}, {}, {}, {}, {}, {}, { "saturation": 2 }]
+            "localAdjustments": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              { "saturation": 5 },
+              { "saturation": 2 }
+            ]
           },
           {
             "name": "Red High",
@@ -207,23 +219,6 @@
               {},
               { "saturation": 25 },
               { "saturation": 25 }
-            ]
-          },
-          {
-            "name": "Emerald High",
-            "hue": 140,
-            "saturation": 90,
-            "localAdjustments": [
-              {},
-              {},
-              {},
-              {},
-              {},
-              {},
-              {},
-              { "saturation": 80 },
-              { "saturation": 65 },
-              { "saturation": 60 }
             ]
           },
           {
@@ -421,8 +416,11 @@
             "localAdjustments": [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
           }
         ],
-        "lightnessSteps": [10, 15.2, 24, 34.9, 46.8, 58.6, 68.9, 79.9, 89.2, 96.2],
-        "swatchNamingSettings": { "swatchNamingOption": 0, "swatchNamingOrder": "desc" },
+        "lightnessSteps": [10, 15.2, 24, 34.9, 46.8, 58.6, 68.9, 79.9, 91, 97],
+        "swatchNamingSettings": {
+          "swatchNamingOption": 0,
+          "swatchNamingOrder": "desc"
+        },
         "exportSettings": { "outputFormat": "figma" },
         "semanticFamilies": {
           "neutral": 3,
