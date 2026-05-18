@@ -42,8 +42,8 @@
     */
     "textBlockQuote.background": "#e7e5e5",
     "textBlockQuote.border":     "#c9c5c6",
-    "textLink.foreground":       "#6192bb",
-    "textLink.activeForeground": "#75aedd",
+    "textLink.foreground":       "#4c7394",
+    "textLink.activeForeground": "#37556e",
     "textCodeBlock.background":  "#e7e5e5",
     "textPreformat.foreground":  "#d664af",
     "textPreformat.background":  "#e7e5e5",
@@ -55,10 +55,10 @@
 
        https://code.visualstudio.com/api/references/theme-color#button-control
     */
-    "button.background":                 "#68b5b3",
-    "button.foreground":                 "#1e1b1b",
+    "button.background":                 "#437877",
+    "button.foreground":                 "#f7f6f6",
     "button.hoverBackground":            "#579896",
-    "button.separator":                  "#68b5b3",
+    "button.separator":                  "#437877",
       // secondary button → notification to install recommended extensions
     "button.secondaryBackground":        "#c9c5c64d",
     "button.secondaryForeground":        "#1e1b1b",
@@ -102,8 +102,8 @@
        - active icons in inputs
        - checkboxes in "Profiles: Show Profile Contents"
     */
-    "inputOption.activeBackground":           "#68b5b3", 
-    "inputOption.activeForeground":           "#1e1b1b",
+    "inputOption.activeBackground":           "#437877", 
+    "inputOption.activeForeground":           "#f7f6f6",
     "inputOption.hoverBackground":            "#c9c5c680",  
     "inputOption.activeBorder":               "#f7f6f600", //cannot be null
     "inputValidation.errorBackground":        "#e7e5e5",
@@ -127,8 +127,8 @@
 
     /* Badge
     */
-    "badge.background":                       "#e7e5e5",
-    "badge.foreground":                       "#1e1b1b",
+    "badge.background":                       "#786c6e",
+    "badge.foreground":                       "#f7f6f6",
 
     /* Progress bar
     */
@@ -267,12 +267,12 @@
     "activityBar.foreground":            "#1e1b1b",
     "activityBar.inactiveForeground":    "#958a8c",             //icon colors
     "activityBar.border":                "#c9c5c6",
-    "activityBarBadge.background":       "#e7e5e5",
-    "activityBarBadge.foreground":       "#1e1b1b",
+    "activityBarBadge.background":       "#786c6e",
+    "activityBarBadge.foreground":       "#f7f6f6",
     "activityWarningBadge.foreground":   "#e9c07d",
-    "activityWarningBadge.background":   "#1e1b1b",
+    "activityWarningBadge.background":   "#f7f6f6",
     "activityErrorBadge.foreground":     "#e06578",
-    "activityErrorBadge.background":     "#1e1b1b",
+    "activityErrorBadge.background":     "#f7f6f6",
     "activityBar.activeBorder":          "#958a8c",
     "activityBar.activeBackground":      "#c9c5c64d",
     "activityBar.activeFocusBorder":     "#f7f6f600",
@@ -283,8 +283,8 @@
     "activityBarTop.inactiveForeground": "#786c6e",
     "activityBarTop.dropBorder":         "#958a8c",
     "sideBarActivityBarTop.border":      "#c9c5c6",
-    "profileBadge.background":           "#e7e5e5",
-    "profileBadge.foreground":           "#1e1b1b",
+    "profileBadge.background":           "#786c6e",
+    "profileBadge.foreground":           "#f7f6f6",
     "profiles.sashBorder":               "#c9c5c6",
 
 
@@ -391,14 +391,14 @@
     "statusBar.noFolderForeground":           "#3e3839",
     "statusBar.border":                       "#c9c5c6",
     "statusBar.debuggingBackground":          "#8e7eea",
-    "statusBar.debuggingForeground":          "#1e1b1b",
+    "statusBar.debuggingForeground":          "#f7f6f6",
     "statusBar.debuggingBorder":              "#c9c5c6",
     "statusBar.noFolderBackground":           "#f7f6f6",
     "statusBar.noFolderBorder":               "#c9c5c6",
     "statusBarItem.activeBackground":         "#c9c5c64d",
     "statusBarItem.hoverBackground":          "#c9c5c680",
-    "statusBarItem.prominentForeground":      "#1e1b1b",
-    "statusBarItem.prominentHoverForeground": "#1e1b1b",
+    "statusBarItem.prominentForeground":      "#f7f6f6",
+    "statusBarItem.prominentHoverForeground": "#f7f6f6",
     "statusBarItem.prominentBackground":      "#8e7eea",
     "statusBarItem.prominentHoverBackground": "#a99ef0",
     "statusBarItem.remoteBackground":         "#e7e5e5",
@@ -406,17 +406,17 @@
     "statusBarItem.remoteHoverBackground":    "#c9c5c680",
     "statusBarItem.remoteHoverForeground":    "#1e1b1b",
     "statusBarItem.errorBackground":          "#e06578",
-    "statusBarItem.errorForeground":          "#1e1b1b",
+    "statusBarItem.errorForeground":          "#f7f6f6",
     "statusBarItem.errorHoverBackground":     "#e6909b",
-    "statusBarItem.errorHoverForeground":     "#1e1b1b",
+    "statusBarItem.errorHoverForeground":     "#f7f6f6",
     "statusBarItem.warningBackground":        "#e9c07d",
-    "statusBarItem.warningForeground":        "#1e1b1b",
+    "statusBarItem.warningForeground":        "#f7f6f6",
     "statusBarItem.warningHoverBackground":   "#f5ddbb",
-    "statusBarItem.warningHoverForeground":   "#1e1b1b",
+    "statusBarItem.warningHoverForeground":   "#f7f6f6",
     "statusBarItem.offlineBackground":        "#e9c07d",
-    "statusBarItem.offlineForeground":        "#1e1b1b",
+    "statusBarItem.offlineForeground":        "#f7f6f6",
     "statusBarItem.offlineHoverBackground":   "#f5ddbb",
-    "statusBarItem.offlineHoverForeground":   "#1e1b1b",
+    "statusBarItem.offlineHoverForeground":   "#f7f6f6",
     "statusBarItem.compactHoverBackground":   "#c9c5c6b3",
     "statusBarItem.focusBorder":              "#c9c5c6",
     "statusBar.focusBorder":                  "#c9c5c6",
@@ -503,8 +503,8 @@
     "panelTitle.activeForeground":       "#1e1b1b",
     "panelTitle.inactiveForeground":     "#786c6e",
     "panelTitle.border":                 "#f7f6f600",
-    "panelTitleBadge.background":        "#e7e5e5",
-    "panelTitleBadge.foreground":        "#1e1b1b",
+    "panelTitleBadge.background":        "#786c6e",
+    "panelTitleBadge.foreground":        "#f7f6f6",
     "panelInput.border":                 "#aea6a8",
     "panelSection.border":               "#c9c5c6",
     "panelSection.dropBackground":       "#c9c5c64d",
@@ -583,11 +583,11 @@
 
     "editorWhitespace.foreground":            "#958a8c",
     "editorCursor.foreground":                "#3e3839",
-    "editorCursor.background":                "#1e1b1b",
+    "editorCursor.background":                "#f7f6f6",
     "editorMultiCursor.primary.foreground":   "#3e3839",
-    "editorMultiCursor.primary.background":   "#1e1b1b",
+    "editorMultiCursor.primary.background":   "#f7f6f6",
     "editorMultiCursor.secondary.foreground": "#3e3839",
-    "editorMultiCursor.secondary.background": "#1e1b1b",
+    "editorMultiCursor.secondary.background": "#f7f6f6",
     "editor.placeholder.foreground":          "#3e3839",
     "editor.compositionBorder":               "#f7f6f600",
 
@@ -621,10 +621,10 @@
 
     /* requires e.g. GitHub pull requests extension to preview these comment ranges */
     "editorGutter.commentRangeForeground":           "#c9c5c64d",
-    "editorGutter.commentUnresolvedGlyphForeground": "#1e1b1b",
-    "editorGutter.commentGlyphForeground":           "#1e1b1b",
+    "editorGutter.commentUnresolvedGlyphForeground": "#f7f6f6",
+    "editorGutter.commentGlyphForeground":           "#f7f6f6",
     "editorGutter.commentDraftGlyphForeground":      "#e9c07d",
-    "editorGutter.itemGlyphForeground":              "#1e1b1b",
+    "editorGutter.itemGlyphForeground":              "#f7f6f6",
     "editorGutter.itemBackground":                   "#c9c5c64d",
     "editorCommentsWidget.unresolvedBorder":         "#caa263",
     "editorCommentsWidget.resolvedBorder":           "#569b6f",
@@ -892,7 +892,7 @@
     "editor.focusedStackFrameHighlightBackground": "#c9c5c64d",
     "editor.inlineValuesForeground":               "#3e3839",
     "editor.inlineValuesBackground":               "#f7f6f600",
-    "debugView.exceptionLabelForeground":          "#1e1b1b",
+    "debugView.exceptionLabelForeground":          "#f7f6f6",
     "debugView.exceptionLabelBackground":          "#c14258",
     "debugView.stateLabelForeground":              "#1e1b1b",
     "debugView.stateLabelBackground":              "#e7e5e5",
@@ -969,11 +969,11 @@
     "testing.uncoveredBackground":                "#65222d4d",
     "testing.uncoveredGutterBackground":          "#65222d4d",
     "testing.uncoveredBorder":                    "#f7f6f600",
-    "testing.coverCountBadgeBackground":          "#e7e5e5",
-    "testing.coverCountBadgeForeground":          "#1e1b1b",
+    "testing.coverCountBadgeBackground":          "#786c6e",
+    "testing.coverCountBadgeForeground":          "#f7f6f6",
     "testing.message.error.badgeBackground":      "#65222d4d",
     "testing.message.error.badgeBorder":          "#e06578",
-    "testing.message.error.badgeForeground":      "#1e1b1b",
+    "testing.message.error.badgeForeground":      "#f7f6f6",
 
 
 
@@ -1095,7 +1095,7 @@
     "notifications.foreground":              "#1e1b1b",
     "notifications.background":              "#f7f6f6",
     "notifications.border":                  "#c9c5c6",
-    "notificationLink.foreground":           "#6192bb",
+    "notificationLink.foreground":           "#4c7394",
     "notificationsErrorIcon.foreground":     "#e06578",
     "notificationsWarningIcon.foreground":   "#e9c07d",
     "notificationsInfoIcon.foreground":      "#75aedd",
@@ -1110,23 +1110,23 @@
        https://code.visualstudio.com/api/references/theme-color#banner-colors
     */ 
     "banner.background":     "#a99ef0",
-    "banner.foreground":     "#1e1b1b",
-    "banner.iconForeground": "#1e1b1b",
+    "banner.foreground":     "#f7f6f6",
+    "banner.iconForeground": "#f7f6f6",
 
 
 
     /* Extensions
     */
-    "extensionButton.prominentForeground":      "#1e1b1b",
-    "extensionButton.prominentBackground":      "#68b5b3",
+    "extensionButton.prominentForeground":      "#f7f6f6",
+    "extensionButton.prominentBackground":      "#437877",
     "extensionButton.prominentHoverBackground": "#579896",
-    "extensionButton.background":               "#68b5b3",
-    "extensionButton.foreground":               "#1e1b1b",
+    "extensionButton.background":               "#437877",
+    "extensionButton.foreground":               "#f7f6f6",
     "extensionButton.hoverBackground":          "#579896",
     "extensionButton.separator":                "#aea6a8",
     "extensionButton.border":                   "#f7f6f600",
-    "extensionBadge.remoteBackground":          "#e7e5e5",
-    "extensionBadge.remoteForeground":          "#1e1b1b",
+    "extensionBadge.remoteBackground":          "#786c6e",
+    "extensionBadge.remoteForeground":          "#f7f6f6",
     "extensionIcon.starForeground": "#958a8c",
     "extensionIcon.verifiedForeground":         "#68b985",
     "extensionIcon.preReleaseForeground":       "#6192bb",

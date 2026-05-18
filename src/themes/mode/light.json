@@ -24,7 +24,7 @@
     "mid": "{{ tint.80 }}",
     "dim": "{{ tint.60 }}",
     "disabled": "{{ tint.50 }}",
-    "on-ui": "{{ tint.100 }}",
+    "on-ui": "{{ tint.10 }}",
     "none": "{{ surface.base }}{{ opacity.none }}"
   },
   "icon": {
@@ -40,7 +40,7 @@
   },
   "button": {
     "primary": {
-      "bg": "{{ teal.40 }}",
+      "bg": "{{ teal.60 }}",
       "bg-hover": "{{ teal.50 }}",
       "text": "{{ text.on-ui }}"
     },
@@ -51,11 +51,11 @@
     }
   },
   "link": {
-    "text": "{{ blue.50 }}",
-    "text-hover": "{{ blue.40 }}"
+    "text": "{{ blue.60 }}",
+    "text-hover": "{{ blue.70 }}"
   },
   "badge": {
-    "bg": "{{ tint.20 }}",
+    "bg": "{{ tint.60 }}",
     "text": "{{ text.on-ui }}"
   },
   "ui": {
