@@ -14,8 +14,8 @@
     "raised": {
       "min": "{{ tint.30 }}{{ opacity.low }}",
       "low": "{{ tint.30 }}{{ opacity.mid-low }}",
-      "mid": "{{ tint.30 }}{{ opacity.mid-low }}",
-      "high": "{{ tint.30 }}{{ opacity.mid }}"
+      "mid": "{{ tint.30 }}{{ opacity.mid }}",
+      "high": "{{ tint.30 }}{{ opacity.mid-high }}"
     },
     "none": "{{ surface.base }}{{ opacity.none }}"
   },
@@ -28,10 +28,9 @@
     "none": "{{ surface.base }}{{ opacity.none }}"
   },
   "icon": {
-    "tbd": "tbd",
-    "base": "{{ tint.40 }}",
+    "base": "{{ tint.80 }}",
     "mid": "{{ tint.60 }}",
-    "dim": "{{ tint.70 }}"
+    "dim": "{{ tint.50 }}"
   },
   "border": {
     "base": "{{ tint.50 }}",
