@@ -132,7 +132,7 @@
 
     /* Progress bar
     */
-    "progressBar.background":                 "#68b5b3",
+    "progressBar.background":                 "#75aedd",
 
     /* Title Bar
     */
@@ -215,7 +215,7 @@
     "list.dropBetweenBackground":           "#4e5163",
     "list.filterMatchBackground":           "#4e5163b3",
     "list.focusHighlightForeground":        "#75aedd",
-    "list.focusOutline":                    "#1a1b2300",
+    "list.focusOutline":                    "#1a1b2300",    
     "list.highlightForeground":             "#75aedd",
     "list.invalidItemForeground":           "#c14258",
     "list.activeSelectionIconForeground":   "#a5a8b6",
@@ -370,7 +370,7 @@
     "editorOverviewRuler.infoForeground":                "#6192bb",
     "editorOverviewRuler.modifiedForeground":            "#caa263",
     "editorOverviewRuler.rangeHighlightForeground":      "#6192bb",
-    "editorOverviewRuler.selectionHighlightForeground":  "#68b5b3",
+    "editorOverviewRuler.selectionHighlightForeground":  "#a99ef0",
     "editorOverviewRuler.warningForeground":             "#caa263",
     "editorOverviewRuler.wordHighlightForeground":       "#6a6e85",
     "editorOverviewRuler.wordHighlightTextForeground":   "#a99ef0",
@@ -543,8 +543,8 @@
     "editor.selectionHighlightBorder":        "#75aedd",
     // current match
     "editor.findMatchBackground":             "#1a1b2300",
-    "editor.findMatchForeground":             "#68b5b3",
-    "editor.findMatchHighlightBorder":        "#579896",
+    "editor.findMatchForeground":             "#a99ef0",
+    "editor.findMatchHighlightBorder":        "#8e7eea",
     "editor.findMatchHighlightForeground":    "#f5ddbb",
     "editor.findMatchBorder":                 "#caa263",
     // other matches
@@ -636,9 +636,9 @@
     "inlineEdit.gutterIndicator.primaryForeground":    "#a99ef0",
     "inlineEdit.gutterIndicator.primaryBackground":    "#24262f",
     "inlineEdit.gutterIndicator.primaryBorder":        "#a99ef0",
-    "inlineEdit.gutterIndicator.secondaryForeground":  "#68b5b3",
+    "inlineEdit.gutterIndicator.secondaryForeground":  "#a99ef0",
     "inlineEdit.gutterIndicator.secondaryBackground":  "#24262f",
-    "inlineEdit.gutterIndicator.secondaryBorder":      "#68b5b3",
+    "inlineEdit.gutterIndicator.secondaryBorder":      "#a99ef0",
     "inlineEdit.gutterIndicator.successfulForeground": "#68b985",
     "inlineEdit.gutterIndicator.successfulBackground": "#24262f",
     "inlineEdit.gutterIndicator.successfulBorder":     "#68b985",
@@ -764,7 +764,7 @@
     "chat.requestBubbleBackground": "#4e51634d",
     "chat.requestBubbleHoverBackground": "#4e516380",
     "chat.checkpointSeparator": "#363846",
-    "chat.thinkingShimmer":     "#57989680",
+    "chat.thinkingShimmer":     "#8e7eea",
     "chatManagement.sashBorder": "#363846",
 
     "inlineChat.background":                 "#24262f",
@@ -787,12 +787,12 @@
     "merge.border":                                        "#1a1b2300",
     "merge.currentHeaderBackground":                       "#8e7eea4d",
     "merge.currentContentBackground":                      "#8e7eea1f",
-    "merge.incomingHeaderBackground":                      "#5798964d",
-    "merge.incomingContentBackground":                     "#5798961f",
+    "merge.incomingHeaderBackground":                      "#8e7eea4d",
+    "merge.incomingContentBackground":                     "#8e7eea1f",
     "merge.commonContentBackground":                       "#1a1b2300",
     "merge.commonHeaderBackground":                        "#1a1b2300",
     "editorOverviewRuler.currentContentForeground":        "#8e7eea4d",
-    "editorOverviewRuler.incomingContentForeground":       "#5798964d",
+    "editorOverviewRuler.incomingContentForeground":       "#8e7eea4d",
     "editorOverviewRuler.commonContentForeground":         "#1a1b2300",
     "editorOverviewRuler.commentForeground":               "#569b6f4d",
     "editorOverviewRuler.commentUnresolvedForeground":     "#caa2634d",
@@ -1062,11 +1062,11 @@
     "terminalStickyScroll.border":                   "#1a1b2300",
     "terminal.initialHintForeground":                "#898c9f",
     "terminalOverviewRuler.border":                  "#1a1b2300",
-    "terminalCommandGuide.foreground":               "#579896",
+    "terminalCommandGuide.foreground":               "#8e7eea",
     "terminalSymbolIcon.aliasForeground":              "#a99ef0",
     "terminalSymbolIcon.flagForeground":               "#e9c07d",
-    "terminalSymbolIcon.symbolicLinkFolderForeground": "#68b5b3",
-    "terminalSymbolIcon.symbolicLinkFileForeground":   "#68b5b3",
+    "terminalSymbolIcon.symbolicLinkFolderForeground": "#a99ef0",
+    "terminalSymbolIcon.symbolicLinkFileForeground":   "#a99ef0",
     "terminalSymbolIcon.optionForeground":             "#6a6e85",
     "terminalSymbolIcon.optionValueForeground":        "#6a6e85",
     "terminalSymbolIcon.methodForeground":             "#6a6e85",
@@ -1268,7 +1268,7 @@
        - https://code.visualstudio.com/assets/updates/1_98/copilot-status.png
        - https://code.visualstudio.com/updates/v1_98#_copilot-status-overview-experimental
     */
-    "gauge.background":        "#68b5b3",
+    "gauge.background":        "#a99ef0",
     "gauge.foreground":        "#24262f",
     "gauge.border":            "#1a1b2300",
     "gauge.warningBackground": "#e9c07d",

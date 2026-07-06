@@ -132,7 +132,7 @@
 
     /* Progress bar
     */
-    "progressBar.background":                 "#227b79",
+    "progressBar.background":                 "#2675a5",
 
     /* Title Bar
     */
@@ -215,7 +215,7 @@
     "list.dropBetweenBackground":           "#a8a99f",
     "list.filterMatchBackground":           "#c6c7bbb3",
     "list.focusHighlightForeground":        "#2675a5",
-    "list.focusOutline":                    "#f6f7f400",
+    "list.focusOutline":                    "#f6f7f400",    
     "list.highlightForeground":             "#2675a5",
     "list.invalidItemForeground":           "#cc3453",
     "list.activeSelectionIconForeground":   "#393935",
@@ -764,7 +764,7 @@
     "chat.requestBubbleBackground": "#c6c7bb4d",
     "chat.requestBubbleHoverBackground": "#c6c7bb80",
     "chat.checkpointSeparator": "#c6c7bb",
-    "chat.thinkingShimmer":     "#175b5a80",
+    "chat.thinkingShimmer":     "#175b5a",
     "chatManagement.sashBorder": "#c6c7bb",
 
     "inlineChat.background":                 "#e5e6e0",
