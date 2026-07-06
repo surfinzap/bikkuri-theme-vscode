@@ -11,6 +11,12 @@ Removed
 Fixed
 Security
 
+## [2.0.0] — 2026-
+
+### Changed
+- primary button: teal → blue
+
+
 
 ## [1.1.6] — 2026-05-16
 
@@ -18,8 +24,6 @@ Security
 - foreground color (violet) for matching brackets
 - new variables introduced in VS Code
 
-### Changed
-- primary button: teal → blue
 
 ### Maintenance
 - update dependencies to their latest versions
