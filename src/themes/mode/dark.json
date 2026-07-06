@@ -40,8 +40,8 @@
   },
   "button": {
     "primary": {
-      "bg": "{{ teal.50 }}",
-      "bg-hover": "{{ teal.40 }}",
+      "bg": "{{ blue.50 }}",
+      "bg-hover": "{{ blue.40 }}",
       "text": "{{ text.on-ui }}"
     },
     "secondary": {

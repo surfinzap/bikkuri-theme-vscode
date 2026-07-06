@@ -18,6 +18,9 @@ Security
 - foreground color (violet) for matching brackets
 - new variables introduced in VS Code
 
+### Changed
+- primary button: teal → blue
+
 ### Maintenance
 - update dependencies to their latest versions
 

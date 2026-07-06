@@ -40,8 +40,8 @@
   },
   "button": {
     "primary": {
-      "bg": "{{ teal.60 }}",
-      "bg-hover": "{{ teal.50 }}",
+      "bg": "{{ blue.60 }}",
+      "bg-hover": "{{ blue.70 }}",
       "text": "{{ text.on-ui }}"
     },
     "secondary": {
@@ -61,16 +61,16 @@
   "ui": {
     "ui-tbd": "finish",
     "accent1": {
-      "base": "{{ blue.50 }}",
-      "mid": "{{ blue.60 }}"
+      "base": "{{ blue.60 }}",
+      "mid": "{{ blue.70 }}"
     },
     "accent2": {
-      "base": "{{ violet.40 }}",
-      "mid": "{{ violet.50 }}"
+      "base": "{{ violet.60 }}",
+      "mid": "{{ violet.70 }}"
     },
     "accent3": {
-      "base": "{{ teal.40 }}",
-      "mid": "{{ teal.50 }}"
+      "base": "{{ teal.60 }}",
+      "mid": "{{ teal.70 }}"
     },
     "success": {
       "base": "{{ emerald.40 }}",
@@ -100,32 +100,32 @@
       "dim": "{{ red.70 }}"
     },
     "02": {
-      "base": "{{ orange.50 }}",
-      "dim": "{{ orange.60 }}"
+      "base": "{{ orange.60 }}",
+      "dim": "{{ orange.70 }}"
     },
     "03": {
-      "base": "{{ yellow.40 }}",
-      "dim": "{{ yellow.50 }}"
+      "base": "{{ yellow.50 }}",
+      "dim": "{{ yellow.60 }}"
     },
     "04": {
-      "base": "{{ emerald.50 }}",
-      "dim": "{{ emerald.60 }}"
+      "base": "{{ emerald.60 }}",
+      "dim": "{{ emerald.70 }}"
     },
     "05": {
-      "base": "{{ teal.50 }}",
-      "dim": "{{ teal.60 }}"
+      "base": "{{ teal.60 }}",
+      "dim": "{{ teal.70 }}"
     },
     "06": {
-      "base": "{{ blue.50 }}",
-      "dim": "{{ blue.60 }}"
+      "base": "{{ blue.60 }}",
+      "dim": "{{ blue.70 }}"
     },
     "07": {
-      "base": "{{ violet.50 }}",
-      "dim": "{{ violet.60 }}"
+      "base": "{{ violet.60 }}",
+      "dim": "{{ violet.70 }}"
     },
     "08": {
-      "base": "{{ pink.50 }}",
-      "dim": "{{ pink.60 }}"
+      "base": "{{ pink.60 }}",
+      "dim": "{{ pink.70 }}"
     }
   }
 }

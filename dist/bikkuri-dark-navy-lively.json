@@ -55,10 +55,10 @@
 
        https://code.visualstudio.com/api/references/theme-color#button-control
     */
-    "button.background":                 "#579896",
+    "button.background":                 "#6192bb",
     "button.foreground":                 "#1a1b23",
-    "button.hoverBackground":            "#68b5b3",
-    "button.separator":                  "#579896",
+    "button.hoverBackground":            "#75aedd",
+    "button.separator":                  "#6192bb",
       // secondary button → notification to install recommended extensions
     "button.secondaryBackground":        "#4e51634d",
     "button.secondaryForeground":        "#e4e5e9",
@@ -102,7 +102,7 @@
        - active icons in inputs
        - checkboxes in "Profiles: Show Profile Contents"
     */
-    "inputOption.activeBackground":           "#579896", 
+    "inputOption.activeBackground":           "#6192bb", 
     "inputOption.activeForeground":           "#1a1b23",
     "inputOption.hoverBackground":            "#4e516380",  
     "inputOption.activeBorder":               "#1a1b2300", //cannot be null
@@ -1118,11 +1118,11 @@
     /* Extensions
     */
     "extensionButton.prominentForeground":      "#1a1b23",
-    "extensionButton.prominentBackground":      "#579896",
-    "extensionButton.prominentHoverBackground": "#68b5b3",
-    "extensionButton.background":               "#579896",
+    "extensionButton.prominentBackground":      "#6192bb",
+    "extensionButton.prominentHoverBackground": "#75aedd",
+    "extensionButton.background":               "#6192bb",
     "extensionButton.foreground":               "#1a1b23",
-    "extensionButton.hoverBackground":          "#68b5b3",
+    "extensionButton.hoverBackground":          "#75aedd",
     "extensionButton.separator":                "#4e5163",
     "extensionButton.border":                   "#1a1b2300",
     "extensionBadge.remoteBackground":          "#898c9f",
