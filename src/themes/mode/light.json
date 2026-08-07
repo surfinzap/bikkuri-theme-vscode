@@ -60,17 +60,17 @@
   },
   "ui": {
     "accent1": {
-      "base": "{{ blue.60 }}",
-      "mid": "{{ blue.70 }}"
+      "base": "{{ blue.70 }}",
+      "mid": "{{ blue.60 }}"
     },
     "accent2": {
-      "base": "{{ violet.60 }}",
-      "mid": "{{ violet.70 }}",
+      "base": "{{ violet.70 }}",
+      "mid": "{{ violet.60 }}",
       "dim": "{{ violet.20 }}"
     },
     "accent3": {
-      "base": "{{ teal.60 }}",
-      "mid": "{{ teal.70 }}",
+      "base": "{{ teal.70 }}",
+      "mid": "{{ teal.60 }}",
       "dim": "{{ teal.20 }}"
     },
     "success": {
@@ -86,8 +86,8 @@
     },
     "warning": {
       "high": "{{ yellow.30 }}",
-      "base": "{{ yellow.50 }}",
-      "mid": "{{ yellow.60 }}"
+      "base": "{{ yellow.40 }}",
+      "mid": "{{ yellow.50 }}"
     }
   },
 
