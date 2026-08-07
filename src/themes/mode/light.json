@@ -74,15 +74,15 @@
       "dim": "{{ teal.20 }}"
     },
     "success": {
-      "base": "{{ emerald.40 }}",
+      "base": "{{ emerald.60 }}",
       "mid": "{{ emerald.50 }}",
-      "dim": "{{ emerald.80 }}"
+      "dim": "{{ emerald.40 }}"
     },
     "danger": {
-      "high": "{{ red.40 }}",
-      "base": "{{ red.50 }}",
-      "mid": "{{ red.60 }}",
-      "dim": "{{ red.80 }}"
+      "high": "{{ red.70 }}",
+      "base": "{{ red.60 }}",
+      "mid": "{{ red.50 }}",
+      "dim": "{{ red.40 }}"
     },
     "warning": {
       "high": "{{ yellow.30 }}",
