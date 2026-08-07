@@ -94,8 +94,8 @@
     /* Input
        https://code.visualstudio.com/api/references/theme-color#input-control 
     */  
-    "input.background":                       "#262626",
-    "input.border":                           "#393939",
+    "input.background":                       "#1b1b1b",
+    "input.border":                           "#525252",
     "input.foreground":                       "#e5e5e5",
     "input.placeholderForeground":            "#6f6f6f",
     /* inputOption.* for
