@@ -65,11 +65,13 @@
     },
     "accent2": {
       "base": "{{ violet.40 }}",
-      "mid": "{{ violet.50 }}"
+      "mid": "{{ violet.50 }}",
+      "dim": "{{ violet.80 }}"  
     },
     "accent3": {
       "base": "{{ teal.40 }}",
-      "mid": "{{ teal.50 }}"
+      "mid": "{{ teal.50 }}",
+      "dim": "{{ teal.80 }}"
     },
     "success": {
       "base": "{{ emerald.40 }}",
@@ -86,10 +88,6 @@
       "high": "{{ yellow.20 }}",
       "base": "{{ yellow.30 }}",
       "mid": "{{ yellow.40 }}"
-    },
-    "info": {
-      "base": "{{ blue.40 }}",
-      "mid": "{{ blue.50 }}"
     }
   },
 

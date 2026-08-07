@@ -59,18 +59,19 @@
     "text": "{{ text.on-ui }}"
   },
   "ui": {
-    "ui-tbd": "finish",
     "accent1": {
       "base": "{{ blue.60 }}",
       "mid": "{{ blue.70 }}"
     },
     "accent2": {
       "base": "{{ violet.60 }}",
-      "mid": "{{ violet.70 }}"
+      "mid": "{{ violet.70 }}",
+      "dim": "{{ violet.20 }}"
     },
     "accent3": {
       "base": "{{ teal.60 }}",
-      "mid": "{{ teal.70 }}"
+      "mid": "{{ teal.70 }}",
+      "dim": "{{ teal.20 }}"
     },
     "success": {
       "base": "{{ emerald.40 }}",
@@ -84,13 +85,9 @@
       "dim": "{{ red.80 }}"
     },
     "warning": {
-      "high": "{{ yellow.20 }}",
-      "base": "{{ yellow.30 }}",
-      "mid": "{{ yellow.40 }}"
-    },
-    "info": {
-      "base": "{{ blue.40 }}",
-      "mid": "{{ blue.50 }}"
+      "high": "{{ yellow.30 }}",
+      "base": "{{ yellow.50 }}",
+      "mid": "{{ yellow.60 }}"
     }
   },
 
