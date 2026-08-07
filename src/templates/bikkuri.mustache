@@ -346,7 +346,7 @@
     "minimap.background":                   "{{ surface.none }}",
     "minimap.foregroundOpacity":            "{{ surface.base }}{{ opacity.high }}",
     "minimap.errorHighlight":               "{{ ui.danger.mid }}",
-    "minimap.findMatchHighlight":           "{{ ui.warning.mid }}",
+    "minimap.findMatchHighlight":           "{{ ui.accent2.mid }}",
     "minimap.selectionHighlight":           "{{ surface.raised.high }}",
     "minimap.selectionOccurrenceHighlight": "{{ surface.raised.high }}",
     "minimap.warningHighlight":             "{{ ui.warning.mid }}",
@@ -542,14 +542,12 @@
     "editor.selectionHighlightBackground":    "{{ surface.none }}",
     "editor.selectionHighlightBorder":        "{{ ui.accent1.base }}",
     // current match
-    "editor.findMatchBackground":             "{{ surface.none }}",
-    "editor.findMatchForeground":             "{{ ui.accent3.base }}",
-    "editor.findMatchHighlightBorder":        "{{ ui.accent3.mid }}",
-    "editor.findMatchHighlightForeground":    "{{ ui.warning.high }}",
-    "editor.findMatchBorder":                 "{{ ui.warning.mid }}",
-    // other matches
-    "editor.findMatchHighlightBackground":    "{{ surface.raised.low }}",
-    // selection range when "Find in Selection" is applied
+    "editor.findMatchBorder":                 "{{ ui.accent3.base }}",
+    "editor.findMatchForeground":             "{{ ui.accent2.mid }}",
+    "editor.findMatchBackground":             "{{ ui.accent3.dim }}{{ opacity.mid }}",
+    "editor.findMatchHighlightBorder":        "{{ ui.accent2.base }}",
+    "editor.findMatchHighlightForeground":    "{{ ui.accent3.mid }}",
+    "editor.findMatchHighlightBackground":    "{{ ui.accent2.dim }}{{ opacity.mid }}",
     "editor.findRangeHighlightBackground":    "{{ surface.sunken}}", 
     "editor.findRangeHighlightBorder":        "{{ border.none }}",
     //background selection on hover

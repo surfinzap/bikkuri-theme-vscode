@@ -346,7 +346,7 @@
     "minimap.background":                   "#1e1b1b00",
     "minimap.foregroundOpacity":            "#1e1b1be6",
     "minimap.errorHighlight":               "#a25a63",
-    "minimap.findMatchHighlight":           "#bfa481",
+    "minimap.findMatchHighlight":           "#8d88b6",
     "minimap.selectionHighlight":           "#595051b3",
     "minimap.selectionOccurrenceHighlight": "#595051b3",
     "minimap.warningHighlight":             "#bfa481",
@@ -542,14 +542,12 @@
     "editor.selectionHighlightBackground":    "#1e1b1b00",
     "editor.selectionHighlightBorder":        "#8fabc8",
     // current match
-    "editor.findMatchBackground":             "#1e1b1b00",
-    "editor.findMatchForeground":             "#8bafae",
-    "editor.findMatchHighlightBorder":        "#749392",
-    "editor.findMatchHighlightForeground":    "#eedeca",
-    "editor.findMatchBorder":                 "#bfa481",
-    // other matches
-    "editor.findMatchHighlightBackground":    "#5950514d",
-    // selection range when "Find in Selection" is applied
+    "editor.findMatchBorder":                 "#8bafae",
+    "editor.findMatchForeground":             "#8d88b6",
+    "editor.findMatchBackground":             "#2e3c3b80",
+    "editor.findMatchHighlightBorder":        "#a8a4c8",
+    "editor.findMatchHighlightForeground":    "#749392",
+    "editor.findMatchHighlightBackground":    "#39345e80",
     "editor.findRangeHighlightBackground":    "#2a2526", 
     "editor.findRangeHighlightBorder":        "#1e1b1b00",
     //background selection on hover
