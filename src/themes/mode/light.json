@@ -20,8 +20,8 @@
     "none": "{{ surface.base }}{{ opacity.none }}"
   },
   "text": {
-    "base": "{{ tint.100 }}",
-    "mid": "{{ tint.80 }}",
+    "base": "{{ tint.90 }}",
+    "mid": "{{ tint.70 }}",
     "dim": "{{ tint.60 }}",
     "disabled": "{{ tint.50 }}",
     "on-ui": "{{ tint.10 }}",

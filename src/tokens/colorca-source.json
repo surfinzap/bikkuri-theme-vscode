@@ -25,7 +25,18 @@
             "name": "Gray Plum",
             "hue": 280,
             "saturation": 15,
-            "localAdjustments": [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+            "localAdjustments": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              { "saturation": 20 },
+              { "saturation": 25 },
+              { "saturation": 35 },
+              { "saturation": 50 }
+            ]
           },
           {
             "name": "Gray Navy",
