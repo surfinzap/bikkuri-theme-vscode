@@ -325,19 +325,19 @@
     /* Source Control Graph colors
        https: //code.visualstudio.com/api/references/theme-color#source-control-graph-colors
     */
-    "scmGraph.historyItemHoverLabelForeground":        "#e7e5e5",
-    "scmGraph.foreground1":                            "#6192bb",
-    "scmGraph.foreground2":                            "#569b6f",
-    "scmGraph.foreground3":                            "#8e7eea",
-    "scmGraph.foreground4":                            "#d664af",
-    "scmGraph.foreground5":                            "#579896",
+    "scmGraph.historyItemHoverLabelForeground":        "#1e1b1b",
+    "scmGraph.foreground1":                            "#75aedd",
+    "scmGraph.foreground2":                            "#68b985",
+    "scmGraph.foreground3":                            "#a99ef0",
+    "scmGraph.foreground4":                            "#df8fc1",
+    "scmGraph.foreground5":                            "#68b5b3",
     "scmGraph.historyItemHoverAdditionsForeground":    "#68b985",
     "scmGraph.historyItemHoverDeletionsForeground":    "#e06578",
-    "scmGraph.historyItemRefColor":                    "#595051",
-    "scmGraph.historyItemRemoteRefColor":              "#569b6f",
-    "scmGraph.historyItemBaseRefColor":                "#595051",
-    "scmGraph.historyItemHoverDefaultLabelForeground": "#e7e5e5",
-    "scmGraph.historyItemHoverDefaultLabelBackground": "#579896",
+    "scmGraph.historyItemRefColor":                    "#786c6e",
+    "scmGraph.historyItemRemoteRefColor":              "#68b985",
+    "scmGraph.historyItemBaseRefColor":                "#786c6e",
+    "scmGraph.historyItemHoverDefaultLabelForeground": "#1e1b1b",
+    "scmGraph.historyItemHoverDefaultLabelBackground": "#68b5b3",
 
 
     /* Minimap & Overview ruler
