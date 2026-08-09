@@ -19,7 +19,18 @@
             "name": "Gray Warm",
             "hue": 0,
             "saturation": 5,
-            "localAdjustments": [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+            "localAdjustments": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              { "saturation": 7 },
+              { "saturation": 10 },
+              { "saturation": 20 }
+            ]
           },
           {
             "name": "Gray Plum",
