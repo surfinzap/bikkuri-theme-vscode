@@ -7,7 +7,17 @@ const TONE_MAP = {
   'light-lively': 'high',
 };
 
-const COLOR_NAMES = ['red', 'orange', 'tangerine', 'yellow', 'emerald', 'teal', 'blue', 'violet', 'pink'];
+const COLOR_NAMES = [
+  'red',
+  'orange',
+  'tangerine',
+  'yellow',
+  'emerald',
+  'teal',
+  'blue',
+  'violet',
+  'pink',
+];
 const SHADES = ['100', '90', '80', '70', '60', '50', '40', '30', '20', '10'];
 
 function main() {
