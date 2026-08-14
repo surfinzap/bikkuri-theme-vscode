@@ -40,8 +40,8 @@
   },
   "button": {
     "primary": {
-      "bg": "{{ blue.60 }}",
-      "bg-hover": "{{ blue.70 }}",
+      "bg": "{{ ui.accent1.mid }}",
+      "bg-hover": "{{ ui.accent1.base }}",
       "text": "{{ text.on-ui }}"
     },
     "secondary": {
@@ -51,8 +51,8 @@
     }
   },
   "link": {
-    "text": "{{ blue.60 }}",
-    "text-hover": "{{ blue.70 }}"
+    "text": "{{ ui.accent1.mid }}",
+    "text-hover": "{{ ui.accent1.base }}"
   },
   "badge": {
     "bg": "{{ tint.60 }}",
