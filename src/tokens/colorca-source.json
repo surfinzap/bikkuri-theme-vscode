@@ -1,7 +1,8 @@
 {
   "comments": {
     "gray-10s": "have 97 lightness (the rest is 96.2)",
-    "gray-20s": "have 91 lightness (the rest is 89.2)"
+    "gray-20s": "have 91 lightness (the rest is 89.2)",
+    "gray-100s": "all have 10 lightness"
   },
   "palette": {
     "items": [
@@ -70,18 +71,7 @@
             "name": "Gray Moss",
             "hue": 90,
             "saturation": 10,
-            "localAdjustments": [
-              {},
-              {},
-              {},
-              {},
-              {},
-              {},
-              {},
-              {},
-              { "saturation": 5 },
-              { "saturation": 2 }
-            ]
+            "localAdjustments": [{}, {}, {}, {}, {}, {}, {}, {}, {}, { "saturation": 2 }]
           },
           {
             "name": "Red High",
@@ -92,7 +82,7 @@
               { "saturation": 60 },
               { "saturation": 70 },
               {},
-              {},
+              { "saturation": 78 },
               {},
               {},
               {},
@@ -138,19 +128,75 @@
             "name": "Orange High",
             "hue": 40,
             "saturation": 90,
-            "localAdjustments": [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+            "localAdjustments": [
+              {},
+              {},
+              { "saturation": 87 },
+              { "saturation": 93 },
+              { "saturation": 94 },
+              { "saturation": 92 },
+              {},
+              {},
+              {},
+              {}
+            ]
           },
           {
             "name": "Orange Mid",
             "hue": 40,
             "saturation": 60,
-            "localAdjustments": [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+            "localAdjustments": [
+              {},
+              {},
+              { "saturation": 64 },
+              { "saturation": 64 },
+              { "saturation": 63 },
+              { "saturation": 62 },
+              {},
+              {},
+              {},
+              {}
+            ]
           },
           {
             "name": "Orange Dim",
             "hue": 40,
             "saturation": 35,
             "localAdjustments": [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+          },
+          {
+            "name": "Tangerine High",
+            "hue": 52,
+            "saturation": 90,
+            "localAdjustments": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              { "saturation": 93 },
+              { "saturation": 92 },
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "name": "Tangerine Mid",
+            "hue": 52,
+            "saturation": 70,
+            "localAdjustments": [
+              {},
+              {},
+              {},
+              {},
+              { "saturation": 73 },
+              { "saturation": 75 },
+              { "saturation": 73 },
+              {},
+              {},
+              {}
+            ]
           },
           {
             "name": "Yellow High",
@@ -241,6 +287,23 @@
               {},
               { "saturation": 25 },
               { "saturation": 25 }
+            ]
+          },
+          {
+            "name": "Emerald High",
+            "hue": 140,
+            "saturation": 90,
+            "localAdjustments": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              { "saturation": 80 },
+              { "saturation": 65 },
+              { "saturation": 60 }
             ]
           },
           {
@@ -443,16 +506,16 @@
           "swatchNamingOption": 0,
           "swatchNamingOrder": "desc"
         },
-        "exportSettings": { "outputFormat": "figma" },
+        "exportSettings": { "outputFormat": "tailwind" },
         "semanticFamilies": {
           "neutral": 3,
-          "primary": 24,
-          "success": 16,
+          "primary": 27,
+          "success": 18,
           "danger": 7,
-          "info": 27,
-          "warning": 13
+          "info": 30,
+          "warning": 15
         },
-        "wcagFamilies": { "bg": 1, "text": 0 }
+        "wcagFamilies": { "bg": 4, "text": 1 }
       }
     ]
   }

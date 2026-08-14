@@ -85,9 +85,9 @@
       "dim": "{{ red.40 }}"
     },
     "warning": {
-      "high": "{{ yellow.30 }}",
-      "base": "{{ yellow.40 }}",
-      "mid": "{{ yellow.50 }}"
+      "high": "{{ tangerine.30 }}",
+      "base": "{{ tangerine.40 }}",
+      "mid": "{{ tangerine.50 }}"
     }
   },
 
@@ -101,8 +101,8 @@
       "dim": "{{ orange.70 }}"
     },
     "03": {
-      "base": "{{ yellow.50 }}",
-      "dim": "{{ yellow.60 }}"
+      "base": "{{ tangerine.50 }}",
+      "dim": "{{ tangerine.60 }}"
     },
     "04": {
       "base": "{{ emerald.60 }}",
