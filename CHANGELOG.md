@@ -35,6 +35,7 @@ Bikkuri steps out of the dark. After four years of dark-only themes, the collect
 - theme generation moved fully to JavaScript; the remaining Python step was removed
 - mood variants are now derived from the color palette instead of being maintained as separate files
 - update dependencies to their latest versions
+- automate theme preview screenshots
 
 
 
