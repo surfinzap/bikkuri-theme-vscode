@@ -62,7 +62,7 @@
       // secondary button → notification to install recommended extensions
     "button.secondaryBackground":        "#c3c6d24d",
     "button.secondaryForeground":        "#24262f",
-    "button.secondaryHoverBackground":   "#c3c6d280",
+    "button.secondaryHoverBackground":   "#c3c6d275",
     "button.secondaryBorder":            "#f5f6fa00",
     "button.border":                     "#f5f6fa00",
     "checkbox.background":               "#f5f6fa",
@@ -104,7 +104,7 @@
     */
     "inputOption.activeBackground":           "#2675a5", 
     "inputOption.activeForeground":           "#f5f6fa",
-    "inputOption.hoverBackground":            "#c3c6d280",  
+    "inputOption.hoverBackground":            "#c3c6d275",  
     "inputOption.activeBorder":               "#f5f6fa00", //cannot be null
     "inputValidation.errorBackground":        "#e3e5ec",
     "inputValidation.errorForeground":        "#cc3453",
@@ -121,8 +121,8 @@
     "scrollbar.background":                    "#f5f6fa00",
     "scrollbar.shadow":                        "#c3c6d2",
     "scrollbarSlider.background":              "#c3c6d24d",
-    "scrollbarSlider.activeBackground":        "#c3c6d280",
-    "scrollbarSlider.hoverBackground":         "#c3c6d280",
+    "scrollbarSlider.activeBackground":        "#c3c6d275",
+    "scrollbarSlider.hoverBackground":         "#c3c6d275",
 
 
     /* Badge
@@ -196,18 +196,18 @@
     /* Lists & Trees
        https://code.visualstudio.com/api/references/theme-color#lists-and-trees
     */
-    "list.activeSelectionBackground":   "#c3c6d24d",
+    "list.activeSelectionBackground":   "#c3c6d275",
     "list.activeSelectionForeground":   "#24262f",
     "list.errorForeground":             "#cc3453",
-    "list.focusBackground":             "#c3c6d280",
+    "list.focusBackground":             "#c3c6d275",
     "list.focusForeground":             "#24262f",
     "list.focusAndSelectionOutline":    "#f5f6fa00",
 
     // list.hoverBackground/Foreground has a broad impact: Sidebar items hover, Quick Input items hover, Notifications hover; but not for the menu
-    "list.hoverBackground": "#c3c6d24d",
+    "list.hoverBackground": "#c3c6d275",
     "list.hoverForeground": "#24262f",
 
-    "list.inactiveSelectionBackground":     "#c3c6d24d",
+    "list.inactiveSelectionBackground":     "#c3c6d275",
     "list.inactiveSelectionForeground":     "#24262f",
     "list.warningForeground":               "#d1a134",
     "list.deemphasizedForeground":          "#6a6e85",
@@ -220,7 +220,7 @@
     "list.invalidItemForeground":           "#f7506f",
     "list.activeSelectionIconForeground":   "#363846",
     "list.filterMatchBorder":               "#f5f6fa00",
-    "list.inactiveFocusBackground":         "#c3c6d280",
+    "list.inactiveFocusBackground":         "#c3c6d275",
     "list.inactiveFocusOutline":            "#f5f6fa00",
     "list.inactiveSelectionIconForeground": "#363846",
     "listFilterWidget.background":          "#e3e5ec",
@@ -241,7 +241,7 @@
     "pickerGroup.foreground":             "#4e5163",
     "pickerGroup.border":                 "#c3c6d2",
     "quickInputTitle.background":         "#f5f6fa",
-    "quickInputList.focusBackground":     "#c3c6d24d",
+    "quickInputList.focusBackground":     "#c3c6d275",
     "quickInputList.focusForeground":     "#24262f",
     "quickInputList.focusIconForeground": "#363846",
     
@@ -356,15 +356,15 @@
     "minimapGutter.deletedBackground":      "#f7506f",
     "minimapGutter.modifiedBackground":     "#b0872a",
     "editorMinimap.inlineChatInserted":     "#7053ee",
-    "minimapSlider.background":             "#c3c6d280",
+    "minimapSlider.background":             "#c3c6d275",
     "minimapSlider.activeBackground":       "#c3c6d2b3",
     "minimapSlider.hoverBackground":        "#c3c6d2b3",
 
     "editorOverviewRuler.border":                        "#f5f6fa",
     "editorOverviewRuler.background":                    "#f5f6fa00",
-    "editorOverviewRuler.addedForeground":               "#2ba06080",
+    "editorOverviewRuler.addedForeground":               "#2ba06075",
     "editorOverviewRuler.bracketMatchForeground":        "#6a6e85",
-    "editorOverviewRuler.deletedForeground":             "#f7506f80",
+    "editorOverviewRuler.deletedForeground":             "#f7506f75",
     "editorOverviewRuler.errorForeground":               "#f7506f",
     "editorOverviewRuler.findMatchForeground":           "#b0872a",
     "editorOverviewRuler.infoForeground":                "#2675a5",
@@ -396,14 +396,14 @@
     "statusBar.noFolderBackground":           "#f5f6fa",
     "statusBar.noFolderBorder":               "#c3c6d2",
     "statusBarItem.activeBackground":         "#c3c6d24d",
-    "statusBarItem.hoverBackground":          "#c3c6d280",
+    "statusBarItem.hoverBackground":          "#c3c6d275",
     "statusBarItem.prominentForeground":      "#f5f6fa",
     "statusBarItem.prominentHoverForeground": "#f5f6fa",
     "statusBarItem.prominentBackground":      "#7053ee",
     "statusBarItem.prominentHoverBackground": "#5425de",
     "statusBarItem.remoteBackground":         "#e3e5ec",
     "statusBarItem.remoteForeground":         "#4e5163",
-    "statusBarItem.remoteHoverBackground":    "#c3c6d280",
+    "statusBarItem.remoteHoverBackground":    "#c3c6d275",
     "statusBarItem.remoteHoverForeground":    "#24262f",
     "statusBarItem.errorBackground":          "#cc3453",
     "statusBarItem.errorForeground":          "#f5f6fa",
@@ -453,7 +453,7 @@
     "tab.inactiveForeground":              "#6a6e85",
     "tab.inactiveBackground":              "#f5f6fa",
     "tab.hoverBorder":                     "#a5a8b6",
-    "tab.hoverBackground":                 "#c3c6d280",
+    "tab.hoverBackground":                 "#c3c6d275",
     "tab.hoverForeground":                 "#4e5163",
     "tab.border":                          "#f5f6fa00",
     "tab.dragAndDropBorder":               "#898c9f",
@@ -463,7 +463,7 @@
     "tab.unfocusedInactiveForeground":     "#898c9f",
     "tab.unfocusedInactiveBackground":     "#f5f6fa",
     "tab.unfocusedActiveBorderTop":        "#f5f6fa00",
-    "tab.unfocusedHoverBackground":        "#c3c6d280",
+    "tab.unfocusedHoverBackground":        "#c3c6d275",
     "tab.unfocusedHoverForeground":        "#4e5163",
     "tab.unfocusedHoverBorder":            "#a5a8b6",
     "tab.lastPinnedBorder":                "#a5a8b6",
@@ -482,9 +482,9 @@
        https://code.visualstudio.com/api/references/theme-color#action-colors
     */
     
-    "toolbar.hoverBackground":          "#c3c6d280",
+    "toolbar.hoverBackground":          "#c3c6d275",
     "toolbar.hoverOutline":             "#f5f6fa00",
-    "toolbar.activeBackground":         "#c3c6d280",
+    "toolbar.activeBackground":         "#c3c6d275",
     "editorActionList.background":      "#f5f6fa",
     "editorActionList.foreground":      "#4e5163",
     "editorActionList.focusForeground": "#24262f",
@@ -534,7 +534,7 @@
     "editor.lineHighlightBackground":         "#e3e5ec",
     "editor.lineHighlightBorder":             "#f5f6fa00",
     "editor.inactiveLineHighlightBackground": "#f5f6fa00",
-    "editor.selectionBackground":             "#c3c6d280",
+    "editor.selectionBackground":             "#c3c6d275",
     // selectionForeground does not seem to take effect
     // "editor.selectionForeground":             "{{ undefined }}",
     "editor.inactiveSelectionBackground":     "#e3e5ec",
@@ -544,10 +544,10 @@
     // current match
     "editor.findMatchBorder":                 "#175b5a",
     "editor.findMatchForeground":             "#7053ee",
-    "editor.findMatchBackground":             "#9eeeec80",
+    "editor.findMatchBackground":             "#9eeeec75",
     "editor.findMatchHighlightBorder":        "#5425de",
     "editor.findMatchHighlightForeground":    "#227b79",
-    "editor.findMatchHighlightBackground":    "#e0ddfc80",
+    "editor.findMatchHighlightBackground":    "#e0ddfc75",
     "editor.findRangeHighlightBackground":    "#e3e5ec", 
     "editor.findRangeHighlightBorder":        "#f5f6fa00",
     //background selection on hover
@@ -607,15 +607,15 @@
     "problemsInfoIcon.foreground":         "#1a577c",
 
     "editorUnnecessaryCode.border":        "#f5f6fa00",
-    "editorUnnecessaryCode.opacity":       "#24262f80", 
+    "editorUnnecessaryCode.opacity":       "#24262f75", 
 
     "editorGutter.background":                       "#f5f6fa00",
     "editorGutter.addedBackground":                  "#207f4a",
     "editorGutter.deletedBackground":                "#cc3453",
     "editorGutter.modifiedBackground":               "#d1a134",
-    "editorGutter.addedSecondaryBackground":         "#35bf7380",
-    "editorGutter.deletedSecondaryBackground":       "#f8869680",
-    "editorGutter.modifiedSecondaryBackground":      "#b0872a80",
+    "editorGutter.addedSecondaryBackground":         "#35bf7375",
+    "editorGutter.deletedSecondaryBackground":       "#f8869675",
+    "editorGutter.modifiedSecondaryBackground":      "#b0872a75",
 
     /* requires e.g. GitHub pull requests extension to preview these comment ranges */
     "editorGutter.commentRangeForeground":           "#c3c6d24d",
@@ -654,12 +654,12 @@
     // "inlineEdit.wordReplacementView.background":       "#e3e5ec",
 
     "editorGutter.foldingControlForeground":         "#4e5163",
-    "editorIndentGuide.background1":       "#c3c6d280",
-    "editorIndentGuide.background2":       "#c3c6d280",
-    "editorIndentGuide.background3":       "#c3c6d280",
-    "editorIndentGuide.background4":       "#c3c6d280",
-    "editorIndentGuide.background5":       "#c3c6d280",
-    "editorIndentGuide.background6":       "#c3c6d280",
+    "editorIndentGuide.background1":       "#c3c6d275",
+    "editorIndentGuide.background2":       "#c3c6d275",
+    "editorIndentGuide.background3":       "#c3c6d275",
+    "editorIndentGuide.background4":       "#c3c6d275",
+    "editorIndentGuide.background5":       "#c3c6d275",
+    "editorIndentGuide.background6":       "#c3c6d275",
     "editorIndentGuide.activeBackground1": "#a5a8b6",
     "editorIndentGuide.activeBackground2": "#a5a8b6",
     "editorIndentGuide.activeBackground3": "#a5a8b6",
@@ -667,7 +667,7 @@
     "editorIndentGuide.activeBackground5": "#a5a8b6",
     "editorIndentGuide.activeBackground6": "#a5a8b6",
     "editorRuler.foreground":              "#898c9f",
-    "editor.linkedEditingBackground":      "#c3c6d280", // Turn Linked Editing on; works for HTML tag pairs
+    "editor.linkedEditingBackground":      "#c3c6d275", // Turn Linked Editing on; works for HTML tag pairs
     "editorCodeLens.foreground":           "#4e5163",
     "editorHoverWidget.background":        "#f5f6fa",
     "editorHoverWidget.border":            "#c3c6d2",
@@ -736,8 +736,8 @@
 
     "diffEditorGutter.insertedLineBackground": "#2ba0601f",
     "diffEditorGutter.removedLineBackground":  "#f7506f1f",
-    "diffEditorOverview.insertedForeground":   "#35bf7380",
-    "diffEditorOverview.removedForeground":    "#f8869680",
+    "diffEditorOverview.insertedForeground":   "#35bf7375",
+    "diffEditorOverview.removedForeground":    "#f8869675",
     "multiDiffEditor.headerBackground":        "#e3e5ec",
     "multiDiffEditor.background":              "#e3e5ec",
     "multiDiffEditor.border":                  "#c3c6d2",
@@ -760,7 +760,7 @@
     "chat.linesRemovedForeground": "#cc3453",
     "chat.requestCodeBorder":      "#a5a8b6",
     "chat.requestBubbleBackground": "#c3c6d24d",
-    "chat.requestBubbleHoverBackground": "#c3c6d280",
+    "chat.requestBubbleHoverBackground": "#c3c6d275",
     "chat.checkpointSeparator": "#c3c6d2",
     "chat.thinkingShimmer":     "#7053ee",
     "chatManagement.sashBorder": "#c3c6d2",
@@ -886,7 +886,7 @@
     "debugExceptionWidget.border":                 "#f7506f",
     "debugToolBar.background":                     "#f5f6fa",
     "debugToolBar.border":                         "#c3c6d2",
-    "editor.stackFrameHighlightBackground":        "#c3c6d280",
+    "editor.stackFrameHighlightBackground":        "#c3c6d275",
     "editor.focusedStackFrameHighlightBackground": "#c3c6d24d",
     "editor.inlineValuesForeground":               "#4e5163",
     "editor.inlineValuesBackground":               "#f5f6fa00",
@@ -894,7 +894,7 @@
     "debugView.exceptionLabelBackground":          "#f7506f",
     "debugView.stateLabelForeground":              "#24262f",
     "debugView.stateLabelBackground":              "#e3e5ec",
-    "debugView.valueChangedHighlight":             "#7053ee80",
+    "debugView.valueChangedHighlight":             "#7053ee75",
     "debugTokenExpression.name":                   "#227b79",
     "debugTokenExpression.value":                  "#207f4a",
     "debugTokenExpression.string":                 "#2675a5",
@@ -1049,11 +1049,11 @@
     "terminalCommandDecoration.successBackground":   "#2ba060",
     "terminalCommandDecoration.errorBackground":     "#f7506f",
     "terminal.findMatchBackground":                  "#5425de4d",
-    "terminal.findMatchHighlightBackground":         "#c3c6d280",
+    "terminal.findMatchHighlightBackground":         "#c3c6d275",
     "terminal.findMatchBorder":                      "#cc3453",
     "terminal.findMatchHighlightBorder":             "#5425de",
     "terminal.hoverHighlightBackground":             "#c3c6d24d",
-    "terminalOverviewRuler.cursorForeground":        "#c3c6d280",
+    "terminalOverviewRuler.cursorForeground":        "#c3c6d275",
     "terminalOverviewRuler.findMatchForeground":     "#b0872a",
     "terminalStickyScroll.background":               "#f5f6fa",
     "terminalStickyScrollHover.background":          "#c3c6d24d",
@@ -1153,7 +1153,7 @@
     "commandCenter.foreground":          "#4e5163",
     "commandCenter.activeForeground":    "#24262f",
     "commandCenter.background":          "#e3e5ec",
-    "commandCenter.activeBackground":    "#c3c6d280",
+    "commandCenter.activeBackground":    "#c3c6d275",
     "commandCenter.border":              "#c3c6d2",
     "commandCenter.inactiveForeground":  "#6a6e85",
     "commandCenter.inactiveBorder":      "#c3c6d2",
@@ -1193,8 +1193,8 @@
     "notebook.selectedCellBorder":                       "#a5a8b6",
     "notebook.symbolHighlightBackground":                "#f5f6fa00",
     "notebookScrollbarSlider.background":                "#c3c6d24d",
-    "notebookScrollbarSlider.activeBackground":          "#c3c6d280",
-    "notebookScrollbarSlider.hoverBackground":           "#c3c6d280",
+    "notebookScrollbarSlider.activeBackground":          "#c3c6d275",
+    "notebookScrollbarSlider.hoverBackground":           "#c3c6d275",
     "notebookStatusErrorIcon.foreground":                "#cc3453",
     "notebookStatusRunningIcon.foreground":              "#d1a134",
     "notebookStatusSuccessIcon.foreground":              "#207f4a",
@@ -1209,7 +1209,7 @@
     "welcomePage.progress.background":      "#c3c6d24d",
     "welcomePage.progress.foreground":      "#1a577c",
     "welcomePage.tileBackground":           "#c3c6d24d",
-    "welcomePage.tileHoverBackground":      "#c3c6d280",
+    "welcomePage.tileHoverBackground":      "#c3c6d275",
     "welcomePage.tileBorder":               "#f5f6fa00",
     "walkThrough.embeddedEditorBackground": "#f5f6fa",
     "walkthrough.stepTitle.foreground":     "#24262f",
@@ -1250,7 +1250,7 @@
     /* Action Bar colors
        https://code.visualstudio.com/api/references/theme-color#action-bar-colors
     */
-    "actionBar.toggledBackground":        "#c3c6d280",
+    "actionBar.toggledBackground":        "#c3c6d275",
 
 
     /* Simple Find Widget
@@ -2305,7 +2305,7 @@
         "meta.template.expression.ts"
       ],
       "settings": {
-        "foreground": "#2675a580"
+        "foreground": "#2675a575"
       }
     },
     {
