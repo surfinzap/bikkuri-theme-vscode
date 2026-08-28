@@ -120,9 +120,9 @@
     */
     "scrollbar.background":                    "#1b1c1900",
     "scrollbar.shadow":                        "#11110f",
-    "scrollbarSlider.background":              "#52534d4d",
-    "scrollbarSlider.activeBackground":        "#52534d75",
-    "scrollbarSlider.hoverBackground":         "#52534d75",
+    "scrollbarSlider.background":              "#52534d75",
+    "scrollbarSlider.activeBackground":        "#52534db3",
+    "scrollbarSlider.hoverBackground":         "#52534db3",
 
 
     /* Badge
