@@ -152,7 +152,7 @@
   },
   "devDependencies": {
     "@vscode/vsce": "^3.9.2",
-    "axios": "^1.19.0",
+    "axios": "^1.20.0",
     "cheerio": "^1.2.0",
     "child_process": "^1.0.2",
     "gulp": "^5.0.1",
@@ -160,6 +160,6 @@
     "husky": "^9.1.7",
     "json5": "^2.2.3",
     "prettier": "^3.9.6",
-    "sharp": "^0.35.3"
+    "sharp": "^0.35.4"
   }
 }
