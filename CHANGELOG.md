@@ -11,7 +11,7 @@ Removed
 Fixed
 Security
 
-## [2.0.0] — 2026-
+## [2.0.0] — 2026-08-28
 
 Bikkuri steps out of the dark. After four years of dark-only themes, the collection now comes in light, too: the same five tints (coal, moss, navy, plum, warm) and the same two moods (lively, serene), rebuilt for bright rooms and bright screens. The light themes use their own palette, tuned so that syntax stays distinguishable and comfortable to read against a light background, while keeping the mood of their dark counterparts. Bikkuri is now a set of 20 themes.
 
@@ -33,7 +33,6 @@ Bikkuri steps out of the dark. After four years of dark-only themes, the collect
 
 ### Maintenance
 - theme generation moved fully to JavaScript; the remaining Python step was removed
-- mood variants are now derived from the color palette instead of being maintained as separate files
 - update dependencies to their latest versions
 - automate theme preview screenshots
 

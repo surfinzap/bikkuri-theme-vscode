@@ -537,17 +537,17 @@
     "editor.selectionBackground":             "#59505175",
     // selectionForeground does not seem to take effect
     // "editor.selectionForeground":             "{{ undefined }}",
-    "editor.inactiveSelectionBackground":     "#2a2526",
+    "editor.inactiveSelectionBackground":     "#5950514d",
     // same content as selection
     "editor.selectionHighlightBackground":    "#1e1b1b00",
     "editor.selectionHighlightBorder":        "#8fabc8",
     // current match
     "editor.findMatchBorder":                 "#8bafae",
     "editor.findMatchForeground":             "#8d88b6",
-    "editor.findMatchBackground":             "#2e3c3b75",
+    "editor.findMatchBackground":             "#2e3c3b4d",
     "editor.findMatchHighlightBorder":        "#a8a4c8",
     "editor.findMatchHighlightForeground":    "#749392",
-    "editor.findMatchHighlightBackground":    "#39345e75",
+    "editor.findMatchHighlightBackground":    "#39345e4d",
     "editor.findRangeHighlightBackground":    "#2a2526", 
     "editor.findRangeHighlightBorder":        "#1e1b1b00",
     //background selection on hover
