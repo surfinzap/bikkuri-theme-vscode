@@ -1,10 +1,10 @@
 {
   "name": "bikkuri-theme",
   "displayName": "Bikkuri Theme",
-  "description": "Set of 10 dark themes for VS Code, including syntax highlighting, debugging, diff/merge and terminal colors.",
+  "description": "Set of 20 dark and light themes for VS Code, including syntax highlighting, debugging, diff/merge and terminal colors.",
   "publisher": "brano",
   "author": "Brano Sandala",
-  "version": "1.1.6",
+  "version": "2.0.0",
   "icon": "assets/bikkuri-icon.png",
   "engines": {
     "vscode": "^1.95.0"
@@ -70,11 +70,62 @@
         "label": "Bikkuri (Dark Warm & Serene)",
         "uiTheme": "vs-dark",
         "path": "./dist/bikkuri-dark-warm-serene.json"
+      },
+      {
+        "label": "Bikkuri (Light Coal & Lively)",
+        "uiTheme": "vs",
+        "path": "./dist/bikkuri-light-coal-lively.json"
+      },
+      {
+        "label": "Bikkuri (Light Coal & Serene)",
+        "uiTheme": "vs",
+        "path": "./dist/bikkuri-light-coal-serene.json"
+      },
+      {
+        "label": "Bikkuri (Light Moss & Lively)",
+        "uiTheme": "vs",
+        "path": "./dist/bikkuri-light-moss-lively.json"
+      },
+      {
+        "label": "Bikkuri (Light Moss & Serene)",
+        "uiTheme": "vs",
+        "path": "./dist/bikkuri-light-moss-serene.json"
+      },
+      {
+        "label": "Bikkuri (Light Navy & Lively)",
+        "uiTheme": "vs",
+        "path": "./dist/bikkuri-light-navy-lively.json"
+      },
+      {
+        "label": "Bikkuri (Light Navy & Serene)",
+        "uiTheme": "vs",
+        "path": "./dist/bikkuri-light-navy-serene.json"
+      },
+      {
+        "label": "Bikkuri (Light Plum & Lively)",
+        "uiTheme": "vs",
+        "path": "./dist/bikkuri-light-plum-lively.json"
+      },
+      {
+        "label": "Bikkuri (Light Plum & Serene)",
+        "uiTheme": "vs",
+        "path": "./dist/bikkuri-light-plum-serene.json"
+      },
+      {
+        "label": "Bikkuri (Light Warm & Lively)",
+        "uiTheme": "vs",
+        "path": "./dist/bikkuri-light-warm-lively.json"
+      },
+      {
+        "label": "Bikkuri (Light Warm & Serene)",
+        "uiTheme": "vs",
+        "path": "./dist/bikkuri-light-warm-serene.json"
       }
     ]
   },
   "keywords": [
     "dark",
+    "light",
     "theme",
     "warm",
     "moss",
@@ -94,18 +145,21 @@
     "prepare": "husky",
     "watch": "gulp watch",
     "fetch": "node scripts/fetch-vs-code-vars.js",
+    "screenshots": "pwsh -NoProfile -File scripts/screenshots/capture.ps1 && npm run screenshots:process",
+    "screenshots:process": "node scripts/screenshots/postprocess.js && node scripts/screenshots/update-readme.js",
     "format": "prettier --write \"src/**/*.json\" \"scripts/**/*.js\"",
     "format:check": "prettier --check \"src/**/*.json\" \"scripts/**/*.js\""
   },
   "devDependencies": {
-    "@vscode/vsce": "^3.9.1",
-    "axios": "^1.16.1",
+    "@vscode/vsce": "^3.9.2",
+    "axios": "^1.20.0",
     "cheerio": "^1.2.0",
     "child_process": "^1.0.2",
     "gulp": "^5.0.1",
     "gulp-watch": "^5.0.1",
     "husky": "^9.1.7",
     "json5": "^2.2.3",
-    "prettier": "^3.8.3"
+    "prettier": "^3.9.6",
+    "sharp": "^0.35.4"
   }
 }

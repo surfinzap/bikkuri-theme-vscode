@@ -1,0 +1,128 @@
+{
+  "mode-type": "vs",
+  "mode-name": "Light",
+  "shadow": "{{ tint.30}}",
+  "test": {
+    "red": "#ff0000",
+    "green": "#00ff00",
+    "blue": "#0088ff",
+    "yellow": "#ffff00"
+  },
+  "surface": {
+    "sunken": "{{ tint.20 }}",
+    "base": "{{ tint.10 }}",
+    "raised": {
+      "min": "{{ tint.30 }}{{ opacity.low }}",
+      "low": "{{ tint.30 }}{{ opacity.mid-low }}",
+      "mid": "{{ tint.30 }}{{ opacity.mid }}",
+      "high": "{{ tint.30 }}{{ opacity.mid-high }}"
+    },
+    "none": "{{ surface.base }}{{ opacity.none }}"
+  },
+  "text": {
+    "base": "{{ tint.90 }}",
+    "mid": "{{ tint.70 }}",
+    "dim": "{{ tint.60 }}",
+    "disabled": "{{ tint.50 }}",
+    "on-ui": "{{ tint.10 }}",
+    "none": "{{ surface.base }}{{ opacity.none }}"
+  },
+  "icon": {
+    "base": "{{ tint.80 }}",
+    "mid": "{{ tint.60 }}",
+    "dim": "{{ tint.50 }}"
+  },
+  "border": {
+    "base": "{{ tint.50 }}",
+    "mid": "{{ tint.40 }}",
+    "dim": "{{ tint.30 }}",
+    "none": "{{ surface.base }}{{ opacity.none }}"
+  },
+  "button": {
+    "primary": {
+      "bg": "{{ ui.accent1.mid }}",
+      "bg-hover": "{{ ui.accent1.base }}",
+      "text": "{{ text.on-ui }}"
+    },
+    "secondary": {
+      "bg": "{{ surface.raised.low }}",
+      "bg-hover": "{{ surface.raised.mid }}",
+      "text": "{{ text.base }}"
+    }
+  },
+  "link": {
+    "text": "{{ ui.accent1.mid }}",
+    "text-hover": "{{ ui.accent1.base }}"
+  },
+  "badge": {
+    "bg": "{{ tint.60 }}",
+    "text": "{{ text.on-ui }}"
+  },
+  "ui": {
+    "accent1": {
+      "base": "{{ blue.70 }}",
+      "mid": "{{ blue.60 }}"
+    },
+    "accent2": {
+      "base": "{{ violet.70 }}",
+      "mid": "{{ violet.60 }}",
+      "dim": "{{ violet.20 }}"
+    },
+    "accent3": {
+      "base": "{{ teal.70 }}",
+      "mid": "{{ teal.60 }}",
+      "dim": "{{ teal.20 }}"
+    },
+    "success": {
+      "base": "{{ emerald.60 }}",
+      "mid": "{{ emerald.50 }}",
+      "dim": "{{ emerald.40 }}"
+    },
+    "danger": {
+      "high": "{{ red.70 }}",
+      "base": "{{ red.60 }}",
+      "mid": "{{ red.50 }}",
+      "dim": "{{ red.40 }}"
+    },
+    "warning": {
+      "high": "{{ tangerine.30 }}",
+      "base": "{{ tangerine.40 }}",
+      "mid": "{{ tangerine.50 }}"
+    }
+  },
+
+  "syntax": {
+    "01": {
+      "base": "{{ red.60 }}",
+      "dim": "{{ red.70 }}"
+    },
+    "02": {
+      "base": "{{ orange.60 }}",
+      "dim": "{{ orange.70 }}"
+    },
+    "03": {
+      "base": "{{ tangerine.50 }}",
+      "dim": "{{ tangerine.60 }}"
+    },
+    "04": {
+      "base": "{{ emerald.60 }}",
+      "dim": "{{ emerald.70 }}"
+    },
+    "05": {
+      "base": "{{ teal.60 }}",
+      "dim": "{{ teal.70 }}"
+    },
+    "06": {
+      "base": "{{ blue.60 }}",
+      "dim": "{{ blue.70 }}"
+    },
+    "07": {
+      "base": "{{ violet.60 }}",
+      "dim": "{{ violet.70 }}"
+    },
+    "08": {
+      "base": "{{ pink.60 }}",
+      "dim": "{{ pink.70 }}"
+    }
+  }
+}

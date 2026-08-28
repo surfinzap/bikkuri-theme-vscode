@@ -78,7 +78,7 @@ function processSchemes(folderPath) {
 
       themesList.push({
         label: `Bikkuri (${schemeJson['mode-name']} ${schemeJson['tint-name']} & ${schemeJson['mood-name']})`,
-        uiTheme: `vs-${schemeJson['mode-type']}`,
+        uiTheme: `${schemeJson['mode-type']}`,
         path: `./${distFolder}${themePrefix}${schemeFile}`,
       });
 

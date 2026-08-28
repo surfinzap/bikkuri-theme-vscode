@@ -9,7 +9,7 @@
        https://code.visualstudio.com/api/references/theme-color#contrast-colors
     */
     "contrastActiveBorder": "{{ border.none }}",
-    "contrastBorder": "{{ border.none }}",
+    "contrastBorder": "{{ border.mid }}",
 
     /* Base colors
        https://code.visualstudio.com/api/references/theme-color#base-colors
@@ -94,8 +94,8 @@
     /* Input
        https://code.visualstudio.com/api/references/theme-color#input-control 
     */  
-    "input.background":                       "{{ surface.sunken }}",
-    "input.border":                           "{{ border.dim }}",
+    "input.background":                       "{{ surface.base }}",
+    "input.border":                           "{{ border.mid }}",
     "input.foreground":                       "{{ text.base }}",
     "input.placeholderForeground":            "{{ text.dim }}",
     /* inputOption.* for
@@ -120,19 +120,19 @@
     */
     "scrollbar.background":                    "{{ surface.none }}",
     "scrollbar.shadow":                        "{{ shadow }}",
-    "scrollbarSlider.background":              "{{ surface.raised.low }}",
-    "scrollbarSlider.activeBackground":        "{{ surface.raised.mid }}",
-    "scrollbarSlider.hoverBackground":         "{{ surface.raised.mid }}",
+    "scrollbarSlider.background":              "{{ surface.raised.mid }}",
+    "scrollbarSlider.activeBackground":        "{{ surface.raised.high }}",
+    "scrollbarSlider.hoverBackground":         "{{ surface.raised.high }}",
 
 
     /* Badge
     */
-    "badge.background":                       "{{ badge.bg  }}",
+    "badge.background":                       "{{ badge.bg }}",
     "badge.foreground":                       "{{ badge.text }}",
 
     /* Progress bar
     */
-    "progressBar.background":                 "{{ ui.accent3.base }}",
+    "progressBar.background":                 "{{ ui.accent1.base }}",
 
     /* Title Bar
     */
@@ -196,7 +196,7 @@
     /* Lists & Trees
        https://code.visualstudio.com/api/references/theme-color#lists-and-trees
     */
-    "list.activeSelectionBackground":   "{{ surface.raised.low }}",
+    "list.activeSelectionBackground":   "{{ surface.raised.mid }}",
     "list.activeSelectionForeground":   "{{ text.base }}",
     "list.errorForeground":             "{{ ui.danger.base }}",
     "list.focusBackground":             "{{ surface.raised.mid }}",
@@ -204,10 +204,10 @@
     "list.focusAndSelectionOutline":    "{{ border.none }}",
 
     // list.hoverBackground/Foreground has a broad impact: Sidebar items hover, Quick Input items hover, Notifications hover; but not for the menu
-    "list.hoverBackground": "{{ surface.raised.low }}",
+    "list.hoverBackground": "{{ surface.raised.mid }}",
     "list.hoverForeground": "{{ text.base }}",
 
-    "list.inactiveSelectionBackground":     "{{ surface.raised.low }}",
+    "list.inactiveSelectionBackground":     "{{ surface.raised.mid }}",
     "list.inactiveSelectionForeground":     "{{ text.base }}",
     "list.warningForeground":               "{{ ui.warning.base }}",
     "list.deemphasizedForeground":          "{{ text.dim }}",
@@ -215,7 +215,7 @@
     "list.dropBetweenBackground":           "{{ border.mid }}",
     "list.filterMatchBackground":           "{{ surface.raised.high }}",
     "list.focusHighlightForeground":        "{{ ui.accent1.base }}",
-    "list.focusOutline":                    "{{ border.none }}",
+    "list.focusOutline":                    "{{ border.none }}",    
     "list.highlightForeground":             "{{ ui.accent1.base }}",
     "list.invalidItemForeground":           "{{ ui.danger.mid }}",
     "list.activeSelectionIconForeground":   "{{ icon.base }}",
@@ -241,7 +241,7 @@
     "pickerGroup.foreground":             "{{ text.mid }}",
     "pickerGroup.border":                 "{{ border.dim }}",
     "quickInputTitle.background":         "{{ surface.base}}",
-    "quickInputList.focusBackground":     "{{ surface.raised.low }}",
+    "quickInputList.focusBackground":     "{{ surface.raised.mid }}",
     "quickInputList.focusForeground":     "{{ text.base }}",
     "quickInputList.focusIconForeground": "{{ icon.base }}",
     
@@ -325,19 +325,19 @@
     /* Source Control Graph colors
        https: //code.visualstudio.com/api/references/theme-color#source-control-graph-colors
     */
-    "scmGraph.historyItemHoverLabelForeground":        "{{ text.base }}",
-    "scmGraph.foreground1":                            "{{ syntax.06.dim }}",
-    "scmGraph.foreground2":                            "{{ syntax.04.dim }}",
-    "scmGraph.foreground3":                            "{{ syntax.07.dim }}",
-    "scmGraph.foreground4":                            "{{ syntax.08.dim }}",
-    "scmGraph.foreground5":                            "{{ syntax.05.dim }}",
+    "scmGraph.historyItemHoverLabelForeground":        "{{ text.on-ui }}",
+    "scmGraph.foreground1":                            "{{ syntax.06.base }}",
+    "scmGraph.foreground2":                            "{{ syntax.04.base }}",
+    "scmGraph.foreground3":                            "{{ syntax.07.base }}",
+    "scmGraph.foreground4":                            "{{ syntax.08.base }}",
+    "scmGraph.foreground5":                            "{{ syntax.05.base }}",
     "scmGraph.historyItemHoverAdditionsForeground":    "{{ ui.success.base }}",
     "scmGraph.historyItemHoverDeletionsForeground":    "{{ ui.danger.base }}",
-    "scmGraph.historyItemRefColor":                    "{{ icon.dim }}",
-    "scmGraph.historyItemRemoteRefColor":              "{{ syntax.04.dim }}",
-    "scmGraph.historyItemBaseRefColor":                "{{ icon.dim }}",
-    "scmGraph.historyItemHoverDefaultLabelForeground": "{{ text.base }}",
-    "scmGraph.historyItemHoverDefaultLabelBackground": "{{ syntax.05.dim }}",
+    "scmGraph.historyItemRefColor":                    "{{ icon.mid }}",
+    "scmGraph.historyItemRemoteRefColor":              "{{ syntax.04.base }}",
+    "scmGraph.historyItemBaseRefColor":                "{{ icon.mid }}",
+    "scmGraph.historyItemHoverDefaultLabelForeground": "{{ text.on-ui }}",
+    "scmGraph.historyItemHoverDefaultLabelBackground": "{{ syntax.05.base }}",
 
 
     /* Minimap & Overview ruler
@@ -346,12 +346,12 @@
     "minimap.background":                   "{{ surface.none }}",
     "minimap.foregroundOpacity":            "{{ surface.base }}{{ opacity.high }}",
     "minimap.errorHighlight":               "{{ ui.danger.mid }}",
-    "minimap.findMatchHighlight":           "{{ ui.warning.mid }}",
+    "minimap.findMatchHighlight":           "{{ ui.accent2.mid }}",
     "minimap.selectionHighlight":           "{{ surface.raised.high }}",
     "minimap.selectionOccurrenceHighlight": "{{ surface.raised.high }}",
     "minimap.warningHighlight":             "{{ ui.warning.mid }}",
     "minimap.chatEditHighlight":            "{{ ui.warning.mid }}",
-    "minimap.infoHighlight":                "{{ ui.info.mid }}",
+    "minimap.infoHighlight":                "{{ ui.accent1.mid }}",
     "minimapGutter.addedBackground":        "{{ ui.success.mid }}",
     "minimapGutter.deletedBackground":      "{{ ui.danger.mid }}",
     "minimapGutter.modifiedBackground":     "{{ ui.warning.mid }}",
@@ -367,7 +367,7 @@
     "editorOverviewRuler.deletedForeground":             "{{ ui.danger.mid }}{{ opacity.mid }}",
     "editorOverviewRuler.errorForeground":               "{{ ui.danger.mid }}",
     "editorOverviewRuler.findMatchForeground":           "{{ ui.warning.mid }}",
-    "editorOverviewRuler.infoForeground":                "{{ ui.info.mid }}",
+    "editorOverviewRuler.infoForeground":                "{{ ui.accent1.mid }}",
     "editorOverviewRuler.modifiedForeground":            "{{ ui.warning.mid }}",
     "editorOverviewRuler.rangeHighlightForeground":      "{{ ui.accent1.mid }}",
     "editorOverviewRuler.selectionHighlightForeground":  "{{ ui.accent3.base }}",
@@ -531,25 +531,23 @@
     "editorLineNumber.activeForeground": "{{ text.base }}",
     "editorLineNumber.dimmedForeground": "{{ text.mid }}",
     "editorLink.activeForeground":       "{{ text.base }}",
-    "editor.lineHighlightBackground":         "{{ surface.sunken }}",
+    "editor.lineHighlightBackground":         "{{ surface.raised.low }}",
     "editor.lineHighlightBorder":             "{{ border.none }}",
     "editor.inactiveLineHighlightBackground": "{{ surface.none }}",
     "editor.selectionBackground":             "{{ surface.raised.mid }}",
     // selectionForeground does not seem to take effect
     // "editor.selectionForeground":             "{{ undefined }}",
-    "editor.inactiveSelectionBackground":     "{{ surface.sunken }}",
+    "editor.inactiveSelectionBackground":     "{{ surface.raised.low }}",
     // same content as selection
     "editor.selectionHighlightBackground":    "{{ surface.none }}",
     "editor.selectionHighlightBorder":        "{{ ui.accent1.base }}",
     // current match
-    "editor.findMatchBackground":             "{{ surface.none }}",
-    "editor.findMatchForeground":             "{{ ui.accent3.base }}",
-    "editor.findMatchHighlightBorder":        "{{ ui.accent3.mid }}",
-    "editor.findMatchHighlightForeground":    "{{ ui.warning.high }}",
-    "editor.findMatchBorder":                 "{{ ui.warning.mid }}",
-    // other matches
-    "editor.findMatchHighlightBackground":    "{{ surface.raised.low }}",
-    // selection range when "Find in Selection" is applied
+    "editor.findMatchBorder":                 "{{ ui.accent3.base }}",
+    "editor.findMatchForeground":             "{{ ui.accent2.mid }}",
+    "editor.findMatchBackground":             "{{ ui.accent3.dim }}{{ opacity.mid-low }}",
+    "editor.findMatchHighlightBorder":        "{{ ui.accent2.base }}",
+    "editor.findMatchHighlightForeground":    "{{ ui.accent3.mid }}",
+    "editor.findMatchHighlightBackground":    "{{ ui.accent2.dim }}{{ opacity.mid-low }}",
     "editor.findRangeHighlightBackground":    "{{ surface.sunken}}", 
     "editor.findRangeHighlightBorder":        "{{ border.none }}",
     //background selection on hover
@@ -600,13 +598,13 @@
     "editorWarning.border":                "{{ border.none }}",
     "editorHint.foreground":               "{{ ui.success.mid }}",
     "editorHint.border":                   "{{ border.none }}",
-    "editorInfo.foreground":               "{{ ui.info.mid }}",
+    "editorInfo.foreground":               "{{ ui.accent1.mid }}",
     "editorInfo.border":                   "{{ border.none }}",
     "editorInfo.background":               "{{ surface.none }}",
     /* icons in the panel view */
     "problemsErrorIcon.foreground":        "{{ ui.danger.base }}",
     "problemsWarningIcon.foreground":      "{{ ui.warning.base }}",
-    "problemsInfoIcon.foreground":         "{{ ui.info.base }}",
+    "problemsInfoIcon.foreground":         "{{ ui.accent1.base }}",
 
     "editorUnnecessaryCode.border":        "{{ border.none }}",
     "editorUnnecessaryCode.opacity":       "{{ text.base }}{{ opacity.mid }}", 
@@ -624,7 +622,7 @@
     "editorGutter.commentUnresolvedGlyphForeground": "{{ text.on-ui }}",
     "editorGutter.commentGlyphForeground":           "{{ text.on-ui }}",
     "editorGutter.commentDraftGlyphForeground":      "{{ ui.warning.base }}",
-    "editorGutter.itemGlyphForeground":              "{{ text.on-ui }}",
+    "editorGutter.itemGlyphForeground":              "{{ text.base }}",
     "editorGutter.itemBackground":                   "{{ button.secondary.bg }}",
     "editorCommentsWidget.unresolvedBorder":         "{{ ui.warning.mid }}",
     "editorCommentsWidget.resolvedBorder":           "{{ ui.success.mid }}",
@@ -764,7 +762,7 @@
     "chat.requestBubbleBackground": "{{ surface.raised.low }}",
     "chat.requestBubbleHoverBackground": "{{ surface.raised.mid }}",
     "chat.checkpointSeparator": "{{ border.dim }}",
-    "chat.thinkingShimmer":     "{{ ui.accent3.mid }}{{ opacity.mid }}",
+    "chat.thinkingShimmer":     "{{ ui.accent2.mid }}",
     "chatManagement.sashBorder": "{{ border.dim }}",
 
     "inlineChat.background":                 "{{ surface.sunken }}",
@@ -850,8 +848,8 @@
     "editorMarkerNavigationError.headerBackground":    "{{ ui.danger.mid }}{{ opacity.low }}",
     "editorMarkerNavigationWarning.background":        "{{ ui.warning.mid }}",
     "editorMarkerNavigationWarning.headerBackground":  "{{ ui.warning.mid }}{{ opacity.low }}",
-    "editorMarkerNavigationInfo.background":           "{{ ui.info.mid }}",
-    "editorMarkerNavigationInfo.headerBackground":     "{{ ui.info.mid }}{{ opacity.low }}",
+    "editorMarkerNavigationInfo.background":           "{{ ui.accent1.mid }}",
+    "editorMarkerNavigationInfo.headerBackground":     "{{ ui.accent1.mid }}{{ opacity.low }}",
 
     
     
@@ -926,7 +924,7 @@
     "debugIcon.stepIntoForeground":                    "{{ ui.accent2.base }}",
     "debugIcon.stepOutForeground":                     "{{ ui.accent2.base }}",
     "debugIcon.stepBackForeground":                    "{{ ui.accent2.base }}",
-    "debugConsole.infoForeground":                     "{{ ui.info.base }}",
+    "debugConsole.infoForeground":                     "{{ ui.accent1.base }}",
     "debugConsole.warningForeground":                  "{{ ui.warning.base }}",
     "debugConsole.errorForeground":                    "{{ ui.danger.base }}",
     "debugConsole.sourceForeground":                   "{{ ui.accent2.base }}",
@@ -957,8 +955,8 @@
     "testing.peekBorder":                         "{{ border.dim }}",
     "testing.peekHeaderBackground":               "{{ surface.none }}",
     "testing.message.error.lineBackground":       "{{ ui.danger.base }}",
-    "testing.message.info.decorationForeground":  "{{ ui.info.base }}",
-    "testing.message.info.lineBackground":        "{{ ui.info.base }}",
+    "testing.message.info.decorationForeground":  "{{ ui.accent1.base }}",
+    "testing.message.info.lineBackground":        "{{ ui.accent1.base }}",
     "testing.messagePeekBorder":                  "{{ border.dim }}",
     "testing.messagePeekHeaderBackground":        "{{ surface.none }}",
     // needs a plugin like Coverage Gutters to see the impact
@@ -1098,7 +1096,7 @@
     "notificationLink.foreground":           "{{ link.text }}",
     "notificationsErrorIcon.foreground":     "{{ ui.danger.base }}",
     "notificationsWarningIcon.foreground":   "{{ ui.warning.base }}",
-    "notificationsInfoIcon.foreground":      "{{ ui.info.base }}",
+    "notificationsInfoIcon.foreground":      "{{ ui.accent1.base }}",
 
 
     /* Banners
@@ -1268,7 +1266,7 @@
        - https://code.visualstudio.com/assets/updates/1_98/copilot-status.png
        - https://code.visualstudio.com/updates/v1_98#_copilot-status-overview-experimental
     */
-    "gauge.background":        "{{ ui.accent3.base }}",
+    "gauge.background":        "{{ ui.accent1.base }}",
     "gauge.foreground":        "{{ surface.sunken }}",
     "gauge.border":            "{{ border.none }}",
     "gauge.warningBackground": "{{ ui.warning.base }}",
@@ -1278,7 +1276,7 @@
 
 
     /* Markdown alerts (GitHub-style) .................................. */
-    "markdownAlert.note.foreground":      "{{ ui.info.base }}",
+    "markdownAlert.note.foreground":      "{{ ui.accent1.base }}",
     "markdownAlert.tip.foreground":       "{{ ui.success.base }}",
     "markdownAlert.important.foreground": "{{ ui.accent2.base }}",
     "markdownAlert.warning.foreground":   "{{ ui.warning.base }}",

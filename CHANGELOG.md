@@ -11,12 +11,39 @@ Removed
 Fixed
 Security
 
+## [2.0.0] — 2026-08-28
+
+Bikkuri steps out of the dark. After four years of dark-only themes, the collection now comes in light, too: the same five tints (coal, moss, navy, plum, warm) and the same two moods (lively, serene), rebuilt for bright rooms and bright screens. The light themes use their own palette, tuned so that syntax stays distinguishable and comfortable to read against a light background, while keeping the mood of their dark counterparts. Bikkuri is now a set of 20 themes.
+
+### Added
+- ✨ 10 new light themes:
+  - Light Coal & Lively / Light Coal & Serene
+  - Light Moss & Lively / Light Moss & Serene
+  - Light Navy & Lively / Light Navy & Serene
+  - Light Plum & Lively / Light Plum & Serene
+  - Light Warm & Lively / Light Warm & Serene
+
+### Changed
+- clearer accent across the interface: primary buttons, links, progress bars, and informational icons now share one blue accent instead of three competing hues
+- find results are easier to follow: the current match and the remaining matches are now told apart by distinct highlights, not by a border alone
+- stronger contrast for hovered and selected items in the Sidebar, Quick Input, and lists
+- input fields and the search field are easier to spot, with a defined border and a background that separates them from the surrounding surface
+- more legible Source Control Graph: brighter branch colors and readable labels on hover
+- consistent success, warning, and error icons, including the icons in the Diff editor
+
+### Maintenance
+- theme generation moved fully to JavaScript; the remaining Python step was removed
+- update dependencies to their latest versions
+- automate theme preview screenshots
+
+
 
 ## [1.1.6] — 2026-05-16
 
 ### Added
 - foreground color (violet) for matching brackets
 - new variables introduced in VS Code
+
 
 ### Maintenance
 - update dependencies to their latest versions

@@ -1,9 +1,29 @@
 const fs = require('fs');
 
+const TONE_MAP = {
+  'dark-serene': 'dim',
+  'dark-lively': 'mid',
+  'light-serene': 'mid',
+  'light-lively': 'high',
+};
+
+const COLOR_NAMES = [
+  'red',
+  'orange',
+  'tangerine',
+  'yellow',
+  'emerald',
+  'teal',
+  'blue',
+  'violet',
+  'pink',
+];
+const SHADES = ['100', '90', '80', '70', '60', '50', '40', '30', '20', '10'];
+
 function main() {
-  modes = ['dark'];
-  tints = ['coal', 'moss', 'navy', 'plum', 'warm'];
-  moods = ['serene', 'lively'];
+  const modes = ['dark', 'light'];
+  const tints = ['coal', 'moss', 'navy', 'plum', 'warm'];
+  const moods = ['serene', 'lively'];
 
   modes.forEach((mode) => {
     tints.forEach((tint) => {
@@ -43,13 +63,27 @@ function readJsonFile(filePath) {
 
 function mergeData(mode, tint, mood) {
   const tokens = readJsonFile('src/tokens/tokens.json');
+  const moodData = buildMoodData(mode, mood);
   mode = readJsonFile(`src/themes/mode/${mode}.json`);
   tint = readJsonFile(`src/themes/tint/${tint}.json`);
-  mood = readJsonFile(`src/themes/mood/${mood}.json`);
 
-  // Merge all data into one object
-  const mergedData = { ...tokens, ...mode, ...tint, ...mood };
+  const mergedData = { ...tokens, ...mode, ...tint, ...moodData };
   return mergedData;
+}
+
+function buildMoodData(mode, mood) {
+  const tone = TONE_MAP[`${mode}-${mood}`];
+  if (!tone) {
+    throw new Error(`No tone mapping for ${mode}-${mood}`);
+  }
+  const data = { 'mood-name': mood.charAt(0).toUpperCase() + mood.slice(1) };
+  for (const color of COLOR_NAMES) {
+    data[color] = {};
+    for (const shade of SHADES) {
+      data[color][shade] = `{{ color.${color}-${tone}.${shade} }}`;
+    }
+  }
+  return data;
 }
 
 function resolveReferences(obj, data) {

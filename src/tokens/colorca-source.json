@@ -1,0 +1,522 @@
+{
+  "comments": {
+    "gray-10s": "have 97 lightness (the rest is 96.2)",
+    "gray-20s": "have 91 lightness (the rest is 89.2)",
+    "gray-100s": "all have 10 lightness"
+  },
+  "palette": {
+    "items": [
+      {
+        "name": "Bikkuri theme",
+        "default": false,
+        "families": [
+          {
+            "name": "Gray Coal",
+            "hue": 0,
+            "saturation": 0,
+            "localAdjustments": [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+          },
+          {
+            "name": "Gray Warm",
+            "hue": 0,
+            "saturation": 5,
+            "localAdjustments": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              { "saturation": 7 },
+              { "saturation": 10 },
+              { "saturation": 20 }
+            ]
+          },
+          {
+            "name": "Gray Plum",
+            "hue": 280,
+            "saturation": 15,
+            "localAdjustments": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              { "saturation": 20 },
+              { "saturation": 25 },
+              { "saturation": 35 },
+              { "saturation": 50 }
+            ]
+          },
+          {
+            "name": "Gray Navy",
+            "hue": 261,
+            "saturation": 15,
+            "localAdjustments": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              { "hue": 258 },
+              { "hue": 256, "saturation": 20 },
+              { "hue": 254, "saturation": 25 },
+              { "hue": 252, "saturation": 40 }
+            ]
+          },
+          {
+            "name": "Gray Moss",
+            "hue": 90,
+            "saturation": 10,
+            "localAdjustments": [{}, {}, {}, {}, {}, {}, {}, {}, {}, { "saturation": 2 }]
+          },
+          {
+            "name": "Red High",
+            "hue": 5,
+            "saturation": 90,
+            "localAdjustments": [
+              { "saturation": 50 },
+              { "saturation": 60 },
+              { "saturation": 70 },
+              {},
+              { "saturation": 78 },
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "name": "Red Mid",
+            "hue": 5,
+            "saturation": 65,
+            "localAdjustments": [
+              { "saturation": 45 },
+              { "saturation": 55 },
+              { "saturation": 60 },
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "name": "Red Dim",
+            "hue": 5,
+            "saturation": 35,
+            "localAdjustments": [
+              { "saturation": 40 },
+              { "saturation": 45 },
+              { "saturation": 37 },
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "name": "Orange High",
+            "hue": 40,
+            "saturation": 90,
+            "localAdjustments": [
+              {},
+              {},
+              { "saturation": 87 },
+              { "saturation": 93 },
+              { "saturation": 94 },
+              { "saturation": 92 },
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "name": "Orange Mid",
+            "hue": 40,
+            "saturation": 60,
+            "localAdjustments": [
+              {},
+              {},
+              { "saturation": 64 },
+              { "saturation": 64 },
+              { "saturation": 63 },
+              { "saturation": 62 },
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "name": "Orange Dim",
+            "hue": 40,
+            "saturation": 35,
+            "localAdjustments": [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+          },
+          {
+            "name": "Tangerine High",
+            "hue": 52,
+            "saturation": 90,
+            "localAdjustments": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              { "saturation": 93 },
+              { "saturation": 92 },
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "name": "Tangerine Mid",
+            "hue": 52,
+            "saturation": 70,
+            "localAdjustments": [
+              {},
+              {},
+              {},
+              {},
+              { "saturation": 73 },
+              { "saturation": 75 },
+              { "saturation": 73 },
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "name": "Yellow High",
+            "hue": 58,
+            "saturation": 90,
+            "localAdjustments": [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+          },
+          {
+            "name": "Yellow Mid",
+            "hue": 58,
+            "saturation": 65,
+            "localAdjustments": [
+              { "hue": 52 },
+              { "hue": 52 },
+              { "hue": 52 },
+              { "hue": 52 },
+              { "hue": 54 },
+              { "hue": 54 },
+              { "hue": 56 },
+              { "saturation": 60 },
+              {},
+              {}
+            ]
+          },
+          {
+            "name": "Yellow Dim",
+            "hue": 58,
+            "saturation": 40,
+            "localAdjustments": [
+              { "hue": 52 },
+              { "hue": 52 },
+              { "hue": 52 },
+              { "hue": 52 },
+              { "hue": 54 },
+              { "hue": 54 },
+              { "hue": 56 },
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "name": "Green High",
+            "hue": 100,
+            "saturation": 90,
+            "localAdjustments": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              { "saturation": 70 },
+              { "saturation": 50 }
+            ]
+          },
+          {
+            "name": "Green Mid",
+            "hue": 100,
+            "saturation": 65,
+            "localAdjustments": [
+              { "saturation": 45 },
+              { "saturation": 55 },
+              { "saturation": 60 },
+              {},
+              {},
+              {},
+              {},
+              {},
+              { "saturation": 40 },
+              { "saturation": 35 }
+            ]
+          },
+          {
+            "name": "Green Dim",
+            "hue": 100,
+            "saturation": 35,
+            "localAdjustments": [
+              { "saturation": 40 },
+              { "saturation": 45 },
+              { "saturation": 37 },
+              {},
+              {},
+              {},
+              {},
+              {},
+              { "saturation": 25 },
+              { "saturation": 25 }
+            ]
+          },
+          {
+            "name": "Emerald High",
+            "hue": 140,
+            "saturation": 90,
+            "localAdjustments": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              { "saturation": 80 },
+              { "saturation": 65 },
+              { "saturation": 60 }
+            ]
+          },
+          {
+            "name": "Emerald Mid",
+            "hue": 140,
+            "saturation": 62,
+            "localAdjustments": [
+              { "saturation": 45 },
+              { "saturation": 55 },
+              { "saturation": 60 },
+              {},
+              {},
+              {},
+              {},
+              { "saturation": 55 },
+              { "saturation": 40 },
+              { "saturation": 35 }
+            ]
+          },
+          {
+            "name": "Emerald Dim",
+            "hue": 140,
+            "saturation": 35,
+            "localAdjustments": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              { "saturation": 30 },
+              { "saturation": 30 }
+            ]
+          },
+          {
+            "name": "Teal High",
+            "hue": 190,
+            "saturation": 90,
+            "localAdjustments": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              { "saturation": 75 },
+              { "saturation": 55 },
+              { "saturation": 45 }
+            ]
+          },
+          {
+            "name": "Teal Mid",
+            "hue": 190,
+            "saturation": 65,
+            "localAdjustments": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              { "saturation": 40 },
+              { "saturation": 35 }
+            ]
+          },
+          {
+            "name": "Teal Dim",
+            "hue": 190,
+            "saturation": 35,
+            "localAdjustments": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              { "saturation": 25 },
+              { "saturation": 25 }
+            ]
+          },
+          {
+            "name": "Blue High",
+            "hue": 240,
+            "saturation": 90,
+            "localAdjustments": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              { "saturation": 85 },
+              { "hue": 238 },
+              { "hue": 236 },
+              { "hue": 234 }
+            ]
+          },
+          {
+            "name": "Blue Mid",
+            "hue": 240,
+            "saturation": 60,
+            "localAdjustments": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              { "hue": 238 },
+              { "hue": 236 },
+              { "hue": 234 }
+            ]
+          },
+          {
+            "name": "Blue Dim",
+            "hue": 240,
+            "saturation": 35,
+            "localAdjustments": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              { "hue": 238 },
+              { "hue": 235 },
+              { "hue": 233 }
+            ]
+          },
+          {
+            "name": "Violet High",
+            "hue": 270,
+            "saturation": 90,
+            "localAdjustments": [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+          },
+          {
+            "name": "Violet Mid",
+            "hue": 270,
+            "saturation": 70,
+            "localAdjustments": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              { "saturation": 82 },
+              { "saturation": 82 },
+              { "saturation": 82 },
+              { "saturation": 80 },
+              { "saturation": 80 }
+            ]
+          },
+          {
+            "name": "Violet Dim",
+            "hue": 270,
+            "saturation": 35,
+            "localAdjustments": [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+          },
+          {
+            "name": "Pink High",
+            "hue": 330,
+            "saturation": 90,
+            "localAdjustments": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              { "saturation": 80 },
+              { "saturation": 85 },
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "name": "Pink Mid",
+            "hue": 330,
+            "saturation": 60,
+            "localAdjustments": [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+          },
+          {
+            "name": "Pink Dim",
+            "hue": 330,
+            "saturation": 38,
+            "localAdjustments": [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+          }
+        ],
+        "lightnessSteps": [10, 15.2, 24, 34.9, 46.8, 58.6, 68.9, 79.9, 91, 97],
+        "swatchNamingSettings": {
+          "swatchNamingOption": 0,
+          "swatchNamingOrder": "desc"
+        },
+        "exportSettings": { "outputFormat": "tailwind" },
+        "semanticFamilies": {
+          "neutral": 3,
+          "primary": 27,
+          "success": 18,
+          "danger": 7,
+          "info": 30,
+          "warning": 15
+        },
+        "wcagFamilies": { "bg": 4, "text": 1 }
+      }
+    ]
+  }
+}
