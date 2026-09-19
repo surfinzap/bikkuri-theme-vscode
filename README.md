@@ -81,7 +81,7 @@
 
 ## Syntax Highlighting
 
-We’ve got syntax highlighting covered for many popular languages, including `CSS`, `HTML`, `JavaScript`, `JSON`, `Markdown`, `Pug`, `Python`, `SCSS`, `Vue`.
+We’ve got syntax highlighting covered for many popular languages, including `CSS`, `HTML`, `JavaScript`, `JSON`, `Markdown`, `Pug`, `Python`, `SCSS`, `Vue` and `YAML`.
 
 If you’d like to contribute or help us improve syntax highlighting for other languages, we’d love to hear from you!
 
