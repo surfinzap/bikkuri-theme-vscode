@@ -11,7 +11,7 @@ Removed
 Fixed
 Security
 
-## [2.1.0] — 2026-09-19
+## [2.1.0] — 2026-09-22
 
 ### Added
 - YAML syntax highlighting 
