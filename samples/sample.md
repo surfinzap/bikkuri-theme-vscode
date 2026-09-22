@@ -1,3 +1,10 @@
+---
+created: 2026-08-31T19:53:06
+modified: 2026-08-31T20:00:43
+type: note
+---
+
+
 # Header 1
 
 This is some **bold text** and some *italic text* and also an `inline code` or [[link]].

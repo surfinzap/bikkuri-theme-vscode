@@ -2018,6 +2018,45 @@
         "foreground": "{{ text.dim }}"
       }
     },
+    // YAML (frontmatter) ----------------------
+    {
+      "scope": [
+        "entity.name.tag.yaml",
+      ],
+      "settings": {
+        "foreground": "{{ syntax.07.base }}",
+      }
+    },
+    {
+      "scope": [
+        "string.unquoted.plain.out.yaml",
+        "string.quoted.single.yaml",
+        "string.quoted.double.yaml",
+        "string.unquoted.block.yaml",
+        "string.unquoted.plain.in.yaml",
+      ],
+      "settings": {
+        "foreground": "{{ text.base }}",
+      }
+    },
+    {
+      "scope": [
+        "storage.type.tag-handle.yaml"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.08.base }}",
+      }
+    },
+    {
+      "scope": [
+        "constant.character.escape.yaml",
+        "keyword.control.flow.block-scalar.literal.yaml",
+        "keyword.control.flow.block-scalar.folded.yaml"
+      ],
+      "settings": {
+        "foreground": "{{ text.dim }}",
+      }
+    },
     // Mermaid -------------------------------------
     {
       "scope": [

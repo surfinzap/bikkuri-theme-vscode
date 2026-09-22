@@ -2018,6 +2018,45 @@
         "foreground": "#746b84"
       }
     },
+    // YAML (frontmatter) ----------------------
+    {
+      "scope": [
+        "entity.name.tag.yaml",
+      ],
+      "settings": {
+        "foreground": "#7053ee",
+      }
+    },
+    {
+      "scope": [
+        "string.unquoted.plain.out.yaml",
+        "string.quoted.single.yaml",
+        "string.quoted.double.yaml",
+        "string.unquoted.block.yaml",
+        "string.unquoted.plain.in.yaml",
+      ],
+      "settings": {
+        "foreground": "#282430",
+      }
+    },
+    {
+      "scope": [
+        "storage.type.tag-handle.yaml"
+      ],
+      "settings": {
+        "foreground": "#c7269a",
+      }
+    },
+    {
+      "scope": [
+        "constant.character.escape.yaml",
+        "keyword.control.flow.block-scalar.literal.yaml",
+        "keyword.control.flow.block-scalar.folded.yaml"
+      ],
+      "settings": {
+        "foreground": "#746b84",
+      }
+    },
     // Mermaid -------------------------------------
     {
       "scope": [

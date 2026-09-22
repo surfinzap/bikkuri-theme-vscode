@@ -1,0 +1,164 @@
+# This is a YAML comment
+# YAML is a human-readable data serialization format
+
+# Scalar values
+string_plain: Hello World
+string_single_quoted: 'Hello ''World'''
+string_double_quoted: "Hello \"World\""
+string_with_escapes: "Line 1\nLine 2\tTabbed"
+
+# Numeric values
+integer: 42
+float: 3.14159
+scientific: 1.2e+3
+hexadecimal: 0x1A
+octal: 0o755
+
+# Boolean values
+boolean_true: true
+boolean_false: false
+boolean_yes: yes
+boolean_no: no
+
+# Null values
+null_explicit: null
+null_implicit:
+null_tilde: ~
+
+# Multi-line strings
+literal_block: |
+  This is a literal block
+  Preserves newlines
+  Multiple lines here
+  Final line
+
+folded_block: >
+  This is a folded block
+  Lines are folded together
+  into a single line
+  unless separated by empty line
+
+# Lists - block style
+list_block:
+  - Item 1
+  - Item 2
+  - Item 3
+  - Nested:
+      - Sub item A
+      - Sub item B
+
+# Lists - flow style
+list_flow: [Item 1, Item 2, Item 3]
+
+# Maps - block style
+map_block:
+  key1: value1
+  key2: value2
+  key3: value3
+  nested_map:
+    inner_key: inner_value
+    another_key: another_value
+
+# Maps - flow style
+map_flow: { key1: value1, key2: value2, key3: value3 }
+
+# Mixed complex structures
+config:
+  database:
+    host: localhost
+    port: 5432
+    credentials:
+      username: admin
+      password: secret123
+    options:
+      - connection_pooling
+      - ssl_enabled
+      - timeout: 30
+
+  features:
+    authentication: true
+    caching: true
+    logging:
+      level: debug
+      output: stdout
+
+# Anchors and aliases
+default_settings: &default
+  timeout: 30
+  retries: 3
+  log_level: info
+
+service_a:
+  <<: *default
+  port: 8001
+
+service_b:
+  <<: *default
+  port: 8002
+
+# Reusable alias
+shared_config: &shared_config
+  version: 1.0
+  environment: production
+
+deployment:
+  primary: *shared_config
+  secondary: *shared_config
+
+# Special strings
+special_chars: "Key: value, with: colons"
+url_string: "https://example.com?query=value"
+email_string: "user@example.com"
+
+# Dates and timestamps
+date_iso: 2026-08-31
+date_iso_full: 2026-08-31T14:30:00Z
+date_implicit: 2026-08-31
+
+# Tags for type specification
+integer_as_string: !!str 123
+string_as_integer: !!int "456"
+custom_type: !!python/object:module.ClassName
+
+# Inline comments
+inline_value: 42 # This is a comment
+
+# Empty and whitespace
+empty_key:
+whitespace_preserved: "  indented text  "
+
+# Complex nested example
+application:
+  name: MyApp
+  version: 2.0.0
+  authors:
+    - name: John Doe
+      email: john@example.com
+      role: Lead Developer
+    - name: Jane Smith
+      email: jane@example.com
+      role: Contributor
+
+  modules:
+    - name: Core
+      enabled: true
+      settings:
+        debug: false
+        workers: 4
+    - name: API
+      enabled: true
+      settings:
+        port: 3000
+        cors:
+          - http://localhost:3000
+          - https://example.com
+    - name: Worker
+      enabled: false
+      settings:
+        concurrency: 2
+
+# Key with spaces and special characters
+"key with spaces": value
+'another key': value
+"key:with:colons": value
+"key@special#chars": value
